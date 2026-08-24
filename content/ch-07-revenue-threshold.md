@@ -1,11 +1,21 @@
 ---
-title: "The €750 Million Revenue Threshold"
+title:
+  en: "The €750 Million Revenue Threshold"
+  bn: "€750 Million Revenue Threshold"
 chapter: 7
 part: 2
-partTitle: "প্রয়োগ পরিধি (Scope) · Chapter 1"
+partTitle:
+  en: "Scope of Application · Chapter 1"
+  bn: "প্রয়োগ পরিধি (Scope) · Chapter 1"
 articles: "1.1"
 slug: "ch-07-revenue-threshold"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ৭ — €750 Million Revenue Threshold
 

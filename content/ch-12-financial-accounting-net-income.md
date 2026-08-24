@@ -1,11 +1,21 @@
 ---
-title: "Starting From Financial Accounting Net Income"
+title:
+  en: "Starting From Financial Accounting Net Income"
+  bn: "Financial Accounting Net Income থেকে শুরু"
 chapter: 12
 part: 3
-partTitle: "GloBE Income or Loss · Chapter 3"
+partTitle:
+  en: "GloBE Income or Loss · Chapter 3"
+  bn: "GloBE Income or Loss · Chapter 3"
 articles: "3.1"
 slug: "ch-12-financial-accounting-net-income"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ১২ — Financial Accounting Net Income থেকে শুরু
 

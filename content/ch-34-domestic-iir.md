@@ -1,11 +1,21 @@
 ---
-title: "Domestic IIR and Equalisation Adjustments"
+title:
+  en: "Domestic IIR and Equalisation Adjustments"
+  bn: "Domestic IIR ও সমতা-বিষয়ক সমন্বয়"
 chapter: 34
 part: 6
-partTitle: "কর আদায়ের নিয়ম · Chapter 2"
+partTitle:
+  en: "Tax Collection Rules · Chapter 2"
+  bn: "কর আদায়ের নিয়ম · Chapter 2"
 articles: "2.1"
 slug: "ch-34-domestic-iir"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ৩৪ — Domestic IIR ও সমতা-বিষয়ক সমন্বয়
 

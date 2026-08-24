@@ -1,11 +1,21 @@
 ---
-title: "Deferred Tax Mechanics"
+title:
+  en: "Deferred Tax Mechanics"
+  bn: "Deferred Tax মেকানিক্স"
 chapter: 21
 part: 4
-partTitle: "Adjusted Covered Taxes · Chapter 4"
+partTitle:
+  en: "Adjusted Covered Taxes · Chapter 4"
+  bn: "Adjusted Covered Taxes · Chapter 4"
 articles: "4.4"
 slug: "ch-21-deferred-tax-mechanics"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ২১ — Deferred Tax মেকানিক্স
 

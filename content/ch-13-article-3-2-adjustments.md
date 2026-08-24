@@ -1,11 +1,21 @@
 ---
-title: "The Article 3.2 Adjustments"
+title:
+  en: "The Article 3.2 Adjustments"
+  bn: "Article 3.2-এর সমন্বয়সমূহ"
 chapter: 13
 part: 3
-partTitle: "GloBE Income or Loss · Chapter 3"
+partTitle:
+  en: "GloBE Income or Loss · Chapter 3"
+  bn: "GloBE Income or Loss · Chapter 3"
 articles: "3.2"
 slug: "ch-13-article-3-2-adjustments"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ১৩ — Article 3.2-এর সমন্বয়সমূহ
 

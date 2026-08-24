@@ -4,7 +4,10 @@ import { useState } from "react";
 import Link from "next/link";
 import Sidebar from "./Sidebar";
 import ThemeToggle from "./ThemeToggle";
-import type { Manifest } from "@/lib/content";
+import LanguageToggle from "./LanguageToggle";
+import { useLanguage } from "./LanguageProvider";
+import { pick, type Manifest } from "@/lib/content";
+import { t } from "@/lib/i18n";
 
 export default function AppShell({
   manifest,
@@ -14,6 +17,7 @@ export default function AppShell({
   children: React.ReactNode;
 }) {
   const [drawerOpen, setDrawerOpen] = useState(false);
+  const { language } = useLanguage();
 
   return (
     <div className="flex min-h-screen flex-col lg:flex-row">
@@ -24,16 +28,19 @@ export default function AppShell({
         <button
           type="button"
           onClick={() => setDrawerOpen(true)}
-          aria-label="সূচিপত্র খুলুন"
+          aria-label={t("appShell", "openToc", language)}
           className="rounded-md border px-3 py-1.5 text-sm"
           style={{ borderColor: "var(--border)" }}
         >
-          ☰ সূচি
+          {t("appShell", "tocButton", language)}
         </button>
         <Link href="/" className="truncate text-sm font-semibold">
-          {manifest.title}
+          {pick(manifest.title, language)}
         </Link>
-        <ThemeToggle />
+        <div className="flex items-center gap-2">
+          <LanguageToggle />
+          <ThemeToggle />
+        </div>
       </header>
 
       {drawerOpen && (
@@ -48,11 +55,11 @@ export default function AppShell({
             style={{ background: "var(--bg)", borderRight: "1px solid var(--border)" }}
           >
             <div className="mb-3 flex items-center justify-between">
-              <span className="text-sm font-semibold">সূচিপত্র</span>
+              <span className="text-sm font-semibold">{t("appShell", "drawerTitle", language)}</span>
               <button
                 type="button"
                 onClick={() => setDrawerOpen(false)}
-                aria-label="বন্ধ করুন"
+                aria-label={t("appShell", "close", language)}
                 className="rounded-md border px-2 py-1 text-sm"
                 style={{ borderColor: "var(--border)" }}
               >
@@ -69,9 +76,10 @@ export default function AppShell({
         style={{ borderColor: "var(--border)", background: "var(--bg-elevated)" }}
       >
         <Link href="/" className="mb-4 block text-base font-bold leading-snug">
-          {manifest.title}
+          {pick(manifest.title, language)}
         </Link>
-        <div className="mb-4 hidden lg:block">
+        <div className="mb-4 hidden items-center gap-2 lg:flex">
+          <LanguageToggle />
           <ThemeToggle />
         </div>
         <Sidebar manifest={manifest} />

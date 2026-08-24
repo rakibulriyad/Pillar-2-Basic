@@ -1,8 +1,16 @@
 ---
-title: "Timeline"
+title:
+  en: "Timeline"
+  bn: "সময়রেখা"
 appendix: "F"
 slug: "app-f-timeline"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # পরিশিষ্ট F — সময়রেখা
 

@@ -1,10 +1,99 @@
 ---
-title: "The International Tax Crisis and BEPS"
+title:
+  en: "The International Tax Crisis and BEPS"
+  bn: "আন্তর্জাতিক কর ব্যবস্থার সংকট ও BEPS"
 chapter: 1
 part: 1
-partTitle: "প্রেক্ষাপট ও ভিত্তি"
+partTitle:
+  en: "Background and Foundations"
+  bn: "প্রেক্ষাপট ও ভিত্তি"
 slug: "ch-01-beps-crisis"
 ---
+
+<!-- lang:en -->
+
+# Chapter 1 — The International Tax Crisis and BEPS
+
+> **In this chapter:** how a century-old international tax framework, built for an age of factories and visible assets, broke down in the era of the digital economy and intangible assets; how competition among countries to cut tax rates (the "Race to the Bottom") eroded revenue; how the OECD and G20 jointly built the BEPS Action Plan (2013–2015); and how the limitations of that project gave rise to BEPS 2.0 and Pillar Two — whose goal is to establish a global minimum floor for corporate tax.
+
+## 1.1 A Century-Old Framework: Source vs. Residence
+
+The foundation of today's international tax system was laid in the second decade of the twentieth century, under the **League of Nations** (the predecessor organization to the United Nations). The economists of that era were looking for a solution to a fundamental problem: taxing the same income twice (double taxation) obstructs international trade and investment. The solution struck a balance between two principles — **source taxation**, the right of the country where income actually arises to tax it, and **residence taxation**, the right of the country where the taxpayer is registered to tax its worldwide income. To avoid this conflict, a framework of bilateral tax treaties emerged, which took shape in 1963 as an authoritative template known as the **OECD Model Tax Convention**.
+
+One core pillar of this system is the concept of a **Permanent Establishment** (PE). Unless a foreign company had "sufficient" physical presence in a country — a factory, an office, a construction site — that country generally could not tax its profits, because business in that era meant the presence of visible assets and workers: shipping companies, mines, textile mills. To allocate profit, the **arm's length principle** was developed — pricing internal transactions as if they occurred between two unrelated entities, so that each country receives its "fair" share.
+
+This framework remained largely intact for a century because its underlying assumption — that value is created through physical presence — held true for decades. But starting in the late twentieth century, that assumption increasingly proved wrong.
+
+## 1.2 The Digital Economy and Intangible Assets — Why the Old Rules Broke Down
+
+Starting in the 1990s, two parallel shifts in the global economy progressively made the old "source vs. residence" model unworkable.
+
+First, the source of value creation shifted from physical assets toward **intangible assets** — brands, patents, software, customer data, and especially **intellectual property (IP)**. What makes intangibles distinctive is that they can be moved from one country to another easily and at low cost — a factory cannot be relocated overnight, but ownership of a patent can be shifted in an instant through a contract. As a result, multinational groups began registering valuable IP in low-tax jurisdictions and shifting profit there by charging royalties back to market countries.
+
+Second, the rise of digital technology created business models in which a company could acquire a huge consumer base and earn substantial profit in a country without any physical presence there. For search engines, social media platforms, and e-commerce platforms, customers and their data are the true source of value creation, but because the definition of a PE requires physical presence, the country where that value arises loses its right to tax it — this is known as the "scale without mass" problem.
+
+The combined effect of these two trends created a wide gap between the right to tax and the actual place where value is created. Multinational enterprises — particularly large technology companies, once collectively nicknamed "GAFA" (Google, Apple, Facebook, Amazon) — were able to legally structure their tax affairs so that they paid little or no tax in market countries while shifting enormous profit to low-tax jurisdictions. This was not limited to the technology sector — the same logic enabled profit shifting in pharmaceuticals, consumer goods, and financial services as well. This phenomenon is known as **Base Erosion and Profit Shifting**, or **BEPS** — taxpayers using legal structures to shift taxable profit to jurisdictions where real economic activity is limited or absent.
+
+## 1.3 The "Race to the Bottom" — The Economics of Tax Competition
+
+The BEPS problem did not arise solely from the unilateral behavior of multinational enterprises — it was also the result of competition among governments themselves. Starting in the 1980s, governments began steadily cutting corporate tax rates to attract Foreign Direct Investment (FDI). This trend is known as the **"Race to the Bottom"** — when one country cuts its tax rate, rival countries are forced to cut theirs further to stay competitive, and the cycle continues.
+
+The logic runs as follows: capital is highly mobile — it can easily move from one country to another. If a single country cuts its tax rate, it may seem advantageous, but if every country does the same simultaneously, collective revenue suffers — a classic "collective action problem," where individually rational behavior produces a collectively irrational outcome.
+
+The global average statutory corporate tax rate has trended downward for decades — rates that were close to 40–50 percent in many major economies in the 1980s fell to 20–25 percent or lower in many countries by the 2020s. Alongside this, many countries introduced **preferential tax regimes**, such as "patent boxes," which tax IP income at a reduced rate.
+
+The OECD's 1998 report, "**Harmful Tax Competition: An Emerging Global Issue**," was the first to acknowledge that tax competition becomes harmful beyond a certain point, but it focused mainly on "tax havens" and opaque jurisdictions, and its impact remained limited due to the lack of any binding enforcement mechanism. Notably, economists disagree on the "Race to the Bottom" — some argue that tax competition forces governments to become more efficient (the "Race to the Top" argument) — but by the 2010s, the harmful-competition narrative dominated the political conversation.
+
+## 1.4 The BEPS Action Plan (2013–2015) and Its 15 Actions
+
+After the 2008 global financial crisis, fiscal pressure on governments intensified, and at the same time public anger grew over the "aggressive tax planning" of multinational enterprises. Against this backdrop, in 2012–13 the leaders of the **G20** directed the OECD to develop a coordinated response to the BEPS problem. In July 2013, the OECD published the "**Action Plan on Base Erosion and Profit Shifting**" — a document comprising a total of 15 Actions — and its final reports were released in October 2015.
+
+These 15 Actions can be grouped into several categories: identifying the challenges of the digital economy (Action 1, unresolved at the time); addressing incoherence — hybrid mismatches, Controlled Foreign Company (CFC) rules, and limiting interest deductions (Actions 2–4); restoring the effectiveness of existing standards — harmful tax practices, treaty abuse, and preventing artificial avoidance of PE status (Actions 5–7); ensuring transparency and substance — transfer pricing guidance, measuring economic impact, and disclosure rules (Actions 8–12); and the most influential addition, **Country-by-Country Reporting (CbCR, Action 13)** — under which multinational groups must separately disclose income, profit, tax, and headcount for every country in which they operate. Finally, strengthening dispute resolution (Action 14) and the **Multilateral Instrument (MLI, Action 15)** — through which a single instrument can simultaneously amend hundreds of bilateral tax treaties.
+
+The BEPS Action Plan is regarded as a landmark achievement in the history of international tax coordination — for the first time, over a hundred countries agreed on a common framework.
+
+## 1.5 The Limitations of BEPS and the Birth of BEPS 2.0
+
+However, some limitations of the original BEPS project were apparent from the outset. Most of its recommendations were **soft law** in nature — countries were not compelled to adopt them, resulting in significant variation in implementation. Most importantly, Action 1 failed to reach a consensus solution on taxing the digital economy — the question was deferred to the future. And BEPS focused on closing gaps in existing rules, but it did not create any minimum tax rate obligation — so, in theory, the Race to the Bottom could continue unabated, because cutting a tax rate is not itself a "BEPS behavior" but a sovereign policy choice.
+
+The lack of a solution on the digital economy question led countries such as France, the United Kingdom, India, and Italy to unilaterally enact their own **Digital Services Taxes (DST)**, which were primarily levied on specific revenue of large technology companies. These unilateral measures created trade tensions with the United States and the threat of retaliatory tariffs.
+
+Against this backdrop, in 2019 the Inclusive Framework adopted a "**Programme of Work**," which outlined a solution built around two "Pillars": **Pillar One**, the reallocation of taxing rights (giving market countries more taxing rights), and **Pillar Two**, an attempt to address the Race to the Bottom through a global minimum tax rate. This two-pillar framework is known as "**BEPS 2.0**" — a second-generation solution to the unfinished agenda of the original BEPS project.
+
+## 1.6 The Inclusive Framework — Political Consensus Among 140+ Countries
+
+The original BEPS Action Plan (2013–15) was negotiated mainly among the member countries of the OECD and the G20. But in 2016, the "**OECD/G20 Inclusive Framework on BEPS**" was established — an expanded forum in which countries that are not OECD members also gained the opportunity to participate "on an equal footing." Membership in this framework gradually grew to more than 140 countries and jurisdictions — encompassing advanced economies, emerging markets, and developing countries alike.
+
+This expansion matters, because the legitimacy of tax rules depends on broad participation — if decisions rest solely with a club of wealthy countries, developing countries will not feel bound to comply. Through the Inclusive Framework, a historic political agreement was reached in October 2021 — the "**Statement on a Two-Pillar Solution to Address the Tax Challenges Arising from the Digitalisation of the Economy**" — signed by the large majority of member jurisdictions (close to 140). This is a political commitment, on the basis of which the Model Rules were later developed. Notably, not every jurisdiction joined, and the pace of implementation has varied — political agreement and domestic legal implementation are two different things.
+
+## 1.7 The Policy Goal of Pillar Two: A Global Floor for Tax
+
+The policy goal of Pillar Two, in simple terms, is to establish a global **floor on the minimum effective tax rate** — specifically 15 percent — for large multinational groups, so that no jurisdiction has an incentive to compete by going below it. The word "floor" is chosen deliberately — this is not a "ceiling" capping the maximum rate, but a lower bound, below which, if a jurisdiction's tax rate falls, another jurisdiction gains the right to fill that gap. In this way, without banning tax competition altogether, a lower bound is placed on it, attempting a structural solution to the Race to the Bottom problem described in Section 1.3.
+
+This approach is also significant in another respect: Pillar Two does not strip any country of its sovereign right to set its own tax rate — no international framework can do that. Instead, if the effective tax rate in a jurisdiction falls below 15 percent, another jurisdiction gains the right to collect a "**top-up tax**" equal to that shortfall, which eliminates the financial incentive to shift profit to low-tax jurisdictions. How this tax is calculated and collected is discussed in the following chapters.
+
+Pillar Two is not a replacement for BEPS, but an extension of its unfinished agenda — the original BEPS project tried to close specific abusive strategies, while Pillar Two builds a structural backstop that assumes multinational groups will always find new strategies, no matter how detailed the rules become — hence the need for a minimum-rate safety net.
+
+## Summary
+
+- The international tax framework (source vs. residence, PE-based taxing rights) was built in an era of a physical-asset-dependent economy, in the 1920s under the League of Nations.
+- The digital economy and the easy mobility of intangible assets (IP, brands, data) broke the assumptions underlying the old framework — creating a gap between where value is created and where taxing rights lie, known as BEPS (Base Erosion and Profit Shifting).
+- Starting in the 1980s, the competition to cut corporate tax rates — the "Race to the Bottom" — created a structural problem of collective revenue erosion, though economists disagree on the theory.
+- At the direction of the G20, the OECD published the BEPS Action Plan in 2013–15 — a reform package of 15 Actions, notably including CbCR, the MLI, and transfer pricing reforms.
+- The original BEPS project was soft-law based, left the digital economy question unresolved, and set no minimum tax rate — leading to unilateral digital services taxes and trade tensions, which gave rise to BEPS 2.0.
+- The OECD/G20 Inclusive Framework (established 2016, 140+ jurisdictions) reached a historic political agreement on the two-pillar solution in October 2021.
+- Pillar Two's goal is to establish a global "floor" on the minimum effective tax rate (15%) — this does not strip any country of its sovereign right to set its own tax rate, but instead removes the financial incentive for low tax rates through the top-up tax mechanism.
+
+## Common Mistakes
+
+- **"BEPS just means Pillar Two"** — Wrong. BEPS (2013–15) is the original project of 15 Actions; Pillar Two is a later, separate solution born from its unfinished agenda, and is part of BEPS 2.0.
+- **"Pillar One and Pillar Two solve the same problem"** — No. Pillar One deals with the reallocation of taxing rights, Pillar Two with the minimum tax rate — the two have advanced independently and at different speeds.
+- **"The Race to the Bottom is only a problem for tax havens"** — In reality, large economies too have cut corporate tax rates for decades, not just small jurisdictions.
+- **"All 140+ members signed the agreement and are implementing it the same way"** — Not every jurisdiction joined, and political agreement and domestic legal implementation are entirely different matters.
+- **"Pillar Two came about because BEPS failed"** — An oversimplification. Many parts, such as CbCR and the MLI, were successfully implemented and are effective; the problem was only the lack of a solution on the digital economy and the minimum tax rate.
+- **"The 15% minimum rate sets a new global corporate tax rate"** — Wrong. No framework has the authority to strip a jurisdiction of its sovereign power to set its own tax rate; 15% is a "floor," below which another country may collect a top-up tax — it is not a direct imposition of a tax rate.
+
+<!-- lang:bn -->
 
 # অধ্যায় ১ — আন্তর্জাতিক কর ব্যবস্থার সংকট ও BEPS
 

@@ -1,11 +1,21 @@
 ---
-title: "Constituent Entity, Permanent Establishment, and Flow-Through Entity"
+title:
+  en: "Constituent Entity, Permanent Establishment, and Flow-Through Entity"
+  bn: "Constituent Entity · Permanent Establishment · Flow-Through Entity"
 chapter: 8
 part: 2
-partTitle: "প্রয়োগ পরিধি (Scope) · Chapter 1"
+partTitle:
+  en: "Scope of Application · Chapter 1"
+  bn: "প্রয়োগ পরিধি (Scope) · Chapter 1"
 articles: "1.3, 10.1"
 slug: "ch-08-entity-pe-flowthrough"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ৮ — Constituent Entity · Permanent Establishment · Flow-Through Entity
 

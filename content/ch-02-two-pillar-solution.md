@@ -1,10 +1,90 @@
 ---
-title: "The Two-Pillar Solution"
+title:
+  en: "The Two-Pillar Solution"
+  bn: "Two-Pillar Solution"
 chapter: 2
 part: 1
-partTitle: "প্রেক্ষাপট ও ভিত্তি"
+partTitle:
+  en: "Background and Foundations"
+  bn: "প্রেক্ষাপট ও ভিত্তি"
 slug: "ch-02-two-pillar-solution"
 ---
+
+<!-- lang:en -->
+
+# Chapter 2 — The Two-Pillar Solution
+
+> **In this chapter:** the political background to the two-pillar framework adopted in 2021 by 136 countries under the OECD/G20 to resolve the tax challenges of the digital economy, the distinct goals of the two Pillars, their relationship to one another, and the uneven progress of their implementation.
+
+In Chapter 1 we saw how the digital economy and the profit-shifting behavior of multinational corporations called into question the very foundation of the international tax system. Although the 15 Action Points of the BEPS project closed many gaps, they could not resolve two fundamental questions — when a digital business earns enormous profit in a market without any physical presence, shouldn't that market country get a share of the tax? And if multinational groups deliberately shift profit to low-tax or no-tax jurisdictions, shouldn't there be some universal minimum standard to prevent that? It was to answer these two questions that the **Two-Pillar Solution** was born.
+
+## 2.1 The October 2021 Statement and the Division into Two Pillars
+
+After lengthy negotiations, on 8 October 2021, 136 countries and jurisdictions (later growing to nearly 140) under the OECD/G20 **Inclusive Framework on BEPS** agreed to a historic political statement — commonly known as the **"October 2021 Statement."** Its title was "Statement on a Two-Pillar Solution to Address the Tax Challenges Arising from the Digitalisation of the Economy." An earlier, preliminary Statement had already appeared in July 2021, but the October version finalized the key figures on rates, thresholds, and implementation timelines. This agreement came after long hesitation from traditionally low-tax countries such as Ireland, Hungary, and Estonia, and against the backdrop of active support from the Biden administration in the United States.
+
+The core structural decision in this statement was that a single solution could not address both dimensions of the problem — two separate but complementary pillars were needed instead. The problem was split into two named pillars: **Pillar One** and **Pillar Two**. Although both pillars emerged from the same negotiating table, their objectives, mechanisms, and the groups of taxpayers they affect are entirely different. Understanding this division is a prerequisite for understanding the rest of this handbook, because the two pillars are sometimes conflated in the media and even in business discussions.
+
+Put simply: Pillar One asks "which country has the right to tax this profit?" while Pillar Two asks "how much tax, at minimum, has been paid on that profit?" The first is about reallocating taxing rights; the second is about establishing a minimum standard.
+
+## 2.2 Pillar One — Amount A and Amount B, Taxing Rights in Market Countries
+
+**Pillar One** is essentially an attempt to solve the fundamental problem of the digital economy that started this whole discussion — large multinational groups earning enormous profit from a country's market without any permanent establishment there, while under traditional international tax rules that market country has no right to tax without physical presence. Pillar One has two distinct components.
+
+The first is **Amount A** — a proposal to reallocate, according to a formula, a defined portion of the residual profit of only the largest and most profitable multinational groups (proposed threshold: €20 billion in global revenue and a profit margin above 10 percent) among market countries. This means that even without physical presence, the country where goods are sold or services consumed would gain the right to a share of tax. Implementing Amount A requires a Multilateral Convention, which has not yet been fully signed or brought into force.
+
+The second component, **Amount B**, is an entirely different kind of simplification proposal. It sets a standardised return for related entities carrying out baseline marketing and distribution activities, aiming to reduce transfer pricing disputes and provide an administratively simpler approach — considered particularly beneficial for tax administrations with limited capacity.
+
+Implementing Pillar One has proven significantly complex and politically sensitive. Member countries have not reached consensus on the final text of the multilateral convention needed to bring Amount A into force, and the U.S. position has remained in flux. As of this writing, Amount A has not actually come into effect, and its future is uncertain — an important reality that this handbook must acknowledge openly. It would be wrong for the reader to assume that Pillar One is a fully implemented system.
+
+## 2.3 Pillar Two — A 15% Minimum Tax Rate
+
+**Pillar Two** — the main subject of this handbook — is built around an entirely different goal. Its core idea is comparatively simple: large multinational groups with annual consolidated revenue above €750 million globally should pay tax at an effective tax rate of at least 15 percent in every jurisdiction. If a group's effective tax rate in a given jurisdiction falls below 15 percent, a "top-up tax" is imposed to make up the shortfall.
+
+To enforce this minimum rate, Pillar Two builds a coordinated framework of three interconnected rules — discussed in detail in later chapters: a domestic minimum tax applicable in the group's own home jurisdiction, a rule applicable in the jurisdiction of the parent entity, and a "backstop" rule that applies when no other rule applies. Together, these three rules ensure that regardless of which jurisdiction a group's profit arises in, or which jurisdiction its parent entity is located in, the minimum 15 percent tax will be imposed at some level.
+
+The technical foundation of Pillar Two is set out in detail in the OECD's published **GloBE Model Rules** (Global Anti-Base Erosion Model Rules), which form the basis for most of the chapters in this handbook. There is also a supplementary component — the Subject to Tax Rule, or **STTR** — a treaty-based minimum tax mechanism added primarily to protect the interests of developing countries. Both components are discussed in detail in the next chapter.
+
+## 2.4 The Relationship Between and Differences of the Two Pillars
+
+Although both pillars are products of the same 2021 political agreement, the differences between them need to be clearly understood.
+
+In terms of objective, Pillar One reallocates taxing rights — that is, it determines which country gets the right to tax, without changing the amount of profit. Pillar Two, by contrast, establishes a floor on the tax rate — it does not reallocate rights, but ensures that wherever tax is imposed, it does not fall below a minimum standard.
+
+The scope of affected taxpayers also differs. Pillar One (in the case of Amount A) touches only the world's largest and most profitable handful of multinational groups — limited to a few hundred groups in number. Pillar Two's threshold (€750 million) is comparatively much lower, so thousands of multinational groups fall within its scope.
+
+The methods of legal implementation also differ substantially. Implementing Amount A of Pillar One requires a multilateral convention, meant to take effect simultaneously in all signatory countries — and this centralized approach is one reason for its slow progress. Pillar Two, by contrast, is being adopted by each country individually in its own domestic law following the GloBE Model Rules — a decentralized but coordinated approach, which has been implemented comparatively quickly.
+
+An important relational point is that the two pillars were not designed as alternatives to one another, but as complements. A group could, in theory, fall within the scope of both Pillar One (if it is ever implemented) and Pillar Two, because one determines the right to tax while the other guarantees the minimum rate of that tax. In practice, however, given the uncertain future of Pillar One, it is mainly Pillar Two that is the active and applicable part of multinational groups' day-to-day compliance reality today.
+
+## 2.5 Who Is Affected — and Who Is Not
+
+The primary threshold criterion for determining who falls within the scope of Pillar Two is: the group's consolidated financial statements must show annual revenue of €750 million or more in at least two of the four preceding fiscal years. This threshold is already consistent with the one used in the Country-by-Country Reporting (CbCR) system, a figure already familiar from the BEPS project. Any multinational group exceeding this threshold — regardless of industry or business type — falls within the scope of Pillar Two in principle.
+
+Conversely, groups that fall below this threshold — that is, small and medium-sized domestic or international businesses — remain outside the direct impact of Pillar Two. In addition, certain specific entity types, such as government entities, international organizations, non-profit organizations, pension funds, and certain investment entities, are in principle treated as "Excluded Entities" — the detailed definitions and rationale for these entities are discussed in a later chapter (Part 2).
+
+An important distinction to keep in mind here is that the impact of Pillar Two is not limited to the jurisdiction where a group's headquarters is located. If even one subsidiary entity of a multinational group with revenue above €750 million operates in a low-tax jurisdiction, that single entity can trigger Pillar Two calculation and reporting obligations for the entire group globally. In other words, the threshold is tested at the group level, not at the level of an individual entity — this is discussed in detail in Part 2.
+
+A common misconception should be avoided here — Pillar Two is not a "digital tax." Although it emerged from the same context as BEPS and Pillar One, Pillar Two does not target any specific sector or type of business (such as technology or digital services companies) — it is a universal, sector-neutral minimum tax regime applicable to all multinational groups that exceed the threshold, whether in manufacturing, retail, financial services, or technology.
+
+## 2.6 Implementation Timeline and Current Status
+
+The pace of implementation of the two pillars has moved in entirely opposite directions.
+
+For Pillar Two, the OECD published the GloBE Model Rules in December 2021, followed by a steady stream of Commentary, Administrative Guidance, and Safe Harbour documents. The European Union adopted its Minimum Tax Directive in December 2022 and directed member states to transpose it into domestic law by the end of 2023. As a result, in many jurisdictions — particularly the EU, the UK, South Korea, Japan, Canada, and others — the Qualified Domestic Minimum Top-up Tax (QDMTT) and the Income Inclusion Rule (IIR) have been effectively in force since 2024, and as of this writing (2026), many groups are in the process of filing their first full-year GloBE Information Return. Implementation of the Undertaxed Profits Rule (UTPR) has begun, or is about to begin, in some countries starting the following year. In short, Pillar Two is now a real, effective, and rapidly expanding compliance reality — although the U.S.'s own position (the relationship between the GILTI regime and GloBE, and the U.S. reaction to the UTPR) remains an ongoing and politically sensitive topic, discussed in a later chapter (the United States and Pillar Two).
+
+Pillar One's pace has been entirely different. Although negotiations over the draft text of the multilateral convention required for Amount A have continued for years, the necessary number of countries have not yet signed and ratified it, and no firm date for the convention's entry into force can be confidently given. The simplified rules for Amount B have progressed comparatively further, and some countries have adopted them optionally, but this is a smaller piece relative to Amount A's core political objective. In this situation, the most honest assessment is that the future of Pillar One, particularly Amount A, remains uncertain at this time, and readers should not assume it is a stable, implemented system like Pillar Two.
+
+One practical consequence of this uneven progress is that, for today's tax policy specialists, tax departments, and financial reporting preparers, the term "Pillar Two" has effectively become the most widely used and most relevant term — and this handbook is therefore devoted entirely to the technical details of Pillar Two.
+
+## Summary
+
+In October 2021, nearly 140 countries under the OECD/G20 Inclusive Framework agreed to a Two-Pillar Solution, an attempt to address two different dimensions of the digital economy's tax challenges. Pillar One reallocates taxing rights — Amount A distributes a portion of the residual profit of the largest and most profitable groups to market countries, and Amount B simplifies returns for marketing-distribution activities — but its implementation, particularly the multilateral convention for Amount A, remains uncertain and incomplete. Pillar Two ensures a 15 percent minimum effective tax rate in every jurisdiction for multinational groups with revenue above €750 million, through three coordinated rules (domestic, parent-level, backstop), and this has become effective in practice in many jurisdictions since 2024. Although the two pillars differ in objective, affected taxpayers, and implementation approach, they were designed to complement each other. In practice, today it is Pillar Two that is the active compliance reality, while Pillar One largely remains an uncertain political project.
+
+## Common Mistakes
+
+A common misconception is treating Pillar One and Pillar Two as the same thing or a single package — many assume "Pillar Two means a new tax on digital companies," which is incorrect; Pillar Two is sector-neutral and is not specifically tied to digital businesses — that objective belongs mainly to Pillar One (Amount A), which has not yet been implemented. A second mistake is treating Pillar Two as a system that "creates new taxing rights" — in reality, Pillar Two does not give any country a new right to impose tax, but rather guarantees a minimum standard for existing tax. A third mistake is assuming Pillar One is already in effect, because some reports present the two pillars as being at the same stage of progress — in reality, Amount A has not yet come into force and its future is uncertain, whereas Pillar Two has already become part of domestic law in many countries. A fourth mistake is conflating the €750 million threshold with the revenue of an individual entity — it is determined based on the group's consolidated revenue as a whole, not the revenue of a single subsidiary entity.
+
+<!-- lang:bn -->
 
 # অধ্যায় ২ — Two-Pillar Solution
 

@@ -1,11 +1,21 @@
 ---
-title: "Top-up Tax Percentage, Excess Profit, and Jurisdictional Top-up Tax"
+title:
+  en: "Top-up Tax Percentage, Excess Profit, and Jurisdictional Top-up Tax"
+  bn: "Top-up Tax Percentage · Excess Profit · Jurisdictional Top-up Tax"
 chapter: 26
 part: 5
-partTitle: "ETR ও Top-up Tax · Chapter 5"
+partTitle:
+  en: "ETR and Top-up Tax · Chapter 5"
+  bn: "ETR ও Top-up Tax · Chapter 5"
 articles: "5.2"
 slug: "ch-26-topup-tax-percentage-excess-profit"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ২৬ — Top-up Tax Percentage · Excess Profit · Jurisdictional Top-up Tax
 

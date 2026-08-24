@@ -1,10 +1,121 @@
 ---
-title: "Key Terminology and the Overall Calculation Map"
+title:
+  en: "Key Terminology and the Overall Calculation Map"
+  bn: "মৌলিক পরিভাষা ও গণনার সামগ্রিক মানচিত্র"
 chapter: 5
 part: 1
-partTitle: "প্রেক্ষাপট ও ভিত্তি"
+partTitle:
+  en: "Background and Foundations"
+  bn: "প্রেক্ষাপট ও ভিত্তি"
 slug: "ch-05-key-terms-calculation-map"
 ---
+
+<!-- lang:en -->
+
+# Chapter 5 — Key Terminology and the Overall Calculation Map
+
+> **In this chapter:** every calculation in Pillar Two rests on a handful of core concepts — who falls within scope, which country the calculation is grouped by, who bears responsibility for filing, and how additional tax is imposed on profit sitting in a low-tax jurisdiction. In this chapter we introduce those terms together and present a ten-step map of the entire calculation process, which the rest of the book discusses step by step in detail. Keeping this map in mind will make every subsequent chapter easier to follow.
+
+## 5.1 MNE Group · Constituent Entity · Jurisdiction · Fiscal Year
+
+The Pillar Two rules first seek the answer to a question: who is the calculation about? The answer begins with the concept of an **MNE Group (Multinational Enterprise Group)**. An MNE Group refers to a group in which at least one Entity or Permanent Establishment is located in more than one jurisdiction, and whose financial results are, or should be, included in the consolidated financial statements of an Ultimate Parent Entity. In other words, the boundary of the group is drawn not merely by legal name or corporate structure, but by how consolidation actually occurs.
+
+Each member within this group is called a **Constituent Entity**. An Entity can be a company, trust, partnership, or any other legal or non-legal arrangement, as long as separate financial accounts can be prepared for it and it falls within the MNE Group's consolidation. Even a Permanent Establishment is treated as a separate Constituent Entity, because the Pillar Two calculation is not entity-based alone, but a combination of both entity and jurisdiction.
+
+This is where the third concept comes in — **Jurisdiction**. The most important feature of the Pillar Two calculation is that it is jurisdiction-based, not entity-based. If a group has ten Constituent Entities in the same country, their income, losses, and taxes are all combined to produce a single result for that one jurisdiction. We look at why this is done in detail in Section 5.3.
+
+The fourth foundation is the **Fiscal Year** — the period for which the UPE prepares its consolidated financial statements is generally treated as the applicable Fiscal Year for the entire group. Each Constituent Entity's accounting year is also treated as aligned with this same Fiscal Year, even though an entity's local accounting year may differ. Together, these four concepts — Group, Entity, Jurisdiction, and Fiscal Year — form the structure on which all remaining calculations rest.
+
+## 5.2 Ultimate Parent Entity (UPE) and Filing Entity
+
+The **Ultimate Parent Entity (UPE)** is the Entity that directly or indirectly holds a controlling interest in every other Constituent Entity, and over which no other Entity holds a controlling interest. Put simply, it is the entity sitting at the very top of the group, on the basis of whose consolidated financial statements the boundary of the entire MNE Group is determined. The UPE's jurisdiction matters, because in many cases the IIR is meant to apply first at the UPE level.
+
+In practice, however, the responsibility for filing the GIR (discussed at Step 10 in Section 5.5) does not always fall on the UPE itself. This is where the concept of the **Filing Entity** comes in — the Constituent Entity that actually prepares and files the GIR. In many cases the UPE itself is the Filing Entity, but a group may instead appoint a **Designated Filing Entity**, which files a single, centralized GIR on behalf of all other Constituent Entities — so that complete information does not have to be filed separately in every jurisdiction. This distinction matters: the UPE is a structural, control-related concept, while the Filing Entity is an administrative, compliance-related role. At the same time, a group may have multiple Intermediate Parent Entities or Partially-Owned Parent Entities, each of which may have its own IIR liability if the IIR is not applicable at the UPE level — these complexities are discussed in detail in Part 8.
+
+## 5.3 Jurisdictional Blending — Why the Calculation Is Done Country by Country
+
+One of the most important structural decisions in Pillar Two is **Jurisdictional Blending**. This means the ETR and the top-up tax are not entity-based, but are calculated by adding together the income, losses, and taxes of all Constituent Entities located in the same country. If a group has five entities in a given country, two of which are profitable and three of which are in a loss position, a single aggregate income and a single aggregate tax figure are calculated for that country and used to determine the ETR — a separate ETR is not calculated for each entity.
+
+The rationale behind this approach is fairness and practicality. If the calculation were entity-based, two entities in the same country, under the same tax rate, might show one with a high ETR and the other with a low ETR — purely due to timing differences in income and expenses, which is not meaningful from a tax-policy standpoint. Jurisdictional blending removes this kind of artificial variation and shows the true reflection of a country's overall tax policy.
+
+There is an important exception — blending does not apply under the general rule for **Investment Entities** and certain other special types of entity; a separate calculation method applies to them, discussed in Part 11. But as a general rule, "calculate country by country" is the single most important formula for understanding Pillar Two. Without keeping this concept in mind, no discussion of ETR, top-up tax, SBIE, or Safe Harbour can be properly understood, because the unit for all of these is the "jurisdiction," not the entity.
+
+## 5.4 Effective Tax Rate (ETR) and Top-up Tax — Core Concepts
+
+The **Effective Tax Rate (ETR)** is the ratio obtained by dividing the aggregate **Adjusted Covered Taxes** paid in a jurisdiction by the aggregate **GloBE Income or Loss** of that jurisdiction. This is not the ordinary statutory tax rate, but a rate calculated on the basis of specially adjusted income and tax as defined under the GloBE rules. Although the ETR formula looks simple, both the numerator and the denominator involve numerous adjustments internally — how GloBE Income is calculated is discussed in Part 3, and how Adjusted Covered Taxes are calculated is discussed in Part 4.
+
+If a jurisdiction's ETR falls below 15% — Pillar Two's minimum tax rate — the question of **Top-up Tax** arises. The top-up tax essentially fills the gap that remains between that jurisdiction's actual ETR and the 15% minimum rate. Put simply: the lower the ETR, the higher the top-up tax percentage, and that percentage is then multiplied by the jurisdiction's "Excess Profit" to determine the actual top-up tax amount in currency terms. What role "Excess Profit" and SBIE play is explored in the calculation flow in the next section.
+
+One point needs to be made clear here — both the ETR and the top-up tax are jurisdiction-level concepts, not entity-level ones, exactly as discussed in Section 5.3. Once a jurisdiction's top-up tax has been determined, how it is allocated among individual entities and which mechanism (QDMTT, IIR, or UTPR) is used to collect it is an entirely separate question — this is discussed at Step 9 of the calculation flow in the next section.
+
+## 5.5 The Entire Calculation Flow, at a Glance
+
+The entire Pillar Two calculation process can be summarized in ten steps. The flow below determines the structure of the rest of this book — each step is discussed in detail in a separate Part.
+
+```
+Step 1  — Scope check (€750M threshold)
+Step 2  — Determine Constituent Entities and their jurisdictions
+Step 3  — Safe Harbour check (calculation stops if passed)
+Step 4  — Each Entity's GloBE Income or Loss (Chapter 3)
+Step 5  — Each Entity's Adjusted Covered Taxes (Chapter 4)
+Step 6  — Jurisdiction-level ETR (Chapter 5)
+Step 7  — Top-up Tax % and Excess Profit → Top-up Tax
+Step 8  — SBIE and De Minimis relief
+Step 9  — Collection in the order QDMTT → IIR → UTPR
+Step 10 — GIR filing and local returns
+```
+
+**Step 1 — Scope check.** First, it is checked whether the MNE Group's consolidated revenue reached the **€750 million** threshold in at least two of the four preceding Fiscal Years. If this threshold is not exceeded, the group falls entirely outside the scope of Pillar Two. Detailed discussion of this step can be found in Part 2.
+
+**Step 2 — Determine Entities and jurisdictions.** If the group is within scope, every Constituent Entity of the group must be identified, and the correct jurisdiction for each must be determined — generally on the basis of tax residency, though special rules apply in exceptional cases such as a Permanent Establishment or a stateless entity. Sections 5.1–5.3 of this chapter build the foundation for this step; detailed rules for complex corporate structures can be found in Part 11.
+
+**Step 3 — Safe Harbour check.** In this step, it is checked whether a jurisdiction meets the conditions of the Transitional CbCR Safe Harbour or some other Safe Harbour. If the conditions are met, the top-up tax for that jurisdiction can be treated as zero and a detailed ETR/top-up tax calculation is not needed — this significantly reduces the compliance burden in many cases. This process is discussed in detail in Part 10.
+
+**Step 4 — GloBE Income or Loss.** For jurisdictions that do not pass a Safe Harbour, the GloBE Income or Loss of each Constituent Entity there must be determined, starting from its net income/loss under financial accounting and applying the required adjustments. These adjustments are discussed in detail in Part 3.
+
+**Step 5 — Adjusted Covered Taxes.** In parallel, the Adjusted Covered Taxes of each entity must be determined based on its current tax expense and specified deferred tax adjustments. The rules for this calculation are discussed in Part 4.
+
+**Step 6 — Jurisdiction-level ETR.** The results of Steps 4 and 5 are blended at the jurisdiction level to determine the ETR, as explained in Section 5.4. The detailed methodology can be found in Part 5.
+
+**Step 7 — Top-up Tax % and Excess Profit.** The top-up tax percentage is determined by subtracting the actual ETR from 15%, and this is multiplied by the jurisdiction's Excess Profit (net income after subtracting the SBIE) to determine the jurisdiction's overall top-up tax. This too is discussed in detail in Part 5.
+
+**Step 8 — SBIE and De Minimis.** The **Substance-Based Income Exclusion (SBIE)** removes a portion of payroll expense and tangible assets from the top-up tax calculation, so that jurisdictions with genuine economic activity receive partial relief. In addition, the **De Minimis Exclusion** can exempt jurisdictions with small revenue and income entirely from the calculation. Both concepts are discussed in detail in Part 6.
+
+**Step 9 — The QDMTT → IIR → UTPR order.** Once a jurisdiction's top-up tax has been determined, a specific order is followed to collect it. First, it is checked whether that jurisdiction has a **QDMTT (Qualified Domestic Minimum Top-up Tax)**; if it does, that is collected first and reduces the liability under other mechanisms. Next, the **IIR (Income Inclusion Rule)** applies, generally at the level of the UPE or another Parent Entity's jurisdiction. Finally, whatever remains is collected through the **UTPR (Undertaxed Profits Rule)**, distributed among the group's other jurisdictions. These three mechanisms are discussed exhaustively in Part 7, Part 8, and Part 9 respectively.
+
+**Step 10 — GIR filing and local returns.** Finally, the results of the entire calculation must be filed with the relevant tax administrations through a **GloBE Information Return (GIR)**, and, where required, local returns must also be filed in the relevant jurisdictions. This compliance process is discussed in detail in Part 12.
+
+## 5.6 The Three Durations of an Election: One-Time · Five-Year · Annual
+
+In many places, the Pillar Two rules give a group the option to choose a specific treatment, known as an **Election**. These Elections can have one of three durations, and remembering which duration applies to a given Election is critically important for compliance planning.
+
+A **One-Time Election** is a decision that, once made, cannot be revoked in the future, or cannot be made again for a specified long period after revocation. This type of Election generally applies to fundamental structural matters, because changing them repeatedly could undermine the consistency of the calculation.
+
+A **Five-Year Election**, once made, remains in effect for at least five Fiscal Years, and then automatically renews unless the group explicitly revokes it. This duration is suited to matters where stability is desired, but not made entirely irrevocable — such as decisions relating to certain specific adjustment methods.
+
+An **Annual Election** is made separately for each Fiscal Year and can be renewed or changed with each GIR filing. This type of Election generally applies to matters where circumstances may change from year to year, and the group needs the flexibility to adjust accordingly.
+
+The reason for remembering these three durations separately is that a mistaken Election does not affect just one year — it can determine a group's tax liability for five years or more. Every Election discussed in the chapters that follow will clearly note its duration, so the reader can understand the long-term impact of each decision.
+
+## 5.7 A Roadmap for the Rest of the Book
+
+The rest of the book is organized around the map discussed in this chapter. **Part 2** discusses the details of the scope and threshold test — how consolidated revenue is measured, which entities are excluded, and what happens for newly formed or demerged groups. **Part 3** explains the full methodology for calculating GloBE Income or Loss, from financial accounts through every required adjustment. **Part 4** discusses the rules for determining Adjusted Covered Taxes, including deferred tax adjustments.
+
+**Part 5** explains the ETR calculation, and the formulas for the top-up tax percentage and Excess Profit, in detail with examples. **Part 6** discusses the application of the SBIE and the De Minimis Exclusion. Then **Parts 7, 8, and 9** go in depth, separately, into the three collection mechanisms — QDMTT, IIR, and UTPR — because each has its own order of application, rules for determining the liable entity, and calculation methodology.
+
+**Part 10** discusses the various Safe Harbours and transitional provisions, which reduce the compliance burden for many groups in the early years. **Part 11** discusses special corporate structures and situations — such as mergers and acquisitions, joint ventures, investment entities, flow-through entities, and minority-owned constituent entities — where exceptions to the general rules apply. Finally, **Part 12** closes the book with compliance, the GIR filing process, the practical application of Elections, and administrative guidance.
+
+Following this roadmap, the reader will notice that each Part is really an in-depth analysis of one or more steps of the ten-step flow above — not a new structure. The map in this chapter can be used as a reference to return to repeatedly, particularly when there is a risk of losing the overall context amid the complex detail of a later chapter.
+
+## Summary
+
+In this chapter we introduced the fundamental terminology needed to understand Pillar Two — starting with MNE Group, Constituent Entity, Jurisdiction, and Fiscal Year, the distinction between the UPE and the Filing Entity, and the core rationale for Jurisdictional Blending. We then explained the core concepts of ETR and top-up tax and organized the entire calculation process into ten steps — from the scope check through to GIR filing. Finally, we saw the three durations of an Election — One-Time, Five-Year, and Annual — and a roadmap of what will be discussed from Part 2 through Part 12 of the book. The ten-step flow in this chapter is the structural foundation of the entire book — every remaining chapter is a detailed elaboration of one step or another of this map.
+
+## Common Mistakes
+
+A common mistake is to think of the Pillar Two calculation as entity-based, when in fact the ETR and top-up tax are jurisdiction-based — these figures must be derived by blending the results of all Constituent Entities in the same country. Another mistake is treating the UPE and the Filing Entity as the same concept; the UPE is a control-related concept, while the Filing Entity is an administrative role, and the two can be different entities. Many mistakenly treat a Safe Harbour as a complete exemption from calculation, when it is in fact a conditional opportunity to avoid a detailed calculation for a specific year, not a permanent exemption. Treating the SBIE and the De Minimis Exclusion as the same concept is also a common confusion — one excludes income on the basis of genuine activity, while the other exempts a small jurisdiction entirely. Finally, making a decision without checking the duration of an Election (One-Time, Five-Year, or Annual) is a risky mistake, because the impact of a wrong decision can last for many years.
+
+<!-- lang:bn -->
 
 # অধ্যায় ৫ — মৌলিক পরিভাষা ও গণনার সামগ্রিক মানচিত্র
 

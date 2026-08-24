@@ -1,11 +1,21 @@
 ---
-title: "IIR (Income Inclusion Rule)"
+title:
+  en: "IIR (Income Inclusion Rule)"
+  bn: "IIR (Income Inclusion Rule)"
 chapter: 33
 part: 6
-partTitle: "কর আদায়ের নিয়ম · Chapter 2"
+partTitle:
+  en: "Tax Collection Rules · Chapter 2"
+  bn: "কর আদায়ের নিয়ম · Chapter 2"
 articles: "2.1–2.3"
 slug: "ch-33-iir"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ৩৩ — IIR (Income Inclusion Rule)
 

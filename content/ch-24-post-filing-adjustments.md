@@ -1,11 +1,21 @@
 ---
-title: "Post-Filing Adjustments and Tax Rate Changes"
+title:
+  en: "Post-Filing Adjustments and Tax Rate Changes"
+  bn: "Post-filing সমন্বয় ও কর হার পরিবর্তন"
 chapter: 24
 part: 4
-partTitle: "Adjusted Covered Taxes · Chapter 4"
+partTitle:
+  en: "Adjusted Covered Taxes · Chapter 4"
+  bn: "Adjusted Covered Taxes · Chapter 4"
 articles: "4.6"
 slug: "ch-24-post-filing-adjustments"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ২৪ — Post-filing সমন্বয় ও কর হার পরিবর্তন
 

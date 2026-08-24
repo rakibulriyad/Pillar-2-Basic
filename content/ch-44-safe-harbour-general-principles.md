@@ -1,11 +1,21 @@
 ---
-title: "General Principles of the Safe Harbour Framework"
+title:
+  en: "General Principles of the Safe Harbour Framework"
+  bn: "Safe Harbour কাঠামোর সাধারণ নীতি"
 chapter: 44
 part: 9
-partTitle: "Safe Harbours ও Transition · Chapters 8 ও 9"
+partTitle:
+  en: "Safe Harbours and Transition · Chapters 8 and 9"
+  bn: "Safe Harbours ও Transition · Chapters 8 ও 9"
 articles: "8.2"
 slug: "ch-44-safe-harbour-general-principles"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ৪৪ — Safe Harbour কাঠামোর সাধারণ নীতি
 

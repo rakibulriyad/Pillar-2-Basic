@@ -1,11 +1,21 @@
 ---
-title: "Income Allocation for Flow-Through Entities"
+title:
+  en: "Income Allocation for Flow-Through Entities"
+  bn: "Flow-Through Entity-র আয় বণ্টন"
 chapter: 17
 part: 3
-partTitle: "GloBE Income or Loss · Chapter 3"
+partTitle:
+  en: "GloBE Income or Loss · Chapter 3"
+  bn: "GloBE Income or Loss · Chapter 3"
 articles: "3.5"
 slug: "ch-17-flow-through-allocation"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ১৭ — Flow-Through Entity-র আয় বণ্টন
 

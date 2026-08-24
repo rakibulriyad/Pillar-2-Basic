@@ -1,11 +1,21 @@
 ---
-title: "Jurisdictional Blending and the Effective Tax Rate"
+title:
+  en: "Jurisdictional Blending and the Effective Tax Rate"
+  bn: "Jurisdictional Blending ও Effective Tax Rate"
 chapter: 25
 part: 5
-partTitle: "ETR ও Top-up Tax · Chapter 5"
+partTitle:
+  en: "ETR and Top-up Tax · Chapter 5"
+  bn: "ETR ও Top-up Tax · Chapter 5"
 articles: "5.1"
 slug: "ch-25-jurisdictional-blending-etr"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ২৫ — Jurisdictional Blending ও Effective Tax Rate
 

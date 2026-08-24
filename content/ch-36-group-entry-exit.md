@@ -1,11 +1,21 @@
 ---
-title: "Entry Into and Exit From an MNE Group"
+title:
+  en: "Entry Into and Exit From an MNE Group"
+  bn: "MNE Group-এ প্রবেশ ও প্রস্থান"
 chapter: 36
 part: 7
-partTitle: "পুনর্গঠন, বিশেষ কাঠামো ও কর-নিরপেক্ষতা · Chapters 6 ও 7"
+partTitle:
+  en: "Reorganizations, Special Structures, and Tax Neutrality · Chapters 6 and 7"
+  bn: "পুনর্গঠন, বিশেষ কাঠামো ও কর-নিরপেক্ষতা · Chapters 6 ও 7"
 articles: "6.1, 6.2"
 slug: "ch-36-group-entry-exit"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ৩৬ — MNE Group-এ প্রবেশ ও প্রস্থান
 

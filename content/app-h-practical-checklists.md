@@ -1,8 +1,16 @@
 ---
-title: "Practical Checklists"
+title:
+  en: "Practical Checklists"
+  bn: "ব্যবহারিক চেকলিস্ট"
 appendix: "H"
 slug: "app-h-practical-checklists"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # পরিশিষ্ট H — ব্যবহারিক চেকলিস্ট
 

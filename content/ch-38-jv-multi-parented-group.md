@@ -1,11 +1,21 @@
 ---
-title: "Joint Ventures and Multi-Parented MNE Groups"
+title:
+  en: "Joint Ventures and Multi-Parented MNE Groups"
+  bn: "Joint Venture ও Multi-Parented MNE Group"
 chapter: 38
 part: 7
-partTitle: "পুনর্গঠন, বিশেষ কাঠামো ও কর-নিরপেক্ষতা · Chapters 6 ও 7"
+partTitle:
+  en: "Reorganizations, Special Structures, and Tax Neutrality · Chapters 6 and 7"
+  bn: "পুনর্গঠন, বিশেষ কাঠামো ও কর-নিরপেক্ষতা · Chapters 6 ও 7"
 articles: "6.4, 6.5"
 slug: "ch-38-jv-multi-parented-group"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ৩৮ — Joint Venture ও Multi-Parented MNE Group
 

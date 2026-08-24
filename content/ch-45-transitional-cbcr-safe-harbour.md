@@ -1,10 +1,20 @@
 ---
-title: "The Transitional CbCR Safe Harbour"
+title:
+  en: "The Transitional CbCR Safe Harbour"
+  bn: "Transitional CbCR Safe Harbour"
 chapter: 45
 part: 9
-partTitle: "Safe Harbours ও Transition · Chapters 8 ও 9"
+partTitle:
+  en: "Safe Harbours and Transition · Chapters 8 and 9"
+  bn: "Safe Harbours ও Transition · Chapters 8 ও 9"
 slug: "ch-45-transitional-cbcr-safe-harbour"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ৪৫ — Transitional CbCR Safe Harbour
 

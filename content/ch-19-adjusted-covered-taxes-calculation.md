@@ -1,11 +1,21 @@
 ---
-title: "Calculating Adjusted Covered Taxes"
+title:
+  en: "Calculating Adjusted Covered Taxes"
+  bn: "Adjusted Covered Taxes গণনা"
 chapter: 19
 part: 4
-partTitle: "Adjusted Covered Taxes · Chapter 4"
+partTitle:
+  en: "Adjusted Covered Taxes · Chapter 4"
+  bn: "Adjusted Covered Taxes · Chapter 4"
 articles: "4.1"
 slug: "ch-19-adjusted-covered-taxes-calculation"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ১৯ — Adjusted Covered Taxes গণনা
 

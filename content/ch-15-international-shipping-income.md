@@ -1,11 +1,21 @@
 ---
-title: "International Shipping Income"
+title:
+  en: "International Shipping Income"
+  bn: "International Shipping Income"
 chapter: 15
 part: 3
-partTitle: "GloBE Income or Loss · Chapter 3"
+partTitle:
+  en: "GloBE Income or Loss · Chapter 3"
+  bn: "GloBE Income or Loss · Chapter 3"
 articles: "3.3"
 slug: "ch-15-international-shipping-income"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ১৫ — International Shipping Income
 

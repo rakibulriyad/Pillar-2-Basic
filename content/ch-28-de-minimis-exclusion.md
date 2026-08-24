@@ -1,11 +1,21 @@
 ---
-title: "The De Minimis Exclusion"
+title:
+  en: "The De Minimis Exclusion"
+  bn: "De Minimis Exclusion"
 chapter: 28
 part: 5
-partTitle: "ETR ও Top-up Tax · Chapter 5"
+partTitle:
+  en: "ETR and Top-up Tax · Chapter 5"
+  bn: "ETR ও Top-up Tax · Chapter 5"
 articles: "5.5"
 slug: "ch-28-de-minimis-exclusion"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ২৮ — De Minimis Exclusion
 

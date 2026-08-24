@@ -1,8 +1,16 @@
 ---
-title: "Rates and Thresholds Table"
+title:
+  en: "Rates and Thresholds Table"
+  bn: "হার ও থ্রেশহোল্ড টেবিল"
 appendix: "D"
 slug: "app-d-rates-thresholds"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # পরিশিষ্ট D — হার ও থ্রেশহোল্ড টেবিল
 

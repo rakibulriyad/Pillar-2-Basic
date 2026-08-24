@@ -1,10 +1,20 @@
 ---
-title: "The EU Minimum Tax Directive"
+title:
+  en: "The EU Minimum Tax Directive"
+  bn: "EU Minimum Tax Directive"
 chapter: 59
 part: 12
-partTitle: "জুরিসডিকশন পর্যালোচনা"
+partTitle:
+  en: "Jurisdiction Review"
+  bn: "জুরিসডিকশন পর্যালোচনা"
 slug: "ch-59-eu-minimum-tax-directive"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ৫৯ — EU Minimum Tax Directive
 

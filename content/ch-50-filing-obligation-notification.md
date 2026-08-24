@@ -1,11 +1,21 @@
 ---
-title: "Filing Obligations, Notification, and Deadlines"
+title:
+  en: "Filing Obligations, Notification, and Deadlines"
+  bn: "দাখিলের বাধ্যবাধকতা · Notification · সময়সীমা"
 chapter: 50
 part: 10
-partTitle: "Compliance, GIR ও Self-Assessment · Chapter 8"
+partTitle:
+  en: "Compliance, GIR, and Self-Assessment · Chapter 8"
+  bn: "Compliance, GIR ও Self-Assessment · Chapter 8"
 articles: "8.1"
 slug: "ch-50-filing-obligation-notification"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ৫০ — দাখিলের বাধ্যবাধকতা · Notification · সময়সীমা
 

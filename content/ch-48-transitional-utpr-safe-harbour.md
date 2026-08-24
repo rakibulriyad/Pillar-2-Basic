@@ -1,10 +1,20 @@
 ---
-title: "The Transitional UTPR Safe Harbour"
+title:
+  en: "The Transitional UTPR Safe Harbour"
+  bn: "Transitional UTPR Safe Harbour"
 chapter: 48
 part: 9
-partTitle: "Safe Harbours ও Transition · Chapters 8 ও 9"
+partTitle:
+  en: "Safe Harbours and Transition · Chapters 8 and 9"
+  bn: "Safe Harbours ও Transition · Chapters 8 ও 9"
 slug: "ch-48-transitional-utpr-safe-harbour"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ৪৮ — Transitional UTPR Safe Harbour
 

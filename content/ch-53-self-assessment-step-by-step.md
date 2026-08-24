@@ -1,10 +1,20 @@
 ---
-title: "Self-Assessment: A Step-by-Step Methodology"
+title:
+  en: "Self-Assessment: A Step-by-Step Methodology"
+  bn: "Self-Assessment: ধাপে ধাপে পদ্ধতি"
 chapter: 53
 part: 10
-partTitle: "Compliance, GIR ও Self-Assessment · Chapter 8"
+partTitle:
+  en: "Compliance, GIR, and Self-Assessment · Chapter 8"
+  bn: "Compliance, GIR ও Self-Assessment · Chapter 8"
 slug: "ch-53-self-assessment-step-by-step"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ৫৩ — Self-Assessment: ধাপে ধাপে পদ্ধতি
 

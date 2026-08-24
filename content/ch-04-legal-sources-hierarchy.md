@@ -1,10 +1,94 @@
 ---
-title: "Legal Sources and Their Hierarchy"
+title:
+  en: "Legal Sources and Their Hierarchy"
+  bn: "আইনি উৎস ও তাদের ক্রমমর্যাদা"
 chapter: 4
 part: 1
-partTitle: "প্রেক্ষাপট ও ভিত্তি"
+partTitle:
+  en: "Background and Foundations"
+  bn: "প্রেক্ষাপট ও ভিত্তি"
 slug: "ch-04-legal-sources-hierarchy"
 ---
+
+<!-- lang:en -->
+
+# Chapter 4 — Legal Sources and Their Hierarchy
+
+> **In this chapter:** Pillar Two is not a single piece of legislation, but a collection of documents spread across multiple layers — the **Model Rules**, the **Commentary**, periodic **Administrative Guidance**, numerical **Agreed Examples**, each country's domestic law, and tax treaties and the **Multilateral Instrument**. This chapter shows what each source does, which one actually creates tax liability, and which one takes priority when they conflict.
+
+## 4.1 Model Rules — The Structural Backbone
+
+The most foundational document of Pillar Two is the **Model Rules**, in full the *Global Anti-Base Erosion Model Rules* — the **GloBE Model Rules** for short. These were published in December 2021 by the OECD/G20 Inclusive Framework on BEPS. This document defines the core structural components of the GloBE system — who it applies to (scope), how the **Effective Tax Rate** (ETR) is calculated, what counts as **GloBE Income** and **Covered Taxes** in the calculation, and how the two main procedural instruments — the **Income Inclusion Rule** (IIR) and the **Undertaxed Profits Rule** (UTPR) — operate.
+
+It is important to understand here that the Model Rules themselves are not directly applicable law in any country. They are a template or blueprint, which each participating country transposes into domestic law through its own parliamentary process. Even so, they are called the "structural backbone" because the provision structure, definitions, and calculation methodology of the enacted law in nearly every country are, in essence, an almost literal translation of the Model Rules. For example, the concept of the **Qualified Domestic Minimum Top-up Tax** (QDMTT) is itself defined within the Model Rules, even though its actual application is country-specific. For a practitioner, the Model Rules are the "grammar book" — this is where understanding of terminology, calculation logic, and overall design begins, but they do not themselves create a direct obligation on any taxpayer.
+
+## 4.2 Commentary — The Authoritative Source of Interpretation
+
+A few months after the Model Rules were published, in March 2022 the OECD published a detailed **Commentary**, which explains the intent, rationale, and application method of almost every paragraph of the Model Rules. The purpose of the Commentary is to ensure consistent interpretation across all participating countries, so that the same rule is not read differently in different countries.
+
+The nature of this document is comparable to the Commentary on the OECD Model Tax Convention. It is not itself the law of any country and is not directly binding in any court, but in practice national tax administrations and courts treat it as "persuasive authority," because it is the product of consensus among the very same members of the Inclusive Framework who created the original rules. Since the language of the Model Rules is often terse and technical, in practice one must return to the Commentary to find the answer to almost every complex question. Later, particularly after 2023, much of the Administrative Guidance has gradually been incorporated into a consolidated Commentary edition, so that practitioners can go to a single unified source instead of searching through multiple scattered documents.
+
+## 4.3 Administrative Guidance — Ongoing Amendments and Additions
+
+Even after the publication of the Model Rules and the Commentary, numerous practical questions and ambiguities continue to arise in actual application — such as currency conversion, the scope of application of the transitional safe harbour, techniques for adjusting deferred tax, or the safe harbour status of the QDMTT. To close these gaps, the Inclusive Framework has continued to publish **Administrative Guidance** in successive rounds. Five rounds have been published so far — February 2023, July 2023, December 2023, June 2024, and January 2025.
+
+Each round has generally added explanations of new questions, amendments to previous decisions, and sometimes entirely new safe harbours or procedural simplifications. For instance, the early rounds provided guidance on the Transitional CbCR Safe Harbour (a temporary safe harbour based on Country-by-Country Reporting), while later rounds provided direction on the QDMTT safe harbour and the interaction of GloBE with various tax regimes (such as coexistence with the U.S. GILTI regime). Every piece of Guidance is approved on the basis of collective consensus among members of the Inclusive Framework, so it is, like the Model Rules, a multilaterally agreed interpretation — though it continues to be added "layer by layer" according to its date of publication.
+
+Because of this ongoing nature, Pillar Two is often called a "living document" — its interpretation is not fixed but continues to evolve over time. The practical implication for a practitioner is: you cannot read the answer to a specific question once and consider it settled forever; it must be checked whether that answer has since been changed or refined in a later round.
+
+## 4.4 Agreed Examples and Illustrations
+
+The abstract language of the rules often gives rise to differing interpretations when applied to actual numbers. To reduce this problem, the Inclusive Framework has published numerical illustrations known as **Agreed Examples**, which show step by step how the ETR, the top-up tax, or some other calculation would work out in a specific scenario.
+
+These examples are not themselves an independent legal source; they are essentially numerical illustrations of what the Commentary or Administrative Guidance describes in words. But their practical value for practitioners is very high, because after reading a complex definition, the easiest way to understand how it plays out in an actual calculation is to find an equivalent Agreed Example. Since these examples are also published with the consensus of the Inclusive Framework, they can be treated as persuasive — although they are not the legal document of any specific country, and every real fact pattern will not exactly match an example.
+
+## 4.5 Domestic Law — Where Actual Liability Arises
+
+The most important message of this chapter is this: none of the Model Rules, the Commentary, the Administrative Guidance, or the Agreed Examples, on its own, creates a direct tax liability for any taxpayer entity. Actual legal liability arises only when a country's parliament or legislature transposes these rules into its own **domestic legislation** and that legislation comes into force.
+
+Although every country follows the same template in this transposition process, some differences can remain in practice — minor variations in terminology, differences in administrative procedure, or in some cases deliberate additions. This is precisely why the Inclusive Framework has established a peer review process, through which it is verified whether a country's law will receive "Qualified" status — that is, whether it is sufficiently consistent with the Model Rules. If a country's IIR or QDMTT does not receive "Qualified" status, other countries are not obligated to grant it that recognition, which can create the risk of double counting or additional complexity for multinational groups.
+
+The practical consequence is clear: when determining tax liability in a specific jurisdiction, one should never reach a conclusion simply by reading the Model Rules or the Commentary. In every case, the actual enacted statute of that country must be read, because that is where the real basis of tax liability lies. The OECD's documents merely provide explanation and context in this regard.
+
+## 4.6 Tax Treaties and the Multilateral Instrument
+
+The Pillar Two framework operates largely at an independent layer, one that does not directly replace the traditional bilateral tax treaty system. But interaction between the two systems is inevitable. According to the OECD's published position, the GloBE rules — that is, the IIR and the UTPR — are generally considered treaty-consistent with existing tax treaties, although disagreement and academic discussion on this question continue.
+
+One specific component of Pillar Two — the **Subject to Tax Rule** (STTR) — operates directly at the treaty level. It becomes applicable primarily through amendment of bilateral treaties between the relevant states, or through signature of a proposed **Multilateral Instrument** (MLI), whose text was published in 2023. The purpose of this MLI is to create an opportunity to add the STTR to multiple countries' existing bilateral treaties at once, so that each treaty does not need to be renegotiated separately.
+
+The relationship between the treaty layer and domestic minimum tax also matters. For example, how a non-discrimination article or the definition of a Permanent Establishment affects the GloBE calculation needs to be examined separately in the context of each bilateral relationship. This layer is often overlooked by practitioners, because Pillar Two is generally viewed as a "new, independent" system — but completely ignoring the treaty-level impact is risky.
+
+## 4.7 Which Source Takes Priority in a Conflict
+
+With so many layers of sources, conflict is inevitable. The practical hierarchy can be understood as follows.
+
+First, **from the perspective of legal obligation**, only domestic enacted law is directly binding and creates tax liability. Even if this law says something different from the Model Rules or the Commentary on a given point, it is the language of that local law that applies to a taxpayer in that country. Second, **from the perspective of interpretive hierarchy**, Administrative Guidance is generally more recent and more specific than the Commentary, because it is created later to resolve practical questions that arise afterward; so if an inconsistency is found between the Commentary and a later Guidance on a given point, the more recent Guidance is generally given priority, until it is incorporated into a consolidated Commentary. The Model Rules themselves are the most general-level document, whose interpretation is determined by the Commentary and the Guidance.
+
+However, this interpretive hierarchy is not equivalent to legal obligation. If a country's domestic law departs from the Model Rules or the Guidance on some point, that law still remains in force — but the consequence may be that the relevant rule of that country loses its "Qualified" status, which is determined through the peer review process discussed earlier. In cases of conflict between a treaty and domestic law, the outcome depends on each country's constitutional framework — in some countries, a treaty takes precedence over domestic law; in others, parliamentary law has the final word. For this reason, Pillar Two was consciously designed to try to avoid conflict between the GloBE rules and treaties, but this assurance is not universal.
+
+The practical rule for a practitioner is: always start from the language of the enacted law of the relevant country, then read the consolidated Commentary and the latest Administrative Guidance for the interpretation of that law, and where there is a treaty-related issue, separately examine the relevant treaty article and, where applicable, the position of the Multilateral Instrument.
+
+## 4.8 A Practical Strategy for Keeping Documentation Current
+
+Since Administrative Guidance is published in successive rounds and is periodically consolidated into the Commentary, it becomes important to know "how long ago" the answer to a specific question was read. A few habits are useful for practical work.
+
+First, for every decision, it is worth recording which source and which date it was based on — for example, "the decision on the QDMTT safe harbour was made on the basis of the December 2023 Administrative Guidance." This makes it easy to identify which decisions need to be reconsidered whenever a new round is published.
+
+Second, it is useful to maintain an internal cross-reference list — a simple table showing which OECD document, which version or date, is linked to which provision of which country's law. This makes it easy, in the case of a multi-country group, to compare how far the law of various jurisdictions reflects the latest round of Guidance.
+
+Third, the distinction between "consolidated" versions and "standalone" round-based documents needs to be kept clear. The answer to a given question might still be located in an older Guidance round that has not yet been consolidated, and has not yet been reflected in the consolidated Commentary — this kind of gap should be checked regularly.
+
+Fourth, official announcements and consultation notices from the Inclusive Framework should be followed regularly, because the possibility of further rounds in the future remains open. Most importantly, the primary verification touchpoint for any decision should be the OECD's own published original document, not a third-party summary.
+
+## Summary
+
+Pillar Two is a multi-layered legal edifice: the Model Rules provide the structure, the Commentary provides interpretation, the five rounds of Administrative Guidance (Feb 2023, July 2023, Dec 2023, June 2024, Jan 2025) continually fill gaps, and the Agreed Examples translate abstract rules into numbers. But actual tax liability arises only in each country's domestic enacted law, which receives — or does not receive — "Qualified" status through the peer review process. Tax treaties and the Multilateral Instrument form a separate but interconnected layer, particularly in the case of the STTR. In case of conflict, domestic law takes precedence legally, but the more recent Guidance takes precedence interpretively. Keeping documentation current is an ongoing responsibility in this area, not a one-time task.
+
+## Common Mistakes
+
+A common mistake is to treat the Model Rules or the Commentary as directly applicable law and determine tax liability on that basis, without checking the local enacted law. Another mistake is to make a decision based on an old round of Administrative Guidance, without checking whether it has since been amended in a later round. Many mistakenly treat Agreed Examples as universal rules, even though they are merely illustrations of a specific fact pattern, and direct application is not sound reasoning if the actual situation differs from the example. Completely ignoring the impact of tax treaties and the Multilateral Instrument is also a risk, particularly in STTR-related matters. Finally, assuming a country's law is "Qualified" without verifying its actual peer review status can lead to incorrect results in a multi-country group's calculations.
+
+<!-- lang:bn -->
 
 # অধ্যায় ৪ — আইনি উৎস ও তাদের ক্রমমর্যাদা
 

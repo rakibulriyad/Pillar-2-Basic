@@ -1,11 +1,21 @@
 ---
-title: "Tax-Transparent UPEs and Deductible Dividend Regimes"
+title:
+  en: "Tax-Transparent UPEs and Deductible Dividend Regimes"
+  bn: "কর-নিরপেক্ষ UPE ও Deductible Dividend Regime"
 chapter: 39
 part: 7
-partTitle: "পুনর্গঠন, বিশেষ কাঠামো ও কর-নিরপেক্ষতা · Chapters 6 ও 7"
+partTitle:
+  en: "Reorganizations, Special Structures, and Tax Neutrality · Chapters 6 and 7"
+  bn: "পুনর্গঠন, বিশেষ কাঠামো ও কর-নিরপেক্ষতা · Chapters 6 ও 7"
 articles: "7.1, 7.2"
 slug: "ch-39-tax-transparent-upe-deductible-dividend"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ৩৯ — কর-নিরপেক্ষ UPE ও Deductible Dividend Regime
 

@@ -1,10 +1,20 @@
 ---
-title: "Impact on Financial Reporting"
+title:
+  en: "Impact on Financial Reporting"
+  bn: "আর্থিক প্রতিবেদনে প্রভাব"
 chapter: 56
 part: 11
-partTitle: "বাস্তবায়ন ও ব্যবসায়িক প্রভাব"
+partTitle:
+  en: "Implementation and Business Impact"
+  bn: "বাস্তবায়ন ও ব্যবসায়িক প্রভাব"
 slug: "ch-56-financial-reporting-impact"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ৫৬ — আর্থিক প্রতিবেদনে প্রভাব
 

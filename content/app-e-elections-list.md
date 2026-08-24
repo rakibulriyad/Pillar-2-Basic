@@ -1,8 +1,16 @@
 ---
-title: "Complete List of Elections"
+title:
+  en: "Complete List of Elections"
+  bn: "Election-এর পূর্ণ তালিকা"
 appendix: "E"
 slug: "app-e-elections-list"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # পরিশিষ্ট E — Election-এর পূর্ণ তালিকা
 

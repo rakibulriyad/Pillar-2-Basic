@@ -1,10 +1,20 @@
 ---
-title: "Data Requirements"
+title:
+  en: "Data Requirements"
+  bn: "ডেটা প্রয়োজনীয়তা"
 chapter: 55
 part: 11
-partTitle: "বাস্তবায়ন ও ব্যবসায়িক প্রভাব"
+partTitle:
+  en: "Implementation and Business Impact"
+  bn: "বাস্তবায়ন ও ব্যবসায়িক প্রভাব"
 slug: "ch-55-data-requirements"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ৫৫ — ডেটা প্রয়োজনীয়তা
 

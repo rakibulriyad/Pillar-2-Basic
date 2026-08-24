@@ -1,11 +1,21 @@
 ---
-title: "UTPR (Undertaxed Profits Rule)"
+title:
+  en: "UTPR (Undertaxed Profits Rule)"
+  bn: "UTPR (Undertaxed Profits Rule)"
 chapter: 35
 part: 6
-partTitle: "কর আদায়ের নিয়ম · Chapter 2"
+partTitle:
+  en: "Tax Collection Rules · Chapter 2"
+  bn: "কর আদায়ের নিয়ম · Chapter 2"
 articles: "2.4–2.6"
 slug: "ch-35-utpr"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ৩৫ — UTPR (Undertaxed Profits Rule)
 

@@ -1,10 +1,20 @@
 ---
-title: "Developing Economies and the Bangladesh Perspective"
+title:
+  en: "Developing Economies and the Bangladesh Perspective"
+  bn: "উন্নয়নশীল অর্থনীতি ও বাংলাদেশ প্রেক্ষিত"
 chapter: 62
 part: 12
-partTitle: "জুরিসডিকশন পর্যালোচনা"
+partTitle:
+  en: "Jurisdiction Review"
+  bn: "জুরিসডিকশন পর্যালোচনা"
 slug: "ch-62-developing-economies-bangladesh"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ৬২ — উন্নয়নশীল অর্থনীতি ও বাংলাদেশ প্রেক্ষিত
 

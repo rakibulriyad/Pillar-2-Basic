@@ -3,7 +3,9 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import type { Manifest } from "@/lib/content";
+import { pick, type Manifest } from "@/lib/content";
+import { t } from "@/lib/i18n";
+import { useLanguage } from "./LanguageProvider";
 
 export default function Sidebar({
   manifest,
@@ -12,6 +14,7 @@ export default function Sidebar({
   manifest: Manifest;
   onNavigate?: () => void;
 }) {
+  const { language } = useLanguage();
   const pathname = usePathname();
   const activeSlug = pathname === "/" ? "" : pathname.replace(/^\//, "");
 
@@ -53,7 +56,7 @@ export default function Sidebar({
   const linkBase = "block rounded-md px-2 py-1.5 text-[0.9rem] leading-snug transition-colors";
 
   return (
-    <nav aria-label="বইয়ের বিষয়সূচি" className="text-sm">
+    <nav aria-label={t("sidebar", "navAriaLabel", language)} className="text-sm">
       <Link
         href="/"
         onClick={onNavigate}
@@ -64,7 +67,7 @@ export default function Sidebar({
             : { color: "var(--fg)" }
         }
       >
-        বইয়ের প্রচ্ছদ ও সূচিপত্র
+        {t("sidebar", "coverLink", language)}
       </Link>
 
       <ul className="mt-2 space-y-0.5">
@@ -80,7 +83,7 @@ export default function Sidebar({
                 style={{ color: "var(--fg-muted)" }}
               >
                 <span>
-                  পর্ব {part.part} — {part.title}
+                  {t("sidebar", "part", language)} {part.part} — {pick(part.title, language)}
                 </span>
                 <span aria-hidden style={{ transform: open ? "rotate(90deg)" : "none" }}>
                   ›
@@ -102,7 +105,7 @@ export default function Sidebar({
                               : { color: "var(--fg)" }
                           }
                         >
-                          {chapter.chapter}. {chapter.title}
+                          {chapter.chapter}. {pick(chapter.title, language)}
                         </Link>
                       </li>
                     );
@@ -121,7 +124,7 @@ export default function Sidebar({
             className="flex w-full items-center justify-between gap-2 rounded-md px-2 py-1.5 text-left text-[0.85rem] font-semibold"
             style={{ color: "var(--fg-muted)" }}
           >
-            <span>পরিশিষ্ট</span>
+            <span>{t("sidebar", "appendix", language)}</span>
             <span aria-hidden style={{ transform: appendicesOpen ? "rotate(90deg)" : "none" }}>
               ›
             </span>
@@ -142,7 +145,7 @@ export default function Sidebar({
                           : { color: "var(--fg)" }
                       }
                     >
-                      পরিশিষ্ট {appendix.id} — {appendix.title}
+                      {t("sidebar", "appendix", language)} {appendix.id} — {pick(appendix.title, language)}
                     </Link>
                   </li>
                 );

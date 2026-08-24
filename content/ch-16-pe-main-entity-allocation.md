@@ -1,11 +1,21 @@
 ---
-title: "Income Allocation Between PE and Main Entity"
+title:
+  en: "Income Allocation Between PE and Main Entity"
+  bn: "PE ও Main Entity-র মধ্যে আয় বণ্টন"
 chapter: 16
 part: 3
-partTitle: "GloBE Income or Loss · Chapter 3"
+partTitle:
+  en: "GloBE Income or Loss · Chapter 3"
+  bn: "GloBE Income or Loss · Chapter 3"
 articles: "3.4"
 slug: "ch-16-pe-main-entity-allocation"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ১৬ — PE ও Main Entity-র মধ্যে আয় বণ্টন
 

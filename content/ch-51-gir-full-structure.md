@@ -1,10 +1,20 @@
 ---
-title: "The GloBE Information Return: Full Structure"
+title:
+  en: "The GloBE Information Return: Full Structure"
+  bn: "GloBE Information Return: পূর্ণ কাঠামো"
 chapter: 51
 part: 10
-partTitle: "Compliance, GIR ও Self-Assessment · Chapter 8"
+partTitle:
+  en: "Compliance, GIR, and Self-Assessment · Chapter 8"
+  bn: "Compliance, GIR ও Self-Assessment · Chapter 8"
 slug: "ch-51-gir-full-structure"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ৫১ — GloBE Information Return: পূর্ণ কাঠামো
 

@@ -1,8 +1,16 @@
 ---
-title: "Model Rules Article Index"
+title:
+  en: "Model Rules Article Index"
+  bn: "Model Rules Article-ভিত্তিক সূচি"
 appendix: "A"
 slug: "app-a-article-index"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # পরিশিষ্ট A — Model Rules Article-ভিত্তিক সূচি
 

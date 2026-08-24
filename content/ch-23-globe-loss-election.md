@@ -1,11 +1,21 @@
 ---
-title: "The GloBE Loss Election"
+title:
+  en: "The GloBE Loss Election"
+  bn: "GloBE Loss Election"
 chapter: 23
 part: 4
-partTitle: "Adjusted Covered Taxes · Chapter 4"
+partTitle:
+  en: "Adjusted Covered Taxes · Chapter 4"
+  bn: "Adjusted Covered Taxes · Chapter 4"
 articles: "4.5"
 slug: "ch-23-globe-loss-election"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ২৩ — GloBE Loss Election
 

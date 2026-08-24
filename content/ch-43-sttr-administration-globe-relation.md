@@ -1,10 +1,20 @@
 ---
-title: "STTR Administration and Its Relationship to GloBE"
+title:
+  en: "STTR Administration and Its Relationship to GloBE"
+  bn: "STTR-এর প্রয়োগ, প্রশাসন ও GloBE-এর সাথে সম্পর্ক"
 chapter: 43
 part: 8
-partTitle: "STTR (Subject to Tax Rule)"
+partTitle:
+  en: "STTR (Subject to Tax Rule)"
+  bn: "STTR (Subject to Tax Rule)"
 slug: "ch-43-sttr-administration-globe-relation"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ৪৩ — STTR-এর প্রয়োগ, প্রশাসন ও GloBE-এর সাথে সম্পর্ক
 

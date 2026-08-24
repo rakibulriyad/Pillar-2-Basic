@@ -1,10 +1,20 @@
 ---
-title: "The STTR Concept and Treaty Framework"
+title:
+  en: "The STTR Concept and Treaty Framework"
+  bn: "STTR-এর ধারণা ও চুক্তি-কাঠামো"
 chapter: 41
 part: 8
-partTitle: "STTR (Subject to Tax Rule)"
+partTitle:
+  en: "STTR (Subject to Tax Rule)"
+  bn: "STTR (Subject to Tax Rule)"
 slug: "ch-41-sttr-concept-treaty"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ৪১ — STTR-এর ধারণা ও চুক্তি-কাঠামো
 

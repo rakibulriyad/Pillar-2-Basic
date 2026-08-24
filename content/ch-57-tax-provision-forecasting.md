@@ -1,10 +1,20 @@
 ---
-title: "Tax Provision, Forecasting, and Modelling"
+title:
+  en: "Tax Provision, Forecasting, and Modelling"
+  bn: "Tax Provision · Forecasting · Modelling"
 chapter: 57
 part: 11
-partTitle: "বাস্তবায়ন ও ব্যবসায়িক প্রভাব"
+partTitle:
+  en: "Implementation and Business Impact"
+  bn: "বাস্তবায়ন ও ব্যবসায়িক প্রভাব"
 slug: "ch-57-tax-provision-forecasting"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ৫৭ — Tax Provision · Forecasting · Modelling
 

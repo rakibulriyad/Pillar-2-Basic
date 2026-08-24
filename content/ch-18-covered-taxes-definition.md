@@ -1,11 +1,21 @@
 ---
-title: "Defining Covered Taxes"
+title:
+  en: "Defining Covered Taxes"
+  bn: "Covered Taxes-এর সংজ্ঞা"
 chapter: 18
 part: 4
-partTitle: "Adjusted Covered Taxes · Chapter 4"
+partTitle:
+  en: "Adjusted Covered Taxes · Chapter 4"
+  bn: "Adjusted Covered Taxes · Chapter 4"
 articles: "4.2"
 slug: "ch-18-covered-taxes-definition"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ১৮ — Covered Taxes-এর সংজ্ঞা
 

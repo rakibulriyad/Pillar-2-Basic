@@ -1,11 +1,21 @@
 ---
-title: "Chapter 3 Elections"
+title:
+  en: "Chapter 3 Elections"
+  bn: "Chapter 3-এর Elections"
 chapter: 14
 part: 3
-partTitle: "GloBE Income or Loss · Chapter 3"
+partTitle:
+  en: "GloBE Income or Loss · Chapter 3"
+  bn: "GloBE Income or Loss · Chapter 3"
 articles: "3.2.2, 3.2.5, 3.2.6, 3.2.8"
 slug: "ch-14-chapter-3-elections"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ১৪ — Chapter 3-এর Elections
 

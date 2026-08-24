@@ -1,10 +1,13 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { t } from "@/lib/i18n";
+import { useLanguage } from "./LanguageProvider";
 
 type Heading = { id: string; text: string };
 
 export default function OnThisPage({ containerId }: { containerId: string }) {
+  const { language } = useLanguage();
   const [headings, setHeadings] = useState<Heading[]>([]);
 
   useEffect(() => {
@@ -12,14 +15,14 @@ export default function OnThisPage({ containerId }: { containerId: string }) {
     if (!container) return;
     const nodes = Array.from(container.querySelectorAll("h2[id]"));
     setHeadings(nodes.map((node) => ({ id: node.id, text: node.textContent || "" })));
-  }, [containerId]);
+  }, [containerId, language]);
 
   if (headings.length === 0) return null;
 
   return (
-    <nav aria-label="এই পাতায়" className="sticky top-8 text-sm">
+    <nav aria-label={t("onThisPage", "label", language)} className="sticky top-8 text-sm">
       <p className="mb-2 text-xs font-semibold uppercase tracking-wide" style={{ color: "var(--fg-muted)" }}>
-        এই পাতায়
+        {t("onThisPage", "label", language)}
       </p>
       <ul className="space-y-1.5 border-l pl-3" style={{ borderColor: "var(--border)" }}>
         {headings.map((heading) => (

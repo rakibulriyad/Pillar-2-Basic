@@ -1,10 +1,20 @@
 ---
-title: "Penalties, Relief, and Dispute Resolution"
+title:
+  en: "Penalties, Relief, and Dispute Resolution"
+  bn: "Penalty · Relief · বিরোধ নিষ্পত্তি"
 chapter: 54
 part: 10
-partTitle: "Compliance, GIR ও Self-Assessment · Chapter 8"
+partTitle:
+  en: "Compliance, GIR, and Self-Assessment · Chapter 8"
+  bn: "Compliance, GIR ও Self-Assessment · Chapter 8"
 slug: "ch-54-penalty-relief-dispute"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ৫৪ — Penalty · Relief · বিরোধ নিষ্পত্তি
 

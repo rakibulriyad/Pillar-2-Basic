@@ -1,10 +1,20 @@
 ---
-title: "The QDMTT Safe Harbour and the Switch-off Rule"
+title:
+  en: "The QDMTT Safe Harbour and the Switch-off Rule"
+  bn: "QDMTT Safe Harbour ও Switch-off Rule"
 chapter: 47
 part: 9
-partTitle: "Safe Harbours ও Transition · Chapters 8 ও 9"
+partTitle:
+  en: "Safe Harbours and Transition · Chapters 8 and 9"
+  bn: "Safe Harbours ও Transition · Chapters 8 ও 9"
 slug: "ch-47-qdmtt-safe-harbour-switch-off"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ৪৭ — QDMTT Safe Harbour ও Switch-off Rule
 

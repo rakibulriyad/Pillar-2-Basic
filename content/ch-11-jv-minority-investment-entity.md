@@ -1,11 +1,21 @@
 ---
-title: "Special Categories: JV, Minority-Owned, and Investment Entities"
+title:
+  en: "Special Categories: JV, Minority-Owned, and Investment Entities"
+  bn: "বিশেষ শ্রেণি: JV · Minority-Owned · Investment Entity"
 chapter: 11
 part: 2
-partTitle: "প্রয়োগ পরিধি (Scope) · Chapter 1"
+partTitle:
+  en: "Scope of Application · Chapter 1"
+  bn: "প্রয়োগ পরিধি (Scope) · Chapter 1"
 articles: "1.3, 5.6, 6.4, 7.4–7.6"
 slug: "ch-11-jv-minority-investment-entity"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ১১ — বিশেষ শ্রেণি: JV · Minority-Owned · Investment Entity
 

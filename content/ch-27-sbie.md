@@ -1,11 +1,21 @@
 ---
-title: "Substance-based Income Exclusion (SBIE)"
+title:
+  en: "Substance-based Income Exclusion (SBIE)"
+  bn: "Substance-based Income Exclusion (SBIE)"
 chapter: 27
 part: 5
-partTitle: "ETR ও Top-up Tax · Chapter 5"
+partTitle:
+  en: "ETR and Top-up Tax · Chapter 5"
+  bn: "ETR ও Top-up Tax · Chapter 5"
 articles: "5.3, 9.2"
 slug: "ch-27-sbie"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ২৭ — Substance-based Income Exclusion (SBIE)
 

@@ -1,11 +1,21 @@
 ---
-title: "Parent Classification: UPE, IPE, POPE"
+title:
+  en: "Parent Classification: UPE, IPE, POPE"
+  bn: "Parent শ্রেণিবিন্যাস: UPE · IPE · POPE"
 chapter: 10
 part: 2
-partTitle: "প্রয়োগ পরিধি (Scope) · Chapter 1"
+partTitle:
+  en: "Scope of Application · Chapter 1"
+  bn: "প্রয়োগ পরিধি (Scope) · Chapter 1"
 articles: "1.4, 2.1–2.3, 10.1"
 slug: "ch-10-upe-ipe-pope"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ১০ — Parent শ্রেণিবিন্যাস: UPE · IPE · POPE
 

@@ -1,11 +1,21 @@
 ---
-title: "MNE Group and Consolidated Financial Statements"
+title:
+  en: "MNE Group and Consolidated Financial Statements"
+  bn: "MNE Group ও Consolidated Financial Statements"
 chapter: 6
 part: 2
-partTitle: "প্রয়োগ পরিধি (Scope) · Chapter 1"
+partTitle:
+  en: "Scope of Application · Chapter 1"
+  bn: "প্রয়োগ পরিধি (Scope) · Chapter 1"
 articles: "1.1, 1.2"
 slug: "ch-06-mne-group-consolidation"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ৬ — MNE Group ও Consolidated Financial Statements
 

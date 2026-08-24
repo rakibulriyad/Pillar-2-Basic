@@ -1,11 +1,21 @@
 ---
-title: "Rule Order: The Sequence and Relationship of the Three Rules"
+title:
+  en: "Rule Order: The Sequence and Relationship of the Three Rules"
+  bn: "Rule Order: তিন নিয়মের ক্রম ও সম্পর্ক"
 chapter: 31
 part: 6
-partTitle: "কর আদায়ের নিয়ম · Chapter 2"
+partTitle:
+  en: "Tax Collection Rules · Chapter 2"
+  bn: "কর আদায়ের নিয়ম · Chapter 2"
 articles: "2.1–2.6, 5.2"
 slug: "ch-31-rule-order"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ৩১ — Rule Order: তিন নিয়মের ক্রম ও সম্পর্ক
 

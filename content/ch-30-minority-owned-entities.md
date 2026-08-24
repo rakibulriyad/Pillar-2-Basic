@@ -1,11 +1,21 @@
 ---
-title: "Minority-Owned Constituent Entities"
+title:
+  en: "Minority-Owned Constituent Entities"
+  bn: "Minority-Owned Constituent Entities"
 chapter: 30
 part: 5
-partTitle: "ETR ও Top-up Tax · Chapter 5"
+partTitle:
+  en: "ETR and Top-up Tax · Chapter 5"
+  bn: "ETR ও Top-up Tax · Chapter 5"
 articles: "5.6"
 slug: "ch-30-minority-owned-entities"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ৩০ — Minority-Owned Constituent Entities
 

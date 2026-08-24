@@ -1,10 +1,20 @@
 ---
-title: "Covered Income, Rate, and Thresholds Under STTR"
+title:
+  en: "Covered Income, Rate, and Thresholds Under STTR"
+  bn: "Covered Income · হার · থ্রেশহোল্ড"
 chapter: 42
 part: 8
-partTitle: "STTR (Subject to Tax Rule)"
+partTitle:
+  en: "STTR (Subject to Tax Rule)"
+  bn: "STTR (Subject to Tax Rule)"
 slug: "ch-42-sttr-covered-income-rate-threshold"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ৪২ — Covered Income · হার · থ্রেশহোল্ড
 

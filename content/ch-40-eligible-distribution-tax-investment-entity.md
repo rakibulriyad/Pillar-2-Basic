@@ -1,11 +1,21 @@
 ---
-title: "Eligible Distribution Tax Systems and Investment Entities"
+title:
+  en: "Eligible Distribution Tax Systems and Investment Entities"
+  bn: "Eligible Distribution Tax System ও Investment Entity"
 chapter: 40
 part: 7
-partTitle: "পুনর্গঠন, বিশেষ কাঠামো ও কর-নিরপেক্ষতা · Chapters 6 ও 7"
+partTitle:
+  en: "Reorganizations, Special Structures, and Tax Neutrality · Chapters 6 and 7"
+  bn: "পুনর্গঠন, বিশেষ কাঠামো ও কর-নিরপেক্ষতা · Chapters 6 ও 7"
 articles: "7.3–7.6"
 slug: "ch-40-eligible-distribution-tax-investment-entity"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ৪০ — Eligible Distribution Tax System ও Investment Entity
 

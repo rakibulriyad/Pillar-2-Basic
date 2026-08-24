@@ -1,10 +1,20 @@
 ---
-title: "Major Implementing Jurisdictions"
+title:
+  en: "Major Implementing Jurisdictions"
+  bn: "প্রধান বাস্তবায়নকারী জুরিসডিকশন"
 chapter: 60
 part: 12
-partTitle: "জুরিসডিকশন পর্যালোচনা"
+partTitle:
+  en: "Jurisdiction Review"
+  bn: "জুরিসডিকশন পর্যালোচনা"
 slug: "ch-60-major-implementing-jurisdictions"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ৬০ — প্রধান বাস্তবায়নকারী জুরিসডিকশন
 

@@ -1,11 +1,21 @@
 ---
-title: "Asset and Liability Transfers: Reorganisations"
+title:
+  en: "Asset and Liability Transfers: Reorganisations"
+  bn: "সম্পদ ও দায় হস্তান্তর · পুনর্গঠন"
 chapter: 37
 part: 7
-partTitle: "পুনর্গঠন, বিশেষ কাঠামো ও কর-নিরপেক্ষতা · Chapters 6 ও 7"
+partTitle:
+  en: "Reorganizations, Special Structures, and Tax Neutrality · Chapters 6 and 7"
+  bn: "পুনর্গঠন, বিশেষ কাঠামো ও কর-নিরপেক্ষতা · Chapters 6 ও 7"
 articles: "6.3"
 slug: "ch-37-asset-liability-transfer-reorg"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ৩৭ — সম্পদ ও দায় হস্তান্তর · পুনর্গঠন
 

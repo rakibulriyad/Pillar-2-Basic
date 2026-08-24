@@ -1,11 +1,21 @@
 ---
-title: "Transition Rules and the Initial Phase Exclusion"
+title:
+  en: "Transition Rules and the Initial Phase Exclusion"
+  bn: "Transition Rules ও Initial Phase Exclusion"
 chapter: 49
 part: 9
-partTitle: "Safe Harbours ও Transition · Chapters 8 ও 9"
+partTitle:
+  en: "Safe Harbours and Transition · Chapters 8 and 9"
+  bn: "Safe Harbours ও Transition · Chapters 8 ও 9"
 articles: "9.1–9.4"
 slug: "ch-49-transition-rules-initial-phase"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ৪৯ — Transition Rules ও Initial Phase Exclusion
 

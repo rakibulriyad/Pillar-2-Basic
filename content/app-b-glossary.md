@@ -1,8 +1,16 @@
 ---
-title: "Glossary (EN ↔ BN)"
+title:
+  en: "Glossary (EN ↔ BN)"
+  bn: "পরিভাষা (Glossary) EN ↔ BN"
 appendix: "B"
 slug: "app-b-glossary"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # পরিশিষ্ট B — পরিভাষা (Glossary) EN ↔ BN
 
@@ -130,4 +138,3 @@ slug: "app-b-glossary"
 | Unclaimed Accruals | দাবিহীন জমাকৃত কর | পাঁচ বছরের মধ্যে দাবি না করা ডেফার্ড ট্যাক্স ব্যয়, যা Adjusted Covered Taxes থেকে বাদ দেওয়া হয় কারণ তা সময়মতো প্রতিফলিত হয়নি। | Art. 4.4.1 |
 | Undertaxed Profits Rule (UTPR) | অবস্তুত-কর মুনাফা বিধি | QDMTT ও IIR প্রয়োগের পরও অবশিষ্ট Top-up Tax অন্য জুরিসডিকশনগুলোর মধ্যে কর্মী ও বাস্তব সম্পদের অনুপাতে বণ্টন করে আদায়ের ব্যাকস্টপ mechanism। | Art. 2.4 |
 | UTPR Percentage | UTPR শতাংশ | একটি জুরিসডিকশনের কর্মীসংখ্যা ও বাস্তব সম্পদের অনুপাতের ভিত্তিতে নির্ধারিত শতাংশ, যা অবশিষ্ট Top-up Tax সেই জুরিসডিকশনের মধ্যে কতটা বণ্টিত হবে তা ঠিক করে। | Art. 2.6 |
-

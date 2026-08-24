@@ -1,8 +1,16 @@
 ---
-title: "Complete Worked Example"
+title:
+  en: "Complete Worked Example"
+  bn: "সম্পূর্ণ Worked Example"
 appendix: "G"
 slug: "app-g-full-worked-example"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # পরিশিষ্ট G — সম্পূর্ণ Worked Example
 

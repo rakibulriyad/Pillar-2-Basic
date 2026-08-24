@@ -1,11 +1,21 @@
 ---
-title: "Additional Current Top-up Tax and Negative Scenarios"
+title:
+  en: "Additional Current Top-up Tax and Negative Scenarios"
+  bn: "Additional Current Top-up Tax ও ঋণাত্মক পরিস্থিতি"
 chapter: 29
 part: 5
-partTitle: "ETR ও Top-up Tax · Chapter 5"
+partTitle:
+  en: "ETR and Top-up Tax · Chapter 5"
+  bn: "ETR ও Top-up Tax · Chapter 5"
 articles: "4.1.5, 5.4"
 slug: "ch-29-additional-current-topup-tax"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ২৯ — Additional Current Top-up Tax ও ঋণাত্মক পরিস্থিতি
 

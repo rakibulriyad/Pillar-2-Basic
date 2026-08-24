@@ -1,11 +1,21 @@
 ---
-title: "QDMTT (Qualified Domestic Minimum Top-up Tax)"
+title:
+  en: "QDMTT (Qualified Domestic Minimum Top-up Tax)"
+  bn: "QDMTT (Qualified Domestic Minimum Top-up Tax)"
 chapter: 32
 part: 6
-partTitle: "কর আদায়ের নিয়ম · Chapter 2"
+partTitle:
+  en: "Tax Collection Rules · Chapter 2"
+  bn: "কর আদায়ের নিয়ম · Chapter 2"
 articles: "10.1, 5.2.3"
 slug: "ch-32-qdmtt"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ৩২ — QDMTT (Qualified Domestic Minimum Top-up Tax)
 

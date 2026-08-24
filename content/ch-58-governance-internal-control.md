@@ -1,10 +1,20 @@
 ---
-title: "Governance, Internal Control, and Process"
+title:
+  en: "Governance, Internal Control, and Process"
+  bn: "Governance · Internal Control · Process"
 chapter: 58
 part: 11
-partTitle: "বাস্তবায়ন ও ব্যবসায়িক প্রভাব"
+partTitle:
+  en: "Implementation and Business Impact"
+  bn: "বাস্তবায়ন ও ব্যবসায়িক প্রভাব"
 slug: "ch-58-governance-internal-control"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ৫৮ — Governance · Internal Control · Process
 

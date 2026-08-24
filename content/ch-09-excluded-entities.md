@@ -1,11 +1,21 @@
 ---
-title: "Excluded Entities"
+title:
+  en: "Excluded Entities"
+  bn: "Excluded Entities"
 chapter: 9
 part: 2
-partTitle: "প্রয়োগ পরিধি (Scope) · Chapter 1"
+partTitle:
+  en: "Scope of Application · Chapter 1"
+  bn: "প্রয়োগ পরিধি (Scope) · Chapter 1"
 articles: "1.5"
 slug: "ch-09-excluded-entities"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ৯ — Excluded Entities
 

@@ -1,11 +1,21 @@
 ---
-title: "Cross-Entity Allocation of Covered Taxes"
+title:
+  en: "Cross-Entity Allocation of Covered Taxes"
+  bn: "Covered Taxes-এর আন্তঃসত্তা বণ্টন"
 chapter: 20
 part: 4
-partTitle: "Adjusted Covered Taxes · Chapter 4"
+partTitle:
+  en: "Adjusted Covered Taxes · Chapter 4"
+  bn: "Adjusted Covered Taxes · Chapter 4"
 articles: "4.3"
 slug: "ch-20-covered-taxes-allocation"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ২০ — Covered Taxes-এর আন্তঃসত্তা বণ্টন
 

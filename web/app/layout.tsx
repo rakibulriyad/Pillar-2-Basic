@@ -1,9 +1,17 @@
 import type { Metadata } from "next";
-import { Noto_Sans_Bengali } from "next/font/google";
+import { Inter, Noto_Sans_Bengali } from "next/font/google";
 import { ThemeProvider } from "next-themes";
 import AppShell from "./components/AppShell";
+import { LanguageProvider } from "./components/LanguageProvider";
 import { getManifest } from "@/lib/content";
+import { dictionary } from "@/lib/i18n";
 import "./globals.css";
+
+const inter = Inter({
+  variable: "--font-inter",
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+});
 
 const notoSansBengali = Noto_Sans_Bengali({
   variable: "--font-noto-bengali",
@@ -12,9 +20,8 @@ const notoSansBengali = Noto_Sans_Bengali({
 });
 
 export const metadata: Metadata = {
-  title: "বৈশ্বিক ন্যূনতম কর — OECD Pillar Two হ্যান্ডবুক",
-  description:
-    "OECD Pillar Two ও Global Minimum Tax-এর উপর একটি পূর্ণাঙ্গ বাংলা হ্যান্ডবুক — QDMTT, IIR, UTPR, GIR ও Self-Assessment সহ।",
+  title: dictionary.metadata.title.en,
+  description: dictionary.metadata.description.en,
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -22,13 +29,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
   return (
     <html
-      lang="bn"
+      lang="en"
       suppressHydrationWarning
-      className={`${notoSansBengali.variable} h-full`}
+      className={`${inter.variable} ${notoSansBengali.variable} h-full`}
     >
       <body className="min-h-full">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <AppShell manifest={manifest}>{children}</AppShell>
+          <LanguageProvider>
+            <AppShell manifest={manifest}>{children}</AppShell>
+          </LanguageProvider>
         </ThemeProvider>
       </body>
     </html>

@@ -1,11 +1,21 @@
 ---
-title: "15% Recast, Recapture, and Unclaimed Accrual"
+title:
+  en: "15% Recast, Recapture, and Unclaimed Accrual"
+  bn: "১৫% Recast · Recapture · Unclaimed Accrual"
 chapter: 22
 part: 4
-partTitle: "Adjusted Covered Taxes · Chapter 4"
+partTitle:
+  en: "Adjusted Covered Taxes · Chapter 4"
+  bn: "Adjusted Covered Taxes · Chapter 4"
 articles: "4.4.1, 4.4.4–4.4.7"
 slug: "ch-22-recast-recapture-unclaimed-accrual"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ২২ — ১৫% Recast · Recapture · Unclaimed Accrual
 

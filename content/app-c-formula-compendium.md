@@ -1,8 +1,16 @@
 ---
-title: "Formula Compendium"
+title:
+  en: "Formula Compendium"
+  bn: "সূত্র সংকলন"
 appendix: "C"
 slug: "app-c-formula-compendium"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # পরিশিষ্ট C — সূত্র সংকলন
 

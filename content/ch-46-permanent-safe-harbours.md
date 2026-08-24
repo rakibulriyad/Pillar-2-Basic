@@ -1,11 +1,21 @@
 ---
-title: "Permanent Safe Harbours and Simplified Calculations"
+title:
+  en: "Permanent Safe Harbours and Simplified Calculations"
+  bn: "Permanent Safe Harbours ও Simplified Calculations"
 chapter: 46
 part: 9
-partTitle: "Safe Harbours ও Transition · Chapters 8 ও 9"
+partTitle:
+  en: "Safe Harbours and Transition · Chapters 8 and 9"
+  bn: "Safe Harbours ও Transition · Chapters 8 ও 9"
 articles: "8.2, 8.3"
 slug: "ch-46-permanent-safe-harbours"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ৪৬ — Permanent Safe Harbours ও Simplified Calculations
 

@@ -1,10 +1,20 @@
 ---
-title: "The United States and Pillar Two"
+title:
+  en: "The United States and Pillar Two"
+  bn: "যুক্তরাষ্ট্র ও Pillar Two"
 chapter: 61
 part: 12
-partTitle: "জুরিসডিকশন পর্যালোচনা"
+partTitle:
+  en: "Jurisdiction Review"
+  bn: "জুরিসডিকশন পর্যালোচনা"
 slug: "ch-61-united-states-pillar-two"
 ---
+
+<!-- lang:en -->
+
+_(English translation pending)_
+
+<!-- lang:bn -->
 
 # অধ্যায় ৬১ — যুক্তরাষ্ট্র ও Pillar Two
 
