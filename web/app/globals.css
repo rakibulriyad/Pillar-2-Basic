@@ -1,0 +1,183 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --bg: #ffffff;
+  --bg-elevated: #f7f6f3;
+  --fg: #1a1a1a;
+  --fg-muted: #5a5a5a;
+  --border: #e3e1dc;
+  --accent: #8a3324;
+  --accent-fg: #ffffff;
+  --code-bg: #f1efe9;
+  --link: #8a3324;
+}
+
+.dark {
+  --bg: #16140f;
+  --bg-elevated: #1e1b15;
+  --fg: #ece8e0;
+  --fg-muted: #a8a29a;
+  --border: #343026;
+  --accent: #e0a370;
+  --accent-fg: #16140f;
+  --code-bg: #221f18;
+  --link: #e0a370;
+}
+
+@theme inline {
+  --font-bengali: var(--font-noto-bengali), "Noto Sans Bengali", "Noto Sans", system-ui, sans-serif;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-bengali);
+}
+
+.markdown-body {
+  font-size: 1.0625rem;
+  line-height: 1.9;
+}
+
+.markdown-body h1 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.markdown-body h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-top: 2.25rem;
+  margin-bottom: 0.9rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border);
+  scroll-margin-top: 5.5rem;
+}
+
+.markdown-body h2:first-child {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.markdown-body h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  margin-bottom: 0.6rem;
+  scroll-margin-top: 5.5rem;
+}
+
+.markdown-body p {
+  margin-top: 0.9rem;
+  margin-bottom: 0.9rem;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  margin-top: 0.75rem;
+  margin-bottom: 0.9rem;
+  padding-left: 1.5rem;
+}
+
+.markdown-body ul {
+  list-style-type: disc;
+}
+
+.markdown-body ol {
+  list-style-type: decimal;
+}
+
+.markdown-body li {
+  margin-top: 0.35rem;
+  margin-bottom: 0.35rem;
+}
+
+.markdown-body li > ul,
+.markdown-body li > ol {
+  margin-top: 0.35rem;
+  margin-bottom: 0.35rem;
+}
+
+.markdown-body blockquote {
+  border-left: 3px solid var(--accent);
+  background: var(--bg-elevated);
+  padding: 0.9rem 1.1rem;
+  margin: 1.25rem 0;
+  border-radius: 0.25rem;
+}
+
+.markdown-body blockquote p {
+  margin: 0.35rem 0;
+}
+
+.markdown-body strong {
+  font-weight: 700;
+}
+
+.markdown-body a {
+  color: var(--link);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.markdown-body code {
+  background: var(--code-bg);
+  border-radius: 0.25rem;
+  padding: 0.1rem 0.35rem;
+  font-size: 0.9em;
+}
+
+.markdown-body pre {
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 1.25rem 0;
+  overflow-x: auto;
+}
+
+.markdown-body pre code {
+  background: transparent;
+  padding: 0;
+  font-size: 0.9em;
+  line-height: 1.6;
+}
+
+.markdown-body hr {
+  border-color: var(--border);
+  margin: 2rem 0;
+}
+
+.table-scroll {
+  overflow-x: auto;
+  margin: 1.25rem 0;
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+}
+
+.markdown-body table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.markdown-body th,
+.markdown-body td {
+  border: 1px solid var(--border);
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.markdown-body th {
+  background: var(--bg-elevated);
+  font-weight: 700;
+  white-space: nowrap;
+}

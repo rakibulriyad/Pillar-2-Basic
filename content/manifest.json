@@ -1,0 +1,149 @@
+{
+  "title": "বৈশ্বিক ন্যূনতম কর — OECD Pillar Two-এর পূর্ণাঙ্গ হ্যান্ডবুক",
+  "parts": [
+    {
+      "part": 1,
+      "title": "প্রেক্ষাপট ও ভিত্তি",
+      "chapters": [
+        { "chapter": 1, "slug": "ch-01-beps-crisis", "title": "আন্তর্জাতিক কর ব্যবস্থার সংকট ও BEPS" },
+        { "chapter": 2, "slug": "ch-02-two-pillar-solution", "title": "Two-Pillar Solution" },
+        { "chapter": 3, "slug": "ch-03-globe-and-sttr", "title": "Pillar Two-র দুই উপাদান" },
+        { "chapter": 4, "slug": "ch-04-legal-sources-hierarchy", "title": "আইনি উৎস ও তাদের ক্রমমর্যাদা" },
+        { "chapter": 5, "slug": "ch-05-key-terms-calculation-map", "title": "মৌলিক পরিভাষা ও গণনার সামগ্রিক মানচিত্র" }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "প্রয়োগ পরিধি (Scope) · Chapter 1",
+      "chapters": [
+        { "chapter": 6, "slug": "ch-06-mne-group-consolidation", "title": "MNE Group ও Consolidated Financial Statements" },
+        { "chapter": 7, "slug": "ch-07-revenue-threshold", "title": "€750 Million Revenue Threshold" },
+        { "chapter": 8, "slug": "ch-08-entity-pe-flowthrough", "title": "Constituent Entity · Permanent Establishment · Flow-Through Entity" },
+        { "chapter": 9, "slug": "ch-09-excluded-entities", "title": "Excluded Entities" },
+        { "chapter": 10, "slug": "ch-10-upe-ipe-pope", "title": "Parent শ্রেণিবিন্যাস: UPE · IPE · POPE" },
+        { "chapter": 11, "slug": "ch-11-jv-minority-investment-entity", "title": "বিশেষ শ্রেণি: JV · Minority-Owned · Investment Entity" }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "GloBE Income or Loss · Chapter 3",
+      "chapters": [
+        { "chapter": 12, "slug": "ch-12-financial-accounting-net-income", "title": "Financial Accounting Net Income থেকে শুরু" },
+        { "chapter": 13, "slug": "ch-13-article-3-2-adjustments", "title": "Article 3.2-এর সমন্বয়সমূহ" },
+        { "chapter": 14, "slug": "ch-14-chapter-3-elections", "title": "Chapter 3-এর Elections" },
+        { "chapter": 15, "slug": "ch-15-international-shipping-income", "title": "International Shipping Income" },
+        { "chapter": 16, "slug": "ch-16-pe-main-entity-allocation", "title": "PE ও Main Entity-র মধ্যে আয় বণ্টন" },
+        { "chapter": 17, "slug": "ch-17-flow-through-allocation", "title": "Flow-Through Entity-র আয় বণ্টন" }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Adjusted Covered Taxes · Chapter 4",
+      "chapters": [
+        { "chapter": 18, "slug": "ch-18-covered-taxes-definition", "title": "Covered Taxes-এর সংজ্ঞা" },
+        { "chapter": 19, "slug": "ch-19-adjusted-covered-taxes-calculation", "title": "Adjusted Covered Taxes গণনা" },
+        { "chapter": 20, "slug": "ch-20-covered-taxes-allocation", "title": "Covered Taxes-এর আন্তঃসত্তা বণ্টন" },
+        { "chapter": 21, "slug": "ch-21-deferred-tax-mechanics", "title": "Deferred Tax মেকানিক্স" },
+        { "chapter": 22, "slug": "ch-22-recast-recapture-unclaimed-accrual", "title": "১৫% Recast · Recapture · Unclaimed Accrual" },
+        { "chapter": 23, "slug": "ch-23-globe-loss-election", "title": "GloBE Loss Election" },
+        { "chapter": 24, "slug": "ch-24-post-filing-adjustments", "title": "Post-filing সমন্বয় ও কর হার পরিবর্তন" }
+      ]
+    },
+    {
+      "part": 5,
+      "title": "ETR ও Top-up Tax · Chapter 5",
+      "chapters": [
+        { "chapter": 25, "slug": "ch-25-jurisdictional-blending-etr", "title": "Jurisdictional Blending ও Effective Tax Rate" },
+        { "chapter": 26, "slug": "ch-26-topup-tax-percentage-excess-profit", "title": "Top-up Tax Percentage · Excess Profit · Jurisdictional Top-up Tax" },
+        { "chapter": 27, "slug": "ch-27-sbie", "title": "Substance-based Income Exclusion (SBIE)" },
+        { "chapter": 28, "slug": "ch-28-de-minimis-exclusion", "title": "De Minimis Exclusion" },
+        { "chapter": 29, "slug": "ch-29-additional-current-topup-tax", "title": "Additional Current Top-up Tax ও ঋণাত্মক পরিস্থিতি" },
+        { "chapter": 30, "slug": "ch-30-minority-owned-entities", "title": "Minority-Owned Constituent Entities" }
+      ]
+    },
+    {
+      "part": 6,
+      "title": "কর আদায়ের নিয়ম · Chapter 2",
+      "chapters": [
+        { "chapter": 31, "slug": "ch-31-rule-order", "title": "Rule Order: তিন নিয়মের ক্রম ও সম্পর্ক" },
+        { "chapter": 32, "slug": "ch-32-qdmtt", "title": "QDMTT (Qualified Domestic Minimum Top-up Tax)" },
+        { "chapter": 33, "slug": "ch-33-iir", "title": "IIR (Income Inclusion Rule)" },
+        { "chapter": 34, "slug": "ch-34-domestic-iir", "title": "Domestic IIR ও সমতা-বিষয়ক সমন্বয়" },
+        { "chapter": 35, "slug": "ch-35-utpr", "title": "UTPR (Undertaxed Profits Rule)" }
+      ]
+    },
+    {
+      "part": 7,
+      "title": "পুনর্গঠন, বিশেষ কাঠামো ও কর-নিরপেক্ষতা · Chapters 6 ও 7",
+      "chapters": [
+        { "chapter": 36, "slug": "ch-36-group-entry-exit", "title": "MNE Group-এ প্রবেশ ও প্রস্থান" },
+        { "chapter": 37, "slug": "ch-37-asset-liability-transfer-reorg", "title": "সম্পদ ও দায় হস্তান্তর · পুনর্গঠন" },
+        { "chapter": 38, "slug": "ch-38-jv-multi-parented-group", "title": "Joint Venture ও Multi-Parented MNE Group" },
+        { "chapter": 39, "slug": "ch-39-tax-transparent-upe-deductible-dividend", "title": "কর-নিরপেক্ষ UPE ও Deductible Dividend Regime" },
+        { "chapter": 40, "slug": "ch-40-eligible-distribution-tax-investment-entity", "title": "Eligible Distribution Tax System ও Investment Entity" }
+      ]
+    },
+    {
+      "part": 8,
+      "title": "STTR (Subject to Tax Rule)",
+      "chapters": [
+        { "chapter": 41, "slug": "ch-41-sttr-concept-treaty", "title": "STTR-এর ধারণা ও চুক্তি-কাঠামো" },
+        { "chapter": 42, "slug": "ch-42-sttr-covered-income-rate-threshold", "title": "Covered Income · হার · থ্রেশহোল্ড" },
+        { "chapter": 43, "slug": "ch-43-sttr-administration-globe-relation", "title": "STTR-এর প্রয়োগ, প্রশাসন ও GloBE-এর সাথে সম্পর্ক" }
+      ]
+    },
+    {
+      "part": 9,
+      "title": "Safe Harbours ও Transition · Chapters 8 ও 9",
+      "chapters": [
+        { "chapter": 44, "slug": "ch-44-safe-harbour-general-principles", "title": "Safe Harbour কাঠামোর সাধারণ নীতি" },
+        { "chapter": 45, "slug": "ch-45-transitional-cbcr-safe-harbour", "title": "Transitional CbCR Safe Harbour" },
+        { "chapter": 46, "slug": "ch-46-permanent-safe-harbours", "title": "Permanent Safe Harbours ও Simplified Calculations" },
+        { "chapter": 47, "slug": "ch-47-qdmtt-safe-harbour-switch-off", "title": "QDMTT Safe Harbour ও Switch-off Rule" },
+        { "chapter": 48, "slug": "ch-48-transitional-utpr-safe-harbour", "title": "Transitional UTPR Safe Harbour" },
+        { "chapter": 49, "slug": "ch-49-transition-rules-initial-phase", "title": "Transition Rules ও Initial Phase Exclusion" }
+      ]
+    },
+    {
+      "part": 10,
+      "title": "Compliance, GIR ও Self-Assessment · Chapter 8",
+      "chapters": [
+        { "chapter": 50, "slug": "ch-50-filing-obligation-notification", "title": "দাখিলের বাধ্যবাধকতা · Notification · সময়সীমা" },
+        { "chapter": 51, "slug": "ch-51-gir-full-structure", "title": "GloBE Information Return: পূর্ণ কাঠামো" },
+        { "chapter": 52, "slug": "ch-52-gir-exchange-technical", "title": "GIR-এর তথ্য বিনিময় ও প্রযুক্তিগত দিক" },
+        { "chapter": 53, "slug": "ch-53-self-assessment-step-by-step", "title": "Self-Assessment: ধাপে ধাপে পদ্ধতি" },
+        { "chapter": 54, "slug": "ch-54-penalty-relief-dispute", "title": "Penalty · Relief · বিরোধ নিষ্পত্তি" }
+      ]
+    },
+    {
+      "part": 11,
+      "title": "বাস্তবায়ন ও ব্যবসায়িক প্রভাব",
+      "chapters": [
+        { "chapter": 55, "slug": "ch-55-data-requirements", "title": "ডেটা প্রয়োজনীয়তা" },
+        { "chapter": 56, "slug": "ch-56-financial-reporting-impact", "title": "আর্থিক প্রতিবেদনে প্রভাব" },
+        { "chapter": 57, "slug": "ch-57-tax-provision-forecasting", "title": "Tax Provision · Forecasting · Modelling" },
+        { "chapter": 58, "slug": "ch-58-governance-internal-control", "title": "Governance · Internal Control · Process" }
+      ]
+    },
+    {
+      "part": 12,
+      "title": "জুরিসডিকশন পর্যালোচনা",
+      "chapters": [
+        { "chapter": 59, "slug": "ch-59-eu-minimum-tax-directive", "title": "EU Minimum Tax Directive" },
+        { "chapter": 60, "slug": "ch-60-major-implementing-jurisdictions", "title": "প্রধান বাস্তবায়নকারী জুরিসডিকশন" },
+        { "chapter": 61, "slug": "ch-61-united-states-pillar-two", "title": "যুক্তরাষ্ট্র ও Pillar Two" },
+        { "chapter": 62, "slug": "ch-62-developing-economies-bangladesh", "title": "উন্নয়নশীল অর্থনীতি ও বাংলাদেশ প্রেক্ষিত" }
+      ]
+    }
+  ],
+  "appendices": [
+    { "id": "A", "slug": "app-a-article-index", "title": "Model Rules Article-ভিত্তিক সূচি" },
+    { "id": "B", "slug": "app-b-glossary", "title": "পরিভাষা (Glossary) EN ↔ BN" },
+    { "id": "C", "slug": "app-c-formula-compendium", "title": "সূত্র সংকলন" },
+    { "id": "D", "slug": "app-d-rates-thresholds", "title": "হার ও থ্রেশহোল্ড টেবিল" },
+    { "id": "E", "slug": "app-e-elections-list", "title": "Election-এর পূর্ণ তালিকা" },
+    { "id": "F", "slug": "app-f-timeline", "title": "সময়রেখা" },
+    { "id": "G", "slug": "app-g-full-worked-example", "title": "সম্পূর্ণ Worked Example" },
+    { "id": "H", "slug": "app-h-practical-checklists", "title": "ব্যবহারিক চেকলিস্ট" }
+  ]
+}
