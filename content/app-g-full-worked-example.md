@@ -225,14 +225,14 @@ The master table below brings together the complete Pillar Two picture for Vanta
 
 | Country | Revenue (€m) | GloBE Income (€m) | Adjusted Covered Taxes (€m) | ETR | Jurisdictional Top-up Tax (€m) | Collecting Rule | Collecting Jurisdiction(s) and Amount |
 |---|---|---|---|---|---|---|---|
-| A (UPE) | 450 | 95.0 | 24.5 | 25.8% | — (no Top-up Tax of its own) | — | Collects IIR (€2.27m for D) + UTPR (€1.17m for D); no liability of its own |
+| A (UPE) | 450 | Safe Harbour passed | Safe Harbour passed | 27.2%* | — (no Top-up Tax of its own) | — | Collects IIR (€2.27m for D) + UTPR (€1.17m for D); no liability of its own |
 | B (Low-Taxed) | 300 | 85.0 | 8.4 | 9.9% | 3.96 | QDMTT + POPE-IIR | QDMTT (B, local): €3.16m; IIR (C, POPE): €0.80m |
 | C (POPE) | 200 | Safe Harbour passed | Safe Harbour passed | 22.1%* | — (no Top-up Tax of its own) | — | Collects IIR (none for D) + UTPR (€0.34m for D); no liability of its own |
 | D (Low-Taxed, no legislation) | 180 | 40.0 | 2.0 | 5.0% | 3.78 | IIR + UTPR | IIR (A): €2.27m; UTPR (A €1.17m + C €0.34m = €1.51m) |
 | E | 110 | Safe Harbour passed | Safe Harbour passed | 23.8%* | — | — | Not applicable |
 | **Total** | **1,240** | — | — | — | **7.74** | — | — |
 
-*The ETR shown for Country C and E here is the Simplified ETR (CbCR-based), because passing the Safe Harbour meant a full GloBE ETR calculation was not required.
+*The ETR shown for Country A, C, and E here is the Simplified ETR (CbCR-based), because passing the Safe Harbour meant a full GloBE ETR calculation was not required.
 
 In summary: Vantage Industries Group's total Pillar Two exposure for FY2025 is **€7.74 million** (Country B's €3.96m + Country D's €3.78m), collected through four different mechanisms — Country B's own QDMTT (€3.16m), Country C's POPE-IIR (€0.80m), Country A's UPE-IIR (€2.27m), and the UTPR distributed between Country A and Country C (€1.17m + €0.34m = €1.51m). This same set of figures — starting from the €80.0m FANI, through the €85.0m GloBE Income of §G.4, the €8.4m Adjusted Covered Taxes of §G.5, the 9.88% ETR of §G.6, the €77.36m Excess Profit of §G.7, the €3.96m Top-up Tax of §G.8, and the QDMTT/IIR/UTPR allocation of §G.9–§G.11 — forms an unbroken chain linking every calculation methodology from Part 2 through Part 10 of the book into a single realistic worked example.
 
@@ -455,13 +455,13 @@ Chapter 51-এ বর্ণিত GloBE Information Return (GIR)-এর তি�
 
 | দেশ | রাজস্ব (€m) | GloBE Income (€m) | Adjusted Covered Taxes (€m) | ETR | Jurisdictional Top-up Tax (€m) | সংগ্রহকারী নিয়ম | সংগ্রহকারী জুরিসডিকশন ও পরিমাণ |
 |---|---|---|---|---|---|---|---|
-| A (UPE) | 450 | 95.0 | 24.5 | ২৫.৮% | — (নিজস্ব কোনো Top-up Tax নেই) | — | IIR (D-এর জন্য €2.27m) + UTPR (D-এর জন্য €1.17m) সংগ্রহ করে, নিজের কোনো দায় নেই |
+| A (UPE) | 450 | Safe Harbour পাস | Safe Harbour পাস | ২৭.২%* | — (নিজস্ব কোনো Top-up Tax নেই) | — | IIR (D-এর জন্য €2.27m) + UTPR (D-এর জন্য €1.17m) সংগ্রহ করে, নিজের কোনো দায় নেই |
 | B (Low-Taxed) | 300 | 85.0 | 8.4 | ৯.৯% | 3.96 | QDMTT + POPE-IIR | QDMTT (B, স্থানীয়): €3.16m; IIR (C, POPE): €0.80m |
 | C (POPE) | 200 | Safe Harbour পাস | Safe Harbour পাস | ২২.১%* | — (নিজস্ব কোনো Top-up Tax নেই) | — | IIR (D-এর জন্য নেই) + UTPR (D-এর জন্য €0.34m) সংগ্রহ করে, নিজের কোনো দায় নেই |
 | D (Low-Taxed, no legislation) | 180 | 40.0 | 2.0 | ৫.০% | 3.78 | IIR + UTPR | IIR (A): €2.27m; UTPR (A €1.17m + C €0.34m = €1.51m) |
 | E | 110 | Safe Harbour পাস | Safe Harbour পাস | ২৩.৮%* | — | — | প্রযোজ্য নয় |
 | **মোট** | **1,240** | — | — | — | **7.74** | — | — |
 
-*দেশ C ও E-এর ETR এখানে Simplified ETR (CbCR-ভিত্তিক), কারণ Safe Harbour পাস করায় সম্পূর্ণ GloBE ETR গণনার প্রয়োজন হয়নি।
+*দেশ A, C ও E-এর ETR এখানে Simplified ETR (CbCR-ভিত্তিক), কারণ Safe Harbour পাস করায় সম্পূর্ণ GloBE ETR গণনার প্রয়োজন হয়নি।
 
 সংক্ষেপে: Vantage Industries Group-এর FY2025-এর মোট Pillar Two এক্সপোজার হলো **€7.74 মিলিয়ন** (দেশ B-এর €3.96m + দেশ D-এর €3.78m), যা চারটি ভিন্ন প্রক্রিয়ার মাধ্যমে সংগ্রহ করা হয় — দেশ B-এর নিজস্ব QDMTT (€3.16m), দেশ C-এর POPE-IIR (€0.80m), দেশ A-এর UPE-IIR (€2.27m), এবং দেশ A ও C-এর মধ্যে বণ্টিত UTPR (€1.17m + €0.34m = €1.51m)। এই একই সংখ্যাগুচ্ছ — €80.0m FANI থেকে শুরু করে §G.4-এর €85.0m GloBE Income, §G.5-এর €8.4m Adjusted Covered Taxes, §G.6-এর ৯.৮৮% ETR, §G.7-এর €77.36m Excess Profit, §G.8-এর €3.96m Top-up Tax, এবং §G.9–§G.11-এর QDMTT/IIR/UTPR বণ্টন পর্যন্ত — একটি অবিচ্ছিন্ন শৃঙ্খল তৈরি করে, যা বইয়ের Part 2 থেকে Part 10-এর প্রতিটি হিসাব-পদ্ধতিকে একটিমাত্র বাস্তবসদৃশ উদাহরণে সংযুক্ত করে।

@@ -84,7 +84,7 @@ Suppose an entity called **Delta JV Ltd** is located in Jurisdiction "X," and it
 - **Parent A** (located in Jurisdiction "P," where a Qualified IIR is in force) — owns 60% of Delta JV;
 - **Parent B** (located in Jurisdiction "Q," where no Qualified IIR has yet been enacted) — owns 40% of Delta JV.
 
-Both Parents' UPEs account for Delta JV using the equity method in their Consolidated Financial Statements, and even though no single UPE holds more than 50% ownership, each Parent's respective share meets the conditions of the JV definition in Article 6.4 (both Parents together, and also individually, being equity-accounted, means Delta JV is treated as a JV, and both Parents are JV Parents).
+Both Parents' UPEs account for Delta JV using the equity method in their Consolidated Financial Statements. Parent A's 60% stake on its own satisfies the "at least 50%" ownership condition of the Article 6.4 JV definition set out in Section 38.1, so Delta JV qualifies as a JV from Parent A's perspective. Parent B, holding the remaining 40%, is then also treated as a JV Parent simply by virtue of holding an ownership interest in that same already-qualified JV (per Section 38.3) — Parent B's own stake does not need to independently clear the 50% threshold.
 
 Calculating GloBE figures for the Delta JV Group (Delta JV Ltd and its JV Subsidiaries) separately for Jurisdiction "X" gives the following picture:
 
@@ -189,7 +189,7 @@ JV Group-এর ক্ষেত্রে দাখিলের চিত্র �
 - **Parent A** ("P" জুরিসডিকশনে অবস্থিত, যেখানে Qualified IIR বলবৎ আছে) — Delta JV-এর ৬০% অংশের মালিক;
 - **Parent B** ("Q" জুরিসডিকশনে অবস্থিত, যেখানে এখনও কোনো Qualified IIR প্রণীত হয়নি) — Delta JV-এর ৪০% অংশের মালিক।
 
-উভয় Parent-এর UPE Consolidated Financial Statements-এ Delta JV-কে equity method-এ হিসাবভুক্ত করে এবং একক কোনো UPE ৫০%-এর বেশি মালিকানা ধারণ না করলেও, প্রতিটি Parent-এর নিজ নিজ ৫০%-এর কম অংশ Article 6.4-এর JV সংজ্ঞার শর্ত পূরণ করে (উভয় Parent একত্রে এবং পৃথকভাবেও equity-accounted হওয়ার কারণে Delta JV একটি JV হিসেবে গণ্য, এবং দুই Parent-ই JV Parent)।
+উভয় Parent-এর UPE Consolidated Financial Statements-এ Delta JV-কে equity method-এ হিসাবভুক্ত করে। Parent A-এর ৬০% অংশ এককভাবেই ৩৮.১-এ বর্ণিত Article 6.4-এর "কমপক্ষে ৫০%" মালিকানার শর্ত পূরণ করে, ফলে Delta JV Parent A-এর দৃষ্টিকোণ থেকে একটি JV হিসেবে গণ্য হয়। অবশিষ্ট ৪০% অংশের মালিক Parent B-ও তখন সেই একই — ইতিমধ্যে যোগ্যতাপ্রাপ্ত — JV-তে মালিকানার অংশ থাকার কারণে JV Parent হিসেবে গণ্য হয় (৩৮.৩ অনুচ্ছেদ অনুযায়ী) — Parent B-এর নিজের অংশকে আলাদাভাবে ৫০% সীমা অতিক্রম করতে হয় না।
 
 Delta JV Group (Delta JV Ltd ও তার JV Subsidiary-সহ) "X" জুরিসডিকশনের জন্য পৃথকভাবে GloBE হিসাব করলে নিচের চিত্র পাওয়া যায়:
 

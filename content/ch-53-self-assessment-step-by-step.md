@@ -24,7 +24,7 @@ Bearing this reality in mind, this chapter serves as a roadmap — the exact ord
 
 ## 53.2 Step 1 — Scope: Does the Group Fall Within Scope?
 
-The first step is **Scope** — that is, confirming whether the group falls within the GloBE Model Rules at all. Three tests must be carried out for this: (a) whether the group is an MNE Group under the definition relating to Consolidated Financial Statements (Chapter 6); (b) whether annual consolidated revenue has exceeded the €750 million threshold in at least four of the preceding four or more fiscal years (Chapter 7); and (c) whether the UPE or any entity under it falls within the definition of an Excluded Entity, which can affect the determination of the group's overall Scope (Chapter 9).
+The first step is **Scope** — that is, confirming whether the group falls within the GloBE Model Rules at all. Three tests must be carried out for this: (a) whether the group is an MNE Group under the definition relating to Consolidated Financial Statements (Chapter 6); (b) whether annual consolidated revenue has exceeded the €750 million threshold in at least two of the preceding four fiscal years (Chapter 7); and (c) whether the UPE or any entity under it falls within the definition of an Excluded Entity, which can affect the determination of the group's overall Scope (Chapter 9).
 
 The outcome of this step is a clear decision — the group is either "in-scope" or "out-of-scope." Detailed methodology and exceptions can be found in Part 2 (Chapters 6–11), and an overall picture of the basic terminology in Chapter 5. An error at this step renders the following nine steps wholly unnecessary or incomplete, so the threshold test must be repeated every fiscal year — falling within scope once does not create any "permanent status"; if the group drops below the threshold, it may fall out of scope again, and if it newly enters scope, the entire process must start afresh from Step 2.
 
@@ -88,7 +88,7 @@ The checklist below lists the main activities of each step. It can be used for r
 
 **Step 1 — Scope**
 - [ ] Verified whether the group's Consolidated Financial Statements meet the MNE Group definition (Chapter 6)
-- [ ] Tested the €750 million revenue threshold for at least four of the preceding four years (Chapter 7)
+- [ ] Tested the €750 million revenue threshold for at least two of the preceding four years (Chapter 7)
 - [ ] Verified whether the UPE or any subsidiary entity is an Excluded Entity, and considered its effect (Chapter 9)
 - [ ] The overall in-scope/out-of-scope decision for the current year documented in writing
 
@@ -175,7 +175,7 @@ GloBE Model Rules-এর একটি মৌলিক বৈশিষ্ট্�
 
 ## ৫৩.২ ধাপ ১ — Scope: গোষ্ঠী কি আওতায় পড়ে?
 
-প্রথম ধাপ হলো **Scope** (আওতা নির্ধারণ) — অর্থাৎ গোষ্ঠীটি আদৌ GloBE Model Rules-এর অধীনে পড়ে কি না, তা নিশ্চিত করা। এর জন্য তিনটি পরীক্ষা করতে হয়: (ক) গোষ্ঠীটি Consolidated Financial Statements-এর সংজ্ঞা অনুযায়ী একটি MNE Group কি না (অধ্যায় ৬), (খ) পূর্ববর্তী চার বা তার বেশি অর্থবছরের মধ্যে অন্তত চারটিতে বার্ষিক consolidated revenue €৭৫০ মিলিয়ন থ্রেশহোল্ড অতিক্রম করেছে কি না (অধ্যায় ৭), এবং (গ) UPE বা তার অধীনস্থ কোনো সত্তা Excluded Entity-র সংজ্ঞায় পড়ে কি না, যা গোষ্ঠীর সামগ্রিক Scope নির্ধারণকে প্রভাবিত করতে পারে (অধ্যায় ৯)।
+প্রথম ধাপ হলো **Scope** (আওতা নির্ধারণ) — অর্থাৎ গোষ্ঠীটি আদৌ GloBE Model Rules-এর অধীনে পড়ে কি না, তা নিশ্চিত করা। এর জন্য তিনটি পরীক্ষা করতে হয়: (ক) গোষ্ঠীটি Consolidated Financial Statements-এর সংজ্ঞা অনুযায়ী একটি MNE Group কি না (অধ্যায় ৬), (খ) পূর্ববর্তী চার অর্থবছরের মধ্যে অন্তত দুটিতে বার্ষিক consolidated revenue €৭৫০ মিলিয়ন থ্রেশহোল্ড অতিক্রম করেছে কি না (অধ্যায় ৭), এবং (গ) UPE বা তার অধীনস্থ কোনো সত্তা Excluded Entity-র সংজ্ঞায় পড়ে কি না, যা গোষ্ঠীর সামগ্রিক Scope নির্ধারণকে প্রভাবিত করতে পারে (অধ্যায় ৯)।
 
 এই ধাপের ফলাফল হলো একটি স্পষ্ট সিদ্ধান্ত — গোষ্ঠী "in-scope" বা "out-of-scope"। বিস্তারিত পদ্ধতি ও ব্যতিক্রম Part 2 (অধ্যায় ৬–১১)-এ এবং মৌলিক পরিভাষার সামগ্রিক চিত্র অধ্যায় ৫-এ পাওয়া যাবে। এই ধাপে ভুল হলে পরের নয়টি ধাপ সম্পূর্ণ অপ্রয়োজনীয় বা অসম্পূর্ণ হয়ে পড়ে, তাই থ্রেশহোল্ড পরীক্ষা প্রতি অর্থবছরে পুনরায় করা আবশ্যক — একবার আওতায় পড়লে কোনো "স্থায়ী স্ট্যাটাস" তৈরি হয় না; থ্রেশহোল্ড থেকে বেরিয়ে গেলে গোষ্ঠী আবার আওতার বাইরে চলে যেতে পারে, আর নতুন করে আওতায় প্রবেশ করলে ধাপ ২ থেকে সম্পূর্ণ প্রক্রিয়া নতুনভাবে শুরু করতে হয়।
 
@@ -239,7 +239,7 @@ Penalty Relief কোন পরিস্থিতিতে প্রযোজ্
 
 **ধাপ ১ — Scope**
 - [ ] গোষ্ঠীর Consolidated Financial Statements অনুযায়ী MNE Group সংজ্ঞা পূরণ হয় কি না যাচাই করা হয়েছে (অধ্যায় ৬)
-- [ ] পূর্ববর্তী চার বছরের মধ্যে অন্তত চার বছরে €৭৫০ মিলিয়ন revenue threshold পরীক্ষা করা হয়েছে (অধ্যায় ৭)
+- [ ] পূর্ববর্তী চার বছরের মধ্যে অন্তত দুই বছরে €৭৫০ মিলিয়ন revenue threshold পরীক্ষা করা হয়েছে (অধ্যায় ৭)
 - [ ] UPE বা অধীনস্থ কোনো সত্তা Excluded Entity কি না যাচাই করা হয়েছে এবং তার প্রভাব বিবেচনা করা হয়েছে (অধ্যায় ৯)
 - [ ] চলতি বছরের সামগ্রিক in-scope/out-of-scope সিদ্ধান্ত লিখিতভাবে নথিভুক্ত হয়েছে
 
