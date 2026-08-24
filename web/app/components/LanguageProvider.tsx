@@ -1,7 +1,7 @@
 "use client";
 
 import { createContext, useContext, useEffect, useState } from "react";
-import type { Locale } from "@/lib/content";
+import type { Locale } from "@/lib/content-shared";
 
 const STORAGE_KEY = "language";
 

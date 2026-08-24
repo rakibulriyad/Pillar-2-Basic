@@ -1,6 +1,6 @@
 "use client";
 
-import type { ChapterFrontmatter } from "@/lib/content";
+import type { ChapterFrontmatter } from "@/lib/content-shared";
 import { t } from "@/lib/i18n";
 import { useLanguage } from "./LanguageProvider";
 

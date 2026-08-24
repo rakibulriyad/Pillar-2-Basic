@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { pick, type Manifest } from "@/lib/content";
+import { pick, type Manifest } from "@/lib/content-shared";
 import { t } from "@/lib/i18n";
 import { useLanguage } from "./LanguageProvider";
 

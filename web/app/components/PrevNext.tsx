@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { pick, type FlatEntry } from "@/lib/content";
+import { pick, type FlatEntry } from "@/lib/content-shared";
 import { t } from "@/lib/i18n";
 import { useLanguage } from "./LanguageProvider";
 

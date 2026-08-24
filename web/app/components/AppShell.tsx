@@ -6,7 +6,7 @@ import Sidebar from "./Sidebar";
 import ThemeToggle from "./ThemeToggle";
 import LanguageToggle from "./LanguageToggle";
 import { useLanguage } from "./LanguageProvider";
-import { pick, type Manifest } from "@/lib/content";
+import { pick, type Manifest } from "@/lib/content-shared";
 import { t } from "@/lib/i18n";
 
 export default function AppShell({
