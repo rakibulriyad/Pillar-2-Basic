@@ -28,15 +28,14 @@ export default function AppShell({
           type="button"
           onClick={() => setDrawerOpen(true)}
           aria-label={t("appShell", "openToc", language)}
-          className="rounded-md border px-3 py-1.5 text-sm"
+          className="shrink-0 rounded-md border px-3 py-1.5 text-sm"
           style={{ borderColor: "var(--border)" }}
         >
           {t("appShell", "tocButton", language)}
         </button>
-        <Link href="/" className="truncate text-sm font-semibold">
+        <Link href="/" className="min-w-0 flex-1 truncate text-sm font-semibold">
           {pick(manifest.title, language)}
         </Link>
-        <ThemeToggle />
       </header>
 
       {drawerOpen && (
@@ -61,6 +60,9 @@ export default function AppShell({
               >
                 ✕
               </button>
+            </div>
+            <div className="mb-4">
+              <ThemeToggle />
             </div>
             <Sidebar manifest={manifest} onNavigate={() => setDrawerOpen(false)} />
           </div>
