@@ -13,7 +13,133 @@ slug: "ch-07-revenue-threshold"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 7 — The €750 Million Revenue Threshold
+
+> **In this chapter:** the primary and sole quantitative gateway determining whether an MNE Group falls within the scope of the GloBE Rules under Pillar Two is the €750 million Consolidated Revenue Threshold — in this chapter we look at how this threshold is calculated, which revenue counts, how the complications of fiscal year length and currency conversion are handled, and what the special rules are for mergers, demergers, and newly formed groups.
+> **Related Article:** 1.1
+
+## 7.1 The Definition of the Threshold: €750M in at Least Two of Four Years
+
+Under **Article 1.1** of the GloBE Model Rules (the applicability-determining provision), an **MNE Group** (a multinational group — a group operating in more than one country and consolidated under an Ultimate Parent Entity) falls within the scope of the GloBE Rules if the annual revenue shown in the **Consolidated Financial Statements** of its **Ultimate Parent Entity** (**UPE** — the ultimate parent company, whose financial statements are not consolidated into any other entity's) is €750 million or more in at least two of the immediately preceding four fiscal years.
+
+The key feature of this rule is that it is a **"look-back" test** — the decision is not made by looking only at the previous year's revenue, but by analysing a rolling window of the most recent four years. For example, to determine whether a group is in scope for FY2026, the revenue of FY2022, FY2023, FY2024, and FY2025 — these four years — must be examined. If, in at least two of these four years (there is no requirement that they be consecutive), revenue equals or exceeds €750 million, the group will be treated as in scope for FY2026.
+
+The purpose of this "at least 2 years" rule is to prevent a temporary or one-time increase in revenue (such as a large asset sale or a one-off contract) from permanently bringing a group into scope, and, similarly, to prevent a group that has once exceeded the threshold from easily falling out of scope due to a temporary decline in revenue. As a result, this test functions as a stability mechanism — it reduces the likelihood of a group's scope status fluctuating from year to year.
+
+Notably, once a group is in scope, this test must be reapplied afresh each year — because a separate four-year window is examined for each fiscal year. So a group could be in scope one year, out of scope the next, and in scope again after that — this is shown in detail in the numerical example in Section 7.8 below.
+
+## 7.2 What Counts as Revenue — According to the Consolidated Financial Statements
+
+The word "revenue" used in Article 1.1 is not an independent tax or accounting definition — it is taken directly from the UPE's **Consolidated Financial Statements** (financial statements in which the accounts of all constituent entities of the group are combined, with intra-group transactions eliminated). This makes two important points clear.
+
+First, the "total revenue" figure, or its equivalent line item, calculated in accordance with the **Financial Accounting Standard** (such as IFRS or a country's Generally Accepted Accounting Principles) under which the UPE prepares its consolidated statements, is what is used. The GloBE Rules do not create any separate independent definition of revenue — instead, they rely on whichever accounting standard is already applicable. This means that the composition of revenue may differ slightly between groups, because the revenue recognition rules of each accounting framework differ somewhat.
+
+Second, because this is calculated on a consolidated basis, intra-group sales or transactions are eliminated in the consolidation process — they are not double-counted within revenue. As a result, the figure ultimately tested against the threshold reflects the group's revenue from external (third-party) customers.
+
+One exception is worth noting: if, for any reason, the UPE does not prepare any consolidated financial statements at all (for example, on grounds of materiality or some other acceptable reason), it is nevertheless assumed, for the purposes of the GloBE Rules, that the UPE would have had to prepare consolidated statements under a generally recognised Financial Accounting Standard, and revenue is determined on that basis. This hypothetical consolidation rule ensures that no group can avoid the threshold test simply by not preparing consolidated statements.
+
+## 7.3 Proportionate Adjustment When the Fiscal Year Is Shorter or Longer Than 12 Months
+
+The €750 million threshold is set on the basis of a full 12-month **Fiscal Year**. But in practice, a fiscal year does not always run exactly 12 months in many situations — such as the first year of a newly formed group, a change in a UPE's accounting reference date, or when a short-period account must be prepared for an entity.
+
+In such circumstances, the GloBE Rules require a **proportionate adjustment** to be applied. If a fiscal year is shorter or longer than 12 months, it is the €750 million threshold itself that is adjusted in proportion to the length of that fiscal year — not the actual revenue. For example, if a fiscal year is only 6 months long, the threshold required for that year will be half of €750 million, i.e., €375 million. Conversely, if a fiscal year is 15 months long, the threshold will be scaled up proportionately to approximately €937.5 million.
+
+The rationale for this adjustment is that the threshold is essentially trying to measure a proxy for the group's economic scale, or "average monthly revenue," over a year. If the accounting period is shorter or longer, the threshold itself is scaled to make it comparable to that period, so that a group with a shorter period is not unfairly kept out of scope, or a group with a longer period is not unfairly brought into scope.
+
+This adjustment needs to be applied separately for each year within the four-year look-back window — that is, if one year within the four years is a short period, the threshold is adjusted only for that one year, while the full €750 million continues to apply for the remaining years.
+
+## 7.4 Currency Conversion and Monetary Threshold Rebasing
+
+The €750 million threshold is set in euros (EUR), but nearly every jurisdiction in the world converts this figure into its local currency (such as USD, JPY, BDT, or another currency) when enacting the GloBE Rules into its own law. Two main questions arise in this conversion process: which date's exchange rate is used, and how the disparity created by exchange rate fluctuations over time is handled.
+
+Jurisdictions typically use the exchange rate of a specific reference date (such as the average rate for December 2021) to fix the threshold once in local currency, which is then set in law as a fixed local amount — it is not reconverted each year. But this approach carries a risk: if the exchange rate changes significantly over time, the fixed amount set in local currency may become economically inconsistent with the original €750 million — the threshold could effectively become more strict or more lenient in a given jurisdiction.
+
+To address this problem, the second round of the OECD's **Administrative Guidance** (interpretive documentation approved by the Inclusive Framework, which clarifies the application methodology of the GloBE Model Rules) issued in July 2023 discussed the concept of **"rebasing"** — providing guidance on how non-EUR jurisdictions may periodically revalue or rebase their local-currency-denominated monetary thresholds (including the €750 million threshold as well as other de minimis and safe harbour thresholds) based on exchange rate movements, so as to maintain consistency in threshold application across jurisdictions. In practical terms, a practitioner should always verify, in the local law of the group's headquarters or of each relevant jurisdiction, on what date's exchange rate the threshold was set and whether there is any scope for it to be rebased.
+
+## 7.5 Applying the Threshold in Group Mergers and Demergers (Article 6.1)
+
+In the real world, groups are not static — mergers (combinations) and demergers (divisions) change the composition of a group. If the four-year look-back window only considered the history of the "current group," it would be easy to avoid the threshold through a merger or demerger. To close this gap, **Article 6.1** (special rules relating to mergers and demergers) provides specific adjustment rules.
+
+In the case of a **Merger**, when two or more separate groups combine to form a new MNE Group, for the years in the look-back period in which the merger had not yet occurred, the revenue of the previously separate groups is combined (aggregated) as if they had been a single group. As a result, the threshold test is applied using the merged entity's combined revenue, so that two medium-sized groups cannot combine and claim to be a "new group" in order to reset their history.
+
+In the case of a **Demerger**, the opposite problem arises — when a group splits into multiple separate groups, each one's individual revenue may fall below the threshold. Under the transitional rule of Article 6.1, in the first four years following a demerger, each demerged group is treated as in scope if its revenue in the year of the demerger is €750 million or more; in subsequent years, the ordinary rule applies, but the basis is the historical revenue of the previously combined group, divided among the separate groups as necessary. The purpose is to prevent artificial demergers from being used to avoid the scope of GloBE.
+
+## 7.6 The First Year of a New Group
+
+A newly formed MNE Group does not have the required four-year history. In this situation, the general rule is: only the fiscal years that actually exist are considered. For example, if a group was formed only two years ago, revenue must reach €750 million in both of those two years to be in scope — because the number of available years is itself two.
+
+If a group has existed for only one year (its first fiscal year), then revenue must reach €750 million in that single year. This interpretation ensures that an entirely new but massive group (such as one formed through a large IPO or spin-off) cannot avoid scope in its first year merely for lack of history.
+
+The practical significance of this is that, from the moment a new group is formed, the consolidated revenue of every fiscal year needs to be recorded, because this data will become the basis of the full four-year look-back window in the future.
+
+## 7.7 Similarities and Differences Between This Threshold and the CbCR Threshold
+
+A similarity between the GloBE €750 million threshold and the **Country-by-Country Reporting** (**CbCR** — a transfer-pricing-related reporting system introduced under BEPS Action 13) threshold is often a source of confusion, because both nominally use the same figure — €750 million. But this similarity is only superficial; there are important differences between the two regimes.
+
+In terms of similarities, both regimes share the same basic principle — imposing additional compliance and reporting burdens only on sufficiently large multinational groups, while sparing small or medium-sized groups from that complexity. In addition, a number of jurisdictions use CbCR data itself for the purposes of Pillar Two's **Transitional CbCR Safe Harbour** (a temporary simplified test that uses Qualified CbCR data to avoid a complex GloBE computation), creating a functional link between the two regimes.
+
+In terms of differences, the first is the nature of the test: the CbCR threshold is essentially a single-year test (revenue of the preceding fiscal year), whereas the GloBE threshold is a rolling test of two years out of four. Second, there may also be differences in the definition of revenue — CbCR often uses a prescriptive definition, whereas GloBE revenue depends directly on the consolidated financial statements. Third, the purposes of the two regimes also differ — CbCR is an information-disclosure system, while GloBE is a complete tax computation and top-up tax liability determination system. As a result, a group being in scope for CbCR does not automatically prove it is in scope for GloBE, and both thresholds must be tested independently.
+
+## 7.8 A Numerical Example
+
+Below is a complete worked example, showing the consolidated revenue of a hypothetical group — "Meridian Apparel Group" — over eight fiscal years (FY2018–FY2025), and, based on that, determining step by step, applying the "at least two of four years at €750M" rule, whether the group is in scope for each year from FY2022 to FY2026.
+
+**Step 1 — Raw data: consolidated revenue for each fiscal year**
+
+| Fiscal Year | Consolidated Revenue (€ million) | €750M or more? |
+|---|---|---|
+| FY2018 | 690 | No |
+| FY2019 | 810 | Yes |
+| FY2020 | 705 | No |
+| FY2021 | 760 | Yes |
+| FY2022 | 695 | No |
+| FY2023 | 740 | No |
+| FY2024 | 780 | Yes |
+| FY2025 | 730 | No |
+
+**Step 2 — Identifying the immediately preceding four-year window for each test year**
+
+It is important to remember that in-scope determination for FY N looks at FY(N-4) through FY(N-1) — that is, FY N's own revenue is not counted in this test, only the preceding four years are examined.
+
+| Test Year | Look-back Window | Number of qualifying (€750M+) years in the window | In scope? |
+|---|---|---|---|
+| FY2022 | FY2018–FY2021 | 690, 810, 705, 760 → 2 (FY2019, FY2021) | Yes |
+| FY2023 | FY2019–FY2022 | 810, 705, 760, 695 → 2 (FY2019, FY2021) | Yes |
+| FY2024 | FY2020–FY2023 | 705, 760, 695, 740 → 1 (FY2021 only) | No |
+| FY2025 | FY2021–FY2024 | 760, 695, 740, 780 → 2 (FY2021, FY2024) | Yes |
+| FY2026 | FY2022–FY2025 | 695, 740, 780, 730 → 1 (FY2024 only) | No |
+
+**Step 3 — Explanation and observations**
+
+For FY2022, the window is FY2018 through FY2021. Within these four years, revenue exceeded the threshold in two years — FY2019 (€810M) and FY2021 (€760M). Two years is sufficient, so Meridian Apparel Group is **in scope** for FY2022.
+
+The window for FY2023 (FY2019–FY2022) likewise picks up two qualifying years (FY2019, FY2021), so the group remains **in scope** here as well — even though FY2022's own revenue (€695M) is below the threshold, this does not affect the calculation because FY2022 is not part of this window (the window ends at FY2021).
+
+From the FY2024 window (FY2020–FY2023), FY2019 drops out (it has moved outside the window), and only FY2021 (€760M) remains qualifying — just one year. As a result, Meridian Apparel Group becomes **out of scope** in FY2024, even though it had been in scope for the two preceding years. This clearly shows that if the rolling window "loses" an older qualifying year, a group can fall out of scope.
+
+The FY2025 window (FY2021–FY2024) brings in FY2021 (€760M) and, newly, FY2024 (€780M) — two qualifying years, so the group becomes **in scope** again. This demonstrates that a group can fluctuate in and out of scope from one year to the next, and this test must be performed anew every year.
+
+From the FY2026 window (FY2022–FY2025), FY2021 drops out, and only FY2024 (€780M) remains qualifying within the window — a single year, which is not sufficient. As a result, the group is again **out of scope** in FY2026.
+
+**Key takeaway:** This example shows that GloBE scope status is not a one-time decision — it must be reassessed anew for every fiscal year, and a group may move in and out of scope over the years due to fluctuations in its revenue history. For practitioners, this means that at the start of each fiscal year, scope determination must be confirmed by reviewing the entire four-year historical revenue, not just the current year's projection.
+
+## Summary
+
+In this chapter we saw that, under Article 1.1 of the GloBE Rules, the €750 million Consolidated Revenue Threshold is the primary gateway for the application of Pillar Two, determined through a rolling look-back test of at least two years out of four — it is not a single-year test. This revenue is taken from the UPE's Consolidated Financial Statements and follows the definition of the relevant accounting standard, under which intra-group transactions are eliminated through consolidation. If the fiscal year is shorter or longer than 12 months, it is the threshold itself, not the actual revenue, that is adjusted proportionately. Various jurisdictions apply the €750 million threshold by converting it into local currency, and the concept of rebasing to handle exchange rate movements was discussed in the July 2023 round of OECD Administrative Guidance. For mergers and demergers, Article 6.1 provides special aggregation and transitional rules, so that the threshold cannot be avoided through group restructuring. For new groups, the rule is adjusted according to the number of available years. Finally, although the GloBE threshold and the CbCR threshold use nominally the same figure, they differ methodologically — one is a single-year test, the other a multi-year rolling test — and the two must be analysed separately.
+
+## Common Mistakes
+
+A very common mistake is to make a scope decision by looking only at the most recent fiscal year's revenue — whereas the rule requires a test of at least two years out of four, so a group may remain in scope even if revenue is below the threshold in one year (and, conversely, exceeding the threshold in the current year does not immediately place the group in scope).
+
+A second common mistake is assuming that, once in scope, a group will remain permanently in scope — as shown in the example in Section 7.8, a group can fall out of scope because an older qualifying year "drops out" of the rolling window, and this reassessment must be performed every year.
+
+Third, many treat GloBE revenue and CbCR revenue as identical and perform the scope determination for both regimes together — since the nature of the test (single-year vs. multi-year) differs, the two must be verified separately.
+
+Fourth, when the fiscal year departs from 12 months, many incorrectly try to annualise the actual revenue — the correct method is to adjust the threshold figure proportionately, not the revenue.
+
+Fifth, in the years following a merger or demerger, many overlook the historical revenue of the previously separate groups, whereas the aggregation and transitional rules of Article 6.1 often require it to be taken into account.
+
+Finally, many assume that a threshold amount fixed in local currency will remain permanently unchanged despite exchange rate movements — in reality, regular verification of local law is required, taking into account the Administrative Guidance on rebasing.
 
 <!-- lang:bn -->
 

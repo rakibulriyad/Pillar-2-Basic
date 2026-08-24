@@ -13,7 +13,106 @@ slug: "ch-24-post-filing-adjustments"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 24 — Post-Filing Adjustments and Tax Rate Changes
+
+> **In this chapter:** even after a fiscal year's tax liability has been determined, it can change because of an audit, an appeal, or a tax rate change — in this chapter we examine how the GloBE Model Rules divide this kind of **post-filing adjustment** into a current-year adjustment or a prior-year recalculation, when the €1 million de minimis election applies, and how the result of a recalculation is added to the current year as Additional Current Top-up Tax.
+> **Related Article:** 4.6
+
+## 24.1 When a Prior Year's Tax Increases — Adjustment in the Current Year
+
+The tax liability that a Constituent Entity computed in its financial accounts may change in some subsequent Fiscal Year — for example, because of a tax authority's final determination, a voluntarily amended return, or correction of an accounting error. Under **Article 4.6.1**, if this amendment results in an *increase* in the **Covered Taxes** computed for an earlier year, that increase does not need to reopen the prior year's calculation — instead, it is computed directly as an adjustment to the current Fiscal Year's Covered Taxes.
+
+The rationale for this approach is simple: since a tax increase means the ETR (Effective Tax Rate) moves even higher, there is no risk that this amendment will increase Top-up Tax (the supplementary tax that fills the gap up to the minimum tax rate) — if anything, it will move it lower. As a result, to avoid administrative complexity, instead of redoing the prior year's GloBE calculation, this additional tax is simply included in the current year.
+
+For example, if a tax audit in 2023 in some jurisdiction increases an entity's tax liability by €500,000, this €500,000 will be added to the Adjusted Covered Taxes of the current year (the year in which the audit decision arrives). This avoids the need to reopen the prior year's GloBE Information filing, and considerably reduces the administrative burden. However, this simplified rule applies only to increases — for decreases, an entirely different and much stricter rule applies, discussed in the next section.
+
+## 24.2 When a Prior Year's Tax Decreases — The Obligation to Recalculate
+
+The rule for a decrease in Covered Taxes is the opposite and much more cautious. Under **Article 4.6.2**, if the tax included in a Constituent Entity's Adjusted Covered Taxes for a prior Fiscal Year subsequently *decreases*, then as a general rule this decrease cannot be adjusted in the current year — instead, the ETR and Top-up Tax for that prior year must be recomputed. This process is called **recalculation**.
+
+The reason is clear: a decrease in tax means the actual ETR for that year was, in the first place, lower than what had been assumed. If this decrease were treated as a current-year adjustment, there would be a risk that Top-up Tax had been undercomputed for the prior year — and even though the jurisdiction's actual ETR was below the minimum tax rate (15%), this could go unnoticed. It is precisely to prevent this risk that the Model Rules impose a mandatory recalculation rule.
+
+The recalculation process effectively follows the framework of Article 5.4.1: first, the decreased amount is removed from that prior year's jurisdictional Adjusted Covered Taxes, then the ETR and Top-up Tax Percentage are recomputed, and finally, the new Top-up Tax is determined by applying this to the Excess Profit. If Top-up Tax increases as a result of this new calculation, the difference is added to the current year as **Additional Current Top-up Tax** (the additional top-up tax imposed in the current year as a result of a prior year's recalculation). This concept is discussed in detail in Section 24.6.
+
+## 24.3 Insignificant Decreases (Below €1M) — The Election to Take in the Current Year
+
+To avoid the administrative burden of recalculation, Article 4.6.2 includes a practical relief. If the total amount of decreased Covered Taxes for a Fiscal Year is **below €1,000,000**, an MNE Group may, if it wishes, make a **de minimis election** (a small-threshold election — an opportunity for simplified treatment for amounts below a specified limit). If this election is made, the decreased amount can be computed as a direct adjustment of the current year's Covered Taxes instead of a prior-year recalculation — that is, the same simple approach described for increases in Section 24.1 applies.
+
+This threshold is applied on a jurisdiction basis and per Fiscal Year — if there are multiple small adjustments within the same jurisdiction in the same year, and their sum exceeds €1 million, the election will not be available. The election is not a mandatory rule — an MNE Group may choose full recalculation even for a small decrease, if that is more advantageous for them (for example, if the recalculation would not actually increase Top-up Tax).
+
+The practical importance of this election is significant. Small true-ups, rounding adjustments, minor audit settlements — recomputing the entire prior year's ETR and Top-up Tax every time for such small amounts would be costly and time-consuming for both the MNE Group and the tax administration. However, there is an important exception — this de minimis relief does not apply to a decrease in the domestic tax rate, which is explained in the next section.
+
+## 24.4 A Decrease in the Domestic Tax Rate and Its Retroactive Effect
+
+**Article 4.6.3** addresses a specific and stricter situation: when the decrease in Covered Taxes is not due to an administrative adjustment or audit outcome, but occurs directly because of a **decrease in the domestic tax rate** (a legal reduction of the local jurisdiction's general corporate tax rate). In such cases, no matter how small the amount of the decrease, **the €1 million de minimis election does not apply** — the recalculation of that prior year is mandatory.
+
+There is a clear anti-abuse rationale behind this strictness. If a jurisdiction knew that Top-up Tax was not being imposed because its tax rate was close to or above the minimum tax rate (15%), it could reduce its rate with retroactive effect for a prior year and refund tax, thereby providing a tax benefit outside the GloBE calculation. If such a decrease were permitted to be treated as a current-year adjustment under de minimis, jurisdictions could effectively avoid the recalculation obligation by reducing rates in small, successive steps. It is precisely to close this loophole that Article 4.6.3 keeps all types of rate-related decreases — no matter how small the amount — under mandatory recalculation.
+
+From a practical standpoint, this means an MNE Group must regularly monitor rate-change announcements in each of its jurisdictions, and identify any retrospective rate decrease and be prepared to recalculate for it — even if its financial impact seems negligible. This provision demands additional discipline in information gathering and record-keeping, because it is not enough to know just "how much the decrease is" — it is also necessary to determine "why the decrease occurred."
+
+## 24.5 Tax Unpaid Within Three Years — Recalculation
+
+An important gap-closing rule of Article 4.6 concerns accrued but unpaid tax. A Constituent Entity may compute a current tax expense in its financial accounts that is included in its Covered Taxes and increases the ETR, thereby reducing or eliminating Top-up Tax — but in reality that tax is never actually paid. If such a possibility were freely permitted, a low-tax jurisdiction could help stay below the GloBE threshold by computing a high tax liability on paper, even though no actual tax ever reached the treasury.
+
+To close this loophole, the Model Rules specify that if a Covered Tax liability is not actually paid within **three years** after the end of the relevant Fiscal Year, it must be excluded from the original year's Adjusted Covered Taxes. This exclusion is treated as a decrease under Article 4.6.2 — meaning it too requires recomputing that prior year's ETR and Top-up Tax (unless it falls below the €1 million de minimis threshold and the election is made).
+
+This three-year rule is effectively a "cash-basis backstop": it ensures that, in the long run, only tax that is actually paid (or reasonably expected to be payable) remains part of Adjusted Covered Taxes. In practice, an MNE Group must maintain a tracking ledger of accrued current tax by year in each jurisdiction, with the actual payment date attached against each amount, so that the unpaid portion can be identified before the three-year period elapses and the recalculation completed in time.
+
+## 24.6 The Result of Recalculation: Additional Current Top-up Tax
+
+When a mandatory recalculation must be carried out in any of the situations described in 24.2, 24.4, or 24.5, the question arises — where will the result of that recalculation be reflected? The Model Rules' solution is: there is no need to reopen the prior year's GloBE calculation and filing; instead, the additional Top-up Tax obtained from the recalculation is added directly, under **Article 4.1.5**, as a separate component in the **current Fiscal Year's** Top-up Tax calculation — this is the Additional Current Top-up Tax.
+
+The calculation method is specific: first, the ETR and Top-up Tax Percentage of the prior year are recomputed using the revised Covered Taxes for that year; then the new Top-up Tax Percentage is applied to that prior year's Excess Profit (GloBE Income minus the Substance-based Income Exclusion) to determine the new Top-up Tax; finally, subtracting the Top-up Tax computed in the original filing from this new Top-up Tax gives the difference, which is the Additional Current Top-up Tax.
+
+This additional tax is added to the current year's jurisdictional Top-up Tax and allocated among that jurisdiction's Constituent Entities under the formula in **Article 5.4.3** — generally on the basis of each entity's proportionate share of the current year's GloBE Income. If no Constituent Entity in a jurisdiction has GloBE Income in the current year (for example, if all are in a loss position), allocation is made in equal shares or by another specified method. The core benefit of this framework is administrative stability — once a year's GloBE filing is complete, rather than reopening it, adjustments always flow "forward-looking."
+
+## 24.7 The Impact of Tax Audits and Dispute Resolution
+
+In real business environments, the most common source of Covered Taxes adjustments is tax audits, administrative appeals, and dispute resolution through a Mutual Agreement Procedure (MAP, a bilateral dispute resolution process between two countries' tax authorities) or the courts. The outcome of each of these processes is considered through the same framework of Article 4.6 — if the outcome increases tax, a current-year adjustment (24.1); if it decreases tax, mandatory recalculation or the de minimis election (24.2–24.3).
+
+An important practical complexity is the time gap. A tax audit or MAP settlement often takes three to seven years or more to complete, so a recalculation may need to be done for a Fiscal Year whose GloBE filing was completed and closed long ago. It is practical for an MNE Group to maintain a "contingent adjustment register" for each jurisdiction during such long-running disputes, so that once a settlement arrives, recalculation can be done quickly and accurately.
+
+In addition, transfer pricing adjustments also fall within this framework. If two jurisdictions determine different prices for the same transaction, a corresponding adjustment or MAP settlement can increase tax in one jurisdiction and decrease it in the other — the rules of Article 4.6 will apply separately to each jurisdiction, a current-year adjustment in one and a possible recalculation in the other. Coordinated documentation is essential to track this dual effect, because the adjustments in the two jurisdictions may be reflected in different Fiscal Years.
+
+## 24.8 A Numerical Example
+
+Suppose the XYZ Group has two Constituent Entities in the "Ruritania" jurisdiction — R1 and R2. In the original GloBE filing for 2024 (FY2024), the overall figures for this jurisdiction were as follows: jurisdictional GloBE Income of €40,000,000, and Adjusted Covered Taxes of €6,000,000, giving ETR = 6,000,000 ÷ 40,000,000 = 15% — exactly equal to the minimum tax rate, so there was no Top-up Tax that year.
+
+In 2026 (FY2026), Ruritania's tax authority settles an audit for FY2024, resulting in a permanent decrease of €2,000,000 in R1's tax liability (for example, because a previously disallowed expense is recognized as deductible). As a result, jurisdictional Covered Taxes for FY2024 drop from €6,000,000 to €4,000,000 — a decrease far exceeding the €1,000,000 de minimis threshold, so mandatory recalculation is required under Article 4.6.2.
+
+**Step 1 — Recalculation of FY2024:**
+
+| Item | Original filing (FY2024) | After recalculation (FY2024) |
+|---|---|---|
+| Jurisdictional GloBE Income | €40,000,000 | €40,000,000 |
+| Adjusted Covered Taxes | €6,000,000 | €4,000,000 (decrease of €2,000,000) |
+| ETR | 15% | 10% |
+| Top-up Tax Percentage (15% − ETR) | 0% | 5% |
+| Substance-based Income Exclusion (SBIE) | €5,000,000 | €5,000,000 |
+| Excess Profit (GloBE Income − SBIE) | €35,000,000 | €35,000,000 |
+| Jurisdictional Top-up Tax | €0 | €1,750,000 |
+
+Calculation: recalculated ETR = 4,000,000 ÷ 40,000,000 = 10%. Top-up Tax Percentage = 15% − 10% = 5%. Excess Profit = 40,000,000 − 5,000,000 = 35,000,000. Recalculated Top-up Tax = 5% × 35,000,000 = €1,750,000. Top-up Tax in the original filing was €0, so the entire €1,750,000 is the result of this recalculation.
+
+**Step 2 — Adding it as Additional Current Top-up Tax in FY2026:**
+
+Under Articles 4.6.2 and 4.1.5, this €1,750,000 will be treated as Additional Current Top-up Tax for FY2026, without reopening the prior year's filing, and will be allocated among Ruritania's Constituent Entities under the formula in Article 5.4.3, in proportion to their FY2026 GloBE Income.
+
+| Entity | FY2026 GloBE Income | Share (%) | Allocated Additional Current Top-up Tax |
+|---|---|---|---|
+| R1 | €24,000,000 | 60% | €1,050,000 |
+| R2 | €16,000,000 | 40% | €700,000 |
+| **Total** | **€40,000,000** | **100%** | **€1,750,000** |
+
+Thus, for FY2026, R1 must bear €1,050,000 and R2 must bear €700,000 of Additional Current Top-up Tax, which will be added to their regular FY2026 Top-up Tax calculation. This example clearly shows how a prior year's tax decrease — even though it occurred two years later and directly affected only one entity (R1) — is ultimately allocated among all entities of that jurisdiction (both R1 and R2) in proportion to the current year's GloBE Income, increasing the current year's tax liability for both.
+
+## Summary
+
+Article 4.6 creates a clear and asymmetric framework for post-filing adjustments and tax rate changes. When Covered Taxes increase, it is simple — the adjustment is made in the current year, with no need to reopen the prior year's calculation. But when Covered Taxes decrease, the general rule is mandatory recalculation of the prior year's ETR and Top-up Tax, because a decrease means less tax was actually paid that year than assumed. There is a practical relief from this strictness — a de minimis election for decreases below €1 million, allowing a simple current-year adjustment. However, this relief does not apply in two cases: a decrease in the domestic tax rate (for anti-abuse reasons) and accrued tax unpaid within three years (for cash-basis backstop reasons) — in these two cases, no matter how small the amount, full recalculation is mandatory. The result of any recalculation is added to the current year as Additional Current Top-up Tax, without amending the prior year's filing, and is allocated among that jurisdiction's entities in proportion to the current year's GloBE Income. Tax audits, appeals, MAP settlements, and transfer pricing adjustments are all considered through this same framework, although their tracking can be complex because of long time gaps.
+
+## Common Mistakes
+
+A common mistake is automatically treating all types of Covered Taxes decreases as eligible for the de minimis election, ignoring that this relief does not apply to a decrease in the domestic tax rate — this results in even a small rate-related decrease being incorrectly shown as a current-year adjustment, violating Article 4.6.3. A second mistake is failing to track accrued but unpaid tax — leaving an unpaid amount in Adjusted Covered Taxes even after the three-year period has elapsed, which creates a risk of a large retroactive recalculation if later caught in an audit. A third mistake is judging each small adjustment separately rather than viewing the de minimis threshold as a jurisdiction-based aggregate — if the sum of multiple small decreases in the same jurisdiction in the same year exceeds €1 million, the election becomes unavailable. A fourth mistake is incorrectly trying to reflect the result of a recalculation by amending the prior year's filing, when the Model Rules clearly direct a forward-looking adjustment as the current year's Additional Current Top-up Tax. Finally, failing to maintain a contingent adjustment register for long-running tax audits and MAP settlements is a significant administrative gap — as a result, when a settlement arrives years later, the necessary historical information (the original ETR, SBIE, Excess Profit) may not be readily available, making an accurate recalculation difficult.
 
 <!-- lang:bn -->
 

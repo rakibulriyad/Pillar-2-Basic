@@ -13,7 +13,116 @@ slug: "ch-14-chapter-3-elections"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 14 — Chapter 3 Elections
+
+> **In this chapter:** among the adjustments that must be made to Financial Accounting Net Income/Loss when determining GloBE Income or Loss, five important Elections can be applied optionally. In this chapter we discuss, for each Election, the process, duration, consequences of revocation, and the circumstances in which making it is advantageous.
+> **Relevant Article:** 3.2.2, 3.2.5, 3.2.6, 3.2.8
+
+## 14.1 The Process, Duration, and Revocation of an Election
+
+Alongside a number of mandatory adjustments for determining GloBE Income or Loss from Financial Accounting Net Income or Loss, Chapter 3 of the GloBE Model Rules provides the opportunity for several optional **Elections**. These Elections give the MNE Group some flexibility to adapt the GloBE accounting methodology to its own financial reality, so as to avoid abnormal ETR fluctuations arising from timing differences between accounting and tax rules.
+
+Each Election is generally notified by the **Filing Constituent Entity** through the GloBE Information Return (GIR). Once an Election is made, it remains in effect for a specified duration — the five Elections discussed in this chapter fall into three duration structures:
+
+- **One-Time Election:** once made, remains in effect indefinitely until revoked. None of the five Elections in this chapter fall into this category, but the structure is mentioned here for comparison.
+- **Five-Year Election:** once made, automatically remains in effect starting from the relevant Fiscal Year through the following five Fiscal Years, and automatically renews at the end of that term — unless the MNE Group specifically revokes it.
+- **Annual Election:** must be made afresh each year; not making it in a prior year does not prevent making it the following year, and making it in one year does not automatically carry over to the following year.
+
+Although the decision to revoke an Election may seem simple, it is often accompanied by a "true-up" or reconciliation-type consequence, discussed in detail in Section 14.7. For this reason, it is important to examine the multi-year impact before making an Election — because within the term of a Five-Year Election, the opportunity to change the decision is limited.
+
+## 14.2 Stock-Based Compensation Election (5 Years)
+
+In Financial Accounting, stock-based compensation is generally recognised as an expense gradually over the vesting period, based on the fair value at the grant date. But under the tax rules of many countries, the deductible amount is determined based on the intrinsic value at the time of exercise — which, due to fluctuations in the market price of the shares, can differ substantially from the accounting expense. This difference gives rise to deferred-tax-type complexity, which can introduce abnormal year-to-year fluctuations in the covered tax calculation.
+
+The **Stock-Based Compensation Election** — under Article 3.2.2 — allows the MNE Group to use, in the GloBE Income or Loss calculation, the amount that is tax deductible under local tax rules, instead of the accounting expense. This Election is a Five-Year Election and must be applied consistently across all Constituent Entities and all stock-based arrangements in the relevant jurisdiction — that is, it cannot be applied selectively to only some cases.
+
+If the Election is revoked, an adjustment must be made in the year of revocation: whatever difference between the previously claimed tax deduction and the accounting expense has not yet "reversed" must be added to or subtracted from that year's GloBE Income, so that no portion is left permanently outside the GloBE calculation.
+
+This Election is generally advantageous when the amount of the local tax deduction remains roughly equal to, or somewhat greater than, the accounting expense over time, and there is a risk that revaluation of a deferred tax asset due to share-price volatility could introduce irregular fluctuations into covered tax — the Election removes this fluctuation by bringing accounting and tax onto the same basis. Conversely, in a jurisdiction where the tax deduction for stock-based compensation is limited or disallowed (for example, the deduction is zero or significantly less than the accounting expense), making this Election would artificially increase GloBE Income and have an adverse (negative) effect on the ETR — in that case it is better to avoid the Election.
+
+## 14.3 Realisation Principle Election (5 Years)
+
+Under accounting standards (such as fair value accounting or mark-to-market methods), certain assets and liabilities (such as investment property, financial instruments) are revalued, so that unrealised gains/losses are reflected each year in the income statement (P&L) or Other Comprehensive Income. But under the tax systems of most countries, actual taxability arises only when the asset is actually sold or disposed of — that is, at the time of realisation. Because of this difference, GloBE Income can end up including gains/losses for which actual tax has not yet become due.
+
+The **Realisation Principle Election** — Article 3.2.5 — gives the MNE Group the opportunity to calculate GloBE figures based on historical cost, disregarding fair-value or mark-to-market-based revaluation, and to recognise a gain or loss only at the time of actual disposal. This is a Five-Year Election and must be applied consistently across the jurisdiction for the specified classes of assets and liabilities.
+
+If the Election is revoked, the unrealised gain or loss accumulated during the election period must be brought into account in the year of revocation — that is, the asset is treated as though it were disposed of on the date of revocation, so as to avoid double-counting or double-exclusion.
+
+This Election is particularly advantageous for those holding volatile mark-to-market assets — such as trading securities, annually revalued investment property, or insurance-related financial instruments. For such assets, fair-value fluctuations can affect the GloBE ETR abnormally from year to year, which is not consistent with the actual tax liability. The Election removes this fluctuation and brings GloBE accounting closer to the timing of local tax rules — it is widely considered particularly for real estate holding companies and investment funds.
+
+## 14.4 Aggregate Asset Gain / Look-back Election (Annual)
+
+A gain or loss arising from the sale of tangible/immovable property located in a local jurisdiction to a third party is often a one-off, lumpy event — such as the sale of a factory or land. If such a large one-time gain is included in full in GloBE Income in a single year, the ETR for that particular year could be abnormally inflated, even if the actual tax payment is consistently made at the correct stage.
+
+The **Aggregate Asset Gain Election**, or **Look-back Election** — Article 3.2.6 — provides a smoothing mechanism to address this problem. Under this Election, the year of election together with the preceding four Fiscal Years — a total of five years — form a "Look-back Period." If there is a net gain in the year of election, it is first offset against any unused net loss within the Look-back Period, and the remaining gain is retroactively allocated to the prior years, with the ETR/Top-up Tax of those years recalculated; the residual amount remains taxable in the year of election. Conversely, if a net loss arises and cannot be fully offset, it can be carried forward within a rolling five-year window against future gains.
+
+This is the only **Annual Election** in this chapter — that is, it must be made separately each year, and can be applied separately on a jurisdiction basis. If not made in a given year, it can still be made the following year; there is no five-year lock-in.
+
+This Election is most advantageous when the MNE Group expects a large one-time gain in a given year from the sale of local tangible property — such as the sale of a factory or land — particularly if the local tax on that gain is paid in installments, or there is a concern that Top-up Tax could arise from a one-off calculation because the tax rate is temporarily below 15%. Without the Election, if this entire gain were counted in a single year, the ETR could be distorted, even though the group's long-term tax behaviour is normal.
+
+## 14.5 Consolidated Accounting Treatment Election (5 Years)
+
+Under the general rule, each Constituent Entity's GloBE Income or Loss is calculated separately (on a standalone basis) from its own financial accounts. But intra-group transactions — such as a markup on an inventory transfer or an intra-group asset sale — between two Constituent Entities located in the same jurisdiction and under the same Tax Consolidation Group are generally eliminated through an elimination entry in the consolidated financial statements, but remain in the standalone accounts. As a result, such unrealised intra-group gains/losses could artificially be included in the GloBE calculation until the asset is ultimately sold to a third party.
+
+The **Consolidated Accounting Treatment Election** — Article 3.2.8 — allows the Ultimate Parent Entity to eliminate, in the same manner, from each relevant Entity's standalone GloBE calculation, the income, expense, gain, and loss arising from transactions between Constituent Entities located in the same jurisdiction and belonging to the same Tax Consolidation Group — which are eliminated in the group's consolidated financial statements. This is a Five-Year Election, and its application is limited to Entities located in the same jurisdiction and under an equivalent tax-consolidation arrangement — it does not apply to cross-border transactions.
+
+This Election is generally advantageous when a domestic Tax Consolidation arrangement exists in a jurisdiction and there are regular intra-group transactions between the Constituent Entities within that jurisdiction, where unrealised intra-group profit could otherwise enter the standalone calculation and artificially increase the group's overall GloBE Income, even though from a group perspective it is not real profit.
+
+## 14.6 Equity Investment Inclusion Election (5 Years)
+
+Under the general rule of Article 3.2.1, most gains, losses, and dividends arising from an ownership interest are excluded from GloBE Income — these excluded amounts are called Excluded Equity Gain or Loss and Excluded Dividends. As an exception, dividends received from a **Short-term Portfolio Shareholding** (shares representing less than 10% ownership held for less than one year) are included under the general rule, but dividends from a Portfolio Shareholding held for more than one year are generally excluded — an administrative policy adopted to avoid double taxation.
+
+The **Equity Investment Inclusion Election** gives the MNE Group the opportunity, for a specific Constituent Entity, to include in GloBE Income the dividends received from all of its Portfolio Shareholdings — that is, to reject the default excluding treatment and consciously choose to include the income. This is a Five-Year Election and, importantly, is Entity-specific — that is, it must be considered separately for each Constituent Entity, not for an entire jurisdiction or the whole group.
+
+To understand why this Election could be worth making, it is important to remember that excluding income also involves a related tax adjustment — the Withholding Tax or tax withheld at source associated with Excluded Income must be excluded from covered tax, which can be administratively complex and error-prone, particularly when an Entity holds many small Portfolio investments. Where the tax applicable to the underlying investment — whether withholding tax or local tax — is already close to or above 15%, including both the dividend and the associated tax has little negative effect on the ETR, and instead simplifies the accounting. Conversely, including dividends from a Portfolio investment located in a low-tax-rate jurisdiction could reduce the ETR — so this decision should be made only after analysing each investment profile.
+
+## 14.7 The Consequences of Revocation and Limits on Re-electing
+
+For a Five-Year Election, the default rule is that, once made, it remains in effect for the following five years from the Fiscal Year of first application, and automatically renews unless specifically revoked at the end of the term. If the MNE Group revokes the Election at or before the end of the term, the general principle is that the same Election cannot be made again within the following five years — this restriction exists so that the MNE Group cannot repeatedly turn an Election on and off to "arbitrage" the accounting method for short-term ETR benefit.
+
+A different structure applies to the Aggregate Asset Gain Election — since it is Annual, there is no specific lock-in or limit on re-election; the decision can be made independently each year.
+
+The "true-up" consequences to watch for at the time of revocation:
+
+- **Revocation of the Stock-Based Compensation Election:** whatever portion of the previously claimed tax deduction and the accounting expense has not yet reconciled must be adjusted into GloBE Income in the year of revocation.
+- **Revocation of the Realisation Principle Election:** the unrealised gain/loss accumulated during the election period must be brought into account as though the asset were disposed of on the date of revocation.
+- **Revocation of the Consolidated Accounting Treatment Election:** from the point of revocation, intra-group transactions begin to be reflected again at full value (without elimination) in each Entity's standalone accounts, which could create a risk of double-counting at the time of final settlement of those transactions in future years if not carefully tracked.
+
+The common purpose of each of these processes is the same — to ensure that no income, expense, gain, or loss permanently falls outside the GloBE calculation, or is double-counted, through manipulation of the making and revoking of Elections.
+
+## 14.8 Which Election Is Advantageous When — a Decision Framework
+
+Before deciding to make an Election, practitioners should find answers to the following questions:
+
+- **How volatile is the item?** If the relevant income/expense category (such as fair value revaluation or stock-based compensation) fluctuates widely from year to year, the Election is often helpful in stabilising the ETR.
+- **What is the direction and future trend of the accounting-tax difference?** If the local tax deduction or tax liability is consistently lower than or deferred relative to the accounting figure, both the benefits and the drawbacks of the Election must be assessed in that direction.
+- **How broad is the scope of application?** Entity-specific (Equity Investment Inclusion) vs. jurisdiction-wide (Stock-Based Compensation, Realisation Principle, Consolidated Accounting Treatment) — a broader-scope Election carries a greater risk of larger loss if misapplied.
+- **Five-year lock-in risk vs. annual flexibility** — a multi-year projection should be made before committing long-term.
+- **Administrative complexity vs. actual benefit** — some Elections (such as Equity Investment Inclusion) primarily simplify the reporting process, and can be worth adopting even without a direct ETR benefit.
+
+The table below provides a brief comparison of the five Elections:
+
+| Election Name | Article | Duration | When Advantageous |
+|---|---|---|---|
+| Stock-Based Compensation Election | 3.2.2 | Five-Year | When the local tax deduction is roughly equal to or greater than the accounting expense, and one wants to avoid deferred-tax fluctuations caused by share-price volatility |
+| Realisation Principle Election | 3.2.5 | Five-Year | When fluctuations in unrealised gains/losses from fair value/mark-to-market-based assets (real estate, trading securities) distort the GloBE ETR |
+| Aggregate Asset Gain / Look-back Election | 3.2.6 | Annual | When a large one-time gain is expected from the sale of local tangible property, which could distort the ETR of a single year |
+| Consolidated Accounting Treatment Election | 3.2.8 | Five-Year | When there are regular intra-group transactions between Entities belonging to the same Tax Consolidation Group in the same jurisdiction |
+| Equity Investment Inclusion Election | (in the context of Art. 3.2.1) | Five-Year | When the underlying tax rate on Portfolio investments is around 15% or higher, and one wants to avoid the complexity of tax adjustments related to Excluded Income |
+
+## Summary
+
+The five Elections in Chapter 3 — Stock-Based Compensation, Realisation Principle, Aggregate Asset Gain/Look-back, Consolidated Accounting Treatment, and Equity Investment Inclusion — are each designed to mitigate ETR volatility arising from timing or structural differences between financial accounting and tax rules. Of these, four are Five-Year Elections (Article 3.2.2, 3.2.5, 3.2.8, and Equity Investment Inclusion) and one is an Annual Election (Article 3.2.6). The scope of application, duration, and consequences of revocation differ for each Election — so before making a decision it is essential to consider multi-year projections, the scope of application, and administrative capacity. The "true-up" adjustments arising at the time an Election is made or revoked are particularly important, because overlooking them can create unexpected Top-up Tax liability in the future.
+
+## Common Mistakes
+
+- Assuming all Elections are Five-Year, and overlooking the fact that the Aggregate Asset Gain / Look-back Election must be made afresh annually.
+- Failing to bring into account the necessary "true-up" adjustment at the time of revoking an Election (such as the unreconciled tax deduction under Stock-Based Compensation or the accumulated unrealised gain/loss under the Realisation Principle), which can create unexpected Top-up Tax in the year of revocation.
+- Trying to apply the Consolidated Accounting Treatment Election between Entities in different jurisdictions, when this Election applies only to Entities in the same jurisdiction and the same Tax Consolidation Group.
+- Mistakenly treating the Equity Investment Inclusion Election as jurisdiction-wide or group-wide, when it must actually be made separately for each Constituent Entity.
+- Making a five-year commitment to the Stock-Based Compensation Election based only on the current benefit, without considering a scenario of a decline in the share price.
+- Failing to notify an Election in a timely manner through the GIR by the Filing Constituent Entity, resulting in it being treated by default as "no Election made."
+- Incorrectly trying to re-elect too quickly after revoking a Five-Year Election, without observing the five-year re-election prohibition period.
 
 <!-- lang:bn -->
 

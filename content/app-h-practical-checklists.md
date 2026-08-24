@@ -8,7 +8,155 @@ slug: "app-h-practical-checklists"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Appendix H — Practical Checklists
+
+This appendix provides one printable checklist for each major stage of Pillar Two (Global Minimum Tax / GMT) compliance. Each checklist consists of specific, actionable steps that do not depend on any particular software or vendor — any organization can apply them according to its own processes. Each checklist begins with a statement of its purpose and a reference to the relevant chapter. The checklists are designed to be used in sequence, since the decisions made at one stage often form the basis for the work of the next.
+
+## 1. Scope Verification Checklist
+
+The purpose of this checklist is to make an initial determination of whether an MNE group falls within the scope of Pillar Two; it is drawn from Chapters 6–7 of the book.
+
+- [ ] Examine the group's consolidated financial statements to verify whether annual consolidated revenue exceeded the €750 million threshold (or the local-currency equivalent) in at least two of the last four fiscal years
+- [ ] Determine which fiscal years are to be treated as the "test period" for the threshold calculation
+- [ ] Identify the accounting standard (for example, IFRS or local GAAP) used to prepare the consolidated financial statements for the relevant fiscal years
+- [ ] Determine and document the applicable average exchange rate for conversion into euros
+- [ ] Specifically identify who the Ultimate Parent Entity is
+- [ ] Prepare the group's organizational chart, listing all Constituent Entities
+- [ ] Verify whether any joint venture or minority-owned subsidiary should be included within the definition of the group
+- [ ] Assess whether any recent merger, demerger, or corporate reorganization has affected the threshold calculation
+- [ ] Identify the possible presence of Excluded Entities such as governmental entities, international organizations, non-profit organizations, pension funds, and investment funds
+- [ ] Prepare a complete list of the countries in which the group operates and verify whether the relevant Pillar Two legislation has come into effect in each
+- [ ] Document in writing the scope determination and its supporting evidence
+- [ ] Establish an annual re-verification process to reassess the threshold each fiscal year
+
+## 2. Entity Classification Checklist
+
+The purpose of this checklist is to correctly classify each entity of the group under the GloBE Rules; it is drawn from Chapters 8–11 of the book.
+
+- [ ] Identify each entity's legal form (corporation, partnership, trust, etc.)
+- [ ] Determine which entity is the Ultimate Parent Entity (UPE) and which are Intermediate Parent Entities or Partially-Owned Parent Entities
+- [ ] Verify whether each entity is a Constituent Entity, and document the reason for any that are not
+- [ ] Identify entities treated as Flow-through Entities and verify their tax-transparency status
+- [ ] Identify branches or operations treated as a Permanent Establishment and verify whether they are being treated as separate Constituent Entities
+- [ ] Identify entities that fall within the definition of an Investment Entity or Insurance Investment Entity
+- [ ] Test each relevant entity against the conditions for being treated as a Minority-Owned Constituent Entity or Minority-Owned Subgroup
+- [ ] Identify entities treated as a Joint Venture and a JV Subsidiary, and document the ownership percentages
+- [ ] Provide, in writing, the basis of eligibility for each entity that meets the conditions for an Excluded Entity
+- [ ] Verify whether there has been any change in ownership structure compared to the prior year, and whether it has affected classification
+- [ ] Apply the rules for determining each entity's jurisdiction, particularly for dual-resident entities
+- [ ] Prepare a master list of the complete entity classification, including each entity's name, country, type, and GloBE status
+- [ ] Arrange for the classification process to be verified by a second reviewer
+
+## 3. Data Collection Checklist
+
+The purpose of this checklist is to collect all data required for the GloBE calculation accurately and on time; it is drawn from Chapter 55 of the book.
+
+- [ ] Collect standalone financial accounts for each Constituent Entity
+- [ ] Identify the differences between the accounting standard used in the consolidated financial statements and each entity's local accounts
+- [ ] Collect data relating to actual current and deferred tax payable
+- [ ] Collect corporate income tax returns and evidence of tax payment
+- [ ] Collect detailed information on intercompany transactions and the related reconciliations
+- [ ] Collect payroll and tangible-asset data, which will be needed for the Substance-Based Income Exclusion calculation
+- [ ] Collect data on prior-year loss carryforwards and the related deferred tax assets for each entity
+- [ ] Collect the relevant data from the Country-by-Country Report
+- [ ] Collect the accounting and tax treatment of stock-based compensation
+- [ ] Collect data on asset revaluations, fair value adjustments, and consolidation adjustments
+- [ ] Collect information on local tax incentives or refundable tax credits applicable in each country
+- [ ] Prepare a data-collection calendar, assigning responsible individuals and deadlines
+- [ ] Establish a method for documenting the source and supporting documentation for each collected data set
+- [ ] Ensure an internal reconciliation process to verify the completeness and accuracy of the collected data
+
+## 4. Safe Harbour Verification Checklist
+
+The purpose of this checklist is to verify in which countries Safe Harbour relief may apply, so as to avoid the need for a full GloBE calculation; it is drawn from Chapters 44–48 of the book.
+
+- [ ] Verify, for each country, whether the eligibility conditions for the Transitional CbCR Safe Harbour are met
+- [ ] Apply the De Minimis Test — check whether revenue is below €10 million and profit below €1 million
+- [ ] Calculate against the applicable year-specific minimum rate for the Simplified ETR Test (2023–24: 15%, 2025: 16%, 2026: 17%)
+- [ ] Apply the Routine Profits Test — check whether profit is equal to or less than the Substance-Based Income Exclusion
+- [ ] Verify whether the source of the Qualified CbCR and the financial data used in its preparation are reliable and consistent
+- [ ] Assess whether "amended" or "inconsistent" financial data in any country could create Safe Harbour ineligibility
+- [ ] Verify whether the Transitional UTPR Safe Harbour applies and whether the UPE's country meets the relevant conditions
+- [ ] Identify the countries where the QDMTT Safe Harbour applies and verify whether the relevant QDMTT legislation meets the qualifying standard
+- [ ] Review the progress of the permanent Safe Harbour rules and identify the countries where they do not yet apply
+- [ ] Document the Safe Harbour eligibility outcome for each country in a summary table
+- [ ] Check whether "anti-abuse" conditions — such as Hybrid Arbitrage Arrangements — negate Safe Harbour applicability in any country
+- [ ] Establish a process to reassess changes in Safe Harbour status each year
+
+## 5. Election Decision Checklist
+
+The purpose of this checklist is to make informed decisions about the various elections available under the GloBE Rules; it is drawn from Appendix E and Chapters 14, 23, 27–28, 37, and 40 of the book.
+
+- [ ] Classify the duration of each potential election — annual or five-year
+- [ ] Assess whether it is beneficial to elect to use the tax-based expense instead of the accounting method for stock-based compensation expense
+- [ ] Consider the Realisation Principle Election (treatment of unrealised gains/losses on immovable property and financial instruments)
+- [ ] Verify whether the De Minimis Exclusion Election applies to each country and assess whether the eligibility thresholds are met
+- [ ] Assess which countries the GloBE Loss Election (Simplified Calculation or the mainstream loss carryforward method) may be suitable for
+- [ ] Review procedural elections relating to the allocation of Additional Current Top-up Tax
+- [ ] Assess elections relating to Consolidation Adjustments or Intragroup Transactions (such as the treatment of inventory or asset transfers)
+- [ ] Consider Investment Entity-related elections (the Tax Transparency Election or the Taxable Distribution Method Election)
+- [ ] Measure the financial impact of each election through a multi-year projection
+- [ ] Verify whether each election is recognized under the relevant country's local GloBE implementing legislation
+- [ ] Document the revocation or renewal deadline and conditions for each election
+- [ ] Record all decisions and their rationale in writing as an approved election policy paper
+- [ ] Obtain approval for election decisions from the group's senior authority (such as the CFO or the tax committee)
+- [ ] Establish a process to reconsider each year whether the election decisions remain favourable
+
+## 6. Calculation Checklist
+
+The purpose of this checklist is to correctly complete the key steps of the GloBE Income, Covered Taxes, and Top-up Tax calculations; it is drawn from Chapters 12–30 of the book.
+
+- [ ] Calculate GloBE Income or Loss starting from each entity's financial accounts and applying the required adjustments
+- [ ] Apply the specified adjustments for permanent items, revenue transactions, and tax-exempt items
+- [ ] Calculate Adjusted Covered Taxes, including current tax expense and eligible deferred tax adjustments
+- [ ] Calculate the Effective Tax Rate (ETR) for each country by applying jurisdictional blending across all Constituent Entities
+- [ ] Calculate the Substance-Based Income Exclusion (payroll basis and asset basis) for each country
+- [ ] Determine the Top-up Tax Percentage (15% minus ETR) for each country
+- [ ] Calculate Excess Profit (GloBE Income minus SBIE)
+- [ ] Calculate the Jurisdictional Top-up Tax and adjust it if the De Minimis Exclusion applies
+- [ ] Verify whether there is any Additional Current Top-up Tax (arising from a prior-year adjustment)
+- [ ] Calculate the parent entity's Allocable Share under the Income Inclusion Rule (IIR)
+- [ ] Apply the allocation formula for the remaining top-up tax under the Undertaxed Profits Rule (UTPR)
+- [ ] Calculate the local top-up tax in countries where the QDMTT applies, and adjust it as a credit in the IIR/UTPR calculation
+- [ ] Document each calculation step as a separate workpaper so that the source of each figure is traceable
+- [ ] Have the calculation results independently recalculated and verified by a second person
+- [ ] Prepare a variance analysis explaining the reasons for any material differences compared to the prior year
+
+## 7. Filing Checklist
+
+The purpose of this checklist is to file the required GloBE returns and notifications accurately and on time; it is drawn from Chapters 50–52 of the book.
+
+- [ ] Determine which entity is responsible for filing the GloBE Information Return (GIR)
+- [ ] Decide whether responsibility for filing the GIR will be delegated to a designated Filing Entity
+- [ ] Determine the GIR filing deadline in each country (including any extended deadline for the transition period)
+- [ ] Identify the local notification filing obligations required in each country and their deadlines
+- [ ] Distinguish which countries require a local GIR filing and which will accept centralized filing through information exchange
+- [ ] Verify that every section of the GIR (corporate structure, elections, calculations) is complete and internally consistent
+- [ ] Prepare the QDMTT or local top-up tax return in the specific format required by the relevant country
+- [ ] Present the final version to the group's tax department or senior authority for approval before filing
+- [ ] Retain a signed and dated copy of the filed return in the archive
+- [ ] Collect and retain acknowledgment or confirmation of filing from the relevant tax authority
+- [ ] Document the process and deadlines for filing an amended return, should it be needed after filing
+- [ ] Compile the filing deadlines of the various countries into a central annual calendar
+- [ ] Review the penalties applicable for non-filing or late filing and the opportunities for their mitigation
+
+## 8. Audit Preparedness Checklist
+
+The purpose of this checklist is to be prepared for examination or investigation by tax authorities and to reduce the risk of disputes; it is drawn from Chapters 53, 54, and 58 of the book.
+
+- [ ] Build a well-organized archive of supporting documentation (source data, workpapers, election notes) backing up each calculation step
+- [ ] Retain the written rationale for each entity's classification and Safe Harbour eligibility decisions
+- [ ] Retain, separately, the decision, date, and approval evidence for each election
+- [ ] Verify the consistency of the GloBE calculation with intercompany transaction and transfer pricing documentation
+- [ ] Determine the document retention period in line with each country's local record-retention deadlines
+- [ ] Identify in advance potential areas of double taxation or dispute (such as the credit calculation between the QDMTT and the IIR)
+- [ ] Review the availability and conditions of the Mutual Agreement Procedure or other dispute resolution mechanisms
+- [ ] Establish a standard response process and a responsible individual for routine inquiries from tax authorities
+- [ ] Keep documentation on internal controls ready, showing how the calculation process has been reviewed
+- [ ] Prepare a summary demonstrating the consistency of the current year with the prior year's calculations and filings
+- [ ] Verify eligibility for administrative penalty waivers or transitional penalty protection and retain the supporting evidence
+- [ ] Establish a coordination process for audit-related information requests among each constituent team (finance, tax, legal)
+- [ ] Appoint a central coordinator at the group level to ensure consistency in the case of parallel audits across multiple countries
 
 <!-- lang:bn -->
 

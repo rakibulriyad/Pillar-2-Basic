@@ -13,7 +13,136 @@ slug: "ch-28-de-minimis-exclusion"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 28 — The De Minimis Exclusion
+
+> **In this chapter:** for jurisdictions with a small-scale presence, we discuss how the complexity of the Top-up Tax calculation can be avoided by using the **De Minimis Exclusion**, together with this exclusion's two conditions, the method for determining the three-year average, and the requirement of an annual Election, with numerical examples.
+> **Relevant Article:** 5.5
+
+Under the GloBE Model Rules, calculating the Effective Tax Rate (ETR) and Top-up Tax for every jurisdiction is a laborious process — it requires Covered Taxes adjustments, determining GloBE Income or Loss, applying the Substance-based Income Exclusion (SBIE), and considering numerous other adjustments. But many multinational groups have jurisdictions where activity is nominal — a small representative office, a sales branch, or a support-services entity. Requiring a full ETR calculation for such small-scale jurisdictions creates a disproportionate administrative burden, where the risk (of revenue erosion or aggressive tax planning) is very low. To address this problem, the GloBE Model Rules established the **De Minimis Exclusion**, set out in Article 5.5.
+
+## 28.1 Two Conditions: Average GloBE Revenue < €10M and Average GloBE Income < €1M
+
+Under the core structure of **Article 5.5**, an MNE Group's Filing Constituent Entity may make an Election separately for each jurisdiction, as a result of which that jurisdiction's Top-up Tax is treated as zero — but only if two conditions are met together:
+
+1. the combined average **GloBE Revenue** (total income/turnover, derived from the accounts used as the basis for determining GloBE Income or Loss) of all Constituent Entities located in that jurisdiction must be less than €10 million; and
+
+2. the combined average **GloBE Income** (net income before tax, adjusted under the GloBE rules) of that jurisdiction must be less than €1 million, or that jurisdiction must have an average GloBE Loss.
+
+Both conditions apply on an "AND" basis — a low revenue alone is not sufficient; the income or loss condition must also be met. The purpose is to identify jurisdictions where both the scale of business and the profit are limited, so that the risk from the Top-up Tax is genuinely negligible. Note that this threshold is tested not separately for each Constituent Entity, but as the sum of all Constituent Entities across the entire jurisdiction — this is consistent with the jurisdictional blending principle that underlies the entire Pillar Two framework.
+
+## 28.2 The Method for Determining the Three-Year Average
+
+The De Minimis Exclusion test does not use a single year's figure — instead, under **Article 5.5.2**, the average GloBE Revenue and average GloBE Income/Loss must be determined for the current Fiscal Year and the two preceding Fiscal Years, i.e., a total of three years. The calculation formula is simple:
+
+- Average GloBE Revenue = (current year's revenue + preceding year's revenue + the year before that's revenue) ÷ 3
+- Average GloBE Income/Loss = (current year's income/loss + preceding year's income/loss + the year before that's income/loss) ÷ 3
+
+The rationale for taking a three-year average is to avoid distortion caused by an unusual fluctuation in a single year (such as a temporary income increase due to a large asset sale, or an exceptional year such as a pandemic). If no Constituent Entity existed in a jurisdiction in a preceding year (for example, the group had not yet begun business in that country that year), that year is excluded entirely from the denominator of the average calculation — that is, the average may then be determined on the basis of two years, or even a single year. This point is discussed in more detail in Section 28.6.
+
+## 28.3 The Definition of GloBE Revenue
+
+**GloBE Revenue** refers to the total revenue that forms the basis for determining a Constituent Entity's Financial Accounting Net Income or Loss — which is the first step (under Article 3.1) in calculating GloBE Income or Loss. This generally corresponds to the "Revenue" or "Turnover" line item shown in the financial statements, though it may reflect GloBE-specific adjustments (such as, in certain cases, Purchase Accounting adjustments, or the elimination of intra-group transactions on consolidation).
+
+The important points are:
+
+- **Aggregate calculation:** if a jurisdiction has more than one Constituent Entity, their GloBE Revenue is summed to determine the total jurisdiction-based revenue — the De Minimis test is applied at the jurisdiction level, not the entity level.
+- **Permanent Establishment (PE):** the revenue of a Main Entity's PE is attributed to the jurisdiction in which the PE is located, not to the Main Entity's jurisdiction — consistent with the PE allocation principle of Article 3.4.
+- **Stateless Entity:** the revenue of Constituent Entities that are not tax resident in any jurisdiction (Stateless Entities) is not included in any jurisdictional De Minimis calculation, because the De Minimis Exclusion inherently applies on a jurisdiction basis.
+- **Excluded Entity:** the revenue and income of entities treated as Excluded Entities under Article 1.5 (such as a Governmental Entity, Pension Fund, or, under certain conditions, an Investment Fund) fall outside the De Minimis calculation, because they are essentially outside the scope of GloBE altogether.
+
+## 28.4 The Annual Election — No Election, No Exclusion
+
+The De Minimis Exclusion does not apply automatically. **Article 5.5.1** clearly states that this exclusion takes effect only through an **Election** made by the Filing Constituent Entity. This Election is an **Annual Election** — that is, it must be made afresh for each Fiscal Year; once made, it does not automatically continue to apply for future years. This Election must be indicated separately for each applicable jurisdiction in the GloBE Information Return (GIR).
+
+There is a common area of misunderstanding here: meeting the two numerical conditions (the revenue and income thresholds) is not sufficient on its own — if the Filing Constituent Entity does not clearly make the Election, the full ETR and Top-up Tax calculation must be performed for that jurisdiction, even if the thresholds are met. In practice, if a group plans to expand its business in that jurisdiction in the future, or wishes for some reason to preserve an Excess Negative Tax Expense Carry-forward or some other benefit that arises from a full calculation, not making the Election can also be a legitimate strategic decision. Generally, however, in jurisdictions where the thresholds are met, making the Election significantly reduces the administrative burden, because a detailed ETR calculation for that jurisdiction does not then need to be reported in the GIR.
+
+## 28.5 Application to Separate Blending Groups
+
+Under Pillar Two, not all Constituent Entities are included in a single blending pool. A **Joint Venture Group** (Article 6.4), a Minority-Owned Constituent Entity Sub-group (Article 5.6), and the separate blending structure relating to Investment Entities (Article 7.4) — the ETR and Top-up Tax for each of these are calculated separately, even though all of them may be located in the same jurisdiction.
+
+The De Minimis Exclusion of **Article 5.5** applies separately to each separate blending group. As a result, in the same jurisdiction:
+
+- the Constituent Entities of the main MNE Group may meet the De Minimis threshold and obtain relief, while an entity of a Joint Venture Group located in that jurisdiction is tested separately, and if that group does not meet the threshold, a full ETR calculation must be performed for it.
+- similarly, a Minority-Owned Sub-group requires a separate Election and separate average revenue/income calculation.
+
+Administratively, this means that more than one Election form or GIR entry may be required for the same jurisdiction — one for the main group, and separate Elections as needed for each JV Group or Sub-group. Overlooking this point can result in significant errors in GIR preparation, because a single Election may be mistakenly assumed to apply to all blending groups.
+
+## 28.6 New or Short-History Jurisdictions
+
+In jurisdictions where the MNE Group has recently entered — such as where a new subsidiary has been established or a new acquisition has been completed — data for the preceding two years may simply not exist. Under the rule in **Article 5.5.2**, a year in which no Constituent Entity was present in that jurisdiction is excluded entirely from the denominator of the average calculation — it is not treated as zero for averaging purposes.
+
+The practical effect of this is significant: if business begins in the first year, the "average" will in fact simply be that single year's figure. In the second year it will be a two-year average, and only from the third year onward will a genuine three-year average apply. As a result, a new jurisdiction that earns high revenue or income in its very first year (for example, through a large one-off contract) may fail to qualify for the De Minimis Exclusion, because there is no opportunity to "dilute" that figure with numbers from other years for the average calculation. Conversely, a new operation that grows gradually is more likely to benefit from the De Minimis Exclusion in its early years.
+
+This rule is particularly important in the context of Pillar Two expansion or restructuring — tax departments must maintain a process each year to verify the availability of this historical data for new jurisdictions.
+
+## 28.7 The Difference from the De Minimis Test under the Transitional CbCR Safe Harbour
+
+The De Minimis Exclusion under Article 5.5 is often confused with the "De Minimis Test" under the **Transitional CbCR Safe Harbour** (a Country-by-Country Report-based, temporary, simplified test introduced through OECD administrative guidance, and not part of the core GloBE Model Rules) — but these are two different processes, with different sources and different time frames:
+
+| Matter | Article 5.5 De Minimis Exclusion | CbCR Safe Harbour De Minimis Test |
+|---|---|---|
+| Source | GloBE Model Rules, permanent rule | OECD administrative guidance, a Transitional measure |
+| Data basis | GloBE Revenue and GloBE Income (calculated under GloBE adjustments) | Total revenue and pre-tax profit from the Qualified Country-by-Country Report |
+| Averaging | Three-year average (Article 5.5.2) | The single-year figure for the relevant Fiscal Year |
+| Availability period | Unlimited — for as long as GloBE applies | Only for Fiscal Years beginning on or before 31 December 2026 and ending before 30 June 2028 |
+| Effect of **NMCE** | No direct effect, because the GloBE calculation is on a Constituent-Entity basis | **Non-Material Constituent Entity** data (entities that are not material and are not shown line-by-line in the CbC Report but are aggregated into another entry) is used in aggregated form, so the granularity of the data differs |
+| Alternative on failure | Only a full Top-up Tax calculation | The option to proceed to the Simplified ETR Test or the Routine Profits Test remains |
+
+The main difference lies in the source of the data and the level of precision: the CbCR Safe Harbour's De Minimis Test uses financial accounting or CbC Report data, in which data for small entities such as NMCEs may be reflected in aggregated form, and GloBE-specific adjustments (such as Purchase Accounting Adjustments, or the exclusion of Excluded Dividends) are not reflected. By contrast, the exclusion under Article 5.5 is built entirely on GloBE-specific calculations, which are far more precise but require more data to prepare. The practical recommendation is: during the period in which the Transitional CbCR Safe Harbour is available (generally FY2024–FY2026), taxpayers should first test the Safe Harbour's De Minimis Test (which requires less data); once the Safe Harbour's availability ends, preparation for the full GloBE-based De Minimis Exclusion of Article 5.5 should begin in advance, so that three years of historical GloBE Revenue and Income data are on hand.
+
+## 28.8 A Numerical Example
+
+Suppose **Orbit Manufacturing Group** is a multinational group with two Constituent Entities in the Vietnam jurisdiction — a sales branch and a logistics support entity. The group is considering the De Minimis Exclusion Election for the Vietnam jurisdiction for FY2024. The combined GloBE Revenue and GloBE Income of both Constituent Entities are as follows (all figures in millions of euros):
+
+| Fiscal Year | Combined GloBE Revenue (€M) | Combined GloBE Income/(Loss) (€M) |
+|---|---|---|
+| FY2022 | 9.5 | 0.80 |
+| FY2023 | 10.2 | 1.30 |
+| FY2024 (current year) | 8.8 | 0.60 |
+| **Three-year total** | **28.5** | **2.70** |
+| **Three-year average** | **9.50** | **0.90** |
+
+**Calculation:**
+
+- Average GloBE Revenue = (9.5 + 10.2 + 8.8) ÷ 3 = 28.5 ÷ 3 = **€9.50 million** → below the €10 million threshold ✓
+- Average GloBE Income = (0.80 + 1.30 + 0.60) ÷ 3 = 2.70 ÷ 3 = **€0.90 million** → below the €1 million threshold ✓
+
+Both conditions are met (**Article 5.5.1**). Consequently, if Orbit Manufacturing Group's Filing Constituent Entity clearly makes the De Minimis Election for the Vietnam jurisdiction in the FY2024 GIR, the Top-up Tax for the Vietnam jurisdiction will be treated as zero, and the full ETR calculation can be avoided.
+
+**Alternative scenario — one condition fails:**
+
+Suppose that in FY2023, due to an unusually large one-off equipment sale, GloBE Revenue was €13.0 million and GloBE Income was €2.1 million. Then:
+
+| Fiscal Year | GloBE Revenue (€M) | GloBE Income (€M) |
+|---|---|---|
+| FY2022 | 9.5 | 0.80 |
+| FY2023 (revised) | 13.0 | 2.10 |
+| FY2024 | 8.8 | 0.60 |
+| Three-year average | (9.5+13.0+8.8)÷3 = **10.43** | (0.80+2.10+0.60)÷3 = **1.17** |
+
+In this case, the average GloBE Revenue is €10.43 million, which exceeds the €10 million threshold — the first condition alone fails (and the average income, at €1.17 million, also causes the second condition to fail). As a result, the De Minimis Exclusion does not apply to the Vietnam jurisdiction, and a full ETR and Top-up Tax calculation is mandatory for FY2024 — even though the current year's figure alone is below the threshold, because the test is based on the three-year average, not a single year.
+
+**A new-jurisdiction scenario (application of the Article 5.5.2 exception):**
+
+If Orbit Manufacturing Group entered Vietnam for the first time in FY2023 (with no Constituent Entity present in FY2022), then in the FY2024 De Minimis test the FY2022 figure is excluded from the denominator of the average calculation:
+
+- Average GloBE Revenue = (10.2 + 8.8) ÷ 2 = **€9.50 million**
+- Average GloBE Income = (1.30 + 0.60) ÷ 2 = **€0.95 million**
+
+Both are below the thresholds, so the thresholds continue to be met — but the denominator used is "2," not "3," a subtle point that practitioners often overlook.
+
+## Summary
+
+The **De Minimis Exclusion (Article 5.5)** allows an MNE Group to avoid a full ETR and Top-up Tax calculation for a jurisdiction with small-scale activity, when that jurisdiction's three-year average GloBE Revenue is below €10 million and its average GloBE Income is below €1 million (or it has a GloBE Loss). This exclusion is not automatic — a clear, jurisdiction-specific Annual Election is required each year, and separate blending groups located in the same jurisdiction (a JV Group, a Minority-Owned Sub-group) are tested and elected separately. Where a new jurisdiction lacks historical data, the denominator of the average calculation is reduced, but the "averaging" principle itself is not abandoned. This exclusion should not be confused with the De Minimis Test under the Transitional CbCR Safe Harbour — the latter is temporary, based on a single year, and relies on CbC Report data (which may contain aggregated data such as for NMCEs).
+
+## Common Mistakes
+
+- **Assuming the exclusion applies automatically once the thresholds are met:** even where the numerical conditions are met, the exclusion does not apply unless the Filing Constituent Entity clearly makes the Election — the responsibility for reporting this in the GIR rests with the taxpayer.
+- **Testing with a single year's figure:** the De Minimis Test is always based on a three-year average; even if the current year's figure is below the threshold, a high figure from a preceding year can push the average above the limit.
+- **Using the wrong denominator for a new jurisdiction:** treating a year with no Constituent Entity as zero for averaging purposes is a mistake — that year must be excluded entirely from the denominator (Article 5.5.2).
+- **Forgetting the separate Election for a JV Group or Sub-group:** the main MNE Group's Election does not automatically cover a Joint Venture Group or a Minority-Owned Sub-group; each requires a separate test and Election.
+- **Confusing the CbCR Safe Harbour De Minimis Test with Article 5.5:** these are rules with different data sources, different averaging methods, and different time frames — qualification under one does not automatically apply to the other, particularly once the Transitional Safe Harbour's availability period (years beginning through FY2026) has ended.
+- **Attributing the revenue of a PE or a Stateless Entity to the wrong jurisdiction:** a PE's revenue must be calculated in its own jurisdiction, not the Main Entity's jurisdiction; a Stateless Entity is not included in any jurisdictional De Minimis test.
 
 <!-- lang:bn -->
 

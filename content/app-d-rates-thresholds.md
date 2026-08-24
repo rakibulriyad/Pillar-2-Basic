@@ -8,7 +8,151 @@ slug: "app-d-rates-thresholds"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Appendix D — Rates and Thresholds Table
+
+This appendix compiles, in a single reference table, all the numerical rates and currency-based thresholds used throughout the book. It is a quick-lookup table — for detailed explanations, rationale, and worked numerical examples, see the chapter referenced in the last column of each row.
+
+**Important caution — currency and rebasing.** Nearly all of the currency-based figures below are set in **euros (EUR)** in the OECD GloBE Model Rules and Administrative Guidance. Each jurisdiction converts these figures into its own local currency (USD, BDT, or any other currency) through its own legislation, generally fixing them once using the exchange rate as of a specified reference date — not reconverting every year. Because exchange rates move over time, this fixed figure can drift out of step with the original euro value, and the OECD's July 2023 Administrative Guidance describes a **rebasing** framework through which jurisdictions may revise this figure from time to time. Consequently, **the actual local-currency figure applicable in any given jurisdiction must always be verified against that country's implementing legislation** — the figures in the table below reflect the original euro basis set out in the Model Rules and the AG, not a confirmed local-currency equivalent.
+
+---
+
+## D.1 Core Rates
+
+| Rate/Threshold | Value | Context/Where Applicable | Book Chapter |
+|---|---|---|---|
+| GloBE minimum tax rate | 15% | Compared against the Jurisdictional ETR to determine the Top-up Tax Percentage; the central rate of the entire Pillar Two framework | Chapters 25, 26 |
+| STTR minimum nominal rate | 9% | Compared against the Adjusted Nominal Rate under the treaty-based Subject to Tax Rule; deliberately different from, and lower than, the GloBE 15% | Chapters 3, 41, 42 |
+| Minimum headline statutory rate of the UPE jurisdiction under the Transitional UTPR Safe Harbour | 20% | If the headline rate is at or above this level, the UTPR Top-up Tax is treated as zero for the UPE's own jurisdiction (only for the UPE jurisdiction, and based on the nominal/headline rate, not the effective rate) | Chapter 48 |
+| Limit for recasting existing DTAs/DTLs in the Transition Year | 15% | A DTA computed at a rate above 15% must be mandatorily reduced to 15%; a DTL computed at a rate below 15% may optionally be increased to 15% | Chapter 49 |
+
+---
+
+## D.2 Scope Thresholds (Determining In-Scope Status)
+
+| Rate/Threshold | Value | Context/Where Applicable | Book Chapter |
+|---|---|---|---|
+| MNE Group Consolidated Revenue Threshold | €750 million | If revenue reaches or exceeds this figure in at least two of the preceding four Fiscal Years, the group is in-scope of GloBE; a rolling 4-year window, not a single-year test | Chapter 7 |
+| CbCR Revenue Threshold | €750 million | The same figure as the GloBE threshold but a different test — based only on a single preceding Fiscal Year (not a multi-year rolling test) | Chapter 7 |
+| Revenue threshold test for a Multi-Parented MNE Group | €750 million (combined) | For a Stapled Structure or Dual-listed Arrangement, the Consolidated Revenue of two or more UPEs is combined and tested together, not separately | Chapter 38 |
+| Adjustment where the Fiscal Year is shorter or longer than 12 months | Proportional adjustment of the threshold (not of revenue) | The €750 million figure is scaled in proportion to the length of the fiscal year | Chapter 7 |
+
+---
+
+## D.3 SBIE Transition Rate Schedule (Article 9.2) — 2023 to 2033
+
+The payroll and tangible-asset carve-out rates of the Substance-based Income Exclusion (SBIE) decline in stages from 2023, reaching the permanent 5%/5% level in 2033. The applicable rate is the one for the calendar year in which the relevant Fiscal Year **begins** (not the year in which it ends).
+
+| Fiscal Year Beginning | Payroll Carve-out Rate | Tangible Assets Carve-out Rate | Book Chapter |
+|---|---|---|---|
+| 2023 | 10.0% | 8.0% | Chapter 27 |
+| 2024 | 9.8% | 7.8% | Chapter 27 |
+| 2025 | 9.6% | 7.6% | Chapter 27 |
+| 2026 | 9.4% | 7.4% | Chapter 27 |
+| 2027 | 9.2% | 7.2% | Chapter 27 |
+| 2028 | 9.0% | 7.0% | Chapter 27 |
+| 2029 | 8.2% | 6.6% | Chapter 27 |
+| 2030 | 7.4% | 6.2% | Chapter 27 |
+| 2031 | 6.6% | 5.8% | Chapter 27 |
+| 2032 | 5.8% | 5.4% | Chapter 27 |
+| 2033 onward (permanent rate) | 5.0% | 5.0% | Chapter 27 |
+
+**Note:** This schedule applies universally on a calendar-year basis — the same rate applies in every jurisdiction in a given year, regardless of that jurisdiction's own Article 9.1 Transition Year (which can differ from jurisdiction to jurisdiction). These same SBIE rates are also used in the Routine Profits Test of the Transitional CbCR Safe Harbour (Chapter 45).
+
+---
+
+## D.4 Safe Harbour Thresholds
+
+### Transitional CbCR Safe Harbour (Chapter 45)
+
+| Rate/Threshold | Value | Context/Where Applicable | Book Chapter |
+|---|---|---|---|
+| De Minimis Test — Revenue | Less than €10 million | CbCR-based Total Revenue; combined on an AND basis with the PBT condition; a single Fiscal Year figure (not a 3-year average) | Chapter 45 |
+| De Minimis Test — Profit before Tax | Less than €1 million | CbCR-based Profit (Loss) before Income Tax | Chapter 45 |
+| Simplified ETR Test rate schedule — FY2023–24 | 15% | If Simplified Covered Taxes ÷ CbCR PBT ≥ this Transition Rate, the Top-up Tax is zero | Chapter 45 |
+| Simplified ETR Test rate schedule — FY2025 | 16% | (same) | Chapter 45 |
+| Simplified ETR Test rate schedule — FY2026 | 17% | (same) | Chapter 45 |
+| Routine Profits Test | PBT ≤ SBIE | Passed if CbCR PBT is equal to or less than that jurisdiction's Article 5.3 SBIE (see the rate schedule in D.3) | Chapter 45 |
+| Duration of the Transition Period | FY beginning on or before 31 December 2026, and ending on or before 30 June 2028 | For calendar-year groups, this effectively covers FY2024–FY2026 | Chapter 45 |
+| Net Unrealised Fair Value Loss — mandatory add-back | More than €50 million (per jurisdiction, per year) | If this threshold is exceeded, the unrealised loss must be added back to PBT for all three tests — this adjustment is not optional | Chapter 45 |
+
+### Transitional CbCR Safe Harbour De Minimis Test vs. Article 5.5 De Minimis Exclusion (Comparison)
+
+| Item | Article 5.5 De Minimis Exclusion | CbCR Safe Harbour De Minimis Test | Book Chapter |
+|---|---|---|---|
+| Revenue threshold | Less than €10 million (3-year average) | Less than €10 million (single Fiscal Year) | Chapters 28, 45 |
+| Income threshold | Less than €1 million (3-year average), or GloBE Loss | Less than €1 million (single Fiscal Year PBT) | Chapters 28, 45 |
+| Source of data | GloBE Revenue/Income with GloBE-specific adjustments | Raw figures from Qualified CbCR | Chapters 28, 45 |
+| Duration of availability | Permanent (part of the Model Rules) | Temporary (limited to the Transition Period) | Chapters 28, 45 |
+
+### Transitional UTPR Safe Harbour (Chapter 48)
+
+| Rate/Threshold | Value | Context/Where Applicable | Book Chapter |
+|---|---|---|---|
+| Minimum headline statutory rate of the UPE jurisdiction | 20% | See D.1; applicable only in the UPE's own jurisdiction | Chapter 48 |
+| Period of applicability | FY beginning on or before 31 December 2025, and ending no later than 31 December 2026 | For calendar-year groups, this effectively covers FY2024–FY2025 | Chapter 48 |
+
+### Permanent Simplified Calculation Safe Harbour / NMCE (Chapter 46)
+
+| Rate/Threshold | Value | Context/Where Applicable | Book Chapter |
+|---|---|---|---|
+| NMCE Revenue limit | Below €50 million | One of the three qualifying conditions for a Non-Material Constituent Entity (materiality-based exclusion from CbCR consolidation + this revenue limit + reliable financial data); proportionally adjusted for a FY shorter than 12 months | Chapter 46 |
+| De Minimis Test for NMCE | €10 million Revenue / €1 million Income | Identical figures to the general Article 5.5 De Minimis, but using the NMCE's simplified CbCR-based data | Chapter 46 |
+| Simplified ETR Test for NMCE | 15% (permanent minimum rate) | This should not be confused with the stepped-up rates of the Transitional CbCR Safe Harbour (15%→16%→17%) — it is directly the permanent 15% GloBE minimum rate | Chapter 46 |
+
+### Initial Phase of International Activity Exclusion (Chapter 49)
+
+| Rate/Threshold | Value | Context/Where Applicable | Book Chapter |
+|---|---|---|---|
+| Maximum number of jurisdictions | 6 (the UPE jurisdiction + a maximum of 5 additional jurisdictions) | Constituent Entities must be confined to this number of jurisdictions | Chapter 49 |
+| Maximum limit for tangible assets | €50 million | The combined net book value across all jurisdictions other than the UPE jurisdiction must not exceed this limit | Chapter 49 |
+| Duration of the exclusion | Maximum 5 years | Jurisdiction-based, counted from the date GloBE first becomes applicable; not renewable once it ends | Chapter 49 |
+| Scope of application | UTPR only | This exclusion does not apply to the IIR or QDMTT | Chapter 49 |
+
+### GIR Filing Deadlines (Chapter 49)
+
+| Rate/Threshold | Value | Context/Where Applicable | Book Chapter |
+|---|---|---|---|
+| Standard filing deadline | 15 months (after FY end) | For ordinary years | Chapter 49 |
+| Transition Year filing deadline | 18 months (after FY end) | Applicable only once, for a jurisdiction's own first Transition Year; only a filing deadline, not a waiver of the tax payment obligation | Chapter 49 |
+
+---
+
+## D.5 Entity Classification Thresholds
+
+| Rate/Threshold | Value | Context/Where Applicable | Book Chapter |
+|---|---|---|---|
+| POPE (Partially-Owned Parent Entity) threshold | More than 20% outside interest | A Constituent Entity is a POPE if more than 20% of its Ownership Interest is held by parties outside the group; a POPE must independently apply the IIR to its own Allocable Share | Chapter 10 |
+| MOCE (Minority-Owned Constituent Entity) threshold | UPE ownership of 30% or less | Separate Minority-Owned Subgroup blending; entirely separated from the main Group's general jurisdictional blending | Chapters 11, 30 |
+| Entity owned by an Excluded Entity — 95% test | ≥95% ownership | + If the exclusive/near-exclusive holding or ancillary activity conditions are met, that entity is also an Excluded Entity (Article 1.5.1(b)) | Chapter 9 |
+| Entity owned by an Excluded Entity — 85% test | ≥85% ownership | + If almost the entirety of income is Excluded Dividend/Excluded Equity Gain or Loss, that entity is also an Excluded Entity (Article 1.5.1(c)) | Chapter 9 |
+| JV (Joint Venture) ownership threshold | ≥50% ownership | + If reported in the UPE's Consolidated Financial Statements under the equity method, the entity is a JV, and the JV Group is treated as a distinct "MNE Group" | Chapters 11, 38 |
+| Portfolio Shareholding / Excluded Dividend threshold | <10% share of ownership, capital, profits, or voting rights | Below 10% is a Portfolio Shareholding; dividends from such a shareholding require, additionally, a minimum one-year holding period to be an Excluded Dividend | Chapter 13 |
+| Excluded Equity Gain or Loss threshold | ≥10% ownership | Gains/losses arising from a shareholding of 10% or more ownership are excluded in full (no holding-period condition) | Chapter 13 |
+| Investment Entity — entity owned by a Fund/REIV | ≥95% (holding/ancillary activity) or ≥85% (Excluded income) | Extended conditions of the Investment Entity definition under Article 7.4, paralleling the 95%/85% tests for an Excluded Entity | Chapter 11 |
+
+---
+
+## D.6 Other De Minimis Figures
+
+| Rate/Threshold | Value | Context/Where Applicable | Book Chapter |
+|---|---|---|---|
+| Article 5.5 De Minimis Exclusion — Revenue | Less than €10 million (3-year average) | Requires a jurisdiction-based Election; combined on an AND basis with the Income condition | Chapter 28 |
+| Article 5.5 De Minimis Exclusion — Income | Less than €1 million (3-year average), or GloBE Loss | (same) | Chapter 28 |
+| Policy Disallowed Expenses — fines/penalties threshold | €50,000 or more (single event) | A fine/penalty at or above this threshold is added back to GloBE Income in full; smaller fines below the threshold require no adjustment. Bribes/illegal payments are added back in full regardless of any threshold | Chapter 13 |
+| Reduction in post-filing Covered Taxes — de minimis election | Less than €1 million (per jurisdiction, per Fiscal Year) | If the reduction is below this threshold, an Election may be made for a simple current-year adjustment instead of a mandatory recalculation of the prior year; this relief does not apply to a domestic tax rate reduction or to unpaid tax outstanding for 3 years | Chapter 24 |
+| Prior Period Error — de minimis for Covered Taxes adjustment | Change of less than €100,000 | Below this threshold, a direct adjustment can be made to current-year Covered Taxes instead of restating the prior year (distinct from the €1 million de minimis under Article 4.6, and applicable in a narrower, more specific correction context) | Chapter 13 |
+| Time limit for a Covered Tax liability remaining unpaid | 3 years (after the Fiscal Year ends) | If not actually paid within this period, the amount must be removed from Adjusted Covered Taxes for the original year and recalculated (a cash-basis backstop; a time threshold, not a currency figure) | Chapter 24 |
+| STTR Materiality Threshold | Depends on the size of the economy; an example equivalent of ≈€1 million is used for a large economy | The annual aggregate limit for the category of "certain other payments" (service fees, guarantee fees, rent, etc.) — does not apply to interest and royalties (these are Covered Income directly, regardless of the threshold) | Chapter 42 |
+| STTR Mark-up Threshold | 8.5% | A service/financing fee priced on a cost-plus basis enters the list of potential Covered Income only if its margin is at or below this limit (subject to satisfying the Materiality Threshold) | Chapter 42 |
+
+---
+
+## D.7 Brief Recap of Cautions
+
+- The **€10 million / €1 million** pair of figures appears in the book in three different contexts — the Article 5.5 De Minimis Exclusion (3-year average, permanent), the Transitional CbCR Safe Harbour De Minimis Test (single year, temporary), and the NMCE's simplified De Minimis Test (single year, permanent but CbCR-based). Although the same figures are used in all three, the rules and the data sources differ.
+- **€50 million** is used in three entirely different contexts — the NMCE Revenue limit (Chapter 46), the tangible-asset limit for the Initial Phase Exclusion (Chapter 49), and the Net Unrealised Fair Value Loss add-back limit (Chapter 45). Confusing one with another is a common mistake.
+- The **15%/16%/17%** schedule applies only to the Simplified ETR Test of the **Transitional** CbCR Safe Harbour (Chapter 45) — it is not identical to the direct 15% rate of the NMCE's **permanent** Simplified ETR Test (Chapter 46).
+- All euro-based figures are converted, and sometimes rebased, in local implementation — the figures in this appendix reflect the original euro basis of the Model Rules/AG, not the statutory text of any single jurisdiction.
 
 <!-- lang:bn -->
 

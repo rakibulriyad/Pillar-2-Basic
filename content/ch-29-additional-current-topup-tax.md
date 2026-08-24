@@ -13,7 +13,88 @@ slug: "ch-29-additional-current-topup-tax"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 29 — Additional Current Top-up Tax and Negative Scenarios
+
+> **In this chapter:** we discuss situations in which the ordinary formula for calculating a jurisdiction's ETR does not apply — such as negative tax expense, a prior-year recalculation, or a combination of negative income and negative tax at the same time — and how the **Additional Current Top-up Tax** is determined and allocated in these situations.
+> **Relevant Article:** 4.1.5, 5.4 · **AG:** Feb 2023
+
+## 29.1 When Additional Current Top-up Tax Arises
+
+Under the general structure of the GloBE Model Rules, the **Effective Tax Rate (ETR)** is determined by dividing a jurisdiction's **Adjusted Covered Taxes** by its **Net GloBE Income**. This general formula does not produce a meaningful result in every situation — particularly when the covered tax amount becomes negative, that is, when a jurisdiction shows a net tax benefit instead of an actual tax liability (a tax refund, the reversal of a deferred tax liability, or the release of a past provision).
+
+To address this problem, **Article 4.1.5** of the Model Rules sets out a specific rule. When a jurisdiction's Adjusted Covered Taxes are negative, and that negative amount is lower than the expected tax liability that should have resulted from multiplying the jurisdiction's Net GloBE Income by the minimum tax rate (15%), the difference between these two figures is treated directly as **Additional Current Top-up Tax**. The rationale behind this is simple — if a profitable jurisdiction produces a net tax benefit instead of a net tax liability, applying the ordinary ETR formula would show an extremely low or negative ETR, which would distort the ordinary Top-up Tax Percentage calculation. Article 4.1.5 therefore directly tops up the effect of the negative covered tax, keeping the jurisdiction's future ETR calculation clean — that is, starting from the following year, that jurisdiction's Adjusted Covered Taxes recalculation begins again from zero.
+
+The second source is **Article 5.4**, which primarily addresses additional tax liability arising from a revision to a prior fiscal year. Together, these two articles create two distinct but related sources of Additional Current Top-up Tax — one from a negative-tax situation in the current year, the other from a reassessment of a past year.
+
+## 29.2 The Portion Arising from a Prior-Year Recalculation
+
+The Pillar Two tax calculation is inherently dependent on prior data — a specific year's Covered Taxes or GloBE Income may later change due to deferred tax expense, changes in a tax return, audit adjustments, or restatement of financial statements. When such a recalculation shows that the Top-up Tax genuinely payable in a prior year was in fact higher than the amount originally reported, that shortfall is treated, under **Article 5.4**, as **Additional Current Top-up Tax** for the current year — instead of reopening the prior year's return.
+
+The practical benefit of this method is administrative simplicity: the MNE Group does not need to amend every past filing; instead, the effect of the correction is added as a separate line item in the current year's GloBE Information Return. However, when applying this provision, it must be clearly identified which fiscal year the additional liability relates to and in which jurisdiction it arose, because allocation under Article 5.4 is made on the basis of the relevant jurisdiction's current-year entity structure, not the structure of the earlier year. As a result, if the ownership or structure of the relevant entities has changed since the earlier year, the allocation of the additional tax liability will not exactly match the entity that originally gave rise to the tax — this is an important consideration that has been clarified in administrative guidance (the Feb 2023 AG).
+
+## 29.3 The Combination of Negative Adjusted Covered Taxes and Negative GloBE Income
+
+The most complex situation arises when a jurisdiction simultaneously has a negative **Net GloBE Income** (i.e., a genuine loss) and negative **Adjusted Covered Taxes** (i.e., a net tax benefit). Strictly speaking, Article 4.1.5 applies only when a jurisdiction's Net GloBE Income is positive — because the comparison is between the actual negative tax and the expected amount of "Net GloBE Income × the minimum tax rate." But when Net GloBE Income is itself negative, the fundamental basis of this comparison changes: in a loss-making year, some amount of negative tax expense (i.e., a tax benefit) is expected in the ordinary course — because a loss ordinarily creates a deferred tax asset, or reverses a past provision.
+
+The problem becomes serious only when the amount of negative tax expense is much greater than the amount consistent with the loss. For example, if the actual negative Adjusted Covered Taxes is much larger than the tax benefit that the loss should produce at a 15% rate, it can be inferred that the source of that extra negative tax expense is not related to the genuine loss — rather, it likely reflects the reversal of some past deferred tax liability, or some item that is creating an unusually large tax benefit within the GloBE framework. Administrative guidance has identified this "excess" portion as **Excess Negative Tax Expense**, and the core logic of Article 4.1.5 is extended and applied to it — although the process follows a different calculation path for a loss-making jurisdiction, discussed in detail in the next section.
+
+## 29.4 Excess Negative Tax Expense — The Administrative Method
+
+Through the Feb 2023 AG, the OECD introduced a clear calculation method for the Excess Negative Tax Expense situation, because the text of the original Model Rules did not explicitly address this particular scenario (negative income and negative tax occurring at the same time). The core principle of this method is: first, the "expected adjusted covered tax" is determined by multiplying the jurisdiction's Net GloBE Income (here, a negative figure) by the minimum tax rate. The actual Adjusted Covered Taxes are then compared with this expected amount. If the amount of actual negative tax expense is greater (in the negative direction) than the expected amount, the difference is treated as Excess Negative Tax Expense.
+
+There are two possible treatments for this Excess Negative Tax Expense — and this duality is the core subject of Section 29.5. Under the default method, this excess amount is treated as Additional Current Top-up Tax in that same year, because it is assumed that this extra tax benefit is related to the genuine tax liability of some past or future year, and it needs to be recognized in the current year so that the group cannot exploit a loss-making year to escape its minimum tax liability. The purpose of this method is essentially to preserve consistency — so that a jurisdiction cannot, deliberately or accidentally, "bank" a tax benefit during a loss-making year by showing a large negative tax expense, to be used against a future profitable year.
+
+## 29.5 Carry-forward Method versus Immediate Top-up Tax
+
+However, imposing an immediate Top-up Tax does not always produce an appropriate result — particularly if the Excess Negative Tax Expense is genuinely just a temporary timing difference that will naturally correct itself in the future. In consideration of this, administrative guidance permits an alternative **Carry-forward** method. Under this alternative method, an MNE Group may make a specific election under which the Excess Negative Tax Expense is not treated as an immediate Top-up Tax for that year, but is instead carried forward as a negative tax expense balance into future years — where this balance will be deducted from that jurisdiction's future Adjusted Covered Taxes when the jurisdiction returns to positive income.
+
+The difference between the two methods is essentially one of timing — under the immediate method, the tax liability is recognized earlier, while under the Carry-forward method, the tax liability is deferred until the actual future tax position becomes clear. Once this election is made, it must be applied consistently for that jurisdiction and is not easily changed — as a result, this decision should be made carefully, in a manner consistent with the group's long-term profit projections and forecasts. As a practical matter, for groups that experience cyclical fluctuations between loss and profit in a given jurisdiction (such as commodity-based or capital-intensive businesses), the Carry-forward method may be more appropriate, because it keeps the recognition of tax liability aligned with the actual economic cycle.
+
+## 29.6 Deemed GloBE Income and Entity-Level Allocation
+
+When Additional Current Top-up Tax is determined for a jurisdiction — whether from the negative-tax situation under Article 4.1.5 or from a prior-year recalculation under Article 5.4 — this overall amount must be allocated among each Constituent Entity within the jurisdiction, so that each entity bears the correct share of liability according to its own upstream ownership structure (which is necessary for applying the QDMTT or the IIR). In an ordinary situation, this allocation is made in proportion to each entity's GloBE Income. But it is precisely in these special situations that a problem arises — when the jurisdiction's overall Net GloBE Income is zero or negative, the ordinary positive-income-proportion-based allocation formula cannot apply, because there is no positive overall base left to divide.
+
+To fill this gap, the concept of **Deemed GloBE Income** is used. Entities whose actual GloBE Income is positive (even if the jurisdiction's overall result is negative) are used as the basis for allocation — that is, loss-making entities are excluded from the allocation calculation, and the Additional Current Top-up Tax is allocated only among the positive-income entities, in proportion to their own respective income. If no entity in the jurisdiction has positive GloBE Income (i.e., all are in a loss position), the practical method often determines a consistent and reasonable proportion based on the relative size of each entity's loss (that is, an entity with a relatively larger loss is treated as having a correspondingly larger claim on the expected tax benefit), and the allocation is made on that basis. Regardless of the allocation method used, the core objective remains the same — to determine a reasonable share for each entity, consistent with its economic contribution within its own jurisdiction, so that no single entity unfairly bears an excessive tax liability.
+
+## 29.7 A Numerical Example
+
+The example below shows data for Jurisdiction "Y" for fiscal year 2026, where two Constituent Entities — P and Q — are both in a loss position, and the jurisdiction's overall Adjusted Covered Taxes are also negative.
+
+**Stage 1 — Jurisdiction-level data**
+
+| Item | Amount (USD million) |
+|---|---|
+| Net GloBE Income (Loss) | (1,000) |
+| Minimum tax rate | 15% |
+| Expected adjusted covered tax (loss × 15%) | (150) |
+| Actual Adjusted Covered Taxes | (220) |
+| **Excess Negative Tax Expense** [(220) − (150)] | **70** |
+
+Here, Jurisdiction Y's actual loss is USD 1,000 million, against which the expected tax benefit at a 15% rate would be USD 150 million (negative). But the actual Adjusted Covered Taxes are even more negative — USD 220 million — indicating that the reversal of some past deferred tax liability, or some other item, has created an excess tax benefit beyond what was expected. This excess amount, USD 70 million, is identified as Excess Negative Tax Expense and (assuming the group has not elected the Carry-forward method) will be treated as Additional Current Top-up Tax in that same year.
+
+**Stage 2 — Entity-level allocation**
+
+No entity in Jurisdiction Y has positive GloBE Income, so under the Deemed GloBE Income method, the USD 70 million of Additional Current Top-up Tax is allocated between P and Q based on the relative size of their respective losses:
+
+| Entity | GloBE Income (Loss) | Loss proportion | Allocated Additional Current Top-up Tax |
+|---|---|---|---|
+| Entity P | (800) | 80% | 56 |
+| Entity Q | (200) | 20% | 14 |
+| **Total** | **(1,000)** | **100%** | **70** |
+
+As a result of this allocation, Entity P must bear USD 56 million and Entity Q must bear USD 14 million of Additional Current Top-up Tax, even though both entities are recorded as being in a loss position for the year. At first glance, this result may seem contradictory — how can a loss-making entity bear a Top-up Tax liability? — but the logic is this: despite the loss, the actual tax benefit was much greater than expected, and, from the GloBE framework's perspective, the core purpose of this allocation is to neutralize this "excess benefit." If the group had instead elected the Carry-forward method, this USD 70 million would not have created an immediate tax liability, but would instead have been deducted from Jurisdiction Y's future Adjusted Covered Taxes once the jurisdiction reports positive Net GloBE Income in some future year.
+
+## Summary
+
+Additional Current Top-up Tax is essentially a corrective mechanism for those situations in which the ordinary GloBE ETR formula does not mechanically produce a meaningful result. **Article 4.1.5** keeps a jurisdiction's future ETR calculation clean by recognizing the effect of negative Adjusted Covered Taxes in the current year, while **Article 5.4** allows a shortfall arising from a prior-year recalculation to be added in the current year instead of reopening old filings. When a loss and negative tax occur simultaneously, the Feb 2023 AG's **Excess Negative Tax Expense** method identifies the excess portion by comparing the expected tax benefit against the actual tax benefit, and gives the group the option to elect between an immediate Top-up Tax and a Carry-forward. For entity-level allocation, where the ordinary positive-income-proportion-based formula does not work, the concept of **Deemed GloBE Income** is used to ensure a reasonable and consistent allocation. The overarching purpose of all these rules is the same — to prevent an MNE Group from structurally escaping its minimum tax liability by exploiting a loss or a timing difference.
+
+## Common Mistakes
+
+- **Assuming Article 4.1.5 applies only in a year of positive income:** many practitioners mistakenly assume that the negative-tax-expense provision applies only when a jurisdiction's income is positive, and entirely overlook the possibility of Excess Negative Tax Expense in a loss-making year.
+- **Assuming the Carry-forward election is the default:** the Carry-forward method does not apply automatically — it is a matter of an explicit election, and if no election is made, the default method of an immediate Top-up Tax applies.
+- **Attempting to resolve a prior-year recalculation by amending old filings:** the core purpose of Article 5.4 is precisely to make the adjustment within the current year without reopening old filings; attempting to amend old returns increases administrative complexity and, in many cases, is contrary to the approved method.
+- **Dividing all entities equally in entity-level allocation:** the Deemed GloBE Income method requires a proportional allocation based on each entity's relative financial position, not a simple equal split — this oversimplification produces an incorrect result and distorts each entity's actual tax liability.
+- **Omitting the "expected tax" step in calculating Excess Negative Tax Expense:** a common mistake is to treat the entire negative tax expense directly as Additional Current Top-up Tax; the correct calculation should apply only to the portion that is "in excess of the expected amount."
 
 <!-- lang:bn -->
 

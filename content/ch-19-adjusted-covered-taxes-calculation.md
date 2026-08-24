@@ -13,7 +13,131 @@ slug: "ch-19-adjusted-covered-taxes-calculation"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 19 — Calculating Adjusted Covered Taxes
+
+> **In this chapter:** starting from the current tax expense in the financial accounts, this chapter explains the full methodology for determining, through seven layers of adjustment, the final **Adjusted Covered Taxes** used to calculate the Effective Tax Rate (ETR).
+> **Related Article:** 4.1
+
+## 19.1 The Starting Point: Current Tax Expense
+
+Under the GloBE rules, the journey of calculating a Constituent Entity's Adjusted Covered Taxes begins with the **Current Tax Expense** recorded in its Financial Accounts. Under Article 4.1, a Constituent Entity's Adjusted Covered Taxes is the amount obtained by taking as its base the current tax expense relating to Covered Taxes recognized in its Financial Accounting Net Income or Loss, and then applying a series of adjustments.
+
+Two points must be clarified here. First, Current Tax Expense refers only to the tax expense recorded in the Profit and Loss Statement — tax recorded directly in Equity or Other Comprehensive Income (OCI) is not included here (this portion is adjusted separately later, see Section 19.5). Second, only tax that falls within the definition of Covered Taxes enters this calculation — that is, tax imposed on income, or tax imposed as an alternative to income tax (such as distribution-based tax). Payroll-based tax, VAT, property tax, or other non-income-tax-type duties remain outside this calculation.
+
+In practical terms, a tax officer or accountant will first locate the current-year tax expense line item from the relevant Constituent Entity's financial statements, and then isolate which part of it falls within the definition of Covered Taxes. Only after this isolation are the specific adjustments under Article 4.1.2 and Article 4.1.3 applied, which are discussed in the next two sections. Any error at this initial stage — such as including a tax that is not a Covered Tax, or failing to correctly identify the tax expense for the correct fiscal year — will cause all subsequent adjustments to stand on a flawed foundation.
+
+## 19.2 Additions to Covered Taxes — What Gets Added
+
+After starting from the Current Tax Expense, certain specified items must be added under Article 4.1.2 as **Additions to Covered Taxes**. The purpose of these additions is to include tax-related amounts that should genuinely be treated as Covered Taxes for the relevant fiscal year but are not directly reflected in the financial accounts' current tax expense line, or are recorded differently.
+
+The first notable item is Covered Taxes that are treated as an expense in the profit-before-tax accounts but are shown somewhere other than the conventional "current tax" line item — such as tax withheld at a specific source that is recorded separately. Although such an amount is not in the Current Tax Expense figure, it is in fact part of the actual tax liability for the relevant year, so it needs to be added.
+
+The second important item is tax that was identified as an **Uncertain Tax Position** (a tax liability where there is a possibility of dispute between the tax authority and the taxpayer) in a prior year and excluded under Reductions to Covered Taxes (see Section 19.3), but is actually paid in the current fiscal year. Since the uncertainty is resolved at the moment of cash payment, that amount is added back as Covered Taxes so that it is reflected in the ETR calculation for the correct fiscal year.
+
+Third, if a Qualified Refundable Tax Credit is incorrectly shown in the financial accounts as a reduction of current tax expense — where under the GloBE rules it should have been treated as income — then that reduced amount must be reinstated and added to Covered Taxes, to avoid a double benefit in the calculation process. The core objective of these three categories is the same — to transform the Current Tax Expense figure into the closest reflection of the actual Covered Taxes liability for the relevant Fiscal Year.
+
+## 19.3 Reductions to Covered Taxes — What Gets Excluded
+
+Under Article 4.1.3, there are four main categories where amounts must be excluded from Current Tax Expense, because these items are either inconsistent with the logic of the GloBE framework or are still at such an uncertain stage that including them in the ETR calculation is not appropriate.
+
+### Tax on Excluded Income
+
+Under Chapter 3 of the GloBE rules, certain specified income — such as qualifying international shipping income, or the portion covered by the Substance-based Income Exclusion — is not included in the GloBE Income or Loss calculation. This is called **Excluded Income**. Since this income is not part of GloBE Income, if the tax imposed on this income remains within Current Tax Expense, it would abnormally inflate the numerator of the ETR calculation while the denominator does not contain that income. To remove this inconsistency, the portion of tax related to Excluded Income is excluded from Current Tax Expense. This is a fundamental rule for maintaining consistency between Adjusted Covered Taxes and GloBE Income — a direct application of the matching principle between the numerator and denominator of tax and income.
+
+### Non-Qualified Refundable Tax Credit
+
+Tax subsidies or incentives that are refundable in cash but do not meet the "Qualified" criteria — for example, where the refund period exceeds four years — are called a **Non-Qualified Refundable Tax Credit**. Unlike a Qualified Refundable Tax Credit, which is treated as income as part of GloBE Income, if a Non-Qualified Refundable Tax Credit is not shown in the financial accounts as a reduction of Current Tax Expense, that amount must be directly excluded from Covered Taxes. The rationale is — this type of incentive genuinely reduces the tax liability, so if it remains within Covered Taxes, it will distort the true picture of tax actually paid.
+
+### Uncertain Tax Position
+
+A tax liability where there is a sufficiently high likelihood of future dispute between the taxpayer and the tax authority — that is, one that does not meet the standard of being "more likely than not to be sustained" — is called an **Uncertain Tax Position**. Even if such tax expense is included in Current Tax Expense, it must be excluded for GloBE calculation purposes until it is actually paid. The rationale behind this is — GloBE's ETR calculation should not be based on a speculative or disputed tax liability; rather, once that uncertainty is resolved and actual payment occurs (for example, through settlement or a court ruling), it will then be added back as an Addition to Covered Taxes, as discussed in Section 19.2.
+
+### Tax Not Expected to Be Paid Within Three Years
+
+The fourth item is a time-based rule. If a Current Tax Expense is not expected to actually be paid within three years of the end of the relevant Fiscal Year, that amount must be excluded from Covered Taxes. The purpose of this rule is to prevent a tax liability that is only recorded in the books but remains genuinely unpaid over the long term from being included in the ETR calculation, which could otherwise give a taxpayer the opportunity to artificially show a high ETR. Here, the three-year time limit is an objective test — it must be reasonably determined based on how long similar past liabilities took to be paid, and whether there is a concrete plan for future payment. If payment actually occurs later, it is then added back as an Addition, exactly as with the Uncertain Tax Position.
+
+Together, these four Reductions ensure that Adjusted Covered Taxes reflects only tax that is consistent with GloBE Income, reliable, and payable within a reasonable time in reality.
+
+## 19.4 Total Deferred Tax Adjustment Amount (Connection to Chapter 21)
+
+After adjusting for Additions and Reductions, the third major component is the **Total Deferred Tax Adjustment Amount** under Article 4.1.4. This is the portion of the Deferred Tax Expense or Deferred Tax Benefit recorded in the Financial Accounts that is recomputed according to GloBE's own adjustment process — that is, the deferred tax recorded under local accounting standards is not accepted directly; instead, the figure obtained after re-evaluating it under GloBE-specific rules (capping at a maximum of 15%, excluding deferred tax items inconsistent with GloBE, recapture rules, etc.) is used.
+
+The complete methodology for this recomputation is discussed in a later chapter of this handbook (the detailed methodology for Deferred Tax adjustment), so it is not repeated in detail here. What is important to remember for the purposes of this chapter is that the Total Deferred Tax Adjustment Amount is the result of a separate, self-contained calculation, and enters the Adjusted Covered Taxes equation directly as an addable component (added if positive, subtracted if negative). The adjustment of Current Tax Expense and the adjustment of Deferred Tax are two processes independent of each other, and an error in one does not correct the other. In practical application, a multinational group's tax department should complete these two calculations in separate working papers and then combine them in the main Adjusted Covered Taxes equation, so that traceability is maintained and the source of each component can be clearly shown during a future audit.
+
+## 19.5 Movement of Covered Taxes Recorded in Equity or OCI
+
+Ordinarily, tax expense is recorded in the Profit and Loss account, but in some cases accounting standards require tax to be recorded directly in Equity or Other Comprehensive Income (OCI) — such as tax related to a revaluation reserve, changes in the fair value of certain financial instruments, or foreign currency translation differences. Under Article 4.1.1, if such tax recorded in Equity or OCI relates to an amount that is included in the GloBE Income or Loss calculation and would be taxable under domestic tax rules, then the amount of that increase or decrease in tax must be included in the Adjusted Covered Taxes equation.
+
+The logic behind this is simple — the denominator (GloBE Income) and the numerator (Adjusted Covered Taxes) of GloBE's ETR calculation need to be computed on the same transaction-based basis. If the income/loss from a transaction enters GloBE Income, but the tax related to it remains only in Equity or OCI (and is never reclassified to the Profit and Loss account), then the tax actually paid on that income would be completely ignored in the ETR calculation — which would artificially understate the ETR. For this reason, the GloBE rules require the tax department to cross this inter-accounting-division boundary, locate the corresponding tax amount, and bring it into Adjusted Covered Taxes.
+
+From a practical standpoint, this is an area where information generally outside the tax department — such as the accounting department's Equity movement schedule or OCI rollforward — needs to be examined. In many organizations, this type of adjustment is often overlooked, because in conventional tax accounting, tax related to Equity or OCI is not typically considered a "tax department matter." For GloBE compliance, coordinated review between these two departments is essential.
+
+## 19.6 Negative Adjusted Covered Taxes — Why It Is a Problem
+
+After applying all of the above adjustments, in some cases the final Adjusted Covered Taxes figure may turn out to be negative. This typically happens when a large Deferred Tax Benefit in a jurisdiction (such as recognition of a new Deferred Tax Asset for tax losses) is much larger than the Current Tax Expense, or when the exclusion of a large Non-Qualified Refundable Tax Credit or Excluded-Income-related tax pushes the total figure into negative territory.
+
+Negative Adjusted Covered Taxes is problematic because it distorts the numerator-denominator relationship of the ETR calculation. By definition, ETR is the sum of a jurisdiction's Adjusted Covered Taxes divided by that jurisdiction's Net GloBE Income. If the numerator is negative and the denominator is positive, mathematically the ETR itself becomes negative — which creates a picture that is actually worse than a "no tax" situation and can produce abnormal results in the Top-up Tax calculation. Conversely, if that jurisdiction has a Net GloBE Loss instead of GloBE Income, and Adjusted Covered Taxes is also negative, the ratio of two negative numbers can produce a positive ETR that appears misleadingly high, even though no meaningful tax was actually paid.
+
+To prevent exactly this kind of distortion, the GloBE rules include a specific correction mechanism that, in a Net GloBE Loss situation, compares negative Adjusted Covered Taxes against an "expected" magnitude and converts the excess portion directly into Top-up Tax. This is the core subject of Article 4.1.5, discussed in detail in the next section.
+
+## 19.7 Article 4.1.5 — Additional Top-up Tax When Below the Expected Tax
+
+Article 4.1.5 applies to a situation where a jurisdiction has a Net GloBE Loss, yet that jurisdiction's Adjusted Covered Taxes is a negative amount — and that negative amount is more negative than what would be "expected." Here, the "expected" amount is calculated using a specific formula: the Net GloBE Loss multiplied by the minimum tax rate (15%) yields a figure called the Expected Adjusted Covered Taxes Amount.
+
+A simple example helps illustrate the necessity of this rule. If a jurisdiction has a Net GloBE Loss of 100 units, then it is reasonable to expect a Deferred Tax Benefit of approximately 15 units (i.e., 100 × 15%) — because it is reasonable to assume that when this loss is used in the future, it will yield a tax saving of approximately 15%. But if the financial accounts actually show negative 40 units as Adjusted Covered Taxes (i.e., much more negative than the expected 15), then the additional 25-unit difference is inconsistent with genuine economic logic — it is likely a deferred tax benefit arising from some other source, such as the effect of a tax rate change, or some deferred tax item that is not directly related to GloBE's logic.
+
+Under the Article 4.1.5 rule, this excess difference (the difference between the Expected Adjusted Covered Taxes Amount and the actual negative Adjusted Covered Taxes) is added for that jurisdiction, in that same year, as Additional Current Top-up Tax, rather than waiting for some future year. As a result, the excess tax benefit does not get spread out through a reduced ETR in the future but is corrected immediately. This mechanism essentially closes off the opportunity for MNE groups to record a large one-time deferred tax benefit and artificially inflate the ETR over multiple future years to avoid Top-up Tax. In practice, the tax department must perform this comparison every year for each Net GloBE Loss jurisdiction — if the actual Adjusted Covered Taxes is less negative than or equal to the expected amount, no correction is needed; but if it is more negative, the excess portion must be separately identified and included in the Top-up Tax calculation.
+
+## 19.8 A Numerical Example
+
+Below is a complete numerical example, where, for a Constituent Entity named "XYZ Limited," each adjustment step is shown step by step, from the Current Tax Expense for Fiscal Year 2025 through to the final Adjusted Covered Taxes. All figures are expressed in millions of taka.
+
+**Step 1 — Initial information**
+
+According to the financial accounts, XYZ Limited's Current Tax Expense is 500 million taka. Below is detailed information on each addition and subtraction item.
+
+**Step 2 — Details of Additions to Covered Taxes**
+
+| Item | Description | Amount |
+|---|---|---|
+| a | Tax previously excluded as an Uncertain Tax Position, actually paid in the current year | +30 |
+| b | Tax treated as an expense in profit-before-tax but recorded separately outside the current tax line | +20 |
+| **Total Additions** | | **+50** |
+
+**Step 3 — Details of Reductions to Covered Taxes**
+
+| Item | Description | Amount |
+|---|---|---|
+| a | Tax imposed on Excluded Income (international shipping income) | −40 |
+| b | Non-Qualified Refundable Tax Credit, not included as a reduction in current tax expense | −25 |
+| c | Tax expense related to an Uncertain Tax Position | −35 |
+| d | Tax expense not expected to be paid within three years | −15 |
+| **Total Reductions** | | **−115** |
+
+**Step 4 — Total Deferred Tax Adjustment Amount and Equity/OCI adjustment**
+
+After recomputation under the methodology described in Chapter 21, the Total Deferred Tax Adjustment Amount comes to +80 million taka. In addition, there is a tax increase of +10 million taka recorded directly in Equity, related to a revaluation reserve and a transaction included in GloBE Income.
+
+**Step 5 — Full calculation (from Current Tax Expense to Adjusted Covered Taxes)**
+
+| No. | Step | Amount (million taka) | Running total |
+|---|---|---|---|
+| 1 | Current Tax Expense (starting point) | 500 | 500 |
+| 2 | (+) Additions to Covered Taxes | +50 | 550 |
+| 3 | (−) Reductions to Covered Taxes | −115 | 435 |
+| 4 | (+) Total Deferred Tax Adjustment Amount | +80 | 515 |
+| 5 | (+) Tax adjustment recorded in Equity/OCI | +10 | 525 |
+| = | **Adjusted Covered Taxes** | | **525** |
+
+Thus, XYZ Limited's final Adjusted Covered Taxes for Fiscal Year 2025 is 525 million taka. If we assume that the aggregate Net GloBE Income of all Constituent Entities in the relevant jurisdiction is 3,000 million taka, then the notional ETR would be 525 ÷ 3,000 = 17.5%, which is above the 15% minimum rate — meaning that, in this simplified example, no Top-up Tax liability would arise. The complete methodology for this final ETR calculation is discussed in detail in this handbook's chapter on ETR; the purpose of this example is only to clearly show each step of the Adjusted Covered Taxes calculation.
+
+## Summary
+
+Adjusted Covered Taxes is the numerator of GloBE's ETR calculation, and its precise determination is the central subject of Article 4.1. The calculation begins with the Current Tax Expense recorded in the financial accounts, to which certain items are added under Article 4.1.2 — primarily tax amounts that are genuinely Covered Taxes for the relevant year but were not correctly reflected in the current tax expense line, such as tax previously excluded as uncertain that has now been paid. On the other hand, four main categories are excluded under Article 4.1.3 — tax on Excluded Income, Non-Qualified Refundable Tax Credit, tax related to Uncertain Tax Position, and tax that will not be paid within three years — because these items are inconsistent with GloBE's ETR calculation or are still uncertain. Then, the Total Deferred Tax Adjustment Amount is added under Article 4.1.4, which is the result of a separate and detailed recomputation process, and finally, adjustments are made for tax recorded in Equity or OCI that is directly related to GloBE Income. When the result of this entire calculation is negative and the relevant jurisdiction has a Net GloBE Loss, Article 4.1.5's "expected tax" test is applied to immediately convert the excess tax benefit into Additional Current Top-up Tax, so that the ETR is not artificially distorted in future years.
+
+## Common Mistakes
+
+A common mistake is including non-income-tax-type duties (such as property tax or VAT) in Current Tax Expense, which fall outside the definition of Covered Taxes and distort the basis of the calculation from the outset. A second mistake is forgetting to re-add, as an Addition, tax previously excluded as an Uncertain Tax Position when it is actually paid in a subsequent year — as a result, that tax amount is permanently lost and the ETR is shown lower than it actually is. A third mistake is failing to accurately allocate, on a proportionate basis, the tax related to Excluded Income — particularly when part of an entity's income is excluded and the rest is taxable, failing to correctly split the corresponding tax expense leads to an incorrect calculation. A fourth mistake is completely ignoring tax adjustments recorded in Equity or OCI, because this information often sits in a different schedule maintained by the accounting department, which the tax team does not regularly review. The fifth and most complex mistake is failing to apply the Article 4.1.5 "expected tax" test in a Net GloBE Loss situation — particularly when a large deferred tax benefit is recorded in a jurisdiction; skipping this test can leave a mandatory Additional Current Top-up Tax liability unidentified, which, if later discovered in an audit, creates a risk of interest and penalties.
 
 <!-- lang:bn -->
 

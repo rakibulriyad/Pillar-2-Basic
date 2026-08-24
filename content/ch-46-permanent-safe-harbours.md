@@ -13,7 +13,91 @@ slug: "ch-46-permanent-safe-harbours"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 46 — Permanent Safe Harbours and Simplified Calculations
+
+> **In this chapter:** the Transitional CbCR Safe Harbour will eventually expire, but to reduce the administrative burden of continuing full GloBE calculations for small or immaterial Constituent Entities, the OECD has introduced a permanent **Simplified Calculation Safe Harbour** — this chapter discusses its structure, the definition of a Non-Material Constituent Entity, and where this simplification does not apply.
+> **Relevant Article:** 8.2, 8.3
+
+## 46.1 The Structure of the Simplified Calculation Safe Harbour
+
+Chapter 8 (Administration) of the GloBE Model Rules contains two important foundational Articles. **Article 8.2 (Safe Harbours)** empowers the Inclusive Framework to create safe harbour arrangements under which, if specified conditions are met, a jurisdiction's top-up tax is deemed to be zero — so that the taxpayer does not have to perform a full GloBE calculation for that jurisdiction. **Article 8.3 (Administrative Guidance)**, on the other hand, empowers the Inclusive Framework to publish detailed guidance for the consistent and administratively practical application of the Model Rules. The Administrative Guidance published in July 2023 established a new framework under Article 8.2, pursuant to Article 8.3, known as the **Simplified Calculation Safe Harbour**.
+
+Its fundamental distinction from the Transitional CbCR Safe Harbour is this — the Transitional version applies only for a limited period (fiscal years beginning by 31 December 2026 and filable through 1 July 2028), whereas the Simplified Calculation Safe Harbour is permanent in nature — it can remain applicable for a specific category of Constituent Entity year after year, for as long as the conditions are met. The core purpose of this framework is to identify entities whose size or contribution to the group's overall risk is so small that the administrative cost of calculating full GloBE Income, Adjusted Covered Taxes, and the Effective Tax Rate (ETR) is often disproportionate to the revenue protection it yields.
+
+The Simplified Calculation Safe Harbour is built around a single category of entity — the **Non-Material Constituent Entity (NMCE)**. This definition is discussed in detail in the next section. It is important to remember here that this Safe Harbour is not a stand-alone, isolated calculation — rather, it is blended with the full calculations of all other Constituent Entities of the jurisdiction and enters the same jurisdictional test. As a result, an NMCE's simplified figures are directly incorporated into the jurisdiction's overall ETR or Excess Profit calculation, rather than creating an entirely separate Safe Harbour test.
+
+## 46.2 Non-Material Constituent Entity (NMCE) — Definition and Conditions
+
+A Constituent Entity is treated as an NMCE if three conditions are met together.
+
+First, the entity must have been excluded from line-by-line consolidation in the Ultimate Parent Entity's (UPE's) Consolidated Financial Statements solely on grounds of size or materiality — not for any other reason (such as being classified as held-for-sale or a disposal group). This exclusion generally needs to be approved by the UPE's auditor, so that it is not arbitrary.
+
+Second, the entity's total Revenue must be below a specified threshold — generally the EUR 50 million limit, which is consistent with the materiality-based exclusion used for Country-by-Country Reporting (CbCR) purposes. For fiscal years shorter than twelve months, this threshold is adjusted proportionately.
+
+Third, the entity's financial information must be prepared under an Acceptable or Authorised Financial Accounting Standard, or must come from a reliable source consistent with the information used for CbCR purposes — such as the entity's own general ledger or a sub-consolidation package.
+
+If all three conditions are met together, the entity becomes eligible as an NMCE on a per-year, per-jurisdiction basis — meaning eligibility is not permanent, but must be re-verified each fiscal year. An important practical point is that a large MNE Group may have small sales offices, dormant holding companies, or inactive subsidiaries in many jurisdictions, for which preparing a full GloBE package is practically impossible or extremely costly — the NMCE framework addresses precisely this reality.
+
+## 46.3 Simplified Revenue, Income, and Tax for an NMCE
+
+For an NMCE, none of the full GloBE adjustments (such as Excluded Dividends, Excess Negative Tax Expense Carry-forward, or the detailed re-categorization of Covered Taxes) need to be performed. Instead, three figures are taken directly from the data used for, or equivalent to, CbCR purposes.
+
+- **Revenue** is taken as the entity's Total Revenue as reported for CbCR purposes.
+- **Income (the substitute for GloBE Income)** is taken as the Profit (Loss) before Income Tax reported in the CbCR — GloBE's specific adjustments (such as Excluded Equity Gain or Policy Disallowed Expenses) are not applied here.
+- As a substitute for **Covered Taxes**, the Income Tax Accrued (Current Year) reported in the CbCR is used, so that no deferred tax adjustment or GloBE-specific Covered Tax re-categorization is needed.
+
+The table below briefly shows the difference between the ordinary GloBE calculation and the NMCE's simplified calculation.
+
+| Component | Ordinary GloBE Calculation | NMCE Simplified Calculation |
+|---|---|---|
+| Revenue | Adjusted from Financial Accounting Net Income/Loss | CbCR Total Revenue (directly) |
+| Income/Loss | GloBE Income or Loss (with many adjustments) | CbCR Profit (Loss) before Income Tax |
+| Covered Taxes | Adjusted Covered Taxes (including deferred tax adjustments) | CbCR Income Tax Accrued (Current Year) |
+| Level of Application | Detailed entity-level calculation | Blended with other CEs at the jurisdiction level |
+
+The main advantage of this simplification is that data already prepared for CbCR purposes can be reused, so no separate GloBE-specific trial balance or adjustment schedule needs to be prepared for the NMCE. However, this simplification is elective — an MNE Group may, if it wishes, still perform a full GloBE calculation for an NMCE, particularly if that proves more advantageous.
+
+## 46.4 Applying the Three Tests to an NMCE
+
+The three jurisdiction-level tests are applied using the NMCE's simplified figures — and these tests are performed by aggregating or blending them with the full GloBE figures of other (non-NMCE) Constituent Entities of the same jurisdiction, not separately.
+
+First, the **De Minimis Test** examines whether the jurisdiction's aggregate Revenue is less than EUR 10 million and its aggregate Income is less than EUR 1 million. If the condition is met, the jurisdiction's top-up tax is deemed zero, per the principle in Article 8.2.
+
+Second, the **Simplified ETR Test** calculates simplified Covered Taxes divided by simplified Income — and if this ratio is equal to or greater than the minimum tax rate (15%), the top-up tax liability for that jurisdiction is deemed zero. It is important here not to confuse this threshold with the step-wise increasing rates of the Transitional CbCR Safe Harbour (15% in 2023–24, 16% in 2025, 17% in 2026) — since the Simplified Calculation Safe Harbour is permanent in nature, it refers directly to the minimum tax rate.
+
+Third, the **Routine Profits Test** (or Excess Profit Test) examines whether simplified Income is equal to or less than the jurisdiction's Substance-based Income Exclusion (SBIE) amount. If the condition is met, it is deemed that there is no Excess Profit in that jurisdiction, so the top-up tax is zero.
+
+If any one of these three tests is satisfied, the full GloBE ETR and Top-up Tax calculation can be avoided for that jurisdiction. But there is a practical risk here — if an NMCE's simplified Income (CbCR-based Profit before Tax) is relatively high and its simplified Covered Taxes are low, the jurisdiction's aggregate ETR may appear lower than the actual GloBE ETR — which can undermine the Safe Harbour eligibility of the entire jurisdiction, even if other, larger entities have a sufficiently high actual ETR.
+
+## 46.5 The Possible Future Structure of a Permanent Safe Harbour
+
+It needs to be stated clearly here — what has currently been established as "permanent" is essentially the NMCE-centered Simplified Calculation Safe Harbour, published under Article 8.3 through the July 2023 Administrative Guidance. Discussions are ongoing within the Inclusive Framework about the concept of a broader, long-term permanent safe harbour framework as a successor to the Transitional CbCR Safe Harbour, but its specific design — such as which thresholds will be used, how much simplification will be permitted in the ETR calculation, how long reliance on CbCR data will be permitted, and whether it will apply to all entities or remain limited to small, NMCE-like entities — is not yet fully determined.
+
+The Transitional CbCR Safe Harbour is limited to fiscal years beginning by 31 December 2026 and filable through 1 July 2028. What will replace it after its expiry — two possible directions are reportedly under discussion: (a) expanding the scope of the existing Simplified Calculation Safe Harbour beyond NMCEs, or (b) building an entirely new permanent safe harbour framework that uses some data-based method other than reliance on CbCR. Neither has yet been finally adopted or published.
+
+One practical consequence of this uncertainty is that MNE Groups should base their compliance planning only on the frameworks that are currently definitively in force (the NMCE Simplified Calculation Safe Harbour and the Transitional CbCR Safe Harbour, up to its specified deadline), and treat future possible expansions as speculative — not as a guaranteed entitlement. Such changes may be introduced through future Administrative Guidance of the Inclusive Framework, and are expected to be published under Articles 8.2 and 8.3.
+
+## 46.6 When Simplification Should Not Be Chosen
+
+Although the Simplified Calculation Safe Harbour is elective, electing it is not always the best decision in every case. There are several situations in which this simplification should be avoided.
+
+First, if an entity's CbCR-based Profit before Tax shows a significantly higher figure than the full GloBE Income (for example, due to a one-time accounting adjustment), the simplified method could artificially pull down the jurisdiction's aggregate ETR, causing an otherwise Safe-Harbour-eligible jurisdiction to lose eligibility.
+
+Second, if the entity is in a loss position but this is not accurately reflected in the CbCR data (for example, because of intra-group transactions), the full GloBE calculation may in fact give a more favorable result.
+
+Third, if the jurisdiction has an effective Qualified Domestic Minimum Top-up Tax (QDMTT) with its own calculation methodology, using a separate simplified method for the NMCE could create inconsistencies between the GloBE and QDMTT calculations, which may become complicated to reconcile later.
+
+Fourth, the need for consistency after the election needs to be kept in mind — once the simplified method is elected for an entity, it cannot be changed every year without a reasonable justification. So if there is a likelihood that the entity's size or the nature of its profit may change in the future, the decision should be made carefully from the outset.
+
+Fifth, reliance on the quality of CbCR data is a subtle risk — if an entity's CbCR data is subject to frequent correction or error, there is an increased likelihood of an incorrect figure entering the GloBE Information Return (GIR), and a corresponding risk of penalty in the future.
+
+## Summary
+
+The Safe Harbour framework established under Article 8.2, together with the Administrative Guidance issued under Article 8.3, jointly created the Simplified Calculation Safe Harbour, which applies primarily to Non-Material Constituent Entities (NMCEs). To qualify as an NMCE, an entity must be excluded from consolidation on grounds of size or materiality, have Revenue below EUR 50 million, and have reliable financial information. For these entities, Revenue, Income, and Covered Taxes can be taken directly from CbCR data, which is applied blended with other entities at the jurisdiction level in the three tests — De Minimis, ETR, and Routine Profits. The design of a broader permanent safe harbour framework as a successor to the Transitional CbCR Safe Harbour has not yet been determined, so extra caution is needed in future planning. Finally, simplification is not always advantageous — decisions should be made after considering the risk of a reduced ETR, inconsistency with QDMTT, and the consistency obligation that follows an election.
+
+## Common Mistakes
+
+A common mistake is to think of an NMCE's simplified figures as a separate, isolated Safe Harbour test — in reality, they are combined with all other Constituent Entities of the jurisdiction and enter the same test. Another mistake is confusing the ETR threshold of the Simplified Calculation Safe Harbour with the step-wise increasing rates of the Transitional CbCR Safe Harbour — these are two different frameworks, each following its own rate structure. A third mistake is planning on the assumption that a possible future expansion of the permanent safe harbour is a currently, definitively established rule, when it is still at the discussion stage within the Inclusive Framework. Fourth, many forget that once an NMCE election is made, a consistency obligation is created, so it is not possible to freely choose the more advantageous of the simplified and full methods each year. Fifth, a frequently occurring error is overlooking the need to reconcile with the local tax calculation when using the NMCE simplification in a jurisdiction that has a QDMTT.
 
 <!-- lang:bn -->
 

@@ -12,7 +12,111 @@ slug: "ch-47-qdmtt-safe-harbour-switch-off"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 47 — The QDMTT Safe Harbour and the Switch-off Rule
+
+> **In this chapter:** if a jurisdiction has a **QDMTT** (Qualified Domestic Minimum Top-up Tax) in effect locally and it meets specified criteria, there is no need to recalculate top-up tax on that same income again under GloBE (IIR/UTPR) — this is the **QDMTT Safe Harbour**. This chapter discusses its rationale, the three standards, the recognition process, and the **Switch-off Rule** for withdrawal of the Safe Harbour.
+> **AG:** July 2023 · Dec 2023
+
+## 47.1 Rationale: Avoiding Doing the Same Calculation Twice
+
+Under the core structure of the GloBE Model Rules, the jurisdictional Effective Tax Rate (ETR) must be calculated for every jurisdiction, and if it is below 15%, the top-up tax is determined and collected first via the **QDMTT**, and then, if needed, via the **Income Inclusion Rule (IIR)** and the **Undertaxed Profits Rule (UTPR)**. Article 10.1 provides the definition of a QDMTT, stating that a domestic minimum tax is treated as a QDMTT only when its calculation methodology is equivalent to the results of the GloBE Model Rules, and the relevant country taxes its own under-taxed entities on a priority basis.
+
+The problem is — if the same data of the same jurisdiction is calculated on one hand by the local QDMTT administration, and on the other hand the Ultimate Parent Entity (UPE) recalculates the full GloBE ETR for that same jurisdiction again in its own country under the IIR, then a dual administrative burden is created for the taxpayer entity — the same financial information has to be prepared twice, with two different sets of adjustments, in two different reporting formats. Even though the resulting tax amount is the same, the procedural waste is enormous.
+
+To eliminate this inconvenience, the Inclusive Framework introduced the **QDMTT Safe Harbour** in the July 2023 Administrative Guidance. Its core idea is simple: if a jurisdiction's QDMTT meets three specified standards, then the GloBE top-up tax liability of the Constituent Entities in that jurisdiction is deemed to be zero (nil) — meaning there is no need to separately calculate IIR or UTPR, because the QDMTT is presumed to have already fulfilled that tax claim.
+
+This is a **presumptive** arrangement — that is, a presumption-based simplification in place of an actual GloBE calculation, which reduces the compliance burden for both the taxpayer and the tax administration. However, this presumption is not unconditional — it depends on the quality of the QDMTT and the administrative behavior of that country, as discussed in the next section.
+
+## 47.2 The Three Standards (QDMTT Accounting Standard, Consistency Standard, Administration Standard)
+
+A QDMTT must meet three distinct standards together to be eligible for the Safe Harbour. The structure of these three was first established in the July 2023 AG, and the December 2023 AG added detailed explanations and examples of their application.
+
+### QDMTT Accounting Standard
+
+The **QDMTT Accounting Standard** requires that the accounting standard used as the basis for the QDMTT calculation be consistent with the accounting standards approved under the GloBE Model Rules. This generally means the accounting standard used in the UPE's consolidated financial statements, or a locally approved acceptable accounting standard (such as local GAAP, if considered sufficiently reliable). If a jurisdiction uses an accounting standard as the basis for its QDMTT that is not consistent with GloBE's framework (such as significantly different recognition or measurement principles), this standard fails.
+
+### Consistency Standard
+
+The **Consistency Standard** requires that the QDMTT's calculation methodology — the definition of income, the definition of covered taxes, adjustments, and the ETR calculation method — be as consistent as possible with the main GloBE Model Rules, unless the GloBE Model Rules themselves permit a specific deviation (such as specific simplifications for foreign-owned entities under a QDMTT, or permission to calculate in local currency). If a country's QDMTT includes any material deviation that gives a more favorable result for the taxpayer (such as larger deductions, a different Substance-based Income Exclusion calculation, or a different Excluded Entity definition) and it is not on the list of permitted deviations, then the Consistency Standard fails.
+
+### Administration Standard
+
+The **Administration Standard** determines how the QDMTT is actually applied and monitored in practice. This includes — arrangements for regular and timely filing of returns, adequate audit capacity, and most importantly, a commitment to participate in the peer review process agreed under the OECD's Inclusive Framework. Even if a country passes a GloBE-consistent law on paper, if its administrative implementation is weak, it consistently issues late amendments, or it does not cooperate in the peer review — then this standard is not met.
+
+The table below gives a brief comparison of the three standards:
+
+| Standard | Core Question | Common Reason for Failure |
+|---|---|---|
+| QDMTT Accounting Standard | Is the underlying accounting standard GloBE-approved? | Use of an unacceptable or frequently changing local accounting standard |
+| Consistency Standard | Is the calculation methodology consistent with GloBE? | An unapproved taxpayer-favorable deviation |
+| Administration Standard | Is enforcement and oversight effective? | Weak enforcement, late amendments, non-cooperation in peer review |
+
+If even one of the three standards fails, the entire QDMTT Safe Harbour becomes inapplicable for that jurisdiction — it is not a matter of partial eligibility.
+
+## 47.3 The Central Record and the Recognition Process
+
+Each individual taxpayer or each individual tax administration does not have to separately verify whether a jurisdiction's QDMTT actually meets the three standards. Instead, the OECD's Inclusive Framework maintains a central list — the **Central Record** — which publishes a list of which jurisdictions' QDMTT laws have been recognized for the Safe Harbour.
+
+The recognition process generally proceeds through the following steps:
+
+1. The relevant jurisdiction submits its QDMTT law (draft or enacted) through the process specified by the Inclusive Framework.
+2. The Inclusive Framework's technical expert group examines the law against the three standards.
+3. In the initial stage, a jurisdiction may receive "transitional qualification," which allows temporary application of the Safe Harbour even if the law is not yet fully finalized, pending completion of the full peer review.
+4. After the full peer review is completed, the jurisdiction is permanently listed in the Central Record (or eligibility is denied).
+
+The practical significance of this arrangement for taxpayers is that an MNE Group's tax team does not have to independently analyze and verify the three standards for every country's QDMTT law. Instead, one can be reassured by checking whether the relevant country is on the Central Record list, and for which reporting year the eligibility is effective. This list becomes the primary reference point when preparing the GIR (GloBE Information Return).
+
+However, there is an important caveat here — inclusion in the Central Record is not a permanent guarantee. For each year's reporting period, it must be reconfirmed that the relevant country continues to meet the standards in force at that time, since the law may change, and this could trigger the Switch-off Rule.
+
+## 47.4 The Switch-off Rule — When the Safe Harbour Is Withdrawn
+
+The **Switch-off Rule** is a protective feature of the QDMTT Safe Harbour, which ensures that a jurisdiction, having once received recognition, cannot permanently enjoy the Safe Harbour benefit even if it later degrades the quality or enforcement of its QDMTT.
+
+The Switch-off Rule is triggered mainly in two situations:
+
+**First, due to a legislative change (law change trigger).** If a jurisdiction amends its QDMTT law in a way that conflicts with any one of the three standards — such as changing to an accounting standard that is not GloBE-consistent, or adding a taxpayer-favorable concession that violates the Consistency Standard — then the Safe Harbour is automatically withdrawn for that jurisdiction, generally from the date that amendment takes effect.
+
+**Second, due to administrative failure (administrative failure trigger).** If a jurisdiction fails to properly participate in the peer review process promised under the Administration Standard, or serious deficiencies in enforcement come to light, the Inclusive Framework may remove that country from the Central Record or suspend its recognition.
+
+The practical result of a Switch-off is that a presumptive nil top-up tax can no longer be assumed for that jurisdiction; rather, the relevant MNE Group must restore the full GloBE ETR and top-up tax calculation for that jurisdiction, as though the Safe Harbour had never applied. Importantly — a Switch-off generally has a **prospective** effect, meaning the Safe Harbour is not retroactively voided for the earlier years in which the jurisdiction was validly recognized — unless there is evidence of fraudulent or seriously incorrect information having been provided.
+
+The practical significance for taxpayers is that reliance on a jurisdiction under the Switch-off Rule can never be "set-and-forget." Re-examining the Central Record in each reporting year, and monitoring whether there have been any recent changes to that country's QDMTT law, is essential.
+
+## 47.5 Effect on IIR and UTPR When the Safe Harbour Applies
+
+When the QDMTT Safe Harbour applies to a jurisdiction, its direct effect is on the IIR and UTPR calculations applicable to the Constituent Entities located in that jurisdiction. The core rule is — the "Top-up Tax" for that jurisdiction is deemed to be zero (nil), so that:
+
+- **For IIR:** the UPE or the Intermediate Parent Entity does not separately calculate the ETR and top-up tax for that jurisdiction in its own country and claim any additional tax under the IIR. However, this does not mean the entities in that jurisdiction can be entirely ignored in the GIR — it must still be declared in the GIR that a Safe Harbour is being claimed, and on what basis.
+- **For UTPR:** even if the jurisdiction in question would otherwise have been under-taxed, as long as the Safe Harbour applies, no UTPR top-up tax for that jurisdiction will be allocated to and re-distributed among the other countries.
+
+An important limitation must be kept in mind here — the QDMTT Safe Harbour applies only to that specific jurisdiction, not to any other jurisdiction of the group. If a multinational group operates in multiple countries, whether the Safe Harbour applies must be separately verified for each country — its applicability in one country does not indicate applicability in another.
+
+Another subtle point is that although the Safe Harbour presumes a nil top-up tax, it does not declare the actual Effective Tax Rate statistics to be "zero risk." If it is later proven, for whatever reason (such as a tax audit adjustment, or a correction of prior-year data), that the actual ETR or covered tax calculation was incorrect, a corresponding adjustment may need to be reflected in the applicable or a subsequent year — though such reassessments are less frequent because of the presumptive framework of the Safe Harbour.
+
+## 47.6 Practical Impact: Where Calculation Is Needed, Where It Is Not
+
+For a multinational group's tax team, the biggest practical benefit of the QDMTT Safe Harbour is narrowing the scope of the full GloBE calculation. In practice, this allows a group's jurisdictions to be divided into roughly three categories:
+
+1. **Safe Harbour jurisdictions:** here the QDMTT has been calculated and paid locally, and is recognized in the Central Record. For these countries, the group does not need to recalculate the full GloBE ETR again at the UPE or IPE level — only the basis for the Safe Harbour claim needs to be documented in the GIR.
+2. **Non-Safe Harbour but high-tax jurisdictions:** here there is no QDMTT, or it is not Safe-Harbour-eligible, but the actual ETR is above 15% or some other Transitional CbCR Safe Harbour (such as the De Minimis, Routine Profits, or Effective Tax Rate test) is satisfied. Here a simplified test is sufficient, and although the full GloBE calculation can be avoided, the basis is different.
+3. **Jurisdictions requiring a full calculation:** here no Safe Harbour applies — either there is no QDMTT, or it fails one of the three standards, or a Switch-off has occurred. For these countries, the full jurisdictional blending, Substance-based Income Exclusion, and top-up tax calculation must be performed.
+
+This division has a direct impact on the group's allocation of compliance resources — limited time and personnel can be concentrated on the most complex (third-category) jurisdictions, where the actual risk and uncertainty are greater. However, despite this simplification, underlying data (such as the core components of GloBE Income and Covered Taxes) may still need to be collected even for first-category jurisdictions, because preliminary information must be shown in the GIR to support the Safe Harbour claim, and preparation must be maintained for a rapid transition to the full calculation if a Switch-off occurs in the future.
+
+Another practical consideration relates to timing — since the Central Record can be updated multiple times a year and new jurisdictions can be added or withdrawn, checking the latest list at the start of each reporting cycle should be included as a regular compliance step.
+
+## Summary
+
+If a jurisdiction's QDMTT meets the QDMTT Accounting Standard, the Consistency Standard, and the Administration Standard together, the QDMTT Safe Harbour allows the GloBE top-up tax for that jurisdiction to be presumptively deemed zero, eliminating the need to recalculate fully under IIR and UTPR. The OECD's Central Record is the central evidence of this eligibility, and inclusion in it must be reconfirmed annually. The Switch-off Rule ensures that if the standards fail due to a legislative change or an administrative failure, the Safe Harbour is withdrawn prospectively, and in that case the group must revert to the full GloBE calculation. In practice, this arrangement helps groups classify their jurisdictions by risk to allocate resources, although even for Safe Harbour jurisdictions, minimal supporting data collection and regular re-verification must continue.
+
+## Common Mistakes
+
+- **Treating a Safe Harbour as a permanent guarantee:** Many assume that once listed in the Central Record, protection is secured forever. In reality, reconfirmation is required for each reporting year, and the Switch-off Rule can apply at any time.
+- **Treating the three standards as a combined score:** In fact, these are independent conditions — if even one fails, the entire Safe Harbour is voided; meeting the other two is not sufficient.
+- **Extending one country's recognition to another country:** The QDMTT Safe Harbour applying in one jurisdiction does not mean it automatically applies in any other jurisdiction of the group — each country's eligibility must be separately verified.
+- **Ignoring the required disclosure in the GIR:** Even when the Safe Harbour applies, the basis of the claim and relevant information must be disclosed in the GIR; assuming it is entirely "excluded from reporting" is a mistake.
+- **Extending the effect of a Switch-off to earlier years:** Under normal circumstances, a Switch-off is prospective; a Safe Harbour validly claimed in earlier years is generally not retroactively voided, unless there is evidence of seriously incorrect information — many confuse this distinction.
+- **Treating the mere existence of a QDMTT as synonymous with Safe Harbour eligibility:** A country having a QDMTT law alone does not make the Safe Harbour applicable — it must be formally recognized in the Central Record.
 
 <!-- lang:bn -->
 

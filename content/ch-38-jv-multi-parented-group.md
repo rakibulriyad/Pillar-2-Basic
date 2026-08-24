@@ -13,7 +13,108 @@ slug: "ch-38-jv-multi-parented-group"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 38 — Joint Ventures and Multi-Parented MNE Groups
+
+> **In this chapter:** two special structures that fall outside ordinary consolidation — where multiple parties jointly control a single entity (a Joint Venture) or where multiple top-tier entities together operate a single economic group (a Multi-Parented MNE Group) — how these are captured under the GloBE Model Rules, how their Top-up Tax is calculated, and to whom it is allocated, are discussed in this chapter.
+> **Relevant Articles:** 6.4, 6.5
+
+## 38.1 Definition of a JV: 50% or More Interest, Accounted for Under the Equity Method
+
+Generally, the GloBE Model Rules treat only those entities as Constituent Entities of an MNE Group that are consolidated line-by-line in the Ultimate Parent Entity's (UPE's) Consolidated Financial Statements — that is, entities included under Full Consolidation or Proportionate Consolidation. But in the real business world, many entities are structured such that multiple partners jointly hold control, and under accounting rules such an entity is not consolidated but instead accounted for using the **equity method** (a method under which, instead of showing the investee's assets and liabilities line-by-line in the investor entity's financial statements, only the net investment value and its share of profit or loss are shown as a single figure). This kind of entity is what the GloBE Model Rules, under the definition in Article 6.4, call a **Joint Venture (JV)**.
+
+Under the Article 6.4 definition, the following conditions must be met together for an entity to be treated as a JV:
+
+- the UPE directly or indirectly holds at least 50% of the Ownership Interest in that entity;
+- the entity's financial results are reported using the equity method in the UPE's Consolidated Financial Statements; and
+- the entity is not itself the UPE of any MNE Group or Large Domestic Group, and it is also not an Excluded Entity.
+
+Note that if the ownership interest is below 50%, that investment is generally treated as an ordinary portfolio investment and falls outside the scope of GloBE — because in that case there is no genuine controlling relationship with the UPE. But the combination of 50% or more ownership together with equity-method accounting indicates that, even though the entity is not being consolidated, there is nonetheless sufficient economic control or influence over it — something that cannot be ignored from a GloBE perspective. An important exception here is a "JV Subsidiary" — that is, a subsidiary entity under a JV, which is not itself separately treated as a JV, but is instead treated as part of an integrated structure together with that parent JV.
+
+## 38.2 The Fiction of Treating a JV Group as a Separate MNE Group
+
+The most important structural solution in the GloBE Model Rules is to not include a JV as a Constituent Entity of the main MNE Group, but instead to place it within an entirely separate accounting structure. Under Article 6.4.1, a JV and all of its JV Subsidiaries together form a **JV Group**, and this JV Group is treated for GloBE purposes as an entirely separate MNE Group — with the JV itself sitting in the role of UPE of that fictional group.
+
+This provision could be called a "legal fiction," because in reality a JV is not the head of any independent group — it is a joint investment of one or more actual MNE Groups. But for the convenience of legal accounting, GloBE assumes that the JV Group is an entirely separate economic unit, with its own:
+
+- determination of GloBE Income or Loss (per Chapter 3);
+- determination of Adjusted Covered Taxes (per Chapter 4);
+- determination of jurisdiction-based Effective Tax Rate (ETR) and Top-up Tax percentage (per Chapter 5);
+- application of the Substance-based Income Exclusion (SBIE); and
+- De Minimis Exclusion test
+
+— all done entirely separately from the main MNE Group's calculation. That is, the JV Group's ETR is never blended with any jurisdictional ETR of the main group. This can create a real situation — even if the main group's ETR in its own country is above 15%, the ETR of a JV located in the same country, calculated separately, could fall below 15%, in which case a separate Top-up Tax liability will arise for the JV Group. This separation is deliberate — because if the JV's income and tax were blended with the main group's, other partners of the group (who are not owners of the JV) would in effect enjoy the benefits of blending without actually sharing in the JV's tax liability.
+
+## 38.3 How a JV's Top-up Tax Reaches the Parent
+
+The Top-up Tax calculated for a JV Group must be paid by someone — and this is where the core function of Article 6.4.2 and 6.4.3 is revealed. Every Constituent Entity (as part of one or more actual MNE Groups) that directly or indirectly holds an Ownership Interest in the JV is called a "JV Parent." The JV Group's total Top-up Tax is allocated among each JV Parent according to its Allocable Share — the ratio being determined by that Parent's actual ownership share and its claim on the JV's net income for that year, essentially following the same logic as the "Allocable Share" calculation under the Income Inclusion Rule (IIR) in Chapter 2.
+
+Each JV Parent then includes its allocated portion of the Top-up Tax as its own IIR liability in its own jurisdiction, if a Qualified IIR is in force there, following the same general Top-down Approach — exactly the same method by which the Top-up Tax of an ordinary Low-Taxed Constituent Entity is imposed on the main group's UPE or an Intermediate Parent Entity (see the chapter where the IIR mechanism under Chapter 2 is discussed). If multiple JV Parents are in the same ownership chain (for example, a UPE and its Intermediate Parent Entity are both partners in the same JV), double counting is avoided under the split-ownership and Top-down principles — the same principles already applicable to the ordinary IIR.
+
+The practical significance of this structure is that the liability for a JV's tax shortfall never falls solely on the main group's UPE if multiple partners own the same JV; rather, each partner group is liable according to its own ownership proportion. In this way, the JV's tax burden is allocated consistently with its actual economic ownership.
+
+## 38.4 Application of the QDMTT and UTPR to a JV
+
+The application of tax-collection tools to a JV Group differs somewhat from that of an ordinary MNE Group. First, if a Qualified Domestic Minimum Top-up Tax (**QDMTT** — a local top-up tax enacted domestically to ensure a minimum tax rate, which takes first priority ahead of an IIR/UTPR imposed abroad) is in force in the jurisdiction where the JV is located, it also applies to the JV Group — because a QDMTT generally covers all Constituent Entities located in that jurisdiction (including the JV, if local law includes it). If QDMTT is paid in the jurisdiction, it is deducted as a credit from the IIR-allocated Top-up Tax passed on to the JV Parents, just as with an ordinary Constituent Entity.
+
+Second — and this is the most important policy point of this section — the Undertaxed Profits Rule (**UTPR** — a backstop process that, if the IIR fails, redistributes remaining Top-up Tax among member jurisdictions) does not apply to the collection of a JV Group's Top-up Tax. Article 6.4.3 clearly states that a JV Group's Top-up Tax will be collected only through the IIR — if a JV Parent's jurisdiction does not have a Qualified IIR, or that Parent is not itself a controlling ownership partner, then that allocated portion is not pushed onto another jurisdiction through the UTPR. The reason is structural — the UTPR normally works based on membership and a formula based on employees/assets tied to the main MNE Group's Consolidated Financial Statements, but since a JV is not a consolidated member of any single group (it is jointly owned by multiple parties), the ordinary UTPR allocation formula cannot meaningfully work for a JV Group.
+
+The practical result is that if none of a JV's Parents' jurisdictions have a Qualified IIR, and the JV's own jurisdiction also has no QDMTT, then the JV Group's Top-up Tax liability may in fact remain uncollected. The only reliable way to fill this gap is for a QDMTT to be in force in the JV's own jurisdiction.
+
+## 38.5 Multi-Parented MNE Groups — Stapled Structures and Dual-Listed Arrangements
+
+Article 6.5 discusses another, different kind of structure — where the UPEs of two or more separate groups enter into a contract or structural relationship with each other such that they effectively operate a single economic business, even though under conventional ownership rules they remain separate groups. This structure is called a **Multi-Parented MNE Group** (a single MNE Group with more than one UPE).
+
+Article 6.5 identifies two recognised forms:
+
+- a **Stapled Structure** (where the shares of two separately listed entities are "stapled" together such that one entity's shares cannot be sold or transferred separately from the other's shares; each shareholder effectively holds a single unit representing combined ownership of both entities); and
+- a **Dual-listed Arrangement** (where two or more separately listed UPEs agree by contract that their businesses will be operated as a single economic entity, profits, losses and assets will be shared in a predetermined ratio, and shareholders will receive equivalent voting rights and economic benefits — even though neither entity legally holds shares of the other).
+
+In both cases, the key feature is the same — whatever the legal form of ownership, in business and economic reality it is a single, unified group. Under Article 6.5.1, all entities involved in such an arrangement are treated for GloBE purposes as Constituent Entities of a single Multi-Parented MNE Group, and each UPE is jointly treated as the UPE of that single group. The main purpose of this is that, if these two entities were treated as separate groups, one of them might individually fall outside the scope of GloBE without exceeding the EUR 750 million revenue threshold, or the income and tax of entities of both groups located in the same jurisdiction, being blended separately, would artificially alter the ETR. By treating a Multi-Parented structure as a single group, GloBE prevents this kind of strategic splitting.
+
+## 38.6 Threshold, ETR, and Filing in a Combined Group
+
+For a Multi-Parented MNE Group, the EUR 750 million revenue threshold test is carried out by adding together the revenue of the Consolidated Financial Statements of two or more UPEs — that is, the combined income of both sides of a Stapled or Dual-listed structure is considered, not each separately. Similarly, when determining the ETR for each jurisdiction, the GloBE Income and Adjusted Covered Taxes of all Constituent Entities under both UPEs located in that jurisdiction are combined for a unified jurisdictional blending — as if they were actually part of a single group. Filing of the GloBE Information Return (GIR) also requires a single filing, for which a Designated Filing Entity is generally nominated, even though both UPEs remain jointly liable.
+
+The filing picture is somewhat different for a JV Group — because a JV Group is an entirely separate fictional group, it may in principle require a separate GIR, but in practice the JV itself, or a Filing Entity nominated on its behalf, may file it, or the necessary information may instead be attached to the JV Parents' own respective GIRs. In both cases the underlying goal is the same — that each jurisdiction's tax authority can clearly see which entity's income is included in which group's accounts and to whom the Top-up Tax liability has been allocated, so that no gap for double counting or double exemption is created.
+
+## 38.7 Numerical Example
+
+Suppose an entity called **Delta JV Ltd** is located in Jurisdiction "X," and its ownership is divided between two Parent Entities of two different MNE Groups:
+
+- **Parent A** (located in Jurisdiction "P," where a Qualified IIR is in force) — owns 60% of Delta JV;
+- **Parent B** (located in Jurisdiction "Q," where no Qualified IIR has yet been enacted) — owns 40% of Delta JV.
+
+Both Parents' UPEs account for Delta JV using the equity method in their Consolidated Financial Statements, and even though no single UPE holds more than 50% ownership, each Parent's respective share meets the conditions of the JV definition in Article 6.4 (both Parents together, and also individually, being equity-accounted, means Delta JV is treated as a JV, and both Parents are JV Parents).
+
+Calculating GloBE figures for the Delta JV Group (Delta JV Ltd and its JV Subsidiaries) separately for Jurisdiction "X" gives the following picture:
+
+| Item | Amount (USD) |
+|---|---|
+| JV Group's GloBE Income (per Chapter 3) | 100,000,000 |
+| Substance-based Income Exclusion (SBIE) | 10,000,000 |
+| Excess Profit (basis for Top-up Tax calculation) | 90,000,000 |
+| Adjusted Covered Taxes | 8,000,000 |
+| Effective Tax Rate (ETR) = 8,000,000 ÷ 100,000,000 | 8% |
+| Minimum tax rate | 15% |
+| Top-up Tax percentage = 15% − 8% | 7% |
+| Jurisdictional Top-up Tax = 7% × 90,000,000 | 6,300,000 |
+
+This total Top-up Tax of $6,300,000 is now allocated between the two JV Parents in proportion to their ownership (per the Allocable Share):
+
+| JV Parent | Ownership share | Allocated Top-up Tax (USD) | Result |
+|---|---|---|---|
+| Parent A ("P" jurisdiction — has Qualified IIR) | 60% | 3,780,000 | Parent A will pay $3,780,000 of Top-up Tax through the IIR in its own jurisdiction |
+| Parent B ("Q" jurisdiction — no Qualified IIR) | 40% | 2,520,000 | Under Article 6.4.3, the UTPR does not apply, so no backstop mechanism activates for this $2,520,000 |
+
+Note that if Jurisdiction "Q" enacts a Qualified IIR in the future, Parent B too would have to bear $2,520,000 as its IIR liability for its 40% share. Also note that if Jurisdiction "X" enacts a QDMTT and, say, it collects the entire $6,300,000 Top-up Tax locally, then neither Parent A nor Parent B would have any remaining IIR liability, because QDMTT takes priority above all else and is fully credited when calculating the IIR. This example makes it clear why it is in Jurisdiction "X"'s own interest to enact a QDMTT — otherwise there is a risk that the tax burden on Parent B's 40% share may remain permanently uncollected.
+
+## Summary
+
+Joint Ventures and Multi-Parented MNE Groups are both structures where the conventional concept of single ownership or single consolidation does not apply, yet the GloBE Model Rules provide a coherent solution for each. A JV and its subsidiaries together form a JV Group, which under Article 6.4 is treated as an entirely separate MNE Group, determining its own GloBE Income, Covered Taxes, and ETR, and whose Top-up Tax is collected only through the IIR of the JV Parents (in proportion to the Allocable Share) — the UTPR does not apply here, though the QDMTT does. On the other hand, a Multi-Parented MNE Group formed through a Stapled Structure or Dual-listed Arrangement is treated under Article 6.5 as a single group, in which the threshold test, ETR blending, and GIR filing are all carried out on a combined basis. The underlying purpose of both provisions is the same — to give economic reality precedence over the technical limitations of legal consolidation, so that no tax-planning gap is created.
+
+## Common Mistakes
+
+One common mistake is mixing a JV's income and tax data into the main MNE Group's jurisdictional blending — this runs contrary to the clear direction of Article 6.4, because a JV Group's ETR must always be calculated entirely separately. A second common mistake is attempting to use the UTPR to collect a JV's Top-up Tax, thinking that if a JV Parent's jurisdiction lacks a Qualified IIR, that portion could simply be allocated through the UTPR — Article 6.4.3 explicitly closes off this collection route. A third mistake is testing the revenue threshold for the two UPEs of a Multi-Parented MNE Group separately, when under Article 6.5 it must be tested on a combined basis. A fourth mistake is wrongly identifying an entity with less than 50% ownership as a JV, or trying to bring an entity reported under an accounting method other than the equity method within the JV definition — unless both conditions (50% or more ownership and the equity method) are met together, the entity will not be treated as a JV under Article 6.4.
 
 <!-- lang:bn -->
 

@@ -13,7 +13,131 @@ slug: "ch-35-utpr"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 35 — UTPR (Undertaxed Profits Rule)
+
+> **In this chapter:** when the IIR is unable, for some reason, to collect the full amount of Top-up Tax, the **Undertaxed Profits Rule (UTPR)** fills that gap as a kind of aggregate, formula-based backstop mechanism; this chapter discusses its computation method, allocation formula, application technique, and the legal debate surrounding it.
+> **Related Articles:** 2.4–2.6 · **AG:** Feb 2023
+
+## 35.1 The Role of the UTPR: The Last Backstop
+
+The two main pillars of the GloBE system are the **Income Inclusion Rule (IIR)** and the **Undertaxed Profits Rule (UTPR)**. In previous chapters we saw that the IIR generally applies at the level of the Ultimate Parent Entity (UPE) or an intermediate parent entity, and imposes Top-up Tax on profit earned in a low-taxed jurisdiction at the level of that parent entity's own jurisdiction. But real-world corporate structures are not always this simple. Sometimes the UPE is located in a country where GloBE has not been implemented; sometimes a partial ownership structure prevents the IIR from collecting the full Top-up Tax; and sometimes the UPE's own country itself has income whose Effective Tax Rate is below the 15% minimum.
+
+To ensure that no low-taxed profit escapes taxation entirely in these situations, Articles 2.4 through 2.6 of Chapter 2 of the GloBE Model Rules design the UTPR as a "backstop," or last resort. The idea is simple — if the IIR cannot collect the necessary Top-up Tax on the profit, then the liability for the remaining Top-up Tax is divided, according to a formula, among the jurisdictions where the group's Constituent Entities are located and where UTPR law is in force. This allocation has no connection whatsoever to the actual profit of that jurisdiction — it is based entirely on the presence of employees and tangible assets, which makes the UTPR a distinct, aggregate-natured rule.
+
+Importantly, the UTPR is in no way a replacement for the IIR; rather it is a complementary process. The IIR is applied first, and then whatever remains (if anything remains) is collected through the UTPR. This sequence — IIR first, then UTPR — is a fundamental architectural decision of the GloBE system, ensuring that the same profit is not taxed twice.
+
+## 35.2 Determining the UTPR Top-up Tax Amount — What Remains After the IIR
+
+The first step in applying the UTPR is to determine the aggregate amount that was not collected by the IIR and that must now be collected through the UTPR. This amount is called the **UTPR Top-up Tax Amount**, and Article 2.4 establishes the framework for this calculation.
+
+The computation process is jurisdiction-based. For each low-taxed jurisdiction, the jurisdictional top-up tax amount is first determined using the method discussed in Chapter 32 (applying the top-up tax rate to Excess Profit, after subtracting SBIE, the Substance-based Income Exclusion). Then, the portion already collected through the IIR is subtracted from this total amount. Whatever remains is the amount collectible for that jurisdiction through the UTPR.
+
+Two common situations are particularly notable here. First, if the UPE is located in a country where there is no Qualified IIR (for example, that country has not yet implemented Pillar Two), then the Top-up Tax of all of the group's low-taxed jurisdictions becomes fully collectible through the UTPR. Second, if the UPE's jurisdiction does have a Qualified IIR, but the ownership structure (such as the presence of minority shareholders or a complex holding structure) prevents the IIR from collecting the full amount, then the UTPR fills that gap. In this second situation, partial collection generally occurs — that is, the IIR collects some portion, and the remaining portion goes to the UTPR.
+
+Another important point at this stage is that if a jurisdiction has not yet legally implemented the UTPR (that is, that country has not yet enacted UTPR legislation), then the UTPR does not apply in that country, and its employees and assets are also not included in the allocation formula's calculation. As a result, the overall effectiveness of the UTPR depends on how many jurisdictions have actually adopted this rule.
+
+## 35.3 Even Low-Taxed Income in the UPE's Own Country Falls Within the UTPR
+
+One point that is often misunderstood is that the UTPR does not apply only to low-taxed income in "subsidiary jurisdictions" — it also includes low-taxed income in the UPE's own country (its home jurisdiction). This point is explicitly addressed in Article 2.6.
+
+Naturally, the question may arise — the IIR does apply at the UPE's own level, so why would the UTPR be needed for income in the UPE's own country? The answer is that the IIR is a "top-down" rule — it imposes tax at the UPE's jurisdiction on the low-taxed income of foreign Constituent Entities. But if the UPE's own country itself has a low effective tax rate (that is, the UPE's country is itself a low-taxed jurisdiction), the IIR does not apply to that country — because there is no superior entity above any parent entity that could apply an IIR to it on itself.
+
+The rule to fill this gap is: if the UPE's jurisdiction has no Qualified Domestic Minimum Top-up Tax (QDMTT) and the effective tax rate in that country is below the minimum rate, then the Top-up Tax amount corresponding to this low-taxed income in the UPE's own country is also included within the UTPR Top-up Tax Amount, and is distributed among the other UTPR jurisdictions — exactly as the Top-up Tax of any other low-taxed subsidiary jurisdiction is distributed. This feature has in practice encouraged many countries to adopt a QDMTT, because with a QDMTT that country's own tax authority can collect the Top-up Tax first, so that revenue does not flow away to foreign UTPR jurisdictions.
+
+## 35.4 UTPR Percentage — The Allocation Formula
+
+Once the overall UTPR Top-up Tax Amount has been determined, the next question is — how will this amount be divided among the various UTPR jurisdictions? This is where the **UTPR Percentage** formula described in Article 2.5 comes into play. This formula is entirely non-income-based — it uses only two indicators of real presence: the number of employees and tangible assets.
+
+```
+UTPR % = 50% × (share of employees) + 50% × (share of tangible assets)
+```
+
+In this formula, "share of employees" means the group's total number of employees of Constituent Entities in that jurisdiction, as a proportion of the total number of employees across all UTPR jurisdictions; and "share of tangible assets" means the net book value of tangible assets in that jurisdiction, as a proportion of the total net book value of tangible assets across all UTPR jurisdictions. Both components carry equal weight — 50% each — which makes this a balanced formula, reflecting both employment and physical investment.
+
+The count of employees generally includes full-time-equivalent employees and independent contractors who genuinely work as part of the group's ordinary operations. Tangible assets include property, plant and equipment, and natural resources, but cash, financial assets, or intangible assets (such as goodwill or intellectual property) are not included in this calculation.
+
+Note that the base used in this formula is drawn only from jurisdictions where the UTPR is actually in force at that time (that is, if a jurisdiction has not yet adopted the UTPR, its employees and assets remain outside both the numerator and denominator). As a result, the UTPR Percentage for the same group can change in a given year if a new country enacts a UTPR law, or if a Constituent Entity starts or ceases operations in a jurisdiction.
+
+## 35.5 The Denial of Deduction Method and Equivalent Adjustments
+
+How the amount of Top-up Tax allocated to a jurisdiction under the UTPR Percentage is actually collected is a separate and technically important question. The GloBE Model Rules do not directly impose a new tax; rather, they instruct each jurisdiction to create a process within its own tax law, called **Denial of Deduction**.
+
+The core idea of this method is that the relevant Constituent Entity(ies) in that jurisdiction are denied a deduction for a specified amount of expense in their ordinary corporate income tax computation, which increases their taxable income, and applying the domestic tax rate to that increased income raises additional tax — an amount equal to, or close to, the allocated UTPR Top-up Tax. For example, if a jurisdiction's tax rate is 25% and it is allocated $10 million of UTPR Top-up Tax, then approximately $40 million worth of deduction would be denied ($10 million ÷ 25% = $40 million), so that the additional tax liability comes to exactly $10 million.
+
+However, not every jurisdiction's tax system is able to adopt the "denial of deduction" concept in the same way — in some countries' legal frameworks, applying this concept may be administratively complex or constitutionally inconsistent. For this reason, Article 2.6 also leaves open an alternative path — an **equivalent adjustment**, under which that jurisdiction may achieve the same economic outcome through some other process in its own legal terms (such as imposing a direct additional tax, or some other procedural adjustment that increases the tax liability). The core condition is that the outcome must be equivalent — that is, the allocated UTPR Top-up Tax amount must actually be collected, whatever the name of the process.
+
+Where multiple Constituent Entities are located in the same jurisdiction, this allocated amount is generally divided among them based on their respective proportions of taxable income or deductible expense, so that the tax burden is distributed proportionately among all of them and no single entity bears a disproportionate burden.
+
+## 35.6 Carry-forward If Not Collected in the Current Year
+
+A practical problem is — what happens if the aggregate deductible expense of the Constituent Entities in a UTPR jurisdiction is so small that the full allocated Top-up Tax amount cannot be collected through denial of deduction? A **Carry-forward** mechanism is provided for this situation.
+
+Under this mechanism, if a portion of the amount allocated in the current fiscal year cannot actually be collected through denial of deduction or an equivalent adjustment (for example, because the relevant entity's deductible expense is insufficient relative to the allocated amount), that uncollected portion is not extinguished — rather, it is added to the UTPR Top-up Tax Amount determined for that jurisdiction in the next fiscal year. As a result, that jurisdiction's collectible liability increases in the following year, and if sufficient deductible expense is available the following year, the full amount, including the previous year's shortfall, is collected.
+
+This feature ensures that no "permanent gap" is created within the UTPR system — only the timing of collection is deferred, but the liability itself remains unchanged. From a practical standpoint, this is especially important for small or low-activity jurisdictions, where the amount of deductible expense may naturally be low due to a limited number of Constituent Entities.
+
+## 35.7 Reallocation in Subsequent Years
+
+Alongside carry-forward, a related but distinct process is **reallocation**. Because the UTPR Percentage is recomputed each year — since the proportion of employees and tangible assets can change from year to year, and which jurisdictions have the UTPR actually in force can also change — a given jurisdiction's annual allocated amount is not constant.
+
+As a result, for a jurisdiction that was allocated an amount in one year but for some reason could not collect it that year (and it was carried forward to the next year), if that jurisdiction's UTPR Percentage differs the following year — either decreasing or increasing — the relevant carry-forward amount is adjusted based on that new, changed percentage. In addition, if a jurisdiction stops applying the UTPR in a given year, or a new jurisdiction is added, the entire allocation formula is reconstructed — that is, it is redistributed among all remaining UTPR jurisdictions, as if the whole allocation for a fresh year were being computed anew.
+
+Because of this continual recalculation, a multinational group's tax team or internal tax department must collect and verify data on employee numbers and tangible assets for all of the group's jurisdictions afresh each year, because the previous year's allocation ratio cannot be assumed to carry over to the following year.
+
+## 35.8 Exclusion of Investment Entities
+
+A general principle of the GloBE Model Rules is not to treat an **Investment Entity** the same as an ordinary corporate group, because the structure and purpose of such entities are fundamentally different — they generally manage assets on behalf of investors and often act as a flow-through, so that the tax liability falls at the level of the ultimate investor. This characteristic was also relevant for the IIR (discussed in earlier chapters), and it applies equally for the UTPR.
+
+Investment Entities are excluded from the scope of the UTPR's denial-of-deduction or equivalent-adjustment process. This means that if an Investment Entity is located in a jurisdiction, no denial of deduction can be directly imposed on that entity under the UTPR process. In practice, however, if any other non-investment Constituent Entity is present in the same jurisdiction, that allocated amount can be applied against that other entity.
+
+In addition, the employees and assets of an Investment Entity are also not included in the count of employees and tangible assets used in the UTPR Percentage formula. The rationale for this exclusion is that if the assets and employees of an Investment Entity were included in the allocation formula, that jurisdiction's allocation could increase abnormally, even though it would not actually be possible to apply denial of deduction to that entity. This exclusion therefore preserves the integrity of the allocation formula and ensures that allocation is based only on the effective presence of jurisdictions where the UTPR is actually applicable.
+
+## 35.9 The Legitimacy of the UTPR and International Legal Debate
+
+The UTPR is considered the most controversial component of the GloBE system, and this debate remains unresolved. The main point of objection is that the UTPR claims the right to tax the profit of another jurisdiction (such as the UPE's own country or another low-taxed jurisdiction), even though there may be no direct economic connection (nexus) between the profit and the UTPR-applying jurisdiction — tax is imposed solely on the basis that the group has some employees or assets in that country. In traditional international tax policy, the basis of taxing rights is generally connected to source or residence, and the UTPR's "employee- and asset-based" allocation method is a clear departure from this traditional framework.
+
+For this reason, questions have been raised in various quarters about whether the UTPR is consistent with existing bilateral tax treaties, particularly those containing non-discrimination clauses or protections for the right to deduct business expenses. Some analysts argue that the denial-of-deduction method effectively increases a taxpayer's income tax base in a way that may conflict with the deduction-protection clauses of some treaties. On the other hand, the OECD and the Inclusive Framework have argued that the UTPR is a domestic tax law process that does not directly impose tax on any foreign taxpayer, but merely regulates the deduction rights of taxpayers within its own jurisdiction — and is therefore a rule of a different nature, sitting outside treaty-based taxing-rights allocation.
+
+A particular dimension was added to this debate by the reaction of the United States — since the United States has not adopted a GloBE-consistent IIR or UTPR, US multinational groups have become potential targets of the UTPR, which has generated considerable resistance and political reaction among US policymakers and legislators. Against this backdrop, the Administrative Guidance published in February 2023 included some temporary relief measures (such as transitional safe-harbour-type provisions), which allow limiting UTPR application under specified conditions — although this guidance does not resolve the core legitimacy debate, it merely tempers the timing and scope of implementation.
+
+Overall, there is still no consensus within the international legal community on the legitimacy of the UTPR. It is an active, ongoing debate — not a settled question — and new dimensions of this question may be added in the future through the constitutional courts of various countries or international dispute-resolution mechanisms.
+
+## 35.10 Numerical Example
+
+Below is a simplified numerical example showing, step by step, the entire UTPR allocation process.
+
+**Scenario:** A multinational group's UPE is located in a country that has no Qualified IIR. The group's analysis shows that the aggregate Top-up Tax amount across various low-taxed jurisdictions (after computing net of SBIE, and after subtracting the portion collectible by the IIR) comes to **US $40,000,000 (40 million)** — this is the aggregate UTPR Top-up Tax Amount. This amount must be distributed among four UTPR jurisdictions — X, Y, Z, and W — where the group's Constituent Entities operate and where the UTPR is in force.
+
+First, the number of employees and net book value of tangible assets of each jurisdiction is collected:
+
+| Jurisdiction | Employees | Employee share | Tangible assets (net book value, USD million) | Asset share | UTPR % [50%×employees + 50%×assets] | Allocated UTPR Top-up Tax (USD) |
+|---|---|---|---|---|---|---|
+| X | 200 | 20.0% | 50 | 25.0% | 22.5% | 9,000,000 |
+| Y | 300 | 30.0% | 20 | 10.0% | 20.0% | 8,000,000 |
+| Z | 400 | 40.0% | 100 | 50.0% | 45.0% | 18,000,000 |
+| W | 100 | 10.0% | 30 | 15.0% | 12.5% | 5,000,000 |
+| **Total** | **1,000** | **100.0%** | **200** | **100.0%** | **100.0%** | **40,000,000** |
+
+The calculation steps are shown below, for example for jurisdiction Z:
+
+- Employee share = 400 ÷ 1,000 = 40.0%
+- Asset share = 100 ÷ 200 = 50.0%
+- UTPR % = 50% × 40.0% + 50% × 50.0% = 20.0% + 25.0% = 45.0%
+- Allocated amount = 45.0% × $40,000,000 = $18,000,000
+
+Note that jurisdiction Z has both the highest number of employees and the highest amount of tangible assets, and it therefore received the largest allocation — this is as expected, since the formula is directly related to the proportion of real presence. By contrast, jurisdiction Y has a relatively high number of employees (30%) but a low asset share (10%), so its overall percentage came out lower (20%).
+
+Now suppose jurisdiction W has only a single Constituent Entity of the group, and its total annual deductible expense is only $15,000,000 (assuming a local tax rate of 20%). In this case, the maximum tax liability that could be increased is $15,000,000 × 20% = $3,000,000. But the allocated amount is $5,000,000, which exceeds the total collectible amount. As a result, $3,000,000 will be collected in jurisdiction W that year through denial of deduction, and the remaining $2,000,000 will be carried forward and added to jurisdiction W's UTPR Top-up Tax Amount for the next fiscal year.
+
+This example shows how an entirely income-neutral allocation formula determines tax liability based on real presence, and how an implementation limitation (here, insufficient deductible expense) is resolved through the carry-forward mechanism.
+
+## Summary
+
+The UTPR is the last backstop of the GloBE system, designed to collect any remaining portion of Top-up Tax not collected through the IIR — including low-taxed income in the UPE's own country. Under Article 2.4, the aggregate UTPR Top-up Tax Amount is first determined, and then this amount is distributed among various UTPR jurisdictions using the UTPR Percentage formula described in Article 2.5 — a combination of 50% employee count and 50% tangible assets. The amount allocated to each jurisdiction is collected through denial of deduction or an equivalent adjustment as described in Article 2.6; if collection is incomplete, the remaining amount is carried forward and added to the following year's allocation, and because the UTPR Percentage is recomputed every year, reallocation is unavoidable. Investment Entities are excluded from this entire process — neither is denial of deduction applied to them, nor are their employees and assets counted in the allocation formula. Finally, the debate over the UTPR's consistency with international tax policy and treaty law remains unresolved — particularly because of its nexus-independent claim to taxing rights.
+
+## Common Mistakes
+
+A common misconception is that the UTPR applies only to income in foreign subsidiary jurisdictions — many forget that low-taxed income in the UPE's own country (if there is no QDMTT there) can also fall within the scope of the UTPR. Another common mistake is thinking that income, profit, or revenue plays some role in the UTPR Percentage calculation — in reality this formula is based entirely on the number of employees and tangible assets, with no direct connection to income. Third, many assume that once determined for a jurisdiction, the UTPR Percentage stays fixed — in reality it must be recomputed every year, because the number of employees, the amount of assets, and the number of participating jurisdictions can all change. Fourth, the carry-forward amount is often mistakenly treated as a "waiver" or "relief," whereas in reality it is only a deferral of the timing of collection — the liability itself is not extinguished. Fifth, a misconception arises around the Investment Entity exclusion, that the jurisdiction where such an entity is present falls entirely outside the UTPR — in reality, if another non-investment entity is present in that jurisdiction, the UTPR can still apply there. Finally, in discussions of the UTPR's legal legitimacy, many mistakenly present it as a "settled" matter, when in fact it remains an ongoing, unresolved debate within the international tax law community.
 
 <!-- lang:bn -->
 

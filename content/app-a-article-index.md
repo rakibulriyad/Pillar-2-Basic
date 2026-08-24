@@ -8,7 +8,102 @@ slug: "app-a-article-index"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Appendix A — Model Rules Article Index
+
+This index links every Article of the GloBE Model Rules, from Chapter 1 through Chapter 10, to its subject matter and to the chapter of this book in which it is discussed. Use these tables to quickly find where a detailed discussion of a specific Article can be found.
+
+## Model Rules Chapter 1 — Scope
+
+| Article | Subject | Chapter of this book |
+|---|---|---|
+| 1.1 | Definition of MNE Group and consolidation; the €750 million revenue threshold | Chapter 6, Chapter 7 |
+| 1.2 | MNE Group formation and the consolidation-based test | Chapter 6 |
+| 1.3 | Definitions of Entity, Permanent Establishment, and Flow-through Entity; JV, Minority-owned, and Investment Entity | Chapter 8, Chapter 11 |
+| 1.4 | Ultimate Parent Entity (UPE), Intermediate Parent Entity (IPE), Partially-Owned Parent Entity (POPE) | Chapter 10 |
+| 1.5 | Excluded Entities | Chapter 9 |
+
+## Model Rules Chapter 2 — Charging Provisions
+
+| Article | Subject | Chapter of this book |
+|---|---|---|
+| 2.1 | Imposition of the Income Inclusion Rule (IIR); the role of UPE/IPE/POPE; Domestic IIR | Chapter 10, Chapter 31, Chapter 33, Chapter 34 |
+| 2.2 | Allocation of Top-up Tax under the IIR (Allocable Share) | Chapter 10, Chapter 31, Chapter 33 |
+| 2.3 | Rules for applying the IIR at a lower-tier Parent Entity | Chapter 10, Chapter 31, Chapter 33 |
+| 2.4 – 2.6 | Imposition and allocation formula of the Undertaxed Profits Rule (UTPR); order of application of the rules | Chapter 35, Chapter 31 |
+
+## Model Rules Chapter 3 — Computation of GloBE Income or Loss
+
+| Article | Subject | Chapter of this book |
+|---|---|---|
+| 3.1 | Determining Financial Accounting Net Income/Loss (the starting point) | Chapter 12 |
+| 3.2 | Adjustments in determining GloBE Income or Loss; Elections specified in sub-paragraphs 3.2.2, 3.2.5, 3.2.6, 3.2.8 | Chapter 13, Chapter 14 |
+| 3.3 | Provision excluding International Shipping Income | Chapter 15 |
+| 3.4 | Allocation of income/loss between a Permanent Establishment and the Main Entity | Chapter 16 |
+| 3.5 | Allocation of income/loss of a Flow-through Entity | Chapter 17 |
+
+## Model Rules Chapter 4 — Covered Taxes
+
+| Article | Subject | Chapter of this book |
+|---|---|---|
+| 4.1 | Computation of Adjusted Covered Taxes; Additional Current Top-up Tax under sub-paragraph 4.1.5 | Chapter 19, Chapter 29 |
+| 4.2 | Definition of Covered Taxes | Chapter 18 |
+| 4.3 | Allocation of Covered Taxes between entities in different jurisdictions | Chapter 20 |
+| 4.4 | The Deferred Tax adjustment process; Recast and Recapture rules in sub-paragraphs 4.4.1, 4.4.4–4.4.7 | Chapter 21, Chapter 22 |
+| 4.5 | GloBE Loss Election | Chapter 23 |
+| 4.6 | Post-filing Adjustments after a prior year's return has been filed | Chapter 24 |
+
+## Model Rules Chapter 5 — Effective Tax Rate and Top-up Tax Computations
+
+| Article | Subject | Chapter of this book |
+|---|---|---|
+| 5.1 | Jurisdictional blending and computation of the Effective Tax Rate (ETR) | Chapter 25 |
+| 5.2 | Determining the Top-up Tax Percentage and Excess Profit; relationship with QDMTT under sub-paragraph 5.2.3; order of application of the rules | Chapter 26, Chapter 31, Chapter 32 |
+| 5.3 | Substance-based Income Exclusion (SBIE) | Chapter 27 |
+| 5.4 | Additional Current Top-up Tax | Chapter 29 |
+| 5.5 | De Minimis Exclusion | Chapter 28 |
+| 5.6 | Special provisions for a Minority-owned Constituent Entity | Chapter 30, Chapter 11 |
+
+## Model Rules Chapter 6 — Corporate Restructurings and Holding Structures
+
+| Article | Subject | Chapter of this book |
+|---|---|---|
+| 6.1 | Entry of an entity into the group | Chapter 36 |
+| 6.2 | Exit of an entity from the group | Chapter 36 |
+| 6.3 | Transfer of assets/liabilities and Reorganisation | Chapter 37 |
+| 6.4 | Joint Venture and multi-parent group structures | Chapter 38, Chapter 11 |
+| 6.5 | Specific provisions for multi-parent groups | Chapter 38 |
+
+## Model Rules Chapter 7 — Tax Neutrality and Distribution Regimes
+
+| Article | Subject | Chapter of this book |
+|---|---|---|
+| 7.1 | Special provisions for a tax-transparent UPE | Chapter 39 |
+| 7.2 | UPE subject to a Deductible Dividend regime | Chapter 39 |
+| 7.3 | Eligible Distribution Tax System | Chapter 40 |
+| 7.4 – 7.6 | Tax transparency and Election provisions relating to Investment Entities | Chapter 40, Chapter 11 |
+
+## Model Rules Chapter 8 — Administration
+
+| Article | Subject | Chapter of this book |
+|---|---|---|
+| 8.1 | The GloBE information filing obligation | Chapter 50 |
+| 8.2 | General principles and structure of Safe Harbours | Chapter 44, Chapter 46 |
+| 8.3 | Permanent Safe Harbour | Chapter 46 |
+
+## Model Rules Chapter 9 — Transition Rules
+
+| Article | Subject | Chapter of this book |
+|---|---|---|
+| 9.1 – 9.4 | Provisions governing the early transition period (Transitional Tax Attributes, first entering scope, etc.) | Chapter 49 |
+| 9.2 | (Transitional provisions relating to SBIE) | Chapter 27, Chapter 49 |
+
+## Model Rules Chapter 10 — Definitions
+
+| Article | Subject | Chapter of this book |
+|---|---|---|
+| 10.1 | Definitions of core terms including Entity, Permanent Establishment, Flow-through Entity, UPE/IPE/POPE, and QDMTT | Chapter 8, Chapter 10, Chapter 32 |
+
+*Note: this index lists only the Article numbers referenced in this book; the full Model Rules contain further sub-paragraphs and Articles that fall outside the scope of this edition.*
 
 <!-- lang:bn -->
 

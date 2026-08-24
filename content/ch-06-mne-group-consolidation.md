@@ -13,7 +13,129 @@ slug: "ch-06-mne-group-consolidation"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 6 — MNE Group and Consolidated Financial Statements
+
+> **In this chapter:** the very first and most fundamental question in testing whether the GloBE Rules apply — whether a corporate structure is a "Group" at all, and, if that Group is spread across at least two jurisdictions, whether it qualifies as an **MNE Group** (multinational enterprise group) — is examined here. The foundation for this consists of the definition of Consolidated Financial Statements, the Deemed Consolidation Test, and the distinction between an Acceptable and an Authorised Accounting Standard.
+> **Related Article:** 1.1, 1.2
+
+## 6.1 The Definition of "Group" — A Consolidation-Based Test
+
+The entire structure of Pillar Two rests on a single concept — the **Group**. Under the GloBE Model Rules, no entity is taxed individually; instead, the accounts of an entire group are combined to determine its Effective Tax Rate (ETR). So the first thing to understand is what "Group" means from the GloBE perspective.
+
+Under the definition in **Article 1.2**, a Group is:
+
+1. A collection of entities that are related through ownership or control such that the assets, liabilities, income, expenses, and cash flows of those entities are, or should be, included in the **Consolidated Financial Statements** of an **Ultimate Parent Entity (UPE)** — the ultimate parent entity; or
+
+2. A single entity that has one or more **Permanent Establishments** (PE), provided that the entity is not part of another Group whose accounts do not include it as its Main Entity.
+
+Notably, this definition does not rest on **de jure control** (the percentage of legal ownership), but on the concept of **accounting consolidation**. In other words, the question is not "how much of the shares does an entity hold," but "under the applicable accounting standard, should the accounts of these entities be combined (line-by-line consolidation) into a single financial statement." This distinction matters, because it directly relies on the control test under IFRS or local GAAP, which is generally determined on the basis of more than half of the voting rights or effective control — but for GloBE purposes, the decisive factor is "eligibility for consolidation" under the accounting standard, not whether actual consolidation has taken place (this is the subject of Section 6.3 below).
+
+## 6.2 The Four Types of Definition of Consolidated Financial Statements
+
+**Article 1.2** defines **Consolidated Financial Statements** for four distinct scenarios, so that any type of group structure can fall within the scope of this framework:
+
+**(a) The ordinary case** — financial statements prepared by the UPE under an Acceptable Financial Accounting Standard or an Authorised Financial Accounting Standard, in which the assets, liabilities, income, expenses, and cash flows of the relevant entities are presented as if they were a single entity, with intragroup transactions eliminated.
+
+**(b) When the UPE has no actual consolidated accounts but should have had them** — if the UPE does not hold Publicly Traded securities and does not, in fact, prepare any Consolidated Financial Statements, then the financial statements that **would have been prepared** had the UPE been required to follow an Acceptable Financial Accounting Standard shall be treated as the Consolidated Financial Statements.
+
+**(c) When the UPE does not prepare accounts under an Authorised Standard** — a scenario similar to (b) above, but here it refers to a hypothetical statement in which the UPE prepares accounts under an Authorised Financial Accounting Standard (not Acceptable), which may subsequently need to be adjusted to avoid material competitive distortion.
+
+**(d) When there is no UPE at all** — as in the case of a structure based on a single PE, in which case the financial statements of the Main Entity are used as the basis.
+
+Together, these four types of definitions ensure that a group cannot fall outside the scope of GloBE merely because it does not, in fact, prepare consolidated accounts — this is where the role of the **Deemed Consolidation Test** comes in, explained below.
+
+## 6.3 The Deemed Consolidation Test — When There Are No Actual Consolidated Accounts
+
+In the real world, many groups — particularly privately held or family-controlled large multinational groups — never prepare genuine consolidated financial statements, because they have no regulatory obligation to do so and have no public shareholders or bondholders to whom they must account. If GloBE's applicability depended solely on consolidated accounts that had "actually been prepared," such groups could easily avoid GloBE simply by not preparing consolidated accounts.
+
+To close this gap, **Article 1.2** establishes the **Deemed Consolidation Test**. The essence of this test is to ask a question: "If the UPE had been required to follow an Acceptable Financial Accounting Standard, would the accounts of these entities have been combined on a consolidated basis?" If the answer is yes, then those entities are treated as a Group, whether or not consolidation was actually carried out.
+
+This test applies a control-based accounting concept — generally meaning that if a parent entity has the power to determine the financial and operational policies of a subsidiary (which is often presumed through holding more than half of the voting rights, but can also arise through contractual arrangements), that subsidiary would fall within the scope of consolidation.
+
+**Example — A Step-by-Step Application of the Deemed Consolidation Test**
+
+Suppose a family-owned group, "Rangamati Holdings," is structured as follows, and, since it is not listed on any public stock exchange, has never prepared formal consolidated financial statements:
+
+| Entity | Location | Owner | Ownership % | Voting Rights/Control |
+|---|---|---|---|---|
+| Rangamati Holdings Ltd. (notional UPE) | Bangladesh | Family members | — | — |
+| Rangamati Textile Sdn Bhd | Malaysia | Rangamati Holdings | 80% | 80% (sole control) |
+| Rangamati Logistics GmbH | Germany | Rangamati Holdings | 95% | 95% (sole control) |
+| Rangamati-Nilachal Joint Venture Pte Ltd | Singapore | Rangamati Holdings + partner | 50% | 50-50 joint control (Joint Venture) |
+
+Step 1: The question asked is — if Rangamati Holdings were required to follow an Acceptable Financial Accounting Standard (such as IFRS), which entities' assets and liabilities would be consolidated line-by-line into its accounts?
+
+Step 2: An 80% voting interest in Textile Sdn Bhd gives sole decision-making power — this satisfies the "control" criterion under IFRS 10, and so it would be consolidated. Logistics GmbH (95%) would be consolidated under the same reasoning.
+
+Step 3: For the Nilachal Joint Venture, the 50-50 joint control means it is accounted for as a **Joint Venture** under IFRS using the equity method, not line-by-line consolidation — so it does not pass the Deemed Consolidation Test and is not treated as part of the Group (discussed in detail in Section 6.6).
+
+Step 4: Conclusion — Rangamati Holdings, Textile Sdn Bhd, and Logistics GmbH together form a Group, despite the fact that no consolidated accounts were actually prepared. The Nilachal Joint Venture is not part of this Group.
+
+Step 5: This Group holds entities in three jurisdictions — Bangladesh, Malaysia, and Germany — and therefore (subject to the condition discussed in Section 6.5) it qualifies as an **MNE Group** and falls within the potential scope of the GloBE Rules (if the consolidated revenue threshold is met, discussed in detail in a later chapter of this book). This chapter's task is only to identify "Group" and "MNE Group," not the threshold for applicability.
+
+## 6.4 Acceptable Financial Accounting Standard vs. Authorised Financial Accounting Standard
+
+Which accounting standard applies in determining Consolidated Financial Statements depends on two distinct classes, and the distinction between them is essential to understand.
+
+An **Acceptable Financial Accounting Standard** is a limited and specific list of standards — International Financial Reporting Standards (IFRS/IFRS as adopted by the EU) and the Generally Accepted Accounting Principles (GAAP) of a specified set of countries, such as those of Australia, Brazil, Canada, EU member states, Hong Kong, Japan, Mexico, New Zealand, China, India, South Korea, Russia, Singapore, Switzerland, the United Kingdom, and the United States. This list is specified in the GloBE Commentary, and no standard outside it is automatically "Acceptable."
+
+An **Authorised Financial Accounting Standard** is a comparatively broader concept — any accounting standard authorised by a jurisdiction's registered/recognised accounting body, where financial statements based on that standard are sufficiently reliable to avoid **material competitive distortion** (for which the GloBE Rules also contain specific adjustment provisions — such as the need to eliminate GILTI-type differences).
+
+The practical effect of this distinction is that if a UPE follows a local standard outside the list of Acceptable Standards (for example, the local GAAP of a country not on the list), that standard may be "Authorised" but not "Acceptable" — and this distinction may require additional adjustment so that competitive disparity is not created among groups following different accounting standards.
+
+**An important caution:** the list of standards that qualify as "Acceptable" or "Authorised" is subject to change over time and is jurisdiction-dependent — new countries may be added, or local administrative guidance may revise this list. This book follows the list set out in the OECD Commentary and Administrative Guidance as of the time of writing, but readers are advised to verify the latest guidance for the relevant jurisdiction in each case, as this list is not fixed.
+
+## 6.5 To Be an MNE Group, Presence in at Least Two Jurisdictions Is Required
+
+Under **Article 1.2**, a Group is treated as an **MNE Group** only when it contains at least one entity or Permanent Establishment located in a jurisdiction different from that of the Group's **Ultimate Parent Entity**. In other words, the condition is simple — there must be presence in at least two different jurisdictions.
+
+This condition matters because the GloBE Rules apply only to MNE Groups (although some jurisdictions may also apply a Domestic Minimum Top-up Tax to domestic-only large groups, discussed in another chapter of this book). A group that operates entirely within a single country — that is, where the UPE and all of its subsidiaries are located in the same jurisdiction — is not an "MNE Group" in the core sense of the GloBE framework, but rather a **Domestic Group**.
+
+Note that the presence of a PE can also satisfy this condition. If a company located in a single country has a foreign branch (branch/PE) that is included in that company's own accounts, this still counts as presence in a second jurisdiction, and that group will satisfy the MNE Group condition — even if that group has no separate subsidiary entity.
+
+However, it is important to remember that merely being an MNE Group is not sufficient for the GloBE Rules to apply — the consolidated revenue threshold described in Article 1.1 (€750 million or more in at least two of the preceding four fiscal years) must also be met, which is discussed in detail in another chapter of this book. This chapter's task is only to identify "Group" and "MNE Group," not the threshold for applicability.
+
+## 6.6 Structures That Are Not a Group: Joint Control, Individual Ownership, Funds
+
+Not every multi-entity structure is a "Group" in the GloBE sense. A few common scenarios are discussed below, where applying the consolidation-based test leaves the relevant entities outside the Group.
+
+**Joint Control/Joint Venture:** As shown in the example in Section 6.3, where two parties control an entity equally or jointly (usually 50-50 or an equivalent arrangement), the equity method generally applies under accounting standards, not line-by-line consolidation. As a result, that jointly controlled entity does not become part of either party's Group — although the GloBE Model Rules contain separate special provisions for Joint Ventures (Article 6.4), which bring them within GloBE's scope to a limited extent, but they are not treated as members of the main MNE Group.
+
+**Individual/Natural Person Ownership:** When multiple companies are owned only by the same individual or family, but there is no entity-to-entity ownership relationship between them (that is, no company is a shareholder of another company; rather, a natural person directly holds shares in each), accounting consolidation does not apply — because a natural person does not prepare any Consolidated Financial Statements. Such "sister company" structures therefore do not form a Group in the GloBE sense; each company is treated as a separate entity (although each may itself be the UPE of a Group if it has its own subsidiaries).
+
+**Investment Funds:** Investment funds, particularly Private Equity or Venture Capital Funds, typically invest in multiple portfolio companies, but under the "investment entity exception" of IFRS 10 or an equivalent principle, those portfolio companies are not consolidated line-by-line but are accounted for at fair value. As a result, a fund and its portfolio companies together do not form a Group in the GloBE sense — each portfolio company (and its own subsidiary network, if any) is considered separately. On this matter, the GloBE Model Rules have a separate definition and special provisions for Investment Entities, which are discussed in detail in a later chapter of this book.
+
+In all three cases, the core principle is the same — the GloBE concept of "Group" is determined solely by the criterion of accounting consolidation, not by the similarity of legal ownership structure or economic connection.
+
+## 6.7 Stapled Structures and Dual-Listed Arrangements (A Prelude to Multi-Parented Groups)
+
+In some multinational structures, multiple separate legal UPEs are in fact operated as a single economic unit — these situations create challenges for the ordinary consolidation test and form the basis of the concept of a **Multi-Parented Group**, which is separately defined in Article 1.5 of the GloBE Model Rules (and will be discussed in detail in a later chapter of this book). Here, two main forms are briefly presented, since they are important to the context of understanding the definition of "Group."
+
+**Stapled Structure:** Here, the shares of two or more separate entities are "stapled" (legally joined) in such a way that the shares of one entity cannot be sold, transferred, or assigned separately from the shares of the other entity — to shareholders they appear as a combined unit, although the entities are legally separate and neither has direct ownership or control over the other.
+
+**Dual-Listed Arrangement:** Here, two separate listed companies (usually in different jurisdictions, on different stock exchanges) agree, through a contract, to be governed by a common board and management team, with shareholders' economic interests equalised, while each company retains its own separate legal identity and listing.
+
+In both structures, a common question arises: which entity here is the "UPE," and which entities together form a single "Group"? Since no single entity has traditional consolidation-eligible control over the other (neither entity is a shareholder of the other), the ordinary Deemed Consolidation Test is difficult to apply directly. The GloBE Model Rules treat these structures as a "Combined Group" and provide special provisions to treat the entities of each Stapled/Dual-listed part together as members of a single MNE Group — this principle is the starting point of the concept of a Multi-Parented Group. What matters for the purposes of this chapter is that it would be wrong to assume that entities within such structures are "not part of any Group" — rather, a combined test is required, the detailed methodology for which is explained in a later chapter.
+
+## Summary
+
+In this chapter we saw that the entire structure of the GloBE Model Rules is built on the concept of "Group," and this concept, under **Article 1.2**, is determined by the criterion of accounting consolidation — not on the basis of a percentage of legal ownership or economic relationship. The four types of definitions of Consolidated Financial Statements (actual accounts, hypothetical accounts in two forms, and a PE-based single entity) ensure that a group can qualify as a Group even without actually preparing consolidated accounts — this is the core function of the **Deemed Consolidation Test**, which is particularly relevant for individual- or family-owned multinational groups. The distinction between **Acceptable** and **Authorised Financial Accounting Standard** determines which accounting standard is directly accepted and which may require additional adjustment. A Group becomes an **MNE Group** only when, under **Article 1.1**, at least one of its entities or PEs is located in a jurisdiction different from that of the UPE. On the other hand, jointly controlled joint ventures, separate individually/family-owned sister companies, and fund-portfolio company relationships generally do not form a Group, because line-by-line consolidation does not apply to them. Finally, complex structures such as Stapled Structures and Dual-listed Arrangements challenge the traditional consolidation test and create the need for the special provisions of a Multi-Parented Group, discussed in detail in a later chapter.
+
+## Common Mistakes
+
+**Mistake 1 — Treating the percentage of ownership directly as the criterion for a Group.** Many assume that holding more than 50% of the shares automatically makes an entity part of the Group, but the real question is whether consolidation would occur under the applicable accounting standard — in some cases consolidation occurs even with less than 50% ownership due to effective control, and in other cases consolidation does not occur even with more than 50% ownership (for example, where the investment entity exception applies).
+
+**Mistake 2 — Assuming that the absence of actual consolidated accounts means an entity is not part of a Group.** Individual- or family-owned groups often mistakenly believe that, because they have never prepared consolidated accounts, they fall outside the scope of GloBE. The Deemed Consolidation Test closes exactly this gap — the question asked is hypothetical, whether consolidation would have occurred, not whether it actually did.
+
+**Mistake 3 — Treating Acceptable and Authorised Standards as synonymous.** These are two distinct classes, and an accounting standard being "Authorised" does not automatically place it on the "Acceptable" list — ignoring this distinction can lead to incorrect adjustments or incorrect ETR calculations.
+
+**Mistake 4 — Treating a joint venture directly as a member of the Group.** A jointly controlled entity is generally accounted for using the equity method, not line-by-line consolidation, and so it is not a member of the main MNE Group — although separate special GloBE provisions may apply to it, which should not be confused with the main Group test.
+
+**Mistake 5 — Overlooking the presence of a foreign PE in single-country operations.** Many believe that presence in a second jurisdiction is only established by having a separate subsidiary entity, but a foreign branch or PE also satisfies this condition and can turn a group into an MNE Group.
+
+**Mistake 6 — Oversimplifying Stapled/Dual-listed structures as "multiple separate Groups."** Since no single entity legally owns the other, many mistakenly assume these are entirely separate Groups — but under GloBE, they are brought within a combined test, and skipping this can lead to an incorrect applicability analysis.
+
+**Note:** which accounting standard qualifies as "Acceptable" or "Authorised," and which accounting control principle should be applied in the Deemed Consolidation Test — both of these matters are partly jurisdiction-dependent and rely on OECD guidance that changes over time. This chapter has explained the general principles, but for any specific structure it is essential to verify the latest administrative guidance of the relevant jurisdiction.
 
 <!-- lang:bn -->
 

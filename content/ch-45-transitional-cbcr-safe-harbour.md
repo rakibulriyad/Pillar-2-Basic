@@ -12,7 +12,223 @@ slug: "ch-45-transitional-cbcr-safe-harbour"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 45 — The Transitional CbCR Safe Harbour
+
+> **In this chapter:** the most heavily used, and in practical terms the most relieving, provision of Pillar Two — the **Transitional CbCR Safe Harbour** — is discussed. For a specified Transition Period, this Safe Harbour allows an MNE Group to bypass the full GloBE ETR and Top-up Tax calculation for a jurisdiction, by passing any one of three relatively simple tests drawn from its Country-by-Country Report and Financial Statements, and thereby declare Top-up Tax to be zero. This chapter covers the definition, the three tests, the high-risk implications of the "Once Out, Always Out" principle, the limitations relating to Purchase Price Accounting and Hybrid Arbitrage, and a full numerical example.
+
+## 45.1 Definition of Qualified CbC Report and Qualified Financial Statements
+
+The first condition for using the Transitional CbCR Safe Harbour is that the MNE Group must have a **Qualified CbC Report**. This is a Country-by-Country Report prepared and filed under OECD BEPS Action 13, and derived from information sourced from **Qualified Financial Statements**. It is not enough merely to have filed a CbCR — the December 2022 Safe Harbours and Penalty Relief document sets out clear conditions regarding the quality of its underlying data.
+
+Qualified Financial Statements refer to three types of source:
+
+1. The accounts used to prepare the UPE's Consolidated Financial Statements (including consolidation adjustments, prior to elimination of intra-group transactions);
+2. Each Constituent Entity's own Statutory Financial Statements, provided they are prepared under an Acceptable Financial Accounting Standard or an Authorised Financial Accounting Standard and the information is reliable;
+3. If a Constituent Entity is excluded from consolidation on grounds of materiality or size, the accounts of that entity used in preparing the CbCR.
+
+This definition matters a great deal from a practical standpoint. If the local accounts of a jurisdiction are prepared under multiple different accounting standards (for example, IFRS one year and local GAAP the next), or if the CbCR is prepared using management accounts, then it will not meet the Qualified Financial Statements standard, and the Safe Harbour cannot be claimed for that jurisdiction. In practice, therefore, the first task is to verify the source from which the CbCR data for each jurisdiction of the MNE was drawn.
+
+## 45.2 The Transition Period and Which Fiscal Years It Applies To
+
+The Transitional CbCR Safe Harbour is not a permanent provision — it applies for a time-bound **Transition Period**. Specifically, this Safe Harbour is available for fiscal years that:
+
+- begin on or before 31 December 2026, and
+- do not end after 30 June 2028.
+
+In simple terms, for an MNE Group reporting on a calendar-year basis, this Safe Harbour will generally apply to FY2024, FY2025, and FY2026 (for some non-calendar-year groups, there may be a one- or two-month variance, but the underlying concept is the same). For FY2027 and later years, this Safe Harbour no longer applies — the full GloBE ETR and Top-up Tax calculation must be performed for the relevant jurisdiction (or, where applicable, a different permanent Safe Harbour must be considered, as discussed in another chapter of this book).
+
+For each jurisdiction, for each fiscal year, the MNE Group must separately make an **Election** to claim the Transitional CbCR Safe Harbour for that jurisdiction. This election is Annual — meaning it must be made afresh each fiscal year — but once a jurisdiction fails in a given year, the "Once Out, Always Out" principle discussed in Section 45.6 applies.
+
+## 45.3 Test 1 — De Minimis Test: Revenue < €10M and Profit before Tax < €1M
+
+Of the three tests, the simplest and most commonly used is the **De Minimis Test**. A jurisdiction passes this test if, per the CbCR reported for that jurisdiction:
+
+- **Total Revenue** is less than €10 million, and
+- **Profit (Loss) before Income Tax** is less than €1 million.
+
+Both conditions must be satisfied together — if Revenue is below €10 million but Profit is above €1 million, the De Minimis Test fails and the jurisdiction must proceed to the second or third test.
+
+The purpose of this test is to relieve small, immaterial jurisdictions from the burden of the full GloBE calculation. Many MNE Groups have a minor presence — a representative office, a holding entity, or a small branch — in twenty or thirty jurisdictions worldwide; requiring a full ETR and Substance-Based Income Exclusion calculation for such jurisdictions every year would create an unnecessary administrative burden. The De Minimis Test relieves that burden.
+
+It is important to remember that this threshold is based on the figures reported in the CbCR, not on revenue or profit recomputed under GloBE's own definitions. Consequently, no complex adjustments for GloBE Income or Loss or Adjusted Covered Taxes are needed here — only what has been reported in the CbCR is examined.
+
+## 45.4 Test 2 — The Simplified ETR Test
+
+If the De Minimis Test fails, the second option is the **Simplified ETR Test**. In this test, the jurisdiction's **Simplified Covered Taxes** are divided by the jurisdiction's CbCR-based Profit before Tax to derive a simplified effective tax rate, which is then compared against the applicable **Transition Rate**. If the simplified ETR is equal to or greater than that rate, the test is passed and Top-up Tax is zero.
+
+The definition of **Simplified Covered Taxes** is much simpler than the full GloBE Adjusted Covered Taxes calculation. It is derived starting from the **Income Tax Expense** (current tax expense) reported in the Qualified Financial Statements, with the following two adjustments:
+
+- taxes that do not fall within the definition of a Covered Tax (non-covered taxes) must be excluded;
+- any amount relating to an **Uncertain Tax Position** must be excluded.
+
+In other words, none of the complex deferred tax adjustments, GloBE Loss Carry-forward DTA, or the detailed recomputations required under Article 4 are needed here — the calculation begins directly from the current tax expense line in the Financial Statements, which makes this test practically much faster and less costly.
+
+The Transition Rate gradually rises over time so that the value of this Safe Harbour progressively converges toward the 15% standard GloBE Minimum Rate:
+
+| Fiscal Year | Transition Rate |
+|---|---|
+| 2023 and 2024 | 15% |
+| 2025 | 16% |
+| 2026 | 17% |
+
+For example, if a jurisdiction's simplified ETR for FY2025 is equal to or greater than 16%, that jurisdiction is deemed to have passed the Simplified ETR Test for FY2025, and Top-up Tax for that jurisdiction is treated as zero — there is no need to pass the De Minimis or Routine Profits Test.
+
+## 45.5 Test 3 — The Routine Profits Test: Profit before Tax ≤ SBIE
+
+The last of the three tests is the **Routine Profits Test**. This test is founded on the following logic — if a jurisdiction's profit is consistent with, or less than, its actual economic presence (payroll and tangible assets), then that profit can be treated as "routine" or ordinary business profit, and no Top-up Tax needs to be imposed on it — because under GloBE's own framework, this kind of profit would have been excluded from the tax base anyway through the **Substance-Based Income Exclusion (SBIE)** (as defined in Article 5.3).
+
+The Routine Profits Test is passed if:
+
+**Jurisdiction's CbCR-based Profit (Loss) before Income Tax ≤ the SBIE for that jurisdiction, calculated per Article 5.3**
+
+Here the SBIE follows the same formula used in the full GloBE calculation — a specified percentage of Eligible Payroll Cost, plus a specified percentage of the carrying value of Eligible Tangible Assets. These percentages themselves gradually decrease under a ten-year transitional schedule (starting higher and eventually stabilizing at 5%). As a result, this test requires the jurisdiction's payroll and tangible asset data to be prepared — somewhat more data-intensive than the De Minimis or Simplified ETR tests, but still far simpler than the full GloBE calculation, since no complex adjustments to GloBE Income or Loss are required — only a comparison against the CbCR's PBT figure.
+
+Note that these three tests are alternatives to one another — passing any one of them is enough to deem Top-up Tax zero for that jurisdiction for that year. In practice, they are usually tested in sequence (De Minimis → Simplified ETR → Routine Profits), because De Minimis requires the least data, but legally the three tests are independent and no particular sequence is mandatory.
+
+## 45.6 The "Once Out, Always Out" Principle
+
+The most important — and simultaneously the most dangerous — rule of the Transitional CbCR Safe Harbour is the **"Once Out, Always Out"** principle. Under this principle — if an MNE Group does not elect the Transitional CbCR Safe Harbour for a given jurisdiction in a fiscal year of a Transition Period, or elects it but fails to pass any of the three tests, that jurisdiction is **permanently excluded from the Transitional CbCR Safe Harbour starting from that year and for all remaining fiscal years of the Transition Period** — even if, in subsequent years, that jurisdiction's figures once again satisfy the conditions of one of the three tests.
+
+The practical effect of this is extremely severe. Suppose a jurisdiction easily passes the De Minimis Test or the Simplified ETR Test in FY2024 and FY2025, but in FY2026, due to a one-time restructuring, a large impairment, or an extraordinary gain, its figures do not fit any of the three tests. Then, in FY2026, that jurisdiction loses the Transition CbCR Safe Harbour and must move to a full GloBE calculation — this is expected. But more importantly, if the Transition Period had one or more further years remaining (which is not the case in this example, but is true as a matter of principle), then for those future years too — even if the figures would easily pass the test again — that jurisdiction can never recover this Safe Harbour.
+
+The practical significance of this principle for tax planning and financial reporting decisions runs deep. It means:
+
+- If a one-time transaction in a jurisdiction (an extraordinary dividend, a large impairment, a gain or loss arising from intra-group restructuring) is not carefully timed, it can destroy not just that year's Top-up Tax position but **the Safe Harbour opportunity for all future Transition Period years**.
+- MNEs should forecast every transition year for every jurisdiction well in advance, so as to understand in which year which test is at risk, and take mitigating measures where possible (such as adjusting the timing of transactions or the timing of expense recognition) — provided, of course, that such measures do not fall within the boundaries of artificial tax planning or a Hybrid Arbitrage Arrangement (see 45.8).
+- Once a jurisdiction is excluded, the full GloBE infrastructure (ETR calculation, GloBE Income/Loss adjustments, Adjusted Covered Taxes, detailed SBIE calculation) will need to be rapidly assembled for that jurisdiction, which, without proper preparation, puts pressure on the compliance timeline.
+
+In short, the "Once Out, Always Out" principle transforms this Safe Harbour from an "annual option" into a "one-time decision" — the outcome of the first year can affect the opportunity available in all future years. For this reason, this principle should be flagged as the most important warning in this chapter.
+
+## 45.7 Conditions for Purchase Price Accounting Adjustments
+
+As a result of an M&A transaction, a Constituent Entity's local statutory accounts may reflect **Purchase Price Accounting (PPA)** adjustments — such as the amortization/impairment of goodwill or acquired intangibles — which are not present (or are reflected differently) in the UPE-level Consolidated Financial Statements (where push-down accounting is generally not reflected, or is reflected differently). This can create a substantial difference in PBT between the same entity's local accounts and consolidated accounts, which can artificially cause a jurisdiction to fail or pass the De Minimis or Routine Profits Test — without reflecting actual economic activity.
+
+To address this problem, the Administrative Guidance provides an adjustment option — an MNE Group may exclude the effects of PPA (such as the impact of impairment or amortization of goodwill or acquired assets) from the calculation of Simplified Covered Taxes and Profit before Tax, but this adjustment is permitted only subject to several strict conditions:
+
+- the adjustment must be applied **comprehensively and consistently** — it is not permissible to selectively pick a favorable treatment for one entity in one jurisdiction;
+- once a jurisdiction elects the PPA adjustment, it must be applied in the same way **for all remaining years of the entire Transition Period** (a kind of "consistency lock-in" operates here as well, consistent with the spirit of the "Once Out, Always Out" principle discussed in 45.6);
+- the adjustment applies only to genuine PPA-related items (such as goodwill impairment, or the deferred tax effect associated with amortization of acquired intangibles), not to ordinary operating expense or revenue items.
+
+In practice, this adjustment is particularly important for MNE Groups that have completed large acquisitions in recent years, because goodwill impairment or push-down amortization can cause local statutory accounts to show a falsely low or negative PBT, which can distort the actual outcome of the Routine Profits Test.
+
+## 45.8 Hybrid Arbitrage Arrangements — the Limitations of the Dec 2023 AG
+
+Soon after the Transitional CbCR Safe Harbour came into effect, it became apparent that some MNE Groups might try to build artificial structures to take advantage of the Safe Harbour — for example, arranging consolidation methods or intra-group transactions such that CbCR figures do not reflect actual economic activity but instead appear artificially favorable for passing the test. To address this risk, the December 2023 Agreed Administrative Guidance included a clear anti-abuse rule against **Hybrid Arbitrage Arrangements**.
+
+This guidance mainly targets three types of structure:
+
+1. **Structures that exploit differences in consolidation** — where an entity is used in such a way that income or expense is shifted, in a jurisdiction's CbCR, to a location that would not have resulted from applying the actual consolidation rules;
+2. **Deduction/Non-inclusion Arrangements** — where a payment is treated as an expense in one jurisdiction (reducing that jurisdiction's PBT), but is not treated as income in the recipient jurisdiction, thereby distorting the overall CbCR figures;
+3. **Hybrid entity or reverse hybrid structures** used to create effects in local financial accounts that artificially improve the appearance of Simplified Covered Taxes or PBT.
+
+The core principle of the guidance is — if an MNE Group enters into (or becomes part of) an arrangement whose main purpose or principal effect is to increase or decrease Simplified Covered Taxes or Profit before Tax relevant to the Transitional CbCR Safe Harbour in a manner disconnected from actual economic activity, that MNE Group cannot claim the Transitional CbCR Safe Harbour for that jurisdiction for that year — the relevant income and tax adjustments must be excluded, or, where necessary, a full GloBE calculation must be reverted to. And since the "Once Out, Always Out" principle of 45.6 remains simultaneously in effect, losing the Safe Harbour in one year due to a Hybrid Arbitrage Arrangement means permanently losing the Safe Harbour for that jurisdiction in future years as well — which makes this limitation even more severe.
+
+As a practical piece of advice, before any intra-group restructuring, change in financing structure, or change in entity classification — if it would result in a material change to a jurisdiction's CbCR figures — the economic rationale for that change and its impact on the Transitional CbCR Safe Harbour should be assessed.
+
+## 45.9 Special Rules for Joint Ventures · Investment Entities · Tax-Transparent UPEs
+
+For certain special types of entity or structure, separate rules apply to the application of the Transitional CbCR Safe Harbour.
+
+**Joint Venture (JV):** A Joint Venture and its JV Subsidiaries are treated as a separate "JV Group" under the GloBE Model Rules, tested separately from the main MNE Group. This is because a JV is generally reflected in the main group's Consolidated Financial Statements using the Equity Method, not line-by-line consolidation, and the main group's CbCR often does not include the JV's jurisdiction-by-jurisdiction information. Consequently, applying the Transitional CbCR Safe Harbour to a JV Group requires the JV Group's own Qualified CbC Report or equivalent information, distinct from the main group's CbCR.
+
+**Investment Entity:** Investment Entities (and Insurance Investment Entities) are generally accounted for on a fair-value or equity accounting basis, which differs from the line-by-line consolidation of the main group's other operating entities. Because of this difference, how an Investment Entity's income, profit, and tax are reflected in the CbCR may not be consistent with GloBE's own treatment (where a separate ETR calculation or a Tax Transparency Election may apply for Investment Entities). For this reason, income and tax related to an Investment Entity are generally not blended with other entities of the same jurisdiction for testing purposes — they must be considered separately under specified conditions, otherwise the Safe Harbour result could be distorted.
+
+**Tax-transparent (Flow-through) UPE:** If an MNE Group's Ultimate Parent Entity is a Flow-through Entity (such as a partnership or an equivalent tax-transparent structure), special consideration is needed for how income is treated in that UPE's own jurisdiction — because a Flow-through UPE's income is generally not taxable at its own level, but rather at the level of its owners. Consequently, when applying the Simplified ETR Test for the UPE's jurisdiction, the portion of the UPE's income that would have been excluded from GloBE Income/Loss because of its flow-through nature (consistent with the principle in Article 7.1) must also be reflected with an equivalent adjustment in the CbCR-based PBT — otherwise the Safe Harbour test result will incorrectly reflect actual tax exposure.
+
+Similarly, careful verification is also required for exceptional categories such as stateless entities (not tax-resident in any particular jurisdiction, such as certain Permanent Establishments or Stateless Entities) and Minority-owned Constituent Entities — whether the way the CbCR data has been aggregated is consistent with GloBE's jurisdictional blending principle.
+
+## 45.10 The Net Unrealised Fair Value Loss Adjustment
+
+The Transitional CbCR Safe Harbour has a mandatory (not elective) adjustment rule relating to **Net Unrealised Fair Value Loss**. If the aggregate net unrealised loss on an entity's equity interest (excluding portfolio shareholdings) or other fair-value-based assets exceeds €50 million in a jurisdiction in a fiscal year, that loss amount must be **excluded (added back)** from the calculation of Profit before Tax for the purposes of the three Transitional CbCR Safe Harbour tests.
+
+The rationale for this rule is that a one-time, unrealised impairment computed on a mark-to-market basis does not reflect actual economic performance, and if such a large one-time loss were left in PBT, it could artificially cause a jurisdiction to "pass" the De Minimis Test or the Routine Profits Test, without any real analysis of tax risk. An important consequence of this adjustment being mandatory is that it is not always favorable to the MNE. Since excluding the loss means PBT increases, a jurisdiction that would have passed the De Minimis Test or the Routine Profits Test by including the loss might, after the loss is excluded, see its PBT rise and fail that test. For this reason, the potential impact of this adjustment — both positive and negative — must be examined before each test, particularly for jurisdictions where fair-value fluctuations in investment portfolios or equity holdings are material.
+
+## 45.11 A Numerical Example
+
+Below is a complete hypothetical example, in which the three tests are applied sequentially for the "**Ruritania**" jurisdiction of a hypothetical MNE Group named "**Orbis Group**," for the FY2025 fiscal year (Transition Rate = 16%).
+
+**Table 1: Ruritania Jurisdiction's Basic CbCR-based Data (FY2025)**
+
+| Item | Amount |
+|---|---|
+| Total Revenue (unrelated + related party) | €45.0 million |
+| Profit (Loss) before Income Tax (CbCR) | €6.0 million |
+| Income Tax Accrued — Current Year (CbCR) | €1.05 million |
+| Amount related to Uncertain Tax Position (included in income tax accrued) | €0.05 million |
+| Non-covered Tax (included in income tax accrued, e.g. local property tax mistakenly included) | €0.0 million |
+| Number of Employees | 150 |
+| Eligible Payroll Costs | €4.5 million |
+| Eligible Tangible Assets (carrying value) | €20.0 million |
+
+### Test 1 — De Minimis Test
+
+Conditions for passing the De Minimis Test: Revenue < €10 million **and** PBT < €1 million.
+
+| Condition | Threshold | Ruritania's Figure | Result |
+|---|---|---|---|
+| Revenue | < €10 million | €45.0 million | Fail |
+| Profit before Tax | < €1 million | €6.0 million | Fail (no need to discuss, already failed on Revenue) |
+
+**Result:** The De Minimis Test fails, as the Revenue threshold is exceeded by a wide margin. Ruritania must proceed to the second test.
+
+### Test 2 — Simplified ETR Test
+
+First, Simplified Covered Taxes is calculated —
+
+| Calculation step | Amount |
+|---|---|
+| Income Tax Expense (per Qualified Financial Statements, current tax) | €1.05 million |
+| Less: Non-covered Tax | (–) €0.0 million |
+| Less: Amount related to Uncertain Tax Position | (–) €0.05 million |
+| **Simplified Covered Taxes** | **€1.00 million** |
+
+Now the simplified ETR is calculated:
+
+Simplified ETR = Simplified Covered Taxes ÷ Profit before Tax = €1.00 million ÷ €6.0 million = **16.7%**
+
+| Comparison | Value |
+|---|---|
+| Ruritania's Simplified ETR | 16.7% |
+| FY2025 Transition Rate | 16.0% |
+| Result | Passed (16.7% ≥ 16.0%) |
+
+**Result:** Ruritania's Simplified ETR (16.7%) is equal to or greater than the FY2025 Transition Rate (16%), so the Simplified ETR Test is **passed**. Since it has passed on this test, Top-up Tax for Ruritania is deemed zero for FY2025, and there is no need to proceed to the third test. However, for the sake of illustrating the full method, the Routine Profits Test calculation is also shown below.
+
+### Test 3 — Routine Profits Test (for illustrative comparison)
+
+The applicable SBIE transition rates for FY2025 are taken as — payroll carve-out 9.6% and tangible asset carve-out 7.6%.
+
+| Component | Base | Rate | Amount |
+|---|---|---|---|
+| Payroll Carve-out | €4.5 million | 9.6% | €0.432 million |
+| Tangible Asset Carve-out | €20.0 million | 7.6% | €1.520 million |
+| **Total SBIE** | | | **€1.952 million** |
+
+| Comparison | Value |
+|---|---|
+| Profit before Tax (CbCR) | €6.000 million |
+| Total SBIE | €1.952 million |
+| Result | Fail (PBT > SBIE) |
+
+**Result:** If Ruritania had relied solely on the Routine Profits Test, it would have failed, since PBT (€6.0 million) exceeds SBIE (€1.952 million). But since the three tests are alternatives to one another and Ruritania has already passed the Simplified ETR Test, this failure has no effect on Ruritania's FY2025 Safe Harbour status — passing only one test is sufficient.
+
+**Conclusion:** Orbis Group can claim the Transitional CbCR Safe Harbour for Ruritania in FY2025 (via the Simplified ETR Test) and thereby avoid the full GloBE ETR and Top-up Tax calculation for that jurisdiction. However, the principle discussed in 45.6 must be kept in mind — if, in FY2026 (Transition Rate 17%), Ruritania's Simplified ETR falls below 17% and it also fails the De Minimis or Routine Profits Test, then under the "Once Out, Always Out" principle, Ruritania would be permanently excluded from the Transitional CbCR Safe Harbour starting from that year.
+
+## Summary
+
+The Transitional CbCR Safe Harbour is the most widely used and most administratively relieving provision for MNE Groups during the early years of Pillar Two implementation (the Transition Period, essentially FY2024–FY2026). If a jurisdiction, on the basis of a Qualified CbC Report and Qualified Financial Statements, passes any one of the De Minimis Test (Revenue < €10 million and PBT < €1 million), the Simplified ETR Test (Simplified Covered Taxes ÷ PBT ≥ Transition Rate — 2023–24: 15%, 2025: 16%, 2026: 17%), or the Routine Profits Test (PBT ≤ SBIE), Top-up Tax for that jurisdiction is deemed zero for that year and the full GloBE calculation is not required. Specific technical facilities and conditions, such as the Purchase Price Accounting adjustment and the Net Unrealised Fair Value Loss adjustment, assist in the correct application of these tests, but the limitations of the December 2023 Administrative Guidance against Hybrid Arbitrage Arrangements close off the path of taking advantage of the rules through artificial structures. The most important warning is the "Once Out, Always Out" principle — once a jurisdiction fails all three tests in any single year, it permanently loses this Safe Harbour for all remaining years of the Transition Period, which is why carefully forecasting and planning the result for every transition year is essential.
+
+## Common Mistakes
+
+- **Not verifying the source of the CbCR data:** Assuming that any CbCR is automatically "Qualified" — in reality, if it is prepared from management accounts or inconsistent accounting standards, the Qualified Financial Statements condition is not met and the entire Safe Harbour claim may be invalidated.
+- **Mistakenly treating the two De Minimis Test conditions as "OR":** Both the Revenue and PBT thresholds must be satisfied together ("AND") — satisfying only one is not sufficient.
+- **Calculating Simplified Covered Taxes as though it were the full Adjusted Covered Taxes:** Deferred tax adjustments, the GloBE Loss Election, or the detailed recomputation under Article 4 do not apply in this simplified test — only two specific deductions (non-covered tax, uncertain tax position) are made from current tax expense.
+- **Not using the correct Transition Rate for the fiscal year:** Different rates apply for 2023–24, 2025, and 2026 (15%, 16%, 17%) — comparing with an outdated or incorrect year's rate will give a wrong result.
+- **Ignoring the future impact of the "Once Out, Always Out" principle:** Considering only the impact for that single year when making a decision about a one-time transaction or restructuring in a given year, without considering the permanent effect on all future transition years — this is one of the most costly mistakes.
+- **Assuming the Routine Profits Test's SBIE rate is fixed:** The payroll and tangible asset carve-out rates for the SBIE change gradually each year — the correct transition rate must be used for each fiscal year, and the same rate should not be repeated across all years.
+- **Testing Investment Entity or JV data mixed together with ordinary Constituent Entities:** Separate treatment is required for such special entities, otherwise the overall test result for the jurisdiction can be distorted.
+- **Treating the Net Unrealised Fair Value Loss adjustment as elective:** It is mandatory once the €50 million threshold is exceeded, and it does not always favor the taxpayer — the impact in both directions must be checked.
+- **Attempting "optimization" by circumventing the limits on Hybrid Arbitrage Arrangements:** Arranging an intra-group structure so as to make CbCR figures appear artificially favorable — if such a structure is identified under the December 2023 AG, the Safe Harbour benefit is voided, and because of "Once Out, Always Out," this can be harmful for future years as well.
 
 <!-- lang:bn -->
 

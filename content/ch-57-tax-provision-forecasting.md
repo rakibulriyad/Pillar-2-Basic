@@ -12,7 +12,107 @@ slug: "ch-57-tax-provision-forecasting"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 57 — Tax Provision · Forecasting · Modelling
+
+> **In this chapter:** once Pillar Two takes effect, a multinational group's tax department's work is no longer limited to filing an annual return or one-to-two-year compliance — now, every quarter, **Top-up Tax** (the additional tax liability) must be estimated and booked, its trajectory forecast year over year, and the Pillar Two impact of any decision — where a factory will be located, how incentives will be structured, how the structure will be reorganized — must be measured in advance. In this chapter we look at how Pillar Two is incorporated into the quarterly provision, what the structure of a usable forecasting model should look like, what questions sensitivity analysis answers, where the legitimate limits of planning lie, how incentives need to be reassessed, and how the impact of this rule needs to be factored into structural decisions.
+
+## 57.1 Pillar Two in Quarterly and Annual Provision
+
+Under international accounting standards — such as the IAS 12-based framework or the US ASC 740-based framework — an **income tax provision** must be prepared for each reporting period by computing current and deferred tax. Since Pillar Two came into effect, a new element has been added to this provision — Top-up Tax, which arises when a jurisdiction's **GloBE Effective Tax Rate** (the group's applicable effective tax rate, abbreviated as GloBE ETR) falls below the minimum of 15 percent.
+
+The biggest practical problem in quarterly provision is that the information needed to calculate the GloBE ETR (GloBE Income, Covered Taxes, Substance-based Income Exclusion) is often only fully available at year-end, but accounting rules require the liability to be estimated and booked every quarter. The typical solution is to follow an annualised estimated ETR approach — that is, in the first three quarters, the full year's income and tax are estimated to derive a projected GloBE ETR, and a proportional Top-up Tax is booked on that basis. In the fourth quarter, a true-up is made to reconcile with actual figures.
+
+In this process, jurisdiction-based blending (per the GloBE ETR calculation rule discussed in Chapter 14) must be kept in mind — a loss at one entity within a country can offset a profit at another entity, so provisioning at the single-entity level gives an incorrect signal. The quarterly process must therefore be consolidated at the jurisdiction level, not the entity level.
+
+Another important point is that for jurisdictions where the Transitional CbCR Safe Harbour (discussed in detail in Chapter 30) applies, it is sufficient each quarter simply to verify whether the Safe Harbour test conditions (routine profits test, de minimis test, simplified ETR test) are met, rather than performing the full GloBE calculation. This considerably simplifies the provision process, but a risk-monitoring watch list needs to be maintained each quarter for jurisdictions close to the Safe Harbour thresholds — because an unusual transaction in a single quarter (such as a large impairment or a one-off gain) can easily push them over the threshold.
+
+The impact on deferred tax assets and liabilities also needs to be reconsidered afresh. In jurisdictions where the effective tax rate is already above 15 percent, deferred tax continues to be calculated under ordinary accounting standards, but parallel tracking is needed for Pillar Two purposes — because GloBE's deferred tax adjustment rules (recapture, the five-year rule) run on a different timeline from the accounting standard's deferred tax rules.
+
+## 57.2 Structure of the Forecasting Model
+
+Building an effective Pillar Two forecasting model requires organizing information at three levels — group level, jurisdiction level, and entity level. For each jurisdiction, the model needs to include projected financial accounting net income, adjustments converting it into GloBE Income by reflecting permanent and temporary differences, estimates of current and deferred Covered Taxes, and calculation of the Substance-based Income Exclusion (the payroll- and tangible-asset-based exclusion).
+
+The model's structure is generally divided into the following layers:
+
+1. **Input layer** — revenue, expense, payroll, and tangible asset figures coming from budgets and business forecasts; each jurisdiction's prevailing tax rate and applicable incentive information.
+
+2. **Conversion layer** — the regular adjustments converting financial accounting into GloBE Income (such as excluded dividend income, excluded equity gain/loss, treatment of stock-based compensation) — a detailed list of these adjustments is given in Chapter 11.
+
+3. **Calculation layer** — the jurisdiction-based GloBE ETR, Excess Profit after subtracting the Substance-based Income Exclusion, and the Top-up Tax at the rate needed to fill the shortfall from 15 percent.
+
+4. **Allocation layer** — determining which mechanism (IIR, or if not applicable UTPR, or if not applicable local QDMTT) will actually collect the liability, because this determines which entity of the group's books the liability lands on.
+
+A good model's characteristic is that it can quickly answer "what if" questions — such as, if new investment is made in a jurisdiction, the payroll-based exclusion will increase, which will reduce Excess Profit and may reduce Top-up Tax; or how the ETR will change once a tax incentive expires. To capture this kind of dynamics, the model should be built with driver-based equations rather than static numbers — that is, each result should be directly linked to the input drivers (revenue growth rate, payroll growth, capital expenditure), so that when assumptions change, the entire chain recalculates automatically.
+
+For multi-year forecasting, the transitional phase-down schedule of the Substance-based Income Exclusion rate (which will decrease step by step until 2032) must be kept in the model as a year-by-year variable, otherwise a five-year forecast will incorrectly understate the actual growth rate of the liability.
+
+The model should also maintain a separate ledger-like structure to track carry-forward items — such as GloBE losses, or Covered Taxes adjustments that affect subsequent years — because these items originate in one year's calculation but continue to have effects for many years afterward.
+
+## 57.3 Sensitivity Analysis — Which Changes Have How Much Impact
+
+Once the forecasting model has been built, its greatest practical value comes from sensitivity analysis — that is, measuring how much Top-up Tax changes when a given driver changes. This analysis is most frequently questioned by management, the board, and the financial planning department, because they are the ones most interested in knowing how much uncertainty exists in tax expense.
+
+The most important sensitivity drivers are:
+
+- **Jurisdictions near the profit threshold** — in countries whose GloBE ETR is close to 15 percent (in the 12–18 percent range), even a small change (such as a one-off expense being disallowed, or profit rising or falling by a few percentage points) can push the ETR above or below the threshold. These jurisdictions should be flagged as "marginal" and placed on a separate watch list.
+
+- **Changes in payroll and tangible assets** — the Substance-based Income Exclusion depends directly on payroll and tangible assets, so hiring or layoff decisions, or the sale or acquisition of fixed assets, directly affect Top-up Tax. This link is often unclear to business decision-makers, so the model needs to display this sensitivity clearly.
+
+- **Changes in local tax rates** — if a country raises or lowers its own corporate tax rate, or abolishes an incentive, the effect flows directly through to the GloBE ETR. In particular, for countries that have adopted a QDMTT (Chapter 22), the effect of a local rate change is absorbed first in that country itself, before it reaches the IIR/UTPR.
+
+- **Exchange rate fluctuations** — even though income and tax are calculated in local currency in many jurisdictions, exchange rate changes during translation into the reporting currency can affect the consolidated ETR, particularly in high-inflation economies.
+
+- **Group restructuring** — when an acquisition, demerger, or internal restructuring moves an entity from one jurisdiction to another, the composition of GloBE Income and Covered Taxes in the affected jurisdictions changes.
+
+The results of sensitivity analysis are generally presented in a table — a "heat map" showing how much Top-up Tax changes for a 1 percent or 10 percent change in each driver. This helps management understand which decisions require tax department input in advance, and which jurisdictions demand the closest monitoring.
+
+## 57.4 The Legitimate Scope and Limits of Planning
+
+The nature of tax planning has changed in the Pillar Two environment — whereas before, the main goal was often to take advantage of low jurisdiction-based tax rates, now that same strategy can be fully or partially neutralized by Top-up Tax. However, this does not mean the scope for legitimate planning has ended — rather, the nature of the opportunity has changed.
+
+Some areas of legitimate planning:
+
+- **Increasing genuine economic presence** — the Substance-based Income Exclusion is calculated based on actual payroll and tangible assets, so in jurisdictions where the group genuinely hires employees and holds assets, the amount of Excess Profit decreases, and with it the likelihood of Top-up Tax. This is not artificial tax planning — it is reflecting business reality in the accounts.
+
+- **Taking advantage of Safe Harbours** — meeting the conditions of the Transitional CbCR Safe Harbour or a permanent Safe Harbour to reduce administrative complexity is a legitimate and expected strategy, but artificially arranging figures for this purpose (such as staying under the threshold through a one-off transaction) is risky and often falls under anti-abuse provisions (discussed in Chapter 31).
+
+- **Simplifying entity structure** — reducing unnecessary holding or intermediate entities to reduce administrative complexity and risk is an acceptable step, particularly where these entities' original purpose was to obtain a tax benefit under old rules that is no longer effective under Pillar Two.
+
+On the limits side, the most important point is that the GloBE rules are examined under specific anti-avoidance provisions and general, purpose-based principles, to see whether a transaction or structure was mainly created for the purpose of reducing GloBE liability. For example, transferring income into a jurisdiction only for a temporary period to inflate the ETR calculation, or artificially inflating Covered Taxes (such as paying a tax that is in fact refundable to another party) — such strategies are explicitly identified in OECD guidance as preventable.
+
+So the practical rule is this — for any planning proposal, the first question to ask should be: "does this change reflect business reality, or is it just arranging the numbers on paper?" If the answer is the latter, the plan will not hold up.
+
+## 57.5 Reassessing Tax Incentives — Conversion into Qualified Refundable Tax Credits
+
+One of the most tangible impacts of Pillar Two has been on the design of government tax incentives. Conventional tax holidays or tax rate reduction incentives directly reduce the GloBE ETR, because they reduce Covered Taxes while GloBE Income remains unchanged. As a result, a large part of the benefit for a company receiving such an incentive is effectively taken back through Top-up Tax — the benefit given by the government effectively transfers to another country's treasury.
+
+To solve this problem, many countries are converting their incentive structures into a **Qualified Refundable Tax Credit** (QRTC) model. Under GloBE accounting rules, a QRTC is not treated as a reduction of tax but rather as income — that is, instead of being deducted from Covered Taxes, it is added to GloBE Income. The condition is that the credit must be fully payable in cash or cash-equivalent form within a specified period (generally four years) of approval, not merely offset against a tax liability.
+
+The effect of this distinction is significant. Suppose a jurisdiction has a conventional tax rate of 25 percent and offers a 10 percent tax reduction as an investment incentive, bringing the effective rate to 15 percent — this is exactly at the threshold, but with no margin, and any slight change could push the ETR below the threshold. In contrast, if the same government maintains the full 25 percent rate but provides the equivalent benefit via a QRTC, then in the GloBE calculation Covered Taxes remain unchanged (25 percent), and the amount of the credit is added to GloBE Income — so the ETR remains nearly unchanged, or even somewhat higher, even though the actual taxpayer's cash benefit remains the same.
+
+This conversion has created a new task for investing companies — existing incentive agreements need to be reassessed to see whether they qualify as QRTCs under the new definition, and, if not, whether refundability conditions should be discussed for inclusion in future new investment agreement negotiations. In many cases governments are also willing to redesign incentive packages considering the interests of both parties, because it benefits no one if the benefit transfers to another country via Top-up Tax.
+
+From a modelling perspective, it is important for the forecasting model to classify each incentive based on its actual GloBE treatment — QRTC, non-qualifying refundable credit, or a straight tax reduction — because each has a different impact on the ETR, and failing to capture this distinction can produce large errors in multi-year forecasts.
+
+## 57.6 The Impact of Pillar Two on Structural Decisions
+
+A group's structural decisions — establishing a new production facility, relocating a regional headquarters, reorganizing the supply chain, or an acquisition or demerger — can no longer be fully assessed without a Pillar Two impact analysis. Previously, the main considerations in such decisions were local tax rates, transfer pricing risk, and customs/tariff impact. Now, added to this is — how will this decision change the GloBE ETR of the relevant jurisdictions.
+
+Consider a few practical examples. If a group sets up a new manufacturing facility in a low-tax jurisdiction, that country's tangible assets and payroll will increase, which will raise the Substance-based Income Exclusion and reduce that jurisdiction's Excess Profit — that is, genuine effective presence naturally mitigates a jurisdiction's Top-up Tax risk. In contrast, if the same investment is made only to shift income through a holding or licensing entity, without real employees or assets, that income will become entirely part of Excess Profit and remain exposed to Top-up Tax risk.
+
+Determining the location of a regional headquarters now needs to consider whether that jurisdiction has a QDMTT and what its ETR profile looks like. If the headquarters is located in a country with no QDMTT and a low ETR, that shortfall will be collected in another country (through IIR in the parent company's country, or through UTPR) — so the actual tax burden of the decision may differ from the local rate.
+
+In the case of acquisitions and demergers, the target company's GloBE profile (its carry-forward losses, GloBE Income composition, and any Safe Harbour position) should be an integral part of due diligence at the time of purchase. These matters are directly linked to the M&A-specific analysis discussed in detail in Chapter 59.
+
+The most important message is that the tax analysis of a structural decision is no longer a one-time calculation, but a multi-year projection. Even if a decision's first-year impact looks favourable, that benefit will progressively diminish in subsequent years because of the declining rate of the Substance-based Income Exclusion (discussed in 57.2). Therefore, any structural decision should be evaluated using a projection of at least five to ten years, not based on a single year's figures.
+
+## Summary
+
+The introduction of Pillar Two has fundamentally changed the nature of the tax department's work — Top-up Tax must now be estimated and booked into the provision every quarter using the annualised estimated ETR approach, keeping jurisdiction-level blending in mind, and following a simplified process for countries where a Safe Harbour applies. An effective forecasting model should be built on a driver-based structure across four layers — input, conversion, calculation, and allocation — so that the declining rate of the Substance-based Income Exclusion is correctly reflected in multi-year projections. Sensitivity analysis identifies marginal-ETR jurisdictions, payroll-asset changes, local tax rate changes, and the impact of restructuring, helping management understand risk priorities. Legitimate planning is now centered mainly on increasing genuine economic presence and structural simplification, not artificial number arrangement. On the government incentive side, converting to the Qualified Refundable Tax Credit model has become an important strategy for preserving actual cash benefit without affecting the ETR. And finally, the multi-year impact of Pillar Two on structural decisions — such as setting up a factory, relocating headquarters, or an acquisition — is now an integral part of every such decision, one that gives priority to genuine business presence.
+
+## Common Mistakes
+
+A common mistake is calculating ETR at entity level in quarterly provision, when GloBE rules require jurisdiction-level blending — this can result in an incorrect quarterly liability calculation. Another mistake is holding the Substance-based Income Exclusion rate constant in the forecasting model, when in reality this rate is declining step by step year by year — this understates the liability in multi-year projections. A third mistake is not keeping jurisdictions close to the Safe Harbour threshold on a regular watch list, so that a sudden one-off transaction crossing the threshold is not caught in advance. A fourth mistake is proposing old-style tax incentives (rate reductions or tax holidays) in new investment negotiations, which are partially neutralized by Top-up Tax, when a Qualified Refundable Tax Credit structure could deliver the same cash benefit in a GloBE-safe way. A fifth mistake is performing the tax analysis of structural decisions on a single-year basis, which obscures time-based effects such as the declining Substance-based Income Exclusion and the expiry of incentives. Finally, a major risk is failing to properly document the genuine business rationale and purpose when evaluating a planning proposal — because proof of purpose is often decisive in anti-avoidance tests.
 
 <!-- lang:bn -->
 

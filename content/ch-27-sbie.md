@@ -13,7 +13,206 @@ slug: "ch-27-sbie"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 27 — Substance-based Income Exclusion (SBIE)
+
+> **In this chapter:** in a jurisdiction with real employees and real assets (payroll and tangible assets), the rule that excludes a specified portion from GloBE Income before calculating the Top-up Tax — that is, the mechanism for recognizing genuine economic activity — is explained here.
+> **Relevant Article:** 5.3, 9.2
+
+## 27.1 The Policy Rationale for the Carve-out — Exempting Genuine Activity
+
+The core objective of Pillar Two is to ensure that multinational groups' profits are taxed at a minimum rate of 15%, so that excess profit cannot be shifted to low-tax jurisdictions to reduce the tax burden. But OECD policymakers acknowledged from the outset that not all profit is the same. If a company genuinely establishes a factory in a country, hires employees, and carries out manufacturing operations, then a portion of the profit earned in that country is not merely the result of tax-motivated profit shifting — it is a reflection of real investment and activity.
+
+It is from this consideration that the concept of the **Substance-based Income Exclusion (SBIE)** arises, set out in Article 5.3 of the GloBE Model Rules. Under the SBIE, a formula-determined amount is excluded from each jurisdiction's Net GloBE Income, calculated on the basis of Eligible Payroll Costs and Eligible Tangible Assets located in that jurisdiction. What remains after this exclusion is called Excess Profit, and the Top-up Tax applies only to this Excess Profit — not to the entire GloBE Income.
+
+In practical terms, the SBIE is therefore a "protective layer" — the more genuine employees and tangible assets a jurisdiction has, the more income falls outside the Top-up Tax calculation. It is designed so that jurisdictions with labor-intensive manufacturing, logistics, production facilities, and other genuine economic activity are comparatively less affected, while entities that merely hold intellectual property (IP) or act as financial intermediaries — without real employees or assets — benefit very little from this relief.
+
+Importantly, the SBIE is not a single global calculation — it must be calculated on a jurisdiction-by-jurisdiction basis, aggregating the data of all Constituent Entities located in that jurisdiction. Each component of this calculation is discussed in detail in the following sections.
+
+## 27.2 Eligible Payroll Costs — What Is Included
+
+The first component of the SBIE is **Eligible Payroll Costs**. Under the definition in Article 5.3.3, this includes:
+
+- basic salary and wages;
+- bonuses and incentive payments;
+- other employee-related remuneration that directly benefits the employee personally, such as health insurance and retirement contributions;
+- payroll taxes and employment taxes paid by the employer;
+- employer social security contributions.
+
+The core condition is that these costs must relate to Eligible Employees and must be recognized as an expense in that Constituent Entity's financial accounts. Costs paid as profit-sharing or share-based compensation can also be included in Eligible Payroll Costs as a rule, if they represent consideration for the employee's genuine service.
+
+What matters practically is that the cost must relate to an employee located in that jurisdiction — that is, allocation is based on where the employee is physically working, not merely the country from which the salary is sourced. For example, if an employee works part of the year in one country and the rest in another, the cost must reasonably be allocated on a time-proportionate basis. In addition, capitalized costs (such as payroll relating to an asset under construction, capitalized on the balance sheet) still fall within the definition of Eligible Payroll Costs, because Article 5.3.3 specifically provides that recognition as a P&L expense is not a mandatory condition — it is sufficient that it is a genuine economic expense.
+
+## 27.3 Eligible Employees — The Question of Contract Workers and Independent Contractors
+
+**Eligible Employees** refers to individuals who are full-time or part-time employees of a Constituent Entity and who are engaged in the ordinary activities of the MNE Group. This is not limited to individuals with a formal employment contract — the definition in Article 5.3.3 also includes **Independent Contractors** who participate in the group's ordinary activities under the group's direction and control.
+
+This broad definition matters considerably in practice, because in many industries — such as construction, logistics, and IT services — production and service activities are partly carried out by outsourced workers or contractors. If these contractors genuinely work under the direct control of the group's operational processes — for example, if the group's supervisors direct their day-to-day work, and they work at the group's offices or factories — then their cost can be treated as Eligible Payroll Costs, even though formally they are employees of a third-party staffing agency.
+
+However, this "control" criterion is a facts-and-circumstances test — not based merely on the label of the contract or the paperwork. An independent consultant who works according to their own methods, under their own supervision, and simply delivers a specified deliverable generally does not fall within this definition. Conversely, a worker engaged through a staffing agency, who works daily under the direction of the group's manager and works at the group's premises, may be treated as an Eligible Employee.
+
+As a practical matter, groups that use such intermediate worker arrangements should retain evidence relating to control (workplace, supervisory relationship, day-to-day work direction) so that the inclusion of this cost in the SBIE calculation can be justified. Avoiding double counting is also important — if the cost of the same worker is reflected in the accounts of more than one Constituent Entity, it may be counted only once as a basis for the SBIE.
+
+## 27.4 Eligible Tangible Assets — Four Categories
+
+The second component of the SBIE is **Eligible Tangible Assets**. Under Article 5.3.4, these assets are divided into four broad categories:
+
+1. **Property, Plant and Equipment** — located in the relevant jurisdiction. This includes factory buildings, production machinery, warehouses, and office buildings.
+
+2. **Natural Resources** — such as mines, oil and gas fields, and forests, located in that jurisdiction.
+
+3. **Lessee's right-of-use of tangible assets** — that is, if an entity uses tangible assets under rent or lease, and those assets are located in that jurisdiction, that right-of-use asset (recognized on the balance sheet under modern accounting standards) can be counted as a basis for the SBIE.
+
+4. **License or similar arrangement from a government** — that permits the use of immovable property or the extraction of natural resources and involves a substantial investment in tangible assets.
+
+The common thread across these four categories is that the asset must actually be "located" within the geographic boundary of that jurisdiction. This makes clear that the aim of the SBIE is not merely to show an asset on the books, but to recognize genuine physical presence. For example, if a holding company holds shares in a factory located in another country, the value of those shares will never form a basis for the SBIE — rather, the carrying value will be calculated in the jurisdiction where the factory is physically located.
+
+## 27.5 Carrying Value and the Average of the Year's Opening and Closing Balances
+
+The basis for determining the amount of Eligible Tangible Assets is its **Carrying Value** — the net value shown in the books of account. This is the value recognized under the applicable financial accounting standard, net of accumulated depreciation, amortisation, depletion, and impairment.
+
+Under Article 5.3.4, the SBIE calculation uses the **average** of the Carrying Value at the beginning and end of the fiscal year — that is:
+
+Carrying Value (average) = (Carrying Value at the start of the year + Carrying Value at the end of the year) ÷ 2
+
+The reason for using this averaging method is to give a balanced picture of the effect of any addition or disposal of assets during the year, so that a sudden large purchase (or sale) of assets on the last day of the year cannot artificially inflate or deflate the SBIE amount. However, this is not entirely manipulation-proof, so in practice jurisdiction-specific policymakers have also considered additional anti-abuse provisions, particularly for asset restructuring or short-term transfers of ownership.
+
+Importantly, the accounting standard used to determine this Carrying Value is the same standard used to prepare the Ultimate Parent Entity's Consolidated Financial Statements — that is, it is consistent with the core accounting basis used for the GloBE Income calculation. If a local entity's accounts are prepared under a different local GAAP, they must be adjusted and converted to the group's accounting standard for the SBIE calculation, exactly as is done for the GloBE Income calculation.
+
+Another subtle but important point is that this Carrying Value generally does not include revaluation-derived increases, unless that revaluation has been recognized in the GloBE Income calculation and is reflected consistently with the related income or expense. As a result, an asset's historical cost-based accounting generally forms the basis for the SBIE, although a different consideration may apply for groups that apply fair-value accounting.
+
+## 27.6 What Is Excluded: Investment Property, Assets Held for Sale, International Shipping Assets
+
+Not all tangible assets form a basis for the SBIE. Article 5.3.4 explicitly excludes certain categories, because they do not reflect genuine operational activity but instead fall under investment or a special tax regime:
+
+- **Investment Property** — a tangible asset held for the purpose of rental income or capital appreciation, not for direct use in business operations. For example, if a real estate investment fund holds a commercial building for rental income, it falls within this excluded category.
+
+- **Assets Held for Sale** — that is, assets that are classified as "held for sale" under accounting standards, generally intended for sale within one year. Because these assets are not used in ongoing operations, they are not a reflection of genuine activity.
+
+- **Assets related to International Shipping Income** — because under Article 3.3, International Shipping Income has already been excluded from the definition of GloBE Income (discussed in Chapter 19); consequently, for necessary consistency, the assets related to that income must also be excluded from the basis for the SBIE, so that the same asset does not benefit twice.
+
+- **Assets leased to a third party**, under certain conditions — although a lessee's right-of-use asset is generally included, in the case of a lessor a rule against double counting applies so that the same physical asset does not increase the SBIE in the accounts of both the lessor and the lessee.
+
+The rationale behind this exclusion list returns to a common theme: the SBIE seeks to recognize only assets engaged in genuinely productive, operational activity. Passive investment assets, assets awaiting sale, or industries subject to a special tax treatment (such as shipping, which is covered by its own separate international tax regime) are reasonably treated differently.
+
+## 27.7 Transition Rates — From 10%/8% in 2023 to 5%/5% in 2033
+
+The SBIE formula is essentially the sum of two rates: a rate applied to payroll and a rate applied to the carrying value of Eligible Tangible Assets. Under the permanent rule, both rates are 5%. But to avoid an abrupt transition under the new rules and to give businesses time to adjust, Article 9.2 sets out a step-by-step declining schedule of **Transition Rates**, beginning in 2023 and gradually decreasing each year until it reaches the permanent rate in 2033.
+
+This schedule is shown in the table below:
+
+| Fiscal year beginning | Payroll rate | Tangible Assets rate |
+|---|---|---|
+| 2023 | 10.0% | 8.0% |
+| 2024 | 9.8% | 7.8% |
+| 2025 | 9.6% | 7.6% |
+| 2026 | 9.4% | 7.4% |
+| 2027 | 9.2% | 7.2% |
+| 2028 | 9.0% | 7.0% |
+| 2029 | 8.2% | 6.6% |
+| 2030 | 7.4% | 6.2% |
+| 2031 | 6.6% | 5.8% |
+| 2032 | 5.8% | 5.4% |
+| 2033 and thereafter (permanent rate) | 5.0% | 5.0% |
+
+Several practical consequences follow from this table. First, in the earlier years (particularly 2023–2028), the SBIE amount is comparatively larger, because the rates are higher — that is, for the same amount of payroll and assets, a jurisdiction will receive a larger carve-out in the early years and a smaller Excess Profit, so the potential Top-up Tax pressure will be comparatively lower. Second, between 2029 and 2032 the pace of decline accelerates (0.8 percentage points per year for payroll, 0.4 percentage points for tangible assets), which needs to be given careful weight in business planning during this period. Third, from 2033 onward the rates will remain stable, which increases predictability for long-term investment planning from that year on.
+
+An important condition should also be noted here: these Transition Rates apply only to fiscal years beginning before 31 December 2033. That is, if a group's fiscal year does not align with the calendar year, the "start date of the year" must be considered when determining the applicable rate, not the end date of the year.
+
+## 27.8 SBIE Allocation for PEs and Flow-Through Entities
+
+While the SBIE calculation is straightforward for ordinary Constituent Entities, special allocation rules apply to **Permanent Establishments (PEs)** and **Flow-Through Entities**.
+
+For a PE, under the rule set out in Article 3.4, the payroll costs and tangible assets reflected in the PE's own financial accounts are calculated in the PE's own jurisdiction, not in the jurisdiction of the main entity. This makes sense, because the employees working at the PE and the assets located at the PE are genuinely located in the PE's jurisdiction, and counting this cost and asset twice in the main entity's jurisdiction would undermine the integrity of the SBIE. There are some exceptions, however — for example, in the case of a **Stateless PE — one with no specific jurisdiction**, the SBIE cannot be calculated, because the SBIE is a jurisdiction-dependent calculation, and no separate jurisdiction-based ETR is calculated for a Stateless PE at all.
+
+The matter is more subtle for a Flow-Through Entity. Generally, the income of a Flow-Through Entity is allocated to its owner entities, which may be located in different jurisdictions (this allocation rule is discussed in Chapter 21). If the Flow-Through Entity itself has no specific jurisdiction (which is often the case, because it is tax-transparent), then this entity's payroll costs and tangible assets are generally excluded from the SBIE calculation, unless they are attributed to a PE or allocated to the owner entities in proportion to the income allocation. The consequence of this is that groups that primarily conduct their activities through Flow-Through structures must carefully track and document which jurisdiction the related payroll and assets are connected to, in order to claim the benefit of the SBIE — otherwise this carve-out may be forfeited.
+
+As a practical recommendation, groups with PE and Flow-Through structures should maintain payroll and asset data separately at the jurisdiction-level package, so that when performing the GloBE calculation, it can be clearly identified which portion of which entity falls within which jurisdiction.
+
+## 27.9 The Election Not to Apply the SBIE (Annual) — When It May Be Justified
+
+Since the SBIE is a carve-out that reduces Excess Profit and potential Top-up Tax, in theory it is beneficial to the filing entity in almost every case — there is generally no reason not to apply it. However, from a practical standpoint, in certain situations groups may decide not to claim the SBIE for a specific jurisdiction, and this assessment must be made afresh each fiscal year, because the amount of payroll and assets changes from year to year.
+
+Several practical situations where a decision not to claim the SBIE may be justified:
+
+1. **Extremely de minimis amounts** — in some jurisdictions, payroll and tangible assets may be so small that the amount by which the SBIE reduces the Top-up Tax is negligible compared to the administrative cost of collecting, verifying, and documenting the data. In such a case, a decision to skip the SBIE calculation for simplification may be cost-effective, even though it technically requires paying a slightly higher Top-up Tax.
+
+2. **Interaction with QDMTT or local minimum tax** — in some jurisdictions, applying the SBIE may have a different effect on the calculation of a locally applicable Qualified Domestic Minimum Top-up Tax (QDMTT), so the group's overall combined tax position can be examined to consider which method creates less overall administrative complexity.
+
+3. **GloBE Loss situation** — if a jurisdiction's overall GloBE Income is already negative (a loss), applying the SBIE will only increase the amount of the loss (because after subtracting the SBIE, Excess Profit will become even more negative), which may create a GloBE Loss Deferred Tax Asset for the future. Some groups may wish to avoid this adjustment for administrative simplicity, although in most cases the GloBE Loss carry-forward is beneficial in the future, so excluding the SBIE generally remains preferable.
+
+4. **Data availability limitations** — for a newly acquired entity or a complex regional group structure, reliable payroll and carrying value data may be difficult to obtain in the first year. In such a situation, taking a conservative position by not claiming the SBIE for that year, and claiming it in a later year once full documentation is ready, can be a practical solution.
+
+In summary, although as a rule the SBIE is almost always in the taxpayer's favor, it remains a matter for annual reassessment — the decision should be made each fiscal year in light of the quality of jurisdiction-level data, administrative cost, and the group's overall tax position.
+
+## 27.10 A Numerical Example and Planning Considerations
+
+Below is a complete numerical example, in which three Constituent Entities (A, B, and C) of a multinational group are located in the same jurisdiction, and the SBIE is being calculated for fiscal year 2028. The 2028 Transition Rates (per the table in Section 27.7) are 9.0% for payroll and 7.0% for tangible assets.
+
+**Step 1 — Aggregating Eligible Payroll Costs**
+
+| Entity | Eligible Employees (average FTE) | Eligible Payroll Costs (USD) |
+|---|---|---|
+| Entity A | 120 | 4,500,000 |
+| Entity B | 80 | 3,200,000 |
+| Entity C | 95 | 4,300,000 |
+| **Jurisdiction total** | **295** | **12,000,000** |
+
+**Step 2 — Carrying Value of Eligible Tangible Assets (average of start and end of year)**
+
+| Entity | Opening Carrying Value (USD) | Closing Carrying Value (USD) | Average Carrying Value (USD) |
+|---|---|---|---|
+| Entity A | 30,000,000 | 35,000,000 | 32,500,000 |
+| Entity B | 20,000,000 | 28,000,000 | 24,000,000 |
+| Entity C | 30,000,000 | 37,000,000 | 33,500,000 |
+| **Jurisdiction total** | **80,000,000** | **100,000,000** | **90,000,000** |
+
+**Step 3 — SBIE Calculation (applying the Transition Rate)**
+
+| Component | Base (USD) | Rate (2028) | SBIE Amount (USD) |
+|---|---|---|---|
+| Payroll carve-out | 12,000,000 | 9.0% | 1,080,000 |
+| Tangible asset carve-out | 90,000,000 | 7.0% | 6,300,000 |
+| **Total SBIE** | | | **7,380,000** |
+
+**Step 4 — Effect on Excess Profit and Top-up Tax**
+
+| Item | Amount (USD) |
+|---|---|
+| Jurisdiction's Net GloBE Income | 15,000,000 |
+| Less: Total SBIE | (7,380,000) |
+| **Excess Profit** | **7,620,000** |
+| Adjusted Covered Taxes | 900,000 |
+| ETR (900,000 ÷ 15,000,000) | 6.00% |
+| Top-up Tax percentage (15% − 6.00%) | 9.00% |
+| **Jurisdictional Top-up Tax (9.00% × 7,620,000)** | **685,800** |
+
+Several planning observations emerge from this example:
+
+**First**, if the SBIE had not been calculated, the entire GloBE Income (15,000,000) would have been Excess Profit, and the Top-up Tax would have been 9% × 15,000,000 = 1,350,000 — that is, applying the SBIE reduced the Top-up Tax in this jurisdiction by approximately 664,200, more than half of the total potential liability. This shows why, where genuine operational presence (employees and assets) exists, the effect of the SBIE can be very real and significant.
+
+**Second**, if this same calculation had been done using the 2023 rates (10%/8%), the SBIE would have been (12,000,000 × 10%) + (90,000,000 × 8%) = 1,200,000 + 7,200,000 = 8,400,000 — approximately 1,020,000 more than the 2028 calculation. This clearly shows that, as the Transition Rates decline, the carve-out benefit derived from the same amount of genuine activity will diminish over time, and after 2033 (at the 5%/5% rate) the SBIE will be even lower (approximately 667,000 from payroll, at 120,000,000 × 5/9, and 90,000,000 × 5% = 4,500,000 from tangible assets — a total of approximately 5,167,000). Consequently, in long-term tax planning this step-by-step declining benefit must be taken into account — the lower ETR pressure of the current year will gradually increase in the future, even if the amount of payroll and assets remains unchanged.
+
+**Third**, this example also makes clear that artificially shifting assets or employees to increase the SBIE provides only a limited practical benefit and is often risky, because carrying value and payroll costs are directly tied to the actual financial accounts and must be independently auditable. Rather, the genuine benefit arises in those jurisdictions where the group genuinely carries out long-term manufacturing, logistics, or service activities — there, the SBIE will naturally provide a substance-based benefit, without any additional planning.
+
+## Summary
+
+The Substance-based Income Exclusion (SBIE), set out in Article 5.3, is a central adjustment mechanism in Pillar Two that ensures the Top-up Tax applies only to "excess profit" — Excess Profit — and not to profit connected with genuine economic activity. This carve-out is the sum of two components — a rate applied to Eligible Payroll Costs and a rate applied to the average Carrying Value of Eligible Tangible Assets — and is calculated on a jurisdiction-by-jurisdiction basis. The definition of Eligible Employees includes full-time and part-time employees as well as independent contractors under the group's control, and Eligible Tangible Assets are divided into four categories — property, plant and equipment; natural resources; a lessee's right-of-use assets; and assets arising from a government license — while investment property, assets held for sale, and international shipping assets are excluded. The Transition Rates set out in Article 9.2 decline step by step from 10%/8% in 2023 to a permanent rate of 5%/5% in 2033, meaning that, over time, the carve-out benefit derived from the same amount of genuine activity will gradually decrease. Proper jurisdictional allocation of payroll and assets is necessary for PE and Flow-Through structures, and although applying the SBIE is generally beneficial to the taxpayer, it is reasonable to reassess its practical value in each fiscal year.
+
+## Common Mistakes
+
+- **Treating the SBIE as an optional planning opportunity** — many mistakenly assume that the SBIE can be increased by artificially inflating payroll or assets. But Carrying Value and Eligible Payroll Costs must be directly tied to and verifiable from the financial accounts; artificial transfers are easily identified and create administrative risk.
+
+- **Misapplying the definition of independent contractors** — treating every outsourced service provider as an Eligible Employee, or conversely excluding every outsourced worker, are both mistakes. The "direction and control" criterion must be applied by examining the facts of each relationship.
+
+- **Using the Carrying Value on the last day of the year**, instead of the average — this is a common calculation error that violates the specific requirement of Article 5.3.4 — the average of the start and end of the year — and produces an incorrect SBIE amount.
+
+- **Failing to apply the correct year's Transition Rate** — in many cases the rate for the preceding or following year is mistakenly applied instead of the correct calendar year, particularly for groups with a non-calendar fiscal year, where the rate must be determined according to the start date of the year.
+
+- **Double-counting payroll and assets of a PE or Flow-Through Entity** — including the same employees or assets in the accounts of both the main entity and the PE artificially inflates the SBIE amount, which is contrary to the purpose of the rule and will require correction upon verification.
+
+- **Incorrectly including investment property or assets held for sale in Eligible Tangible Assets** — determining this classification requires examining the actual classification of the asset under the accounting standard, not merely a practical assumption.
+
+- **Failing to aggregate at the jurisdiction level** — rather than calculating the SBIE separately for each Constituent Entity and then adding the results, the correct method is to aggregate the payroll and assets of all entities in the jurisdiction and then apply the rate to the total — this distinction can affect the result, particularly in rounding or threshold-related situations.
 
 <!-- lang:bn -->
 

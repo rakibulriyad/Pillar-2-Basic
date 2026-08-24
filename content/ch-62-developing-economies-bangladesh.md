@@ -12,7 +12,129 @@ slug: "ch-62-developing-economies-bangladesh"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 62 — Developing Economies and the Bangladesh Perspective
+
+> **In this chapter:** in this closing chapter of the book, we turn our attention from Pillar Two's technical framework to a larger question — what effect this rules framework is having on developing economies' tax incentive policy, foreign investment attraction strategy, and revenue sovereignty, and what it means for an export-dependent, EPZ-centered economy like Bangladesh. We will see why the Tax Holiday-based incentive model is gradually losing value, which alternative incentive structures still remain effective, and what real choices lie before Bangladesh's policymakers.
+
+## 62.1 The Future of Tax Incentives — Why the Value of the Tax Holiday Declines
+
+Over the last four decades, the principal tool used by developing economies to attract foreign direct investment (FDI) has been the **Tax Holiday — a full or partial exemption from corporate income tax for a specified period**. The logic behind this model was simple: giving a new investor a zero or low tax rate in the initial years reduces the early risk of investment and makes the investment decision easier. Export Processing Zones and similar special economic zones have relied on this model for decades to draw investment into garments, electronics assembly, and light engineering sectors.
+
+Pillar Two's GloBE rules fundamentally change the arithmetic of this model. Under the jurisdictional blending and Top-up Tax calculation rules discussed in Chapters 25 and 26, if a multinational group with revenue of €750 million or more (the Revenue Threshold discussed in Chapter 7) pays an Effective Tax Rate (ETR) of less than 15% in a jurisdiction because of a Tax Holiday, that "forgone" tax shortfall is automatically collected as Top-up Tax elsewhere — generally through the IIR in the UPE's jurisdiction, or through the UTPR if there is no QDMTT (Chapters 33 and 35). The result: the tax the host country waived does not return to the host country's own revenue account — instead, it flows into the revenue account of some other jurisdiction. Policy analysts often refer to this phenomenon as a "revenue transfer."
+
+This change has three practical consequences. First, for large, in-scope multinational groups, a Tax Holiday no longer creates a genuine "tax saving" — it merely relocates where the tax is paid, from the host country to the UPE country. Second, for groups below the threshold, the Tax Holiday's former value remains intact — the effect of the incentive differs by class of investor. Third, and most importantly, if the host country itself introduces a QDMTT (Chapters 32 and 47), that "lost" revenue can stay within the host country rather than flowing abroad — this logic is discussed in detail in Section 62.4.
+
+This dynamic is not the problem of any single country — nearly every Tax Holiday-dependent developing economy faces the same reconsideration.
+
+## 62.2 Redesigning Incentives: Qualified Refundable Tax Credits and Expenditure-Based Incentives
+
+In contrast to the Tax Holiday, certain incentive methods remain comparatively "safe" within the GloBE framework — that is, their actual economic value is largely preserved in the Top-up Tax calculation. The most important of these is the **Qualified Refundable Tax Credit (QRTC)**.
+
+The technical definition of a QRTC and its accounting treatment within GloBE Income are discussed in Chapters 12 and 13 — in brief, a tax credit is treated as a QRTC if it is payable in cash or a cash equivalent within 15 years of being applied against the taxpayer's tax liability (that is, it is actually refundable even if the credit is not used). Because of this feature, a QRTC is not excluded from Covered Tax in the GloBE calculation, but is instead added as income — as a result, it does not reduce Adjusted Covered Taxes, but increases GloBE Income, and does not have as severe a direct negative effect on the ETR as a Tax Holiday would.
+
+In practical terms, this means that if a jurisdiction provides a refundable credit for a specific investment (for example, a fixed percentage credit per dollar of qualifying investment, refundable in cash by the government) instead of a direct tax waiver, the value of that incentive does not "erode" in the ETR calculation to the same extent as an equivalent amount of tax relief given as a Tax Holiday would. For this reason, the European Union, the United Kingdom, and several other jurisdictions are gradually transforming their investment incentive structures toward the refundable credit model.
+
+The second alternative is an **expenditure-based incentive** — such as an additional deduction for research and development expenditure, or accelerated depreciation on capital expenditure. Being expenditure-based rather than profit-based, these are similar to the SBIE — the benefit is available only where genuine economic activity (investment, employment) exists. These still reduce the ETR to some degree, so the effect is less "clean" than a QRTC but more durable than a Tax Holiday — and the SBIE (Chapter 27) already partially recognizes this kind of real presence, so the possibility of a dual benefit must also be kept in mind.
+
+## 62.3 Who Benefits from the SBIE
+
+The Substance-based Income Exclusion (SBIE), discussed in detail in Chapter 27, is a concept that recurs repeatedly in this book, because it is the only mechanism built into Pillar Two that directly protects "genuine economic activity" from Top-up Tax. In the context of developing economies, the question is — for whom is this protection more effective, and for whom is it less effective?
+
+The SBIE is calculated essentially on two bases: Eligible Payroll Costs and the average Carrying Value of Eligible Tangible Assets (Sections 27.1–27.4). This means that in a jurisdiction with labor-intensive manufacturing activity — such as garment production, assembly plants, logistics hubs — the volume of real employees and factory assets is comparatively large, so the portion excluded from GloBE Income through the SBIE is also comparatively large. Conversely, entities that merely hold intellectual property (IP), financial intermediary entities, or "shell-like" entities — which have no real employees or tangible assets — benefit very little from this protection.
+
+This feature is theoretically somewhat reassuring for labor-intensive, manufacturing-based developing economies — because most of the FDI in these economies is tied to genuine factories, genuine employees, and genuine export activity, not mere paper structures. As a result, if a multinational group establishes a large factory in such a jurisdiction and hires many employees, a substantial portion of that jurisdiction's net GloBE Income may remain outside the Excess Profit calculation through the SBIE — even if the nominal tax rate is low.
+
+But two cautions are needed here. First, the Transition Rates set out in Article 9.2 (the table in Section 27.7) will step down from 10%/8% in 2023 to a permanent 5%/5% by 2033 — that is, the SBIE's relative protection will shrink over time, precisely as many developing economies are planning to restructure their incentive frameworks. Second, the SBIE does not entirely eliminate the problem of the nominal tax rate being below 15% — it only reduces Excess Profit, it does not bring it to zero, unless payroll and tangible assets are disproportionately large relative to profit. So the SBIE is a partial mitigant, not a complete solution.
+
+## 62.4 The Rationale for Introducing a QDMTT — Preventing Revenue Loss
+
+Chapter 32 discussed the technical structure of the QDMTT, and Chapter 47 discussed its safe harbour effect in detail. For developing-economy policymakers, the core logic of the QDMTT reduces to a very simple equation: "If the ETR of an in-scope multinational group operating in my country is below 15%, someone will collect that shortfall — the question is whether I collect it myself, or whether that money goes abroad?"
+
+The Rule Order (Chapter 31) plays a decisive role in this logic. If the host country has no QDMTT, the shortfall is first collected through the IIR in the UPE jurisdiction (Chapter 33), and if any portion still remains, it is distributed among other jurisdictions through the UTPR (Chapter 35). This means that the real beneficiary of the tax relief the host country granted is not the investing group but rather the revenue department of the UPE jurisdiction. By introducing a QDMTT, the host country can collect this top-up tax itself, and under the design of the GloBE Model Rules, the QDMTT is given priority over other top-up tax mechanisms (IIR/UTPR) — that is, if the host country collects the QDMTT, the corresponding IIR/UTPR liability is generally reduced or reduced to zero.
+
+This logic is so simple and financially clear-cut that, from the mid-2020s onward, many jurisdictions worldwide — both advanced and developing — have decided to adopt, or are considering adopting, a QDMTT, particularly countries where, historically, because of special economic zones or Tax Holiday-based incentives, the ETR of large multinational groups is more likely to fall below 15%.
+
+However, the decision to introduce a QDMTT is not one-sided. First, it requires the host country's tax administration to have GloBE-compliant accounting, data collection, and verification capacity — which demands significant administrative investment (Chapters 50–54). Second, it means an actual increase in tax liability for investors already committed under existing Tax Holiday arrangements, which can create complications related to stability clauses. Third, because the QDMTT does not apply to investors below the threshold, existing incentives can remain intact for them — meaning a well-designed structure can create a two-tier incentive system for in-scope groups.
+
+## 62.5 Source-Country Benefits through the STTR
+
+The Subject to Tax Rule (STTR), discussed in detail in Chapters 41–43, is a process designed specifically for developing economies — and although it is distinct from the core GloBE framework, it falls within the overall second pillar of Pillar Two. The STTR is essentially a treaty-based rule, which grants the source jurisdiction — that is, the country where income such as interest, royalties, or certain service fees originates — the right to collect additional tax if that income is taxed below a specified low nominal rate (9%) in the recipient country.
+
+The importance of the STTR for developing economies is different in nature from GloBE. GloBE and the QDMTT deal essentially with the jurisdictional ETR of large multinational groups (those with revenue of €750 million or more), based on profit earned from genuine business activity (production, sales). But the STTR addresses a different reality — intra-group payments, such as interest or royalties paid from a local subsidiary to a related entity located abroad, which are often used as a common profit-shifting technique. If the jurisdiction receiving such a payment taxes it at a very low nominal rate (or a zero rate), the STTR grants the source jurisdiction — where the payment originates — the right to collect additional tax directly, in a process somewhat like a withholding tax, but subject to specific conditions.
+
+An important practical limitation of the STTR is that it applies only in a bilateral tax treaty where both parties have explicitly agreed to include an STTR clause, or which has been adopted through the Multilateral Instrument (MLI). As a result, the opportunity for actual benefit depends on reconsideration of the existing treaty network and new negotiation with treaty partner countries, or amendment via the MLI. For developing economies with many older bilateral treaties — treaties often concluded in an era when the tendency was to limit the source country's taxing rights — the STTR could be a real tool, if this renegotiation moves forward.
+
+## 62.6 The Bangladesh Perspective
+
+### Impact on Domestic MNEs and Outbound Investment
+
+The number of groups headquartered in Bangladesh and operating in more than one country is still comparatively limited, and the number whose consolidated revenue exceeds the €750 million threshold is smaller still. As a result, for the foreseeable future, the possibility of falling directly within the scope of GloBE as a "Bangladeshi UPE" will remain confined to a limited number of groups — mainly those that have expanded regionally in the textile, pharmaceutical, or financial services sectors and operate subsidiaries or branches in more than one country.
+
+Even so, this limited number is significant, because if a Bangladeshi group's outbound investment — in establishing a regional production hub, sourcing office, or sales entity — takes advantage of incentives in a low-tax jurisdiction, GloBE's jurisdictional blending (Chapters 25–26) could reduce the value of that benefit for groups exceeding the threshold. For groups approaching the threshold given revenue growth trends, it is a reasonable preparation to begin building GloBE-compliant jurisdiction-level information systems (Chapter 55) now. In addition, a Bangladeshi entity could suddenly come within the scope of GloBE by becoming part of a foreign in-scope group through an acquisition (the Group Entry rules of Chapter 36) — preparation for this possibility is also needed.
+
+### Impact on Foreign MNEs Operating in Bangladesh
+
+The subsidiaries of numerous large multinational groups operating in Bangladesh — particularly in the textile and garment supply chain, telecommunications, consumer goods (FMCG), pharmaceuticals, and financial services sectors — whose UPE is located in Europe, the United States, Japan, or other advanced jurisdictions, may already be within the scope of GloBE, because the threshold is determined based on the entire group's consolidated revenue, not the local revenue of that group in Bangladesh.
+
+This means that if an in-scope subsidiary in Bangladesh has an ETR below 15% because of a Tax Holiday or other incentive, that shortfall — if Bangladesh has no QDMTT — will generally be collected through the IIR (or, if necessary, the UTPR) in the UPE jurisdiction. As a result, from the perspective of an in-scope group, the real financial value of Bangladesh's incentive is reduced by that amount, and this calculation could become a new parameter in future FDI decisions — although the actual extent depends on how much the actual Top-up Tax liability is reduced by factors such as the SBIE, blending with high-tax income, or GloBE Loss.
+
+### Reassessing the Existing Incentive Framework
+
+Bangladesh's existing investment incentive framework — a large part of which is built on multi-year income tax exemptions designated for Export Processing Zones, Special Economic Zones, and specific industrial sectors — is now facing a structural question, at least in cases where the beneficiary enterprise is part of an in-scope multinational group. A few points are important in this reassessment process:
+
+First, a segmentation of the "beneficiary class" of the incentive is needed. For local and small-to-medium foreign investors below the threshold, the existing Tax Holiday model still retains its full value, because GloBE does not apply to them. The problem is concentrated only in the case of those large, in-scope groups, for whom the real value of the incentive is being structurally eroded.
+
+Second, for existing Tax Holiday commitments that have already been approved and are in effect, any restructuring could face contractual and administrative legal complications — particularly if investment registration certificates include stability clauses or commitments of exemption for a specified term. A practical question for policymakers is that redesigning the incentive framework for new investment is comparatively easy, but reassessing existing commitments is far more sensitive.
+
+Third, and most importantly, the "zero tax versus collecting it ourselves" question comes to the fore. If an in-scope group's Bangladeshi subsidiary has an ETR below 15% and Bangladesh has no QDMTT, then that shortfall tax will go to the UPE jurisdiction — Bangladesh will receive no additional revenue, while the group's overall tax liability remains the same. This reality creates an inclination toward a simple decision for many policymakers: if the top-up tax will be collected one way or another, why should the host country itself be deprived of that collection?
+
+### Policy Options and a Preparation Roadmap
+
+As of the writing of this book, Bangladesh — and indeed most peer economies in South and Southeast Asia — has not completed enacting any QDMTT or other Pillar Two-related legislation. This is an active, unresolved policy question, not a settled matter — and before deciding on this question, policymakers may consider the following practical options:
+
+1. **Wait and observe** — collecting evidence of other jurisdictions' implementation experience and the administrative cost versus revenue gain of a QDMTT, and deciding later. The risk is that delay means the potential top-up tax of in-scope subsidiaries will keep flowing to other jurisdictions.
+
+2. **Selective QDMTT introduction** — a QDMTT applicable only to large in-scope groups, so that incentives for investors below the threshold remain intact. This provides revenue protection (and, because of the QDMTT Safe Harbour of Chapter 47, may also avoid a full GloBE calculation), but requires new administrative capacity.
+
+3. **Parallel redesign of incentives** — gradually shifting new investment from the Tax Holiday toward expenditure-based or refundable-credit-type incentives, which preserve value for both in-scope and out-of-scope investors, but requires time for long-term institutional change.
+
+4. **STTR-compliant treaty renegotiation** — reviewing the existing tax treaty network, particularly examining the possibility of including an STTR clause in treaties that limit the source country's taxing rights on interest, royalties, or service fees.
+
+A realistic preparation roadmap generally follows this sequence: first, a reality-based assessment of how many groups operating in the country exceed the threshold (without specific statistics, since this information is not publicly readily available). Second, a survey of existing incentive recipients, to understand how many are already part of an in-scope group. Third, building the tax administration's institutional capacity — jurisdictional accounting verification, information exchange systems, and trained personnel (Chapters 50–54). Fourth, deciding the policy on QDMTT introduction and its timeline. And finally, transparent communication with investors, so that the policy change is not abrupt.
+
+Which of these options Bangladesh will adopt is an open question, and as of the writing of this book, no specific legislation or formal decision has been announced on this matter. What is certain is that as Pillar Two's global spread advances, the opportunity for economies like Bangladesh to avoid this question will gradually narrow.
+
+## 62.7 A Regional Comparison: India · Sri Lanka · Vietnam · Indonesia
+
+To understand the context of Bangladesh's policy decision, it is helpful to consider comparatively the positions of nearby peer economies, although an important caveat is needed here as well — most countries in this region have not fully settled their Pillar Two position as of the writing of this book, and the situation is changing rapidly.
+
+**India** has historically followed a different strategy — over the last decade it has gradually reduced its dependence on the Tax Holiday and moved toward a comparatively low, simplified nominal corporate tax rate, which in many cases is close to or above GloBE's 15% minimum rate. Because of this strategic difference, India's risk of GloBE-related revenue loss may be comparatively limited, although specific Pillar Two legislation has still not been completed.
+
+**Sri Lanka** carries some structural similarity to Bangladesh — an export-dependent economy, a history of special economic zone-based incentives, and pressure from recent financial-crisis-driven revenue consolidation. In this situation, the revenue-protection logic of a QDMTT-type arrangement could be attractive, although limitations on institutional capacity are a real obstacle.
+
+**Vietnam** is widely discussed as having taken the fastest and most visible step in this region — largely in the context of major foreign investors in the electronics and technology assembly sector, where long-term Tax Holidays have historically been used extensively. An effort to introduce a Domestic Minimum Top-up Tax framework, along with alternative expenditure-based support structures, is an important observable precedent for regional peers, although its actual revenue impact is still in the process of maturing.
+
+**Indonesia**, as the largest economy in Southeast Asia, is reportedly conducting an active policy review on adopting GloBE and a QDMTT, particularly in the context of major foreign investment in resource-intensive sectors where the Tax Holiday has historically been a primary attraction tool. This context shows that the strategy for attracting investment in resource-intensive sectors and the effect of GloBE create a complex interrelationship — although the SBIE protects a portion of real capital investment, the full value of the incentive is not preserved.
+
+A clear lesson for Bangladesh emerges from this regional comparison: the response is not uniform. Three factors — the historical nature of the tax structure (nominal rate versus Tax Holiday-dependence), institutional capacity, and the composition of the investor class — are driving each country's decision in a different direction. The relevant question for Bangladesh is to learn from these peer experiences and determine its own path, consistent with its export-dependent, EPZ-centered structure — not to mimic any single "correct answer."
+
+## Summary
+
+Pillar Two's global minimum tax framework has fundamentally changed the arithmetic of the traditional Tax Holiday-based investment incentive model of developing economies — because, for large, in-scope multinational groups, a host country's tax waiver now often merely relocates where tax is paid (through the IIR in the UPE jurisdiction or the UTPR elsewhere), rather than creating a real revenue saving for the host country. Qualified Refundable Tax Credits and expenditure-based incentives remain comparatively durable, and the SBIE provides partial protection for genuine labor-intensive and asset-intensive activity, although this protection will shrink over time as the Transition Rates decline. The core logic for introducing a QDMTT is: the top-up tax will be collected one way or another, so why shouldn't the host country collect that revenue itself — and the STTR can provide the source country additional protection through renegotiation of the treaty network. In the Bangladesh context, the number of in-scope domestic multinational groups is still limited, but the Bangladeshi subsidiaries of many foreign multinational groups may already be part of an in-scope group, and the real value of EPZ-based incentive frameworks is being structurally eroded for these groups. As of the writing of this book, Bangladesh has not completed enacting any QDMTT or other Pillar Two legislation — this is an open policy question, and the differing responses of India, Sri Lanka, Vietnam, and Indonesia show that no single solution suits every economy. The sooner the path of preparation — exposure assessment, institutional capacity building, policy decisions, and transparent communication with investors — begins, the sooner Bangladesh will be able to use this global change as an opportunity for revenue protection, rather than merely a reactive adjustment.
+
+## Common Mistakes
+
+- **Thinking of Pillar Two as "a developed-country problem"** — many mistakenly believe that GloBE is a concern only for high-tax advanced economies. In reality, any country where an in-scope group's subsidiary is located — whether Bangladesh or another developing economy — is directly affected if that subsidiary faces a low ETR, regardless of whether that country enacts GloBE legislation or not.
+
+- **Assuming the absence of a QDMTT means "tax savings"** — a common misconception is that if the host country has no QDMTT, the investing group actually pays less tax. In reality, that shortfall is collected in another jurisdiction through the IIR or UTPR — the group's overall tax liability remains the same, only the recipient changes.
+
+- **Treating all investors as one class** — making policy decisions without distinguishing between investors below the threshold (for whom the Tax Holiday still carries full value) and large in-scope groups (for whom the incentive's value is eroded) is a common analytical error.
+
+- **Thinking of the SBIE as a complete solution** — the SBIE reduces Excess Profit, but does not entirely eliminate the core problem of the nominal tax rate being below 15%, and this protection will shrink over time as the Transition Rates decline — ignoring this limitation creates a flawed policy assumption.
+
+- **Mechanically copying the decisions of regional peers** — directly copying Vietnam's or another country's QDMTT model is not reasonable, because each economy's investor composition, institutional capacity, and tax-structure history differ — policy decisions require analysis of one's own context.
+
+- **Assuming firm statistics or legal status in this area** — since Bangladesh and most peer economies have not yet completed formal legislation on this matter, readers should always independently verify the latest official announcements and legislative progress, rather than treating the policy analysis described in this chapter as a final position.
 
 <!-- lang:bn -->
 

@@ -12,7 +12,154 @@ slug: "ch-53-self-assessment-step-by-step"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 53 — Self-Assessment: A Step-by-Step Methodology
+
+> **In this chapter:** GloBE is a **Self-Assessment** framework — no tax authority performs the group's computation for it; the MNE Group itself must determine its Scope, Footprint, Entity Classification, applicable rules, Safe Harbour opportunities, computations, Elections, liability allocation, filing, and record-keeping — all of it. This chapter arranges the entire subject matter spread across the preceding 52 chapters into a single, sequential 10-step workflow — showing what must be done at each step and in which chapter of the book its detailed explanation can be found.
+
+## 53.1 The Structure of Self-Assessment and How to Use This Book
+
+A fundamental feature of the GloBE Model Rules is that they rest entirely on the principle of **Self-Assessment**. In traditional corporate taxation, a tax authority often verifies or corrects the computation, but under Pillar Two the group itself must take full responsibility, from determining its own Scope through to final filing. The tax authority's role generally comes at a later stage — through review of the GloBE Information Return (GIR), information exchange, and, where necessary, audit or dispute resolution.
+
+Bearing this reality in mind, this chapter serves as a roadmap — the exact order in which an MNE Group carries out its tasks in each fiscal year has been divided into 10 steps, and it is indicated in which chapter or Part of the book the detailed technical explanation for each step can be found. It is important to remember — these 10 steps are not a one-time exercise; this cycle must be run again every fiscal year, whenever there is expansion into a new jurisdiction, or whenever there is any change in the group's structure (acquisition, demerger, restructuring). Although the steps are sequential, in practice they are not entirely linear — for instance, Entity Classification information is used in both Rule Mapping and computation, and an Election decision can influence matters both before and after the computation. This chapter should therefore be viewed as an iterative framework, in which each step exchanges information with the steps before and after it.
+
+## 53.2 Step 1 — Scope: Does the Group Fall Within Scope?
+
+The first step is **Scope** — that is, confirming whether the group falls within the GloBE Model Rules at all. Three tests must be carried out for this: (a) whether the group is an MNE Group under the definition relating to Consolidated Financial Statements (Chapter 6); (b) whether annual consolidated revenue has exceeded the €750 million threshold in at least four of the preceding four or more fiscal years (Chapter 7); and (c) whether the UPE or any entity under it falls within the definition of an Excluded Entity, which can affect the determination of the group's overall Scope (Chapter 9).
+
+The outcome of this step is a clear decision — the group is either "in-scope" or "out-of-scope." Detailed methodology and exceptions can be found in Part 2 (Chapters 6–11), and an overall picture of the basic terminology in Chapter 5. An error at this step renders the following nine steps wholly unnecessary or incomplete, so the threshold test must be repeated every fiscal year — falling within scope once does not create any "permanent status"; if the group drops below the threshold, it may fall out of scope again, and if it newly enters scope, the entire process must start afresh from Step 2.
+
+## 53.3 Step 2 — Footprint: In Which Jurisdictions Are There Entities?
+
+Once the group is within scope, the second step is to build a **Footprint** — that is, to prepare a complete list of where each entity of the group is located, in which jurisdiction. This work must include every legal entity, every Permanent Establishment, every Flow-Through Entity, and the full ownership chain with percentage ownership (see Chapter 8). This map is the foundation of the entire Self-Assessment process — every subsequent step will be run on the basis of it.
+
+While building the Footprint, the ownership chain must be analyzed to identify the UPE, IPEs, and POPEs (Chapter 10), because this hierarchy is essential for the subsequent Rule Mapping and liability allocation. At the same time, special structures such as JVs, Minority-Owned entities, and Investment Entities must also be identified at this stage (Chapter 11), because different rules will apply to them in subsequent steps. In practice, this step takes the most time, because for many large MNE Groups the information of hundreds of entities has to be gathered, and legal entity master data is often stored in systems outside the tax department (corporate secretarial, treasury).
+
+## 53.4 Step 3 — Entity Classification: Determining the Status of Each Entity
+
+Once the Footprint has been built, **Entity Classification** must be carried out for each entity — that is, precisely determining its legal and tax-related status. The questions here are: is it a Constituent Entity or an Excluded Entity (Chapter 9); is it a Main Entity or its PE, and, if the latter, how income and liabilities will be allocated between them (Chapter 16); is it a Flow-Through Entity, and, if so, how its income will be allocated to its owner entity (Chapter 17); and what its role is in the ownership hierarchy — UPE, IPE, or POPE (Chapter 10).
+
+This step requires additional caution for special structures — a Tax Transparent UPE or a UPE under a Deductible Dividend Regime is subject to different treatment (Chapter 39), and if it is an Investment Entity, the relevance of the Eligible Distribution Tax System must be assessed (Chapter 40). The result of Entity Classification builds an "entity register," which will be repeatedly referenced in every subsequent step — Rule Mapping, computation, and liability allocation. An incorrect classification at this level (for example, mistakenly computing a PE as a separate Constituent Entity) can propagate errors through all subsequent steps.
+
+## 53.5 Step 4 — Rule Mapping: Where and When QDMTT/IIR/UTPR Are in Force
+
+The fourth step is **Rule Mapping** — determining, for each jurisdiction in the Footprint, which charging mechanism (QDMTT, IIR, Domestic IIR, or UTPR) is legally in force and applicable there. It is important here to remember the basic order of the Rule Order (Chapter 31): first, the QDMTT (Chapter 32) collects tax locally; then equivalence-related adjustments with the Domestic IIR are considered (Chapter 34); then top-down IIR applicability must be checked at every level of the ownership chain (Chapter 33); and finally the UTPR backstop (Chapter 35) applies to whatever remains.
+
+In practice, a complication in this step is that not all jurisdictions implement GloBE at the same time — some countries have already brought QDMTT or IIR into force, some have not yet done so, and the effective date of the UTPR differs across many jurisdictions. The group must therefore build a "rule matrix" every fiscal year — an updated list, for each jurisdiction, of which rules are in force and applicable in the relevant year. The jurisdiction-based review (Part 12, Chapters 59–62) serves as a helpful reference for this updating work, particularly for countries under the EU Minimum Tax Directive and for the special circumstances of jurisdictions such as the United States.
+
+## 53.6 Step 5 — Safe Harbour Verification: Where Computation Can Be Avoided
+
+Once Rule Mapping is complete, the fifth step is to verify **Safe Harbour** applicability for each jurisdiction — because, if passed, the full GloBE computation can be avoided (Chapter 44). It is effective to carry out this check in a specific order: first, checking whether the Transitional CbCR Safe Harbour applies (Chapter 45, only within the transition window), then the Permanent Simplified Calculations Safe Harbour (Chapter 46), then, if a Qualified QDMTT is in place in the relevant jurisdiction, the QDMTT Safe Harbour and Switch-off Rule (Chapter 47), and, for the UPE jurisdiction, the Transitional UTPR Safe Harbour (Chapter 48).
+
+If a jurisdiction passes a Safe Harbour, its Top-up Tax is assumed to be zero for that year, and the detailed computation of Step 6 can be avoided — but relief is not obtained from the obligation to gather information and disclose it in the GIR (Chapter 51). It should be remembered that the De Minimis Exclusion (Chapter 28) is a different kind of simplification that applies within the full computation itself, not a wholly separate test like a Safe Harbour — the two should not be conflated. The final outcome of this step is to divide every jurisdiction into two groups: "Safe-Harbour-protected" (where Step 6 can be avoided) and "full computation required" (where one must proceed to Step 6).
+
+## 53.7 Step 6 — Computation: Where There Is No Safe Harbour
+
+For jurisdictions that have not passed any Safe Harbour, the sixth step requires passing through the three main levels of the full GloBE computation — this is the most technically demanding part of the book. First, starting from Financial Accounting Net Income and applying the adjustments of Article 3.2, GloBE Income or Loss is determined, which also includes International Shipping Income, PE-Main Entity allocation, and Flow-Through allocation (Part 3, Chapters 12–17). Then, starting from the definition of Covered Taxes, Adjusted Covered Taxes are computed, along with inter-entity allocation, Deferred Tax mechanics, the 15% Recast/Recapture/Unclaimed Accrual, and, where applicable, the GloBE Loss Election (Part 4, Chapters 18–24).
+
+Finally, these two elements are combined through Jurisdictional Blending to determine the Effective Tax Rate, the Substance-based Income Exclusion is subtracted to determine Excess Profit, the De Minimis Exclusion is checked, and, applying the Additional Current Top-up Tax or the separate treatment for Minority-Owned entities, the jurisdictional Top-up Tax is finalized (Part 5, Chapters 25–30). This step is entirely dependent on the Entity Classification of Step 3 — because how each entity's income and tax will be allocated has already been determined; and the result of this step is used directly in the liability allocation of Step 8.
+
+## 53.8 Step 7 — Election Decisions
+
+Alongside the computation process, in the seventh step the group must make decisions regarding various **Elections** — because, in many places within the GloBE framework, the taxpayer is given the option to choose an alternative method, which does not apply automatically. Chapter-3-based Elections (such as stock-based compensation, the realization principle) must be decided before the GloBE Income computation (Chapter 14); the decision to make the GloBE Loss Election is related to the Covered Taxes computation (Chapter 23); and the Safe Harbour Election is made together with Step 5 (Part 9). Separate Elections must be considered for an Investment Entity or a Tax Transparent structure (Chapters 39–40).
+
+A complete list of all these Elections is compiled in Appendix E, a useful reference for checking during each year's Self-Assessment cycle. It should be remembered — some Elections are annual and changeable, while others are binding for five years and not easily revocable once made. Step 7 is therefore not a one-time mechanical exercise — it is a step of strategic decision-making, in which the decision may need to be reconsidered based on the results of the computation (which Election will increase or decrease the ETR) — which is precisely why there is, in practice, considerable back-and-forth (iteration) between Steps 6 and 7.
+
+## 53.9 Step 8 — Determination and Allocation of Liability
+
+Once the jurisdictional Top-up Tax is finalized, the eighth step must determine exactly which entity bears this liability, and how much is payable to whom. Here the Rule Order (Chapter 31) is applied again — first, the local QDMTT is collected locally; if any Top-up Tax remains, it is allocated up the ownership chain through the IIR, according to each Parent Entity's Applicable Percentage (the same logic as the Covered Taxes allocation principle of Chapter 20 applies here); and whatever remains uncollected is backstop-allocated among UTPR jurisdictions according to the UTPR formula, based on the number of employees and tangible assets (Chapter 35).
+
+At this step, special situations such as the Additional Current Top-up Tax (Chapter 29) and the separate allocation rules for Minority-Owned entities (Chapter 30) become relevant again. The final outcome of liability allocation is an entity-based list — which Constituent Entity, in which jurisdiction, pays how much under which rule. This list forms the basis for filing in the next step, and an error here creates the risk of the wrong entity paying the wrong amount of tax, which can later lead to complications of correction and interest and penalties.
+
+## 53.10 Step 9 — Filing and Payment
+
+In the ninth step, the actual filing is completed — first it must be determined who the Filing Entity is, in which jurisdictions Notification must be given, and what the filing deadline is (generally 18 months in the first year, 15 months in subsequent years — Chapter 50). Then, in accordance with the full structure of the GloBE Information Return (Chapter 51), all the required Sections — Corporate Structure, declarations of Safe Harbour and Election, jurisdiction-based ETR and Top-up Tax computation — must be filled in, and the filing must be made following the rules of information exchange and technical submission (Chapter 52).
+
+An important point is that the GIR is an informational return, distinct from the underlying tax-payment obligation — actual payment under the QDMTT, IIR, or UTPR must be made through each jurisdiction's local tax return or separate form, according to the local deadline — these two obligations must be tracked separately; the completion of one does not automatically complete the other. For a multi-jurisdiction group, building a master calendar at this step is practically essential, one that tracks the GIR filing, the Notification, and each local payment deadline together.
+
+## 53.11 Step 10 — Record-Keeping and Audit Preparation
+
+The tenth and final step is to keep records of the entire process and to prepare for future audits or inquiries. The workpaper for every preceding step — evidence of the Scope test, the basis for the Footprint and Entity Classification, the reasoning behind the Rule Mapping and Safe Harbour verification, the full trail of the computation, documentation of the Elections, and the basis for liability allocation — must be preserved, because different jurisdictions may raise different questions at different times.
+
+Under what circumstances Penalty Relief applies, and what the general process for dispute resolution is, is discussed in Chapter 54 — and the precondition for using it effectively is precisely the well-organized documentation of this step. A detailed discussion of governance, internal controls, and process robustness is in Chapter 58, and a brief, practical checklist can be found in Appendix H. The core principle is — the fact that, in Self-Assessment, a tax authority does not initially verify the computation does not mean it will never be verified in future; rather, the reasoning behind every decision must be kept demonstrably preserved until the statute of limitations has passed.
+
+## 53.12 A Complete Checklist for Each Step
+
+The checklist below lists the main activities of each step. It can be used for review at the start of each fiscal year's Self-Assessment cycle.
+
+**Step 1 — Scope**
+- [ ] Verified whether the group's Consolidated Financial Statements meet the MNE Group definition (Chapter 6)
+- [ ] Tested the €750 million revenue threshold for at least four of the preceding four years (Chapter 7)
+- [ ] Verified whether the UPE or any subsidiary entity is an Excluded Entity, and considered its effect (Chapter 9)
+- [ ] The overall in-scope/out-of-scope decision for the current year documented in writing
+
+**Step 2 — Footprint**
+- [ ] An updated list prepared of all the group's legal entities, PEs, and Flow-Through Entities
+- [ ] Each entity's jurisdiction, ownership percentage, and ownership chain documented
+- [ ] UPE, IPEs, and POPEs identified (Chapter 10)
+- [ ] JVs, Minority-Owned entities, and Investment Entities separately identified (Chapter 11)
+- [ ] Any entities entering/exiting the group during the current year added/removed (Chapter 36)
+
+**Step 3 — Entity Classification**
+- [ ] Constituent Entity or Excluded Entity status determined for each entity
+- [ ] The relationship between a Main Entity and its PE, and the basis for income/liability allocation, determined (Chapter 16)
+- [ ] The method for allocating a Flow-Through Entity's income determined (Chapter 17)
+- [ ] Special treatment for a Tax Transparent UPE or Investment Entity considered (Chapters 39–40)
+
+**Step 4 — Rule Mapping**
+- [ ] Verified whether QDMTT is legally in force and applicable in each jurisdiction (Chapter 32)
+- [ ] Domestic IIR applicability and equivalence adjustment considered (Chapter 34)
+- [ ] IIR applicability verified at every level of the ownership chain (Chapter 33)
+- [ ] The UTPR's effective date and applicability verified (Chapter 35)
+- [ ] An updated jurisdiction-based rule matrix built for the current year (Part 12)
+
+**Step 5 — Safe Harbour**
+- [ ] Verified whether the transition window of the Transitional CbCR Safe Harbour still applies (Chapter 45)
+- [ ] The three tests of the Permanent Safe Harbour (De Minimis, Simplified ETR, Routine Profits) verified for each jurisdiction (Chapter 46)
+- [ ] QDMTT Safe Harbour and Switch-off Rule applicability verified (Chapter 47)
+- [ ] Transitional UTPR Safe Harbour applicability verified (Chapter 48)
+- [ ] Safe Harbour Election documented for each applicable jurisdiction
+
+**Step 6 — Computation**
+- [ ] GloBE Income or Loss determined by applying the Article 3.2 adjustments to Financial Accounting Net Income (Chapters 12–13)
+- [ ] International Shipping Income, PE, and Flow-Through allocation applied (Chapters 15–17)
+- [ ] Adjusted Covered Taxes computed from Covered Taxes and inter-entity allocation completed (Chapters 18–20)
+- [ ] Deferred Tax mechanics and the 15% Recast/Recapture/Unclaimed Accrual applied (Chapters 21–22)
+- [ ] ETR determined through Jurisdictional Blending (Chapter 25)
+- [ ] SBIE, De Minimis Exclusion, Additional Current Top-up Tax, and Minority-Owned adjustment applied (Chapters 27–30)
+
+**Step 7 — Election**
+- [ ] The applicable Chapter 3 Elections decided (Chapter 14)
+- [ ] The need for a GloBE Loss Election considered (Chapter 23)
+- [ ] Elections relating to Investment Entities and Tax Transparent structures considered (Chapters 39–40)
+- [ ] All applicable Elections reconsidered against the full list in Appendix E
+- [ ] Annual versus multi-year-binding Elections tracked separately
+
+**Step 8 — Determination and allocation of liability**
+- [ ] The amount of local QDMTT collection determined under the Rule Order (Chapter 31)
+- [ ] Remaining Top-up Tax allocated up the ownership chain through the IIR (Chapter 33)
+- [ ] The UTPR backstop allocation formula (number of employees, tangible assets) applied (Chapter 35)
+- [ ] Each Constituent Entity's final payable liability documented in an entity-based list
+
+**Step 9 — Filing and payment**
+- [ ] Filing Entity and Notification obligations determined (Chapter 50)
+- [ ] All required Sections of the GloBE Information Return completed (Chapter 51)
+- [ ] Information-exchange and technical-submission rules followed (Chapter 52)
+- [ ] GIR filing and local tax payment — two separate obligations separately marked in the calendar
+- [ ] Each jurisdiction's deadlines compiled in a master calendar
+
+**Step 10 — Record-keeping and audit preparation**
+- [ ] The workpaper for each step preserved and easily retrievable
+- [ ] The conditions for Penalty Relief applicability and the related evidence verified (Chapter 54)
+- [ ] Internal controls and governance processes reviewed (Chapter 58)
+- [ ] Record-retention deadlines determined according to the statute of limitations
+
+## Summary
+
+Pillar Two is a Self-Assessment framework, in which the MNE Group itself bears the entire responsibility for determining its tax liability — and this chapter has organized that entire process into 10 sequential steps. First, Scope is determined to see whether the group falls within scope; then a Footprint is built to prepare a map of all the group's entities and jurisdictions; after that, the Entity Classification of each entity is determined, which forms the foundation for every subsequent step. In the fourth step, Rule Mapping determines which charging mechanism applies in each jurisdiction, and in the fifth step, Safe Harbours are verified so as to avoid the full computation wherever possible. Where a Safe Harbour is not passed, the sixth step requires running the full computation of GloBE Income, Adjusted Covered Taxes, and ETR/Top-up Tax; the seventh step involves the strategic decisions of various Elections; the eighth step allocates the liability to specific entities under the Rule Order; the ninth step completes GIR filing and local payment; and the tenth step preserves documentation of everything for future audits or inquiries. These ten steps are not a one-time task — the entire cycle must be run again every fiscal year, and whenever there is any change in the group's structure.
+
+## Common Mistakes
+
+A common mistake is to think of the steps as strictly linear and, once a step has been passed, never to return to it — in reality, the Election decision (Step 7) often depends on the results of the computation (Step 6), and it is necessary to go back and forth repeatedly as needed. A second mistake is to treat the Footprint and Entity Classification (Steps 2 and 3) as a task solely for the tax department, without coordinating with the legal and treasury departments, leaving gaps in the entity master data that then propagate errors through subsequent steps. A third mistake is to treat Rule Mapping (Step 4) as something to be done once and fixed — since the legislative status of each jurisdiction changes from year to year, failing to update the previous year's matrix can result in applying the wrong rule. A fourth mistake is to forget the obligation to disclose information in the GIR for a jurisdiction that has passed a Safe Harbour — even where there is no obligation to compute, there is no relief from the obligation to disclose. A fifth mistake is to assume, once the GIR has been filed (the informational part of Step 9), that local tax payment has also been completed — these are two entirely separate obligations, and must be tracked separately in each jurisdiction. A sixth, and perhaps the most widespread, mistake is to treat record-keeping (Step 10) as an optional task to be done after filing — in reality, the reasoning and evidence behind each step's decisions should be preserved in parallel, because reconstructing everything together at year-end is often impossible.
 
 <!-- lang:bn -->
 

@@ -13,7 +13,113 @@ slug: "ch-23-globe-loss-election"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 23 — The GloBE Loss Election
+
+> **In this chapter:** in jurisdictions where the ordinary accounting-based Deferred Tax methodology is not applicable or is unrealistic, this chapter discusses how a simplified, elective alternative arrangement — the GloBE Loss Election — preserves a loss year's tax benefit for use in a profit year, how and when the election must be made, and the consequences of revocation.
+> **Related Article:** 4.5
+
+## 23.1 The Problem: Mismatch Between Loss Years and Profit Years
+
+Pillar Two's core goal is to ensure that an MNE Group's Effective Tax Rate (ETR) in each jurisdiction reaches a minimum of 15 percent. This ETR is determined by dividing Adjusted Covered Taxes by Net GloBE Income for a specific fiscal year. But in real business life, income is not linear — some years bring profit, some years bring loss. The problem arises precisely when a jurisdiction has a GloBE Loss in one year and GloBE Income in the following year.
+
+Under ordinary accounting methods, this problem is solved by the Deferred Tax Asset (a deferred tax asset) — in a loss year, a tax asset is created that can be used against future taxable income, and it is used in the profit year to reduce or increase the Covered Tax Expense. Article 4.4 provides the rule for incorporating this ordinary accounting-based deferred tax methodology into the GloBE calculation.
+
+But the problem is — in many jurisdictions, particularly where there is no Corporate Income Tax or it is at a nominal rate, Constituent Entities never record a realistic deferred tax entry in their financial accounts, because there is no actual tax liability against which deferred tax can be computed. As a result, the general process of Article 4.4 either does not apply in these jurisdictions or creates an artificial and meaningless calculation. It is precisely to fill this gap that Article 4.5 provides a separate, simplified, and elective arrangement — the GloBE Loss Election.
+
+## 23.2 The Concept of the GloBE Loss Deferred Tax Asset
+
+The **GloBE Loss Deferred Tax Asset** (in short, GloBE Loss DTA) is a special, automatically computed tax asset created under Article 4.5, which is unrelated to a Constituent Entity's actual financial accounts. It is an entirely notional asset created within the GloBE calculation itself, whose sole function is to correct the ETR in a future profit year by increasing Adjusted Covered Taxes.
+
+This is precisely where the key difference from ordinary Article 4.4 deferred tax lies — in the ordinary methodology, deferred tax is computed from the temporary difference between the tax basis and the accounting basis in actual financial statements, applying the actual tax rate (subject to the Recapture rule and the 15% cap). But the basis of the GloBE Loss DTA is entirely different — it is computed by directly applying a fixed minimum rate (Minimum Rate, 15%) to the jurisdiction's annual Net GloBE Loss. As a result, it is entirely free from the complexity of an actual tax return, tax basis, or any accounting standard — a purely mechanical, formula-based calculation.
+
+This simplicity is its main appeal. In a jurisdiction with no tax or a nominal tax, there is no need to track complex temporary differences — one simply needs to retain the Net GloBE Income or Loss figure year by year.
+
+## 23.3 Creation: |GloBE Loss| × 15% in the Loss Year
+
+Under Article 4.5, in a jurisdiction for which the GloBE Loss Election is in effect, if all Constituent Entities combined incur a Net GloBE Loss in a fiscal year, a GloBE Loss DTA is created for that year. The amount of this DTA is determined by the following formula:
+
+**`|GloBE Loss| × 15%`**
+
+That is, the absolute value of the loss multiplied by the Minimum Rate is that year's GloBE Loss DTA. For example, if a jurisdiction has a Net GloBE Loss of 100 units in a year, the DTA created for that year will be 100 × 15% = 15 units.
+
+This newly created DTA accumulates with the unused DTA balance from previous years to form a cumulative jurisdiction-level balance, which remains usable in subsequent profit years. Importantly — this formula is repeated for every loss year; that is, if losses occur for several consecutive years, the 15% rate is applied separately to each year's loss and the DTA continues to accumulate, not on a single aggregated loss.
+
+## 23.4 Use: Up to the Minimum Rate in a Profit Year
+
+In a year when the same jurisdiction has Net GloBE Income (positive income), the accumulated GloBE Loss DTA balance is used to increase Adjusted Covered Taxes. The amount used is determined as the lesser of two figures:
+
+1. The remaining GloBE Loss DTA balance at the start of that year, and
+2. That year's Net GloBE Income × 15%.
+
+This second cap is extremely important — it ensures that using the DTA in any given year can never make the ETR appear higher than 15%. The amount used is added directly to that year's Adjusted Covered Taxes (as if it were an actual tax payment), and the same amount is subtracted from the GloBE Loss DTA balance.
+
+If the DTA balance is larger than Net GloBE Income × 15%, then the full cap amount will be used for that year and the remainder will carry forward for the future — resulting in the ETR being exactly 15% and Top-up Tax being zero. But if the DTA balance is smaller than the cap (that is, the DTA runs out), then only what remains will be used, and the remaining income will be subject to the ordinary ETR calculation, requiring Top-up Tax if necessary. It is precisely this mechanical cap arrangement that distinguishes the GloBE Loss DTA from an ordinary tax-accounting deferred tax asset — there is no scope for "extra" use here.
+
+## 23.5 One-Time Election — Must Be Made in the First Year
+
+The GloBE Loss Election is a **One-Time election**. Under Article 4.5, this election is made by the Filing Constituent Entity for a specific jurisdiction, and it must be made in the very first fiscal year in which the MNE Group comes within the scope of the GloBE rules in that jurisdiction. This election must be disclosed in the GloBE Information Return.
+
+This "must be made in the first year" condition is extremely important from a practical standpoint, because it means — an MNE Group cannot look back a few years later and say, "We now want to make the GloBE Loss Election for the loss we incurred three years ago." If the election is not made, no GloBE Loss DTA is created for a past loss — only the ordinary deferred tax methodology of Article 4.4 (if applicable) can track that loss.
+
+The rationale for this rule is to preserve consistency — if a group were allowed to decide each year whether to apply the GloBE Loss Election, they could artificially control the ETR by keeping the election active only in profitable years and inactive in loss years (or vice versa). "In the first year, or never" — this strict deadline closes off that opportunity. It is important to remember that the election is jurisdiction-specific; making the election for one jurisdiction does not apply to another jurisdiction, and the "first year" is determined independently for each jurisdiction.
+
+## 23.6 Revocation and the Extinguishment of the Remaining DTA
+
+A Filing Constituent Entity can revoke the GloBE Loss Election at any time. But this revocation has a strict and irreversible consequence, clearly stated in Article 4.5 — from the first day of the fiscal year in which the revocation takes effect, that jurisdiction's remaining GloBE Loss DTA balance drops to zero. That is, any unused accumulated DTA is permanently extinguished — it cannot be recovered in the future through any other method (such as the ordinary deferred tax of Article 4.4), because no actual accounting was maintained under the ordinary deferred tax system in the prior years.
+
+The practical impact of this rule is far-reaching. Suppose a large DTA balance has been built up in a jurisdiction from several years of accumulated losses, but the group decides to revoke the election for various reasons (such as reducing administrative complexity, or a change in the local tax regime) — then that entire DTA balance will be lost, and full Top-up Tax will have to be paid in future profit years, as if no loss had ever occurred. For this reason, the decision to revoke must be made with extreme caution — generally it should only be considered when the DTA balance is already small or close to zero, and it can be confirmed that the jurisdiction has permanently entered a profitable state.
+
+## 23.7 Comparison with the Ordinary Deferred Tax Methodology — Which Is Better When
+
+The ordinary deferred tax methodology of Article 4.4 and the GloBE Loss Election of Article 4.5 — both solve the same core problem (the timing mismatch between loss years and profit years), but by different paths.
+
+The advantage of the ordinary methodology is that it reflects the actual underlying economic reality — it is computed based on specific temporary differences and uses the actual local tax rate (subject to the 15% cap of Article 4.4.1(b)), so it produces a more accurate result in cases of asset revaluation, tax credits, or complex tax-basis differences. But its disadvantage is administrative complexity — tracking every temporary difference, applying the Recapture rule, and maintaining this calculation becomes practically impossible or meaningless in a jurisdiction where the concept of taxable income is weak or non-existent.
+
+The advantage of the GloBE Loss Election is simplicity — only the aggregate Net GloBE Loss or Income figure for the year is needed, without any temporary difference tracking. This is ideal for jurisdictions with no Corporate Income Tax or a nominal rate (such as some tax havens or special economic zones), because since no actual tax accounting is created there, there is also no basis for applying the ordinary deferred tax methodology. But the disadvantage is its mechanical 15% cap — it does not consider any nuance of the actual underlying tax attributes, and once elected, it is difficult and risky to change (see 23.6).
+
+As a practical rule: in a jurisdiction where a well-organized tax accounting and deferred tax tracking system already exists and complex temporary differences are present, the Article 4.4 path is generally easier and more accurate to follow. Conversely, where there is no actual tax liability or deferred tax framework — particularly in a no-tax/nominal-tax jurisdiction — the simplicity of the GloBE Loss Election is relatively more useful. However, before deciding, it must be remembered that this election must be made in the first year (23.5), and revocation causes the loss of the remaining balance (23.6) — that is, this is a decision with long-term consequences and should not be taken lightly.
+
+## 23.8 Special Considerations for a Flow-Through UPE
+
+When an MNE Group's Ultimate Parent Entity (UPE) is a **Flow-Through UPE** (a flow-through entity — that is, an entity whose income is not taxable at its own level but "flows through" to become taxable at its owners' level, as with many partnership structures), applying the GloBE Loss Election requires extra caution.
+
+Special adjustments are applied to a Flow-Through UPE's own GloBE Income or Loss calculation — since a portion of its income/loss is allocated to its owners (and generally taxed separately at those owners' level), the Net GloBE Income/Loss used for the GloBE calculation in the UPE's own jurisdiction is generally determined after subtracting that allocated portion, so as to avoid double counting.
+
+As a result, when the GloBE Loss Election is made for a Flow-Through UPE's jurisdiction, the Net GloBE Loss on which the GloBE Loss DTA is computed is also the figure after this owner-allocation adjustment — not the UPE's total accounting loss. The result is that, if a large portion of the UPE's income/loss goes to its owners, the base for the DTA can become significantly smaller than the actual accounting loss. In practical application, to correctly compute the effect of this special adjustment, the owner-allocation rule at the UPE level (consistent with the Flow-Through Entity rules described in Article 3.5) must first be applied to determine the "net" Net GloBE Loss, and only then should the 15% rate be applied to compute the GloBE Loss DTA. Reversing this order risks creating an incorrect, excessive DTA.
+
+## 23.9 A Numerical Example
+
+In the example below, suppose a jurisdiction "J" (where there is no Corporate Income Tax), and the MNE Group made the GloBE Loss Election for this jurisdiction in the very first year (Year 1). Suppose that in Jurisdiction J, actual Covered Tax is always zero (because no local tax is imposed), and all figures are expressed in millions of currency units (such as USD million).
+
+| Year | Net GloBE Income/(Loss) | Event | DTA Created (15%) | Usage Cap (Income × 15%) | DTA Used | Opening DTA Balance | Closing DTA Balance | Adjusted Covered Tax | ETR | Top-up Tax |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | (100) | Loss | 15.0 | — | — | 0.0 | 15.0 | 0.0 | N/A | 0.0 |
+| 2 | (40) | Loss | 6.0 | — | — | 15.0 | 21.0 | 0.0 | N/A | 0.0 |
+| 3 | 80 | Profit | — | 12.0 | 12.0 | 21.0 | 9.0 | 12.0 | 15% | 0.0 |
+| 4 | 100 | Profit | — | 15.0 | 9.0 | 9.0 | 0.0 | 9.0 | 9% | 6.0 |
+| 5 | 50 | Profit | — | 7.5 | 0.0 | 0.0 | 0.0 | 0.0 | 0% | 7.5 |
+
+**Explanation:**
+
+- **Year 1 and Year 2 (loss years):** Applying the formula `|GloBE Loss| × 15%` to each year's Net GloBE Loss creates a DTA — in Year 1, |100| × 15% = 15.0, and in Year 2, |40| × 15% = 6.0. Since Jurisdiction J has no Net GloBE Income in these two loss years, ETR calculation is not applicable and no Top-up Tax is due. At the end of Year 2, the accumulated DTA balance = 15.0 + 6.0 = 21.0.
+- **Year 3 (first profit year):** Net GloBE Income is 80. Usage cap = 80 × 15% = 12.0. Since the opening DTA balance (21.0) exceeds the cap, the full cap amount, 12.0, is used. This 12.0 is added to that year's Adjusted Covered Taxes (actual tax zero + DTA used 12.0 = 12.0). As a result, ETR = 12.0 / 80 = exactly 15%, and Top-up Tax is zero. Remaining DTA balance = 21.0 − 12.0 = 9.0.
+- **Year 4 (the year the DTA runs out):** Net GloBE Income is 100. Usage cap = 100 × 15% = 15.0, but the opening DTA balance is only 9.0 — smaller than the cap. So the entire remaining 9.0 is used, and the DTA balance falls to zero. Adjusted Covered Taxes = 0 + 9.0 = 9.0. ETR = 9.0 / 100 = 9%, which is below 15%. As a result, Top-up Tax must be paid on the remaining shortfall = (15% − 9%) × 100 = 6.0.
+- **Year 5 (the year after the DTA is exhausted):** With the DTA balance at zero, no use is possible. Adjusted Covered Taxes = 0. ETR = 0%. Top-up Tax at the full rate on the entire income = 15% × 50 = 7.5.
+
+This example makes clear — the GloBE Loss Election does not "erase" a jurisdiction's loss; rather, it creates a limited, depleting tax-credit-like balance, which is used step by step in profit years until it is ultimately exhausted, after which the jurisdiction returns entirely to the ordinary Top-up Tax rules.
+
+## Summary
+
+The GloBE Loss Election, under Article 4.5, is a simplified alternative arrangement for jurisdictions where the ordinary Article 4.4 deferred tax methodology is unrealistic or inapplicable — particularly in no-tax or nominal-tax jurisdictions. In a loss year, a GloBE Loss DTA is created using the formula `|GloBE Loss| × 15%`, which is used in subsequent profit years in an amount equal to the lesser of the opening DTA balance and that year's Net GloBE Income × 15% — this use increases Adjusted Covered Taxes and corrects the ETR up to a maximum of 15%. This election is a One-Time election, which must be made by the MNE Group in the very first year the jurisdiction comes within the scope of GloBE, or the opportunity is lost. Revocation is possible, but it results in the permanent extinguishment of the remaining DTA balance. For a Flow-Through UPE, an owner-allocation adjustment must be applied before determining the base for the DTA. The decision — the ordinary deferred tax path, or the GloBE Loss Election — depends on the complexity of the jurisdiction's tax structure and long-term forecasts.
+
+## Common Mistakes
+
+- **Missing the first year:** An MNE Group not making the election in the first year because the loss is small, and then trying to make the election the following year when a larger loss occurs — but this is not possible, because this election can only be made in the very first year the jurisdiction comes within the scope of GloBE.
+- **Forgetting the usage cap:** Assuming the entire DTA balance can be used at once, ignoring the Net GloBE Income × 15% cap — this can result in incorrectly showing an ETR above 15%.
+- **Underestimating the consequences of revocation:** Revoking the election under the belief that the remaining DTA will be preserved in some other way (such as under Article 4.4) — in reality it is entirely extinguished.
+- **Reversing the adjustment order for a Flow-Through UPE:** Applying 15% directly to the UPE's total accounting loss without first applying the owner-allocation adjustment before computing the DTA, which creates an excessive DTA.
+- **Not computing each year's loss separately:** Trying to add together several consecutive years' losses and apply 15% once, even though the rule requires the formula to be applied separately for each loss year and the DTA added accordingly (although the mathematical result is the same, year-based tracking is procedurally important, particularly in situations involving partial revocation).
+- **Making the election without careful thought outside a no/nominal-tax jurisdiction:** Where a well-organized deferred tax tracking system already exists and complex temporary differences are present, the GloBE Loss Election's mechanical 15% cap can lose the nuance of actual tax attributes — as a result, making this election without adequate analysis often proves disadvantageous.
 
 <!-- lang:bn -->
 

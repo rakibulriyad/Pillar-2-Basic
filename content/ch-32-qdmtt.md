@@ -13,7 +13,155 @@ slug: "ch-32-qdmtt"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 32 — QDMTT (Qualified Domestic Minimum Top-up Tax)
+
+> **In this chapter:** we discuss how a country can collect, for itself, a Top-up Tax that would otherwise arise on its own tax base before that revenue moves abroad — the conditions for doing so, the deviations permitted, and the method for reconciling the amounts with the IIR and UTPR.
+> **Related Articles:** 10.1, 5.2.3 · **AG:** Feb 2023 · July 2023 · Dec 2023
+
+## 32.1 The Concept of QDMTT — Keeping the Tax at Home
+
+Under the core structure of the GloBE Model Rules, the two main instruments for collecting Top-up Tax are the **IIR (Income Inclusion Rule)** — a rule collected in the parent company's country — and the **UTPR (Undertaxed Profits Rule)** — a residual rule collected in market countries. These two rules together create a reality: if a low-taxed entity operates in some country (the Source Jurisdiction), but that country's Effective Tax Rate (ETR) is below the minimum rate (15%), the Top-up Tax on that shortfall will be collected — but the collecting country will not be the source country, but rather the parent company's country or a market country. This means tax revenue flows out of the source country to another country.
+
+The **Qualified Domestic Minimum Top-up Tax (QDMTT)** solves this problem. Defined in Article 10.1, this mechanism allows the source country itself to impose, within its own territorial jurisdiction, a GloBE-equivalent domestic top-up tax, so that the shortfall tax amount stays within the country before it can go abroad. If a jurisdiction imposes a QDMTT and it is recognized as "Qualified," then, under the priority sequence of the Articles, the amount of Top-up Tax applicable to that jurisdiction under the IIR and the UTPR is reduced by the amount paid through the QDMTT — often falling to zero.
+
+There is a clear revenue-policy rationale behind this structure: since Pillar Two seeks to guarantee a global minimum tax rate, a priority has been created, in favor of the source country, over which country will collect that minimum-tax revenue. As a result, many countries — particularly those that previously attracted investment with tax holidays or low tax rates — have decided to adopt their own QDMTT to retain that revenue, because even without a QDMTT, another country would collect that tax anyway; by not collecting it, the country would simply lose revenue without gaining any additional investment-attraction benefit.
+
+## 32.2 The Condition for Being Qualified: GloBE-Equivalent Computation
+
+A domestic top-up tax regime is not treated as "Qualified" merely because it is named a QDMTT. The main condition for being Qualified is that the domestic rule must produce an outcome equivalent to that of the GloBE Model Rules — that is, it must determine GloBE Income or Loss on the same basis, compute Covered Taxes using the same method, and apply the same ETR and Top-up Tax formulas, as described in the detailed Adjusted Covered Taxes adjustment methodology set out in Article 5.2.3.
+
+In practice, this means that if a country enacts a separate QDMTT law outside its own corporate tax structure, that law must, just as under GloBE:
+
+- Use Financial Accounting Net Income or Loss as the starting point for computing GloBE Income or Loss, to which specified adjustments (net Tax Expense, excluded dividends, excluded equity gain/loss, etc.) are applied;
+- Follow the GloBE framework for the definition and adjustment of Covered Taxes (deferred tax adjustment, prior-year adjustment);
+- Keep the formula identical: ETR = Adjusted Covered Taxes ÷ Net GloBE Income, and Top-up Tax % = 15% minus ETR;
+- Where the Substance-based Income Exclusion (SBIE) and De Minimis Exclusion apply, follow the specific GloBE rates (although some deviations are permitted in these two areas, discussed in Section 32.3).
+
+The Inclusive Framework's Feb 2023 Administrative Guidance first proposed a formal assessment process (peer review) for the "Qualified" status of a QDMTT, and the July 2023 Administrative Guidance explains the QDMTT Safe Harbour and the related conformity criteria in further detail. The purpose of this assessment framework is to ensure that different countries' QDMTT laws remain consistent with one another and with the core GloBE framework, so that a taxpayer does not face the risk of double counting or double taxation on the same income.
+
+## 32.3 Permitted Deviations — Where Countries May Do Things Differently
+
+Although there is an obligation to be GloBE-equivalent, the Inclusive Framework has recognized that every country has its own tax-administration realities. As a result, in certain limited areas a QDMTT may depart from GloBE's standard methodology without losing its Qualified status. These permitted deviations were clarified in the July 2023 and Dec 2023 Administrative Guidance rounds.
+
+### Use of Local Accounting Standards
+
+Under the general rule of the GloBE Model Rules, the basis for accounts is the accounting standard used in the Ultimate Parent Entity's consolidated financial statements (such as IFRS or US GAAP). But for QDMTT purposes, a country may instead allow local entities to use their own locally accepted Local Financial Accounting Standard, provided those entities are required or accustomed to maintaining their accounts under that standard, and provided this does not create a "material competitive distortion" of more than $75 million.
+
+### Computation in Local Currency
+
+The standard GloBE reporting currency is generally the UPE's presentation currency. For QDMTT purposes, a country may instead choose to perform all computations — GloBE Income, Covered Taxes, SBIE, Top-up Tax — in its own local currency, which is administratively easier for both the local tax authority and taxpayers.
+
+### Excluding SBIE or De Minimis
+
+A country may decide, in its QDMTT law, not to apply the Substance-based Income Exclusion (the profit exclusion based on payroll and tangible assets) or the De Minimis Exclusion (relief for jurisdictions with low revenue/income), wholly or in part. This is a "more-favourable-to-revenue" deviation — that is, a country may retain the authority to collect more tax than under GloBE, because this is not adverse to the taxpayer but rather favorable to the country's revenue. A deviation in the opposite direction — that is, a deviation intended to collect less tax than GloBE — is not permitted, because it would breach the QDMTT's "equivalent outcome" condition.
+
+### Limits on Elections
+
+The GloBE Model Rules give taxpayers several optional Elections (such as the Stock-Based Compensation Election, the Realisation-based Election, and the De Minimis Election). In its QDMTT law, a country may limit these Elections or impose separate conditions on certain specific Elections, particularly where taking an Election could create an inconsistency in computation between the QDMTT and GloBE. The Dec 2023 Administrative Guidance emphasizes the need to maintain Election consistency between the QDMTT and the GloBE Return on this point, so that the same MNE Group cannot select different Elections in different countries in a way that creates artificial mismatches in the calculation.
+
+## 32.4 Domestic Group and Application to Purely Domestic Groups
+
+The GloBE Model Rules were primarily designed to govern a Multinational Enterprise Group — that is, a group with entities in more than one country. But in practice, there are also large groups whose annual consolidated revenue exceeds the €750 million threshold, yet all of whose entities are located in a single country — these are called **Domestic Groups**. Since such a group has no cross-border structure, there is literally no basis for applying the IIR or the UTPR — there is no foreign parent company or market country from which to collect the Top-up Tax.
+
+To fill this gap, most countries have extended the scope of their QDMTT to cover not only cross-border MNE Groups but Domestic Groups as well. The rationale is that, as a matter of policy, if part of a large group pays tax below the minimum rate, the cause is not merely its cross-border structure but the low tax rate itself. If QDMTT application were limited only to multinational groups, it would create an uneven competitive environment between large domestic groups and multinational groups — which could also create legal risk relating to state aid, particularly for member states of the European Union. As a result, in practice, most QDMTT laws — whether the country is an EU member or not — apply equally to both Domestic Groups and MNE Groups.
+
+## 32.5 Treatment of Investment Entities and Stateless Entities
+
+An **Investment Entity** (an investment vehicle — such as certain qualifying funds or real estate investment vehicles) is treated as a special category under the GloBE Model Rules, because the income of such entities is generally kept "tax-neutral" for purposes of taxation at the investor level — that is, the policy followed is to tax at the level of the investor rather than at the level of the entity. Under GloBE's general rule, an Investment Entity's GloBE Income is not blended into the parent MNE Group's ETR calculation in the normal way, but is computed separately (on an entity-by-entity basis or according to specified elections).
+
+This principle is also maintained in the application of a QDMTT — a Qualified QDMTT generally does not impose tax directly on an Investment Entity, unless the MNE Group specifically makes an election to treat the Investment Entity as a Taxable Entity. The reason is that, if a QDMTT were to forcibly impose tax at the level of an Investment Entity, that entity's tax-neutral character would be destroyed, and this would be inconsistent with GloBE's core principle — as a result, the QDMTT itself would risk losing its "Qualified" status.
+
+A **Stateless Entity** is an entity that has no tax residency in any single jurisdiction — such as certain flow-through entities or a Permanent Establishment that cannot be attributed to any specific country. Because a Stateless Entity cannot be part of any single jurisdiction's "Jurisdictional Blending," its ETR and Top-up Tax must be computed separately (on an entity-by-entity basis), and no QDMTT can apply to that Stateless Entity — because no country can claim it as falling within its own jurisdiction. As a result, the Top-up Tax arising on a Stateless Entity is generally collected through the IIR or, where applicable, the UTPR, rather than through a QDMTT.
+
+## 32.6 Reconciling the QDMTT with the IIR/UTPR
+
+The most important aspect for understanding how a QDMTT actually functions is the method for reconciling it with the IIR and UTPR (the interaction/credit mechanism). Under the GloBE framework, a jurisdiction's total Top-up Tax is first determined according to the standard GloBE formula (based on ETR, the Top-up % and Excess Profit) — this is called the Jurisdictional Top-up Tax. Then, the Qualified QDMTT actually paid in that jurisdiction is subtracted from this figure. If the amount of the QDMTT equals or exceeds the Jurisdictional Top-up Tax, no additional Top-up Tax is collectible under the IIR or UTPR — it falls to zero.
+
+The core logic of this arrangement is a priority ordering: the QDMTT applies first, then the IIR, and finally the UTPR fills any remaining shortfall. As a result, the possibility of double collection of Top-up Tax on the same income is removed. It should be noted, however, that a QDMTT credit can never be negative, nor can it be transferred to another jurisdiction — if a country's QDMTT collection exceeds the Top-up Tax determined under the GloBE calculation, that excess amount is not refundable, and it cannot be used to reduce the Top-up Tax liability of any other jurisdiction. A detailed numerical example of this reconciliation is shown in Section 32.9.
+
+## 32.7 What Happens If the QDMTT Is Non-Qualified
+
+If a country's domestic top-up tax regime does not meet the GloBE-equivalence conditions — that is, it is **non-qualified** — then that tax regime is not recognized as a QDMTT, and as a result no automatic credit against the IIR/UTPR applies, a complete exception from the priority sequence described in Section 32.6. The practical consequence is serious: the MNE Group will pay local tax in that country, and, because of that country's low ETR, the full Top-up Tax will again be collected through the IIR in the parent company's country or through the UTPR in a market country — although the local tax paid under a non-qualified regime is generally still included in the ETR calculation as part of Covered Taxes, the special dollar-for-dollar credit mechanism does not apply, effectively creating a risk of partial double taxation.
+
+Because of this risk, the Inclusive Framework has established a formal peer-review process for every country's QDMTT law, so that countries can know with confidence whether their law will obtain Qualified status. The Feb 2023 Administrative Guidance proposed the initial framework for this assessment process, and subsequent rounds (July 2023, Dec 2023) have further refined this process. As a practical recommendation, tax advisors or tax departments should regularly verify updated information about the Qualified status of the QDMTT of any country in which they have investments, because a country's law may be amended over time and can shift from Qualified to non-qualified, or the reverse.
+
+## 32.8 A Preview of the QDMTT Safe Harbour (Chapter 47)
+
+An important administrative benefit of the QDMTT is the **QDMTT Safe Harbour** — discussed in detail in Chapter 47. The core idea is that if a jurisdiction's QDMTT meets three specified tests (conditions similar to the Accounting Standard Test, Rate Test, and De Minimis Test) and is recognized as Qualified, then another jurisdiction's (such as the parent company's country's) IIR/UTPR does not need to perform a full GloBE calculation again for that country — that jurisdiction's Top-up Tax is automatically treated as zero.
+
+As a result, administrative complexity is significantly reduced for both taxpayers and tax administrations, because there is no need to perform a full computation twice for the same jurisdiction (once for the local QDMTT, and again for the parent country's GloBE return). This benefit is not permanent, however — the conditions of the Safe Harbour may become stricter over time, and if a jurisdiction's QDMTT fails to meet the conditions in any particular year, it must revert to the full GloBE calculation for that year. An in-depth discussion of this topic — the qualifying conditions, timelines, and exceptions — can be found in Chapter 47.
+
+## 32.9 Numerical Example
+
+The example below shows how a QDMTT prevents a jurisdiction's Top-up Tax liability from being pulled into the parent company's country through the IIR.
+
+**Context:** The Ultimate Parent Entity of an MNE Group is located in country **P** (which applies an IIR). This group has a wholly owned (100%) subsidiary entity operating in country **S**, where the local corporate tax rate is relatively low and the GloBE ETR is below the 15% minimum rate. Country S has had a Qualified QDMTT in place since 2024.
+
+**Step 1: GloBE Calculation (basic Top-up Tax for country S, without QDMTT)**
+
+| Item | Amount (USD million) |
+|---|---|
+| GloBE Income (country S) | 100.0 |
+| Adjusted Covered Taxes (local tax, after GloBE adjustment) | 8.0 |
+| Effective Tax Rate (ETR) = 8.0 ÷ 100.0 | 8% |
+| Top-up Tax % = 15% − 8% | 7% |
+| Payroll expense | 20.0 |
+| Carrying value of tangible assets | 50.0 |
+| SBIE (5% × 20.0 + 5% × 50.0) | 3.5 |
+| Excess Profit = 100.0 − 3.5 | 96.5 |
+| **Jurisdictional Top-up Tax = 7% × 96.5** | **6.755** |
+
+Based on the above calculation, if there were no QDMTT, the $6.755 million Top-up Tax determined for country S would be fully collected through the IIR at the parent company level in country P, since the parent company owns 100%.
+
+**Step 2: Country S's QDMTT Calculation**
+
+Country S computes its QDMTT law using a GloBE-equivalent methodology — applying the same GloBE Income, the same Adjusted Covered Taxes, the same ETR and Top-up Tax % formula, and the same SBIE rate. As a result, country S's QDMTT liability also comes to:
+
+| Item | Amount (USD million) |
+|---|---|
+| Excess Profit | 96.5 |
+| Top-up Tax % | 7% |
+| **QDMTT liability (collectible by country S)** | **6.755** |
+
+**Step 3: Remaining Liability Under IIR/UTPR After the QDMTT**
+
+Under GloBE's priority sequence, the Qualified QDMTT paid in country S must be subtracted before the IIR applies:
+
+| Item | Amount (USD million) |
+|---|---|
+| Jurisdictional Top-up Tax (per GloBE) | 6.755 |
+| Less: Qualified QDMTT paid in country S | (6.755) |
+| **Remaining Top-up Tax liability under IIR in country P** | **0.000** |
+
+In this simple scenario, since country S's QDMTT was computed on a fully GloBE-equivalent basis and fully paid, no additional tax needs to be paid at the parent company level in country P under the IIR. The $6.755 million in revenue stays entirely in country S's treasury, and does not go to country P's treasury.
+
+**Step 4: A Scenario with a Deviation (SBIE Excluded)**
+
+Now suppose country S, applying the permitted deviation described in Section 32.3, excludes SBIE in its QDMTT law (this is permitted because, although it is unfavorable to the taxpayer, it is a deviation favorable to revenue). The QDMTT liability then changes:
+
+| Item | Amount (USD million) |
+|---|---|
+| GloBE Income (without SBIE exclusion) | 100.0 |
+| Top-up Tax % | 7% |
+| **QDMTT liability (without SBIE)** | **7.000** |
+
+| Item | Amount (USD million) |
+|---|---|
+| Jurisdictional Top-up Tax (per GloBE, with SBIE) | 6.755 |
+| Less: QDMTT credit (capped at the GloBE Top-up Tax amount) | (6.755) |
+| **Remaining Top-up Tax liability under IIR in country P** | **0.000** |
+| Actual QDMTT paid in country S | 7.000 |
+| Excess amount (above the GloBE Top-up Tax, not refundable) | 0.245 |
+
+This second scenario teaches an important lesson: because of the permitted deviation in the QDMTT, country S actually collected $0.245 million more tax than the GloBE calculation would indicate, but the IIR credit can never exceed the limit of the GloBE-determined Jurisdictional Top-up Tax. As a result, the remaining liability in country P stays at zero (it does not go negative), and the excess amount collected by country S simply remains as country S's own domestic revenue — it is not transferable as a credit or refund to any other jurisdiction.
+
+## Summary
+
+The QDMTT allows a jurisdiction the opportunity to collect, for itself, the Top-up Tax arising on its own territory, so that this revenue does not flow abroad via the IIR or UTPR. Defined in Article 10.1, to be Qualified this mechanism must produce an outcome equivalent to the overall GloBE computation methodology, including the Adjusted Covered Taxes described in Article 5.2.3, although some limited permitted deviations are allowed (local accounting standards, local currency, excluding SBIE/De Minimis, limits on Elections). A QDMTT generally applies to both MNE Groups and Domestic Groups, but its application is limited or excluded for Investment Entities and Stateless Entities, so as to maintain consistency with GloBE's core principles. Under the GloBE priority sequence, the amount paid under a Qualified QDMTT is subtracted from the Jurisdictional Top-up Tax determined under the IIR/UTPR, often reducing it to zero — but a non-qualified QDMTT does not receive this benefit, creating a risk of double taxation. The numerical example in Section 32.9 showed how a correctly computed QDMTT can retain the full Top-up Tax liability within the local country, and how, because of a permitted deviation, an excess amount collected, while not refundable, remains as the country's own revenue. The QDMTT Safe Harbour — discussed in detail in Chapter 47 — further reduces the administrative complexity of this framework.
+
+## Common Mistakes
+
+A common mistake is assuming that if a country enacts a law called "QDMTT," it will automatically receive a full credit against the IIR/UTPR — in reality, Qualified status is subject to a separate assessment process, and if it is non-qualified, the risk of double taxation remains. Another mistake is assuming that a QDMTT credit can be negative or transferable — an excess amount of QDMTT paid can never be refunded, nor can it be used to reduce the liability of another jurisdiction. Some mistakenly believe that because a Domestic Group is not cross-border, it will fall outside the scope of the QDMTT — in reality, most countries' QDMTT laws include Domestic Groups as well. Treating an Investment Entity as falling within the scope of a QDMTT under the general rule is also a common mistake, which conflicts with GloBE's tax-neutral principle and can also call into question the Qualified status of the tax regime. Finally, many assume the QDMTT Safe Harbour is a permanent benefit, but in reality its conditions can change from year to year, and it is important to be prepared to revert to a full GloBE calculation in any year the conditions are not met.
 
 <!-- lang:bn -->
 

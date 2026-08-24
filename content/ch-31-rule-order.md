@@ -13,7 +13,148 @@ slug: "ch-31-rule-order"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 31 — Rule Order: The Sequence and Relationship of the Three Rules
+
+> **In this chapter:** the Top-up Tax computed for a Low-Taxed Constituent Entity under Pillar Two is not collected under any single rule — it is collected in a defined sequence: first the local jurisdiction, then the parent's jurisdiction, and finally the other jurisdictions. This chapter discusses the logic of that sequence, the mechanics of each step, and the technique by which double collection is prevented.
+> **Related Articles:** 2.1–2.6, 5.2
+
+## 31.1 Why a Sequence Is Needed — Avoiding Double Taxation
+
+Under the core structure of Pillar Two, more than one jurisdiction can be a potential claimant to collect the Top-up Tax computed for a given Low-Taxed Constituent Entity (referred to hereafter as **LTCE**) — the country where the entity is located, the country where its direct or intermediate parent is located, and even a country where any other Constituent Entity of the group does business. If all of these countries tried to collect the same Top-up Tax simultaneously, independently, and without coordination, the same low-taxed profit would be taxed more than once — the exact opposite of the core purpose of the GloBE Rules. The goal of the GloBE system is to guarantee a minimum tax, not to create double or multiple taxation.
+
+To solve this problem, the OECD Model Rules establish a defined, sequential, and mutually consistent framework, under which the three main mechanisms — **QDMTT** (Qualified Domestic Minimum Top-up Tax), **IIR** (Income Inclusion Rule), and **UTPR** (Undertaxed Profits Rule) — work with one another in a "serial" relationship, not in parallel. Each step applies only, and only to the portion, that has not already been collected at an earlier step. This sequence is established in Article 2.1 through 2.6 and Article 5.2, and understanding it is essential for practitioners — because analyzing the rules in the wrong order can lead both taxpayers and tax authorities to determine an incorrect liability.
+
+In brief, the sequence is as follows:
+
+1. **The local jurisdiction first** — if a QDMTT is in force in that country, that country makes up its own tax-rate shortfall itself.
+2. **The parent's jurisdiction second** — if the QDMTT does not fully cover the shortfall, the remaining amount is collected by the UPE's or another qualifying Parent Entity's jurisdiction, through the IIR.
+3. **The rest of the world last** — if for whatever reason the IIR does not apply, or applies only partially, the remaining amount is distributed and collected across various jurisdictions in proportion to employees and assets, through the UTPR.
+
+This three-step structure functions like a "waterfall" — water spills to the next level down only once the level above has been filled; whatever is captured at the level above does not flow further down.
+
+## 31.2 Step 1 — QDMTT: The Local Jurisdiction's First Right
+
+The first and highest-priority level of the sequence is the QDMTT. If the country in which the LTCE is located has enacted a GloBE-consistent domestic minimum top-up tax under its own law, then that country itself — without waiting for any other country — collects the top-up tax on the low-taxed profit in its own jurisdiction.
+
+The technical basis for this priority is found in Article 5.2, which establishes the formula for computing the jurisdictional top-up tax. In the final stage of this formula, the amount of QDMTT already collected in that jurisdiction is subtracted. As a result, if a country has collected the full amount of QDMTT, the GloBE-based jurisdictional top-up tax mathematically falls to zero — and therefore no opportunity remains to apply the IIR or UTPR to it. This is precisely why the QDMTT is called the "first claimant": it does not merely displace the shortfall, it mathematically extinguishes it — nothing remains for any other country.
+
+There is a clear political-economic rationale behind this arrangement. The country where real economic activity is taking place and which is the source of the profit is considered to have a fair claim to the first opportunity to collect the tax — this is both a respect for sovereignty and a practical recognition of tax competition. If there were no QDMTT, that country's profit shortfall would be collected by another country (the parent's country) and the revenue would flow to a country where the business activity did not actually occur. The QDMTT closes this "revenue leakage" and allows domestic revenue to stay at home.
+
+It should be noted, however, that recognition of a QDMTT is not unconditional — it must be "Qualified," meaning it follows the GloBE Model Rules' computation methodology and is recognized as such through the OECD's Peer Review process. Otherwise it will be treated merely as an ordinary domestic tax, which will enter the ETR calculation as part of Adjusted Covered Taxes, but will not receive the benefit of automatic subtraction under Article 5.2.
+
+## 31.3 Step 2 — IIR: The Remaining Tax in the Parent's Jurisdiction
+
+Whatever remains after the QDMTT (i.e., if the local jurisdiction has no QDMTT, or has one that applies only partially, or for some technical reason does not cover the full shortfall) becomes claimable by the IIR.
+
+The basic mechanics of the IIR are set out in Article 2.1 — it establishes that the jurisdiction of the Ultimate Parent Entity (UPE), if it has a qualifying IIR law, is primarily liable for the remaining Top-up Tax of the LTCE. This liability is imposed on the UPE on a "top-down" basis — that is, the claim is made first against the entity at the highest level of the ownership chain, and then moves down as necessary.
+
+Article 2.2 establishes the method for allocating this liability — referred to as the "Allocable Share." Under this formula, the amount of Top-up Tax allocated to a Parent Entity depends on its ownership share of the LTCE's GloBE Income — that is, the greater the ownership, the greater the liability. This ensures that the share belonging to minority interest holders is not entirely swept into the parent's liability.
+
+Article 2.3 addresses another important situation — when the UPE's jurisdiction has no qualifying IIR, or the UPE itself is an Excluded Entity, the liability moves down to an Intermediate Parent Entity (IPE) or a Partially-Owned Parent Entity (POPE), if their jurisdiction has a qualifying IIR. This mechanism is generally called "IIR Offset" or a "shift from top-down to an alternative level" process — it ensures that even if the UPE's jurisdiction has no IIR, the opportunity to fill the shortfall within the GloBE system remains through a Parent Entity at a lower level, while at the same time avoiding a double claim on the same portion of the Top-up Tax at two different levels.
+
+It should be noted here that the IIR applies only to the portion that has not already been covered by the QDMTT. This adjustment happens automatically because of the computation structure in Article 5.2 — since the IIR's allocation formula operates on the jurisdictional top-up tax that remains after the QDMTT has been subtracted.
+
+## 31.4 Step 3 — UTPR: The Last Backstop
+
+If, even after the QDMTT and IIR steps combined, the LTCE's jurisdictional Top-up Tax is not fully collected (for example, if there is no IIR in the UPE's country, and no qualifying IIR applies at any level of the ownership chain, or if the UPE itself is low-taxed but its jurisdiction does not implement an IIR), then the "last backstop" of this system, the UTPR, comes into play.
+
+Article 2.4 establishes how the "UTPR Top-up Tax Amount" is computed — this is the aggregate amount that needs to be allocated across all jurisdictions worldwide for a given MNE Group, because it was not already collected through the QDMTT or the IIR. Article 2.5 describes the process for distributing this amount — a formula is used here that essentially determines the "UTPR Percentage" based on the proportion of employees and tangible assets located in each UTPR-implementing jurisdiction. A jurisdiction where the group has more employees and assets receives the right to collect a larger share — the logic behind this formula is to spread the tax burden in line with genuine economic presence.
+
+Article 2.6 establishes an important limitation — the UTPR De Minimis Exclusion — under which, subject to specified conditions, a jurisdiction's UTPR Percentage can be treated as zero, so that no UTPR-based liability arises in that jurisdiction. This provision ensures that the UTPR truly applies only where the group has an actual and measurable presence (employees, assets) in the relevant jurisdiction — not on the basis of mere legal or tax-planning artifice.
+
+The UTPR is called a "backstop" because it applies only when the two steps above fail or remain incomplete — it ensures that no MNE Group can escape the minimum tax entirely simply by avoiding an IIR at the UPE's jurisdiction or by operating in a country without a QDMTT.
+
+## 31.5 Where the STTR Sits — Before GloBE
+
+The three rules discussed so far (QDMTT, IIR, UTPR) are all internal processes of the GloBE Model Rules. But the overall Pillar Two framework has a fourth component that is a treaty-based instrument outside GloBE — the **STTR** (Subject to Tax Rule).
+
+The STTR essentially gives the source country the opportunity to impose additional tax on certain intra-group payments (such as interest, royalties, and certain service fees) if that payment is taxed in the recipient country at a nominal rate below 9%. It is implemented mainly through a bilateral tax treaty, not through the general framework of the GloBE Model Rules.
+
+The important point is where the STTR sits in the sequence — it takes effect before the GloBE calculation, not after. When a Constituent Entity pays additional tax under the STTR, that additional tax is added to that entity's Covered Taxes in the calculation, and as a result its Effective Tax Rate (ETR) increases. An increase in the ETR means the jurisdictional Top-up Tax computed under the QDMTT, IIR, and UTPR automatically decreases (or may be reduced entirely to zero, if the STTR raises the ETR to 15% or above).
+
+Put simply, the STTR works "upstream" — it changes the GloBE's input, it does not compete with GloBE's output. It is not some fourth "step" attached serially to the QDMTT-IIR-UTPR sequence; rather, it changes the basis of the ETR before that sequence even begins. This distinction matters — many practitioners mistakenly treat the STTR as a "fourth backstop" of GloBE, but in reality it is an entirely prior and separate legal layer, applicable only when an STTR-related treaty exists between the two relevant countries.
+
+## 31.6 The Guarantee Against Double Collection of a Top-up Tax
+
+The most important design feature of this entire three-step structure is that it mathematically guarantees the same Top-up Tax of the same Low-Taxed Constituent Entity will not be collected twice. This guarantee rests on three complementary mechanisms.
+
+First, the computation formula in Article 5.2 has a "sequential netting" method built in — the jurisdictional top-up tax is computed first, and then the jurisdiction's QDMTT is subtracted from it. If the result is zero or less, no IIR or UTPR liability remains for that jurisdiction — this subtraction process itself mathematically prevents double collection, with no administrative reconciliation required.
+
+Second, for the IIR, the "offset mechanism" in Article 2.3 ensures that when the IIR is potentially applicable at multiple levels (UPE, IPE, POPE), the portion already collected at a higher level is subtracted from the liability at a lower level. This removes the risk of the full liability being collected twice from two different Parent Entities based on the same LTCE.
+
+Third, for the UTPR, the formula in Article 2.4 automatically excludes, when computing the "UTPR Top-up Tax Amount," the portion already collected through the QDMTT and IIR — that is, the UTPR operates only on the "genuine remainder," not on the total shortfall.
+
+The coordination across these three levels produces an overall guarantee: the outcome of an earlier step is treated as an "input" before each country's liability is determined, so that aggregate collection can never exceed the amount of the original jurisdictional top-up tax. This is of significant practical importance, because when different countries enact their own GloBE-related laws at different times and at different speeds (some countries adopting only the QDMTT, some adopting both the IIR and the UTPR, and some not yet adopting anything), this structure still ensures that the countries that have adopted the rules operate in a coordinated way, without conflicting with one another.
+
+## 31.7 Flow Diagram: Where the Top-up Tax of a Low-Taxed CE Goes
+
+The flow diagram below shows how the jurisdictional Top-up Tax computed for a single Low-Taxed Constituent Entity is directed, step by step, to its various possible destinations, and which Article applies at each step.
+
+```
+                Low-Taxed Constituent Entity (LTCE)
+             Jurisdictional Top-up Tax computed  [Art. 5.2]
+                            │
+                            ▼
+        Step 1 ── Is a Qualified QDMTT in force in this jurisdiction?
+                            │
+              ┌─────────────┴─────────────┐
+             Yes                            No / Partial
+              │                             │
+              ▼                             ▼
+     Local country's treasury         Remaining amount after
+     collects the QDMTT               QDMTT subtraction under
+     [Art. 5.2 – net subtraction]     Art. 5.2 formula enters
+              │                       Step 2
+              ▼                             ▼
+     GloBE top-up tax falls           Step 2 ── Does the UPE's
+     to zero →                        country have a Qualified IIR?
+     IIR/UTPR do not apply                    │
+     (process ends here)             ┌────────┴────────┐
+                                    Yes                  No
+                                    │                  │
+                                    ▼                  ▼
+                        UPE's jurisdiction       Look for an IPE/POPE
+                        collects the liability   at a lower level
+                        in proportion to          whose jurisdiction
+                        ownership                 has an IIR
+                        [Art. 2.1, 2.2]           [Art. 2.3]
+                                    │                  │
+                                    ▼          ┌───────┴───────┐
+                          If a remainder      If found,          If not found,
+                          remains (partial     liability          the full amount
+                          ownership) it        collected at       goes to Step 3
+                          goes to UTPR         that level
+                                    │           [Art. 2.3]
+                                    ▼
+                    Step 3 ── UTPR: global distribution
+                    [Art. 2.4, 2.5, 2.6]
+                                    │
+                                    ▼
+                Collected in proportion to employee count
+                and tangible assets (per UTPR Percentage)
+                across various UTPR-implementing jurisdictions
+                (jurisdictions within De Minimis excluded, Art. 2.6)
+                                    │
+                                    ▼
+        ═══════════════════════════════════════════════
+        Total collected across all paths = the original
+        jurisdictional Top-up Tax — never more, never doubled
+        ═══════════════════════════════════════════════
+```
+
+This diagram makes clear that the same Top-up Tax never flows down multiple branches in parallel — each decision point depends on the outcome of the preceding step, and each "yes" branch stops the process right there. This is the core strategy of GloBE's design — a waterfall-based structure, where once an upper level is filled, nothing more spills down to the level below.
+
+## Summary
+
+Under Pillar Two, the Top-up Tax of a Low-Taxed Constituent Entity is never collected in parallel by multiple countries simultaneously — instead it follows a strict, sequential structure. First, the local jurisdiction's QDMTT (Article 5.2) gets the opportunity, because that is where the genuine economic activity takes place. Whatever remains unfulfilled by the QDMTT is collected at the second step through the IIR (Article 2.1–2.3), in the jurisdiction of the UPE or a qualifying lower-level Parent Entity, allocated according to ownership proportion. If the shortfall is still not fully covered after these two steps, the third and final step, the UTPR (Article 2.4–2.6), distributes the remaining amount across various jurisdictions in proportion to employees and assets. The STTR sits outside this sequence — it takes effect before the GloBE calculation and raises the ETR, which automatically reduces the Top-up Tax required within GloBE. Each step operates on a net amount based on the outcome of the preceding step, which mathematically guarantees that total collection will never exceed the original shortfall and that double collection will never occur anywhere.
+
+## Common Mistakes
+
+- **Treating the STTR as a fourth step of GloBE** — many mistakenly think of the STTR as a serial "backstop" step like QDMTT-IIR-UTPR. In reality the STTR is an entirely separate, treaty-based instrument that changes the basis of the ETR before the GloBE calculation; it does not compete with GloBE's output.
+- **Assuming UTPR applies directly whenever there is no QDMTT** — skipping the intermediate IIR step and jumping straight to a UTPR analysis is a common error. IIR applicability must first be tested at the UPE and at every intermediate level (Article 2.1–2.3); the UTPR only comes into play when the IIR fails to cover the full shortfall.
+- **Confusing an "ordinary domestic tax" with a "Qualified QDMTT"** — the automatic subtraction benefit under Article 5.2 applies only to an OECD-recognized Qualified QDMTT; assuming an ordinary domestic minimum tax qualifies as a QDMTT without verification can lead to incorrect conclusions.
+- **Ignoring the IIR offset mechanism** — when there are multiple Parent Entities in the ownership chain, failing to subtract the portion already collected at a higher level from the liability at a lower level, and instead counting the full amount twice, is a risky mistake (Article 2.3).
+- **Ignoring the UTPR's De Minimis Exclusion** — allocating liability equally across all UTPR-implementing jurisdictions without checking the limit in Article 2.6, when some jurisdictions' UTPR Percentage should in fact be zero.
 
 <!-- lang:bn -->
 

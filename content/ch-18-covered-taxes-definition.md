@@ -13,7 +13,114 @@ slug: "ch-18-covered-taxes-definition"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 18 — Defining Covered Taxes
+
+> **In this chapter:** the first requirement for accurately understanding both the numerator and the denominator of the Effective Tax Rate calculation is to specifically identify which taxes enter the calculation as "**Covered Tax**" and which do not. This chapter discusses in detail the four positive categories and five explicit exclusions of Article 4.2, and the classification of borderline taxes such as VAT, Payroll Tax, Property Tax, Digital Services Tax, Alternative Minimum Tax, and Withholding Tax.
+> **Related Article:** 4.2
+
+## 18.1 Which Tax Is a "Covered Tax" — The Four Categories
+
+The entire Pillar Two ETR (Effective Tax Rate) calculation rests on the ratio of two figures — a jurisdiction's **Adjusted Covered Taxes** and its **GloBE Income**. In this calculation, the denominator matters as much as the numerator. But a company pays many types of tax over the course of a year — corporate income tax, VAT, property tax, payroll tax, withholding tax, digital services tax, and so on. Which of these are counted as the numerator of the ETR is determined by the definition of **Covered Tax**, set out in **Article 4.2** of the GloBE Model Rules.
+
+**Covered Tax** essentially refers to those taxes recorded in a Constituent Entity's financial accounts that fall within four specified categories. Under Article 4.2.1, these four categories are:
+
+1. Taxes imposed on the income or profits of a Constituent Entity, or on a share of that income arising from an ownership interest held in another Constituent Entity;
+2. Taxes imposed on distributed profits, deemed profit distributions, and non-business expenditure under an **Eligible Distribution Tax System**;
+3. Taxes imposed in lieu of a generally applicable corporate income tax; and
+4. Taxes imposed on the basis of Retained Earnings and Corporate Equity, where the tax may be computed on the basis of both income and capital.
+
+Each of these four categories carries a single core message — the tax must somehow be connected to **income, profit, or an equivalent proxy (income-based proxy)**. A tax that is based on turnover, consumption, the value of property, or wages falls outside this definition — this is discussed in detail in Section 18.4.
+
+Notably, this test for determining Covered Tax status is accounts-based, not based on legal nomenclature. Even if a tax is locally known by the name "levy," "cess," or "fee," it can still be a Covered Tax if it is in fact imposed on the basis of income and is recorded as a tax expense in the Constituent Entity's financial accounts. Conversely, even if something is named "tax," it is not a Covered Tax if its basis is not income-dependent.
+
+## 18.2 Tax on Income · Tax on Profit Distributions · Tax on Retained Earnings and Corporate Equity
+
+**a) Tax on income or profit.** This is the most common and straightforward category — ordinary Corporate Income Tax, tax on net gains from disposal of property, and tax imposed on a Constituent Entity's share of another entity's income through an ownership interest — all of these fall here. For example, if a holding company is a partner in a Tax Transparent Entity and tax is imposed directly in the holding company's jurisdiction on its share of that entity's income, this would be captured under this category.
+
+**b) Tax on profit distributions — Eligible Distribution Tax System.** In some countries (such as the Estonian or Latvian model), corporate income tax is not imposed on retained profit but only when profit is actually distributed. The GloBE Rules recognize this system as an "Eligible Distribution Tax System," and tax imposed under it on distributed profits, deemed distributions, and non-business expenditure is treated as Covered Tax — provided the tax rate is at least 15% and the tax system is part of a genuine corporate income tax system that taxes at the time of distribution (not at the time profit is generated). A special election (Article 7.3) and time-limited adjustments also apply to entities subject to such a system, discussed in detail in a later chapter.
+
+**c) Tax imposed in lieu of a conventional corporate income tax — the "in lieu of" test.** Some jurisdictions apply an alternative tax system instead of the ordinary corporate income tax — such as a turnover-based presumptive tax that serves as a substitute for calculating actual income tax. Under the "in lieu of" test set out in Article 4.2.3, if a tax replaces (rather than adds to) the general corporate income tax and functions as an acceptable substitute for that income tax, it may be treated as Covered Tax — even though its computational basis is not directly net income.
+
+**d) Tax on Retained Earnings and Corporate Equity.** In some tax systems, tax is imposed directly on corporate capital or retained profit (net worth or net equity) — such as certain jurisdictions' "capital tax" or "net wealth tax on companies." If a tax is levied on the basis of multiple components simultaneously — for example, both income and capital — the entire tax is treated as Covered Tax, because at least a part of it is income-based.
+
+## 18.3 What Is Not a Covered Tax: QDMTT · IIR · UTPR · Disqualified Refundable Imputation Tax · Tax Paid on Behalf of Insurance Policyholders
+
+Article 4.2.2 lists five explicit exclusions — these taxes, although they may appear income-based, are entirely excluded from the numerator of the ETR calculation.
+
+**a) A Parent Entity's accrued Top-up Tax under a Qualified IIR.** If an Ultimate Parent Entity pays Top-up Tax under the **IIR** (Income Inclusion Rule) in its jurisdiction with respect to a subsidiary in a low-tax jurisdiction, that Top-up Tax itself cannot be counted as Covered Tax in the ETR of that subsidiary's jurisdiction. The reason is simple — the Top-up Tax is itself the result of the ETR; if it were added back into the numerator, it would create a circular calculation that could effectively reduce the shortfall tax liability to zero.
+
+**b) Accrued Top-up Tax under a Qualified Domestic Minimum Top-up Tax.** By the exact same logic, Top-up Tax collected by a jurisdiction itself under a **QDMTT** (Qualified Domestic Minimum Top-up Tax) is not added to that jurisdiction's own Covered Taxes.
+
+**c) Tax adjustments arising from the application of a Qualified UTPR.** If a Constituent Entity's tax liability in a jurisdiction increases as a result of the application of the **UTPR** (Undertaxed Profits Rule), that increase is also excluded from Covered Tax.
+
+**d) Disqualified Refundable Imputation Tax.** A **Disqualified Refundable Imputation Tax** is a tax that is imposed on a corporation's profit, but when that profit is distributed to shareholders, the shareholder receives an imputation credit or refund that effectively returns a large part of the original tax — meaning the tax does not truly remain "permanent" at the corporate level. Imputation tax systems that provide shareholders a full or near-full refund (above a specified threshold) are treated as disqualified, and the entire amount is excluded from Covered Tax, because economically it is not a genuine corporate tax expense but a temporary transit.
+
+**e) Tax paid on behalf of insurance policyholders.** An insurance company often pays, on behalf of policyholders, tax related to returns to policyholders, and may show this in its own accounts as a tax expense. Although this tax appears in the insurance company's tax-expense line in its financial accounts, in reality it is not a tax on the insurance company's own income — it is a tax on the policyholder's assets, which the company merely pays as a collector. Therefore, this tax is excluded from Covered Tax.
+
+## 18.4 Value Added Tax · Payroll Tax · Property Tax — Why Excluded
+
+**Value Added Tax** (VAT), **Payroll Tax**, and **Property Tax** — none of these three fall into any category of Article 4.2, because none of them has income or profit as its tax base.
+
+- **VAT** is an indirect tax imposed on consumption or transactions. It is generally a "pass-through" tax — the company collects it and remits it to the government, but it is not a burden on the company's own profit (it generally remains neutral through the input credit mechanism).
+- **Payroll Tax** is imposed on the basis of employee wages or the employer's wage expense — it is a cost on labor, not on profit.
+- **Property Tax** is levied on the basis of the value or assessed value of immovable property, and has no direct relationship with income — even a loss-making company must pay the same property tax on the land its factory sits on.
+
+A common feature of these three taxes is that their liability remains unchanged even when profit is zero or negative. Since GloBE's ETR calculation is fundamentally intended to measure "tax burden on income," including these taxes — which have no relationship to income — in the numerator would distort the ETR. However, from an accounting standpoint it is important to note — these taxes are generally shown in financial accounts as an operating expense, not on the tax-expense line; as a result, they are already deducted as an expense in the GloBE Income calculation, but are not added to the numerator as Covered Tax.
+
+## 18.5 Classification of Digital Services Tax and Alternative Minimum Tax
+
+A **Digital Services Tax** (DST) is generally a tax imposed at a fixed rate (e.g., 2%–5%) on gross revenue or turnover derived from a specified digital activity — with no opportunity for expense deduction. Since its base is not net income but gross turnover, it does not fall within the "tax on income or profit" category of Article 4.2.1(a). Even under the "in lieu of" test (Section 18.1, item c), a DST generally does not qualify, because in most jurisdictions the DST is not a **substitute** for the ordinary corporate income tax but an **additional** tax on top of it — a company pays both the ordinary corporate income tax and the DST simultaneously. For this reason, DST is generally not a Covered Tax.
+
+The classification of **Alternative Minimum Tax** (AMT) depends on its computational basis. In some jurisdictions, AMT computes a minimum tax using an adjusted measure of taxable income (adjusted taxable income, where certain reliefs or deductions are excluded), and the taxpayer pays whichever is higher — the regular tax or this minimum tax. Since the basis of this type of AMT remains fundamentally income-based (with only certain reliefs limited), it is generally treated as Covered Tax under Article 4.2.1(a) or (c). But if a "minimum tax" is computed on the basis of gross turnover, the size of assets, or some other non-income metric, then like DST it will be excluded because it is not income-based. In short — even if the name includes "minimum tax," it is the actual computational basis that determines whether it is a Covered Tax.
+
+## 18.6 The Position of Withholding Tax
+
+**Withholding Tax** (WHT) occupies a special position, because it is generally withheld in the payer's jurisdiction, but economically it is a burden on the payee's income. From the perspective of the GloBE Rules, WHT is a genuine tax on income — so it falls within the definition of Article 4.2.1(a), and where it is recorded as a tax expense in the **payee entity's** financial accounts, it is treated as that entity's Covered Tax, not the payer's.
+
+An important issue here is allocation — when a Constituent Entity makes a payment of dividends, interest, or royalties, and withholding tax is deducted from that payment, that tax is added to the Covered Tax computation and ETR of the payee entity's jurisdiction — even where the payee and the payer are in different jurisdictions. However, it is particularly worth noting that if that income (for example, portfolio-excluded dividends falling under Excluded Equity Gain or Loss) is itself excluded from the GloBE Income calculation, an adjustment may be needed before adding the corresponding WHT to Covered Tax, so that the numerator and denominator of the ETR remain consistent — this fine-grained adjustment rule is discussed in detail in later chapters on the allocation of Adjusted Covered Taxes. The core message for this chapter is — WHT is itself a Covered Tax, but a separate allocation analysis is needed to determine in which entity's accounts, and under what conditions, it should be counted.
+
+### Comparison Table: Covered Tax vs. Not a Covered Tax
+
+| Tax | Is it a Covered Tax? | Reason |
+|---|---|---|
+| Ordinary corporate income tax | Yes | Directly on income/profit — Article 4.2.1(a) |
+| Distribution tax under an Eligible Distribution Tax System | Yes (conditional) | Article 4.2.1(b), requires a minimum 15% rate |
+| Retained Earnings / Corporate Equity tax | Yes | Article 4.2.1(d), full tax included even if only part is income-based |
+| Withholding Tax (in the payee's accounts) | Yes | Tax on income, but allocation rules apply |
+| Alternative Minimum Tax (income-based) | Yes | Underlying base is still adjusted income |
+| Top-up Tax under Qualified IIR / QDMTT / UTPR | No | Article 4.2.2 — explicit exclusion to avoid circularity |
+| Disqualified Refundable Imputation Tax | No | Not economically a permanent tax expense |
+| Tax paid on behalf of insurance policyholders | No | Not a tax on the company's own income |
+| Value Added Tax | No | On consumption/transactions, not income-based |
+| Payroll Tax | No | On wage expense, profit-neutral |
+| Property Tax | No | On property value, income-neutral |
+| Digital Services Tax | Generally no | On gross turnover, additional to ordinary income tax |
+
+## 18.7 Difficult Borderline Examples
+
+Although the definitions appear clear in theory, in practice many taxes combine multiple features. Below are several realistic examples.
+
+**Example 1 — Hybrid banking levy.** A jurisdiction imposes a "bank levy" on banks, the base of which is a percentage of the total liabilities on the bank's balance sheet, but the taxpayer is only liable to pay this levy up to a ceiling based on annual net profit. Here we must analyze — what is the levy's core computational base? If the primary base is the size of liabilities and profit only sets a "cap" (upper limit), then this is fundamentally an asset/liability-based tax — not a Covered Tax, because the dominant determining component is not income-based.
+
+**Example 2 — Turnover-based presumptive tax that replaces actual CIT.** A small jurisdiction has a simplified tax system for small businesses, under which tax is charged at 3% of turnover, and payment of this tax fully exempts the taxpayer from the ordinary corporate income tax system — it is an alternative system, and the two do not apply simultaneously. Here, the conditions of the "in lieu of" test are satisfied (it is a substitute, not an addition), so this turnover tax may be treated as Covered Tax under Article 4.2.1(c) — even though its direct base is turnover. This is precisely where the distinction from DST becomes clear — DST is additional to the ordinary CIT, not a substitute for it.
+
+**Example 3 — Partial refund under an imputation system.** Under a jurisdiction's imputation tax system, tax is charged at the corporate level at a rate of 30%, but on distribution of dividends, the shareholder receives an imputation credit that returns approximately 40% of the original tax (not a full refund). If this partial refund is below a specified threshold, the tax is not entirely "disqualified" — rather, only the refundable portion is excluded from Covered Tax, while the remaining portion (which genuinely stays at the corporate level) remains Covered Tax. It is important to understand the distinction between the entire tax being disqualified and a partial adjustment.
+
+**Example 4 — An insurance company's mixed tax expense.** A life insurance company's financial accounts may combine two components within a single "income tax expense" line — one part being tax on the company's own shareholder-fund income, and the other being tax on policyholders' investment returns, which the company merely collects and pays on behalf of policyholders. Treating the entire line item as Covered Tax here would be a mistake — the accounts must be split so that only the portion of tax relating to shareholder-fund income is treated as Covered Tax, while the policyholder portion is excluded under Article 4.2.2(e).
+
+**Example 5 — Structuring DST as a creditable advance against CIT.** Some jurisdictions have restructured DST so that DST paid can be adjusted as a credit against future corporate income tax (as an advance tax). In such a structure, DST effectively becomes a "prepayment" mechanism within the ordinary CIT system, and if it is in fact fully adjustable over time against the CIT liability, the analysis may differ — although determining whether it is a Covered Tax in the very year of initial payment is difficult, and each case requires a detailed examination of the tax structure.
+
+**Example 6 — Property tax that is in reality a disguised income tax.** In some older tax systems, a tax known as "property tax" is in fact computed on the basis of the property's deemed rental income, not its market value. Looking past the name and examining the actual computational base here may reveal that this is in fact an income-based tax, and may therefore be treated as Covered Tax — even though it is named "property tax."
+
+A common lesson emerges from these six examples — Covered Tax analysis should never rely on a tax's name or local label; the decision must be reached by investigating each tax's actual computational base, refund/credit mechanism, and whether it is a substitute for, or an addition to, the ordinary income tax.
+
+## Summary
+
+Under Article 4.2, the central principle for determining **Covered Tax** is that the tax must be connected to income, profit, distributed profit (under an Eligible Distribution Tax System), a substitute for the ordinary income tax, or Retained Earnings/Corporate Equity. Article 4.2.2 specifies five explicit exclusions — accrued Top-up Tax under Qualified IIR, QDMTT, and UTPR (to avoid circularity), Disqualified Refundable Imputation Tax, and tax paid on behalf of insurance policyholders. Value Added Tax, Payroll Tax, and Property Tax are generally excluded because their base is income-neutral. Digital Services Tax is generally excluded because it is levied on gross turnover and is additional to, rather than a substitute for, ordinary CIT. Alternative Minimum Tax is generally treated as Covered Tax if its base remains fundamentally income-based. Withholding Tax is a genuine Covered Tax, but it is counted in the payee entity's accounts, and separate allocation rules apply. Because many real-world taxes have mixed characteristics, a deep examination of the actual computational base and structure — not the tax's name — is required.
+
+## Common Mistakes
+
+A common mistake is deciding based on a tax's local name — for example, assuming that something called "property tax" is not a Covered Tax without examining the actual computational base. Another common mistake is re-adding accrued Top-up Tax under QDMTT or IIR into one's own jurisdiction's Covered Taxes, which creates a circular calculation and abnormally inflates the ETR. It is also a mistake to simplistically treat DST as "a tax like corporate income tax" and therefore a Covered Tax — most DSTs are levied on gross turnover and are additional to, not a substitute for, the ordinary income tax. For insurance companies, a common mistake is treating a mixed tax-expense line item as either wholly Covered Tax or wholly excluded, without splitting it. And for Withholding Tax, a common mistake is counting it as the payer entity's Covered Tax, when under the correct rule it should be added to the payee entity's accounts.
 
 <!-- lang:bn -->
 

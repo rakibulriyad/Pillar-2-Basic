@@ -13,7 +13,171 @@ slug: "ch-33-iir"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 33 — IIR (Income Inclusion Rule)
+
+> **In this chapter:** we discuss the mechanics of the primary and principal collection mechanism of the GloBE rules — the **Income Inclusion Rule (IIR)**: how the parent entity is identified under the **Top-down Approach**, how the **Split-ownership Rule** gives priority to a **Partially-Owned Parent Entity (POPE)**, how the **Allocable Share** is determined, and how the **IIR Offset Mechanism** prevents double taxation.
+> **Related Articles:** 2.1–2.3
+
+## 33.1 The Principle of the IIR: The Parent Pays the Shortfall Tax on Its Share
+
+Under Article 2.1 of the GloBE Model Rules, the **Income Inclusion Rule (IIR)** is Pillar Two's primary and priority collection mechanism. Its core idea is very simple: if any Constituent Entity within a multinational group (MNE Group) operates in a low-tax jurisdiction (ETR below 15%) and a shortfall arises for which Top-up Tax can be claimed against that entity, then the superior parent entity of that Low-Taxed Constituent Entity (LTCE) — generally the Ultimate Parent Entity (UPE) — will include a portion of that shortfall tax in its own tax return and pay it.
+
+The important word here is "portion" (share). The IIR does not oblige the parent entity to pay the entire Top-up Tax; rather, it is responsible for paying only the portion due to it in proportion to its ownership. The formula for determining this proportional liability is called the **Allocable Share** — discussed in detail in Section 33.4.
+
+The logical basis of the IIR is ownership-based liability: whoever is the economic owner benefiting from the profit should also bear the liability for the tax shortfall. For this reason, the IIR is called a "top-down" tax — the flow of tax liability moves from the bottom upward, exactly as the flow of profit and dividends moves upward. Despite this conceptual simplicity, complications arise in practical application when there are multiple levels of parent entity within a group, or when ownership is partial. It is to resolve exactly this kind of complication that Article 2.1 sets out the Top-down Approach and the Split-ownership Rule.
+
+## 33.2 The Top-down Approach — Who Applies It First
+
+The ownership structure of an MNE Group is generally multi-tiered — below the UPE there may be an Intermediate Parent Entity (IPE), below that further sub-holding companies, and at the very bottom the operating entity or the LTCE. The question arises: within this entire chain, which level of parent entity will apply the IIR?
+
+Under the **Top-down Approach** established in Article 2.1, the rule is: the parent entity that is located at the highest level of the ownership chain and is located in a jurisdiction applying a Qualified IIR will be primarily liable. In practice, this means that if the UPE itself is located in a country where a GloBE-consistent IIR law is in force, the UPE will directly apply the IIR to the group's entire low-taxed profit — no intermediate IPE needs to separately apply an IIR.
+
+The advantage of the Top-down Approach is administrative simplification: a single entity (generally the UPE) computes for the entire group, which avoids duplicative IIR calculation at multiple levels on the same low-taxed profit. What happens if the UPE's jurisdiction has no Qualified IIR is discussed in Section 33.6. But there is an important exception to this "highest level first" rule of the Top-down Approach — when a Partially-Owned Parent Entity (POPE) is present in the ownership chain. That exception is the core subject of the Split-ownership Rule.
+
+## 33.3 The Split-ownership Rule — POPE's Priority
+
+The **Split-ownership Rule** established in Article 2.1.5 is an important modification to the Top-down Approach. This rule applies when there is a parent entity in the ownership chain called a **Partially-Owned Parent Entity (POPE)**.
+
+An entity is treated as a POPE when: (a) it is not the UPE, (b) one or more Group Entities hold an ownership share in it, (c) more than 20% of its ownership is held by persons or entities outside the group (such as minority investors, private equity partners, or public shareholders), and (d) it directly or indirectly holds an ownership interest in some Low-Taxed Constituent Entity.
+
+This 20% threshold is critically important. If the outside ownership share is below 20% (for example 10%), that entity will not be treated as a POPE and the Split-ownership Rule will not apply — the ordinary Top-down Approach will continue to govern. But if the outside ownership exceeds 20% (for example 25%), the Split-ownership Rule becomes active.
+
+The core effect of the Split-ownership Rule is: the POPE must apply the IIR at its own level, even if above it the UPE or another IPE is located in a country applying a Qualified IIR. In other words, the Top-down Approach's "highest level first" rule stops at the POPE — the POPE itself becomes the first entity liable for its own share.
+
+The logic of this rule is straightforward: if the outside (non-group) owners of the POPE hold more than 20% of the interest, it makes sense to determine the tax liability at that level in order to protect the interests of those outside owners, so that the calculation for the entire group's tax does not get pulled up to the parent above but remains confined to the POPE's own tax liability. This is a fairness-preserving arrangement for outside minority shareholders.
+
+## 33.4 The Formula for Determining the Allocable Share
+
+Under Article 2.2, a parent entity's **Allocable Share** is determined in two steps. First, the LTCE's total Top-up Tax is computed (which depends on the GloBE Income, and is the result of the ETR and Substance-based Income Exclusion computations discussed in earlier chapters). In the second step, the portion of this Top-up Tax due to any given parent entity is determined using the **Inclusion Ratio**.
+
+The formula is:
+
+**Allocable Share = LTCE's Top-up Tax × the parent entity's Inclusion Ratio**
+
+And the formula for determining the Inclusion Ratio:
+
+**Inclusion Ratio = [LTCE's GloBE Income − (the share of income belonging to other owners)] ÷ LTCE's GloBE Income**
+
+Here "the share of income belonging to other owners" means the portion of income associated with ownership held by owners outside the group (non-group). In practical terms, if a parent entity directly or indirectly holds 80% of the LTCE and the remaining 20% is held by an investor outside the group, then that parent entity's Inclusion Ratio would be 80% — because the remaining 20% of income is excluded from the calculation as belonging to the outside owner.
+
+Note that, although "ownership percentage" and "Inclusion Ratio" generally appear similar in this formula, they are two distinct concepts when there are multiple levels in the ownership chain, or when multiple group entities hold direct or indirect ownership in the same LTCE. In a multi-tiered structure, a parent entity's indirect ownership percentage must be determined by successively multiplying the ownership percentage at each level of the chain (as shown in the numerical example in Section 33.9). This multiplied ratio reflects that parent's "effective economic ownership" in the LTCE, and it is on this basis that the Inclusion Ratio and Allocable Share are determined.
+
+## 33.5 IIR Offset Mechanism — Netting Out What a Lower-Level Parent Has Already Paid
+
+When there are multiple levels of parent entity within an ownership chain and more than one entity becomes eligible to apply the IIR for the same LTCE (for example, when a POPE itself applies the IIR because of the Split-ownership Rule, but the IPE or UPE above it also holds an indirect ownership interest in the same LTCE), the **IIR Offset Mechanism** is established under Article 2.3 to avoid double taxation.
+
+The core rule of this mechanism is: a higher-level parent entity (such as the UPE or IPE) will subtract, from its own computed Gross Allocable Share, the portion that a lower-level parent entity (such as the POPE) has already included under its own IIR and that is associated with the higher-level parent's ownership.
+
+Expressed as a formula:
+
+**Offset amount = the lower-level parent's Allocable Share × the higher-level parent's ownership percentage (in the lower-level parent)**
+
+**Net Allocable Share (higher-level parent) = Gross Allocable Share − Offset amount**
+
+Without this mechanism, tax would be collected twice (once at the POPE's level and again at the level of the IPE/UPE above it) on the same low-taxed profit — which would be contrary to the inherent purpose of the GloBE rules, because the goal of Pillar Two is to raise the effective tax rate on every low-taxed dollar to a minimum of 15% at least once (and only once), not twice.
+
+In practice, the outcome of the Offset Mechanism is often such that, if the lower-level parent (POPE) has already included its full due share (per the Inclusion Ratio), the net liability of the parent above it can fall to zero — particularly when the upper parent's actual economic ownership is transmitted entirely through the POPE. This outcome is clearly demonstrated in the numerical example in Section 33.9.
+
+## 33.6 What Happens If the UPE's Country Does Not Apply the IIR
+
+The Top-down Approach assumes that a Qualified IIR is in force in the UPE's jurisdiction. But in practice many UPEs are located in countries where a GloBE-consistent IIR law has not yet been enacted, or the UPE itself falls within an exclusion (such as a government entity, pension fund, or other Excluded Entity).
+
+In this situation, the rule established in Article 2.1.3 is: the Intermediate Parent Entity (IPE) located immediately below the UPE in the ownership chain and located in a country applying a Qualified IIR must take on that responsibility. In other words, the obligation to apply the IIR shifts downward along the chain, until it reaches a level where a Qualified IIR is in force.
+
+If no parent entity applying a Qualified IIR can be found at any level of the ownership chain (for example, the UPE is in a non-implementing country, and no IPE is in a Qualified IIR jurisdiction either), then no tax will be collected through the IIR on that low-taxed profit. To fill this gap, the GloBE framework includes a backstop mechanism, which is not the subject of this chapter but is discussed in detail in the next chapter. What is important here is to understand that the IIR is a "conditional" first-level mechanism — it takes effect only when there is at least one Qualified IIR jurisdiction somewhere in the chain.
+
+## 33.7 The IIR in Joint Venture and Minority-Owned Structures
+
+Application of the IIR in a Joint Venture (JV) structure is a special consideration. Where two or more separate MNE Groups jointly (generally in a 50:50 or similar proportion) hold ownership of an entity, the GloBE rules treat that JV entity and its subordinate sub-entities as a separate "notional" GloBE group, even though they are not fully included in the consolidated accounts of any single group. Each JV Parent then applies the IIR to that JV's low-taxed profit in proportion to its own ownership, exactly as it would for an ordinary Constituent Entity.
+
+The important point here is that the core principle for computing the JV Allocable Share is the same as for computing an ordinary Allocable Share — the concept of ownership proportion and the Inclusion Ratio remain applicable, only the basis for the Top-up Tax computation (the JV's own separate ETR computation) is determined differently.
+
+For minority-owned structures — where a minority ownership interest in an entity is held by parties outside the group but does not exceed the 20% POPE threshold — the ordinary Top-down Approach and Allocable Share formula apply, but that minority portion is automatically excluded in the Inclusion Ratio calculation (per the formula described in Section 33.4). This excluded portion is in fact a common source of the "leakage" discussed in Section 33.8.
+
+## 33.8 Leakage — Why 100% Is Not Collected
+
+An important and often unacknowledged reality of the GloBE rules is that the IIR never guarantees 100% collection of any LTCE's total Top-up Tax. This partial shortfall is referred to in practice as **leakage**, and it is not a design flaw of the IIR — rather, it is a recognized and inevitable feature of an ownership-based allocation system.
+
+Leakage arises primarily from three sources.
+
+First, when a portion of an LTCE's ownership is held by a party outside the group (non-group). Under the Inclusion Ratio formula, the portion of income associated with that outside ownership is excluded from any parent entity's Allocable Share calculation — and because the outside owner is not subject to any IIR, that portion is never collected as Top-up Tax through the IIR.
+
+Second, when no jurisdiction applying a Qualified IIR is found at any level of the ownership chain (the situation discussed in Section 33.6). In this case, the entire Top-up Tax remains uncollected through the IIR.
+
+Third, administrative or informational limitations — such as a jurisdiction being unable to verify the correct Allocable Share based on the GloBE Information Return, or treaty-based obstacles — although these are relatively less significant sources.
+
+To fully eliminate this leakage, a complementary backstop mechanism is built into the GloBE framework, which is beyond the scope of this chapter. But the important point for practitioners to clearly understand is that the IIR alone is a "partial collection" mechanism — the actual amount collected for any given structure depends on the pattern of ownership, the presence of outside ownership, and the state of IIR implementation across jurisdictions.
+
+## 33.9 Numerical Example — A Multi-Tiered Structure
+
+The example below assumes a four-tiered ownership structure, in which the Split-ownership Rule, the Allocable Share calculation, the Offset Mechanism, and leakage are all demonstrated together.
+
+**Structure:**
+
+- **UPE** (country A, Qualified IIR applies) — holds 90% ownership of IPE1; the remaining 10% is held by public shareholders (outside ownership below 20%, so IPE1 is not a POPE)
+- **IPE1** (country B, Qualified IIR applies) — holds 75% ownership of POPE; the remaining 25% is held by a private equity investor (outside ownership above 20%, so this entity is a POPE)
+- **POPE** (country C, Qualified IIR applies) — holds 90% ownership of the LTCE; the remaining 10% is held by an investor outside the group (non-group)
+- **LTCE** (country D, ETR 5%) — the low-taxed constituent entity
+
+**Step 1 — Computing the LTCE's Top-up Tax**
+
+| Item | Amount (local currency) |
+|---|---|
+| GloBE Income | 10,000,000 |
+| Substance-based Income Exclusion (SBIE) | (2,000,000) |
+| Excess Profit | 8,000,000 |
+| Actual ETR | 5% |
+| Minimum tax rate | 15% |
+| Top-up Tax Percentage (15% − 5%) | 10% |
+| **Top-up Tax** | **800,000** |
+
+**Step 2 — Each Parent Entity's Indirect Ownership in the LTCE**
+
+Indirect ownership is determined by successively multiplying the ownership percentage at each level of the ownership chain:
+
+- POPE's ownership in the LTCE = 90% (direct)
+- IPE1's indirect ownership in the LTCE = 75% (in POPE) × 90% (in the LTCE) = 67.5%
+- UPE's indirect ownership in the LTCE = 90% (in IPE1) × 67.5% = 60.75%
+- Non-group ownership (direct, in the LTCE) = 10%
+
+**Step 3 — Applying the Split-ownership Rule**
+
+POPE is a Partially-Owned Parent Entity (because its 25% outside ownership exceeds the 20% threshold) and it directly holds ownership in the LTCE. As a result, under the Split-ownership Rule, the Top-down Approach's ordinary rule (that the UPE applies first) is suspended — the POPE itself must apply the IIR first at its own level.
+
+**Step 4 — Computing the Allocable Share and Offset**
+
+| Entity | Country | Ownership in LTCE | Inclusion Ratio | Gross Allocable Share | Offset (subtracted from lower level) | Net IIR liability |
+|---|---|---|---|---|---|---|
+| POPE | C | 90% | 90% | 800,000 × 90% = 720,000 | — (first level, no offset) | **720,000** |
+| IPE1 | B | 67.5% | 67.5% | 800,000 × 67.5% = 540,000 | POPE's Allocable Share (720,000) × IPE1's ownership in POPE (75%) = 540,000 | **0** |
+| UPE | A | 60.75% | 60.75% | 800,000 × 60.75% = 486,000 | IPE1's Gross Allocable Share (540,000) × UPE's ownership in IPE1 (90%) = 486,000 | **0** |
+| Non-group owner | — | 10% | Not applicable | Not applicable | Not applicable | **0 (IIR not applicable)** |
+
+**Step 5 — Final Outcome and Leakage Calculation**
+
+Total Top-up Tax collected through the IIR = 720,000 (only at the POPE level; the net liability of IPE1 and the UPE has fallen to zero because of the Offset Mechanism, since the POPE has already fully covered their due share).
+
+The LTCE's total Top-up Tax = 800,000. Leakage = 800,000 − 720,000 = **80,000**, which is associated with the 10% non-group ownership and is never collected through the IIR — because that owner is not subject to any IIR and no Group Entity is the economic owner of that portion.
+
+This example simultaneously demonstrates three core principles: (1) how the Split-ownership Rule makes the POPE the first entity liable outside of the top-down sequence; (2) how the Offset Mechanism protects upper-level parents from double liability; and (3) how the presence of non-group ownership creates a persistent, design-accepted leakage.
+
+## Summary
+
+The Income Inclusion Rule (IIR) is the primary collection mechanism of the GloBE framework, established under Article 2.1–2.3 on the basis of ownership logic — whichever parent entity is the economic beneficiary of the profit will pay the shortfall tax on its share. The Top-down Approach gives priority to the highest Qualified IIR jurisdiction in the ownership chain, but the Split-ownership Rule creates an important exception: when a Partially-Owned Parent Entity (POPE) with more than 20% outside ownership is present in the ownership chain, that POPE must be liable first. The Allocable Share is determined by multiplying the Top-up Tax by the Inclusion Ratio, and the IIR Offset Mechanism ensures that double taxation does not occur at multiple levels on the same low-taxed profit. If the UPE's jurisdiction does not apply the IIR, the responsibility shifts sequentially downward until a Qualified IIR jurisdiction is found. The same core principles apply in Joint Venture and minority-owned structures, though on a separate computational basis. The most important reality is that the IIR never guarantees 100% collection — leakage caused by non-group ownership, the absence of a Qualified IIR, or administrative limitations is a recognized, design feature, not a flaw.
+
+## Common Mistakes
+
+**Mistake 1: Assuming the UPE always applies the IIR.** In reality, if a POPE is present, the Split-ownership Rule can suspend or limit the UPE's responsibility, and if the UPE's jurisdiction has no Qualified IIR, the responsibility shifts down to an IPE.
+
+**Mistake 2: Treating the ownership percentage and the Inclusion Ratio as the same thing in the Allocable Share calculation.** In a multi-tiered structure, the presence of non-group ownership or multiple group entities can make these two different — the actual indirect ownership at each level must be carefully determined by multiplication.
+
+**Mistake 3: Paying each parent entity's Gross Allocable Share separately while ignoring the Offset Mechanism.** This leads to unintended double taxation; what a lower-level parent has already included must be subtracted from the calculation at the level above.
+
+**Mistake 4: Miscalculating the 20% POPE threshold.** This threshold is determined by the percentage of outside (non-group) ownership, not by the number of ownership tiers or the size of any single transaction — and it must be verified separately for every potential POPE.
+
+**Mistake 5: Treating leakage as a correctable error and making an incorrect adjustment to "fix" it.** The uncollected portion caused by non-group ownership is a structural and recognized outcome of the IIR — it does not need to be forcibly corrected in the IIR calculation; rather, it should be understood that this remaining portion may fall within the scope of another backstop mechanism.
+
+**Mistake 6: Including a JV structure in the calculation as if it were an ordinary Constituent Entity.** A Joint Venture must be computed as a separate notional group, and the basis for its Top-up Tax calculation is separate from the main group's blended ETR calculation.
 
 <!-- lang:bn -->
 

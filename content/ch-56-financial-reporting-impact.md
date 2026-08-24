@@ -12,7 +12,132 @@ slug: "ch-56-financial-reporting-impact"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 56 — Impact on Financial Reporting
+
+> **In this chapter:** we discuss how Pillar Two's top-up tax is reflected in a company's financial statements — whether this tax is treated as current tax or deferred tax, why IAS 12 needed a mandatory exception added to it, what must be disclosed before and after enactment, how US GAAP-based entities are handling this under ASC 740, the complications of accounting for it in interim reporting, how this tax is presented in the effective tax rate reconciliation, and what kind of evidence auditors expect from management.
+
+## 56.1 Is Pillar Two's Tax Current or Deferred?
+
+The conventional framework of corporate tax accounting maintains two types of tax accounting — **current tax** (the tax payable on the current year's taxable profit) and **deferred tax** (tax payable or recoverable in the future because of a temporary difference between the accounting and tax base). Which category Pillar Two's top-up tax falls into became the subject of intense debate in the accounting world almost immediately after the GloBE Model Rules were published.
+
+The problem here is that top-up tax is not levied based on the tax base of any single specific legal entity. It is determined by aggregating the **GloBE Income** and **Covered Taxes** of all constituent entities in a jurisdiction, determining the effective tax rate through jurisdictional blending, and, if that ETR is below 15%, allocating top-up tax in proportion to the shortfall. As a result, this tax is not directly tied to a simple asset or liability on any single entity's balance sheet — it is the result of a jurisdiction-level mathematical formula involving many entities and many temporary differences.
+
+For this reason, if the conventional accounting rules were followed, entities would have to identify every temporary difference for every entity in every jurisdiction, compare it against the GloBE base, and compute a hypothetical deferred tax, in order to reflect what impact the reversal of that temporary difference in the future would have on top-up tax. This task was practically near-impossible — particularly for multinational groups with hundreds of entities and thousands of temporary differences. A further complication was that GloBE's own deferred tax calculation rules (recast deferred tax expense, the 15% rate cap, the five-year carry-forward) differ from the ordinary IAS 12 rules — meaning two parallel deferred tax systems would have to be run.
+
+Because of this practical problem, the international accounting standard setters — the **International Accounting Standards Board (IASB)** and the United States' **Financial Accounting Standards Board (FASB)** — arrived at an exceptional solution: keep the Pillar Two top-up tax outside the general framework of deferred tax accounting, and treat it essentially as **current tax** — that is, recognize it as an expense in the year in which the top-up tax arises — exactly as a simple corporate current tax liability is recognized. As a result, there is no need to create any deferred tax asset or liability for the top-up tax.
+
+However, one important distinction should be kept in mind here — this decision is an exception applicable only to the deferred tax attributable to top-up tax under Pillar Two; it does not mean that deferred tax accounting has been discontinued for an entity's ordinary corporate income tax (domestic corporate income tax). An entity will continue to maintain deferred tax for its conventional domestic tax while simultaneously, where applicable, recognizing only current tax expense for Pillar Two top-up tax.
+
+## 56.2 The IAS 12 Amendment — A Mandatory Exception to Deferred Tax
+
+In May 2023, the IASB formally amended **IAS 12 — Income Taxes**, publishing an amendment titled *"International Tax Reform — Pillar Two Model Rules."* The substance of this amendment is divided into two parts.
+
+First, it introduces a **mandatory temporary exception**, under which an entity is not required to recognize deferred tax assets or liabilities arising from Pillar Two legislation, and is also not required to disclose related information. This exception is not an optional accounting policy choice — it must be applied mandatorily by all entities, so that comparability across different entities is maintained and no entity applies a different approach to the same issue. Importantly, this exception took immediate effect — that is, entities did not have to wait for the usual effective date; it became applicable as soon as the amendment was published in May 2023, because the IASB understood that entities were already preparing their 2023 financial statements and Pillar Two legislation was set to take effect in many countries starting in 2024.
+
+Second, the amendment adds new **disclosure requirements**, which oblige entities to inform users about their potential exposure to Pillar Two legislation. These disclosure rules depend on whether Pillar Two legislation has been enacted in any jurisdiction in which the entity operates.
+
+A subtle but important distinction needs to be understood here — **enactment** and **effectiveness** are not the same thing. Many countries passed Pillar Two legislation through their parliaments in 2023 that would take effect starting in 2024. For the purposes of IAS 12, "enacted or substantively enacted" legislation is the trigger for disclosure — not the actual effective date. As a result, an entity's 2023 annual report may need to mention countries where legislation has been passed but the tax has not yet become applicable.
+
+## 56.3 Disclosure Obligations — Before and After Enactment
+
+The IAS 12 amendment establishes two specific time frames for disclosure — jurisdictions where legislation has **not been enacted** (not enacted but enactment is likely) and jurisdictions where legislation has been **enacted or has become effective**. Different levels of information disclosure are required in each case.
+
+Before enactment, an entity must disclose qualitative and, where possible, quantitative information that gives users an understanding of the entity's Pillar Two exposure — such as which jurisdictions may have an ETR below 15%, or a statement that such information cannot yet be adequately determined. After enactment (or after becoming effective), an entity must separately disclose the current tax expense related to Pillar Two for the current year, so that it can be distinguished from ordinary corporate tax expense.
+
+The table below briefly summarizes the key differences in disclosure before and after enactment.
+
+| Item | Before enactment (pre-enactment) | After enactment / after becoming effective |
+|---|---|---|
+| Deferred tax recognition | Not applicable (legislation not yet passed) | Mandatory exception applies — no deferred tax is recognized |
+| Qualitative information | General description of the potential impact of Pillar Two legislation, indication of which jurisdictions are at risk | Explanation of how top-up tax arose during the current year |
+| Quantitative information | An estimate or range of potential exposure if possible; if unknown, this should be clearly stated | The Pillar Two-related portion within current tax expense for the current year, quoted separately |
+| Location of disclosure | Generally a separate paragraph or section in the notes | Linked with the ETR reconciliation note and the current tax expense breakdown |
+| Explanation for absence of information | The reason must be explained if information cannot be adequately determined | Not applicable — the actual amount for the current year is known |
+
+One practical effect of this dual framework is that, for many multinational groups, the 2023 annual report and the 2024 annual report were written in entirely different tones. Many 2023 reports used cautionary language ("we are still determining the final exposure"), whereas 2024 and later reports had to disclose specific figures.
+
+A practical challenge in preparing this disclosure is that, for many groups, the final GloBE Income and Covered Taxes calculations for all jurisdictions are not complete at the time the annual report is being prepared (right after the financial year-end), because some input data (such as certain countries' final tax returns) is finalized later. For this reason, many entities use the phrase "preliminary estimate" in their disclosures and revise it in subsequent reports as needed.
+
+## 56.4 The Approach Under ASC 740
+
+Under the United States' **US GAAP** framework, the core standard for corporate income tax accounting is **ASC 740 — Income Taxes**. Unlike the IASB, which directly amended IAS 12 through a formal amendment, the FASB did not take that path. Instead, the FASB issued interpretive guidance (staff guidance/Q&A) through its staff, clarifying that top-up tax arising under Pillar Two would be treated as an "income tax" as defined under ASC 740 — that is, it is not a separate levy or fee falling outside the scope of ASC 740.
+
+The FASB further clarified that, in accounting for top-up tax, entities should essentially treat it as a period cost similar to an **alternative minimum tax** — that is, it is recognized as current tax expense in the year in which it arises, and no separate deferred tax asset or liability is created for it. This outcome is effectively consistent with the IAS 12 amendment — although reached through a different procedural path (a formal standard amendment in the case of the IASB, staff interpretive guidance in the case of the FASB).
+
+An important practical implication of this difference is that, since there is no formal FASB standard amendment, US GAAP-based entities must establish the rationale for their decision in more detail in their own accounting policy memos, often in consultation with external auditors and tax advisors. Since there is no codified exception, management must argue, in light of ASC 740's general principles, why top-up tax falls outside the ordinary approach to deferred tax accounting.
+
+Another important matter is the interaction between Pillar Two top-up tax and the United States' own **corporate alternative minimum tax (CAMT)**. For US-headquartered multinational groups, CAMT and potential Pillar Two exposure must be considered together, because both regimes are built on the concept of a minimum tax, but their calculation bases differ. As a result of this dual system, the tax provision process for US-headquartered multinational groups has become significantly more complex, as exposure under two different minimum-tax regimes must be monitored simultaneously.
+
+Despite this procedural difference between IFRS and US GAAP, the final outcome — that is, treating top-up tax as current tax and avoiding deferred tax accounting — is essentially the same. As a result, comparability between financial statements prepared under the two frameworks is broadly maintained, although differences appear in the detail and language of disclosure.
+
+## 56.5 Accounting in Interim Reporting
+
+When preparing quarterly or semi-annual financial statements, an **estimated annual effective tax rate** approach is generally applied — that is, the full year's expected ETR is estimated and applied to each quarter's pre-tax profit. This approach is described in IAS 34 for IFRS and in ASC 270 and ASC 740-25 for US GAAP.
+
+But Pillar Two top-up tax does not easily fit this kind of simple estimation approach. There are several reasons for this.
+
+First, top-up tax is calculated based on a jurisdiction's annual-level GloBE Income and Covered Taxes, and this calculation involves elements such as carry-forwards, Safe Harbour eligibility, and adjustments that are only finally confirmed at year-end. Building a reliable estimated annual rate mid-quarter is difficult, because even a small change (such as a change in a jurisdiction's projected profit) can have a disproportionately large impact on the amount of top-up tax — particularly when a jurisdiction's ETR is close to the 15% threshold.
+
+Second, in many jurisdictions the applicability of the **Transitional Safe Harbour** depends on country-by-country reporting data, which is compiled once a year and cannot easily be recalculated on a quarterly basis.
+
+For these practical reasons, many entities do not include Pillar Two top-up tax in the general estimated annual ETR calculation, but instead identify it as a **discrete item** and recognize it in the quarter in which it can be reliably determined. The discrete item approach is already an established technique recognized under IAS 34 and ASC 740 for unusual or irregular tax items — for example, a specific event-driven tax adjustment (such as a particular legal judgment or settlement) is generally recognized in the quarter in which it occurs, rather than being spread evenly across the remaining quarters of the year.
+
+A practical consequence of this discussion is that entities whose tax department and financial reporting department do not coordinate closely may see unusual fluctuations in Pillar Two-related ETR in their quarterly reports, which need to be explained to investors and analysts. For this reason, many groups are adding a separate "Pillar Two impact" line to their quarterly earnings calls or press releases, so that analysts are not confused with the core operating ETR.
+
+## 56.6 Presentation in the Effective Tax Rate Reconciliation
+
+The **effective tax rate reconciliation** (where one starts from the statutory rate and reaches the actual effective rate through various adjustments) is one of the most closely watched sections of a financial statement's tax note — because it shows analysts how an entity's actual tax structure works. Both IAS 12 and ASC 740 require disclosure of this kind of reconciliation, though the presentation conventions differ slightly.
+
+After Pillar Two top-up tax began to apply, this tax is generally being added to the reconciliation as a new, separate line item — such as "Pillar Two-related additional tax" or "global minimum tax top-up." It is being shown separately, rather than being mixed into existing line items (such as the effect of foreign rate differentials, permanent differences, or tax credits), because the IAS 12 amendment explicitly states that Pillar Two-related current tax expense must be separately disclosable.
+
+An important reason for this separation is that the way top-up tax is calculated differs from the conventional "foreign rate differential" concept. Conventionally, if a subsidiary was located in a low-tax-rate country, it would be shown in the reconciliation as a normal favourable adjustment. But under Pillar Two, that same low tax rate can now generate an additional top-up tax, which fully or partially offsets that previous favourable effect in the reconciliation. If these two effects were shown mixed together, the true picture would become unclear to the reader — so showing them as a separate line item is important for transparency.
+
+A simplified illustration below helps convey the effect of this change (the figures are illustrative only, symbolic):
+
+| ETR reconciliation line item | Before Pillar Two application (%) | After Pillar Two application (%) |
+|---|---|---|
+| Statutory tax rate | 25.0 | 25.0 |
+| Foreign rate differential (effect of low-tax-rate jurisdictions) | (6.5) | (6.5) |
+| Permanent differences and effect of tax incentives | (1.0) | (1.0) |
+| Pillar Two — global minimum top-up tax | Not applicable | +3.8 |
+| Other adjustments | 0.5 | 0.5 |
+| Reported effective tax rate | 18.0 | 21.8 |
+
+The illustration above shows how the addition of top-up tax can significantly raise the reported effective tax rate, particularly for groups whose business structure relies on low-tax-rate jurisdictions. This kind of change needs to be explained to analysts and investors, because while the benefit of departing from the statutory rate (the favourable foreign rate differential) is not being reduced, an offsetting new item is being added at the same time.
+
+## 56.7 Auditor Expectations and Evidentiary Demands
+
+Because the accounting and disclosure of Pillar Two top-up tax is a new and complex area, external auditors are treating it as a high-risk audit area. Auditing standard setters (such as the **International Auditing and Assurance Standards Board (IAASB)** and the United States' **Public Company Accounting Oversight Board (PCAOB)**) have directed auditors to give clear attention to this issue in their audit procedures.
+
+The auditors' main areas of concern are as follows.
+
+**First, the completeness and reliability of data.** The GloBE calculation requires detailed financial information for every entity in every jurisdiction of the group — including consolidation adjustments, intercompany transactions, and various elective or mandatory adjustments. Auditors want evidence that adequate internal controls exist over the process of collecting and consolidating this information.
+
+**Second, the basis for determining Safe Harbour eligibility.** If an entity claims exemption from top-up tax for a jurisdiction using the Transitional Country-by-Country Reporting Safe Harbour, auditors will want evidence that the applicable conditions of the de minimis test, simplified ETR test, or routine profits test for that jurisdiction have actually been met, and that the underlying country-by-country reporting data was prepared from a reliable (qualified) source.
+
+**Third, the reasonableness of management's estimates and judgment.** Since final data is often not available when the annual report is being prepared, management has to make estimates. Auditors examine the underlying assumptions of this estimate, sensitivity analysis, and a comparison of prior estimates against actual outcomes to see whether the estimation methodology is reliable and consistent.
+
+**Fourth, the adequacy of disclosure.** Auditors verify whether the disclosures mandated under IAS 12 or ASC 740 — particularly the qualitative and quantitative information before and after enactment — are complete and accurate, and whether this disclosure is consistent with actual exposure.
+
+The practical meaning of these expectations is that entities need to build an adequate **documentation trail** for their Pillar Two calculation process — where the data came from, how adjustments were applied, which elections were made and why, and how the final figures were arrived at. Entities that have already built strong controls into their tax provision process are facing fewer obstacles in the audit process, whereas those whose processes remain manual or fragmented are often facing significant delays and additional questions during audits.
+
+Another important point is that auditors are not only verifying numerical accuracy — they are also evaluating an entity's overall Pillar Two governance framework — that is, which department (tax, finance, or legal) has taken ownership of the process, how well information flow is controlled, and how this matter is being reported to senior management and the audit committee. This governance dimension is becoming particularly important because Pillar Two is not a one-time project, but an ongoing, annual compliance obligation that has become a permanent part of the entity's financial reporting cycle.
+
+## Summary
+
+Pillar Two top-up tax has created an entirely new kind of tax for financial reporting, one that does not easily fit the general rules of conventional corporate tax accounting. To resolve this complexity, the IASB amended IAS 12 in 2023, introducing a mandatory temporary exception under which no deferred tax asset or liability is recognized for top-up tax — instead, it is treated as current tax. This amendment simultaneously imposes different levels of disclosure obligations before and after enactment. Under US GAAP, although the FASB has not made a formal standard amendment, it has effectively reached the same final outcome through staff guidance — treating top-up tax as a period cost. In interim reporting, because of top-up tax's jurisdiction-level nature, it is often accounted for as a discrete item, rather than under the conventional estimated annual ETR approach. In the effective tax rate reconciliation, this tax is being presented as a separate line item, which partially offsets the conventional benefit of the foreign rate differential. Finally, auditors are expecting a higher level of evidence and documentation to verify data completeness, the basis for Safe Harbour eligibility, management's estimates, and the adequacy of disclosure, which is compelling entities to strengthen their Pillar Two governance framework.
+
+## Common Mistakes
+
+A common mistake is assuming that conventional deferred tax methodology also applies to Pillar Two top-up tax — that is, attempting to calculate deferred tax on a GloBE basis for every temporary difference. In reality, the IAS 12 amendment and the equivalent US GAAP position clearly prohibit or render unnecessary this kind of deferred tax recognition.
+
+Another common mistake is failing to understand the difference between **enactment** and **effectiveness** when determining disclosure timing — many entities believe that as long as the tax is not actually applicable (effective date), no disclosure is required. But IAS 12 ties the disclosure obligation to legislative enactment, not the effective date.
+
+A third mistake is mixing Pillar Two top-up tax into the existing "foreign rate differential" line item in the effective tax rate reconciliation, which reduces the transparency of the actual tax structure and is inconsistent with IAS 12's requirement for separate disclosure.
+
+A fourth mistake is forcibly incorporating top-up tax into the estimated annual ETR approach in interim reporting when the actual jurisdiction-level data is not yet reliably estimable — this can cause unusual and misleadingly interpretable fluctuations in the quarterly ETR.
+
+The fifth and final common mistake is underestimating audit preparation — many tax departments believe Pillar Two is merely a tax filing obligation, but in reality it is now an integral part of financial reporting and audit, requiring adequate documentation and internal control to be built from an early stage.
 
 <!-- lang:bn -->
 

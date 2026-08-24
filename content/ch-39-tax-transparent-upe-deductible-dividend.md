@@ -13,7 +13,129 @@ slug: "ch-39-tax-transparent-upe-deductible-dividend"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 39 — Tax-Transparent UPEs and Deductible Dividend Regimes
+
+> **In this chapter:** when an MNE Group's **Ultimate Parent Entity (UPE)** is itself a **Flow-Through Entity** (a pass-through entity whose income is not taxed at the entity level but taxed in the hands of its owners) or is subject to a **Deductible Dividend Regime** (a tax regime in which dividends paid are deductible), its income can wrongly appear as "low-taxed" in the GloBE calculation. Article 7.1 and Article 7.2 of the GloBE Model Rules correct this distortion.
+> **Relevant Articles:** 7.1, 7.2
+
+## 39.1 The Problem: When the UPE Itself Is Tax-Exempt or a Flow-Through
+
+GloBE's core architecture assumes that every Constituent Entity pays tax on its income in its own jurisdiction, and the Effective Tax Rate (ETR) is determined from the ratio of that tax to that income. But in reality, many groups' **Ultimate Parent Entities (UPEs)** are themselves entities whose tax structure is not like that of an ordinary corporate entity. Two common situations are particularly important:
+
+First, the UPE may be a **Flow-Through Entity** — such as a partnership, an LLC, or any other entity under whose tax rules no tax is levied at the entity level, and instead income "flows through" directly to the owners, who pay tax in their own respective jurisdictions. Such a UPE's own **Adjusted Covered Taxes** is nearly zero, because the liability to pay tax rests not with the entity but with the owners.
+
+Second, the UPE may be subject to a **Deductible Dividend Regime** — a tax regime under which the entity can deduct dividends paid from its taxable income, so that taxable income and tax paid effectively approach zero, while the actual tax burden shifts to the dividend recipient. **REITs** (Real Estate Investment Trusts) and various countries' cooperative societies are common examples of this structure.
+
+In both cases, without a corrective rule, the ETR calculation for the UPE's jurisdiction would show huge income but near-zero Covered Taxes — as a result, the ETR would fall below the minimum rate (15%) and Top-up Tax would be imposed, even though full tax may actually have been paid on that income at the level of the owner or dividend recipient. To remove this structural inconsistency, Article 7.1 (Flow-Through UPE) and Article 7.2 (UPE subject to a Deductible Dividend Regime) have been added to Chapter 7 of the GloBE Model Rules. These two articles are essentially two applications of the same logic — if proper tax has been paid at the level of the owner or recipient, that portion will be excluded from the UPE's GloBE Income.
+
+## 39.2 Conditions for Reducing the GloBE Income of a Flow-Through UPE
+
+Under Article 7.1, if the UPE is a Flow-Through Entity, its GloBE Income is reduced by the amount attributable to the owner, if specific conditions are met. This reduction is not automatic — it must pass a specific test. There are essentially two alternative routes:
+
+- **Nominal rate test:** if the Owner pays tax on that income at a nominal rate equal to or greater than the minimum rate (15%) in a tax year ending within 12 months of the end of the reported Fiscal Year, then that amount of income is excluded from the UPE's GloBE Income.
+- **Blended test:** if the nominal rate is less than 15%, the reduction may still be permitted if it can reasonably be expected that the sum of the UPE's own Adjusted Covered Taxes and the tax paid by the owner will amount to 15% or more of that income.
+
+In addition, for certain classes of owner — such as a Governmental Entity, an international organisation, a charitable/non-profit organisation, a pension fund, or an Individual owner whose ownership share is small and who cannot claim more than a negligible share of the assets on liquidation or dissolution of the entity — the portion of income attributable to them may be excluded directly under specific conditions, because the tax position of this class of owner does not create a structural tax-planning risk.
+
+The core goal is this: to protect the UPE's GloBE Income from "double non-taxation," while at the same time identifying owners who have not actually paid tax, or not paid it at a sufficient rate — that portion remains in the UPE's GloBE Income and falls within the scope of Top-up Tax.
+
+## 39.3 The Owner's Tax Rate and the 12-Month Condition
+
+An important time limit applies to both tests — the owner's tax must be determined and paid in a tax year ending within 12 months after the end of the Fiscal Year. This time limit is set for a practical reason: filing, assessment, and payment schedules for tax returns vary across jurisdictions, so it is not realistically possible for all owners' tax payments to be completed within the same Fiscal Year. The 12-month buffer allows for handling this kind of timing mismatch, but it does not permit unlimited delay either.
+
+The "nominal rate" is important here — it is not the owner's actual effective rate, but the general (statutory) tax rate set under the applicable law. For example, if a corporate owner is located in a jurisdiction with a 25% nominal rate, but its actual tax paid is lower due to various deductions, credits, or loss adjustments, the 25% rate is still what counts for the nominal rate test — though in practice, administrative guidance may also require verification of proof of actual tax paid.
+
+If the owner is located in a jurisdiction where the nominal rate is below 15% (such as a no-tax or low-tax jurisdiction), the nominal rate test will fail and the blended test must be applied. Under the blended test, the UPE's own Adjusted Covered Taxes (which, for a flow-through entity, is generally small or zero) is added to the owner's tax paid, to see whether it reaches the 15% threshold. This two-tier test structurally ensures that a UPE's GloBE Income cannot be reduced through tax planning by shifting income to a low-tax jurisdiction at the owner level — such a portion will remain at the UPE level and be included in the Top-up Tax calculation.
+
+## 39.4 Deductible Dividend Regimes — Cooperative and REIT-Type Structures
+
+A **Deductible Dividend Regime** is a tax rule under which an entity may deduct dividends paid (or similar distributions) from its own taxable income — much like interest expense. As a result, the entity's taxable income effectively approaches zero if all profit is distributed, and the tax burden shifts to the dividend recipient.
+
+The best-known example of this structure is a **REIT** (Real Estate Investment Trust), where a trust or company earning income from property is required to distribute the bulk of its income to investors, and that distributed portion is deductible at the entity level — the actual tax liability moves to the investor. Similarly, in many countries agricultural or consumer **cooperative societies** may deduct "patronage dividends" paid to their members from the cooperative's taxable income, because in principle a cooperative is treated as a collective vehicle for its members, not as a profit-earning entity in its own right.
+
+These structures are not any form of tax-planning trickery — they are long-established policy choices in many jurisdictions, intended to avoid double taxation of the same income at the entity level and the investor level. But from GloBE's perspective, if the UPE itself is subject to such a Deductible Dividend Regime, its Covered Taxes will appear abnormally low, and even though the actual tax burden has shifted to the dividend recipient, Top-up Tax would be imposed on the UPE's jurisdiction. Article 7.2 corrects this distortion — if the dividend recipient pays tax at an adequate rate, that portion will be excluded from the UPE's GloBE Income.
+
+## 39.5 Reduction of GloBE Income Due to a Deductible Dividend
+
+Under Article 7.2, if the UPE is subject to a Deductible Dividend Regime, the UPE's GloBE Income is reduced (but cannot be reduced below zero) by the amount of the **Deductible Dividend** paid within 12 months after the end of that Fiscal Year — if one of the following two tests, which parallel the tests under Article 7.1, is met:
+
+- if the dividend recipient pays tax on that income at a nominal rate equal to or greater than the minimum rate (15%) in a tax year ending within 12 months of the end of the Fiscal Year; or
+- if the nominal rate is less than 15%, but the sum of the UPE's own Adjusted Covered Taxes and the tax paid by the recipient can reasonably be expected to be 15% or more of the income.
+
+Note that "Deductible Dividend" does not mean only an ordinary dividend — it refers to any distribution that is recognised as deductible in calculating the UPE's taxable income under the applicable tax law. If a distribution looks like a dividend from an accounting perspective but is not deductible under tax law, it does not fall within the scope of Article 7.2.
+
+If the recipient is itself also a Deductible Dividend Regime or a Flow-Through Entity (for example, one cooperative paying a dividend to another cooperative), then the chain is traced through — the tax rate test is applied at the level of the ultimate actual individual or taxable entity. This tracing principle ensures that tax cannot be avoided through multi-tier distribution structures.
+
+## 39.6 Proportionate Reduction of the Related Covered Taxes
+
+Alongside reducing GloBE Income, the related **Adjusted Covered Taxes** must also be adjusted proportionately — otherwise the ETR calculation would be distorted. This is because ETR = Adjusted Covered Taxes ÷ GloBE Income. If the denominator (GloBE Income) is reduced but the numerator (Covered Taxes) remains unchanged, the ETR would artificially increase — which would not reflect the actual tax burden.
+
+For this reason, both Article 7.1 and Article 7.2 direct that, in the same proportion in which GloBE Income is excluded, the UPE's related Covered Taxes must also be excluded from Adjusted Covered Taxes in that same proportion. The general formula:
+
+**Excluded Covered Taxes = UPE's total Covered Taxes × (excluded GloBE Income ÷ total GloBE Income before exclusion)**
+
+For a flow-through UPE, Covered Taxes at the entity level are generally close to zero, so the impact of this adjustment may be limited. But for a Deductible Dividend Regime, some tax may be paid at the entity level on the UPE's remaining (undistributed) income — in that situation this proportionate adjustment becomes important, because whatever portion of income is excluded, the associated tax (if any) must also be excluded, so that the remaining income and the remaining tax remain consistent with each other and the ETR reflects the actual position.
+
+## 39.7 Its Reflection in the SBIE
+
+The **SBIE** (Substance-Based Income Exclusion) is a carve-out determined based on payroll and tangible assets, which is excluded from GloBE Income before the Excess Profit calculation (Excess Profit = GloBE Income − SBIE). The question is: when the UPE's GloBE Income is reduced under Article 7.1 or 7.2, what happens to the SBIE associated with that reduced portion?
+
+The reasonable and consistent approach is to split the SBIE proportionately in the same way. Since the excluded portion of income has already been removed from GloBE Income, there is no need or scope to apply the SBIE separately to that portion — because the reduction under Article 7.1/7.2 has itself already removed that income from the scope of Top-up Tax. What remains is only the proportionate share of SBIE applicable to the UPE's remaining (non-excluded) GloBE Income, which will be used in the actual Excess Profit calculation.
+
+In practical terms, this means that after calculating the total payroll- and tangible-asset-based carve-out for the UPE's jurisdiction, the SBIE must also be excluded in the same proportion as the GloBE Income excluded under Article 7.1/7.2, so that the same payroll- or asset-based benefit is not used twice — once through the reduction and again through the full application of SBIE. This consistency ensures that the Excess Profit and Top-up Tax calculated on the remaining income are computed in the correct proportion in true terms.
+
+## 39.8 Numerical Example
+
+Suppose **Zahur Holdings LLC**, a Flow-Through Entity, is the UPE of an MNE Group and is located in Jurisdiction 'A'. It has two owners:
+
+- **Owner X** (a corporate investor, located in Jurisdiction 'B', nominal tax rate 22%) — owns 70%;
+- **Owner Y** (an individual investor, located in Jurisdiction 'C', nominal tax rate 10%) — owns 30%.
+
+In FY2025, Zahur Holdings' GloBE Income = **$100,000,000**. Being a flow-through entity, its Adjusted Covered Taxes at the entity level = **$0**. Both owners paid tax on their respective shares within 12 months of the end of the Fiscal Year. In Jurisdiction 'A', the total payroll- and tangible-asset-based SBIE for FY2025 = **$5,000,000**.
+
+**Step 1 — Applying the Article 7.1 test:**
+
+| Owner | Ownership share | Allocated income | Nominal rate | Applicable test | Result |
+|---|---|---|---|---|---|
+| Owner X | 70% | $70,000,000 | 22% | Nominal rate test (22% ≥ 15%) | Met — excluded |
+| Owner Y | 30% | $30,000,000 | 10% | Blended test: UPE's ACT ($0) + owner's tax ($3,000,000) = $3,000,000, required was $4,500,000 (15%) | Failed — not excluded |
+
+Owner X's nominal rate of 22% exceeds the minimum rate of 15%, so the nominal rate test is met, and their $70,000,000 of income will be excluded from the UPE's GloBE Income. Owner Y's nominal rate is only 10%, so the blended test must be applied: adding the UPE's Adjusted Covered Taxes ($0) and Owner Y's tax paid ($30,000,000 × 10% = $3,000,000) gives $3,000,000, which is less than the required $4,500,000 ($30,000,000 × 15%). So Owner Y's share will not be excluded — it remains in the UPE's GloBE Income.
+
+**Step 2 — GloBE Income and Covered Taxes after reduction:**
+
+| Item | Before reduction | Amount of reduction | After reduction |
+|---|---|---|---|
+| GloBE Income | $100,000,000 | $70,000,000 (Owner X's share) | $30,000,000 |
+| Adjusted Covered Taxes | $0 | $0 (70% × $0) | $0 |
+
+Since Covered Taxes is already zero, the numerical effect of the proportionate adjustment described in 39.6 does not apply in this example, but the calculation method has still been applied ($0 × 70% = $0).
+
+**Step 3 — Proportionate allocation of the SBIE:**
+
+30% ($30,000,000 ÷ $100,000,000) of the total GloBE Income remains at the UPE level. So the SBIE applicable to this remaining income = $5,000,000 × 30% = **$1,500,000**.
+
+**Step 4 — Excess Profit and Top-up Tax calculation:**
+
+| Calculation step | Amount |
+|---|---|
+| Remaining GloBE Income (Owner Y's share) | $30,000,000 |
+| Applicable SBIE (proportionate) | ($1,500,000) |
+| Excess Profit | $28,500,000 |
+| Adjusted Covered Taxes (remaining) | $0 |
+| Jurisdiction 'A''s ETR | 0% |
+| Top-up Tax Percentage (15% − 0%) | 15% |
+| **Top-up Tax** | **$4,275,000** |
+
+Thus, after applying Article 7.1, of Zahur Holdings' original $100,000,000 GloBE Income, $70,000,000 (Owner X's adequately taxed share) is entirely removed from the GloBE calculation, while only $30,000,000 (Owner Y's inadequately taxed share) remains in Jurisdiction 'A''s ETR calculation — to which the SBIE is applied proportionately, ultimately resulting in $4,275,000 of Top-up Tax being determined. This example would work similarly for a Deductible Dividend Regime, except that "owner's tax" would be replaced by "Deductible Dividend recipient's tax," and the basis for reduction would be the amount of dividend paid, not the share of allocated profit.
+
+## Summary
+
+When the UPE itself is a Flow-Through Entity or is subject to a Deductible Dividend Regime, showing near-zero Covered Taxes at the entity level can create an artificially low ETR in the GloBE calculation, even though the actual tax burden has been borne at the level of the owner or dividend recipient. Article 7.1 corrects this distortion for a Flow-Through UPE — income attributable to the owner is excluded from GloBE Income if it passes either the nominal rate test or the blended test, with the 12-month time limit applying in both cases. Article 7.2 provides a parallel rule for a UPE subject to a Deductible Dividend Regime (such as REIT and cooperative structures), where the reduction is permitted based on the tax position of the dividend recipient. In both cases, consistent with the reduction of GloBE Income, the related Adjusted Covered Taxes and SBIE must also be adjusted proportionately, so that the ETR and Top-up Tax calculations correctly reflect the actual position. The portion that does not pass the test — because the owner or recipient has not paid tax at an adequate rate — remains at the UPE level and falls within the scope of Top-up Tax under the ordinary rule.
+
+## Common Mistakes
+
+One common mistake is assuming that as soon as the UPE is subject to a Flow-Through or Deductible Dividend Regime, its entire GloBE Income will automatically be excluded — in reality, the reduction applies only to the portion that genuinely passes either the nominal rate test or the blended test. A second common mistake is applying the nominal rate test based on the owner's or recipient's actual effective rate (after various deductions and credits), when the test should be based fundamentally on the statutory or nominal rate. A third mistake is ignoring the 12-month time limit or mistakenly treating it as indefinite — if tax payment or assessment occurs outside this limit, the reduction will not apply. A fourth mistake is leaving the related Covered Taxes unadjusted when reducing GloBE Income instead of adjusting them proportionately, which artificially increases the ETR and leads to an incorrect Top-up Tax calculation. A fifth mistake is applying the SBIE in full even to the excluded portion, resulting in the same payroll- or asset-based benefit being enjoyed twice; the correct approach is to limit the SBIE proportionately to the remaining (non-excluded) income as well. Finally, in multi-tier distribution structures (such as one cooperative paying a dividend to another cooperative), it is a mistake to be satisfied merely by examining the intermediate recipient's tax position — tracing must be carried out through to the ultimate taxable owner or individual to verify that tax has actually been paid at an adequate rate.
 
 <!-- lang:bn -->
 

@@ -13,7 +13,97 @@ slug: "ch-50-filing-obligation-notification"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 50 — Filing Obligations, Notification, and Deadlines
+
+> **In this chapter:** how each Constituent Entity's own filing obligation under the GloBE rules is transferred to, or simplified through, a **Designated Filing Entity**, a **Designated Local Entity**, or centralized filing by the UPE; how the relevant Tax Administration must be informed through a Notification; and what deadlines apply in the ordinary case and in the Transition Year.
+> **Related Article:** 8.1
+
+## 50.1 Who Files — Each CE's Primary Obligation
+
+Under the core structure of the GloBE Model Rules, the filing obligation is not entity-based in a general sense — rather, every **Constituent Entity** (CE) — i.e., every entity or Permanent Establishment belonging to the MNE Group — is individually obligated to file a **GloBE Information Return** (GIR) in its own Tax Jurisdiction. Under Article 8.1.1, this obligation is explicitly imposed on each CE personally — meaning that, absent any other arrangement in the rules, fifty CEs in fifty countries of the same MNE Group would each have to file fifty separate GIRs, each repeating the same information for the entire group.
+
+Understanding this fundamental obligation matters, because every subsequent provision — the Designated Filing Entity, the Designated Local Entity, centralized filing by the UPE — is essentially a mechanism for relieving or transferring this personal obligation. If the conditions for relief are not met, the primary obligation remains, and each CE is required to file separately. A group's Compliance team must therefore first verify: in which jurisdictions have the conditions for relief been met, and where must the local CE still file on its own?
+
+The content of the filing includes both group-level computations (Effective Tax Rate calculation, Top-up Tax allocation, application of Safe Harbours, etc.) and jurisdiction-level computations — both are part of the same GIR, although in practice a single entity centrally prepares this entire body of information and distributes it to the relevant jurisdictions.
+
+## 50.2 Designated Filing Entity and Designated Local Entity
+
+Two terms are important here and are frequently a source of confusion.
+
+A **Designated Filing Entity** (DFE) is an entity, other than the UPE, that the MNE Group designates to file the GIR centrally on behalf of the entire group. Typically this may be an Intermediate Parent Entity or an entity located in some other convenient jurisdiction. The DFE files the GIR with the Tax Administration of its own jurisdiction, and where a **Qualifying Competent Authority Agreement** (QCAA) is in force between that jurisdiction and the other relevant jurisdictions, that information is automatically exchanged with those jurisdictions.
+
+A **Designated Local Entity** (DLE) is an entirely different concept — it is confined within the same jurisdiction. Where an MNE Group has more than one CE in the same country, one of them can be designated as the DLE to file the GIR with the local Tax Administration on behalf of all the CEs in that country. Under Article 8.1.2, this arrangement relieves the other CEs in that country from filing the GIR separately, although their own filing obligation remains legally intact — the DLE is merely permitted to file on their behalf.
+
+In short: the DLE is an arrangement internal to the same jurisdiction, while the DFE is an arrangement for centralized filing from a different jurisdiction, made effective through information exchange under a QCAA. A group may use both simultaneously — for example, by designating a DLE in each country, with the information from those DLEs then compiled and filed through a single central DFE.
+
+## 50.3 Centralized Filing by the UPE and Its Conditions
+
+The most practical and generally applicable arrangement is for the **Ultimate Parent Entity** (UPE) itself to file the complete GIR in its own jurisdiction, with that information reaching other jurisdictions through exchange. Article 8.1.3 sets out the conditions for this arrangement. The conditions must all be satisfied together:
+
+First, the UPE's jurisdiction must have a GIR filing obligation, and the UPE must actually file it. Second, there must be a QCAA in force for the relevant Fiscal Year between the UPE's jurisdiction and the jurisdiction of the relevant CE. Third, the CE must notify its own jurisdiction, in a timely manner, that the GIR is being filed by the UPE and from which jurisdiction.
+
+If any one of these three conditions is absent, the relief does not apply — that is, the CE must file the GIR itself, even if this arrangement is in effect in every other jurisdiction of the group. This is, in practice, the area where errors most often occur — because the existence of a QCAA frequently changes over time (new countries are added, some countries are suspended), and the group must re-verify each year in which jurisdictions this relief is still in force.
+
+It should be noted that taking advantage of centralized filing by the UPE does not mean the relationship with the local jurisdiction is entirely severed — the Notification obligation still remains in force, and in many jurisdictions a separate domestic return may also be required to determine and pay the local Top-up Tax (see 50.7).
+
+## 50.4 Qualifying Competent Authority Agreement and Information Exchange
+
+A **Qualifying Competent Authority Agreement** is an agreement between the competent authorities of two or more jurisdictions under which the information contained in the GIR is exchanged automatically and on a regular basis. For this agreement to be effective, certain features must be present — adequate arrangements to protect the confidentiality of the exchanged information, assurance of the proper use of that information, and clear provisions on the timing and method of exchange.
+
+The role of the QCAA is essentially to reduce administrative burden — once a complete and accurate GIR has been filed in one jurisdiction, the remaining jurisdictions need not collect the same information again; they can rely on the information received through exchange. But there is an important caveat here — the existence of a QCAA is not merely a matter of a bilateral relationship between two jurisdictions; if two jurisdictions that are within a multilateral framework have not bilaterally activated the exchange of information between themselves (for instance, due to a lack of Activation or a bilateral notification), the QCAA is not considered to be in force for that particular pair.
+
+This is, therefore, an ongoing matter of monitoring for the Compliance team — it is necessary to verify separately for each Reporting Fiscal Year whether a QCAA is in force for that particular year between the jurisdiction of the UPE or DFE and the jurisdiction of each CE. If a new jurisdiction joins, or a bilateral relationship is suspended, the relief available in a previous year may no longer apply in the following year — this variability is a matter for regular review as part of the group's annual Filing Strategy.
+
+## 50.5 Notification — Who Notifies Whom, and When
+
+**Notification** is a separate filing through which a CE informs the Tax Administration of its own jurisdiction — as to who is actually filing the GIR and from which jurisdiction. Under Article 8.1.4, this notification can be of two kinds: if the CE itself files the GIR, this is notified directly; and if another entity (the UPE, DFE, or DLE) files on its behalf, then the identity of that entity and its jurisdiction must be notified.
+
+The importance of the Notification is frequently underestimated, because it appears to be a smaller and simpler filing compared with the GIR. But in reality, it is the only direct signal to the Tax Administration as to whom it should expect to receive information from — if the Notification is not filed, or is filed with incorrect information, the relevant authority may assume that the CE's GIR filing obligation has not been relieved, and it may face separate penalties or investigation.
+
+Under the Model Rules, the deadline for Notification is kept the same as the deadline for the GIR — that is, the Notification must be filed by the same date by which the GIR must be filed. However, many jurisdictions have imposed, in their domestic law, a requirement to file a preliminary Notification earlier than this — even within a specified period after the start of the relevant Fiscal Year. This domestic variation cannot be overlooked — a group must track the domestic Notification rules of each of its jurisdictions separately.
+
+## 50.6 Deadlines: The Ordinary Period and the Extended Transition Year Period
+
+Article 8.1.1 sets the basic deadline for filing the GIR at 15 months after the last day of the relevant Reporting Fiscal Year. However, for the year in which an MNE Group first comes within the scope of Pillar Two — that is, the Fiscal Year known as the **Transition Year** — this deadline is extended to 18 months. The rationale for granting this extended period is that, in the first year, the group has to build an entirely new reporting structure, data-collection process, and cross-jurisdictional coordination, all of which require additional preparation time.
+
+The Notification deadline also remains consistent with the GIR deadline — so in the Transition Year, the Notification deadline is likewise extended to 18 months, unless a jurisdiction's domestic law provides otherwise.
+
+The table below compares the deadlines for the ordinary case and the Transition Year:
+
+| Item | Ordinary Reporting Fiscal Year | Transition Year |
+|---|---|---|
+| GIR filing deadline | 15 months after the end of the Fiscal Year | 18 months after the end of the Fiscal Year |
+| Notification deadline | Same as the GIR (15 months) | Same as the GIR (18 months) |
+| Applicability | The MNE Group's second and subsequent reporting years | The year the MNE Group first comes within the scope of Pillar Two |
+| Example (FY ending 31 December) | By 31 March of the following year | By 30 June of the following year |
+
+A general caution is needed in calculating this deadline — the definition of the Transition Year is separate for each MNE Group, because it depends on when the group first comes within the scope of Pillar Two, not on any single fixed year. As a result, different CEs of the same group may come within the scope of different jurisdictions at different times, and it must be verified separately for each jurisdiction whether the relevant year is its Transition Year.
+
+Furthermore, in implementing domestic law, many jurisdictions have granted additional administrative concessions on filing deadlines during the initial years of application, which falls outside the basic structure of Article 8.1 as part of domestic administrative guidance — such concessions must be confirmed separately according to a group's specific jurisdictions, and not assumed as a general matter.
+
+## 50.7 The Relationship Between the Local Return and the GIR
+
+The GIR is essentially an informational filing — it contains detailed information about the group's Effective Tax Rate calculation, Top-up Tax allocation, and the elections and Safe Harbours applied, but it is not itself an instruction to pay tax. In practice, many jurisdictions impose a requirement to file a separate domestic return to determine and pay the actual tax liability — such as a return relating to the Qualified Domestic Minimum Top-up Tax, or a return determining actual tax liability under the Income Inclusion Rule and the Undertaxed Profits Rule. These returns are not part of the GIR under Article 8.1, but are separately governed under the domestic tax administrative law of the relevant jurisdiction.
+
+Understanding this dual structure is important, because a group may be relieved of the obligation to file the GIR (for instance, through centralized filing by the UPE or through a QCAA) while still not being relieved of the obligation to file a local return determining tax liability. The information in the GIR is used as the basis for the local return, but the two filings may have different deadlines, formats, and filing authorities.
+
+This relationship can be understood in practical terms as follows: the GIR is a detailed account of "what was calculated and how," reaching various jurisdictions primarily through information exchange; the local return is the formal declaration of "how much tax is payable in this jurisdiction and how it will be paid," filed directly with that jurisdiction's tax administration. If the two are not consistent (for example, if the local return is not updated after an amendment to the GIR), this may lead to questions about inconsistency in the future.
+
+## 50.8 Amended Returns
+
+If an error or omission is later discovered in a filed GIR or Notification, an Amended Return must be filed to correct it. This need for correction may arise for various reasons — such as a subsequent change to the accounting information used in the original calculation, an Election having been applied incorrectly, or a change required in the group-level computation as a result of an audit in another jurisdiction.
+
+An important point in relation to an amended filing is this: if the original GIR was filed centrally by the UPE or DFE and distributed to various jurisdictions through a QCAA, then the amendment must likewise be filed centrally and redistributed — filing inconsistent amendments separately in different jurisdictions may create discrepancies. Conversely, CEs that filed the GIR independently themselves must also file their amendments separately in their own jurisdictions.
+
+The deadline and process for amendment are determined primarily under the domestic administrative law of the relevant jurisdiction — Article 8.1 itself indicates only a general basis for amendment, while the specific deadlines and procedures depend on local implementation. As soon as an error is discovered, therefore, a prompt assessment is needed — how many jurisdictions it affects, which Notifications require changes, and what the amendment deadlines are in each jurisdiction. A delayed or incomplete amendment often creates greater administrative complexity and a greater risk of penalties than the original error.
+
+## Summary
+
+Under Article 8.1, each Constituent Entity is fundamentally obligated to file the GIR in its own jurisdiction, but in practice this obligation is simplified through three main routes — designating a Designated Local Entity within the same jurisdiction, centralized filing by a Designated Filing Entity from a different jurisdiction, and, most commonly, centralized filing by the UPE. The precondition for this simplification to take effect is a Qualifying Competent Authority Agreement in force between the relevant jurisdictions, along with a timely Notification. The ordinary GIR deadline is 15 months after the end of the Fiscal Year, extended to 18 months in the Transition Year. The GIR itself is not an instruction to pay tax — many jurisdictions also require a separate return to determine local tax liability, which is distinct from the GIR filing obligation. And if an error is discovered, an Amended Return must be filed with appropriate coordination to ensure the correction.
+
+## Common Mistakes
+
+A common mistake is to neglect the local CE's Notification filing obligation on the assumption that the UPE or DFE is filing the GIR centrally — even though the Notification is not as large a filing as the GIR, it must still be filed separately and on time, otherwise the local Tax Administration may assume the conditions for relief have not been met. Another frequent mistake is to verify the existence of a QCAA once and then assume it holds permanently, although it can change separately every year and for every jurisdiction pair. Third, it is a misleading assumption to think that the Transition Year's extended 18-month deadline applies to all CEs in the same year — since different CEs may come within scope for the first time at different times, each jurisdiction's own Transition Year must be determined separately. Fourth, treating the filing of the GIR as the conclusion of local tax liability determination is a significant error — in many jurisdictions, the actual tax liability is not formally determined or paid unless a separate domestic return is filed. Finally, when an amendment is needed, filing inconsistent Amended Returns in different jurisdictions without understanding the distinction between centralized and independent filing often creates new discrepancies, which then require more time and resources to resolve than the original mistake.
 
 <!-- lang:bn -->
 

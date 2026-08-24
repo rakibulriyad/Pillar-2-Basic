@@ -13,7 +13,124 @@ slug: "ch-26-topup-tax-percentage-excess-profit"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 26 — Top-up Tax Percentage · Excess Profit · Jurisdictional Top-up Tax
+
+> **In this chapter:** in earlier chapters we calculated the jurisdiction-based ETR; in this chapter we use that ETR to apply the core set of formulas in Article 5.2 — Top-up Tax Percentage, Excess Profit, and finally Jurisdictional Top-up Tax — and we see how this tax is allocated among individual Constituent Entities, including the exceptional situation of zero Net GloBE Income.
+> **Relevant Article:** 5.2
+
+## 26.1 Top-up Tax Percentage = 15% − ETR
+
+The Effective Tax Rate (ETR) discussed in earlier chapters is the ratio obtained by dividing the sum of Adjusted Covered Taxes of all Constituent Entities in a jurisdiction by that jurisdiction's total Net GloBE Income. This ETR is the starting point of the entire calculation process under Article 5.2, because it determines whether a jurisdiction requires the imposition of additional tax — and if so, how much.
+
+**Top-up Tax Percentage** is the difference between the 15 percent minimum rate and the jurisdiction's actual ETR. The formula is:
+
+**Top-up Tax Percentage = 15% − ETR**
+
+If a jurisdiction's ETR is already 15 percent or higher, the Top-up Tax Percentage will be zero or negative — and under the GloBE rules a negative value is treated as zero, because Pillar Two never grants an "excess tax credit"; it only fills the shortfall up to the minimum rate. Conversely, if the ETR is very low — such as 3 percent or 5 percent, which is common in low-tax or no-tax jurisdictions — the Top-up Tax Percentage will be relatively large, 12 percent or 10 percent respectively.
+
+This percentage is not itself a tax amount; it is a rate gap that will be applied, in the next step, to an income base. For this reason it would be a mistake to consider the Top-up Tax Percentage in isolation — it becomes meaningful only once it is combined with Excess Profit, which we look at in the next section. Note that only one Top-up Tax Percentage is calculated per jurisdiction, per fiscal year — not separately for each Constituent Entity in the group — because the ETR itself is already a jurisdiction-level blended figure.
+
+## 26.2 Excess Profit = Net GloBE Income − SBIE
+
+The base to which the Top-up Tax Percentage is applied is called **Excess Profit**. This is the income that remains after subtracting the **Substance-Based Income Exclusion (SBIE)** from a jurisdiction's Net GloBE Income. The formula is:
+
+**Excess Profit = Net GloBE Income − SBIE**
+
+Net GloBE Income is the net result obtained by aggregating the GloBE Income and GloBE Loss of all Constituent Entities within the jurisdiction — that is, the final income figure after applying the Article 3.2 adjustments, the elections in Chapter 3, and cross-entity allocation, all as discussed in earlier chapters.
+
+The SBIE is a policy-based exclusion — the rationale behind it is that the purpose of Pillar Two is to bring only mobile profit under the minimum tax, not ordinary profit arising from genuine economic activity. So if a jurisdiction has real payroll expense and real tangible assets, a specified percentage of that activity is excluded from the Excess Profit calculation — this excluded portion is the SBIE, calculated as the sum of a payroll-based carve-out and an asset-based carve-out (the detailed calculation method for these two carve-outs is discussed in a later chapter; here we are simply using it as an input to the Excess Profit formula).
+
+Two limitations should be kept in mind. First, the SBIE can never make Net GloBE Income negative by creating an extra benefit through subtraction — if the SBIE amount exceeds Net GloBE Income, Excess Profit is treated as zero, not negative. Second, the SBIE is calculated at a transitional (declining) rate, where the carve-out percentages for payroll and assets are relatively higher in the early years and gradually decrease over time according to a set transition schedule — so the same amount of payroll and assets in the same jurisdiction can produce different SBIE amounts in different years.
+
+## 26.3 Jurisdictional Top-up Tax = (Excess Profit × Top-up Tax %) + Additional Current Top-up Tax − QDMTT
+
+We now arrive at the core formula of Article 5.2, which combines the Top-up Tax Percentage and Excess Profit to determine the actual tax amount for a jurisdiction. **Jurisdictional Top-up Tax** is the final additional tax amount that the group must pay for a given jurisdiction. The formula is:
+
+**Jurisdictional Top-up Tax = (Excess Profit × Top-up Tax %) + Additional Current Top-up Tax − QDMTT**
+
+The first component, Excess Profit × Top-up Tax %, is the core calculation — it determines exactly how much of that jurisdiction's income, and at what rate, the "structural shortfall" applies to. The second component, **Additional Current Top-up Tax**, is a supplementary adjustment — it covers situations where, even though the current year's core calculation produces no top-up tax, an adjustment relating to a prior year (such as a recalculation of covered tax under Article 4.1.5, a recapture of a GloBE Loss Election, or a post-filing adjustment under Article 4.6) requires additional tax to be claimed — such an adjustment is added directly to this component, without recalculating Excess Profit or the Top-up Tax Percentage.
+
+The third component, **QDMTT (Qualified Domestic Minimum Top-up Tax)**, is a deduction — if the relevant jurisdiction has itself enacted a qualified domestic minimum tax regime and the group has paid tax in that jurisdiction under that regime, that paid amount is subtracted from the result of the core formula, so that the same income is not taxed twice. The specific conditions for this deduction are discussed in the next section (26.4). Notably, even after adding and subtracting all three components, if the result is negative, Jurisdictional Top-up Tax is treated as zero — this tax can never be negative, because Pillar Two is a one-way minimum tax regime, not a refund system.
+
+## 26.4 The QDMTT Deduction and Its Conditions
+
+The rationale for the QDMTT deduction is simple: if a jurisdiction itself imposes and collects a GloBE-like minimum tax under its own domestic rules, then collecting top-up tax again on the same income through the IIR or UTPR would amount to double taxation. So the formula subtracts the QDMTT directly to avoid this duplication.
+
+However, this deduction is not automatic — several conditions must be met. First, the relevant domestic tax regime must attain "Qualified" status, meaning that its design must be consistently aligned with the outcomes of the GloBE Model Rules, and its qualification must be recognized through the OECD's peer review process. Second, only the amount actually paid or payable — not merely a declared or accrued amount — is acceptable for the deduction; if the QDMTT liability is not paid on time, the deduction benefit for the relevant year may be called into question.
+
+Third, the deducted amount can never exceed the sum of the first two components of the core formula — that is, the QDMTT deduction cannot bring Jurisdictional Top-up Tax below zero, as noted in the previous section. Fourth, if the QDMTT Safe Harbour applies to a jurisdiction (a separate, simplified test that replaces the core Article 5.2 formula), the entire formula can generally be bypassed altogether, and the QDMTT amount itself is treated as final. But in an ordinary situation without a Safe Harbour, the QDMTT deduction always functions as one component of the full formula, not as a replacement for it.
+
+## 26.5 Entity-Level Allocation of the Top-up Tax (Article 5.2.4)
+
+Jurisdictional Top-up Tax is a jurisdiction-level amount, but for the purposes of applying the IIR or UTPR, this tax must be divided among individual Constituent Entities — because the actual tax liability must be imposed on a specific entity, not on an abstract jurisdiction. Under Article 5.2.4, this allocation is made on a pro rata basis according to the income of each Constituent Entity that has positive GloBE Income. The formula is:
+
+**Top-up Tax allocated to a given entity = Jurisdictional Top-up Tax × (that entity's GloBE Income ÷ total GloBE Income of all entities in the jurisdiction with positive GloBE Income)**
+
+An important feature of this formula is that only entities with positive GloBE Income participate in the denominator of this allocation; an entity with a GloBE Loss receives no share in this allocation, because it has no "profit" of its own on which it would be reasonable to impose tax. As a result, if one entity in a jurisdiction is profitable and another is loss-making, the entire Jurisdictional Top-up Tax will be allocated proportionally only among the profitable entity (or entities).
+
+The practical importance of this allocation is seen mainly when applying the IIR, where the UPE or an Intermediate Parent Entity becomes liable for top-up tax on each entity's allocated share according to its ownership proportion. If ownership of multiple entities is split among different parents (such as under a minority ownership or joint-venture structure), this entity-level allocation is the first step, followed by a further layer of ownership-proportion-based allocation — which is beyond the scope of this chapter's discussion, but the entity-based allocation of Article 5.2.4 lays its foundation.
+
+## 26.6 Top-up Tax Existing Despite Zero Net GloBE Income (Article 5.2.5)
+
+Generally, if a jurisdiction's Net GloBE Income is zero or negative, Excess Profit will also be zero (because subtracting the SBIE from a negative Net GloBE Income would produce an even more negative result, which is treated as zero) — so the first component of the core formula (Excess Profit × Top-up Tax %) will be zero. But this does not mean that Jurisdictional Top-up Tax will always be zero, because the Additional Current Top-up Tax component can operate independently.
+
+Article 5.2.5 addresses precisely this situation: if a jurisdiction's Net GloBE Income is zero or negative, but a positive Jurisdictional Top-up Tax is nonetheless claimable for that jurisdiction because of the Additional Current Top-up Tax (for example, a recalculation of a prior year's ETR that increases the top-up tax, or the recapture of a GloBE Loss Deferred Tax Asset), that tax must still be collected — relief cannot be granted merely because there is no positive Net GloBE Income in the current year.
+
+In such a situation, a problem arises at the allocation stage, because the general allocation formula described in Section 26.5 (based on the proportion of positive GloBE Income) cannot be applied — if no entity in the jurisdiction has positive GloBE Income, the denominator of that proportion becomes zero. Article 5.2.5 sets out a different allocation basis for this case: the top-up tax is then allocated among the Constituent Entities on the basis of each entity's contribution to the amount of that adjustment — that is, in proportion to the entity that gave rise to the Additional Current Top-up Tax. In practical terms, this means that even though a jurisdiction is in an overall loss position, if a specific entity's prior-year tax adjustment gives rise to a claimable top-up tax in the current year, that tax will essentially be imposed on that same entity, not on the other entities.
+
+## 26.7 A Complete Numerical Example — From Start to Finish
+
+Suppose a multinational group has two Constituent Entities in Jurisdiction X — **A Co** and **B Co**. We will walk through the complete calculation in sequence, starting with the ETR and ending with the final allocation to each entity.
+
+**Stage 1 — Calculating the ETR of Jurisdiction X:**
+
+| Item | A Co | B Co | Jurisdiction X (Total) |
+|---|---|---|---|
+| GloBE Income | 6,000,000 | 4,000,000 | 10,000,000 |
+| Adjusted Covered Taxes | 300,000 | 300,000 | 600,000 |
+
+ETR of Jurisdiction X = total Adjusted Covered Taxes ÷ total Net GloBE Income = 600,000 ÷ 10,000,000 = 6%.
+
+**Stage 2 — Top-up Tax Percentage:**
+
+Top-up Tax Percentage = 15% − ETR = 15% − 6% = **9%**.
+
+**Stage 3 — SBIE and Excess Profit:**
+
+Suppose that in Jurisdiction X the group's combined payroll-based and asset-based carve-out gives an SBIE = 800,000 currency units. Net GloBE Income (equal to total GloBE Income, since there is no loss) = 10,000,000 currency units.
+
+Excess Profit = Net GloBE Income − SBIE = 10,000,000 − 800,000 = **9,200,000 currency units**.
+
+**Stage 4 — Jurisdictional Top-up Tax:**
+
+Suppose that, due to a prior year's covered-tax recalculation, an Additional Current Top-up Tax of 50,000 currency units is added this year, and Jurisdiction X has a Qualified Domestic Minimum Top-up Tax (QDMTT) regime in effect, under which the group paid QDMTT of 300,000 currency units for that year.
+
+| Component | Amount |
+|---|---|
+| Excess Profit × Top-up Tax % (9,200,000 × 9%) | 828,000 |
+| (+) Additional Current Top-up Tax | 50,000 |
+| (−) QDMTT | (300,000) |
+| **Jurisdictional Top-up Tax** | **578,000** |
+
+**Stage 5 — Entity-Level Allocation (Article 5.2.4):**
+
+Both entities have positive GloBE Income, so the allocation is made in proportion to their GloBE Income. Total positive GloBE Income = 10,000,000 currency units.
+
+| Entity | GloBE Income | Proportion | Allocated Jurisdictional Top-up Tax |
+|---|---|---|---|
+| A Co | 6,000,000 | 60% | 578,000 × 60% = 346,800 |
+| B Co | 4,000,000 | 40% | 578,000 × 40% = 231,200 |
+| **Total** | 10,000,000 | 100% | **578,000** |
+
+This example shows that the entire process is a single continuous chain: the ETR determines the Top-up Tax Percentage; the SBIE determines the Excess Profit; these two together, adjusted by the Additional Current Top-up Tax and the QDMTT, determine the Jurisdictional Top-up Tax; and finally the proportion of GloBE Income divides that tax between A Co and B Co, so that each entity's specific liability is known for the purpose of applying the IIR or UTPR. If B Co had a GloBE Loss instead (i.e., negative GloBE Income), the entire 578,000 currency units would have been allocated solely to A Co, because an entity with negative GloBE Income does not participate in the denominator of this proportional calculation.
+
+## Summary
+
+The three formulas of Article 5.2 together form the core of the GloBE calculation. First, the Top-up Tax Percentage (15% − ETR) determines the extent of the jurisdiction's rate shortfall. Then, Excess Profit (Net GloBE Income − SBIE) determines the income base to which that rate shortfall applies, with the SBIE providing a policy-based exclusion for genuine economic activity. These two components combine, adjusted by adding the Additional Current Top-up Tax and subtracting the QDMTT, to form the Jurisdictional Top-up Tax — which can never fall below zero. The QDMTT deduction is conditional: the domestic regime must be qualified and the tax must actually be paid. This jurisdiction-level tax is then allocated, under Article 5.2.4, among each Constituent Entity with positive income, in proportion to its GloBE Income, and Article 5.2.5 adds an important exception — even where Net GloBE Income is zero or negative, tax arising from the Additional Current Top-up Tax remains collectible, and in that case the allocation is based on the entity that gave rise to the adjustment, not on the proportion of income. The numerical example in Section 26.7 has shown this entire chain in a single flow — from the ETR through to the final entity-level allocation.
+
+## Common Mistakes
+
+A common mistake is, upon obtaining a negative result when calculating the Top-up Tax Percentage, leaving it negative or attempting to offset it against another jurisdiction — each jurisdiction's calculation is separate, and a negative result must always be treated as zero, without any cross-jurisdiction adjustment. Another mistake is, after subtracting the SBIE from Net GloBE Income and obtaining a negative result, keeping it as a negative Excess Profit and attempting to carry it forward into the next year's calculation — Excess Profit can never be negative, and no carry-forward mechanism applies in this context. A third common error is failing to verify the "qualified status" of the QDMTT before applying the deduction, or deducting merely the accrued amount without actual payment — if the deduction is later disallowed, this can require recalculation of the Jurisdictional Top-up Tax. In entity-level allocation, a common mistake is including an entity with a GloBE Loss in the denominator of the proportional allocation, which incorrectly reduces the allocated share of each profitable entity. Finally, automatically assuming that Top-up Tax for an entire jurisdiction is zero whenever Net GloBE Income is zero or negative — ignoring the Article 5.2.5 exception relating to Additional Current Top-up Tax — is a significant and recurring mistake, one that creates the risk that tax genuinely owed is never collected.
 
 <!-- lang:bn -->
 

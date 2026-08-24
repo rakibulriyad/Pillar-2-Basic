@@ -12,7 +12,121 @@ slug: "ch-54-penalty-relief-dispute"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 54 — Penalties, Relief, and Dispute Resolution
+
+> **In this chapter:** penalties for compliance failures under Pillar Two are determined differently in every jurisdiction, but a general policy safeguard called **Transitional Penalty Relief** is available in the initial years if the taxpayer has taken reasonable measures. No GloBE-specific dispute-resolution mechanism has yet been institutionally established, so taxpayers must rely on the older **Mutual Agreement Procedure** framework, which is not adequate for this new kind of multi-country complexity. This chapter discusses the risk of penalties, avenues for correcting errors, the burden of proof during an audit, and managing the risk of conflicting interpretations across multiple countries.
+
+## 54.1 Penalties for Failure to File and Pay — By Jurisdiction
+
+The GloBE Model Rules themselves do not prescribe any penalty regime. Penalties for failure, delay, or incorrect information in filing the **GloBE Information Return (GIR)** are solely a matter of each implementing jurisdiction's own domestic law. This means that if different entities of the same MNE Group are located in multiple countries, they may face entirely different degrees of penalty for a similar error in each country.
+
+In practice, jurisdictions are generally adopting three types of penalty structure:
+
+- **Fixed-amount penalties** — a specified amount is imposed per day or per month for failure to file or delayed filing. In some countries this amount is relatively small, while in others it can be significantly larger, especially for large MNE Groups.
+- **Revenue- or tax-linked penalties** — where the amount of the penalty is determined as a percentage of the Constituent Entity's turnover or the tax evaded. Under this structure, the financial risk for large groups can be much higher.
+- **Dual criminal or administrative regimes** — some jurisdictions maintain, alongside ordinary administrative penalties, separate and much more stringent provisions for willful evasion or fraudulent misrepresentation.
+
+Importantly, these differences are a lasting trend — there is no prospect of these being unified under a single common international standard, because the framework of the Model Rules places administration and enforcement entirely within domestic sovereignty. As a result, an MNE Group's compliance team must map the penalty regime of every operating jurisdiction separately — it is a dangerous assumption to simplify this into a single "global policy."
+
+A further practical complication is that, even though a Filing Constituent Entity files the GIR information once, separate penalties may be imposed for failure to file a local notification or a Local Filing. That is, even if the GIR is filed centrally on time, if a local notification is not filed in a particular country, a separate penalty in that country cannot be avoided.
+
+## 54.2 Transitional Penalty Relief — The Standard of Reasonable Measures
+
+In the initial phase of Pillar Two implementation, the OECD's **Administrative Guidance (AG)** made an important policy recommendation, widely referred to as **Transitional Penalty Relief**. Its core idea is this — the rules are so new and complex that, if a taxpayer makes an error or mistake in the first few reporting years despite genuinely having taken **reasonable measures**, jurisdictions should not impose harsh penalties or revoke specific benefits for that error.
+
+This recommendation is not binding law — it is a policy proposal, and whether and to what extent jurisdictions incorporate it into their own domestic law is entirely a matter for their own discretion. Many countries have already reflected this principle in their domestic law, but the wording, timeframe, and strictness of application vary from country to country.
+
+In assessing "reasonable measures," the factors generally taken into account are:
+
+- Whether the taxpayer applied the rules in good faith and on a reasonable interpretation, or clearly acted negligently.
+- Whether, within the limitations of available information, systems, and processes, the taxpayer made its best effort — such as complexity in data collection, coordination of multiple accounting systems, or ambiguity in interpreting new definitions.
+- Whether the taxpayer attempted to follow the relevant Administrative Guidance and Commentary in a timely manner, even if that guidance was published close to the filing deadline.
+- Whether the error is genuinely a simple computational or procedural mistake, or a deliberate tax-planning position.
+
+This relief generally applies for a specific period — that is, it is not permanent protection. It should be assumed that, as the years pass and clarity about the rules increases, the standard for "reasonable measures" will become progressively stricter. Taxpayers should therefore not view this relief as a "license to make mistakes," but rather as a time-bound safety net, whose benefit should be used now to strengthen internal processes, documentation, and control systems. In jurisdictions where this relief has not been clearly implemented in domestic law, a taxpayer should not simply assume that the relief will automatically apply — it should instead be verified through local advisors.
+
+## 54.3 Avenues for Correcting a Defective Filing
+
+It is not unusual for errors to be identified after a GIR or Local Filing has been submitted, particularly in the initial years when the data-collection process has not yet matured. The correction process is essentially divided into two levels:
+
+First, **voluntary correction** — the taxpayer itself identifies the error and files an amended return through the jurisdiction's prescribed process. Most jurisdictions view this kind of voluntary correction favorably, and the likelihood of penalty waiver or mitigation increases significantly if the correction is completed before the tax authority initiates an audit. This is also directly related to the "reasonable measures" standard discussed in 54.2 — a timely, voluntary correction often serves as evidence of good faith.
+
+Second, **correction of an error identified by the authority** — where the tax authority itself identifies some discrepancy or error and requests or directs the taxpayer to correct it. In this case, the speed of the taxpayer's response and the degree of cooperation often play an important role in determining the subsequent level of penalty.
+
+From a practical standpoint, several matters are important in relation to correction:
+
+- Since a single GIR contains the information of multiple jurisdictions together, if an amended GIR is filed, it must also reach again the jurisdictions with which that information was exchanged (under a Qualifying Competent Authority Agreement) — the timeframe and process for this coordination may vary by jurisdiction.
+- If an amended filing increases the Top-up Tax liability, the possibility of interest being charged on the additional tax paid must also be considered — this is a financial liability separate from a penalty.
+- If the same error has been repeated across multiple fiscal years, a separate amendment may be needed for each affected year, and, for each year, the jurisdiction's statute of limitations must be checked to see whether the correction is still admissible.
+
+A practical piece of advice for a compliance team is to assess the materiality of an error internally as soon as it is identified and to keep a written decision trail, so that there is a documentary basis for proving the "reasonable measures" or good-faith argument in the future.
+
+## 54.4 Tax Audits and the Burden of Proof
+
+An audit under Pillar Two is different in nature from a traditional transfer-pricing audit, because here it is not the income of a single entity but the consolidated Effective Tax Rate (ETR) computation and GloBE Income/Loss determination of an entire jurisdiction that is examined. This means an auditor may examine accounting adjustments, consolidation methods, and allocations among multiple entities all at the same time.
+
+The **burden of proof** generally rests with the taxpayer — that is, it is the MNE Group that must prove that its GloBE computation, ETR, and Top-up Tax determination are correct and were made on the basis of the applicable information. For this reason, the quality of documentation is extremely important:
+
+- For each adjustment, there needs to be a clear record of the underlying accounting information's source and the provision on the basis of which the adjustment was made.
+- Where a Safe Harbour has been applied, which test was passed to apply it, and the underlying figures for that test, must be preserved.
+- In cases where there was interpretive ambiguity (for example, whether a particular item of income should be included in GloBE Income), the reasoning behind the position taken and its basis (which part of the Commentary or the AG was relied upon) should be recorded.
+
+An important risk during an audit is that two jurisdictions may reach different conclusions based on the same information — one jurisdiction may accept a particular adjustment while another rejects it, creating a risk of double taxation (this issue is discussed in detail in 54.7). In addition, since the information in the GIR is exchanged among multiple jurisdictions, a question raised in one jurisdiction's audit can easily draw the attention of another jurisdiction's authority — that is, an isolated local audit is often not, in fact, isolated.
+
+## 54.5 Tax Certainty — Proposals for a GloBE-Specific Process
+
+**Tax Certainty** refers to a framework in which a taxpayer can know in advance, with a certain degree of assurance, that its adopted tax position will be accepted by various jurisdictions, and that the risk of future dispute or reassessment will be limited. Given the complexity of Pillar Two and the interconnected nature of multiple jurisdictions, discussions have taken place from the outset on the need for a formal, coordinated, GloBE-specific Tax Certainty process.
+
+Toward this goal, various proposals have been discussed, including:
+
+- A multilateral pre-approval or pre-consultation process, in which an MNE Group presents its GloBE computation methodology to the tax authorities of all relevant jurisdictions together, in order to obtain a joint approval — somewhat analogous to the concept of a joint audit or a joint Advance Pricing Agreement.
+- A central peer-review or advisory panel, which would help ensure consistency among jurisdictions on specific interpretive questions.
+- An expansion of the Safe Harbour framework, so that a taxpayer can obtain certainty through a simplified and pre-determined outcome, avoiding a detailed full computation, in a greater number of situations.
+
+It must be clearly stated here, however — none of these proposals has currently been established as a formal, binding, GloBE-specific dispute-resolution or pre-certainty mechanism. Discussion still remains at the policy and conceptual stage, and the implementation timeframe or final form is uncertain. Until such a formal framework is established, taxpayers must rely on the existing, imperfect tools available — the most relevant of which is the traditional tax-treaty-based MAP, discussed below.
+
+## 54.6 The Mutual Agreement Procedure and Its Limitations
+
+The **Mutual Agreement Procedure (MAP)** is a long-established process under bilateral tax treaties, in which the competent authorities of two jurisdictions attempt, through negotiation, to resolve problems of double taxation or taxation not in accordance with the treaty. Historically, MAP has been used mainly for disputes relating to transfer pricing and Permanent Establishments.
+
+For Pillar-Two-related disputes, MAP is being considered as a "potentially available route," but it is an incomplete and partial solution for this new type of problem, because it has several structural limitations:
+
+- **A bilateral framework for a multilateral problem** — MAP was designed primarily to operate between two countries, but the allocation of GloBE's Top-up Tax (particularly through the IIR and UTPR) often involves multiple jurisdictions simultaneously. A single interpretive dispute may affect three, four, or more countries, but making MAP effective may require running separate bilateral processes with each pair of countries.
+- **The question of tax-treaty applicability** — MAP is applicable only where a relevant tax treaty exists between the two countries concerned, and the dispute relates to a tax covered by that treaty. Since the Top-up Tax is an entirely new type of tax, different jurisdictions may take different positions on whether it falls within the "covered taxes" definition of an existing treaty. Where no tax treaty exists between two countries, MAP is not usable at all.
+- **Delay and length of time** — the MAP process is generally very slow, often continuing for years at a time. Compared with the timelines for GIR filing, audit, and Top-up Tax payment, MAP's normal timeframe is much longer, so a taxpayer is often forced to pay tax before the dispute is resolved and then wait for a refund.
+- **Absence of a binding decision** — many tax treaties do not contain a mandatory binding arbitration clause as the outcome of MAP. As a result, if the two authorities do not agree, the dispute may remain unresolved, and the burden of double taxation remains with the taxpayer.
+- **Limited administrative capacity** — the competent-authority teams of many jurisdictions still have limited GloBE-specialized expertise or resources, which can delay processing GloBE-related MAP applications.
+
+In short, MAP is a "better than nothing" alternative — it is better than being entirely absent, but it was not fundamentally designed for GloBE's multilateral, fast-moving nature. Until a purpose-built multilateral process is established (see 54.5), MAP will remain, in practice, the primary formal route available, but clear expectations about its limitations are needed when using it.
+
+## 54.7 Conflicting Interpretations Across Multiple Countries — Risk Management
+
+Since there is no unified, binding, multilateral interpretation-confirmation mechanism, two or more jurisdictions may reach different interpretations of the same fact or transaction — for example, disagreement over whether a particular item of income should be included in GloBE Income, the eligibility of a Qualified Refundable Tax Credit, or the classification of a hybrid entity. This situation can create the risk of double taxation, double non-taxation being called into question, or a Top-up Tax being claimed more than once on the same income.
+
+The practical steps for managing this risk are as follows:
+
+- **A centralized position register** — an MNE Group should keep all of its significant interpretive positions documented centrally, so that different advisors or local teams in different jurisdictions do not adopt inconsistent positions. If two different interpretations are given for the same question in two countries, the group's own position is weakened.
+- **Sensitivity analysis** — where interpretation is ambiguous, measuring how the Top-up Tax liability could change under multiple possible outcomes, and keeping appropriate provisions or disclosures in the financial statements accordingly.
+- **Proactive communication** — where possible, engaging in informal pre-discussions or raising questions with the tax authorities of the relevant jurisdictions, in an attempt to identify possible inconsistencies before a dispute actually arises.
+- **Contractual protection** — including arrangements within the group's internal transactions and information-exchange agreements so that, if a penalty or additional tax is imposed on one entity, there is a predetermined method for coordinating the financial liability within the group.
+- **Deadline tracking** — since the deadlines for audit, correction, and MAP applications differ across jurisdictions, a central calendar is needed to avoid the risk of a right becoming time-barred in any jurisdiction.
+
+The most important policy stance is this — it is not possible, at present, to eliminate uncertainty entirely, so the goal should be to make uncertainty *measurable and manageable* — by setting an acceptable risk threshold and establishing an internal governance process for decision-making within that threshold.
+
+## Summary
+
+The field of penalties and dispute resolution under Pillar Two is not yet mature. The penalty structure — fixed amount, revenue-based, or dual administrative-criminal — is determined entirely by jurisdiction, and there is no unified international standard. Transitional Penalty Relief provides an important, but time-bound and non-automatic, protection for the initial years, the benefit of which requires documentary evidence of reasonable measures. In correcting errors, voluntary action is generally viewed favorably, but multi-jurisdictional coordination and interest liability must be kept in mind. The burden of proof in an audit rests with the taxpayer, so a clear documentary basis for every adjustment, Safe Harbour application, and interpretive position is essential. A GloBE-specific, multilateral Tax Certainty process is under discussion, but has not yet taken institutional form; the main formal route currently available is the tax-treaty-based MAP, which is an incomplete solution for GloBE's multilateral problems due to its bilateral nature, slow pace, and lack of a binding decision. To manage the risk of conflicting interpretations across multiple countries, an MNE Group must build a proactive internal governance process, including a centralized position register, sensitivity analysis, and deadline tracking.
+
+## Common Mistakes
+
+- Assuming that the penalty regime is the same in every country, and that it is sufficient to build a single global compliance calendar — in reality, the penalty structure of each jurisdiction must be verified separately.
+- Treating Transitional Penalty Relief as an automatic and time-unlimited protection, and consequently delaying the strengthening of internal control systems.
+- Assuming that an AG recommendation itself creates a legal obligation, without verifying whether that relief has actually been implemented in a jurisdiction's domestic law.
+- When filing an amended GIR, updating only the central filing while ignoring the need for coordination with the jurisdictions with which that information has been exchanged.
+- Assuming that MAP is usable for any dispute between two countries, without verifying the existence of an applicable tax treaty and the "covered tax" status of the Top-up Tax.
+- Mistaking MAP for a quick solution, and making tax-payment or provisioning decisions based on that assumption.
+- Adopting interpretive positions separately through different local advisors in different countries, resulting in contradictory positions within the group itself and reduced credibility with tax authorities.
+- Presenting only the final figures during an audit, without the underlying reasoning and source documentation — a significant weakness given that the burden of proof rests with the taxpayer.
 
 <!-- lang:bn -->
 

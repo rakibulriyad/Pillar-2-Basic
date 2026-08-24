@@ -13,7 +13,82 @@ slug: "ch-34-domestic-iir"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 34 — Domestic IIR and Equalisation Adjustments
+
+> **In this chapter:** the **Income Inclusion Rule (IIR)** is generally applied to a low-tax-rate subsidiary located abroad, but this rule can also be applicable between a parent and a Constituent Entity located in the same country — this is what we refer to as the **Domestic IIR**. In this chapter we look at why this concept arose, what role the EU's own legal obligations play in it, its relationship with the QDMTT, and its impact on structural planning.
+> **Related Article:** 2.1
+
+## 34.1 What Is a Domestic IIR — the Parent's IIR Applied to a CE in Its Own Country
+
+Under **Article 2.1** of the GloBE Model Rules, the **Income Inclusion Rule (IIR)** is a "top-down" mechanism — under it, the **Ultimate Parent Entity (UPE)**, or where necessary an **Intermediate Parent Entity (IPE)**, includes the allocated **top-up tax** of any low-tax **Constituent Entity (CE)** within the group in its own tax liability. In most discussions, the IIR is imagined in a "foreign" context — the parent in one country, and the low-tax subsidiary in another. But the language of Article 2.1 contains no location-based exception; it does not say that the IIR will not apply if the parent and the CE are located in the same country.
+
+As a result, when a UPE or IPE and its low-tax CE are located in the same jurisdiction, the question arises — will the IIR also apply to that domestic relationship? The answer is, in principle, yes, if that jurisdiction has no **Qualified Domestic Minimum Top-up Tax (QDMTT)**, or if the QDMTT does not collect the full Top-up Tax. In this situation, the parent is obliged to compute an IIR liability and pay Top-up Tax for the CE located in its own country as well — this is what is known as the "Domestic IIR." This is not a separate legal rule; rather, it is an application scenario of the general charging rule under Article 2.1, in which the same formula is applied without drawing any distinction between a "foreign" and a "domestic" CE.
+
+This scenario is generally seen in three situations:
+
+- The UPE is located in a jurisdiction where a GloBE-consistent QDMTT has not yet been introduced;
+- The jurisdiction has a QDMTT, but it has lost its "Qualified" status due to some technical flaw (as a result, it does not receive the benefit of the Safe Harbour, discussed in a later chapter);
+- Or a group structure in which an IPE, in its own country, owns a CE whose ETR is below the 15% threshold.
+
+In each case, the computation method remains unchanged — determination of the **Effective Tax Rate (ETR)**, calculation of the top-up tax percentage, and allocation based on **GloBE Income**. Only the geographical boundary disappears.
+
+## 34.2 The EU's Fundamental Freedoms and Their Effect
+
+The concept of the Domestic IIR became widely known during the implementation of the EU's **Pillar Two Directive**, where the EU legal principle known as **fundamental freedoms** played an important role. For EU member states, principles such as the freedom of establishment and the free movement of capital are binding, and under longstanding rulings of the EU courts, a member state's tax rules cannot treat cross-border activity worse than (or, conversely, selectively more favorably than) purely domestic activity.
+
+The OECD's core Model Rules were built to target only the **MNE Group** — that is, a group present in more than one jurisdiction. As a result, a purely domestic large group with no foreign operations could have remained outside the scope of GloBE under the core framework. In the view of EU lawmakers, such an arrangement could have conflicted with the fundamental freedoms principle — because it would mean that a group becomes subject to GloBE's stringent obligations only once it expands abroad (that is, once it exercises fundamental freedoms), while an equally sized purely domestic group escapes them. This disparity could potentially discourage cross-border expansion, which would run contrary to the principle established in CJEU case law.
+
+To avoid this risk, the EU Directive decided that purely domestic groups exceeding the threshold would also be brought within the scope of GloBE, and that an IIR-type computation mechanism between a parent and a CE in the same country would remain applicable — this is where the concept of the Domestic IIR gains practical importance.
+
+An important caveat is needed here: **this fundamental-freedoms rationale comes entirely from the EU member states' own legal context — it is not a universal condition of the OECD's GloBE Model Rules.** Although Article 2.1 itself is written in location-neutral language, it was not written because of the fundamental freedoms principle — Article 2.1 simply provides a general framework for identifying a low-tax CE within an MNE Group and allocating Top-up Tax to it. Non-EU jurisdictions (such as the United Kingdom, Japan, Singapore, or Canada) that include a Domestic-IIR-like mechanism in their laws do so for different policy or revenue-protection reasons (mainly with the aim of keeping Top-up Tax revenue at home through a QDMTT), not because of an EU legal obligation. It is important for practitioners to keep this distinction in mind, because the EU-specific rationale is not directly applicable in interpreting another country's law.
+
+## 34.3 QDMTT vs. Domestic IIR — Which Applies When
+
+The Domestic IIR and the QDMTT both aim to solve the same problem — how the Top-up Tax of a low-tax CE located in the same country will be collected — but their processes and outcomes differ.
+
+A **QDMTT** is itself a domestic tax law, enacted by the regulator of that jurisdiction, that directly collects Top-up Tax in that country — regardless of where the parent is located. The amount collected under the QDMTT is adjusted as a credit against the IIR (and the **UTPR**) computation, which avoids double Top-up Tax on the same income. In jurisdictions that have enacted a GloBE-consistent QDMTT, the Domestic IIR computation effectively falls to zero — because the QDMTT is assumed to have already collected the full Top-up Tax (under the QDMTT adjustment principle of Article 5.2.3, discussed in detail in this handbook's QDMTT chapter).
+
+The Domestic IIR effectively collects tax only when:
+
+- there is no QDMTT in the relevant jurisdiction;
+- there is a QDMTT, but it has not attained "Qualified" status (so no credit applies);
+- or there is some computational gap between the QDMTT's methodology and GloBE's methodology, leaving a residual Top-up Tax liability.
+
+From a revenue-policy perspective, jurisdictions generally prioritize the QDMTT, because it ensures that Top-up Tax revenue stays in the home country rather than going to the jurisdiction of a foreign parent. This is precisely why many countries worldwide have rapidly enacted their own QDMTT laws — to avoid reliance on the Domestic IIR and retain revenue. For practitioners, the practical question therefore becomes: "Is a QDMTT with Qualified status in force in this jurisdiction?" — if the answer is yes, the Domestic IIR calculation is generally not relevant; if the answer is no or uncertain, the general IIR computation under Article 2.1 must be applied in full, even when the parent and the CE are in the same country.
+
+## 34.4 The UPE Applying the IIR to Itself
+
+A special, and often misunderstood, situation is when the UPE itself becomes a low-tax CE. This can happen if the UPE's own jurisdiction's ETR falls below 15% (for example, because of a special incentive, a tax holiday, or a local accounting adjustment). In this situation, the question arises — the IIR framework is a rule for "the parent imposing tax on the CE," but if the parent itself is a low-tax entity, who applies the IIR to it?
+
+Under the general charging principle of Article 2.1, the answer is — the UPE must apply the IIR to itself. This is a kind of "self-inclusion" mechanism: just as the UPE includes in its own tax liability the allocated Top-up Tax of every low-tax CE below it, in the same way, if its own jurisdiction's ETR is below 15%, it must also bear the Top-up Tax portion allocated for its own shortfall (per the Allocation Ratio, which is generally 100%) — as if it were acting as its own "parent."
+
+The practical implication of this arrangement is that a UPE located in a low-tax jurisdiction cannot discharge its obligation simply by computing the Top-up Tax of foreign subsidiaries — it must also check its own jurisdiction's ETR, and, where necessary, compute Top-up Tax for itself and include it in its own tax return. The role of the QDMTT is important here too: if a Qualified QDMTT is in force in the UPE's jurisdiction, that QDMTT itself collects the Top-up Tax on the UPE's own low-tax position, and the UPE does not need to compute the IIR on itself again (because the amount collected under the QDMTT has already met that liability).
+
+A common confusion arises at this point — many think the IIR is only a rule that flows "from the bottom (down) upward (up)," so if the UPE itself is at the highest level, no IIR applies to it. But the language of Article 2.1 does not support this view — the UPE is itself a Constituent Entity, and if its own ETR falls below the specified threshold, it itself falls into the role of that "low-tax CE," for which it is the only possible party to apply the IIR.
+
+## 34.5 Impact on Structural Planning
+
+The Domestic IIR and the UPE's self-application mechanism have several practical effects on group structural planning.
+
+First, whether a Qualified QDMTT is or is not in force in the jurisdictions where the UPE or IPE is located is now an important structural consideration. If there is no QDMTT, the computation process for the Top-up Tax of a local low-tax CE will be directly reflected in the UPE's or IPE's own tax return, and if the GloBE-consistent administrative framework in that country is still weak, documentation and reporting complexity increases. For this reason, many groups now check, when restructuring their holding structure, which jurisdiction the UPE or main IPE will be located in and what the QDMTT status is in that jurisdiction.
+
+Second, purely domestic groups (particularly in EU member states) that previously thought they would fall outside GloBE simply because of their purely domestic activity now have to newly assess the threshold calculation and the potential impact of the Domestic IIR. This is particularly relevant for groups that operate entirely within a single EU member state but whose annual consolidated income exceeds the €750 million threshold.
+
+Third, the possibility of shifting IIR liability by inserting an IPE (that is, placing an intermediate entity between the UPE and the low-tax CE) needs to be considered — although Article 2.1's top-down rule and its ownership-interest-based allocation method have significantly narrowed the scope for such planning. Any structural change must have genuine economic substance; a structure created solely for the purpose of shifting IIR liability could be called into question under GloBE's general anti-abuse principle.
+
+Fourth, for groups whose UPE itself is located in an incentive-rich low-tax jurisdiction, monitoring the ETR at their own level has become a regular compliance activity — because, as discussed in Section 34.4, the UPE is itself liable for its own shortfall. As a result, UPEs using tax holidays or special incentives now must factor in the effect on the GloBE ETR when deciding whether to take up an incentive, because the tax saved through the incentive is often clawed back through the Domestic IIR or the QDMTT.
+
+## Summary
+
+The Domestic IIR is essentially an application scenario of the general IIR principle under Article 2.1, where a parent and a low-tax CE are located in the same jurisdiction. This concept has gained particular importance in the EU, where, because of the fundamental freedoms principle, purely domestic groups have also been brought within the scope of GloBE — although this rationale is EU-specific, not a universal GloBE condition. Wherever a Qualified QDMTT is in force in any jurisdiction, it generally reduces the practical necessity of the Domestic IIR to nearly zero, because the QDMTT collects the Top-up Tax first. Because the UPE is itself a CE, if its own ETR falls below the specified threshold it must apply the IIR to itself — this self-inclusion principle is often overlooked. In structural planning, choice of the UPE/IPE's location, verifying the status of the local QDMTT, and monitoring the ETR at one's own level have become central elements of compliance and planning.
+
+## Common Mistakes
+
+- Assuming the IIR applies only to foreign subsidiaries, and not to a parent-CE relationship within the same country — Article 2.1 contains no such geographic exception.
+- Misinterpreting the EU's fundamental freedoms rationale as a universal GloBE principle, and attempting to apply it in analyzing the law of a non-EU jurisdiction.
+- Assuming that if the UPE itself is a low-tax entity, the IIR does not apply to it — in reality, under the "self-inclusion" principle, the UPE must remain liable for its own shortfall.
+- Redundantly recomputing the full Domestic IIR calculation in parallel even in a jurisdiction where a Qualified QDMTT is in force, which creates needless double-computation complexity.
+- Assuming, without verifying the QDMTT's "Qualified" status, that any domestic top-up tax law automatically extinguishes the IIR liability.
 
 <!-- lang:bn -->
 

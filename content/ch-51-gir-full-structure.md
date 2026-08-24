@@ -12,7 +12,186 @@ slug: "ch-51-gir-full-structure"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 51 — The GloBE Information Return: Full Structure
+
+> **In this chapter:** all the computations of an MNE Group across every country — who is located where, which Safe Harbour has been claimed, what the ETR is in which jurisdiction, and how the Top-up Tax is being allocated — are converted into a single document through the process known as the **GloBE Information Return**, or **GIR**. This chapter discusses in detail every sub-part of the GIR's three main Sections, the simplified transitional reporting method, and the rules governing how much of the GIR each country receives — together with a complete map showing which computation from which chapter of the book lands on which line of the GIR.
+
+## 51.1 The Purpose of the GIR and Its Design Philosophy
+
+If Pillar Two computations had to be filed entirely separately in every jurisdiction, in the local tax authority's own format, then an MNE Group operating in twenty-five or thirty countries would have to produce twenty-five or thirty different reports every year — each with somewhat different information requirements, each in a different format, and each requiring the group's internal information to be rearranged repeatedly. To avoid this problem, the OECD Inclusive Framework created a single, standardized document — the GIR — which, once prepared and filed in a particular jurisdiction, has its necessary parts automatically reaching other relevant jurisdictions through information-exchange agreements. This "build once, use many times" philosophy is the central design principle of the GIR.
+
+An important distinction needs to be clarified here — the GIR and the **Notification** (the preliminary administrative step notifying which entity is filing the GIR and where) are two different things. The details of the Notification and the filing deadlines were discussed in the previous chapter of this book; this chapter concerns the content and structure of the GIR itself, which actually carries the substance of the tax computation. The GIR is also different from the Country-by-Country Report — CbCR is a general, comparatively simple tax-transparency tool that gives an overview of total revenue, profit, and tax paid (and is used as the basis for the Transitional CbCR Safe Harbour, discussed in Chapter 45), but the GIR goes much deeper — it contains each jurisdiction's complete GloBE ETR, Excess Profit, Top-up Tax, and the full mechanics of its allocation.
+
+Three main design principles underlie the structure of the GIR. First, **modularity** — the GIR is arranged so that its various parts (or "modules") can be sent separately to different jurisdictions, because not every jurisdiction needs all the information — this modularity is discussed in detail in Section 51.6. Second, **standardization** — so that the tax administration of one jurisdiction can easily understand and verify information received from another jurisdiction, using the same definitions and the same format. Third, **layered granularity** — Section 1 carries the most general, high-level information; Section 2 carries Safe Harbour and exclusion information that is jurisdiction-specific; and Section 3 goes into the greatest depth, carrying the actual numerical computations.
+
+An important consequence of this design is that the GIR is not merely a "reporting format" — it is a logical bridge that converts every computational concept discussed in Parts 2 through 9 of this book into a structured, comparable, and exchangeable dataset. For this reason, understanding the structure of the GIR effectively means understanding an "output view" of the entire Pillar Two computation process — behind every line item lies the answer to a specific computational question, which has been explained in detail in one or another chapter of this book (see the map in Section 51.7).
+
+## 51.2 Section 1 — MNE Group Information
+
+The first Section of the GIR carries foundational, introductory information — who is filing, on whose behalf, and what the structure of the group looks like.
+
+**Identity and role of the filing entity.** The first sub-part of Section 1 contains the complete identity of the entity that is actually preparing and filing the GIR — name, tax identification number, its own jurisdiction, and, most importantly, a clear identification of the role in which it is filing on behalf of the group. This role can be of three kinds — the entity may itself be the **Ultimate Parent Entity (UPE)**, or a **Designated Filing Entity** appointed on behalf of the UPE, or a local Constituent Entity fulfilling a local filing obligation in a particular jurisdiction. This distinction matters, because it determines which jurisdictions will accept this GIR as a "centralized filing" and which will still expect a separate local filing.
+
+**Group name, accounting standard, and the nature of the Consolidated Financial Statements.** Next comes the group's basic identification — the name of the MNE Group, the UPE's own jurisdiction, and the relevant Fiscal Year. An important data point here is which **accounting standard** the UPE used to prepare its **Consolidated Financial Statements** — such as IFRS, US GAAP, or some local GAAP that qualifies as an **Acceptable Financial Accounting Standard** or an **Authorised Financial Accounting Standard**. This information matters because the starting point of the entire GloBE Income or Loss computation (the Financial Accounting Net Income discussed in Chapter 6) depends on which accounting standard was used to prepare the accounts. This sub-part must also indicate whether a CFS has actually been prepared, or whether the UPE is exempt from the CFS-preparation requirement because of small size or some other reason, and, if so, what substitute information has been used.
+
+**Corporate structure — a list of all CEs, their jurisdictions, status, and ownership.** This is the longest and most information-intensive sub-part of Section 1. It contains a complete list of every **Constituent Entity** of the group (and of every Permanent Establishment, which is treated as a separate Constituent Entity), with the following information included for each entry:
+
+- The entity's name, tax identification number, and jurisdiction (tax residency, or, in the case of a Permanent Establishment, the jurisdiction in which the PE is located);
+- The entity's **status** — that is, a clear identification of its classification: whether it is the UPE, an Intermediate Parent Entity (IPE), a Partially-Owned Parent Entity (POPE), an ordinary Constituent Entity, a Joint Venture or JV Subsidiary, a Minority-Owned Constituent Entity, an Investment Entity, a Flow-through Entity, an Excluded Entity, or a Stateless Entity;
+- The **ownership structure** — which entity owns which entity, what percentage of direct and indirect ownership interest exists, and from what date that ownership has been effective.
+
+The classification knowledge needed to build this list has been discussed in detail in several earlier chapters of this book — the definitions of CE, PE, and Flow-through Entity, the conditions for an Excluded Entity, and the classification of UPE/IPE/POPE. In the GIR, all these classifications must be converted into a single, consistent list, so that each jurisdiction can understand how many, and what kind of, entities the group has within its own territory.
+
+**Ownership changes during the year.** If, during the fiscal year, a Constituent Entity joins the group (through an acquisition), leaves the group (through a disposal), or its ownership percentage changes (for example, a partial sale or a new share issuance), these changes must be recorded separately in the GIR — the date on which the change occurred, the ownership percentage before and after the change, and the method by which the change occurred (share purchase/sale, asset transfer, restructuring). This information is required because the GloBE Income/Loss and Covered Taxes of an entity entering or exiting during the year must be calculated pro rata — the rules for this pro-rata calculation have been discussed in the chapter on entry into and exit from the group.
+
+**Jurisdiction-based summary.** At the end of Section 1 is a summary list, giving a numerical overview of how many Constituent Entities the group has in each jurisdiction. This summary helps the tax administration quickly understand the group's geographical footprint, and it serves as an index for cross-referencing with the jurisdiction-based information in the subsequent Sections.
+
+## 51.3 Section 2 — Safe Harbours and Exclusions
+
+The purpose of Section 2 is to clearly show for which jurisdictions a full GloBE ETR and Top-up Tax computation is not required, and why. This Section must be completed separately for each jurisdiction, because a Safe Harbour or Exclusion is always jurisdiction-specific.
+
+**Which Safe Harbour is claimed in each jurisdiction.** The first task is to give a clear identification against each jurisdiction — whether any Safe Harbour is being claimed for that jurisdiction, and if so, which one. The possible options are:
+
+| Type of Safe Harbour | Period of application | Core basis |
+|---|---|---|
+| Transitional CbCR Safe Harbour | Transition Period (essentially FY2024–FY2026) | Qualified CbC Report and three tests |
+| QDMTT Safe Harbour | Permanent (for as long as the QDMTT is in force) | Ensuring full Top-up Tax collection through the QDMTT |
+| Permanent Safe Harbours (Simplified Calculations) | Permanent | Simplified method for De Minimis, Simplified ETR, or Routine Profits |
+| Transitional UTPR Safe Harbour | For a limited transition period | Meeting a minimum statutory tax rate condition in the UPE jurisdiction |
+| Initial Phase of International Activity Exclusion | Maximum five years, UTPR only | Limited number of jurisdictions and a €50M tangible-asset threshold |
+
+More than one Safe Harbour cannot apply to the same jurisdiction in the same year — a jurisdiction can reach the outcome ("Top-up Tax is zero without a detailed computation") through only one particular route in a given year, and the GIR must clearly identify which route that is.
+
+**Results of the three tests of the Transitional CbCR Safe Harbour.** If the Transitional CbCR Safe Harbour is claimed for a given jurisdiction, it is not sufficient for the GIR to simply state "claimed" — it must also show which test was passed and the underlying figures:
+
+- For the **De Minimis Test**, the actual figures for Total Revenue and Profit before Tax (comparable to the €10 million and €1 million thresholds);
+- For the **Simplified ETR Test**, the Simplified Covered Taxes, Profit before Tax, and the resulting Simplified ETR derived from their ratio, together with a comparison to the relevant Transition Rate;
+- For the **Routine Profits Test**, the Profit before Tax and the amount of SBIE calculated for that jurisdiction.
+
+These detailed figures are needed because the tax administration must verify that the claimed Safe Harbour actually applies — a mere "yes/no" indicator is not sufficiently auditable. The detailed definitions and computation methods of these three tests have been discussed in the chapter on the Transitional CbCR Safe Harbour; what is reflected in the GIR is the final result of that computation, not the process.
+
+**De Minimis and NMCE information.** Beyond the Safe Harbours, Section 2 also contains information on two further types of exclusion. First, if the **De Minimis Exclusion** (which is a permanent provision within the full GloBE computation pathway, distinct from the Transitional Safe Harbour) is claimed, the jurisdiction's three-year average GloBE Revenue and average GloBE Income or Loss figures must be shown, comparable to this exclusion's thresholds. Second, a simplified reporting method applies for a **Non-Material Constituent Entity (NMCE)** — a small, immaterial entity that, for some reason, has not been fully consolidated in the group's audited CFS, but is nonetheless a Constituent Entity — for which simplified revenue, income, and tax information derived from the CbCR or local accounts may be used instead of a full recomputation under Article 3/Article 4, and the GIR must separately show which entities have been identified as NMCEs.
+
+## 51.4 Section 3 — GloBE Computations
+
+Section 3 is the core analytical part of the GIR — this is where the final numerical results of all the computational rules discussed in Parts 3 through 9 of the book come together and are set out. This Section only needs to be completed for those jurisdictions that are not fully covered by a Safe Harbour or Exclusion under Section 2.
+
+**3.1 ETR and Top-up Tax computation.** This sub-part gives a concise but complete picture for each jurisdiction — each line item in the list below is filled in once per jurisdiction:
+
+| Line item | Brief description |
+|---|---|
+| Jurisdiction-level aggregate Revenue | Sum of the revenue of all CEs |
+| Jurisdiction-level aggregate GloBE Income or Loss | Blending each CE's GloBE Income/Loss |
+| Jurisdiction-level aggregate Adjusted Covered Taxes | Blending each CE's ACT |
+| Effective Tax Rate (ETR) | ACT ÷ GloBE Income (at the jurisdiction level) |
+| Substance-based Income Exclusion (SBIE) | Payroll carve-out + Tangible Asset carve-out |
+| Excess Profit | GloBE Income − SBIE |
+| Top-up Tax Percentage | 15% − ETR (zero if negative) |
+| Jurisdictional Top-up Tax | Top-up Tax % × Excess Profit |
+| Additional Current Top-up Tax | Addition arising from prior-year adjustments |
+| QDMTT Amount and QDMTT adjustment | Detailed in 51.4's sub-part 3.3 |
+| Final Net Top-up Tax | After adjusting all the elements above |
+
+This table is essentially a "printout" of the jurisdiction-level ETR and Top-up Tax computation — and every figure in it is a direct result of the book's chapters on ETR, Top-up Tax Percentage, Excess Profit, SBIE, and De Minimis.
+
+**3.2 Details of GloBE Income and Adjusted Covered Taxes.** Since the figures in 3.1 are jurisdiction-level aggregates, the tax administration may need to verify how that aggregate was built up. Thus, in sub-part 3.2 (for jurisdictions where the NMCE simplification does not apply), the following must be shown separately for each Constituent Entity:
+
+- Every adjustment made in arriving at GloBE Income or Loss starting from Financial Accounting Net Income or Loss (excluded income tax expense, excluded dividends, stock-compensation elections, etc.) — as explained in detail in the chapters determining GloBE Income or Loss;
+- Which taxes are included and which are not, under the definition of Covered Taxes, and the adjustments made in arriving at Adjusted Covered Taxes starting from Current Tax Expense — including Deferred Tax adjustments (the effects of Recast, Recapture, Unclaimed Accrual, and the GloBE Loss Election are all reflected here);
+- The results of income and tax allocation between a PE and its Main Entity, or between a Flow-through Entity and its owners, where applicable.
+
+This sub-part carries the heaviest information demand in the GIR, because the amount of each adjustment must be documented separately here — not merely the final result.
+
+**3.3 QDMTT.** For jurisdictions in which a **Qualified Domestic Minimum Top-up Tax** is in force, this sub-part contains the amount of QDMTT computed under that jurisdiction's own law, an accounting of how it is offset against the jurisdictional Top-up Tax, and a clear indication of whether the QDMTT Safe Harbour applies. If the QDMTT differs from the core GloBE computation due to local accounting standards or certain specified elective adjustments, that difference must also be explained here. The QDMTT computation is not a wholly separate calculation, but a jurisdiction-specific version of the core GloBE structure — this sub-part is therefore directly linked to 3.1 and 3.2.
+
+**3.4 Allocation and determination of liability for the Top-up Tax.** Once a jurisdiction's overall Top-up Tax has been determined, the question arises — who will actually pay this Top-up Tax? This sub-part reflects three distinct processes:
+
+- **Allocation under the IIR** — which Parent Entity (UPE, IPE, or POPE) the Top-up Tax falls on, how its **Allocable Share** was determined (based on ownership interest and Minority-Owned adjustments), and how double-counting has been avoided among multiple Parent Entities by following the Top-down Approach;
+- **Allocation under the UTPR** — how the remaining Top-up Tax (not fully collected through the IIR) is allocated among which UTPR jurisdictions, what each jurisdiction's **Allocation Key** was (based on the ratio of employees and tangible assets), and which specific Constituent Entity within that jurisdiction bears the liability;
+- **Identification of the relevant Filing and Paying Entity** — a clear list of which entity ultimately bears the payable liability in which jurisdiction, giving the local tax authority the information it needs for direct collection.
+
+This allocation process is one of the most complex parts of the GIR, because it is here that a single jurisdiction-level figure (Top-up Tax) generates multiple separate entity-level liabilities — and this allocation must be made by following the order of application of QDMTT, IIR, and UTPR.
+
+## 51.5 Transitional Simplified Jurisdictional Reporting — Transitional Simplification
+
+The detailed information requirements of Section 3 — particularly the entity-level adjustment details in 3.2 — can become an extremely large administrative burden for many MNE Groups in the initial years, especially for jurisdictions where a Transitional CbCR Safe Harbour or some other Safe Harbour already applies, but where a great deal of information still has to be filled in owing to the structural requirements of the GIR. The January 2025 Administrative Guidance introduced a **Transitional Simplified Jurisdictional Reporting** arrangement to address this problem.
+
+The core idea of this arrangement is that, within the Transition Period (the same period applicable to the Transitional CbCR Safe Harbour), for jurisdictions for which the group can assume the Top-up Tax to be zero under a Safe Harbour or for some other reason, it is permitted to submit a brief, jurisdiction-level summary dataset in the GIR instead of filling in the full detailed dataset of Section 3. In practical terms, this means:
+
+- For jurisdictions that have passed a Safe Harbour, the entity-level adjustment detail (the heaviest part of the GIR's sub-part 3.2) is not required — rather, the figures used in the relevant Safe Harbour test (already shown in Section 2) are treated as sufficient evidence;
+- The number of Constituent Entities by jurisdiction and certain basic jurisdiction-level data points (such as overall revenue) must still be reported, so that the tax administration remains aware of the jurisdiction's presence;
+- This simplification is an **optional** arrangement, not mandatory — a group may, if it wishes, submit full detailed information for all jurisdictions, although in practice most groups take up this option wherever they are eligible.
+
+The scope of this simplification is limited — it applies only for the Transition Period and only for those jurisdictions that can demonstrate a zero Top-up Tax through a Safe Harbour or an equivalent simplified test. For jurisdictions where a Top-up Tax actually arises, or where a Safe Harbour has been permanently lost under the "Once Out, Always Out" principle, the entirety of Section 3 must still be filled in in detail — Transitional Simplified Jurisdictional Reporting offers no relief in that case. Furthermore, once simplified reporting has been chosen for a jurisdiction, if that jurisdiction loses its Safe Harbour in a subsequent year, full detailed reporting must be resumed from that year — and, in preparation for this transition, the group should keep the underlying entity-level data ready, because simplified reporting does not mean that such information need not be maintained in the underlying accounting system.
+
+## 51.6 Which Country Gets Which Part — Rules on Distribution of Information
+
+The most practical manifestation of the GIR's modular design is the rule that a particular jurisdiction does not receive a complete copy of the GIR — rather, it receives only the portion consistent with its own tax administration's legitimate need. The rationale behind this distribution rule is to protect the confidentiality of the information and to keep each tax administration away from irrelevant, competitor-sensitive information outside its own jurisdiction.
+
+The general structure is as follows:
+
+- **The UPE's jurisdiction** generally receives the complete GIR — because the tax administration at the UPE level needs to see the full picture of the group, particularly if the IIR is applicable there.
+- **The Filing Entity's jurisdiction** (if different from the UPE's jurisdiction) receives the complete GIR, because that is where the actual filing has taken place.
+- **Every jurisdiction in which the group has at least one Constituent Entity** receives a **Standard Module** — consisting essentially of the relevant part of Section 1 (general information about the group, information on CEs located in its own jurisdiction) and the jurisdictional summary of Section 3.1 (only for its own jurisdiction, not detailed figures for other jurisdictions). As a result, each country can learn what the group's ETR and Top-up Tax look like in its own territory, but cannot see the internal figures of other countries.
+- **Jurisdictions that apply the IIR** (because a UPE, IPE, or POPE is located there whose IIR liability may arise) additionally receive the IIR allocation information from Section 3.4, so that they can verify whether the claimed Allocable Share is correct.
+- **Jurisdictions that apply the UTPR** additionally receive the UTPR Allocation Key and allocation information from Section 3.4, so that they can verify the amount of Top-up Tax allocated to their own jurisdiction.
+- **Jurisdictions in which a QDMTT is in force** receive their own jurisdiction's information from Section 2 (the QDMTT Safe Harbour-related part) and Section 3.3 (the QDMTT-related part), so that they can confirm the accuracy of their own domestic tax collection.
+
+An important consequence of this structure is that if a jurisdiction hosts only a small, routine-taxed support entity and has no IIR/UTPR/QDMTT application authority, that jurisdiction will only receive the Standard Module — no detailed information about the ETR, Top-up Tax, or entity-level adjustments of any other jurisdiction of the group will reach it. This information-distribution process is implemented through multilateral or bilateral information-exchange agreements among jurisdictions (through the Qualifying Competent Authority Agreement), the technical and administrative details of which are discussed in the next chapter. What matters for this chapter is that, while preparing the GIR, it should be kept in mind that different Sections and sub-parts will reach different audiences, and an incorrect classification or an incomplete identification may send the wrong information to the wrong jurisdiction, or may fail to deliver necessary information to the relevant jurisdiction.
+
+## 51.7 Which Information Comes from Which Computation — A Map
+
+The table below shows, against each major data block of the GIR, which computational rule or concept that information actually comes from, and in which chapter of this book its detailed methodology has been explained. This map can serve as a "reverse-engineering" reference in practical compliance work — if there is difficulty filling in a particular line of the GIR, one can return to the relevant chapter to review the underlying rule.
+
+| GIR data block | Source of the information (computation/concept) | Relevant chapter |
+|---|---|---|
+| Role of the filing entity (UPE/DFE/local CE) | Definitional distinction between Filing Entity and UPE | 5, 10 |
+| Group's accounting standard and type of CFS | Definition of MNE Group and Consolidation | 6 |
+| Corporate structure — CE list, status | Classification of CE, PE, Flow-through Entity; Excluded Entity | 8, 9 |
+| UPE/IPE/POPE classification | Types of Parent Entity | 10 |
+| JV, Minority-Owned, Investment Entity flags | Definitions of special classes | 11 |
+| Ownership changes during the year | Entry into and exit from the group, pro-rata computation | 36 |
+| GloBE Income or Loss (3.2) | Adjustments from Financial Accounting Net Income | 12, 13, 14 |
+| Exclusion of Shipping Income | International Shipping Income exclusion | 15 |
+| PE/Main Entity income allocation | Allocation between PE and Main Entity | 16 |
+| Flow-through income allocation | Flow-through Entity allocation rules | 17 |
+| Adjusted Covered Taxes (3.2) | Definition of Covered Taxes and ACT computation | 18, 19 |
+| Inter-entity tax allocation | Entity-based allocation of Covered Taxes | 20 |
+| Deferred Tax adjustment | Deferred Tax mechanics | 21 |
+| 15% Recast, Recapture, Unclaimed Accrual | Timing adjustments to Deferred Tax | 22 |
+| Effect of the GloBE Loss Election | GloBE Loss Election | 23 |
+| Effect of post-filing adjustments | Post-filing Adjustment and tax rate changes | 24 |
+| ETR (3.1) | Jurisdictional Blending and ETR computation | 25 |
+| Top-up Tax %, Excess Profit, Jurisdictional Top-up Tax | Top-up Tax Percentage formula | 26 |
+| SBIE (Payroll and Tangible Asset carve-out) | SBIE computation | 27 |
+| De Minimis Exclusion data (Section 2) | De Minimis threshold | 28 |
+| Additional Current Top-up Tax | Additional tax arising from prior-year adjustments | 29 |
+| Separate ETR information for Minority-Owned CEs | Special rules for Minority-Owned Constituent Entities | 30 |
+| Order of application of QDMTT/IIR/UTPR | Rule Order | 31 |
+| QDMTT-related information (3.3) | QDMTT computation and Article 10.1-based principle | 32 |
+| IIR allocation — Allocable Share (3.4) | IIR computation methodology | 33 |
+| Domestic IIR adjustment | Domestic IIR and equivalence adjustment | 34 |
+| UTPR Allocation Key and allocation (3.4) | UTPR computation methodology | 35 |
+| Restructuring-related adjustment | Asset/liability transfer and restructuring | 37 |
+| JV Group and Multi-Parented information | JV and Multi-Parented MNE Group | 38 |
+| Tax-transparent UPE-related adjustment | Tax-transparent UPE and Deductible Dividend | 39 |
+| Investment Entity's separate ETR and distribution tax | Eligible Distribution Tax System | 40 |
+| Safe Harbour claim in Section 2 (general structure) | General principles of Safe Harbour | 44 |
+| Results of the three tests (Section 2) | Transitional CbCR Safe Harbour | 45 |
+| Permanent Safe Harbour claim | Permanent Safe Harbours and Simplified Calculations | 46 |
+| QDMTT Safe Harbour identification | QDMTT Safe Harbour and Switch-off Rule | 47 |
+| Transitional UTPR Safe Harbour claim | Transitional UTPR Safe Harbour | 48 |
+| Transition Year DTA/DTL, Initial Phase Exclusion, SBIE Transition Rate | Transition Rules and Initial Phase Exclusion | 49 |
+
+This table is not exhaustive but representative — it is not possible to list every minute line item of the GIR separately, but keeping these main blocks in mind keeps the logical foundation of preparing the full GIR clear. Note that almost every row may involve more than one chapter — the GIR is itself a synthesis, and before filling in each of its cells, the underlying computation must be complete and correct.
+
+## Summary
+
+The GloBE Information Return is a single, standardized document that converts an MNE Group's entire Pillar Two computation into a globally information-exchangeable structure, so as to avoid the need to prepare a complete separate report in every jurisdiction. Its three Sections follow a layered logic — Section 1 gives the group's identity and corporate structure, Section 2 shows which jurisdictions are avoiding a full computation through a Safe Harbour or Exclusion, and Section 3 carries the full numerical computation of ETR, Top-up Tax, QDMTT, and allocation for those jurisdictions. The January 2025 Administrative Guidance's Transitional Simplified Jurisdictional Reporting eases the administrative burden during the Transition Period for jurisdictions that have passed a Safe Harbour. The GIR's modular design ensures that each jurisdiction receives only the portion consistent with its own legitimate need — the UPE's and Filing Entity's jurisdictions receive the complete GIR, an ordinary CE-hosting jurisdiction receives only the Standard Module, and jurisdictions applying the IIR/UTPR/QDMTT receive additional relevant modules. Finally, every line item of the GIR is the computational result of some earlier chapter of the book — the GIR itself creates no new computation, but rather organizes and renders communicable the computation that already exists.
+
+## Common Mistakes
+
+A common mistake is to view the GIR as an independent "form-filling" exercise, when in reality every figure in the GIR must flow directly from the underlying GloBE computation — if the underlying computation is wrong or incomplete, the GIR itself cannot be correct. A second mistake is to treat the Notification and the GIR as the same document, although they serve different purposes and fall under different deadlines. A third mistake is, when claiming a Safe Harbour in Section 2, to mark only "yes" without documenting the actual figures underlying the test (Revenue, PBT, Simplified ETR, SBIE, etc.) — which later makes it difficult to prove the validity of the claim during an audit. A fourth mistake is to assume that Transitional Simplified Jurisdictional Reporting automatically applies to all jurisdictions, when it is in fact an optional arrangement applicable only during the Transition Period and only for jurisdictions that have passed a Safe Harbour. A fifth mistake is to ignore the GIR's modular distribution rule and assume that all jurisdictions will see the same information — in reality, each jurisdiction receives a different module consistent with its own tax authority, and while preparing the GIR it is necessary to keep in mind which audience each Section's information will reach and to ensure proper classification accordingly. Finally, failing to update ownership changes during the year or entity entries and exits in Section 1's corporate structure list is a common but significant mistake — the absence of this information can make both the pro-rata computation in Section 3 and the liability allocation in Section 3.4 incorrect.
 
 <!-- lang:bn -->
 

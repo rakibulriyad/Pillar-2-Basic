@@ -8,7 +8,233 @@ slug: "app-g-full-worked-example"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Appendix G — Complete Worked Example
+
+In this appendix we walk a fully hypothetical MNE Group — **Vantage Industries Group** — through every major calculation stage from Part 2 to Part 10 of the book. Vantage is a manufacturing and consumer-goods group whose Ultimate Parent Entity (UPE) is **Vantage Industries Group N.V.**, registered in Country A (headline corporate income tax 25%). The group has four Constituent Entities (CEs) in four different countries — Country B (a tax-holiday-driven low-tax manufacturing hub, where QDMTT legislation is in effect), Country C (home to a Partially-Owned Parent Entity, or POPE, subject to a normal tax rate), Country D (a low-tax trading jurisdiction with no GloBE legislation at all), and Country E (an ordinary, normally-taxed retail entity). In FY2025 the group's consolidated revenue is €1,240 million — clearly exceeding the €750 million threshold. Each of the sections below (§G.1–§G.13) uses the same set of figures, so the reader can follow a single number step by step from the scope test through to the final allocation in the GIR.
+
+## G.1 — Scope Test (§G.1)
+
+Under the rule discussed in Chapter 7, an MNE Group falls within the scope of Pillar Two if the annual revenue shown in its Ultimate Parent Entity's Consolidated Financial Statements is €750 million or more in at least two of the four fiscal years immediately preceding the current fiscal year. Vantage's consolidated revenue for the most recent four years is shown below (all figures in €m):
+
+| Fiscal Year | Consolidated Group Revenue (€m) | Exceeds €750m Threshold? |
+|---|---|---|
+| FY2022 | 760 | Yes |
+| FY2023 | 890 | Yes |
+| FY2024 | 1,050 | Yes |
+| FY2025 (current year) | 1,240 | Yes |
+
+In at least two of the four years immediately preceding FY2025 (FY2021–FY2024) — here, in fact, all three — revenue exceeded €750 million. As a result, **Vantage Industries Group is treated as an "In-Scope MNE Group" under the GloBE Rules from FY2025 onward**. All of the remaining calculations — jurisdiction mapping, Safe Harbour tests, GloBE Income, Covered Taxes, ETR, Top-up Tax, and the GIR — are conducted on the basis of this determination. The €1,240 million of FY2025 revenue is made up of the combined revenue of five CEs (detailed in §G.2), a figure that remains unchanged throughout the rest of this appendix.
+
+## G.2 — Entity and Jurisdiction Map (§G.2)
+
+Following the definitions described in Chapter 6 and Chapters 8–11, the structure of the Vantage Group and the classification of each entity are shown in the table below:
+
+| Entity | Country | Role | Ownership (%) | GloBE Legislation in Effect? |
+|---|---|---|---|---|
+| Vantage Industries Group N.V. | Country A | Ultimate Parent Entity (UPE) | — | QDMTT + IIR + UTPR (all in effect) |
+| Vantage Manufacturing (B) Sdn Bhd | Country B | Constituent Entity (CE) — Low-Taxed | 100% by Vantage Regional Holdings (C) | QDMTT + IIR + UTPR in effect |
+| Vantage Regional Holdings (C) Ltd | Country C | Partially-Owned Parent Entity (POPE) | 75% by UPE, 25% by outside minority investors | QDMTT + IIR + UTPR in effect |
+| Vantage Trading (D) Pte Ltd | Country D | Constituent Entity (CE) — Low-Taxed | 60% directly by UPE, 40% by an outside (Non-Group) investor | **No GloBE legislation at all** |
+| Vantage Retail (E) S.A. | Country E | Constituent Entity (CE) | 100% directly by UPE | QDMTT + IIR in effect; UTPR not yet enacted |
+
+The ownership chain runs as follows: the UPE (Country A) directly holds 100% of Vantage Retail (E) and directly holds 60% of Vantage Trading (D) (the remaining 40% is held by an entirely outside, non-Group investor). The UPE also holds 75% of Vantage Regional Holdings (C) — which is a **POPE**, because more than 20% (i.e., 25%) of its ownership is held by a party outside the group. Vantage Regional Holdings (C) itself holds 100% of Vantage Manufacturing in Country B. These two different types of "minority ownership" — one at the POPE level (Country C), the other directly at the Low-Taxed CE level (Country D) — will produce entirely different outcomes in the application of the IIR and UTPR in §G.10 and §G.11, which is one of the key lessons of this appendix.
+
+Supporting data (to be used for SBIE in §G.7 and UTPR in §G.11):
+
+| Entity | Revenue (€m) | Headcount | Payroll costs (€m) | Tangible assets (€m) |
+|---|---|---|---|---|
+| Vantage Industries Group N.V. (Country A) | 450 | 1,200 | 140 | 90 |
+| Vantage Manufacturing (B) | 300 | 900 | 40 | 50 |
+| Vantage Regional Holdings (C) | 200 | 300 | 25 | 30 |
+| Vantage Trading (D) | 180 | 200 | 15 | 10 |
+| Vantage Retail (E) | 110 | 350 | 20 | 15 |
+| **Total** | **1,240** | **2,950** | **240** | **195** |
+
+## G.3 — Safe Harbour Screening (§G.3)
+
+The Transitional CbCR Safe Harbour discussed in Chapters 44–45 can exempt a jurisdiction from the full GloBE calculation through three separate tests (passing any one of them is sufficient): (i) the De Minimis Test (CbCR revenue <€10m and profit/loss before tax <€1m), (ii) the Simplified ETR Test (CbCR-based Simplified Covered Tax Expense ÷ Profit Before Tax ≥ the transition-year threshold rate — 16% for FY2025), and (iii) the Routine Profits Test (Profit Before Tax ≤ CbCR-based SBIE). The results for Vantage's five jurisdictions:
+
+| Country | CbCR Revenue (€m) | CbCR Profit Before Tax (€m) | Simplified Covered Tax (€m) | Simplified ETR | Result |
+|---|---|---|---|---|---|
+| A | 450 | 90 | 24.5 | 27.2% | **Pass** (Simplified ETR ≥ 16%) |
+| B | 300 | 82 | 9.0 | 11.0% | **Fail** — fails all three tests; full GloBE calculation required |
+| C | 200 | 48 | 10.6 | 22.1% | **Pass** (Simplified ETR ≥ 16%) |
+| D | 180 | 40 | 2.0 | 5.0% | **Fail** — fails all three tests; full GloBE calculation required |
+| E | 110 | 21 | 5.0 | 23.8% | **Pass** (Simplified ETR ≥ 16%) |
+
+For Country C: revenue of €200m fails the De Minimis Test (as it is far above €10m), but the Simplified ETR is 22.1%, above the 16% threshold — so the **Simplified ETR Test is passed**, and a full GloBE ETR calculation is not required for Country C (deemed zero Top-up Tax). By contrast, in Country B, the tax holiday brings the Simplified ETR down to only 11.0% — below 16% — and because of the size of its revenue and profit, the De Minimis Test also fails, and because the SBIE (approximately €7.6m, below, in §G.7) is negligible relative to profit (€82m), the Routine Profits Test also fails. Therefore **a full calculation of GloBE Income, Covered Taxes, ETR, and Top-up Tax is mandatory for Country B and Country D** — these two jurisdictions are the main focus of the rest of this appendix, from §G.4 through §G.11.
+
+## G.4 — Calculating GloBE Income or Loss (§G.4)
+
+We now begin the detailed calculation for Country B (Vantage Manufacturing), following the Article 3.2 methodology described in Chapters 12–13. The starting point is Financial Accounting Net Income (FANI) — the entity-level net income prepared under the UPE's accounting standard, excluding consolidation adjustments. Country B's FANI = **€80.0 million**. The following four Article 3.2.1 adjustments are applied to it:
+
+| # | Description of Adjustment | Effect (€m) |
+|---|---|---|
+| — | FANI (starting point) | 80.0 |
+| 1 | (+) Adding back Net Tax Expense — since GloBE Income is calculated on a pre-tax basis, the current + deferred tax expense already deducted in FANI (€7.0m + €2.0m) is added back | +9.0 |
+| 2 | (−) Excluded Dividend Income — dividends received on the basis of ownership in another entity, excluded from GloBE Income under Article 3.2.1(b) | −5.0 |
+| 3 | (+) Disallowed Expenses — fines and illegal-payment-type expenses that must be added back into GloBE Income | +1.5 |
+| 4 | (−) Exclusion of Asymmetric Foreign Currency Gain — an asymmetric FX gain arising from the difference between the functional currency and the currency used for tax purposes, excluded from GloBE Income | −0.5 |
+| — | **GloBE Income (Country B, FY2025)** | **85.0** |
+
+Calculation: 80.0 + 9.0 − 5.0 + 1.5 − 0.5 = **€85.0 million**. This figure of €85.0m will be used directly as the denominator/basis for the ETR calculation in §G.6 and the Excess Profit calculation in §G.7 — the reader can trace this number through the remaining sections as well.
+
+## G.5 — Calculating Adjusted Covered Taxes (§G.5)
+
+Following the methodology described in Chapters 18–21, we now arrive at Adjusted Covered Taxes for Country B starting from Current Tax Expense. Because of Country B's tax-holiday incentive, actual current tax paid is small compared with the nominal 24% rate.
+
+| Item | Description | Amount (€m) |
+|---|---|---|
+| — | Current Tax Expense (as recorded in the financial accounts) | 7.0 |
+| (+) | Addition — additional tax accrual relating to a prior fiscal year | +0.5 |
+| (−) | Reduction — treating a Marketable Transferable Tax Credit as income (not as a tax reduction) | −0.8 |
+| (−) | Reduction — reversal of an Uncertain Tax Position | −0.3 |
+| — | **Adjusted Current Tax component** | **6.4** |
+| (+) | Deferred Tax Expense (as recorded in the financial accounts, €2.0m) — since Country B's applicable local tax rate is already below 15%, the Article 4.4.1 rate-cap recast is not required; the recorded figure is used | +2.0 |
+| — | **Adjusted Covered Taxes (Country B, FY2025)** | **8.4** |
+
+Calculation: 7.0 + 0.5 − 0.8 − 0.3 = 6.4 (current); 6.4 + 2.0 (deferred) = **€8.4 million**. Note that this figure's starting point is fully consistent with the €9.0m tax-expense add-back applied to FANI in §G.4 (current €7.0m + deferred €2.0m).
+
+## G.6 — Calculating the ETR (§G.6)
+
+Under Chapter 25, the jurisdictional Effective Tax Rate (ETR) = Adjusted Covered Taxes ÷ GloBE Income, calculated on a blended basis for all CEs in that jurisdiction (here there is only one CE in Country B, so the question of blending does not arise).
+
+**ETR (Country B) = €8.4m ÷ €85.0m = 9.88%**
+
+This rate of 9.88% is significantly below the minimum 15% rate — because of the effect of the tax-holiday-type incentive, Country B is clearly a "Low-Taxed Jurisdiction" in GloBE terms. This result is consistent with the Safe Harbour failure in §G.3 and forms the basis for the Top-up Tax calculation in §G.8.
+
+## G.7 — SBIE and Excess Profit (§G.7)
+
+The Substance-Based Income Exclusion (SBIE) described in Chapter 27 is made up of two components — Eligible Payroll Costs and the carrying value of Eligible Tangible Assets — each with the transition-schedule rate applied to it. The transition rates applicable for FY2025 are: payroll 9.6%, tangible assets 7.6%.
+
+| Component | Base (€m) | Rate (FY2025) | SBIE Contribution (€m) |
+|---|---|---|---|
+| Payroll costs | 40.0 | 9.6% | 3.84 |
+| Tangible assets (carrying value) | 50.0 | 7.6% | 3.80 |
+| **Total SBIE** | — | — | **7.64** |
+
+Under Chapter 26, Excess Profit = GloBE Income − SBIE:
+
+**Excess Profit (Country B) = €85.0m − €7.64m = €77.36 million**
+
+This Excess Profit figure will be multiplied by the Top-up Tax Percentage to determine the Jurisdictional Top-up Tax — below, in §G.8.
+
+## G.8 — Top-up Tax Percentage and Jurisdictional Top-up Tax (§G.8)
+
+Under Chapter 26, Top-up Tax Percentage = Minimum Rate (15%) − Jurisdictional ETR:
+
+**Top-up Tax % (Country B) = 15.00% − 9.88% = 5.12%** (precisely: 15.000% − 9.8824% = 5.1176%)
+
+Jurisdictional Top-up Tax = Top-up Tax % × Excess Profit:
+
+**Jurisdictional Top-up Tax (Country B) = 5.1176% × €77.36m ≈ €3.96 million**
+
+(This figure would normally include a prior-year adjustment on account of Additional Current Top-up Tax or QDMTT payable, but for simplicity this is taken as zero in this example.) This €3.96 million is Country B's entire GloBE liability — the question now is who will actually **collect** this liability: the QDMTT, the IIR, or the UTPR? This is determined in the next two sections.
+
+## G.9 — QDMTT Offset (§G.9)
+
+As described in Chapter 32, Country B has already enacted a Qualified Domestic Minimum Top-up Tax (QDMTT), similar to the GloBE methodology (with some local variations, such as calculation under local accounting standards and a somewhat different currency conversion method), giving it the right to claim its own top-up tax. Country B's liability calculated under its QDMTT legislation:
+
+**Country B's QDMTT liability = €3.16 million**
+
+Under the QDMTT credit mechanism, any amount of QDMTT collected in a jurisdiction is subtracted euro-for-euro from the Top-up Tax calculated under the IIR and UTPR, so that double collection does not occur on the same profit. So:
+
+| | Amount (€m) |
+|---|---|
+| Jurisdictional Top-up Tax (§G.8) | 3.96 |
+| (−) Collected locally by the QDMTT | 3.16 |
+| **Remaining Top-up Tax for IIR/UTPR** | **0.80** |
+
+Note: a small difference (€3.96m vs. €3.16m) has been assumed here between the QDMTT and GloBE calculations — in practice this often happens when the QDMTT's calculation basis (such as calculation in local currency, or certain timing differences) does not exactly match the GloBE calculation. The remaining **€0.80 million** must now be collected through the IIR (or the UTPR if needed) — that is the subject of §G.10.
+
+## G.10 — Application of the IIR (§G.10)
+
+The Income Inclusion Rule (IIR) described in Chapters 31 and 33 generally works on a "top-down" basis — the UPE claims Top-up Tax on the basis of the Allocable Share of its ownership in each low-taxed CE. But as seen in §G.2, in Country B's ownership chain there exists a **POPE** (Vantage Regional Holdings, Country C), made up of 75% ownership by the UPE and 25% by outside minority investors, and this POPE itself holds 100% of the CE in Country B.
+
+Under the **POPE Rule**: if a POPE is itself located in a jurisdiction subject to a Qualified IIR (here, Country C) and holds ownership (directly or indirectly) in a low-taxed CE, then that POPE — ahead of the UPE — must apply the IIR on the basis of its **own** ownership interest, so that the Allocable Share is not diluted on account of the minority ownership existing at the UPE level.
+
+The key point here is that Vantage Regional Holdings' (Country C) **own** ownership of Country B is 100% (the 25% minority in Country C's own shareholding structure does not affect its ownership of Country B). As a result:
+
+| Item | Amount |
+|---|---|
+| Country B's remaining Top-up Tax (§G.9) | €0.80m |
+| Vantage Regional Holdings' (C) ownership of Country B | 100% |
+| POPE's Allocable Share | 100% × €0.80m = **€0.80m** |
+| Amount collected under Country C's own Qualified IIR | **€0.80 million** |
+| UPE's (Country A) IIR liability (in respect of Country B) | €0 (reduced to nil because of full collection by the POPE) |
+
+Thus, in respect of Country B, the UPE in Country A bears no separate IIR liability — because under the principle of Article 2.1.2, once a POPE has fully collected the relevant Top-up Tax under its own Qualified IIR, a higher-level IIR (here, the UPE's) no longer applies to that same amount. This result stands in direct contrast to §G.11 — because there, the minority ownership sits not at the POPE level but **directly at the Low-Taxed CE level**, producing an entirely different outcome.
+
+## G.11 — Application of the UTPR (§G.11)
+
+We now turn to Country D — Vantage Trading (D) Pte Ltd, where **no GloBE legislation is in effect at all** (so there is no opportunity to absorb any top-up tax through a local QDMTT). Following the methodology described in Chapters 31 and 35, let us first briefly review Country D's own GloBE calculation (following the method of §G.4–§G.8, in summary form):
+
+| Item | Amount (€m) |
+|---|---|
+| GloBE Income | 40.0 |
+| Adjusted Covered Taxes | 2.0 |
+| ETR | 5.0% |
+| SBIE (Payroll €15m × 9.6% = 1.44; Tangible €10m × 7.6% = 0.76) | 2.2 |
+| Excess Profit (40.0 − 2.2) | 37.8 |
+| Top-up Tax % (15% − 5%) | 10% |
+| **Jurisdictional Top-up Tax** | **3.78** |
+
+Since Country D has no QDMTT, this entire €3.78m remains open for the IIR/UTPR. Now the ownership question: 60% of Country D is held directly by the UPE (Country A), and the remaining 40% is held by an entirely **outside-the-group** investor — and note that this time the minority ownership exists directly at the Low-Taxed CE level, unlike the POPE structure in §G.10.
+
+**Collection through the IIR:** the UPE's Allocable Share is limited by its actual ownership interest — that is, 60%:
+
+Allocable Share = 60% × €3.78m = **€2.268m ≈ €2.27m** — the Country A authority collects this amount under its Qualified IIR.
+
+Since the remaining 40% ownership is not held by any Constituent Entity or any Parent Entity of the Group (it is an entirely outside investor, who is not obligated to apply any Qualified IIR), this portion will **never** be collected through the IIR. It is precisely to fill this gap that the UTPR functions as a backstop:
+
+**UTPR Top-up Tax Amount = Jurisdictional Top-up Tax − the portion collected through the IIR = €3.78m − €2.268m = €1.512m ≈ €1.51 million**
+
+In this example it is assumed that UTPR legislation is in effect only in Country A and Country C (UTPR legislation has not yet come into effect in Country B and Country E, and Country D has no GloBE legislation at all). Under the UTPR allocation formula, each UTPR jurisdiction's share = 50% headcount ratio + 50% tangible-asset-value ratio (calculated only among the UTPR jurisdictions):
+
+| Jurisdiction | Headcount | Headcount Ratio | Tangible Assets (€m) | Asset Ratio | UTPR% (50/50 average) |
+|---|---|---|---|---|---|
+| Country A | 1,200 | 80.0% | 90 | 75.0% | **77.5%** |
+| Country C | 300 | 20.0% | 30 | 25.0% | **22.5%** |
+| Total | 1,500 | 100% | 120 | 100% | 100% |
+
+The €1.512m distributed through the UTPR:
+
+- Country A: 77.5% × €1.512m = **€1.17 million**
+- Country C: 22.5% × €1.512m = **€0.34 million**
+
+Adding these two figures gives €1.51 million, consistent with the UTPR Top-up Tax Amount above. This section highlights an important contrast with §G.10: when minority ownership sits at a **POPE level** (Country C, §G.10), the POPE's own 100% ownership interest allows the IIR to collect the full Top-up Tax, and the UTPR is not needed at all. But when minority ownership sits **directly at the Low-Taxed CE level** (Country D, §G.11), the IIR's Allocable Share is genuinely diluted, and this gap must be filled through the UTPR — and for the UTPR there is no limitation based on percentage of ownership; only the substance-based headcount-and-asset formula applies.
+
+## G.12 — GIR Summary (§G.12)
+
+Below is a brief overview of how Vantage Group's information would appear in the three sections of the GloBE Information Return (GIR) described in Chapter 51:
+
+**Section 1 — General Information:** the group structure of Vantage Industries Group N.V. (UPE, Country A), the name, jurisdiction, and ownership percentage of each CE (as per the table in §G.2), identification of Vantage Regional Holdings (C) as a POPE, and applicable elections — such as a QDMTT Safe Harbour election (which would apply if Country B claimed it; not done in this example because the QDMTT did not absorb the full Top-up Tax) and any De Minimis or transition-related election.
+
+**Section 2 — GloBE Calculations:** for the jurisdictions that passed the Safe Harbour (Countries A, C, E — §G.3), simplified reporting (showing the Simplified ETR and safe-harbour-elected status); and for the two jurisdictions that failed (Countries B, D), the full detailed calculation — GloBE Income, Adjusted Covered Taxes, ETR, SBIE, Excess Profit, Top-up Tax %, and Jurisdictional Top-up Tax (with each figure as per §G.4–§G.8, §G.11).
+
+**Section 3 — Allocation and Responsibility for Top-up Tax:** a complete mapping of which entity or jurisdiction will actually pay how much Top-up Tax —
+
+- Country B's €3.16m will be collected locally by Country B itself, through the QDMTT;
+- Country B's remaining €0.80m will be filed by Vantage Regional Holdings (Country C) under its POPE Qualified IIR;
+- Country D's €2.27m will be filed by Vantage Industries Group N.V. (Country A, UPE) under its Qualified IIR;
+- Country D's remaining €1.51m will be distributed through the UTPR between Country A (€1.17m) and Country C (€0.34m), according to the employee/asset formula.
+
+## G.13 — Final Summary Table (§G.13)
+
+The master table below brings together the complete Pillar Two picture for Vantage Industries Group's FY2025 — this single table represents the final result of every step in this appendix:
+
+| Country | Revenue (€m) | GloBE Income (€m) | Adjusted Covered Taxes (€m) | ETR | Jurisdictional Top-up Tax (€m) | Collecting Rule | Collecting Jurisdiction(s) and Amount |
+|---|---|---|---|---|---|---|---|
+| A (UPE) | 450 | 95.0 | 24.5 | 25.8% | — (no Top-up Tax of its own) | — | Collects IIR (€2.27m for D) + UTPR (€1.17m for D); no liability of its own |
+| B (Low-Taxed) | 300 | 85.0 | 8.4 | 9.9% | 3.96 | QDMTT + POPE-IIR | QDMTT (B, local): €3.16m; IIR (C, POPE): €0.80m |
+| C (POPE) | 200 | Safe Harbour passed | Safe Harbour passed | 22.1%* | — (no Top-up Tax of its own) | — | Collects IIR (none for D) + UTPR (€0.34m for D); no liability of its own |
+| D (Low-Taxed, no legislation) | 180 | 40.0 | 2.0 | 5.0% | 3.78 | IIR + UTPR | IIR (A): €2.27m; UTPR (A €1.17m + C €0.34m = €1.51m) |
+| E | 110 | Safe Harbour passed | Safe Harbour passed | 23.8%* | — | — | Not applicable |
+| **Total** | **1,240** | — | — | — | **7.74** | — | — |
+
+*The ETR shown for Country C and E here is the Simplified ETR (CbCR-based), because passing the Safe Harbour meant a full GloBE ETR calculation was not required.
+
+In summary: Vantage Industries Group's total Pillar Two exposure for FY2025 is **€7.74 million** (Country B's €3.96m + Country D's €3.78m), collected through four different mechanisms — Country B's own QDMTT (€3.16m), Country C's POPE-IIR (€0.80m), Country A's UPE-IIR (€2.27m), and the UTPR distributed between Country A and Country C (€1.17m + €0.34m = €1.51m). This same set of figures — starting from the €80.0m FANI, through the €85.0m GloBE Income of §G.4, the €8.4m Adjusted Covered Taxes of §G.5, the 9.88% ETR of §G.6, the €77.36m Excess Profit of §G.7, the €3.96m Top-up Tax of §G.8, and the QDMTT/IIR/UTPR allocation of §G.9–§G.11 — forms an unbroken chain linking every calculation methodology from Part 2 through Part 10 of the book into a single realistic worked example.
 
 <!-- lang:bn -->
 

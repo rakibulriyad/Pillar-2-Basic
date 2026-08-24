@@ -13,7 +13,168 @@ slug: "ch-15-international-shipping-income"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 15 — International Shipping Income
+
+> **In this chapter:** why income from ship operations is excluded from the GloBE Income or Loss calculation, which activities fall within that exclusion, how the 50% cap on ancillary income works, the management-location condition, the rules for allocating costs, and the relationship between this exclusion and Covered Taxes and domestic Tonnage Tax regimes are discussed.
+> **Relevant Article:** 3.3
+
+## 15.1 Why Shipping Was Set Apart
+
+The international shipping industry has, for decades, operated under a distinct tax philosophy set apart from the general corporate income tax system. Under Article 8 of the OECD and UN Model Tax Conventions, profits from operating ships or aircraft are generally taxable in the state where the enterprise's place of effective management is located — not in the source state or in the states through which the voyage passes. The reason for this long-standing international consensus is that shipping is inherently a multi-country, highly mobile activity — a single ship can cross multiple territorial waters in one day, and allocating and taxing income on a port-by-port or territorial-water basis is practically impossible and administratively far too complex.
+
+Recognising this reality, many of the world's major shipping-centric countries (Norway, the Netherlands, the United Kingdom, Greece, Singapore, Hong Kong, and others) have built special regimes for shipping in their respective income tax systems — generally a **Tonnage Tax** (a flat tax determined based on a ship's carrying capacity rather than actual profit). Under these regimes, there is no direct proportional relationship between actual accounting profit and tax paid, which means that bringing this income into the standard Effective Tax Rate (ETR) calculation framework could produce a distorted or meaningless result.
+
+The drafters of the GloBE Model Rules, recognising this reality, decided to entirely exclude **International Shipping Income** and certain related ancillary income from the GloBE Income or Loss calculation. Article 3.3 sets out the rules for this exclusion. There are two purposes: first, to avoid a conflict between the GloBE rules and the long-standing international tax philosophy (the Article-8-based principle); second, to prevent the artificially low ETR arising from special regimes like Tonnage Tax from unfairly triggering Top-up Tax under Pillar Two. This exclusion is not a tax relief or an incentive — it is a scope-limiting rule that applies to genuine international ship-operating activities meeting specified conditions.
+
+## 15.2 The Definition and Components of International Shipping Income
+
+Under Article 3.3.1, **International Shipping Income** refers to net income arising from the following activities, provided that the transport must take place between two different countries or between a country and international waters (that is, purely domestic or inland waterway transport does not fall within this definition):
+
+- Transport of passengers or cargo by ship, where the ship may be owned by the enterprise, leased, or otherwise held under a right of use;
+- International transport under a **slot-chartering** arrangement — that is, transporting cargo by purchasing space on another operator's ship without owning one's own ship;
+- Leasing out a fully equipped, crewed, and supplied ship for international transport under charter (of a time charter or voyage charter nature);
+- Leasing a ship on a **bareboat charter** basis, but only where the recipient is an entity that is not a member of the same MNE Group, or that will itself use the ship in activities that qualify for this exclusion — an anti-abuse restriction applies here;
+- Income share from participation in a pool, joint venture, or international operating agency formed for ship operations;
+- Profit from the sale of a ship used in international transport, provided the ship was held by the relevant entity for more than a specified period (more than one year under the Model Rules) and was used primarily in international transport.
+
+This list is exhaustive — that is, any activity not mentioned here, however ship-related it may seem, does not automatically fall within this definition. For example, purely domestic river or coastal transport (cabotage) within a single country, land-based port terminal operations, or cargo-handling services — none of these are part of the core definition, although some portions of them may come within the scope of ancillary income discussed in the next section.
+
+## 15.3 Qualified Ancillary International Shipping Income and the 50% Cap
+
+Alongside core ship-operating activities, shipping enterprises often carry out certain ancillary activities that are an integral part of the main business, even though they are not strictly "transport." Article 3.3.2 identifies such activities as **Qualified Ancillary International Shipping Income** and grants the same exclusion benefit. This generally includes:
+
+- Leasing containers, maintenance, and container management related to ship transport;
+- Providing shore-based services necessary for international ship transport, such as supervision of cargo loading and unloading, document processing;
+- Providing administrative or technical services to another shipping enterprise for ship operations;
+- Profit from ship sales that do not meet the holding-period condition but are a regular part of the business;
+- Investment income that is an integral part of the core ship-operating business (for example, interest on funds reserved for the purchase of ships).
+
+There is, however, an important restriction on this ancillary income: a Constituent Entity's Qualified Ancillary International Shipping Income cannot exceed 50% of its International Shipping Income in any Fiscal Year. If actual ancillary income exceeds this cap, the excess portion will not be treated as "qualified" and will be included in the general GloBE Income or Loss calculation — that is, it will enter the ETR calculation.
+
+The purpose of this 50% cap is clear: there is a reasonable expectation that the larger the core ship-operating activity, the larger the ancillary activity can be too, but if ancillary income becomes abnormally large relative to core income, it is likely in fact a different, distinct business — one that should not be "tucked into" the shipping exclusion. This cap is therefore a guardrail against expanding the scope of the exclusion through tax planning.
+
+## 15.4 The Location Test for Strategic and Commercial Management
+
+There is an additional condition for obtaining the exclusion benefit under Article 3.3 that is often given too little attention: the **Strategic Management** (such as decisions on buying and selling ships, fleet-expansion planning, capital investment) and **Commercial Management** (such as route determination, booking, fare setting, crew hiring and management) of the relevant ships must actually be conducted from within the country where the relevant Constituent Entity is located.
+
+The rationale behind this condition is to prevent claiming the exclusion merely by showing a ship's registration (flag) or a holding company's place of incorporation — what matters is where actual decision-making and management activity genuinely occurs. In practical terms, if an entity owns the ship itself but actual operating decisions are made by a management company located in another country, the question arises — at which entity's level should this condition be tested, and is it being met. This test is essentially consistent with the traditional "place of effective management" concept, which is also used in Article 8 of many bilateral tax treaties.
+
+In practice, an MNE Group needs to keep documentation ready to test this condition — such as information proving the location of board meetings, the location of activity of key decision-making officers, the location of staff conducting chartering and booking activities, and the like — so that, if any tax authority inquires, it can be shown that the strategic and commercial management of the relevant ships is actually conducted from the claimed jurisdiction.
+
+## 15.5 Allocation of Related Costs
+
+Alongside income, costs related to this income must also be excluded from the GloBE Income or Loss calculation — otherwise, if income alone is excluded while costs are retained, the remaining (included) income would be artificially reduced and the ETR would be distorted. Article 3.3.4 sets out the rules for this cost allocation.
+
+The rule operates at two levels:
+
+1. **Directly related costs:** costs that are directly and exclusively related to producing International Shipping Income or Qualified Ancillary International Shipping Income (such as fuel costs, crew wages, ship maintenance, port fees) are excluded directly against that income. There is no allocation issue here — the cost is excluded together with the income for which it was incurred.
+
+2. **Joint or indirect costs:** costs incurred simultaneously for both excludable shipping/ancillary income and included (general GloBE) income (such as central head-office administrative costs, IT infrastructure, general management salaries) cannot be directly attributed to any single income source. In this case, the cost must be allocated based on a revenue ratio: the ratio of revenue from excludable activities to revenue from included activities is determined, and the joint cost is divided in that ratio.
+
+This second rule is practically important, because the head-office costs of most shipping groups are never kept separated as "only for shipping" or "only for other business." The numerical example in Section 15.8 shows this allocation method in detail.
+
+## 15.6 What Happens to the Related Covered Taxes When This Income Is Excluded
+
+When International Shipping Income and Qualified Ancillary International Shipping Income are excluded from the GloBE Income or Loss calculation, any tax expense paid or payable on this income cannot be retained in the Adjusted Covered Taxes calculation. This adjustment is a necessary mirror adjustment to Article 3.3's income-exclusion rule — although technically it is set out in detail in the chapter on Covered Taxes adjustments (in the provisions related to Article 4.1 and 4.3).
+
+The reason is simple: the ETR is calculated by dividing Adjusted Covered Taxes by GloBE Income (Covered Taxes ÷ GloBE Income). If shipping income is excluded from the denominator but the tax paid on shipping income is retained in the numerator, the ETR would be artificially inflated — the tax paid on an entirely different, excluded income would end up being counted as a "credit" against the remaining (actually taxable) income. As a result, even if a jurisdiction's actual general business faces a low tax rate, that low rate could be masked by tax collected from shipping-related Tonnage Tax, and Top-up Tax could be shown as low or zero — which is contrary to GloBE's core purpose.
+
+For this reason, tax that can be directly identified as related to shipping or ancillary income must be excluded directly; and where there is joint tax expense (for example, where multiple income sources are mixed in a single consolidated tax return), it must be divided using a similarly reasonable allocation method (generally in proportion to underlying income) into excludable and included portions. The example in Section 15.8 shows this process in numbers.
+
+## 15.7 Relationship with the Tonnage Tax Regime
+
+**Tonnage Tax** is an alternative corporate tax regime in which taxable income is not determined based on actual accounting profit — rather, it is calculated using a ship's net tonnage (capacity) and a fixed rate per ton (generally on a per-day basis). As a result, a ship-operating company's tax liability remains roughly the same even if it earns extraordinary profit, and it must pay a minimum tax even if it makes a loss. This type of regime has long been in effect in many countries, including Norway, the Netherlands, the United Kingdom, Greece, Cyprus, Singapore, and Hong Kong.
+
+Article 3.3's International Shipping Income exclusion naturally aligns with the Tonnage Tax regime, but the two are not synonymous and are not dependent on each other. A few important points need to be kept in mind here:
+
+- The exclusion under Article 3.3 is a **GloBE-specific, independent rule** — for it to apply, the relevant Constituent Entity does not need to be domestically registered or elected under a Tonnage Tax regime. If a ship-operating company remains under the general corporate tax regime but still meets the conditions of Article 3.3.1 and 3.3.2, its income will still be excluded.
+- Conversely, income under a domestic Tonnage Tax regime does not automatically meet the definition under Article 3.3 — if the relevant activity is not actually international transport (for example, purely domestic waterway transport that falls under Tonnage Tax in some countries but remains outside the definition of Article 3.3), that income will remain in GloBE Income or Loss, even though it was domestically under tonnage-based tax.
+- The practical outcome is — for MNE Groups whose ship-operating activities are under a Tonnage Tax regime, Article 3.3 often provides relief, because the artificially low ETR arising from Tonnage Tax becomes irrelevant for shipping income — that income itself leaves the calculation. But at the same time, the group must be careful to check whether all income that seems "shipping-related" actually falls within the narrow definitions of Article 3.3.1 or 3.3.2, because the definition under domestic Tonnage Tax law can often be broader or narrower than GloBE's definition.
+
+## 15.8 A Numerical Example
+
+The example below is for a Constituent Entity "X Shipping Limited," located in Jurisdiction A, whose strategic and commercial management is actually conducted from Jurisdiction A (thus meeting the condition in Section 15.4).
+
+**Step 1 — Revenue and direct profit:**
+
+| Type of Income | Revenue (USD) | Direct Cost (USD) | Direct Profit (USD) |
+|---|---|---|---|
+| Core international shipping activity (Art 3.3.1) | 120,000,000 | 70,000,000 | 50,000,000 |
+| Ancillary — container leasing | 25,000,000 | 10,000,000 | 15,000,000 |
+| Ancillary — qualified investment income | 15,000,000 | 0 | 15,000,000 |
+| Other business (port terminal services, not ancillary) | 40,000,000 | 20,000,000 | 20,000,000 |
+| **Total** | **200,000,000** | **100,000,000** | **100,000,000** |
+
+**Step 2 — Allocation of joint head-office costs (Article 3.3.4):**
+
+Head-office indirect costs = $10,000,000, allocated in the ratio of revenue (80% : 20%) between two groups — shipping + ancillary (total revenue $160,000,000) and other business (total revenue $40,000,000):
+
+| Group | Revenue Share | Allocated Joint Cost |
+|---|---|---|
+| Shipping + Ancillary (total) | 160,000,000 (80%) | 8,000,000 |
+| Other business | 40,000,000 (20%) | 2,000,000 |
+
+Within the shipping+ancillary group, the $8,000,000 is again allocated in proportion to their own revenue (shipping revenue $120m vs. ancillary revenue $40m = 75% : 25%): $6,000,000 to shipping and $2,000,000 to ancillary income.
+
+**Step 3 — Net income after cost allocation:**
+
+| Type of Income | Net Income (USD) |
+|---|---|
+| International Shipping Income (50m − 6m) | 44,000,000 |
+| Candidate ancillary income (30m − 2m) | 28,000,000 |
+| Other business (20m − 2m) | 18,000,000 |
+| **Total net profit** | **90,000,000** |
+
+**Step 4 — Applying the 50% ancillary cap (Article 3.3.2):**
+
+Ancillary income cap = 50% of International Shipping Income = 50% × 44,000,000 = **22,000,000**. Actual candidate ancillary income ($28,000,000) exceeds this cap, so:
+
+- Qualified Ancillary International Shipping Income = **22,000,000** (excludable)
+- Excess ancillary income = 28,000,000 − 22,000,000 = **6,000,000** (not excludable, included in general GloBE Income)
+
+**Step 5 — Summary of exclusion from and inclusion in GloBE Income or Loss:**
+
+| Item | Amount (USD) | Status in GloBE Income |
+|---|---|---|
+| International Shipping Income | 44,000,000 | Excluded |
+| Qualified Ancillary International Shipping Income | 22,000,000 | Excluded |
+| Excess ancillary income (above the 50% cap) | 6,000,000 | Included |
+| Other business | 18,000,000 | Included |
+| **Total excluded** | **66,000,000** | — |
+| **Total included (GloBE Income)** | **24,000,000** | — |
+
+**Step 6 — Covered Taxes adjustment (Section 15.6):**
+
+In Jurisdiction A, Tonnage Tax is applied to ship operations and ancillary income (combined base of $72,000,000 — that is, 44m + 22m + 6m), calculated based on ship tonnage at a flat $1,200,000 (not proportional to profit). Tax of $4,500,000 has been paid on the $18,000,000 income from other business at the general corporate tax rate of 25%.
+
+The $1,200,000 of Tonnage Tax is allocated between the excludable and included portions in proportion to the underlying income (66m : 6m, i.e., 91.67% : 8.33% of the 72m base):
+
+| Tax Item | Total Tax (USD) | Excluded (related to excluded income) | Included (related to included income, retained in Adjusted Covered Taxes) |
+|---|---|---|---|
+| Tonnage Tax (shipping + ancillary base) | 1,200,000 | 1,100,000 | 100,000 |
+| General corporate tax (other business) | 4,500,000 | 0 | 4,500,000 |
+| **Total** | **5,700,000** | **1,100,000** | **4,600,000** |
+
+**Step 7 — ETR calculation:**
+
+- GloBE Income = $24,000,000
+- Adjusted Covered Taxes = $4,600,000
+- Jurisdictional ETR = 4,600,000 ÷ 24,000,000 = **19.17%**
+
+This ETR is above the 15% Minimum Rate, so no Top-up Tax liability arises for Jurisdiction A. Notably, if Article 3.3 and its Covered Taxes adjustment were not applied and the full $5,700,000 of tax and only $24,000,000 of income were incorrectly used as the denominator, the ETR would incorrectly come out to 5,700,000 ÷ 24,000,000 = 23.75% — which would overstate the actual tax rate and could mask a potentially genuine low-tax situation. This difference itself demonstrates the importance of the adjustment discussed in Section 15.6.
+
+## Summary
+
+Article 3.3 entirely excludes income from international ship transport from the GloBE Income or Loss calculation, because this income is taxable at the place of effective management under long-standing international tax philosophy and often falls under profit-neutral special regimes like Tonnage Tax, which are not compatible with the standard ETR calculation. The definition of the exclusion is narrow and exhaustive (Article 3.3.1) — including only international (cross-country) transport, chartering, pool participation, and ship sales, excluding domestic transport. Certain ancillary activities (container leasing, shore-based services, related investment income) receive the same exclusion as Qualified Ancillary International Shipping Income, but this is capped at 50% of core shipping income — the excess reverts to general GloBE Income. To obtain the exclusion, the strategic and commercial management of the ships must actually be conducted from the relevant entity's jurisdiction. Direct costs and (revenue-ratio-allocated) joint costs related to this income are similarly excluded, and the related tax expense must also be excluded from Adjusted Covered Taxes — otherwise the ETR would be artificially distorted. This rule does not depend on a domestic Tonnage Tax election; it is an independent GloBE provision with its own conditions.
+
+## Common Mistakes
+
+- **Treating all "shipping-related" income as excludable:** port terminal operations, cargo handling, or purely domestic waterway transport fall outside the definition in Article 3.3.1 — these remain in general GloBE Income, even if included under domestic Tonnage Tax law.
+- **Ignoring the 50% ancillary cap:** assuming all ancillary income is excludable, and not adding the excess portion back into general income — this understates GloBE Income and produces an incorrect ETR.
+- **Not verifying the location condition for strategic and commercial management:** claiming the exclusion based only on ship ownership or place of incorporation, without verifying and documenting where actual management decisions are made.
+- **Not allocating joint costs:** retaining head-office or general administrative costs entirely against included (non-shipping) income, without allocating a share of them to excludable activities in proportion to revenue — this artificially reduces included GloBE Income.
+- **Forgetting the Covered Taxes adjustment:** even after excluding shipping income, leaving the tax paid on it (Tonnage Tax or otherwise) in Adjusted Covered Taxes, which artificially inflates the ETR and could mask an actual low-tax situation.
+- **Treating a Tonnage Tax election as a precondition for the GloBE exclusion:** applying Article 3.3 does not require domestic registration under a Tonnage Tax regime, and conversely, income under Tonnage Tax does not automatically meet GloBE's definition — the two tests must be performed separately.
 
 <!-- lang:bn -->
 

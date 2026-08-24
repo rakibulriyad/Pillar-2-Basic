@@ -12,7 +12,71 @@ slug: "ch-48-transitional-utpr-safe-harbour"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 48 — The Transitional UTPR Safe Harbour
+
+> **In this chapter:** if the minimum nominal tax rate in the UPE's jurisdiction is above a specified threshold, then, for a limited period, the **UTPR** top-up tax for that jurisdiction is deemed zero — this chapter discusses the conditions, duration, and post-expiry situation for this temporary relief.
+> **AG:** Dec 2023
+
+## 48.1 The Minimum Nominal Tax Rate Condition of the UPE's Country
+
+The **Transitional UTPR Safe Harbour** was introduced in the OECD's December 2023 Administrative Guidance essentially to solve a specific, narrow but practically important question: should the UTPR be applied to the jurisdiction in which an MNE Group's **Ultimate Parent Entity (UPE)** is located?
+
+Under the general rule, the UTPR is GloBE's "backstop" mechanism — if the top-up tax of a low-taxed jurisdiction cannot be collected under another rule (the IIR), the remaining jurisdictions collect a portion of that top-up tax by reallocating it among themselves. The problem is, if the UPE's own jurisdiction itself is low-taxed, or is not adequately taxed by GloBE's standards (for example, its effective tax rate might appear below 15% due to some CFC-type regime), then, in theory, other jurisdictions could impose UTPR against the UPE's own country. This created a transitional difficulty in practice for many large economies, because their domestic tax systems are not yet fully consistent with GloBE.
+
+To resolve this problem, the AG introduced a test called the **minimum nominal tax rate** condition. Under this condition, if the UPE's jurisdiction's general corporate income tax rate (the nominal or headline statutory rate) is at least 20%, then the UTPR top-up tax for that jurisdiction is deemed to be zero — even if that jurisdiction's actual effective tax rate, as computed under GloBE, falls below 15%. What matters here is that this test is based on the nominal or statutory rate, not the effective tax rate — that is, the actual amount of tax is irrelevant for this condition; only the headline rate written in the law is examined.
+
+This condition is clearly built with a specific reality in mind — for large economies whose headline corporate rate is above 20% (such as a 21% federal rate), but whose existing international tax regime (such as a CFC-type minimum tax regime) does not yet meet the standard of a "Qualified IIR" under GloBE, this Safe Harbour creates "breathing room." During this time, other jurisdictions cannot apply the UTPR against them to collect additional tax, until that country reforms its own tax system or until this Safe Harbour's term expires.
+
+## 48.2 Applicable Period and Expiry
+
+This Safe Harbour is "Transitional" in name — that is, it is not a permanent arrangement, but applies for a specific, limited period. This time limit is determined by a combination of two conditions:
+
+1. This Safe Harbour applies to fiscal years that **begin on or before 31 December 2025**, and
+2. that fiscal year **does not end after 31 December 2026**.
+
+For a typical calendar-year MNE Group, this means the Safe Harbour will effectively apply to the 2024 and 2025 fiscal years. It will no longer apply to any fiscal year beginning in 2026 — and even if an MNE Group's fiscal year begins in 2025 but, because of an extended (e.g., longer) accounting period, ends after 31 December 2026, then, since the second condition is not met, this relief will not be available for that year.
+
+An important reality must be clearly understood here: this Safe Harbour will **automatically expire after 2025**. This is not a permanent exemption, and no announcement has yet been made to extend it or make it permanent. For practitioners, this means that long-term tax planning should not be based on this Safe Harbour; it was designed only to provide temporary administrative relief during the transitional period, until domestic tax reforms or QDMTT-type arrangements become established.
+
+## 48.3 Applies Only in the UPE Jurisdiction
+
+The scope of this Safe Harbour is defined very narrowly — it applies **only to the jurisdiction in which the UPE is located.** This is an important limitation and is often misunderstood.
+
+This means that this Safe Harbour provides no protection for any other low-taxed jurisdiction of the MNE Group — the IIR and UTPR will continue to apply normally to those jurisdictions. Even if an Intermediate Parent Entity (IPE) is located in a country with a nominal tax rate above 20%, this Safe Harbour will still not apply to that country — because this benefit is reserved solely for the UPE's jurisdiction.
+
+To be even clearer, this Safe Harbour does not disable the UTPR for all of the group's other jurisdictions. If the IIR fails to collect top-up tax for a low-taxed subsidiary jurisdiction of the group, the ordinary UTPR rules for allocating that top-up tax will still apply to other jurisdictions — only that one specific calculation input, where the UPE's own jurisdiction's top-up tax is deemed zero in the UTPR formula, falls under this Safe Harbour.
+
+To understand this narrow scope, it should be remembered that the UTPR allocation key is calculated separately for each jurisdiction — based on the number of employees and tangible assets. This Safe Harbour affects only one input of that single jurisdiction-based calculation (the UPE jurisdiction's top-up tax), not the entire UTPR mechanism.
+
+## 48.4 Which MNEs Actually Benefit
+
+In practice, the MNE Groups that benefit most from this Safe Harbour are those whose UPE is located in a jurisdiction where the headline corporate tax rate is above 20%, but whose existing international tax regime is not yet recognized as a "Qualified IIR" in the sense of GloBE. The most-discussed example of this is jurisdictions whose federal or national corporate tax rate is around 21% — that is, exceeding the 20% threshold — but whose CFC-type minimum tax regime (such as a GILTI-type regime) does not directly meet the standard of a Qualified IIR under the GloBE Model Rules, due to differences in blending, rate, and credit mechanisms.
+
+In such situations, if this Safe Harbour did not exist, subsidiaries in other countries could, in theory, apply the UTPR against the UPEs of these jurisdictions — which had been the subject of much political and practical discussion. This Safe Harbour has temporarily removed that risk, until that country amends its own tax system or the term expires.
+
+In addition, some medium-sized economies whose headline rate is above 20% but who keep the effective rate low through extensive tax incentives or preferential regimes, may also see their UPE-based groups benefit from this Safe Harbour. However, caution is needed here — UPEs in jurisdictions whose headline rate is itself below 20% (for example, many classic low-tax or holding jurisdictions) will not benefit from this Safe Harbour at all — the UTPR will apply to them under the normal rules.
+
+Practical advice for MNEs is to verify their UPE jurisdiction's headline statutory rate in each reporting year, because this single piece of information determines whether this Safe Harbour applies to the entire group.
+
+## 48.5 What Happens After Expiry — Preparing for the Next Phase
+
+Since this Safe Harbour is clearly time-limited and does not apply to fiscal years beginning after 2025, MNE Groups and their tax departments need to start preparing now for the situation after it expires. Several important aspects of this preparation are discussed below.
+
+First, MNE Groups should not assume that permanent protection from the UTPR will exist for the UPE jurisdiction. After the term expires, if the UPE jurisdiction's tax system still does not meet GloBE's standards, the UTPR may become applicable against that jurisdiction as well — which will affect the group's overall tax liability and will also increase the compliance responsibilities of the subsidiary jurisdictions bearing the allocated UTPR liability.
+
+Second, it is necessary to regularly monitor the progress of tax reform in the relevant jurisdictions during this period — in particular, whether that country's CFC or minimum tax regime is being transformed into a GloBE-consistent framework (such as a Qualified IIR or a Qualified Domestic Minimum Top-up Tax). If such a transformation occurs, the UTPR risk may nearly disappear even after the term expires, because the top-up tax will then be collected through another mechanism.
+
+Third, MNEs should now prepare their GloBE compliance infrastructure so that a full GloBE Information Return and the related data collection process for the UPE jurisdiction as well are operational from 2026 onward — rather than relying solely on another Safe Harbour (such as the Transitional CbCR Safe Harbour or a Permanent Safe Harbour) — so that no compliance gap is created by the expiry of this specific Safe Harbour.
+
+Fourth, the board and senior management need to be clearly informed of this time limit, so that financial planning and budgeting for possible additional tax liability or reporting complexity from 2026 onward can be done in advance. The expiry of this Safe Harbour is not a sudden event — it was designed from the outset with a defined time limit, so there is no reasonable justification for being unprepared for it.
+
+## Summary
+
+The Transitional UTPR Safe Harbour is a time-limited arrangement under which, if the headline corporate tax rate of the UPE's jurisdiction is at least 20%, the UTPR top-up tax for that jurisdiction is deemed zero. This benefit applies only to fiscal years that begin by 31 December 2025 and do not end after 31 December 2026, and it applies only to the UPE jurisdiction — not to any other IPE or low-taxed jurisdiction of the group. It mainly benefits MNEs of large economies whose headline rate is high but whose existing international tax regime does not yet meet the Qualified IIR standard. This Safe Harbour will automatically expire after 2025, so MNE Groups need to undertake compliance and financial preparation for the post-expiry situation now.
+
+## Common Mistakes
+
+A common misconception is to think of this Safe Harbour as a general UTPR exemption for all of the group's low-taxed jurisdictions — in reality, it applies only to the UPE's own jurisdiction, not to any other subsidiary or IPE jurisdiction. A second mistake is confusing the nominal and effective tax rates — this condition depends entirely on the headline statutory rate, no matter how low the actual effective rate may be. A third mistake is treating this Safe Harbour as permanent and making long-term plans, when it clearly does not apply to fiscal years beginning after 2025. A fourth mistake is treating either one of the two fiscal-year conditions (start date and end date) as sufficient — for extended or unusual accounting periods, if the second condition (not ending after 31 December 2026) is not met, the Safe Harbour will not apply, even if the first condition is met. A fifth mistake is misunderstanding this Safe Harbour as fully exempting the group from the UTPR allocation key calculation altogether, when in fact it only corrects one specific input (the UPE jurisdiction's top-up tax), and does not disable the entire mechanism.
 
 <!-- lang:bn -->
 

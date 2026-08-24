@@ -13,7 +13,97 @@ slug: "ch-17-flow-through-allocation"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 17 — Income Allocation for Flow-Through Entities
+
+> **In this chapter:** since a Flow-Through Entity itself is generally not a taxpayer, where its GloBE Income or Loss "stays" — with itself, with a PE, or with its owner — must be determined by following a specific order; this chapter discusses that allocation order, the distinction between Tax Transparent and Reverse Hybrid situations, and how the share of an owner outside the Group stays outside the calculation.
+> **Relevant Article:** 3.5
+
+## 17.1 The Allocation Order: PE → Owner → Residual
+
+A **Flow-Through Entity** is an entity that is treated as "transparent" for tax purposes in the jurisdiction of its formation — that is, the entity itself does not pay tax; rather, its income is treated as directly taxable in the hands of its owner. When accounting for such an entity under the GloBE rules, a natural question arises: since the entity itself is not a "taxpayer," to which Constituent Entity's account will its GloBE Income or Loss be added? Article 3.5 answers this question, and it does so in a specific order.
+
+This order is easiest to understand in three steps:
+
+1. **First step — allocation to a PE:** if the Flow-Through Entity conducts part of its business through a Permanent Establishment (PE), the income or loss related to that PE is first allocated to the PE under the rule of Article 3.4. This allocation happens before the ownership-ratio calculation, because the PE itself is treated as a separate Constituent Entity, and its income enters the ETR calculation of its own jurisdiction.
+
+2. **Second step — allocation to the owner:** any remaining income or loss after allocation to the PE is divided among the owners according to the Flow-Through Entity's ownership structure. The basis for this division is the proportionate ownership interest, and each owner takes that share as part of its own GloBE Income or Loss — provided the owner is itself a Constituent Entity and the relevant conditions are met.
+
+3. **Third step — the residual stays with the entity itself:** if, for some reason, income cannot "flow" to the owner — for example, if the owner's jurisdiction does not view the Flow-Through Entity as transparent — then that portion remains with the entity itself as its own GloBE Income or Loss. This is the **Reverse Hybrid Entity** situation, discussed in detail in Section 17.3.
+
+It is important to remember this three-step order, because in practice analysts often divide income directly in the ownership ratio, skipping the separate allocation for the PE — which produces an incorrect result. A PE's income must always be separated out first, and then the remainder is calculated based on ownership-based allocation.
+
+## 17.2 Where the Income of a Tax Transparent Entity Goes
+
+When a Flow-Through Entity is treated as transparent both in the jurisdiction of its own formation and in the jurisdiction of its owner, it is called a **Tax Transparent Entity** — that is, it is "seen" from both directions that the income actually belongs to the owner. This is the simplest and most common case.
+
+In this situation, under Article 3.5, the Flow-Through Entity's GloBE Income or Loss (the residual remaining after allocation to a PE) is allocated directly to its owner Constituent Entity or Entities, in proportion to their ownership. For example, if 60% ownership of a partnership is held by a Constituent Entity of a Group, then 60% of that partnership's GloBE Income will be added as part of that Constituent Entity's own GloBE Income, exactly as though it had earned that income directly itself.
+
+An important point here is that this allocation happens only at the attribution level; it does not mean that the partnership is dissolved as a Constituent Entity. In GloBE's accounting, the partnership still remains a separate Constituent Entity (if it is part of the Group), but the level of its income and loss "rises up" into the owner's ETR calculation. As a result, in practice there is no need to calculate a separate ETR at the partnership level — instead, its income is added into and calculated within the owner's jurisdiction's ETR. Similarly, the related Covered Taxes are also assumed to be allocated to the owner on the same proportionate basis, although the detailed rules of that allocation apply in parallel with the income tax computation.
+
+In practice, the most common application of this rule is seen where a partnership or LLC is used for investment in a holding structure, and all parties above and below that entity view it as transparent — for example, a US LLC that is transparent through a "check-the-box" election or inherently, and whose sole owner also views it as transparent.
+
+## 17.3 The Income of a Reverse Hybrid Entity Stays with Itself
+
+A **Reverse Hybrid Entity** is a Flow-Through Entity that is treated as transparent in the jurisdiction of its own formation, but is treated as opaque in the jurisdiction of its owner — that is, "viewed" from the owner's country, the entity itself appears to be a taxpayer with its own separate legal and tax existence. As the name suggests, this is an "inverted" hybrid situation — in an ordinary hybrid mismatch, an entity that is transparent in the owner's eyes remains opaque in its own country, but here the situation is reversed.
+
+Under Article 3.5, when an owner does not treat the Flow-Through Entity as transparent under the rules of its own jurisdiction, the income or loss falling to that owner's share does not "flow" to it — instead, it remains the Flow-Through Entity's own GloBE Income or Loss. As a result, that entity must be treated, for GloBE calculation purposes, as an independent Constituent Entity in its own jurisdiction, and its ETR is determined in that jurisdiction — exactly as it would be for an ordinary opaque company.
+
+The practical significance of this rule is important: it ensures that income does not get lost in some kind of void — "neither with the owner, nor with the entity." If, due to some jurisdictional mismatch, income does not reach the hands of the owner, the GloBE rule ensures that the income is at least captured in the entity's own account, so that it does not fall entirely outside the ETR calculation.
+
+Notably, the same Flow-Through Entity can receive different treatment with respect to multiple owners simultaneously — some owners' jurisdictions may view it as transparent (so that portion goes to the owner under the rule in Section 17.2), while other owners' jurisdictions may view it as opaque (so that portion remains with the entity itself under the Reverse Hybrid rule). In such a mixed situation, GloBE Income or Loss must be divided proportionately, and the correct rule applied separately to each portion.
+
+## 17.4 The Share of an Owner Outside the Group
+
+In practice, the ownership of many Flow-Through Entities is not entirely confined to the same MNE Group — rather, some part of it is held by outside investors, joint-venture partners, or individual owners who are not Constituent Entities of the Group. Such an owner can generally be called an "owner outside the Group."
+
+Under Article 3.5, the portion of a Flow-Through Entity's GloBE Income or Loss that is allocable to such an owner who is not a Constituent Entity of the Group is excluded (removed/reduced) from the Flow-Through Entity's GloBE calculation. The rationale is simple: the GloBE rule seeks only to ensure a minimum tax on the income of the Group's own Constituent Entities; the share of an owner outside the Group is not part of the Group's income, so there is no basis for bringing it within the Top-up Tax calculation.
+
+What actually happens as a result is this: the Flow-Through Entity's total GloBE Income (after allocation to a PE) is first "notionally" divided among all owners in proportion to ownership, then the portion falling to the owner outside the Group is entirely excluded — it goes to no Constituent Entity, and is not reflected at any level of the GloBE calculation. The remaining portion, which falls to Group Constituent Entity owners, is allocated to them under the normal rule.
+
+This rule is particularly important in practice for joint-venture structures, where the ownership of a partnership or LLC is divided among multiple parties who are not all part of the same MNE Group. One caution is needed here: "outside the Group" does not simply mean "not a related party," but specifically requires checking whether that entity is included as a Constituent Entity within the Group's consolidation. A Joint Venture itself may be treated under a different set of special rules under GloBE (discussed in a separate chapter), which can differ from this general rule.
+
+## 17.5 The Special Situation of a Flow-Through UPE (a Preview of Article 7.1)
+
+When the MNE Group's **Ultimate Parent Entity (UPE)** is itself a Flow-Through Entity — that is, the Group's topmost main entity is also tax-transparent — the general rules above cannot be applied directly, because if one assumes a Flow-Through UPE's "owner," that is generally some person or entity outside the Group (such as fund investors), and "allocating" income to them effectively means taking that income entirely out of the GloBE calculation — which is not appropriate in principle, because UPE-level income is a fundamental part of the Group's combined result.
+
+For this reason, Article 3.5 contains an exception for a **Flow-Through UPE**: when the Flow-Through Entity is itself the UPE, the general rule described in Section 17.4 — "excluding the share of an owner outside the Group" — does not apply directly. Instead, the UPE-level GloBE Income or Loss is essentially retained with the UPE itself, and is then handled through a separate and detailed set of rules, which relates mainly to the question of allocating the Top-up Tax liability.
+
+This detailed set of rules is found in **Article 7.1** of the GloBE Model Rules, which sets out specific adjustments for a "Flow-through Ultimate Parent Entity." The purpose of the present chapter is only to give a preview of this matter — that Article 3.5 builds the general framework for income allocation, but when the entity at the centre of that framework is itself the Group's UPE, Article 7.1's special adjustment rules become necessary, which will be discussed in detail in a later Part of this book. It is sufficient here to remember this much: for a **Flow-Through UPE**, the question of income allocation is not a simple "divide in ownership ratio" question, but is also entangled with the question of which jurisdiction the related Top-up Tax will be captured in — and it is to resolve that complexity that Article 7.1 exists.
+
+## 17.6 Chained Flow-Through Structures
+
+In practice, it is often seen that the owner of a Flow-Through Entity is itself another Flow-Through Entity — that is, multiple layers of tax-transparent entities stacked one on top of another, which can be called a chained Flow-Through structure. For example, a lower-tier operating partnership's owner may be a mid-tier holding LLC, and that LLC's owner may in turn be an upper-tier partnership, above which sits the ultimate Group Constituent Entity.
+
+In such a structure, Article 3.5's rule must be applied sequentially at each level — starting from the lowest entity and moving upward. First, the income of the lowest Flow-Through Entity (after allocation to a PE) is allocated to its direct owner (who is itself also a Flow-Through Entity). That allocated portion then becomes part of the second-tier entity's own GloBE Income, and, added together with that entity's own income (if any), is again allocated according to its own ownership structure to its own owners — this same process repeats at each level, however many levels there are, until the income reaches a Constituent Entity that is not itself a Flow-Through Entity (that is, one that is an ordinary taxpayer in its jurisdiction), or goes outside the Group, or gets stopped somewhere as a Reverse Hybrid.
+
+Two things need to be watched carefully in such a chain. First, the test in Sections 17.2 and 17.3 (transparent or Reverse Hybrid) must be performed separately at each level, because an entity that is transparent at one level may become a Reverse Hybrid at the next level — the jurisdictional perspective can differ at each level. Second, if an owner outside the Group (Section 17.4) enters at any level of the chain, its proportionate share is entirely excluded from that level onward and does not flow further into the rest of the chain. As a result, for correct allocation in a long chain, it is practically essential to separately document the ownership percentage, the transparency status, and the Group membership at each level.
+
+## 17.7 A Numerical Example
+
+The example below shows Article 3.5's complete allocation order together — allocation to a PE, exclusion of the share of an owner outside the Group, and allocation of the residual to a Group owner.
+
+**Scenario:** FT is a partnership formed in Jurisdiction A and treated there as a Tax Transparent Entity. FT's ownership is held by two parties: Parent Co (P) — a Constituent Entity of the MNE Group — which holds 70% ownership, and an outside investor X, who is not a member of the Group, holding 30% ownership. FT conducts part of its business through a PE in Jurisdiction B. In the reporting year, FT's total GloBE Income is USD 1,000,000; under the rule of Article 3.4, USD 200,000 of this has been determined to be allocable to the PE.
+
+| Step | Description | Amount (USD) |
+|---|---|---|
+| 1 | FT's total GloBE Income (before allocation) | 1,000,000 |
+| 2 | Less: allocated to the Jurisdiction B PE under Article 3.4 | (200,000) |
+| 3 | Remaining income at the FT level after allocation to the PE | 800,000 |
+| 4 | Less: share of the owner outside the Group, X (30% × 800,000) — excluded under Article 3.5 | (240,000) |
+| 5 | Residual allocable to Group Constituent Entity owners | 560,000 |
+| 6 | Allocated to P (70% × 800,000), added as part of P's own GloBE Income | 560,000 |
+
+Reconciliation: USD 200,000 allocated to the PE + USD 560,000 allocated to P + USD 240,000 excluded share of X = USD 1,000,000, which equals FT's original total income. Notably, X's share was not added to any Constituent Entity's account — it remains entirely outside the GloBE calculation, because X itself is not a member of the Group.
+
+**Variant — a Reverse Hybrid situation:** Now suppose that, instead of X, FT's 30% ownership is held by a Constituent Entity R, which is a member of the same Group, but R's jurisdiction treats FT as an opaque entity — that is, from R's perspective, FT is a separate taxpayer. In this case, R's 30% share (USD 240,000) will not flow to R; instead, under the Reverse Hybrid rule of Section 17.3, it will remain with FT itself as GloBE Income, and FT itself, as a separate Constituent Entity in Jurisdiction A, will include that USD 240,000 in its own ETR calculation. Under this change, the final outcome is: PE (USD 200,000) + P (USD 560,000) + FT itself (USD 240,000) = USD 1,000,000 — that is, this time the entire income remains within scope of the GloBE calculation, with no portion excluded, because this time the owner R is itself a member of the Group.
+
+## Summary
+
+Since a Flow-Through Entity is itself generally not a taxpayer, Article 3.5 determines, in a specific order, where its GloBE Income or Loss will be added. First, income related to a PE is separated out and allocated to the PE under Article 3.4. The remaining income is allocated among owners in proportion to ownership, but only when the relevant owner treats the FT as transparent (the Tax Transparent Entity situation). If the owner's jurisdiction views the entity as opaque, that portion remains with the entity itself — this is the Reverse Hybrid Entity rule, which ensures that no income is lost outside the calculation. The portion falling to an owner outside the Group is entirely excluded from the GloBE calculation, because GloBE applies only to the income of the Group's own members. When the Flow-Through Entity is itself the Group's UPE, these general rules do not apply directly; instead, Article 7.1's special adjustment rule is needed, which will be discussed in detail later. In a chained structure, all of these rules must be reapplied sequentially at each level, from the lowest level upward.
+
+## Common Mistakes
+
+A common mistake is dividing the total income directly in the ownership ratio without a separate allocation for the PE — this incorrectly shifts income that should be in the PE's jurisdiction into the owner's jurisdiction's account. Another mistake is assuming that, because an entity is "tax-transparent," the same treatment will apply for all of its owners — in reality, transparency can differ owner by owner, and the same entity can be treated as Tax Transparent for one owner and Reverse Hybrid for another. A third mistake is indiscriminately applying the rule excluding the share of an owner outside the Group to all types of joint-ownership structures (such as a Joint Venture, which has its own special rules). Fourth, when the UPE is itself a Flow-Through Entity, mechanically applying the general allocation rule of Article 3.5 and ignoring the special adjustment of Article 7.1 is a risky mistake that can lead to an incorrect allocation of Top-up Tax. Finally, in a chained structure, assuming the same treatment applies throughout the entire chain without separately verifying the ownership percentage and transparency status at each level is a common and dangerous oversimplification.
 
 <!-- lang:bn -->
 

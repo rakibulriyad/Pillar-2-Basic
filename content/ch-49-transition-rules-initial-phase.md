@@ -13,7 +13,127 @@ slug: "ch-49-transition-rules-initial-phase"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 49 — Transition Rules and the Initial Phase Exclusion
+
+> **In this chapter:** the special arrangements needed for a group's transition from historical accounts to the new rules when it first comes within the scope of the GloBE rules, and the temporary relief arrangements for groups that have only recently begun international operations — these two subjects are discussed in this chapter.
+> **Relevant Article:** 9.1–9.4 · **AG:** June 2024 · Jan 2025
+
+## 49.1 Definition of the Transition Year
+
+Under Article 9.1 of the GloBE Model Rules, the **Transition Year** for a jurisdiction is the first fiscal year in which a group first falls within the scope of the GloBE rules for that jurisdiction — that is, the first year in which a **Qualified Domestic Minimum Top-up Tax (QDMTT)**, an **Income Inclusion Rule (IIR)**, or an **Undertaxed Profits Rule (UTPR)** becomes effective in that jurisdiction.
+
+What is important here is that the Transition Year is determined on a jurisdiction-by-jurisdiction basis, not a group-wide basis. The Transition Year may begin at different times for different jurisdictions of the same Multinational Enterprise (MNE) Group, because each country brings GloBE-consistent legislation into effect at a different time. For example, suppose a group's headquarters is in a country where the IIR became effective starting in 2024, but the group's subsidiary is located in a country where the QDMTT will become effective starting in 2026. In this case, the Transition Year for the first jurisdiction is 2024, and for the second jurisdiction it is 2026.
+
+This definition matters practically because a number of benefits and limitations are attached to the Transition Year — such as recognition of existing Deferred Tax Assets and Liabilities, relief on filing deadlines, and special rules for pre-transition transactions. A group must determine, separately for each jurisdiction, which year is that jurisdiction's Transition Year, and apply the applicable rules accordingly. This is a one-time determination — once the Transition Year is identified, it does not need to be redetermined for that jurisdiction in the future, although a change in the group's structure could raise new questions (discussed in Sections 49.4 and 49.5).
+
+## 49.2 Recognition of Existing Deferred Tax Assets and Liabilities in the First Year
+
+Even before the GloBE rules come into effect, companies' books already contain **Deferred Tax Assets** (DTAs — assets arising from the possibility of receiving a future tax benefit, such as a carry-forward of business losses) and **Deferred Tax Liabilities** (DTLs — liabilities arising from an obligation to pay additional tax in the future), recorded under ordinary accounting standards. Article 9.1 builds a framework for recognizing these existing DTAs and DTLs for GloBE purposes, so that the group does not have to start its calculation from zero in the Transition Year.
+
+The core rule is that any DTA or DTL existing in the financial accounts of all Constituent Entities of a jurisdiction at the start of the Transition Year can be included in the GloBE Effective Tax Rate (ETR) calculation — provided that the DTA/DTL is computed at a rate of no more than 15%. If a DTA is computed at a rate higher than 15%, it must be recast to 15%. On the other hand, for a DTL, if it is computed at a rate lower than 15%, there is nevertheless permission to recast it to 15% — this is an election favorable to the taxpayer.
+
+The most common of these existing DTAs are those arising from the carry-forward of business losses. Once these are included in the GloBE calculation in the Transition Year, their effect will be reflected in the GloBE ETR calculation in future years when that loss is used or the value of the DTA changes. In this way, an unusually high Top-up Tax is avoided in a post-Transition-Year period due to past losses or temporary differences — this is the core purpose of this provision.
+
+There is, however, an important exception — any DTA related to an item that is excluded under GloBE (in determining GloBE Income or Loss), or for which no Covered Taxes are calculated under GloBE, cannot be included in the Transition Year calculation. In addition, for a Transferred Asset, the carrying value for calculating the DTA/DTL must be determined based on the accounts of the recipient entity, not the historical value of the seller entity — this issue has additional explanation given in the June 2024 AG round.
+
+## 49.3 15% or the Actual Rate — Which Applies
+
+A subtle but practically important aspect of Article 9.1 is determining at which rate a DTA or DTL is to be calculated. The general rule is as follows:
+
+First, if a DTA or DTL is computed at a local tax rate (which may be below or above 15%), and if it is computed at a rate below 15%, then it is included in the GloBE calculation at that actual (lower) rate — no upward adjustment is needed or permitted.
+
+Second, if a DTA is computed at a rate above 15% (that is, because the local statutory rate is above 15%), it must be mandatorily brought down to 15%. The rationale behind this is that if a DTA computed at, say, 25% in a high-tax jurisdiction were included in full at that value for GloBE purposes, it could artificially inflate the GloBE ETR when it is used in the future, which would run counter to the purpose of the minimum tax.
+
+Third, for a DTL, there is an elective benefit in the opposite direction — if the DTL is computed at a rate below 15%, the taxpayer may elect to increase it to 15%, although this is not mandatory.
+
+In practical terms, this rule means that the group must verify, for each existing DTA and DTL, the rate at which it was originally computed, and recompute it if necessary. This exercise needs to be done only once — at the starting point of the Transition Year — but it requires detailed records of old tax calculations, which in many cases, particularly for acquired entities, can be difficult to gather.
+
+## 49.4 Restrictions on Pre-Transition Transactions — Intra-group Transfers and Creation of DTAs
+
+An important restriction has been added in Article 9.1 to prevent abuse of the Transition Year benefits. The idea is simple — if, before the start of the Transition Year, a group deliberately enters into transactions that artificially create a large DTA or increase the carrying value of an asset, then future depreciation or amortization of that inflated value could artificially inflate the GloBE ETR and reduce Top-up Tax.
+
+To address this problem, the rule provides that if, after 30 November 2021, an asset is transferred from one Constituent Entity to another Constituent Entity (both belonging to the same MNE Group), the receiving entity must account for that asset based on the transferring entity's prior carrying value — meaning that any step-up in value resulting from the transfer is not recognized for GloBE purposes, and no new DTA associated with that step-up is created either.
+
+This rule is particularly relevant to intra-group restructuring, asset revaluation, and transactions in which an entity transfers capital assets or inventory to another entity at fair value. If such a transfer results in a "step-up in basis" for local tax purposes and a DTA is created on that basis, that DTA cannot be brought into account in the Transition Year calculation — instead, the calculation must use the original (prior) carrying value.
+
+Importantly, this rule applies only to transactions among Constituent Entities — it does not apply to ordinary business transactions conducted with an independent third party outside the group. In practice, however, because of this rule, groups that have restructured, or plan to restructure, since late 2021 must keep records of the date and nature of every intra-group transaction, because the tax authority may re-examine these transactions in the future.
+
+## 49.5 Special Rules for Post-30 November 2021 Arrangements
+
+The date 30 November 2021 was chosen because that is the date on which the OECD Inclusive Framework published the initial technical detail of the GloBE Model Rules. Since that date, any tax arrangement or transaction that may have been designed to reduce the impact of GloBE has been made subject to particular scrutiny.
+
+Additional rules apply to certain kinds of arrangements after this date:
+
+First, arrangements through which a Constituent Entity transfers a liability to another Constituent Entity, or otherwise creates a liability that results in a DTL being recorded in the books that is actually unlikely to materialize in the future, are subject to special scrutiny.
+
+Second, if an entity acquires a DTA that did not arise from its own business operations but was instead purchased or transferred from another entity, additional caution is required in recognizing that DTA for Transition Year purposes.
+
+Third — and this received particular emphasis in the Jan 2025 AG round — arrangements considered to have been designed to artificially increase "GloBE Loss," particularly transactions in which one entity transfers its financial loss to another entity or artificially creates a loss so that a large DTA can be claimed in the future, are subject to the tax administration's authority to deny recognition for GloBE purposes.
+
+Practical advice is that groups that have carried out any restructuring, asset transfer, or liability rearrangement after 30 November 2021 should clearly document the commercial rationale for those transactions — because if a transaction's main purpose appears to be obtaining a tax advantage, its recognition for GloBE purposes may be called into question.
+
+## 49.6 The Initial Phase of International Activity Exclusion (Article 9.3) — Maximum Number of Jurisdictions and the €50M Tangible Asset Limit, the Five-Year Term, Application to UTPR Only, Not IIR
+
+Article 9.3 provides a special relief for MNE Groups that have only just begun expanding their international operations. This provision is known as the **Initial Phase of International Activity Exclusion**, and it is designed primarily to give small or medium-sized groups that are expanding abroad for the first time temporary protection from the additional administrative and tax burden caused by the UTPR.
+
+**Conditions for eligibility.** An MNE Group is eligible for this exclusion if:
+
+- the group's Constituent Entities are located in no more than **six jurisdictions** (the Ultimate Parent Entity's own jurisdiction is excluded from this count, so effectively up to five additional jurisdictions beyond the main jurisdiction are permitted); and
+- across all jurisdictions other than the Ultimate Parent Entity's jurisdiction, the **combined net book value of tangible assets of all the group's Constituent Entities does not exceed €50 million**.
+
+Both conditions must be met together — meeting only one condition does not qualify a group for the exclusion. These two limits are used to verify whether a group's international presence is still at a limited stage — if a group has operations spread across many countries, or has substantial tangible assets abroad, it is not considered to be in an "initial phase."
+
+**Term — five years.** This exclusion applies for a maximum of **five years** for a given jurisdiction. The five-year count begins from the date the group first came within the scope of the GloBE rules (that is, when the GloBE rules first became applicable in at least one jurisdiction of the group), though there is a special transitional adjustment under which years before 31 December 2022 in which the group first came within the scope of Country-by-Country Reporting are generally excluded from the count, so that groups that were already in international operations for several years before GloBE took effect are not unfairly disadvantaged. Once the five years are complete, this exclusion permanently ends for that jurisdiction for the group — it cannot be renewed, even if the group continues to meet the eligibility conditions afterward.
+
+**Scope of application — UTPR only, not IIR.** The most important, and most frequently misunderstood, aspect of this exclusion is the limit on its scope of application. The exclusion under Article 9.3 applies **only** to the **UTPR** — that is, for a qualifying group, the process of collecting Top-up Tax through UTPR allocation is suspended for five years. But this exclusion does **not** apply to the **IIR**. This means that if the Ultimate Parent Entity or any Intermediate Parent Entity is located in a jurisdiction where the IIR is in effect, and a low-tax jurisdiction subsidiary of the group becomes liable for Top-up Tax, then that Top-up Tax will still be collected through the IIR, notwithstanding the initial phase exclusion.
+
+In addition, this exclusion has no effect on the QDMTT — if a jurisdiction has its own QDMTT in effect, the Top-up Tax arising in that jurisdiction will be collected through the QDMTT, regardless of the Article 9.3 exclusion. As a practical matter, therefore, this exclusion provides an effective benefit only when a jurisdiction has not adopted a QDMTT, and there is no Parent Entity in the group's structure to which the IIR applies, or the IIR is otherwise not applicable.
+
+Groups need to remember that this exclusion is not automatic but must be shown as a clear election or disclosure in the GIR (GloBE Information Return), and the eligibility conditions (the six-jurisdiction and €50 million limits) must be re-verified every year — because if the conditions are not met in a given year, the exclusion is lost for that year, though it may return in a subsequent year (within the five-year term) if the conditions are met again.
+
+## 49.7 The SBIE Transition Rate (Article 9.2)
+
+The **Substance-based Income Exclusion (SBIE)** is a payroll-based and tangible-asset-based exclusion mechanism through which a specified amount is excluded from GloBE Income, so that profit arising from real economic substance bears less pressure. Under the permanent rule, 5% of eligible payroll expense and 5% of the carrying value of eligible tangible assets are excluded.
+
+However, Article 9.2 establishes a declining (phase-out) transitional rate, so that groups reach the permanent 5% rate gradually rather than all at once. This **SBIE Transition Rate** was highest in 2023 (9.8% for payroll and 7.8% for tangible assets), and has been gradually decreasing year by year since then, stabilizing at the permanent 5% rate starting in 2033. In the intervening years, the rate decreases by roughly 0.2 percentage points per year.
+
+This transitional rate does not apply separately for each jurisdiction, but is applied based on the calendar year — that is, for a group's 2027 fiscal year, the same transitional rate will apply across all jurisdictions, regardless of what that jurisdiction's own Transition Year happens to be. This is an important distinction — the Transition Year of Article 9.1 is jurisdiction-based, but the SBIE Transition Rate of Article 9.2 is calendar-year-based and universally applicable.
+
+In practical terms, this declining rate means that groups will be able to claim relatively more SBIE in the earlier years, which will help reduce their Excess Profit (and consequently potential Top-up Tax). However, since the rate changes every year, the tax department must ensure that the correct rate is applied for each fiscal year — mistakenly using a prior year's rate in a subsequent year can result in an incorrect Top-up Tax calculation.
+
+## 49.8 Transitional Relief on Filing Deadlines (Article 9.4)
+
+Under the general rule, the deadline for filing the GloBE Information Return (GIR) and the associated Top-up Tax is within 15 months after the end of the fiscal year (and within 18 months for the first year). Article 9.4 provides a specific transitional relief regarding this general deadline.
+
+Under Article 9.4, an MNE Group's deadline for filing the GIR and the associated notification in the Transition Year is extended to **18 months**, instead of the normal 15 months. Note that this 18-month deadline is in fact consistent with the deadline already allotted for the "first year" under the general rule — GloBE's general administrative framework already gives an additional three months for the first reporting year so that groups can adjust to the new reporting system.
+
+This relief applies only once — that is, this extended deadline applies for each jurisdiction's own Transition Year, but the normal 15-month deadline applies from the following year onward. Since different jurisdictions may have different Transition Years (see Section 49.1), a group may face different filing deadlines for different jurisdictions at the same time — this can be administratively complex, and the tax department must maintain a separate calendar for each jurisdiction.
+
+This extended deadline essentially recognizes that preparing the GloBE calculation in the first year is a complex and time-consuming process — recomputing existing DTAs/DTLs, consolidating information from various jurisdictions, and adjusting to the new reporting framework may all require additional time. However, this relief does not waive the substantive tax liability — it relates only to the administrative filing deadline, not to the obligation to pay the actual Top-up Tax (if a jurisdiction's own law has a separate deadline for payment).
+
+## 49.9 A Practical First-Year Checklist
+
+The checklist below is a practical list for an MNE Group's tax and finance team of what needs to be verified and completed in the first Transition Year:
+
+- [ ] **The Transition Year for each jurisdiction has been separately identified** — a jurisdiction-by-jurisdiction list has been prepared showing in which country GloBE (IIR/UTPR/QDMTT) is first becoming effective, and from which fiscal year.
+- [ ] **A complete inventory of each Constituent Entity's existing DTAs and DTLs has been prepared**, noting the original statutory rate at which each item was computed.
+- [ ] **DTAs computed at a rate above 15% have been recast to 15%** (mandatory), and the election to increase DTLs computed at a rate below 15% up to 15% has been considered (optional).
+- [ ] **DTAs related to items excluded under the GloBE calculation have been excluded** — that is, any DTA linked to an item not included in the determination of GloBE Income/Loss has not been treated as a Transition item.
+- [ ] **All intra-group asset and liability transfers carried out after 30 November 2021 have been identified**, and each has been verified to confirm whether the recipient entity is using the transferor's prior carrying value.
+- [ ] **The commercial rationale for suspicious arrangements or transactions that increase GloBE Loss has been documented**, so that questions from the tax administration can be answered in the future.
+- [ ] **Eligibility for the Initial Phase of International Activity Exclusion has been verified** — both the number of jurisdictions (five or fewer, excluding the Ultimate Parent) and the total net book value of tangible assets (within €50 million) have been checked.
+- [ ] **If the Initial Phase Exclusion applies, it has been correctly identified as applicable only to the UTPR** — the exclusion has not been applied to the IIR or QDMTT calculation.
+- [ ] **The correct SBIE Transition Rate (payroll and tangible assets separately) for the relevant fiscal year has been applied**, based on the calendar year, not on the jurisdiction's own Transition Year.
+- [ ] **The filing deadline for each jurisdiction has been separately marked on the calendar**, so that the extended 18-month deadline in the Transition Year, and the normal 15-month deadline in subsequent years, are correctly reflected.
+- [ ] **All Transition-related elections required in the GIR have been documented and filed**, so that the process of annual re-verification of eligibility is established.
+
+## Summary
+
+The provisions from Article 9.1 to Article 9.4 of the GloBE Model Rules are designed to smooth a group's transition from its historical accounting arrangements to the new minimum tax framework. The Transition Year is determined on a jurisdiction-by-jurisdiction basis, and in that year, existing DTAs and DTLs are recognized for GloBE purposes after being adjusted within the 15% limit, although strict restrictions apply to intra-group transactions after 30 November 2021. The Initial Phase of International Activity Exclusion gives small, newly international groups five years of temporary protection, but only for the UTPR, not for the IIR or QDMTT. The SBIE Transition Rate gradually declines to the permanent 5% rate by 2033, and the filing deadline is also extended to 18 months in the first year. Together, these provisions give groups a practical path to adjust to the new rules, but each benefit carries specific conditions and documentation obligations.
+
+## Common Mistakes
+
+A common mistake is to think of the Transition Year as group-wide, when in fact it is determined on a jurisdiction-by-jurisdiction basis — this creates a risk of recognizing DTA/DTL in the wrong year or missing a deadline. A second mistake is assuming that the Initial Phase of International Activity Exclusion also applies to the IIR, when it applies only to the UTPR — this misunderstanding leads groups to mistakenly assume an exemption from a Top-up Tax liability that will in fact be collected through the IIR. A third mistake is including a step-up-based DTA arising from a post-30-November-2021 intra-group asset transfer at its full value in the GloBE calculation, which is against the rules. A fourth mistake is confusing the calendar year with a jurisdiction's Transition Year when applying the SBIE Transition Rate — the correct rate must be determined by looking at the relevant calendar year, not the jurisdiction's own first year. A fifth mistake is misunderstanding the extended 18-month filing deadline as a waiver of the substantive tax payment obligation, when it relates only to the administrative filing deadline. Finally, many groups verify eligibility for the Initial Phase Exclusion only once and never re-verify it afterward — but the number of jurisdictions and the €50 million limit must be re-examined every year, since expansion could cause eligibility to be lost in any given year.
 
 <!-- lang:bn -->
 

@@ -13,7 +13,203 @@ slug: "ch-11-jv-minority-investment-entity"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 11 — Special Categories: JV · Minority-Owned · Investment Entities
+
+> **In this chapter:** GloBE's general jurisdictional blending rule does not apply equally to every entity — some entities come within scope despite being outside ordinary consolidation (Joint Venture), some entities receive separate blending because of their ownership structure (Minority-Owned Constituent Entity), and some entities receive an entirely different calculation method because of the nature of their business (Investment Entity). This chapter discusses these three special categories in detail, along with the simplification available for Non-Material Constituent Entities.
+> **Related Article:** 1.3, 5.6, 6.4, 7.4–7.6
+
+## 11.1 Joint Venture (JV) and JV Subsidiary — Outside the Group, Yet Within Scope
+
+Under **Article 1.3**, "Group" refers to a collection of entities related through ownership or control, whose assets, liabilities, income, expenses, and cash flows are, or should be, included in the Consolidated Financial Statements of an Ultimate Parent Entity (UPE), or simply a single entity with one or more foreign Permanent Establishments. This definition is essentially built on line-by-line consolidation — that is, only the entities whose every asset and liability is fully consolidated into the UPE's financial statements are part of the "Group."
+
+But in practice, many multinational groups invest in entities where their control is not full — such as a joint venture, or **Joint Venture (JV)**. In accounting terms, such an investment is generally accounted for using the "equity method" — not line-by-line consolidation, but showing only a single net investment value. As a result, by definition, a JV remains outside the "Group," and therefore does not fall on the list of ordinary Constituent Entities.
+
+To close this gap, **Article 6.4** specifically brings JVs within scope. Under the definition in Article 6.4, an entity is treated as a "JV" if:
+
+- its financial results are reported using the equity method in the UPE's Consolidated Financial Statements, and
+- the UPE directly or indirectly holds at least 50% ownership interest in it.
+
+A **JV Subsidiary** is an entity whose assets, liabilities, income, expenses, and cash flows are consolidated into the JV's own Consolidated Financial Statements (that is, if the JV is itself the parent of a small group). The JV and all of its JV Subsidiaries together form a **"JV Group."**
+
+However, some JVs fall outside this special rule — such as:
+
+- a JV that would itself have been an Excluded Entity had it been an ordinary Constituent Entity;
+- a JV that is the UPE of a group of Excluded Entities, or is held, directly or indirectly, by Excluded Entities at at least 95% ownership (mainly for asset-holding or pension-related purposes), and substantially all of whose income qualifies to be excluded from those Excluded Entities.
+
+With these exceptions aside, all other JVs and JV Subsidiaries together come within GloBE's scope as a distinct "JV Group" — though they never become a Constituent Entity of the main MNE Group. In practical terms, this means that a jointly held company with 50% ownership by a group, even though not part of consolidation, is not excluded from the Top-up Tax calculation — instead, it must be calculated separately, which is discussed in Section 11.2.
+
+## 11.2 The Separate ETR of a JV Group
+
+Under Article 6.4.1, the ETR and Top-up Tax of a JV Group are calculated as if the JV Group were itself a separate MNE Group — that is, all the rules of Chapter 3 (GloBE Income), Chapter 4 (Adjusted Covered Taxes), and Chapter 5 (ETR and Top-up Tax calculation) apply separately to the JV Group. This means:
+
+- if entities within the JV Group are located in the same country, jurisdictional blending will occur among them, but they will not blend with the ordinary Constituent Entities of the main MNE Group.
+- the JV Group's own de minimis exclusion, Substance-based Income Exclusion, and similar provisions apply.
+- the Top-up Tax that results from this separate calculation is called the "JV Top-up Tax."
+
+Under Article 6.4.2, the UPE's allocable share of the JV Top-up Tax is determined through a formula similar to the Income Inclusion Rule (IIR) — in proportion to the UPE's ownership interest (as if minority owners were, in fact, treated as Constituent Entities for whom the IIR would apply). This allocated portion is added to the UPE's own Top-up Tax calculation and is paid through its applicable Filing Constituent Entity.
+
+### Example: JV Group ETR Calculation
+
+Suppose a Bangladeshi MNE Group, "Padma Group," holds a 60% ownership interest in a joint company, "Meghna JV Ltd.," and accounts for it using the equity method (so it is a JV under the definition of Article 6.4). Meghna JV Ltd. has a subsidiary, "Meghna Sub Pte Ltd." (in Singapore), whose financial statements are consolidated with those of Meghna JV Ltd. — so it is a JV Subsidiary.
+
+| Entity | Country | GloBE Income | Adjusted Covered Taxes |
+|---|---|---|---|
+| Meghna JV Ltd. | Singapore | 5,000,000 | 350,000 |
+| Meghna Sub Pte Ltd. | Singapore | 2,000,000 | 150,000 |
+| **JV Group total (Singapore)** | | **7,000,000** | **500,000** |
+
+Here, the JV Group's Singapore jurisdictional ETR = 500,000 ÷ 7,000,000 = 7.14%, which is below the 15% minimum rate. Suppose that, after deducting the Substance-based Income Exclusion, Excess Profit = 6,500,000. Then the Top-up Tax Percentage = 15% − 7.14% = 7.86%, and JV Top-up Tax = 6,500,000 × 7.86% ≈ 511,000.
+
+Padma Group's ownership interest is 60%, so its allocable share ≈ 511,000 × 60% = 306,600 — which will be added to Padma Group's own IIR calculation, entirely separately, and without being mixed with the ETR of any other Constituent Entity of the main Group in Singapore.
+
+## 11.3 Minority-Owned Constituent Entity (MOCE) — 30% or Less Ownership
+
+**Article 5.6** addresses a different kind of special situation — where the entity is indeed a Constituent Entity (that is, included in consolidation, not outside it like a JV), but the UPE's ownership is very small. A **Minority-Owned Constituent Entity (MOCE)** is a Constituent Entity in which the UPE, directly or indirectly, holds 30% or less ownership interest.
+
+This situation typically arises when consolidation is control-based (voting rights, board control) but economic ownership is low — for example, a company might hold only 25% of the shares yet retain control through contractual arrangements or governance rights, which brings it into full consolidation.
+
+Placing such an entity into ordinary jurisdictional blending creates a distortion: if the MOCE is located in a low-tax country and is blended with another high-tax Constituent Entity, the average ETR would be inflated — whereas, in reality, the benefit derived from that low tax is enjoyed predominantly by the third-party (70%+ ownership) shareholders, not the UPE's group. Conversely, placing a high-tax MOCE into ordinary blending could reduce the Top-up Tax of another low-tax entity, disproportionate to the actual economic interest. For this reason, Article 5.6 directs that a separate blending group must be created for MOCEs, discussed in detail in Section 11.4.
+
+## 11.4 Minority-Owned Subgroup — Why Separate Blending
+
+Within the framework of Article 5.6, two further definitions are important:
+
+- **Minority-Owned Parent Entity (MOPE):** a MOCE that holds a controlling interest, directly or indirectly, in one or more other MOCEs, and which is not itself held at more than 30% ownership by any other MOCE (other than an MOPE).
+- **Minority-Owned Subsidiary:** an MOCE that is held with a controlling interest, directly or indirectly, by an MOPE.
+- **Minority-Owned Subgroup:** an MOPE and all of its Minority-Owned Subsidiaries together.
+
+The core rule: the ETR and Top-up Tax of each Minority-Owned Subgroup must be calculated separately, as though the members of that Subgroup were the only Constituent Entities forming an MNE Group. That is:
+
+- if multiple Minority-Owned Subgroups exist in the same country, each Subgroup will blend separately within that country — an entity of one Subgroup will not blend with an entity of another Subgroup.
+- MOCEs that are not part of any Minority-Owned Subgroup (such as a single, standalone MOCE that has no Minority-Owned Subsidiary and is not itself anyone's Subsidiary) must also, under Article 5.6, be treated as their own single-member blending group.
+- this calculation remains entirely separate from the jurisdictional blending of ordinary Constituent Entities of the main Group.
+
+The rationale for this separation is that, since more than 70% of the economic interest belongs to a third party, that entity's tax efficiency or inefficiency should not artificially affect the ETR of the main UPE's group. This is a parallel rationale to the JV Group principle discussed in Sections 11.1–11.2, though the difference is that a JV is, by definition, outside the "Group," while an MOCE is part of the Group due to consolidation — only the blending differs.
+
+## 11.5 Definitions of Investment Entity and Insurance Investment Entity
+
+The fifth special category is of an entirely different nature — here, because of the investment structure, an ordinary corporate-tax-rate-based ETR calculation is not meaningful. **Investment Entity** is defined in GloBE's definitions chapter, and forms the basis for the special treatment under Article 7.4. Essentially, an entity is an Investment Entity if it is:
+
+- an **Investment Fund** or a **Real Estate Investment Vehicle (REIV)**, or
+- directly or indirectly held at 95%+ ownership by such a Fund/REIV, and its activities are almost entirely related to holding assets or managing investments for that Fund/REIV, or
+- held at at least 85% ownership, and substantially all of its income is Dividends or Excluded Equity Gain/Loss excludable for GloBE purposes.
+
+The main conditions for being an Investment Fund are — pooling the funds of multiple investors, being operated according to an investment policy, limiting investor risk to the invested assets, following fair value or mark-to-market accounting, and being subject to normal regulatory oversight.
+
+An **Insurance Investment Entity** is a special sub-category — an entity that would satisfy the conditions of an Investment Entity above, except that it is established to hold an investment portfolio related to insurance liabilities and is wholly owned by a regulated insurance entity. In practical terms, this covers investment vehicles held for "unit-linked" or "separate account" type insurance policies.
+
+The rationale in both cases is the same — an investment fund is generally intended to function as a "flow-through" or "tax-neutral" vehicle rather than being a taxpayer itself, so that the actual tax liability falls at the level of the ultimate investor. Applying GloBE's ordinary jurisdictional ETR rule to such an entity could artificially create a high Top-up Tax, because a Fund's own "Adjusted Covered Taxes" may remain near zero even though its GloBE Income may be high.
+
+## 11.6 The Separate ETR Calculation of an Investment Entity (Article 7.4)
+
+Under Article 7.4.1, an Investment Entity that is a Constituent Entity must have its ETR and Top-up Tax (if any) calculated entirely separately from ordinary jurisdictional blending — and not only that, if there is more than one Investment Entity in the same country, each must be calculated **separately** (all Investment Entities of the same jurisdiction do not blend together; each Investment Entity is its own single-member blending group).
+
+The calculation formula is essentially similar to the ordinary ETR formula:
+
+**Investment Entity ETR = Investment Entity's Adjusted Covered Taxes ÷ Investment Entity's GloBE Income (or Loss)**
+
+Under Articles 7.4.2–7.4.3, the Top-up Tax Percentage = 15% − Investment Entity ETR (zero if negative), and this applies to the Investment Entity's GloBE Income (no Substance-based Income Exclusion applies directly here, because a Fund typically does not conduct activities dependent on tangible assets or payroll — though for Investment Entities with real staff and assets, the relevant provision may apply).
+
+Liability for this Top-up Tax falls on the UPE (via the IIR), but an important exception exists — under Article 7.4.5, whether QDMTT can be imposed in the Investment Entity's own country or elsewhere depends on each country's own QDMTT design, and generally special exemptions or different treatment for Investment Entities are seen so that the fund's tax-neutral character is preserved.
+
+### Example: Investment Entity ETR
+
+Suppose an affiliate of Padma Group, "Padma Capital Fund," is registered in Luxembourg and satisfies the definition of an Investment Entity. In the same country, Padma Group has another ordinary Constituent Entity, "Padma Finance Sarl."
+
+| Entity | GloBE Income | Adjusted Covered Taxes | ETR |
+|---|---|---|---|
+| Padma Finance Sarl (ordinary CE) | 1,000,000 | 250,000 | 25% |
+| Padma Capital Fund (Investment Entity) | 8,000,000 | 40,000 | 0.5% |
+
+Under Article 7.4, even though these two entities are in the same country, they will not be blended. Padma Finance Sarl's 25% ETR remains in the ordinary jurisdictional blending (Top-up Tax zero). But for Padma Capital Fund, calculated separately, ETR = 0.5%, Top-up Tax Percentage = 14.5%, and Top-up Tax = 8,000,000 × 14.5% = 1,160,000. If it had been incorrectly blended with Padma Finance Sarl, the combined ETR would have been (250,000+40,000)÷(1,000,000+8,000,000) = 3.22%, which would have produced a result entirely inconsistent with reality.
+
+## 11.7 A Preview of Two Investment-Entity-Related Elections (7.5, 7.6)
+
+Although the separate calculation under Article 7.4 is realistic in many cases, in some situations it can be excessively complex or inappropriate — particularly when the owner of an Investment Entity is already, in fact, paying tax on its income in its own country. To address this issue, the Model Rules provide two optional elections, which will be discussed in detail in a later chapter (on elections) — here their role is briefly introduced:
+
+- **Article 7.5 — Investment Entity Tax Transparency Election:** Making this election treats the Investment Entity as a Tax Transparent Entity or Flow-through Entity for GloBE purposes — that is, its income and tax "flow" directly into the owner Constituent Entity's accounts, if the Investment Entity is itself a Tax Transparent Entity or the owner's country applies similar tax treatment to its income. This is locked in for 5 years and affects all relevant owners.
+
+- **Article 7.6 — Taxable Distribution Method Election:** Under this election, the owner of an Investment Entity (provided that owner is not itself an Investment Entity and there is a reasonable likelihood of tax being paid on distributions) adds distributions received from the Investment Entity (dividends) and a portion of "deemed distribution" to GloBE Income, and the associated tax can be added as a credit. The purpose is to ensure realistic tax treatment over time of profits retained at the Fund level, when the owner's own country taxes distributions from the Fund.
+
+Both elections are optional, must be made through the Filing Constituent Entity, and, once made, are subject to strict rules on withdrawal — which will be discussed in detail in a later chapter.
+
+## 11.8 Non-Material Constituent Entity (NMCE) — An Entity Eligible for Simplification
+
+A different kind of simplification is needed when a Constituent Entity is so small or immaterial that calculating its full GloBE Income and Adjusted Covered Taxes would be disproportionately burdensome. A **Non-Material Constituent Entity (NMCE)** is an entity that an MNE Group has excluded from its Country-by-Country Reporting (CbCR) consolidation solely due to size or materiality (even though it generally satisfies the definition of a Constituent Entity and falls within the Group definition of Article 1.3).
+
+NMCEs are not excluded from ordinary jurisdictional blending — they are indeed included in that country's ETR calculation — but the data basis for the calculation can be simplified: instead of full GloBE Income/Loss and Adjusted Covered Taxes, a simplified ETR and GloBE Income proxy can be constructed using the revenue and pre-tax profit figures reported in CbCR and Income Tax Accrued data for NMCEs. The main purpose of this is to reduce the compliance burden for entities whose financial data would be organisationally expensive or unnecessary to prepare fully for GloBE, while still keeping their figures reflected in the overall jurisdictional ETR.
+
+The precondition for using this simplification is generally that the entity was, in fact, excluded from CbCR consolidation for materiality reasons (on a valid accounting-standard-based ground, not for the purpose of evading GloBE), and that the resulting figures are consistent with the Group's general accounting policy. Using this facility does not mean that there will be no Top-up Tax liability for the NMCE — it only simplifies the data basis for the calculation; the result is still integrated into jurisdictional blending (as shown in the decision tree in Section 11.9).
+
+## 11.9 A Summary of Separate Blending Groups — A Decision Tree
+
+The five categories discussed in this chapter essentially answer one question: **which blending group will a particular entity's GloBE Income and Adjusted Covered Taxes go into?** The decision tree below answers this question step by step:
+
+```
+Is the entity an Excluded Entity (under Article 1.5)?
+│
+├─ Yes → Entirely outside the scope of GloBE; no blending group applies.
+│
+└─ No → Does the entity, while outside the "Group" definition
+         (Article 1.3), satisfy the JV/JV Subsidiary conditions
+         of Article 6.4?
+         │
+         ├─ Yes → JV Group blending
+         │        (JV + all JV Subsidiaries together, calculating their own
+         │         jurisdictional ETR and Top-up Tax as if a single, separate
+         │         "MNE Group" — Article 6.4)
+         │
+         └─ No, it is an ordinary Constituent Entity →
+                  Is the entity an Investment Entity or Insurance
+                  Investment Entity (definition in Article 7.4)?
+                  │
+                  ├─ Yes → Has a Tax Transparency Election (7.5) or
+                  │        a Taxable Distribution Method Election (7.6)
+                  │        been made?
+                  │        │
+                  │        ├─ Yes → Treated at the owner level, or
+                  │        │        under the deemed-distribution method,
+                  │        │        according to the election
+                  │        │
+                  │        └─ No → Each Investment Entity is its own
+                  │                single-member blending group
+                  │                (Article 7.4 — separate ETR, not blended
+                  │                 with any other CE or Investment Entity
+                  │                 in the jurisdiction)
+                  │
+                  └─ No →
+                        Is the entity a MOCE (UPE ownership ≤ 30%,
+                        Article 5.6)?
+                        │
+                        ├─ Yes → Separate blending group for the relevant
+                        │        Minority-Owned Subgroup (or, if a standalone
+                        │        MOCE, its own group)
+                        │        (Article 5.6 — outside the main Group's
+                        │         ordinary blending)
+                        │
+                        └─ No → An ordinary Constituent Entity →
+                              Ordinary jurisdictional blending group
+                              (by country, under the core rule of Article 5.1)
+                              — if this entity is also an NMCE, the data
+                                basis may be simplified, but the blending
+                                group remains unchanged.
+```
+
+When using this tree, it is important to remember — it would be wrong to assume that an entity can never satisfy the conditions of more than one category at once (for example, an MOCE can also be an NMCE at the same time), but the categories JV, Investment Entity, and MOCE are mutually exclusive with each other — if an entity is a JV, it does not fall within the definition of an ordinary Constituent Entity at all, so there is no question of considering it in an Investment Entity or MOCE analysis. The order of priority follows the sequence shown in the tree above: first the Excluded Entity test, then JV, then Investment Entity, then MOCE, and finally ordinary blending.
+
+## Summary
+
+In this chapter we saw how the GloBE Model Rules' general jurisdictional blending rule is modified in four or five specific situations. A **Joint Venture** and its **JV Subsidiaries** come within GloBE's scope through Article 6.4, despite being, by definition, outside the "Group" (Article 1.3), and calculate their own ETR and Top-up Tax as a separate "JV Group," whose allocable portion is added to the UPE's IIR calculation. A **Minority-Owned Constituent Entity (MOCE)** — where the UPE's ownership is 30% or less — is, under Article 5.6, separate from the main Group's ordinary blending, and all members of a **Minority-Owned Subgroup** together form their own blending group, which does not mix with entities of any other country in the main Group. **Investment Entity** and **Insurance Investment Entity** — whose main business nature is holding assets and managing investments — each, under Article 7.4, calculate their own ETR and Top-up Tax separately (entity-based, not jurisdiction-based), unless Article 7.5 (Tax Transparency Election) or Article 7.6 (Taxable Distribution Method Election) is applied. Finally, a **Non-Material Constituent Entity (NMCE)** remains within the ordinary blending group, but gains the opportunity for a simplified calculation using CbCR-based data. The underlying rationale for all these special rules is the same — the ownership structure, the type of control, or the nature of the business should not artificially distort the ETR by mixing with another entity.
+
+## Common Mistakes
+
+- **Treating a JV as an ordinary Constituent Entity and placing it into ordinary jurisdictional blending.** Since a JV is accounted for using the equity method and generally does not come within consolidation, it is mistakenly assumed to be outside the scope of GloBE — whereas Article 6.4 clearly brings it within scope, only in a separate blending group.
+- **Mixing an MOCE into the main Group's ordinary jurisdictional ETR.** This is a common mistake, especially when a company's tax department draws data directly from the consolidation scope and does not re-check ownership percentages.
+- **Incorrectly blending multiple Minority-Owned Subgroups or multiple Investment Entities in the same country together.** The rule is that each Subgroup and each Investment Entity stands separately — even if located in the same country, they do not mix with each other.
+- **Assuming the Substance-based Income Exclusion applies normally to an Investment Entity.** Since fund-type entities generally have no payroll or tangible asset base, the applicability of this exclusion needs to be verified — it should not be assumed automatically.
+- **Treating the Article 7.5/7.6 elections as "automatic" or "default."** These are entirely optional, subject to specific conditions, and, once made, binding for the long term — they should not be used arbitrarily.
+- **Assuming that using an NMCE's simplified data means there is no Top-up Tax liability.** Simplification only eases the data basis; the entity is still a full participant in the jurisdictional ETR and may be part of the Top-up Tax liability.
+- **Failing to calculate a separate de minimis exclusion or Substance-based Income Exclusion for a JV Group or Minority-Owned Subgroup.** Since these groups are treated like "separate MNE Groups," their own threshold-based exclusions must also be tested separately, and should not be mixed up with the main Group's calculation.
 
 <!-- lang:bn -->
 

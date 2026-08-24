@@ -12,7 +12,115 @@ slug: "ch-58-governance-internal-control"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 58 — Governance · Internal Control · Process
+
+> **In this chapter:** Pillar Two is not a project completed once — it is a permanent compliance obligation recurring every fiscal year, whose proper management depends on clear **Governance**, effective **Internal Control**, and a repeatable process. This chapter discusses how responsibilities should be divided among Tax, Finance, IT, and Legal, what a realistic annual calendar looks like, which levels of control are needed, what a document retention policy should look like, how reporting to management and the board should work, and how to build a permanent process for keeping pace with rule changes.
+
+## 58.1 Division of Responsibility: Tax · Finance · IT · Legal
+
+Pillar Two's most practical challenge is that it is not the sole responsibility of any one department. Determining **GloBE Income** requires deep accounting knowledge (Finance), **Covered Taxes** and interpretive questions require tax expertise (Tax), data collection and automation of calculations require systems support (IT), and contractual liability, disclosure obligations, and board-level risk management require a legal perspective (Legal). Without a clear division of responsibility among these four departments, work gets duplicated, gaps in information persist, and when an error occurs there is no answer to the question "whose responsibility was it."
+
+An effective framework generally shows the following division of roles:
+
+- **Tax** — takes overall technical ownership: interpreting rules across jurisdictions, assessing Safe Harbour eligibility, election-related decisions, oversight of the ETR and Top-up Tax calculation, and accountability for the accuracy of the GIR's content. This department generally acts as the overall "process owner" of the process.
+- **Finance** — is responsible for the source and quality control of the underlying financial information: extracting entity-level information from Consolidated Financial Statements, consolidation adjustments and elimination of intragroup transactions, and reconciling the accounts with the GloBE calculation. Without this department, no credible figures reach the Tax department.
+- **IT** — is responsible for the data collection infrastructure, the pipeline for pulling information from various source systems (ERP, consolidation tools, local ledgers), and the storage and access control of sensitive financial data. Ensuring continuity of the data collection process each new reporting year is also this department's responsibility.
+- **Legal** — is responsible for identifying the impact of corporate structure changes (entry/exit, restructuring), verifying the legal obligations of local filing and notification, contractual allocation of liability (such as sharing the cost of penalties within the group), and reviewing the language of risk disclosure to the board.
+
+Creating a formal **RACI matrix** (who is responsible, who is accountable, who is consulted, who is informed) to ensure coordination among these four departments is practically helpful, particularly where the same task requires input from different departments at multiple stages. For example, in the case of a new entity acquisition, Legal will first confirm the contractual structure, then Finance will incorporate that entity's financial information into the consolidation process, and finally Tax will assess its GloBE impact — if this sequence is not clearly defined, important information can arrive late.
+
+A practical trend is that many MNE Groups are forming a "Pillar Two Steering Committee" or an equivalent cross-departmental coordination team, where representatives of the four departments meet at regular intervals to review progress and remove cross-departmental obstacles. This team's leadership generally comes from the Tax department, because they hold the most relevant technical knowledge, but decision approval should often go through a senior sponsor (such as the CFO or Group Tax Director) so that inter-departmental disputes can be resolved quickly.
+
+## 58.2 Annual Calendar and Milestones
+
+Pillar Two's deadlines are closely interrelated and often span several months for a single fiscal year. Without a clear annual calendar, teams easily find themselves under pressure as deadlines approach, which increases the likelihood of errors. The table below shows an illustrative milestone list for a typical calendar-year MNE Group — actual deadlines will vary depending on the jurisdiction and the fiscal year-end date.
+
+| Approximate timing (from fiscal year-end) | Milestone | Primary responsible department |
+|---|---|---|
+| Months 1–2 | Preliminary financial data consolidation complete; verification of entity list and corporate structure changes | Finance / Legal |
+| Months 2–3 | Preliminary eligibility check for Transitional CbCR Safe Harbour or other Safe Harbours | Tax |
+| Months 3–5 | First draft of full GloBE Income, Adjusted Covered Taxes, and ETR calculation | Tax / Finance |
+| Months 5–6 | Internal review and second-level verification (see 58.3) | Tax (second reviewer) |
+| Months 6–8 | Local Notification filing deadlines (varies by jurisdiction) | Tax / Legal |
+| Months 9–12 | Drafting of the GloBE Information Return and internal approval | Tax |
+| Months 12–15 | Final GIR filing and, where applicable, payment of Qualified Domestic Minimum Top-up Tax | Tax / Finance |
+| After month 15 | Post-filing review, documentation of lessons learned, adjustment of next year's calendar | Whole team |
+
+An important feature of this calendar is that it is not a single linear timeline — work on multiple fiscal years can overlap simultaneously. For example, while preparation for filing one fiscal year's GIR is underway, preliminary data collection for the next fiscal year begins at the same time. Managing this overlap requires a centralized, multi-year tracking system, so that one year's workload does not cause another year's deadline to be neglected.
+
+Another practical point is that, since different jurisdictions have different Notification and local filing deadlines, a "jurisdiction level" should be added to the central calendar, where each country's specific deadline is tracked separately. Relying only on the group-level GIR deadline risks missing local obligations.
+
+## 58.3 Internal Control and Levels of Review
+
+Given the complexity of the GloBE calculation and its financial significance, a single level of review is not sufficient. A mature control framework generally shows several distinct levels:
+
+The first level consists of **preparer self-review** — the person or team that produces the initial calculation itself uses a verification checklist to confirm whether all required adjustments have been reflected, and whether the figures are reasonable compared to the prior year.
+
+The second level consists of an **independent second reviewer** — a person not directly involved in the calculation re-examines the key assumptions, interpretive decisions, and calculation logic. The main purpose of this level is to catch errors arising from the blind spots of the same individual.
+
+The third level consists of **subject-matter expert review** — particularly for complex or ambiguous areas (such as hybrid entity classification, the impact of a specific election, or borderline Safe Harbour eligibility situations), a highly experienced tax specialist or, where needed, external advice is obtained.
+
+The fourth level consists of **senior-level approval** — the final figures and major interpretive decisions are presented to a senior officer (such as the Group Tax Director or CFO) for sign-off, who verifies the overall risk profile.
+
+An important complement to this tiered review is establishing a **materiality threshold** — that is, predetermining which magnitude of adjustment or discrepancy will automatically be escalated to a senior level. This ensures that excessive time is not spent on small, immaterial matters while attention remains concentrated on genuinely risky issues.
+
+In addition, the control framework should also include a **change management** control — that is, whenever a change occurs in the corporate structure (a new entity being added, dissolution, restructuring), there should be a trigger process to ensure it is automatically reflected in the GloBE calculation, so that no entity is inadvertently omitted or wrongly included.
+
+## 58.4 Documentation and Audit-Trail Retention Policy
+
+Since the burden of proof for the Pillar Two calculation generally rests with the taxpayer, a well-organized documentation retention policy is a defensive necessity, not a luxury. An effective documentation retention policy should generally include the following elements:
+
+- **Retention of source information** — clearly identifying and retaining the source (which financial statement or ledger the figures were taken from) underlying each calculation, so that it is possible to trace back to the original source when questions arise years later.
+- **Documentation of adjustment rationale** — keeping a brief explanation, for each GloBE adjustment, of which provision it was made under and why a particular method was chosen.
+- **Election and position register** — keeping all elections made and significant interpretive positions in a central register, so that inconsistent decisions are not made on the same question in the future.
+- **Version control** — retaining each version of the calculation along with the reason for and date of the change, so that when and why a figure changed can be reconstructed.
+- **Evidence of review** — keeping written evidence (signature or approval log) of who reviewed what and when at each review level described in 58.3.
+
+In determining the retention period, the longest applicable jurisdiction's statute of limitations should be considered — since an MNE Group operates in multiple jurisdictions, it is practically easier to adopt a single, most conservative retention period, even though this may mean retaining documents longer than necessary in some jurisdictions.
+
+An important matter for the audit trail is access control — who can modify documents and who can only view them should be clearly defined, so that the integrity of the documents is not questioned during an audit.
+
+## 58.5 Reporting to Management and the Board
+
+Pillar Two's financial impact is often significant enough to warrant board-level attention, particularly since it directly affects the effective tax rate and cash tax liability. An effective reporting framework generally involves a three-tier flow of information.
+
+First, **regular executive-level brief reports** — presenting a concise summary of the current year's estimated Top-up Tax exposure, the main at-risk jurisdictions, and the potential impact of any new rule changes. This report should generally be monthly or quarterly, so that surprising information does not appear at the last minute.
+
+Second, **risk-based reporting to the board or audit committee** — here, instead of detailed calculation information, the overall risk profile, significant interpretive uncertainty, and its reflection in the financial statements (such as provisioning or disclosure needs) are highlighted. The relevant question for the board is — is the overall risk being managed, is the documentation defensible, and is there any material uncertainty.
+
+Third, **event-driven escalation reporting** — any significant event, such as the start of an audit in a jurisdiction, identification of a major error, or a sudden rule change that could have a material financial impact, should be reported directly to a senior level outside the regular calendar.
+
+An important policy point is that the board should not be overloaded with excessive technical detail; rather, the information should be translated into business language and presented — such as "due to ETR uncertainty in this jurisdiction, there is a risk of approximately X in additional cash tax liability" — which is more useful for decision-making than a technical explanation.
+
+## 58.6 A Process for Keeping Pace with Rule Changes
+
+Pillar Two is not a stable, once-and-for-all fixed framework — OECD-level Administrative Guidance, and amendments to domestic legislation across jurisdictions, continue to be published regularly. Keeping pace with these changes requires a permanent, repeatable process — a one-off, project-based approach is not sufficient here.
+
+The core elements of an effective process are as follows:
+
+- **Regular monitoring** — a specific team or person should be assigned responsibility for regularly following legislative changes in relevant jurisdictions and OECD-level guidance publications. This should be done on a defined recurring basis (such as monthly), not sporadically.
+- **Impact assessment** — once each new change is identified, assessing what impact it may have on the group's existing calculation methodology, adopted elections, or interpretive positions, and preparing recommendations for prompt revision where needed.
+- **Internal communication** — informing all relevant departments (Tax, Finance, IT, Legal) and, where necessary, management, of the assessed impact in a timely manner, so there is adequate time to implement the change.
+- **Documentation and position updates** — regularly updating the election and position register described in 58.4, so that old interpretations do not remain in conflict with new guidance.
+
+A practical risk is that the pace of rule change can be so fast that the internal process fails to keep up, particularly if this responsibility is informally placed on a single individual and gets neglected under the pressure of that person's other duties. To avoid this risk, this monitoring responsibility should be established as a permanent workflow linked to the formal annual calendar (58.2), so that it is process-dependent rather than person-dependent.
+
+In addition, since different jurisdictions update their domestic legislation at different speeds and at different times, it is useful to maintain a central "rule change log," in which each jurisdiction's recent changes, their effective date, and their impact on the group are briefly recorded. This log is not only useful for internal management, but also becomes an important foundation for the board reporting described in 58.5.
+
+## Summary
+
+Pillar Two compliance is a recurring, cross-departmental responsibility, and its successful management requires a clear governance framework. Responsibility among Tax, Finance, IT, and Legal should be clearly defined, and a cross-departmental coordination team helps keep this division effective. A realistic annual calendar — one that accounts for multi-year overlap and jurisdiction-specific deadlines — reduces the risk of missed deadlines. The internal control framework should include multi-level review, materiality thresholds, and change-management triggers. A documentation and audit-trail retention policy is a defensive necessity given that the burden of proof rests with the taxpayer. Reporting to management and the board should vary by level — regular brief updates, risk-based board reporting, and event-driven escalation communication. Finally, keeping pace with the speed of rule change requires establishing a permanent, process-dependent monitoring and impact-assessment framework that should not rely on any single individual's informal initiative.
+
+## Common Mistakes
+
+- Viewing Pillar Two as a one-off project and failing to build a permanent process and team structure after implementation.
+- Leaving the entire responsibility solely to the Tax department, so that Finance's data quality, IT's data collection capability, and Legal's knowledge of structural changes are not effectively integrated.
+- Considering only the group-level GIR deadline when building the annual calendar, while ignoring jurisdiction-specific Notification and local filing deadlines.
+- Relying on a single preparer and skipping independent second-level review, particularly in years under time pressure.
+- Retaining only the final figures without preserving documentation and adjustment rationale in writing, which makes reconstruction difficult during future audits or internal reviews.
+- Overloading the board with excessive technical detail, causing the real risk and the need for decisions to get lost.
+- Leaving responsibility for monitoring rule changes to a single individual's informal initiative, which can easily be neglected under the pressure of that person's other work.
+- Continuing to rely on outdated decisions without updating the election and interpretive position register, risking conflict with new guidance.
 
 <!-- lang:bn -->
 

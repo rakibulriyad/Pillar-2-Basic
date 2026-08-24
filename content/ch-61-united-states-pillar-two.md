@@ -12,7 +12,68 @@ slug: "ch-61-united-states-pillar-two"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 61 — The United States and Pillar Two
+
+> **In this chapter:** the United States has not formally adopted the GloBE Model Rules, but its own **GILTI** (Global Intangible Low-Taxed Income), **CAMT** (Corporate Alternative Minimum Tax), **FDII** (Foreign-Derived Intangible Income), and **BEAT** (Base Erosion and Anti-abuse Tax) regimes are intricately entangled with the Pillar Two framework; in this chapter we examine how these regimes do or do not fit within GloBE's definitions and calculations, and how exposed US multinational groups are to UTPR risk — and why this whole area remains politically highly volatile.
+
+## 61.1 GILTI — Structure and Comparison with Pillar Two
+
+Through the 2017 Tax Cuts and Jobs Act, the United States enacted a rule known as **GILTI**, aimed at imposing a minimum tax on the income of a US shareholder's controlled foreign corporation (CFC) that exceeds a "routine return." This regime is conceptually regarded as a predecessor to GloBE's **Income Inclusion Rule (IIR)**, because both rest on the idea of imposing top-up tax on foreign low-taxed income at the level of the parent company's jurisdiction.
+
+But the structural difference is fundamental. The GloBE IIR is jurisdictional (jurisdictional blending) — the effective tax rate (ETR) of each country is calculated separately, and top-up tax is separately determined for each jurisdiction below 15%. GILTI, by contrast, applies a worldwide-blending method — the "tested income" and "tested loss" of all CFCs are blended together to create a single global calculation. As a result, income earned in a high-tax jurisdiction can blend with income from a low-tax jurisdiction to show an upward-shifted average rate, even though, according to GloBE's standard, top-up tax would actually have been required in that low-tax jurisdiction.
+
+Moreover, GILTI's rate has historically been below GloBE's 15% minimum rate — because of the deductible portion under Section 250, the effective rate fluctuated between roughly 10.5% and 13.125% (varying over time according to the statutory framework). Even after the 2025 US legislative amendment (which restructured GILTI as "Net CFC Tested Income," or NCTI), the fundamental structure of this rate and blending method remains intact — that is, although the name and certain parameters have changed, the core problem of worldwide blending remains. For this reason, GILTI could not be directly treated as a Qualified IIR.
+
+## 61.2 Is GILTI a Qualified IIR? — Treatment as a Blended CFC Tax Regime
+
+To address this blending problem, the OECD Inclusive Framework introduced a special transitional concept in its 2023 Administrative Guidance, which falls under the definition of a **Blended CFC Tax Regime** discussed in Chapter 20 of this book (a special application of the general tax allocation principle described in Article 4.3 of the GloBE Model Rules). Under this arrangement, tax paid under GILTI is divided, using a specified allocation key, among the jurisdictions in which the tested income arose, so that this tax can be added as a Covered Tax in the GloBE ETR calculation.
+
+This solution is explicitly a **transitional** arrangement — it does not recognize GILTI as a permanent or fully Qualified IIR. Rather, it is a time-limited accommodation aimed at mitigating the immediate risk of double counting or double taxation for US multinational groups, until such time as the United States adopts jurisdictional blending in its own law, or a permanent solution is determined at the OECD level. The term of this transitional arrangement has been extended multiple times, and its future depends directly on the progress of US-OECD negotiations.
+
+An important point to remember on the practical side — this Blended CFC Tax Regime treatment applies only to regimes like GILTI, and its application conditions (such as ETR calculation methodology, data availability) must be met. Practitioners should verify the current applicability of this transitional rule for each specific MNE group, because this area is changing rapidly over time.
+
+## 61.3 Corporate Alternative Minimum Tax (CAMT) — Its Position as a Covered Tax
+
+Through the 2022 Inflation Reduction Act, the United States introduced **CAMT**, which imposes a 15% minimum tax on corporations with a three-year average Adjusted Financial Statement Income (AFSI) exceeding one billion dollars. CAMT's calculation base relies on book income, which is conceptually similar to GloBE's own accounting-based methodology — both rely on financial statement information rather than tax accounting.
+
+However, CAMT is not applied to the income of any specific jurisdiction — it is a federal minimum tax on the taxpayer's entire worldwide consolidated income, applicable whenever it exceeds the regular corporate income tax liability. As a result, it is difficult to allocate directly as a "Covered Tax" paid in any single foreign jurisdiction — unlike GILTI, there is as yet no established allocation key or transitional Administrative Guidance that could convert it into a jurisdictional Covered Tax.
+
+The OECD's December 2023 Administrative Guidance offered some preliminary observations on CAMT, but it did not recognize CAMT as a Qualified Domestic Minimum Top-up Tax (QDMTT) or as a direct Covered Tax. Rather, it acknowledged that the nature of CAMT and its potential impact on the GloBE calculation have not yet been fully resolved. As a result, in practice many practitioners view CAMT as an "additional layer of complexity" in the GloBE ETR calculation, which may increase a US-parented group's overall tax liability but is not directly reconcilable with GloBE's own top-up calculation.
+
+## 61.4 The Relevance of Foreign-Derived Intangible Income and BEAT
+
+**FDII** is a US domestic deduction-based regime that makes a portion of income a US corporation earns from export-related intangibles deductible, resulting in a significantly reduced effective tax rate on that income compared to the regular 21% corporate rate. Although FDII technically applies to US domestic income (not foreign CFC income), it is important because, for US-parented groups for which the United States itself enters the GloBE calculation as a "constituent entity jurisdiction," the low effective rate resulting from FDII could potentially push the US jurisdiction's ETR below 15% — meaning the top-up tax question could arise within the United States itself, not abroad. The 2025 legislative amendment changed the rate and structure of the FDII-related deduction, but the fundamental policy question — the GloBE-compatibility of an export-incentive-based preferential regime — remains unresolved.
+
+**BEAT** is different in nature — it is a minimum tax on US taxpayers making base-eroding payments to related foreign parties, designed primarily to prevent profit shifting. BEAT is not a comprehensive corporate income tax substitute, and it generally does not fall directly within GloBE's Covered Tax definition, because its base is not overall income but specific intragroup payments. Furthermore, BEAT's structure partially overlaps with the scope of the Subject-to-Tax Rule (STTR), which has created an additional layer of ongoing discussion with jurisdictions outside the United States. Overall, both FDII and BEAT show that the incentive and anti-avoidance components of the US tax system do not easily fit within GloBE's jurisdictional framework.
+
+## 61.5 UTPR Risk for US MNEs
+
+Since GILTI is not a full Qualified IIR and CAMT cannot be reliably brought into the calculation as an overall Covered Tax, theoretically, for jurisdictions within a US-parented multinational group where the ETR falls below 15% (which could potentially include the United States itself, particularly because of FDII or other preferences), the **Undertaxed Profits Rule (UTPR)** of another jurisdiction could be activated. This means other GloBE-adopting countries (such as EU member states or the UK) could collect top-up tax on a portion of the US group's low-taxed profit, through entities present in their own respective jurisdictions.
+
+This possibility has caused deep concern in US corporate and political circles, because it would allow a foreign government to collect tax on the profit of a US MNE that was not actually fully covered under US law by GILTI, CAMT, or the regular corporate tax. In response to this concern, a proposed "retaliatory tax" provision (the so-called Section 899) was discussed in the US Congress in 2025, which proposed imposing an increased US tax on taxpayers of countries applying the UTPR or other "discriminatory foreign taxes." Although this particular provision was not ultimately included in enacted legislation, its emergence shows how seriously the US government has viewed UTPR risk.
+
+The practical result is that practitioners working for US-parented groups must regularly assess potential UTPR exposure in every jurisdiction in which the group is present, particularly in countries where the group has employees or an asset base (because UTPR allocation is generally proportional to employees and tangible assets). This exposure may change over time, as it depends on transitional safe harbours, future GILTI reform, and the progress of OECD-level agreement.
+
+## 61.6 Political Uncertainty and Possible Outcomes
+
+Beneath all the technical questions discussed in this chapter lies a deeply political and still-unresolved reality — **the United States has never formally adopted or endorsed the GloBE Model Rules**, and there is no certain prospect that it will do so in the near future. A portion of the US Congress views Pillar Two as an intrusion on US sovereign tax policy, and in particular the idea of allowing a foreign government to collect tax on the income of a US taxpayer through the UTPR has faced fierce opposition.
+
+In 2025, a preliminary outline of a "side-by-side" framework was discussed among the G7 countries, the core idea of which is to recognize the United States' existing GILTI and BEAT regimes as equivalent to GloBE, exempting US-parented groups (at least partially) from the application of the IIR and UTPR, in exchange for the US government refraining from retaliatory tax measures (such as the proposed Section 899). This discussion remains at the level of a political policy statement, and its technical implementation — that is, exactly how, under what conditions, and within what timeframe GILTI/BEAT would be declared "equivalent" — has not yet been finally determined within the OECD Inclusive Framework.
+
+An important aspect of this situation is that it is not a one-time decision but an ongoing, multi-year negotiation process, whose outcome will depend on the interaction of three distinct forces: US domestic politics (changes in administration, the composition of Congress), consensus among OECD member countries, and the EU's own legal obligations (the Minimum Tax Directive). As of the writing of this book, GILTI's final qualification status, the future term of the transitional Blended CFC Tax Regime, and the actual legal form of the side-by-side framework all remain open questions. The practical advice for practitioners is to monitor this area regularly as an ongoing negotiation process rather than viewing it as a settled rule framework, and not to plan client strategy assuming any single outcome as predetermined.
+
+## Summary
+
+The United States has not formally adopted the GloBE Model Rules, and none of its own regimes — GILTI, CAMT, FDII, BEAT — fits simply within the Pillar Two framework. Because of GILTI's worldwide-blending structure, it is not directly a Qualified IIR, but is instead recognized as a transitional Blended CFC Tax Regime (under GloBE Article 4.3, discussed in detail in Chapter 20). CAMT's accounting-based nature is conceptually similar to GloBE, but it is not yet established as a reliable jurisdictional Covered Tax. FDII could potentially push the US jurisdiction's own ETR below 15%, and BEAT falls outside the general Covered Tax definition. This mismatch means US MNEs may be exposed to UTPR risk in other jurisdictions, which has produced a strong political reaction (the proposed Section 899) and given rise to the 2025 G7 side-by-side discussions. But this discussion remains unresolved — GILTI's final qualification status and the future shape of the US-OECD relationship remain unsettled.
+
+## Common Mistakes
+
+- Assuming GILTI is directly a Qualified IIR, which is wrong — it is currently recognized only as a transitional Blended CFC Tax Regime, not permanently.
+- Believing that the United States has "adopted" the GloBE Model Rules or is formally committed to doing so — in reality, the United States has no formal adoption, and there is no political consensus on this matter either.
+- Treating CAMT as a QDMTT or as an established Covered Tax in calculations, when its actual GloBE treatment remains unresolved.
+- Excluding FDII from GloBE analysis by thinking of it as merely a "US domestic matter," even though it can affect the US jurisdiction's own ETR.
+- Presenting the G7 side-by-side discussion to a client as a final, implemented solution — it remains an ongoing political process, not a certain outcome.
+- Assessing a US-parented group's UTPR exposure once and treating it as permanent, when the rules and safe harbours in this area are changing rapidly over time.
 
 <!-- lang:bn -->
 

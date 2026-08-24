@@ -13,7 +13,93 @@ slug: "ch-10-upe-ipe-pope"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 10 — Parent Classification: UPE, IPE, POPE
+
+> **In this chapter:** to determine which entity within an MNE Group is responsible for applying the Income Inclusion Rule (IIR) to whom, each entity in the group's ownership chain must first be identified as an **Ultimate Parent Entity (UPE)**, an **Intermediate Parent Entity (IPE)**, or a **Partially-Owned Parent Entity (POPE)**; this classification determines the top-down order of GloBE's tax imposition and how much of each Allocable Share belongs to whom.
+> **Related Article:** 1.4, 2.1–2.3, 10.1
+
+## 10.1 Ultimate Parent Entity (UPE) — The Apex of Controlling Interest
+
+Under **Article 1.4** of the GloBE Model Rules, an **Ultimate Parent Entity (UPE)** is the entity that directly or indirectly holds a **Controlling Interest** in another entity, but is not itself held by any other entity in such a way that the other entity has a Controlling Interest over it. In simple terms, it is the entity sitting at the highest point of the ownership chain, in whose consolidated financial statements the assets, liabilities, income, and expenses of all entities of the group are included line-by-line (or should be included, had the UPE's equity been listed on a public stock exchange) — that entity is the UPE.
+
+This definition has two important consequences. First, an MNE Group can have only one UPE; two different entities cannot simultaneously sit at the "top," because, by definition, the UPE must be one that no other entity controls. Second, in the case of a group based on a Permanent Establishment (the structure described in Article 1.5.2), the Main Entity is also treated as the UPE, even though it has no separate legal entity-owner.
+
+The role of the UPE is not merely a matter of organisational identification — **Article 2.1** states that the UPE of an MNE Group, if located in a member state where a Qualified IIR is in effect, must take responsibility for paying tax by applying the IIR to its own **Allocable Share** of the Top-up Tax of any **Low-Taxed Constituent Entity (LTCE)** of the group. That is, the primary and default responsibility for the IIR falls on the UPE — this is called the "top-down approach," because the tax claim first attempts to be imposed at the highest level of the ownership chain.
+
+## 10.2 Intermediate Parent Entity (IPE)
+
+The ownership chain between the UPE and an LTCE often contains multiple holding or sub-holding entities. Under the definition in **Article 10.1**, an **Intermediate Parent Entity (IPE)** is a Constituent Entity (a member entity of the group) that directly or indirectly holds an Ownership Interest in another Constituent Entity of the group, and is itself not a UPE, not a POPE, not a Permanent Establishment, and not an Investment Entity.
+
+IPE is essentially a "residual" or "default" class — after first testing and excluding the definitions of UPE and POPE, the remaining intermediate holding entities are IPEs. In real life, a holding company, a regional sub-holding, or a finance company is often an IPE if it has no more than 20 percent outside interest (an outside owner).
+
+The relevance of the IPE becomes active only when the UPE itself cannot or does not apply the IIR. Under **Article 2.2**, if the UPE is an Excluded Entity, or if the UPE's jurisdiction has no Qualified IIR, or if the UPE is itself an entity to which no Qualified IIR applies, then every IPE of the group — if located in a jurisdiction with a Qualified IIR in effect — must apply the IIR based on its own Allocable Share. There is an important exception here: if another IPE already holds a Controlling Interest in the relevant LTCE and that higher-level IPE applies the IIR, then the lower-level IPE does not need to apply the IIR a second time on the same income. In this way, the top-down approach is also maintained at the IPE level — the tax liability is placed as high up in the chain as possible, so that the same Top-up Tax is not collected more than once.
+
+## 10.3 Partially-Owned Parent Entity (POPE) — More Than 20% Outside Interest
+
+Sometimes an intermediate entity in the ownership chain has a significant number of its own outside (non-group) owners — for example, a regional subsidiary listed on a stock exchange, or a joint-venture-like holding company with third-party investors as partners. **Article 10.1** defines such an entity as a **Partially-Owned Parent Entity (POPE)**: a Constituent Entity that directly or indirectly holds an Ownership Interest in another Constituent Entity of the group, and more than 20 percent of whose Ownership Interest is held by one or more persons/entities who are not members of that MNE Group (that is, outside or "third-party" owners).
+
+Note that the threshold is "more than 20 percent outside interest" — that is, if 80 percent or less is held from within the group, the entity becomes a POPE. The reason for this low threshold is that the POPE rule is designed mainly to protect minority outside shareholders — who have no control over the group's global tax strategy, but whose financial interest is tied to the Low-Taxed Constituent Entities beneath the POPE.
+
+Under **Article 2.3**, there is a distinct and important rule for POPE: if a POPE directly or indirectly holds a Controlling Interest in an LTCE, then that POPE — provided a Qualified IIR is in effect in its own jurisdiction — must apply the IIR on its own Allocable Share, **regardless of whether the UPE itself applies the IIR or not**. This rule is an important exception, or "circuit-breaker," to the top-down approach — under the general rule, the tax liability is placed as high up as possible, but in the case of a POPE, the chain stops right there, because applying the IIR at the UPE level on the LTCE beneath a POPE would not properly reflect the interests of the outside minority investors — their investment runs directly through the POPE, not through the UPE.
+
+There is an exception to this rule as well: if that POPE is itself wholly held (i.e., with a Controlling Interest) by another, higher-level POPE, and that higher POPE is already applying the IIR, then the lower POPE does not need to apply the IIR again. In this way, when multiple POPEs exist in the same ownership chain, the tax liability is settled at the highest POPE level.
+
+## 10.4 The Definitions of Controlling Interest and Ownership Interest
+
+All of the above definitions rely on two fundamental terms, defined in **Article 10.1**.
+
+**Ownership Interest** refers to any equity interest that confers rights to the profits, capital, or reserves of an entity or Permanent Establishment. This is a broad definition — ordinary shares, preferred shares, partnership interests, and even certain hybrid instruments may fall within it, as long as they confer rights to profits/capital/reserves.
+
+**Controlling Interest** is a special, stricter form of Ownership Interest — an interest whose holder is required, or would be required (had the holder's equity been publicly traded), to consolidate the assets, liabilities, income, expenses, and cash flows of the relevant entity line-by-line under a recognised Financial Accounting Standard (Acceptable or Authorised). In practical terms, holding more than 50 percent of voting rights or equity interest usually creates a consolidation obligation under accounting standards, making this the most common form of Controlling Interest — but the determining criterion is not a numerical percentage, but the obligation or eligibility for consolidation under the accounting standard.
+
+Understanding the difference between these two definitions is essential: an entity may hold an Ownership Interest somewhere (say, 15 percent shares) without having a Controlling Interest; while a Controlling Interest is generally also a form of Ownership Interest, but comes with an accounting consolidation obligation. The definitions of UPE, IPE, and POPE use the terms Ownership Interest and Controlling Interest in different places — remembering this distinction is essential for correct classification.
+
+## 10.5 Determining Direct and Indirect Ownership Percentages
+
+When there are multiple tiers in an ownership chain, the indirect ownership percentage of a UPE or IPE over a lower-tier LTCE is determined by multiplying the direct ownership percentage at each tier of the chain. The example below shows a hypothetical four-tier group, in which a POPE is present.
+
+**Example: A Four-Tier Ownership Chain**
+
+Suppose an MNE Group has the following structure:
+
+- **UPE** directly holds 90 percent of the equity of **Holdco X** (the remaining 10 percent held by the founding family of Holdco X).
+- **Holdco X** directly holds 75 percent of the equity of **Regco Y** (located in Singapore) (the remaining 25 percent held by a local private-equity investor who is not a member of the group).
+- **Regco Y** directly holds 100 percent of the equity of **Opco Z** (located in a low-tax jurisdiction).
+
+| Entity | Location | Direct ownership by the entity above | UPE's indirect ownership (cumulative) | Controlling Interest? | Classification |
+|---|---|---|---|---|---|
+| UPE | Cyprus | — | 100% | N/A | Ultimate Parent Entity |
+| Holdco X | Netherlands | 90% by UPE | 90% | Yes (UPE's) | Intermediate Parent Entity |
+| Regco Y | Singapore | 75% by Holdco X (25% outside interest) | 90% × 75% = 67.5% | Yes (Holdco X's) | Partially-Owned Parent Entity |
+| Opco Z (LTCE) | Low-tax jurisdiction | 100% by Regco Y | 67.5% × 100% = 67.5% | Yes (Regco Y's) | Low-Taxed Constituent Entity |
+
+Two points become clear from this table. First, by calculating the product of the direct ownership percentages, we see that the UPE's indirect ownership over Opco Z is, in fact, 67.5 percent — even though a separate Controlling Interest exists at each tier of the chain (because at each tier there is more than 50 percent direct holding, and each holder is required, under the accounting standard, to consolidate the entity below it). Second, because an outside investor holds a 25 percent interest in Regco Y (which exceeds the 20 percent threshold), Regco Y automatically becomes a POPE — and this single fact changes the trajectory of IIR liability allocation further down the chain, which is discussed in the next section.
+
+## 10.6 The Concept of Allocable Share — A Precondition for the IIR
+
+Under **Article 2.1**, an IIR-applying entity (a UPE, IPE, or POPE) does not pay the entire Top-up Tax of an LTCE — instead, it takes on liability for its own **Allocable Share**. The Allocable Share is determined based on the proportion of the parent entity's Ownership Interest in the relevant LTCE's GloBE Income, but this proportion excludes the portion held by any non-Group owner — this adjustment is generally called the **Inclusion Ratio**, which is defined in detail in the calculation-related chapter of the GloBE Model Rules (in the Top-up Tax calculation process).
+
+Put simply, in the example above, if Opco Z's Top-up Tax is 100 units, then Regco Y — since it is the 100 percent direct owner of Opco Z and there is no outside interest at the Opco Z level — would have an Allocable Share of the full 100 units. But since Regco Y is itself a POPE (Article 2.3), Regco Y must apply the IIR to this 100 units itself, provided a Qualified IIR is in effect in Singapore. Holdco X or the UPE does not need to apply the IIR to this portion again, because Regco Y has already covered its own Controlling-Interest-based portion — this sequence is maintained precisely to avoid double imposition on the same Top-up Tax.
+
+Notably, if there had been no Qualified IIR in Regco Y's jurisdiction, this Allocable Share would have flowed further up the chain (to Holdco X, then to the UPE) — that is, the concept of Allocable Share does not merely determine "how much tax," but also determines "to which entity liability shifts if the first-in-line entity fails to apply the IIR." For this reason, correctly calculating the Allocable Share is an essential precondition for applying the IIR — Allocable Share cannot be calculated without classification and determination of ownership percentages.
+
+## 10.7 Why This Classification Determines the Order of the IIR
+
+The summary of all the discussion above is this: the classification of UPE, IPE, and POPE is not a mere administrative label — it directly determines which jurisdiction, through which entity, and how much Top-up Tax will be collected.
+
+The core logic of the top-down approach is to place the tax liability at the highest possible tier of the group wherever possible — because this maintains administrative simplicity and allows a single jurisdiction (usually the UPE's jurisdiction) to take responsibility for collecting the entire Top-up Tax. But this simplification breaks down when (a) the UPE itself is not located in an IIR-applicable jurisdiction (the IPE provision of Article 2.2 becomes active), or (b) there is an entity in the chain with a significant outside minority owner (the POPE provision of Article 2.3 becomes active).
+
+The POPE rule is especially important because it reflects a policy decision: if the IIR were applied entirely at the UPE level, it would impose a tax burden on the POPE's outside minority shareholders over which they have no control in the decision, and of which they are not the direct beneficiaries. Instead, the rule ensures that the tax burden is reflected in the POPE's own jurisdiction, through the POPE's own accounts — which can then be consistently reflected in the financial reporting of all of the POPE's shareholders (both majority and minority).
+
+From a practical application standpoint, the first task for a multinational group's tax department is to map the entire ownership chain and run the 20-percent-outside-interest test on every entity, because the presence of a single POPE can change the trajectory of the entire IIR liability allocation — even if that POPE is small relative to the overall size of the group's structure.
+
+## Summary
+
+Under the GloBE Model Rules, determining responsibility for applying the IIR begins by correctly classifying every entity in the ownership chain. Under **Article 1.4** and **Article 10.1**, a **UPE** is the entity sitting at the apex of the chain, itself uncontrolled, on which the primary IIR liability falls under the charging provision of **Article 2.1**. When the UPE itself is unable or ineligible to apply the IIR, **Article 2.2** provides that the intermediate holding entities — **IPEs** — take on responsibility, maintaining the top-down order. But whenever an entity is found in the chain with more than 20 percent outside interest, that entity becomes a **POPE**, and under **Article 2.3** it must, regardless of the UPE's actions, independently apply the IIR to its own Allocable Share, so that the interests of outside minority shareholders are properly reflected in the correct jurisdiction. This entire framework rests on two key foundational definitions — **Controlling Interest** (the accounting consolidation obligation) and **Ownership Interest** (a right to profits/capital/reserves) — and it is by calculating the product of direct ownership percentages that indirect ownership, and subsequently the **Allocable Share**, is determined.
+
+## Common Mistakes
+
+A common mistake is treating Controlling Interest and ordinary numerical ownership (more than 50 percent shares) as synonymous — in reality, the determining criterion is the obligation for line-by-line consolidation under the applicable accounting standard, which in some cases can arise even with less than 50 percent ownership (such as where contractual control exists), and in some cases does not arise even with more than 50 percent ownership (such as where a joint control agreement exists). A second common mistake is incorrectly calculating the POPE threshold — many mistakenly calculate the 20 percent outside-interest threshold on the basis of total outside interest at the group level, whereas the actual test is to examine each entity's own outside interest separately. A third mistake is skipping or adding an extra tier when calculating indirect ownership percentage, where the correct method is to multiply the direct percentages at each tier sequentially, not add them. A fourth, and often serious, mistake is continuing to apply the IIR to the full Top-up Tax at the UPE level even after a POPE has been identified, which violates the explicit priority provision of Article 2.3 and creates a risk of double taxation. A fifth mistake is treating the Allocable Share as a simple reflection of the ownership percentage, when in fact it is a separate calculation adjusted through the Inclusion Ratio, determined by excluding the portion held by outside owners at lower tiers.
 
 <!-- lang:bn -->
 

@@ -13,7 +13,139 @@ slug: "ch-25-jurisdictional-blending-etr"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 25 — Jurisdictional Blending and the Effective Tax Rate
+
+> **In this chapter:** under the GloBE rules, the Effective Tax Rate (ETR) is not calculated for each entity separately, but by blending all Constituent Entities of a jurisdiction together — this chapter discusses the rationale, formula, exception groups, and a complete numerical example of this "Jurisdictional Blending" method.
+> **Relevant Article:** 5.1
+
+## 25.1 Why the Calculation Runs by Jurisdiction, Not by Entity
+
+One of the most important structural decisions in Pillar Two is that the minimum tax rate test for a multinational group (MNE Group) is not applied entity by entity to each **Constituent Entity**, but by blending together all Constituent Entities located in the same jurisdiction. This method is called **Jurisdictional Blending**. Under Article 5.1 of the GloBE Model Rules, the Effective Tax Rate for a jurisdiction is determined by summing the Adjusted Covered Taxes and Net GloBE Income of all Constituent Entities located in that jurisdiction.
+
+Why was a jurisdiction-based calculation chosen instead of an entity-by-entity one? There are several practical and policy reasons behind this.
+
+First, a large multinational group typically has more than one entity in the same country — a holding company, an operating company, a service company, a finance subsidiary, and so on. Tax rates can vary among these entities — one may earn directly taxable profit, another may receive a tax incentive, another may be in a loss position. If each entity's ETR were calculated separately, multiple parallel Top-up Tax computations would have to be run within the same country, which would become administratively very complex and would create inconsistency among entities operating under the same country's tax policy.
+
+Second, a jurisdiction-based view is more realistic for understanding the overall picture of a country's tax system. If, in a given country, one entity pays tax at a high rate and another pays at a low rate (for example, because of a special incentive regime), the core GloBE question is how much lower the group's overall tax liability is in that country as a whole — not any single entity. Jurisdictional Blending helps capture this overall picture.
+
+Third, this method also provides the group with a degree of relief — the tax paid by a high-tax-rate entity in the same country can offset the shortfall of a low-tax-rate entity (this is known as the "averaging effect"). We discuss the policy limitations of this point in detail in Section 25.6.
+
+However, an important point must be kept in mind — Jurisdictional Blending applies only to entities in the "main" pool of the group. Certain special categories of entity — such as **Investment Entities**, **Minority-Owned Subgroups**, **JV Groups**, and **Stateless Entities** — fall outside this main pool, and a separate ETR must be calculated for them. This is discussed in detail in Section 25.5.
+
+## 25.2 The ETR Formula
+
+Under Article 5.1, the formula for determining a jurisdiction's ETR is as follows:
+
+```
+ETR = Sum of Adjusted Covered Taxes of all CEs in the jurisdiction
+      ÷ Net GloBE Income of the jurisdiction
+```
+
+Both components of this formula need to be understood.
+
+**Numerator — Adjusted Covered Taxes:** This is the sum of the Covered Taxes calculated on the basis of financial accounting for each Constituent Entity located in the jurisdiction, with certain adjustments made under the GloBE Model Rules — such as deferred tax adjustments relating to temporary differences, prior-year tax adjustments, and the addition or exclusion of certain specific taxes. This subject is discussed in detail in earlier chapters (the chapters on Covered Taxes); what matters here is that this figure is the simple sum of the separate Adjusted Covered Taxes of each entity, aggregated at the jurisdiction level.
+
+**Denominator — Net GloBE Income:** This is the net income determined by aggregating the GloBE Income and GloBE Loss of all Constituent Entities located in the jurisdiction. How this calculation is performed is discussed in the next section.
+
+Note that in this formula, "CE" refers to every Constituent Entity located in the jurisdiction — that is, this is not the separate ETR of any single entity, but the blended ETR of the entire jurisdiction-pool. This ETR is compared against the Minimum Rate (15%) to determine the Top-up Tax Percentage — if the ETR is below 15%, the Top-up Tax is imposed at the rate of the shortfall. The detailed method for calculating the Top-up Tax is discussed in the next chapter; the focus of this chapter is how the numerator and denominator of the ETR are determined.
+
+## 25.3 Net GloBE Income = Sum of GloBE Income − Sum of GloBE Loss
+
+The method for determining Net GloBE Income is simple but important. First, the GloBE Income or GloBE Loss must be determined separately for each Constituent Entity located in the jurisdiction — this is calculated on the basis of that entity's Financial Accounting Net Income or Loss, applying the adjustments specified in the GloBE Model Rules (such as excluded dividend income, excluded equity gain/loss, Arm's Length adjustment, disallowed accrued tax expense, and so on).
+
+Then, at the jurisdiction level:
+
+- the GloBE Income of all entities that have GloBE Income (i.e., positive) is summed;
+- the GloBE Loss of all entities that have GloBE Loss (i.e., negative) is summed;
+- and then the total GloBE Loss is subtracted from the total GloBE Income to determine Net GloBE Income.
+
+Put simply —
+
+Net GloBE Income = (sum of GloBE Income of all CEs in the jurisdiction) − (sum of GloBE Loss of all CEs in the jurisdiction)
+
+An important effect can be observed in this method — if, within the same jurisdiction, one entity is profitable and another is in a loss position, the loss directly offsets against the profit, as if a "consolidated" jurisdiction-level income statement were being prepared. This offsetting effect reduces the denominator of the ETR, which can mathematically increase the ETR (if the numerator remains unchanged) — because a loss-making entity generally pays little or no Covered Tax, so excluding its Loss shrinks the denominator, which raises the value of the fraction.
+
+## 25.4 What Happens When Net GloBE Income Is Zero or Negative
+
+If a jurisdiction's Net GloBE Income is zero or negative (a net loss), the denominator of the ETR formula becomes zero or negative — which makes it mathematically impossible to determine a meaningful ETR (division by zero is undefined, and dividing by a negative denominator produces a meaningless result).
+
+In this situation, the ETR is simply not calculated under the GloBE rules, and no Top-up Tax is imposed in that jurisdiction for that year — because, by definition, where there is no net income (or there is a net loss), the "minimum tax rate test" cannot apply. This is consistent with basic logic: the Top-up Tax is essentially a supplementary tax on profit, so where there is no profit, it has no basis.
+
+But the matter does not end there. In cases where a jurisdiction has a Net GloBE Loss but nonetheless has positive Adjusted Covered Taxes (for example, due to a deferred tax adjustment), the group may make a special election — the **GloBE Loss Election** — under which the jurisdiction's loss can be treated as a Deferred Tax Asset for future years, to be used in the ETR adjustment for a later year when that jurisdiction returns to profit. In addition, if a jurisdiction has negative Adjusted Covered Taxes (even where Net GloBE Income is positive), an "Excess Negative Tax Expense Carry-forward" is created to carry that negative tax forward, which is deducted from Adjusted Covered Taxes in subsequent years. The essential point is this — Net GloBE Income being zero or negative in a given year simply means there is no Top-up Tax for that year, but its accounting consequences (through the carry-forward mechanism) may continue to affect later years.
+
+## 25.5 Separate Blending Groups — Who Falls Outside the Main Pool
+
+Not every entity is included in the main pool of Jurisdictional Blending. The GloBE Model Rules keep certain special classes of entity outside the main pool and provide for a separate ETR and Top-up Tax calculation for them. This is because the economic character or ownership structure of these entities is such that blending them with ordinary operating entities could distort the result.
+
+**Investment Entity:** These are generally fund- or holding-based entities whose income arises mainly from investment (interest, dividends, capital gains). They generally pay no tax, or very little, because as a matter of tax policy their income is taxed at the investor level upon distribution (a tax-transparent or tax-neutral structure). If they were blended with ordinary operating entities, their structurally low-tax nature would artificially depress the jurisdiction's ETR, even where no element of actual tax avoidance exists. Therefore, a separate ETR is calculated for Investment Entities, and special policies (such as the Taxable Distribution Method election) may apply to them.
+
+**Minority-Owned Subgroup:** When the Ultimate Parent Entity's direct or indirect ownership interest in a Constituent Entity is less than 30% (and all entities below it together form a subgroup), this is treated as a Minority-Owned Subgroup. Rather than being blended with the main group in the same jurisdiction, a separate ETR is calculated for this subgroup, because it effectively represents a different ownership group, and blending its tax profile with the main group could be unfair (for example, this separation is also important to protect the interests of minority shareholders).
+
+**JV Group:** A Joint Venture and its subsidiaries are generally not fully consolidated in the main group's Consolidated Financial Statements (they are accounted for under the Equity Method); nonetheless, for GloBE purposes they are treated as a "notional group" and a separate jurisdiction-based ETR is calculated for them — without blending with the other entities of the main group.
+
+**Stateless Entity:** Certain entities or Permanent Establishments may be structured such that no single tax jurisdiction of residence can be determined for them (such as certain hybrid or flow-through structures). Such a Stateless Entity cannot be included in the main pool of any jurisdiction; instead, the ETR must be calculated separately, entity by entity, for each Stateless Entity.
+
+The common feature of these four categories is that their economic or structural nature is such that their inclusion in the ordinary jurisdiction-based blending pool could distort the result, so the GloBE rules treat them separately.
+
+## 25.6 Policy Criticisms and Limitations of Blending
+
+Jurisdictional Blending is important for administrative simplification, but it has also faced some significant policy criticisms.
+
+The first criticism is that this method allows a high-tax-rate entity in the same jurisdiction to be used as a "shield" for a low-tax-rate entity. If a multinational group has both an ordinary operating company (paying tax at the standard rate) and a specially incentivized company (paying nearly zero tax) in the same country, the blended ETR may end up above 15%, even though the low-tax-rate entity's own individual ETR is much lower. As a result, there is a risk that no Top-up Tax is imposed on that low-tax activity at all, which can undermine the core objective of ensuring a minimum tax rate.
+
+The second criticism is that this structure can create a new field for tax planning. Groups may deliberately create a mix of high-profit, high-tax entities and low-tax entities in the same jurisdiction in an attempt to keep the ETR just above 15% — this is sometimes called "blending arbitrage." Although the GloBE rules contain various anti-abuse provisions (such as a Purpose Test and GloBE-specific anti-avoidance rules) intended to prevent artificial structuring, it remains difficult to fully prevent groups from taking advantage of blending through genuine business restructuring.
+
+The third criticism concerns the effect of loss-making entities. When a loss-making entity exists in the same jurisdiction, its Loss directly offsets against the income of profitable entities, which can artificially raise the ETR (because the denominator shrinks). This can create a situation in which a group's genuinely low-tax profitable activity, when blended with an easily explainable business loss (such as an R&D-heavy start-up unit), allows the overall ETR to appear above 15%.
+
+Fourth, in small jurisdictions, or countries where the group has only one or two entities, the "averaging" benefit of blending is practically absent — meaning that, in practice, only groups with a large jurisdictional footprint can enjoy the benefit of this method more fully, which creates a size-based institutional imbalance compared with smaller groups or single-entity presences.
+
+Even so, policymakers argue that the administrative complexity and compliance cost of an entity-by-entity calculation would be so high as to be impracticable, and that the jurisdiction-based method is a reasonable compromise — maintaining a balance between simplicity and effectiveness.
+
+## 25.7 A Numerical Example
+
+Suppose a multinational group has three Constituent Entities in "Country X" — CE-1 (the main operating company), CE-2 (an incentivized manufacturing unit), and CE-3 (a new R&D unit, still in a loss position). All three entities are part of the main Jurisdictional Blending pool (none of them is an Investment Entity, Minority-Owned Subgroup, JV Group, or Stateless Entity).
+
+The financial data is given in the table below (all figures in local currency, in millions):
+
+| Constituent Entity | GloBE Income / (Loss) | Adjusted Covered Taxes |
+|---|---:|---:|
+| CE-1 (main operating company) | 400 | 100 |
+| CE-2 (incentivized unit) | 200 | 10 |
+| CE-3 (R&D unit) | (100) | 5 |
+| **Total (Jurisdiction X)** | **500** | **115** |
+
+Here, the sum of GloBE Income = 400 + 200 = 600 (the positive income of CE-1 and CE-2). The sum of GloBE Loss = 100 (the loss of CE-3). Then:
+
+Net GloBE Income = 600 − 100 = 500 million
+
+The total sum of Adjusted Covered Taxes = 100 + 10 + 5 = 115 million (here, despite CE-3's loss, its Covered Taxes are taken as 5 million — for example, a local minimum tax or withholding tax may apply even where there is a loss).
+
+Now applying the ETR formula:
+
+ETR = 115 ÷ 500 = 0.23 = 23%
+
+Since 23% > 15% (the Minimum Rate), no Top-up Tax Percentage applies for Jurisdiction X — for this year, Jurisdiction X is "safe" (adequately taxed) from a GloBE perspective.
+
+Now note — if CE-3 had no loss (i.e., if CE-3 were simply an entity with zero income, without a loss), Net GloBE Income would have been 600 million, and the ETR would have been 115 ÷ 600 ≈ 19.2%. In other words, CE-3's loss reduced the jurisdiction's Net GloBE Income by 100 million, shrinking the denominator and raising the ETR (23% versus 19.2%) — this is exactly the "blending effect" discussed in Section 25.6.
+
+Now consider an alternative scenario, in which CE-2's incentive is larger and its Adjusted Covered Taxes are only 2 million (instead of 10 million):
+
+| Constituent Entity | GloBE Income / (Loss) | Adjusted Covered Taxes |
+|---|---:|---:|
+| CE-1 | 400 | 100 |
+| CE-2 | 200 | 2 |
+| CE-3 | (100) | 5 |
+| **Total** | **500** | **107** |
+
+In this scenario, ETR = 107 ÷ 500 = 21.4%, still above 15%. Here the effect of blending is clear — if CE-2 were considered on a standalone basis, its own ETR would be 2 ÷ 200 = 1%, far below 15%, and on its own it would have attracted a substantial Top-up Tax. But CE-1's high tax rate (100 ÷ 400 = 25%) pulls the overall jurisdiction ETR upward, so that CE-2's genuinely low-taxed profit is entirely shielded from the GloBE Top-up Tax. This is the practical significance of Jurisdictional Blending — and, at the same time, the clearest illustration of its policy limitation.
+
+## Summary
+
+Under Article 5.1 of the GloBE Model Rules, the ETR is calculated not entity by entity but on a jurisdiction basis — blending together the Adjusted Covered Taxes and Net GloBE Income of all ordinary Constituent Entities located in the same country. ETR = sum of Adjusted Covered Taxes of all CEs in the jurisdiction ÷ Net GloBE Income of the jurisdiction. Net GloBE Income is determined by subtracting the sum of GloBE Loss of all CEs from the sum of GloBE Income of all CEs. If Net GloBE Income is zero or negative, no ETR is calculated and no Top-up Tax applies for that year, although its effect may carry forward into future years through the carry-forward mechanism. Investment Entities, Minority-Owned Subgroups, JV Groups, and Stateless Entities fall outside the main blending pool and require a separate ETR calculation, because their economic or ownership structure could distort the result if mixed with the ordinary pool. Jurisdictional Blending brings administrative simplicity, but it also creates the risk that a high-tax-rate entity can "shield" a low-tax-rate entity, and that a loss-making entity can artificially raise the ETR — which are regarded as the greatest policy limitations of this structure.
+
+## Common Mistakes
+
+A common mistake is to treat the ETR as entity-based — that is, to attempt to calculate a separate ETR for each Constituent Entity, when Article 5.1 clearly calls for a jurisdiction-based aggregate calculation. A second mistake is mistakenly including an Investment Entity, Minority-Owned Subgroup, JV Group, or Stateless Entity in the main blending pool, which can distort the ETR calculation in the wrong direction. A third mistake is forcing an ETR percentage to be calculated even when Net GloBE Income is zero or negative (for example, dividing by zero to obtain an undefined value) — the correct approach here is not to calculate the ETR for that year, but to apply the carry-forward provisions instead. A fourth mistake is ignoring the effect of a GloBE Loss — if a jurisdiction has a loss-making entity, its effect must be reflected in the denominator of Net GloBE Income, or the ETR will be incorrectly understated. Fifth, many mistakenly believe that a high ETR resulting from jurisdiction-based blending means every entity in that jurisdiction is being adequately taxed — in reality, as shown in the example in Section 25.7, a low-tax-rate entity can easily be concealed behind a high-tax-rate entity, which is important to keep in mind when making management decisions.
 
 <!-- lang:bn -->
 

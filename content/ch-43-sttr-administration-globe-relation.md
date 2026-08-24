@@ -12,7 +12,90 @@ slug: "ch-43-sttr-administration-globe-relation"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 43 — STTR Administration and Its Relationship to GloBE
+
+> **In this chapter:** In this chapter we look at how the **STTR** (Subject to Tax Rule) is actually collected in practice, what the source country's administrative responsibilities are, on whom the burden of proof falls in information exchange, and — most importantly — whether tax paid under the STTR is treated as a **Covered Tax** for GloBE purposes, and how that affects the GloBE ETR and the amount of top-up tax — all clarified through a numerical example.
+
+## 43.1 The Collection Method — Annualised Charge
+
+Ordinary withholding tax is transaction-based — tax is deducted at a specified rate at the time of each payment, and the liability is settled at that very moment. The **STTR** differs from this ordinary structure, because it operates as an **annualised charge**. This means that it is often not possible to determine the correct amount of tax immediately at each payment, because the STTR rate depends on the actual rate at which the recipient entity is being taxed on that income in its own country — and that rate (the adjusted nominal rate) is frequently not known with certainty until after the tax year ends and the recipient's tax return is filed.
+
+As a result, two steps are seen in practice. First, the paying entity (payer) may withhold or set aside the STTR at a provisional or estimated rate during the year. At year-end, once the actual nominal tax rate applicable to that income in the recipient jurisdiction becomes known, the actual STTR liability is recalculated, and any additional tax payment or refund (reconciliation) is made as needed. Another reason for this annual aggregation approach is that the STTR applies to specific categories of income (interest, royalties, and other specified payments), and where multiple payments occur during the year between the same connected person, they are assessed in the aggregate, not payment by payment. There is also a materiality limit — the STTR does not apply if the total annual covered income is below a specified limit, and for certain service-related payments, if the mark-up is below a threshold, it may also fall outside the STTR's base. Determining these limits is likewise only possible on an annual basis, not a transaction basis.
+
+## 43.2 The Paying Country's Administrative Responsibility
+
+The STTR is essentially a treaty-based rule — it is added to an existing bilateral tax treaty through an amending protocol or through a multilateral instrument. However, the actual responsibility for enforcing this rule falls on the domestic law of the source country (generally the country from which the payment is made, often a developing country). The source country's tax administration must perform several specific tasks.
+
+First, it must build a procedural framework in domestic law for applying the STTR — who will be liable (the paying entity or the recipient), when reporting must be filed, and what the timeline for annual reconciliation will be. Second, it must require the paying entity to file a specific statement or declaration reflecting the identity of the connected party, the nature of the payment, and the amount. Third, the source country must maintain a mechanism to verify the actual tax rate in the recipient jurisdiction — because without this verification, the correct STTR rate cannot be determined. Fourth, an administrative channel for refunds in cases of over-collection and for dispute resolution must be kept open, since disputes over the recipient's nominal tax rate are entirely possible.
+
+These responsibilities are quite burdensome for tax administrations of small or medium capacity — because, compared with conventional withholding tax, the STTR requires the capacity to verify tax information from a foreign jurisdiction, which is not equally available to every country.
+
+## 43.3 Exchange of Information and the Burden of Proof
+
+The central requirement for the correct application of the STTR is knowing the actual rate at which that specific income is taxed in the recipient jurisdiction. There are two possible ways to gather this information — self-certification by the recipient entity, or direct **exchange of information (EOI)** with the tax authority of the recipient jurisdiction. In practice, the first route — that is, evidence supplied by the taxpayer itself — mostly serves as the primary basis, because conventional EOI channels (such as a treaty's information-exchange article or a multilateral EOI convention) are time-consuming and not practicable for use on every single payment.
+
+The burden of proof generally rests with the taxpayer. That is, if the payer or the recipient cannot prove that the income was taxed at a nominal rate of 9% or more in the recipient jurisdiction, the source country will presume that the STTR applies and will impose tax accordingly. This framework places a significant documentation burden on the taxpayer — tax returns, tax residency certificates, and, where necessary, certification from the recipient jurisdiction's tax authority must be collected and retained.
+
+A real risk here is information asymmetry. It can be difficult for a developing country's tax administration to assess the finer details of a foreign jurisdiction's tax system (such as how a special exemption, credit, or incentive affects the actual nominal rate). For this reason, many proposed implementation frameworks have discussed the concept of simplified lists or pre-approved reference rates, although these are not yet fully established.
+
+## 43.4 Is STTR Tax a Covered Tax?
+
+This is where the most important, and most unresolved, question arises — whether tax paid to the source country under the STTR will be treated as a **Covered Tax** (a tax included for purposes of the GloBE ETR calculation) in the recipient entity's jurisdiction for GloBE purposes.
+
+Under the OECD's design intent, the STTR and GloBE are supposed to work together in a coordinated manner — and the general policy position is that the additional tax paid under the STTR should be added to the recipient entity's jurisdiction's **Adjusted Covered Taxes**, so that the same income is not taxed entirely separately at two levels (STTR at source, and later top-up tax under IIR/UTPR). From this perspective, the STTR is viewed essentially as a "first-level" remedy, which applies before the GloBE calculation and whose effect is reflected in the GloBE ETR.
+
+However, this remains an area that has not yet fully settled from a practical and interpretive standpoint. Several questions here remain unresolved — for instance, from a legal perspective, whose "tax" exactly is the STTR — the source country's own tax, or an extension of the recipient jurisdiction's tax? This characterization may depend on each country's domestic law and the language of its treaty implementation, and there is no guarantee that every country will include it in the same way. In addition, there is practical uncertainty about how the timing mismatch between the STTR and GloBE's own accounting-based rules will be reconciled (a timing mismatch — STTR determination is often completed in the following year, whereas the GloBE ETR must be calculated for the relevant fiscal year itself).
+
+In short, there is not yet sufficient stability to give a definitive, universally accepted answer on this question. Practitioners should analyze client situations with this uncertainty in mind, and should verify the latest domestic law and administrative guidance of the relevant jurisdictions.
+
+## 43.5 The Reflection of STTR in GloBE ETR
+
+If tax paid under the STTR is added to the recipient jurisdiction's Adjusted Covered Taxes (which is the OECD's intended design), its effect works directly toward increasing the **GloBE ETR** (the blended effective tax rate across all Constituent Entities in the relevant jurisdiction). Since GloBE ETR = Adjusted Covered Taxes ÷ Net GloBE Income, and adding the STTR increases the numerator while the denominator (GloBE Income) remains unchanged, the ETR rises, and the top-up tax rate (15% minus ETR) falls correspondingly.
+
+An important consequence of this process is that the STTR and the GloBE top-up tax are not alternatives to each other, but sequential: the STTR applies first, and its effect is later reflected in the GloBE ETR calculation, reducing the amount of top-up tax. If this coordination does not occur correctly (for example, if a jurisdiction or an MNE group's accounting method does not treat the STTR as a Covered Tax), the same income could effectively be taxed at three levels — the recipient jurisdiction's own corporate tax, the source country's STTR, and the full (uncoordinated) top-up tax under GloBE. This risk is shown in detail in the numerical example in Section 43.7.
+
+## 43.6 Conflict with Treaty Benefits and the Risk of Double Taxation
+
+The STTR essentially operates as an amendment within the framework of an existing bilateral tax treaty, permitting the reduced withholding tax rate limit set in the treaty to be exceeded. For this reason, the STTR often comes into direct conflict with business parties' expectations — where a treaty promises a withholding tax of 5% or less on royalties or interest, the effective rate can rise above that once the STTR takes effect.
+
+The risk of double taxation mainly arises from two sources. First, if the recipient's own country (the residence jurisdiction) does not fully recognize the additional tax paid under the STTR as a foreign tax credit (FTC) — because the STTR is a new, relatively unconventional type of treaty-based tax, and there is no guarantee that every country's domestic FTC rules will directly identify it as "foreign tax paid." Second, if the coordination discussed in Sections 43.4 and 43.5 (adding the STTR as a Covered Tax) is not fully effective in practice, the STTR and the GloBE top-up tax — under two entirely separate systems — could stack fully on top of each other for the same income, creating economic double taxation.
+
+The practical advice for MNE groups is that, in jurisdictions where STTR-amended treaties have come into force or are about to, the structuring of royalty, interest, and other covered payments between connected parties should be reconsidered, and the actual nominal tax rate of the recipient jurisdiction should be verified in advance, so as to reduce the shock of unexpected annual reconciliation at year-end.
+
+## 43.7 Numerical Example
+
+Let us see below how the STTR connects with the GloBE ETR.
+
+**Scenario:** Constituent Entity A of MNE Group X, operating in source country S (a developing economy), pays €10,000,000 in royalties in FY2026 to a connected party, Constituent Entity B (located in country R, a low-tax IP/financing hub jurisdiction). The treaty between country S and country R is STTR-amended. The actual nominal tax rate applicable to this royalty income in country R is 5% (below the STTR's 9% minimum threshold). Entity B's total GloBE Income in country R is €12,000,000 (including income other than the royalty), and the Substance-Based Income Exclusion (SBIE, the payroll- and tangible-asset-based exclusion) is €2,000,000.
+
+STTR rate = 9% − 5% = 4%. Tax collectible by country S under the STTR = 4% × €10,000,000 = **€400,000**.
+
+The table below shows two scenarios — (a) where the STTR is not treated as a GloBE Covered Tax, and (b) where the STTR is added as a Covered Tax in line with the OECD's intended design.
+
+| Step | Scenario (a): STTR not included | Scenario (b): STTR included |
+|---|---|---|
+| GloBE Income (country R) | €12,000,000 | €12,000,000 |
+| SBIE | €2,000,000 | €2,000,000 |
+| Net GloBE Income | €10,000,000 | €10,000,000 |
+| Country R's own tax paid (Covered Tax) | €600,000 | €600,000 |
+| STTR paid (to country S) | €400,000 (outside the calculation) | €400,000 (added to Adjusted Covered Tax) |
+| Adjusted Covered Taxes | €600,000 | €1,000,000 |
+| GloBE ETR | 600,000 ÷ 12,000,000 = 5.00% | 1,000,000 ÷ 12,000,000 = 8.33% |
+| Top-up tax rate (15% − ETR) | 10.00% | 6.67% |
+| Amount of top-up tax | 10% × €10,000,000 = €1,000,000 | 6.67% × €10,000,000 ≈ €667,000 |
+| **Total tax burden (country R's tax + STTR + top-up)** | **€600,000 + €400,000 + €1,000,000 = €2,000,000** | **€600,000 + €400,000 + €667,000 = €1,667,000** |
+
+This table clearly shows that if the STTR is not counted as a Covered Tax, the total tax burden becomes €2,000,000 — which essentially adds the entire amount of the STTR as an "extra layer" on top of the GloBE top-up tax — this is precisely the core concern of economic double taxation discussed in Section 43.6. By contrast, if the STTR is added as a Covered Tax, the total tax burden falls to €1,667,000 — here the STTR and the top-up tax work as complements to each other, not as entirely separate charges.
+
+These figures illustrate an important practical truth — the difference in treatment can create a difference as large as €333,000 in a single transaction. Since Section 43.4 discussed that this treatment is not yet fully stable or universally settled, MNE groups should use conservative assumptions when performing such calculations and should reach final conclusions only after reviewing the latest administrative guidance of the relevant jurisdictions.
+
+## Summary
+
+The STTR is a treaty-based remedy that primarily gives source countries (particularly developing economies) the power to impose a "top-up" withholding tax on interest, royalties, and certain other specified intra-group payments flowing to low-tax jurisdictions. This tax is not transaction-based but is an annualised charge, with final reconciliation occurring at year-end based on the recipient's actual nominal tax rate. Its administration rests with the source country's tax authority, which must verify tax information from the recipient jurisdiction — where the burden of proof mainly falls on the taxpayer, and information-asymmetry risk exists. The most important and still-unresolved question is whether tax paid under the STTR will be treated as a GloBE Covered Tax — the OECD's intent is to add it to the recipient jurisdiction's Adjusted Covered Taxes, which raises the GloBE ETR and reduces the top-up tax, but domestic implementation and interpretive ambiguity on this point still remain. If this coordination does not occur correctly, the same income can be taxed at multiple levels, creating economic double taxation, which also conflicts with expectations around treaty benefits.
+
+## Common Mistakes
+
+A common mistake is treating the STTR like ordinary withholding tax and assuming immediate transaction-based settlement, when in reality it is an annualised reconciliation process and the final liability may be determined only after a delay. A second mistake is assuming that the burden of proving the actual tax rate in the recipient jurisdiction falls on the source country's tax administration — in reality this burden generally rests with the taxpayer. A third mistake is the assumption that tax paid under the STTR will automatically and unquestionably be added as a GloBE Covered Tax in the calculation — this matter is still evolving as a matter of policy and may differ from jurisdiction to jurisdiction, so treating it as settled fact when planning is risky. A fourth mistake is treating the STTR and the GloBE top-up tax as entirely separate, unrelated systems — in reality the two are sequentially linked, and ignoring the effect of one can lead to major errors in calculating the total tax burden. Finally, many MNE groups assume that a treaty's reduced withholding tax rate will always remain in force — but under an STTR-amended treaty, this protection may be limited, and failing to verify this in advance can create an unexpected tax liability at year-end.
 
 <!-- lang:bn -->
 

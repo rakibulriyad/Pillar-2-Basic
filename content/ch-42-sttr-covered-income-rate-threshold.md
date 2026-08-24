@@ -12,7 +12,147 @@ slug: "ch-42-sttr-covered-income-rate-threshold"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 42 — Covered Income · Rate · Thresholds
+
+> **In this chapter:** Which categories of intra-group payment fall within the scope of the STTR's calculation, which parties are treated as "connected," which rate the source state compares against to claim tax, and which two thresholds keep small or routine payments out of the calculation — all of this is explained in this chapter, together with a numerical example.
+
+## 42.1 Categories of Covered Income (Interest, Royalty, Distribution, Rent, Insurance Premiums, Guarantee Fees, Franchise Fees, Service Fees, etc.)
+
+The STTR (Subject to Tax Rule) does not operate on an unrestricted list — it applies to a defined, limited list of intra-group payments, known as **Covered Income** — that is, the income to which the STTR's rate comparison and tax calculation apply. This list is essentially divided into two tiers.
+
+The first tier consists of two "automatically covered" categories — for which no separate quantity-based or margin-based test is required; the character of the payment alone is sufficient:
+
+- **Interest:** interest paid on loans, intercompany financing, bonds, or similar financial arrangements.
+- **Royalty:** amounts paid in exchange for the right to use patents, trademarks, copyrights, know-how, or other intellectual property. Franchise fees are generally closely associated with this category, because most of the consideration under a franchise arrangement is in fact a royalty-like payment made in exchange for the right to use a brand, method, or commercial know-how.
+
+The second tier consists of a list of "specified other payments," which fall into Covered Income only when they pass two additional tests known as the **Materiality Threshold** and the **Mark-up Threshold** (these two thresholds are discussed in detail in Sections 42.5 and 42.6). This list generally includes —
+
+- **Distribution fee:** in limited-risk distributor arrangements, where the distributor's activities are mainly routine in nature and the consideration is fixed at a specific, low-risk margin.
+- **Rent:** rent or similar consideration paid in exchange for the right to use industrial, commercial, or scientific equipment.
+- **Insurance and reinsurance premiums:** premiums paid in exchange for the transfer of risk within the group.
+- **Guarantee fees:** consideration paid for a guarantee given against a related party's debt or obligations.
+- **Financing fees:** consideration for loan-arrangement or other financing-related services other than guarantees.
+- **Service fees:** consideration for general management, technical support, administrative, or other services priced on a "cost-plus" basis.
+
+Note that dividends and capital gains do not appear on this list — the STTR is focused solely on debt, intellectual property, and specified services-type payments, not on equity returns. This is because the core concern is how a multinational group artificially shifts profit from a high-tax source state to a low-tax destination through profitable intra-group charges — and debt interest, royalties, and service fees are the most common vehicles for this behavior.
+
+## 42.2 Connected Person — The Connectedness Test
+
+The STTR applies only when the payer and the payee are in a **Connected Person** relationship with each other (a related person or entity — where one party controls the other, or both parties are under the control of the same third party). This connectedness test is the gateway to the STTR — if it is not passed, all further analysis (Covered Income, thresholds, rate comparison) becomes unnecessary, because a transaction with a third party or an independent party never falls within the scope of the STTR.
+
+Two parties are treated as connected when —
+
+- one party directly or indirectly controls the other (generally judged on the basis of more than 50% of voting rights, ownership interest, or value) — this is a control test broadly consistent with the "closely related enterprises" concept found in BEPS Action 6/MLI;
+- both parties are under the common control of some third person or entity; or
+- considering all relevant facts and circumstances, it appears that one party has de facto control over the other, even though it is not reflected in a conventional ownership structure.
+
+This test has been deliberately kept broad, so that a group cannot avoid connectedness merely by slightly reducing a formal ownership percentage or by creating a complex holding structure. In practical application, a tax authority typically reviews the group's organizational chart, shareholding records, and board decision-making structure to verify connectedness. It is important to note that connectedness is not confined to a direct parent-subsidiary relationship — two sister entities under the same ultimate parent are also treated as connected to each other, because both are under the same common control.
+
+## 42.3 Adjusted Nominal Rate — Comparison Against 9%
+
+The STTR's central test is a rate comparison: at what rate is the relevant income actually taxable in the state where the payee is located, and is that rate below 9%? The rate used for this comparison is the **Adjusted Nominal Rate**, or ANR (a rate obtained by adjusting the payee's general corporate tax rate to account for any special exemption, relief, or reduced rate actually applicable to the relevant income).
+
+Judgment is not based merely on the statutory rate written in the law books — because even if a country's general corporate tax rate is nominally 25%, if that country grants a special reduced rate of 3% for specific income (for instance, under a royalty box or patent box regime), the STTR analysis treats that 3% as the relevant rate, not 25%. This approach ensures that a country cannot display a high "headline" rate while effectively taxing selected income near zero, thereby escaping the STTR.
+
+In determining the ANR, one starts from the payee entity's residence state's general corporate tax law, and then makes adjustments to reflect any special provision applicable to that specific category of Covered Income — such as a reduced rate, a special economic zone benefit, or an income-specific tax holiday. If this post-adjustment rate is below 9%, that income may in principle fall within the scope of the STTR, subject to satisfying the remaining threshold conditions. If the rate is 9% or above, the STTR creates no additional tax burden for that income, because the destination state is already ensuring the required minimum rate.
+
+## 42.4 Tax Relief, Permanent Differences, and Consideration of Rate Reductions
+
+The most complex part of the ANR calculation is determining which tax benefits are to be treated as rate-reducing adjustments and which are not. This distinction matters because not every tax relief is of the same nature.
+
+**Temporary differences** — such as accelerated depreciation or timing differences in income recognition — are generally not taken into account in the ANR adjustment, because these merely change the schedule of tax payment at a given time; over the long term, the total tax liability remains the same. In contrast, **permanent differences or rate reductions** — such as a permanent exemption for specific income, a patent box regime, or a permanently reduced rate for a specific sector — actually reduce the total lifetime tax burden on that income, and for this reason they must be reflected in the ANR.
+
+In practical analysis, several common situations need to be considered —
+
+- **Tax holiday:** if the payee is fully or partially exempt from tax under a time-limited tax holiday, the actual rate applicable during the holiday period must be used in the ANR calculation — not the general rate.
+- **Relief or credit:** a tax credit applicable against specific income, which reduces the effective tax burden, must also be factored into the adjustment, particularly if the credit is specifically tied to that category of income.
+- **Notional interest deduction or similar equity-based relief:** although these apply broadly, they may fall within the scope of the adjustment if they reduce the actual tax burden on specific income.
+- **Ordinary loss carry-forward:** this is generally not treated as a permanent rate reduction, because it reflects the overall financial history of the business, not a special benefit built for specific income.
+
+The purpose of this analysis is a single one — to determine the true economic tax burden, so that no country can defeat the purpose of the STTR through complex tax engineering that shows a high rate on paper while collecting minimal tax in practice.
+
+## 42.5 Materiality Threshold — The Total Amount of Payments
+
+The **Materiality Threshold** (a minimum limit on the aggregate amount, in a given fiscal year, of payments of a specific category between the payer and the payee and their connected parties, below which the payment is not treated as Covered Income) applies only to the second-tier "specified other payments" category described in Section 42.1 — it does not apply to interest and royalties.
+
+The logic of this threshold is simple: to avoid administrative complexity and to avoid unnecessarily subjecting small transactions carried out for genuine commercial reasons to the complex STTR calculation. If, in a given fiscal year, the payer (and its connected parties) pay the payee (and its connected parties) in aggregate less than a specified minimum amount in respect of the specified other categories of payment, those payments fall entirely outside the STTR analysis — there is no question of counting them as part of Covered Income.
+
+This minimum amount is specified based on the economic size of the payer state — a higher numerical limit is set for relatively larger economies, and a lower limit for smaller economies, so that source states with smaller economies also get the opportunity to apply the STTR even to relatively small amounts of payment. Importantly, this aggregation is not done on a single-transaction basis — all payments of the specified categories made to the same payee group during the year must be added together and compared against the threshold. As a result, a group cannot successfully avoid the threshold by deliberately breaking up a large payment into multiple smaller installments.
+
+## 42.6 Mark-up Threshold — An Additional Test for Certain Categories of Payment
+
+Alongside the Materiality Threshold, a second test applies to a subset of the specified other categories of payment (particularly service fees, financing fees, and similar payments priced on a cost-plus basis) — the **Mark-up Threshold** (a margin threshold — if the margin or profit share added to a cost-based price exceeds a specified upper limit, that payment is excluded from Covered Income).
+
+The logic behind this test is that low-margin cost-plus arrangements generally indicate routine, low-value-adding activity — such as administrative support or general management services — where the potential for profit shifting is relatively higher, because genuine value addition is limited. Conversely, if a payment carries a sufficiently high margin, it indicates that the payee is in fact performing substantially value-adding activity (such as highly skilled technical services or bearing significant risk), and it is therefore reasonable to exclude that payment from the STTR's list of suspects.
+
+In practice, when running this test, the pricing components of the payment are broken down — what is the cost base, and what percentage margin is added on top of it. Only if that margin is below or equal to the specified threshold does the payment "pass" the Mark-up Threshold test and enter the potential list of Covered Income (subject to satisfying the Materiality Threshold). Payments above the margin threshold — however large in amount — never become Covered Income under this category. These two thresholds (Materiality and Mark-up) together create a narrow, targeted scope — one that identifies only genuinely significant payments with a real potential for profit shifting, without needlessly complicating the flow of ordinary commercial transactions.
+
+## 42.7 Excluded Entities and Excluded Payments
+
+Even when Covered Income and the connectedness test are satisfied, certain specific entities or payments are directly excluded from the scope of the STTR.
+
+**Excluded entities:** if the payee is an entity such as a governmental entity, an international organization, a charitable or non-profit organization, a pension fund, or an investment fund or real estate investment vehicle acting as an Ultimate Parent Entity, payments to that entity fall outside the scope of the STTR. This list is broadly consistent with GloBE's own concept of excluded entities — since these entities are generally not considered risky vehicles for profit shifting; rather, the nature of their activities is different and is linked to the public interest or long-term savings.
+
+**Excluded payments:** certain payments are excluded owing to their nature, even though they occur between connected parties and might otherwise fall within a category of Covered Income. For example, payments related to international shipping income are generally excluded, just as the GloBE Rules themselves contain a distinct exclusion provision for international shipping income — because tax policy for this sector has historically been built on different principles and is already recognized in many countries' existing bilateral treaties.
+
+The practical effect of these exclusion provisions is that a tax official or taxpayer must first verify, before identifying Covered Income, whether the payee is an excluded entity and whether the payment falls within an excluded category. Only if this check fails does the full analysis described in Sections 42.1 through 42.6 need to be carried out.
+
+## 42.8 STTR Tax = (9% − Adjusted Nominal Rate) × Covered Income
+
+All of the tests above — Connected Person, the categorization of Covered Income, the Materiality Threshold, the Mark-up Threshold, and the exclusion provisions — must be passed one after another to bring a given payment within the scope of the STTR. Once all these tests are passed, the formula for determining the actual amount of tax is relatively simple:
+
+**STTR Tax = (9% − Adjusted Nominal Rate) × Covered Income**
+
+Each element of this formula has been defined in the preceding sections —
+
+- **9%** is the STTR's specified minimum rate — this differs from, and is lower than, GloBE's 15% minimum effective rate, because the STTR is essentially a limited, targeted source-state protection mechanism, not a broad jurisdictional-blending framework like GloBE.
+- **Adjusted Nominal Rate** is the adjusted nominal rate actually applicable to that specific income in the payee's residence state (explained in Sections 42.3 and 42.4).
+- **Covered Income** is the amount of the payment that has passed all the categorization and threshold tests in Sections 42.1, 42.5, and 42.6.
+
+Note that this formula produces a positive result only when the ANR is below 9%. If the ANR is 9% or higher, the amount within the brackets becomes zero or negative — in which case the STTR does not apply, and no additional tax is imposed. The source state imposes this STTR Tax on the paying entity as an additional withholding-like tax — on top of the ordinary withholding tax structure, if the relevant bilateral tax treaty includes an STTR article. It does not replace the existing withholding tax system, but coexists with it, so as to ensure an overall minimum effective tax burden of 9% on the income received.
+
+## 42.9 Numerical Example
+
+In the example below, assume that **X Limited**, a Bangladeshi subsidiary, makes the following payments in a fiscal year to its parent company **Y Co** (located in a low-tax state, "Country P," and a Connected Person to X Limited by virtue of a direct control relationship). Assume that the Adjusted Nominal Rate applicable to Y Co in Country P is 4%, because Y Co pays tax at a reduced rate under a permanent patent-box benefit. For the source state, Bangladesh, assume the large-economy Materiality Threshold (the annual aggregate minimum limit for the specified other categories of payment) is approximately BDT 130 million (EUR 1 million equivalent) and the Mark-up Threshold is 8.5%.
+
+| Type of payment | Amount (BDT) | Connected Person | Applicable test | Included in Covered Income? | Remarks |
+|---|---|---|---|---|---|
+| Royalty (trademark use) | 30,000,000 | Yes | No threshold (automatic category) | Yes | Directly Covered Income |
+| Intra-group loan interest | 20,000,000 | Yes | No threshold (automatic category) | Yes | Directly Covered Income |
+| Service fee (cost-plus, 5.3% margin) | 10,000,000 | Yes | Mark-up Threshold (5.3% < 8.5%, passes); Materiality Threshold (aggregate 15 million) | No | Passes the margin test but is below the aggregate Materiality Threshold |
+| Guarantee fee | 5,000,000 | Yes | Materiality Threshold (aggregate 15 million) | No | Aggregate amount below the threshold (~130 million) |
+| Dividend | 40,000,000 | Yes | Not applicable | No | Dividends are never Covered Income |
+
+The above analysis shows that the service fee and the guarantee fee — although both are part of the "specified other payments" list and the service fee passed the Mark-up Threshold test — their aggregate (10,000,000 + 5,000,000 = 15,000,000 taka) is nonetheless far below the Materiality Threshold's specified limit (approximately 130 million taka), so both are excluded from Covered Income. The dividend is excluded by its very nature, as it does not fall within any Covered Income category at all.
+
+Therefore, the actual Covered Income consists only of the royalty and the interest: 30,000,000 + 20,000,000 = **50,000,000 taka**.
+
+Now let us apply the formula:
+
+| Element | Value |
+|---|---|
+| Covered Income | 50,000,000 taka |
+| 9% (STTR's minimum rate) | 9.0% |
+| Adjusted Nominal Rate (Y Co, Country P) | 4.0% |
+| Rate gap (9% − 4%) | 5.0% |
+| **STTR Tax** | 5.0% × 50,000,000 = **2,500,000 taka** |
+
+That is, Bangladesh (the source state) is entitled to impose an additional STTR tax of 2.5 million taka on the payment made to Y Co through X Limited, provided the STTR article is in effect under the relevant bilateral treaty. This 2.5 million taka is on top of the conventional withholding tax — that is, if a general withholding tax of 10% has already been deducted on the royalty and interest, the STTR Tax is levied in addition to that, so as to ensure the overall tax burden meets the 9% minimum.
+
+## Summary
+
+The STTR is a narrow but well-defined treaty-based mechanism that grants the source state the right to impose additional tax when interest, royalties, and certain other listed intra-group payments (rent, insurance premiums, guarantee fees, distribution fees, franchise fees, service fees, etc.) — collectively known as Covered Income — are paid between Connected Persons, and the payee's Adjusted Nominal Rate is below 9%. Interest and royalties fall directly within Covered Income, but other listed payments are covered only once they cross the Materiality Threshold (a limit on the annual aggregate amount) and, where applicable, the Mark-up Threshold (a limit on the cost-plus margin). Certain excluded entities (such as governmental bodies and pension funds) and excluded payments (such as international shipping income) remain entirely outside the analysis. Once all tests are passed, the tax is calculated through a simple formula — STTR Tax = (9% − Adjusted Nominal Rate) × Covered Income — which is imposed in addition to, not in place of, the existing withholding tax system.
+
+## Common Mistakes
+
+- **Assuming all intra-group payments are Covered Income:** many mistakenly believe that any payment made to a connected party falls within the scope of the STTR. In reality, only interest, royalties, and specific listed other payments qualify — dividends, capital gains, or any other payment outside the list are never Covered Income.
+- **Calculating the ANR using the nominal headline tax rate:** comparing rates using the statutory rate can lead to incorrect conclusions. Calculating the ANR without accounting for the effect of tax holidays, patent boxes, or specific income reliefs is a common and significant mistake.
+- **Adjusting for temporary differences as if they were permanent rate reductions:** reflecting depreciation schedules or temporary income-recognition differences in the ANR is incorrect — only permanent rate-reducing provisions are relevant.
+- **Treating the Materiality Threshold and the Mark-up Threshold as alternatives to each other:** these two thresholds are independent — it is a mistake to assume that passing one means the other need not be considered. For the "specified other payments" category, both tests must be satisfied where relevant.
+- **Verifying the Materiality Threshold on a single-transaction basis:** the correct approach is to aggregate all relevant payments made within the same year between the same connected group and compare the total against the threshold, not to decide based on a single invoice.
+- **Skipping the Connected Person test and going straight to the Covered Income analysis:** the connectedness test is the gateway — skipping it and mistakenly bringing third-party transactions within the STTR analysis is a practical mistake that happens often.
+- **Proceeding directly to the tax calculation without running the excluded-entity or excluded-payment tests:** the preliminary check of whether the payee is an excluded entity, or whether the payment falls within an excluded category, is often skipped, leading to an incorrect assumption that the STTR applies.
+- **Treating the STTR Tax as a replacement for withholding tax:** the STTR Tax does not cancel the existing withholding tax system, but is imposed in addition to it — confusing the two is a common computational error.
 
 <!-- lang:bn -->
 

@@ -13,7 +13,116 @@ slug: "ch-12-financial-accounting-net-income"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 12 — Starting From Financial Accounting Net Income
+
+> **In this chapter:** The first step in computing GloBE Income or Loss is to arrive, for each Constituent Entity, at an accounting-based figure that comes not from tax law but from the accounting standard used in the UPE's consolidation process; in this chapter we look at why this base was chosen, which standards may be used, when a local standard is acceptable, why push-down accounting and consolidation adjustments must be excluded, what the obligation to correct for Material Competitive Distortion involves, and how mismatches in currency and Fiscal Year are handled.
+> **Relevant Article:** 3.1
+
+## 12.1 Why accounting was chosen as the base, not tax accounts
+
+One of the most important structural decisions in the GloBE Model Rules is that the denominator of the Effective Tax Rate (ETR) computation — that is, the measure of income — is taken from financial accounting rather than from the tax law of any particular jurisdiction. Under Article 3.1, the GloBE Income or Loss of each Constituent Entity is determined by starting from its **Financial Accounting Net Income or Loss** and then applying the specific adjustments set out in Articles 3.2 through 3.5.
+
+There are several practical and policy reasons behind choosing this approach.
+
+First, the member entities of a Multinational Enterprise (MNE) Group typically operate in ten, twenty, or more jurisdictions, and each jurisdiction has its own rules for determining taxable income — different depreciation methods, different treatment of reserves and provisions, different tax holidays and special incentives. If GloBE were based on local taxable income, it would be practically impossible to build a comparable international measure within the same group, because each jurisdiction's tax base is constructed on different principles.
+
+Second, multinational groups already use a uniform accounting standard to prepare their **Consolidated Financial Statements** — typically a recognised standard such as IFRS or US GAAP. This information is already available in audited form, so there is no need to build a new, parallel accounting system for GloBE purposes. This substantially reduces the compliance burden, because groups can make adjustments starting from an already-existing, audited base, rather than opening a new set of accounts from scratch.
+
+Third, accounting-based income is generally less sensitive to elections and artificial structuring than tax accounts. Under tax law, taxable income can be extensively managed through various elections, accelerated depreciation, tax credits, and so on, whereas accounting income passes through the discipline of a specific accounting standard and audit. As a result, using accounting income as the base makes the ETR computation comparatively more reliable and comparable.
+
+Fourth, the approach of starting from accounting-based income and applying a limited, specific set of adjustments (Article 3.2 etc.) is also simpler for policymakers — they do not need to analyse the tax rules of every jurisdiction; instead, they need only apply a limited list of GloBE-specific adjustments to a uniform accounting base. This is why Article 3.1 is called the "entry point" of the GloBE Income or Loss chapter.
+
+## 12.2 The standard used in preparing the UPE's Consolidated Financial Statements
+
+Under Article 3.1, Financial Accounting Net Income or Loss is the net income or loss determined for a Constituent Entity in the process of preparing the **Ultimate Parent Entity (UPE)**'s Consolidated Financial Statements, but *before* applying the consolidation adjustments that eliminate intra-group transactions (discussed in detail in section 12.4).
+
+In other words, the starting point is the accounting standard that the UPE actually uses to prepare its Consolidated Financial Statements — this is typically IFRS (or EU-endorsed IFRS) or an **Acceptable Accounting Standard** of the UPE's jurisdiction (a recognised accounting standard), such as US GAAP, Japan GAAP, China GAAP, and so on. The GloBE Model Rules contain a list of these recognised standards — besides IFRS, this list includes the generally accepted accounting principles (GAAP) of Australia, Brazil, Canada, EU/EEA Member States, Hong Kong, India, Japan, South Korea, Mexico, New Zealand, Russia, Singapore, Switzerland, China, the United Kingdom, and the United States.
+
+The general rule for each Constituent Entity is: the figures for each member entity are determined under the same standard used to prepare the UPE's Consolidated Financial Statements (including the adjustments necessary for line-by-line consolidation) — and Financial Accounting Net Income or Loss is then derived by stepping back from that figure to the pre-consolidation, pre-intra-group-elimination level.
+
+There is an important provision here: for a Constituent Entity that, because of its size or materiality, has not been included on a line-by-line basis in the UPE's Consolidated Financial Statements (for example, a very small subsidiary excluded on an equity-method basis or on materiality-threshold grounds), Financial Accounting Net Income or Loss must nevertheless be determined — as if it had been consolidated on a line-by-line basis. That is, what matters is not merely how the entity is actually reflected in the consolidation, but the amount that would result if it were hypothetically consolidated on a line-by-line basis.
+
+## 12.3 When a Local Accounting Standard may be used
+
+A Constituent Entity's own separate accounting records are not always prepared in the standard used in the UPE's Consolidated Financial Statements — often a local subsidiary keeps its accounts in the statutory accounting standard of its own jurisdiction (a **Local Accounting Standard**), with the standard-level adjustment (GAAP conversion) performed only at the time of consolidation at the UPE level.
+
+Article 3.1 leaves a practical carve-out for such situations. If a Constituent Entity's accounting records are not prepared in the UPE's standard, and preparing accounts in that standard would be "unreasonably burdensome," then the Constituent Entity may use a different Acceptable Accounting Standard or an **Authorised Accounting Standard** (an approved accounting standard — one approved by a local regulatory authority and that produces true-and-fair accounts) in determining its Financial Accounting Net Income or Loss. This carve-out is subject to three conditions:
+
+- the Constituent Entity's accounting records must actually be prepared in that alternative standard;
+- the information in those accounting records must be reliable; and
+- if a permanent difference arising from the application of a specific accounting policy or standard between the alternative standard and the UPE's standard exceeds EUR 1,000,000 in a Fiscal Year, that difference must be adjusted to conform with the treatment under the UPE's standard.
+
+This third condition is practically important — it ensures that even where the option to use a local standard is available, any major deviation does not go unaudited.
+
+**Example:** Suppose a Constituent Entity keeps its accounts under the Authorised Accounting Standard of its local jurisdiction, under which investment property is measured under the cost model, but under the UPE's standard (IFRS) it would be measured under the fair-value model.
+
+| Item | Local standard (Cost Model) | Under UPE standard (Fair Value Model) | Difference |
+|---|---|---|---|
+| Carrying value of the property (year-end) | EUR 48,000,000 | EUR 55,000,000 | +EUR 7,000,000 |
+| Impact in the Fiscal Year (fair value gain) | 0 | EUR 1,200,000 | +EUR 1,200,000 |
+
+Here, the impact for the relevant Fiscal Year (EUR 1,200,000) exceeds the EUR 1,000,000 threshold, so this Constituent Entity will make an adjustment to add the fair-value gain in determining its Financial Accounting Net Income or Loss, even though its local books follow the cost model. If the difference had been below EUR 1,000,000, no adjustment would have been required and the local standard's figure would have been acceptable.
+
+## 12.4 Exclusion of push-down accounting and consolidation adjustments
+
+In determining Financial Accounting Net Income or Loss, two types of adjustments must be deliberately excluded, because they can distort a Constituent Entity's "standalone" financial performance.
+
+First, **consolidation adjustments** — those made at the UPE level to eliminate intra-group transactions (such as intra-group sales, dividends, and loan interest) — must be expressly excluded under Article 3.1. This is because each Constituent Entity's GloBE computation is performed to determine the ETR of its own jurisdiction; if the intra-group elimination figures were retained, a member entity's actual accounting performance would be lost, and the computation would become disconnected from its own entity-level accounts. Accordingly, Financial Accounting Net Income or Loss is the figure that stands at the level before the "intra-group elimination" step of consolidation — while other adjustments needed to prepare line-by-line consolidation (such as standard harmonisation) are retained.
+
+Second, the effects of **push-down accounting** must be excluded. Push-down accounting occurs when the fair-value step-up created at the acquirer's level at the time of an acquisition (such as goodwill or asset revaluation) is "pushed down" into the acquired entity's own, separate financial statements — even though the acquired entity itself did not enter into any transaction. Such a step-up can reduce that entity's future income through depreciation/amortisation, which can create an artificial distortion for GloBE purposes — because it reflects the acquiring group's purchase price, not the acquired entity's own historical-cost-based income. For this reason, in determining Financial Accounting Net Income or Loss, the fair-value adjustment arising from push-down accounting and the related depreciation/amortisation must be excluded, and the computation reverted to the acquired entity's own pre-acquisition (carrying-cost) basis.
+
+From a practical standpoint, these two exclusions together ensure that the GloBE Financial Accounting Net Income or Loss reflects a Constituent Entity's "own" financial results — undistorted by group-level consolidation techniques or acquisition structuring.
+
+## 12.5 Material Competitive Distortion — the obligation to correct for distortion
+
+Article 3.1's framework contains an important safeguard provision, whose purpose is to ensure that differences between various Acceptable Accounting Standards or Authorised Accounting Standards do not create competitive advantages or disadvantages. This concept is called **Material Competitive Distortion** — it refers to a situation where the application of a specific accounting principle or method, compared with the application of the equivalent principle under IFRS, produces an aggregate variance of more than EUR 75,000,000 in a Fiscal Year.
+
+Where a Constituent Entity is using an Authorised Accounting Standard (other than IFRS) and the application of a specific principle or method under that standard causes distortion of this magnitude, the application of that principle or method must be adjusted so that it conforms with the treatment that would apply under IFRS. The purpose is to ensure that a group cannot artificially reduce its GloBE Income — and thereby inflate its ETR or avoid Top-up Tax — merely by using a flexible local accounting standard (such as one that defers revenue recognition or accelerates expenses).
+
+The practical application of this provision is quite complex and is often fact-specific. There can be interpretive disagreement over what constitutes "a specific principle or method," and over how the EUR 75,000,000 variance is to be measured (on a single-year basis, or cumulatively taking into account the effect of multiple years). Determining how much variance the application of a particular accounting policy actually creates compared with IFRS often requires a hypothetical IFRS recomputation, which can be costly and labour-intensive, and different tax administrations may reach different conclusions. For this reason, in practice the Material Competitive Distortion correction is often contentious and must be decided on a facts-and-circumstances basis in each case — there is no universal simple formula, and the same type of accounting-policy difference may lead to different conclusions for two different groups.
+
+## 12.6 Currency: functional currency, presentation currency, and translation
+
+The member entities of a multinational group keep their accounts in different currencies, and a consistent currency framework is needed for the GloBE computation. Two concepts must be distinguished here.
+
+**Functional currency** is the currency in which a Constituent Entity operates in its primary economic environment and in which its own standalone books are principally kept — generally, the currency in which the entity primarily generates and expends cash flows. **Presentation currency**, on the other hand, is the currency in which the UPE publishes its Consolidated Financial Statements — this is often the UPE's own functional currency, but not always.
+
+Each Constituent Entity's Financial Accounting Net Income or Loss is initially determined in its own functional currency (because its accounting records are kept in that currency), but in the consolidation process the UPE translates that figure into its presentation currency. The practical rule for the GloBE computation is that, generally, the translated figure actually reflected in the UPE's Consolidated Financial Statements (i.e., in the presentation currency) is taken as the base, and it is translated again as needed into the local jurisdiction's currency or into EUR for the purposes of adjustments and the Top-up Tax computation (for example, for threshold testing, which is set in EUR).
+
+The difference between using an average exchange rate and a specific-date rate for currency translation can also produce materially different results, particularly in a volatile currency environment. Let us clarify this with a practical example.
+
+**Example:** Suppose a Constituent Entity operates in Turkey and its functional currency is the Turkish lira (TRY). According to its local accounting records, its net income for Fiscal Year 2025 is TRY 400,000,000. The UPE is a European group whose presentation currency is the euro (EUR). Assume the average exchange rate for the year is 1 EUR = 36 TRY.
+
+| Step | Amount | Remarks |
+|---|---|---|
+| Net income in local functional currency (TRY) | 400,000,000 | Per local books |
+| Average exchange rate | 1 EUR = 36 TRY | Per UPE's consolidation policy |
+| Net income translated into presentation currency (EUR) | 1,111,111 | 400,000,000 ÷ 36 |
+| Amount reflected in Consolidated Financial Statements (EUR) | 1,111,111 | This is the base for Financial Accounting Net Income or Loss |
+
+In this example, the starting point for the GloBE computation will be EUR 1,111,111 — the translated figure actually used in the UPE's consolidation process, not the original figure in TRY. However, if that Constituent Entity has taken the carve-out to use a Local Accounting Standard under Article 3.1.3 (section 12.3), then the local figure in its functional currency must first be adjusted and then translated as required. In practice, what matters for a group is following the same translation policy consistently year after year, because exchange-rate fluctuations can themselves artificially affect the ETR if the translation method is changed inconsistently.
+
+## 12.7 Fiscal Year mismatches (non-coterminous year-end)
+
+Many multinational groups have member entities whose own statutory accounting-year end date does not coincide with the UPE's Fiscal Year end date — for example, the UPE's Fiscal Year ends in December, but a local Constituent Entity's statutory accounting year ends in March (due to local regulatory requirements).
+
+The practical solution in such non-coterminous year-end situations is that the Financial Accounting Net Income or Loss used for GloBE purposes is determined based on the period that has actually been consolidated for that Constituent Entity in the UPE's Consolidated Financial Statements — this is typically adjusted (or "stub period") information, prepared in the UPE's consolidation process to align the Constituent Entity's local accounting year with the UPE's Fiscal Year. In practice, this kind of adjustment is usually made (through management accounts or interim reporting) at the time the group-level consolidation package is prepared, because under IFRS or other Acceptable Accounting Standards, consolidated financial statements generally require the accounting years of all member entities to be brought within the same time frame (or a recognised adjustment method to be applied to them, where the time gap is within a certain limit).
+
+As a result, the key rule for practitioners is simple — since Article 3.1 ties Financial Accounting Net Income or Loss to the figure used in the UPE's Consolidated Financial Statements, the period for which that figure has been prepared (after Fiscal Year alignment) is the period relevant for the GloBE computation. A Constituent Entity cannot prepare a separate GloBE computation based on its own distinct statutory accounting year, because then different members of the group would fall into different Fiscal Year time frames and jurisdictional blending (Jurisdictional Blending) would become meaningless. As a practical consequence, for member entities whose local statutory year-end differs, the group's tax/accounting function must ensure that the stub-period or extended/shortened-period figures used in the consolidation package are the figures used as the GloBE Data Point, and documentation of this adjustment must be retained so that it can be explained during a future audit which period's data was used and why.
+
+## Summary
+
+Article 3.1 establishes the base for the GloBE Income or Loss computation — not tax law, but Financial Accounting Net Income or Loss derived from the accounting standard used in preparing the UPE's Consolidated Financial Statements. This approach was chosen for consistency, availability of information, and lower susceptibility to artificiality. The general rule is to follow the UPE's standard, but in "unreasonably burdensome" situations, a Local Accounting Standard may be used if specific conditions (reliability and the EUR 1,000,000 permanent-difference threshold) are met. In determining Financial Accounting Net Income or Loss, the intra-group elimination adjustments of consolidation and the effects of push-down accounting must be excluded, so that the figure reflects an entity's own accounting performance. Where the application of a specific accounting policy produces a variance of more than EUR 75,000,000 compared with an IFRS-based result, the Material Competitive Distortion correction must be applied — although the practical application of this correction is often fact-specific and contentious. As regards currency, the amount in functional currency is translated into presentation currency for use in the GloBE computation, and for a non-coterminous Fiscal Year, the adjusted period used in the UPE's consolidation remains the relevant one.
+
+## Common Mistakes
+
+- Starting the GloBE computation directly from a Constituent Entity's own local statutory accounts, without verifying the standard or the translated figure used in the UPE's Consolidated Financial Statements.
+- Failing to test the "unreasonably burdensome" condition and the EUR 1,000,000 permanent-difference threshold before taking the carve-out to use a Local Accounting Standard, or omitting the necessary adjustment even after the threshold has been exceeded.
+- Mistakenly leaving in the consolidation adjustments for elimination of intra-group transactions in Financial Accounting Net Income or Loss, which distorts the entity-level figure.
+- Taking the GloBE figure directly from the acquired entity's accounts without excluding the post-acquisition push-down accounting fair-value step-up and the related depreciation/amortisation.
+- Treating the question of Material Competitive Distortion as a simple, mechanical calculation, when in reality it is a facts-and-circumstances-based analysis, often contentious, that may require a hypothetical IFRS recomputation.
+- Using the wrong translated figure by failing to understand the difference between functional currency and presentation currency, or changing the translation method (average rate versus specific-date rate) inconsistently from year to year.
+- For a non-coterminous Fiscal Year, computing separately using the Constituent Entity's own distinct statutory year-end, ignoring the adjusted period used in the UPE's consolidation.
 
 <!-- lang:bn -->
 

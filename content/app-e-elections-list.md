@@ -8,7 +8,91 @@ slug: "app-e-elections-list"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Appendix E — Complete List of Elections
+
+## E.0 How an Election Works — A Brief Recap
+
+In Section 5.6 we saw that in almost every Part of the GloBE Model Rules, an MNE Group is given the option of choosing a different path instead of a default treatment — these optional decisions are called **Elections**. Each Election, in practice, follows three common rules:
+
+- **How it must be notified:** An Election generally must be notified to the relevant tax administration by the Filing Constituent Entity through the **GloBE Information Return (GIR)**. If it is not clearly indicated in the GIR, the default assumption is "no Election" — meeting the numerical conditions is not, by itself, sufficient (see Sections 28.4, 44.5).
+- **How long it remains in effect:** Every Election falls under one of the three durations explained in Section 5.6 —
+  - **One-Time:** Once made, it remains in effect until revoked (or, in some cases, the opportunity to revoke it is itself limited).
+  - **Five-Year:** Once made, it remains in effect for at least the next five Fiscal Years and automatically renews at the end of that period unless explicitly revoked. Under the default rule discussed in Section 14.7, the same Election generally cannot be made again for the following five years after revocation — this "anti-arbitrage" rule should be assumed to apply by default to any Five-Year Election in the table below for which no specific exception is described.
+  - **Annual:** Must be made afresh for each Fiscal Year; a prior year's decision does not automatically carry over into the next year.
+- **Consequences of revocation:** As seen repeatedly in Section 14.7 and elsewhere, revoking a Five-Year or One-Time Election often triggers a "true-up" or reconciliation-type adjustment — such as bringing mismatched tax deductions back into GloBE Income, treating accumulated unrealised gains/losses as if settled, or the permanent extinguishment of a GloBE Loss DTA balance. For this reason, a multi-year projection is essential before adopting an Election.
+
+Chapter 14 discusses the five Chapter 3 Elections in detail, serving as a model for this kind of analysis. This appendix brings together **every Election** discussed in the book — from structural matters (Chapter 1) through to Safe Harbours — into a single, coherent reference list. Where an Article number is not clearly stated in the book, or where the Election derives from Administrative Guidance rather than an Article of the Model Rules itself, this is marked "—" or "AG," rather than inserting a number on the basis of assumption.
+
+## E.1 Scope and Structure — Chapter 1 Elections
+
+| Election Name | Article | Duration | Level of Effect | Revocation Rule | When Beneficial |
+|---|---|---|---|---|---|
+| Election not to be treated as an Excluded Entity (for a 95%/85%-owned entity) | 1.5.2 | Five-Year | Entity (the specific owned entity, not the whole jurisdiction or group) | Revocable at the end of the five-year period; the general 5-year re-election prohibition should be assumed to apply | When the entity's own high ETR raises the jurisdiction's blended ETR and thereby reduces Top-up Tax (Section 9.9) |
+
+Note that the five core categories of Excluded Entity listed directly in Article 1.5.1(a) (Governmental Entity, International Organisation, Non-profit Organisation, Pension Fund, UPE-level Investment Fund/REIV) are not themselves subject to any Election — they are mandatorily Excluded. The Election above applies only to their 95%/85%-owned entities.
+
+## E.2 GloBE Income or Loss — Chapter 3 Elections (Chapter 14)
+
+| Election Name | Article | Duration | Level of Effect | Revocation Rule | When Beneficial |
+|---|---|---|---|---|---|
+| Stock-Based Compensation Election | 3.2.2 | Five-Year | Jurisdiction (consistently across all CEs and all share-based arrangements) | In the year of revocation, the difference between the mismatched tax deduction and the accounting expense is adjusted into GloBE Income; the 5-year re-election prohibition applies | When the local tax deduction is roughly equal to or greater than the accounting expense, and volatility in ETR from share-price fluctuation is to be avoided |
+| Realisation Principle Election | 3.2.5 | Five-Year | Jurisdiction (consistently for a specified category of assets/liabilities) | In the year of revocation, accumulated unrealised gains/losses must be brought into account as if settled; the 5-year re-election prohibition applies | When fair-value/mark-to-market-based assets (real estate, trading securities) distort the ETR from year to year |
+| Aggregate Asset Gain / Look-back Election | 3.2.6 | Annual | Jurisdiction | No lock-in or re-election limit; an independent decision each year | When a large one-off gain is expected on the sale of tangible assets, which could distort a single year's ETR |
+| Consolidated Accounting Treatment Election | 3.2.8 | Five-Year | Jurisdiction (among CEs within the same Tax Consolidation Group) | Following revocation, future intra-group transactions are again recorded at full value — the risk of double-counting must be carefully tracked; the 5-year re-election prohibition applies | When there are regular intra-group transactions and unrealised profits within a Tax Consolidation Group in the same jurisdiction |
+| Equity Investment Inclusion Election | (in the context of Art. 3.2.1; the specific sub-paragraph is not stated in the book) | Five-Year | Entity (entity-specific, not jurisdiction- or group-wide) | The general 5-year re-election prohibition applies | When the effective tax rate underlying a portfolio investment is roughly 15% or higher, and the complexity of tax adjustments relating to Excluded Income is to be avoided |
+
+## E.3 Adjusted Covered Taxes — Chapter 4 Elections (Chapters 21–24)
+
+| Election Name | Article | Duration | Level of Effect | Revocation Rule | When Beneficial |
+|---|---|---|---|---|---|
+| Substitute Loss Carry-forward DTA | 4.4 (specific sub-paragraph not stated in the book) | Consistent application required (specific duration not described in the book) | Jurisdiction-wide (not on a single-CE basis) | Once elected, it must be applied consistently; revocation requires specified conditions to be met | In zero/low-tax jurisdictions where the concept of a conventional DTA/DTL does not even apply (Section 21.9) |
+| Unclaimed Accrual Five-Year Election | 4.4 (specific sub-paragraph not stated in the book) | Five-Year | Jurisdiction | Revoked/renewed at the end of the period; the book does not describe detailed revocation conditions | When the local accounting system does not identify each DTL at a granular level, to avoid complex recalculation of unclaimed DTLs (Section 22.7) |
+| Election not to allocate Cross-border Deferred Tax | — | Consistent application required (specific duration not described in the book) | Between two jurisdictions (PE/CFC-related) | Must be applied on a consistent basis; not changeable at will each year | When the basis for cross-border DTL/DTA allocation is unclear or the amounts are small, to reduce administrative complexity (Section 22.8) |
+| GloBE Loss Election | 4.5 | One-Time (must be made in the very first year the jurisdiction comes within GloBE scope) | Jurisdiction | Revocable at any time, but upon revocation the remaining GloBE Loss DTA is permanently extinguished — it cannot be recovered by any other method | In no/nominal-tax jurisdictions where the general deferred tax approach of Article 4.4 is impractical or inapplicable (Chapter 23) |
+| Insignificant Decrease Election (<€1M de minimis) | 4.6 (4.6.2) | Annual | Jurisdiction (aggregated for each Fiscal Year) | Not mandatory — a fresh decision each year; a full recalculation may also be chosen instead; this Election does not apply to a domestic tax rate decrease | When a small true-up/rounding/audit-related decrease makes the administrative burden of a full recalculation worth avoiding (Section 24.3) |
+
+Supplementary simplification — the **Aggregate DTL Category approach** (Section 22.6) is not, strictly speaking, called an "Election," but rather an optional calculation method; nonetheless it too must be applied consistently at the jurisdiction level and cannot be changed at will each year — it should be considered when tracking hundreds of temporary differences separately is impractical.
+
+## E.4 ETR and Top-up Tax — Chapter 5 Elections (Chapters 27–28)
+
+| Election Name | Article | Duration | Level of Effect | Revocation Rule | When Beneficial |
+|---|---|---|---|---|---|
+| Election not to apply the SBIE | 5.3 | Annual | Jurisdiction | Requires a fresh assessment each year; no lock-in | When the SBIE benefit is negligible relative to the administrative cost of data collection, or the information is not reliably available (Section 27.9) |
+| De Minimis Exclusion Election | 5.5 | Annual | Jurisdiction (separately for the main group, each JV Group, and each Minority-Owned Sub-group) | A clear Election is required each year; if not made, the exclusion does not apply even if the thresholds are met | When 3-year average GloBE Revenue < €10M and average GloBE Income < €1M (or a GloBE Loss) (Chapter 28) |
+
+## E.5 Reorganisations — Chapter 6 Election (Chapter 37)
+
+| Election Name | Article | Duration | Level of Effect | Revocation Rule | When Beneficial |
+|---|---|---|---|---|---|
+| Election to apply Fair Value (in reorganisations) | 6.3 | One-Time (a one-off strategic decision for each specific transaction) | Entity/transaction-based | Must be made within a specified statutory time limit; once applied, not easily revocable | When local tax law itself determines tax basis on a fair-value basis, and eliminating a carrying-value mismatch is desired to reduce long-term deferred-tax complexity — provided the pressure on the ETR in the year itself is tolerable (Section 37.5) |
+
+## E.6 Investment Entities and Distribution-Based Tax Regimes — Chapter 7 Elections (Chapter 40)
+
+| Election Name | Article | Duration | Level of Effect | Revocation Rule | When Beneficial |
+|---|---|---|---|---|---|
+| Deemed Distribution Tax Election | 7.3 | Five-Year | Entity (a CE under an Eligible Distribution Tax System) | Special conditions apply to mid-period revocation; a separate 4-year recapture account is also opened for each election year — if not resolved within 4 years, the remaining amount is clawed back through recalculation of the original year's ETR | In Estonia/Latvia-style distribution-based tax systems (in effect from before 1 July 2021, rate ≥15%) and where the group can plan adequate distributions within 4 years (Sections 40.2–40.3) |
+| Investment Entity Tax Transparency Election | 7.5 | Five-Year | Entity (affects both the Investment Entity and its owner) | Special conditions apply to mid-period revocation | When the owner is already taxed at or above the Minimum Rate on a mark-to-market basis — to avoid the administrative burden of a separate ETR calculation each year (Section 40.5) |
+| Taxable Distribution Method Election | 7.6 | Five-Year | Entity (the Investment Entity and its owner) | Special conditions apply to mid-period revocation; a separate 3-year testing period applies to the income of each Tested Fiscal Year — at the end of the period, any undistributed portion is added to the owner's GloBE Income as Deemed Distributed Income in the fourth year | When the owner is not taxed on a mark-to-market basis but distributions are regular/timely (within 3 years) and taxed at ≥ the Minimum Rate on distribution in the owner's jurisdiction (Section 40.6) |
+
+## E.7 Safe Harbours — Chapter 8 Elections (Chapters 44–48)
+
+Safe Harbours are not automatic — under the general principle explained in Section 44.5, a specific jurisdiction-based Election must be made by the Filing Constituent Entity for every Safe Harbour; if not made, the full GloBE calculation applies regardless of whether the conditions are met.
+
+| Election Name | Article | Duration | Level of Effect | Revocation Rule | When Beneficial |
+|---|---|---|---|---|---|
+| Transitional CbCR Safe Harbour Election | — (AG, Dec 2022; general basis Art. 8.2) | Annual | Jurisdiction | "Once Out, Always Out" — once a jurisdiction fails a year's test, or the Election is not made, it no longer applies to that jurisdiction for the remainder of the Transition Period (years beginning by FY2026, ending by June FY2028) | When a jurisdiction easily passes any one of the three tests — De Minimis, Simplified ETR, or Routine Profits (Chapter 45) |
+| Permanent Safe Harbour (Simplified Calculations) Election | 8.2 | Annual | Jurisdiction | Requires re-election each year; revocable, with no "once out" prohibition | When a jurisdiction is expected to remain low-risk over the long term (Chapter 46) |
+| QDMTT Safe Harbour Election | — (AG, Jul/Dec 2023) | Annual | Jurisdiction | May lose applicability under the Switch-off Rule if the local QDMTT no longer meets the three criteria (Accounting, Consistency, Administration Standard) | When the local QDMTT meets the three criteria — to avoid the administrative waste of calculating the same data twice (in the QDMTT and the IIR) (Chapter 47) |
+| Transitional UTPR Safe Harbour | — (AG, Dec 2023) | Annual (applicable only for the limited period of FY2024–FY2025) | Jurisdiction (the UPE's jurisdiction only) | Automatically ends after the year beginning by 31 December 2025 and ending by 31 December 2026 — no extension has been announced | When the UPE jurisdiction's headline/nominal corporate tax rate is ≥ 20%, even if the actual ETR is below 15% (Chapter 48) |
+
+## E.8 Quick Reference: Summary by Duration
+
+- **One-Time:** GloBE Loss Election (4.5); Election to apply Fair Value in reorganisations (6.3).
+- **Five-Year:** Election not to be an Excluded Entity (1.5.2); Stock-Based Compensation (3.2.2); Realisation Principle (3.2.5); Consolidated Accounting Treatment (3.2.8); Equity Investment Inclusion (3.2.1-context); Unclaimed Accrual Five-Year Election; Deemed Distribution Tax Election (7.3); Investment Entity Tax Transparency Election (7.5); Taxable Distribution Method Election (7.6).
+- **Annual:** Aggregate Asset Gain/Look-back Election (3.2.6); Insignificant Decrease Election (4.6.2); SBIE opt-out (5.3); De Minimis Exclusion (5.5); Transitional CbCR Safe Harbour; Permanent Safe Harbour; QDMTT Safe Harbour; Transitional UTPR Safe Harbour.
+- **Consistent application (specific duration not described in the book, but not changeable at will each year):** Substitute Loss Carry-forward DTA; Election not to allocate Cross-border Deferred Tax; Aggregate DTL Category approach (not, strictly speaking, an Election, but an optional calculation method).
+
+Before adopting any Election — regardless of duration — the multi-year projection, the scope of application (entity/jurisdiction/group), and the true-up consequences triggered upon revocation should all be examined together (see the decision framework in Section 14.8).
 
 <!-- lang:bn -->
 

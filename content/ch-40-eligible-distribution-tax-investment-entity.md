@@ -13,7 +13,135 @@ slug: "ch-40-eligible-distribution-tax-investment-entity"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 40 — Eligible Distribution Tax Systems and Investment Entities
+
+> **In this chapter:** we discuss four special provisions in the GloBE Model Rules for Estonian-style distribution-based tax systems and for Investment Entities — how these provisions help avoid the unusual results of the standard Effective Tax Rate (ETR) calculation method, and the calculation process and risks of each election.
+> **Relevant Articles:** 7.3–7.6
+
+## 40.1 Eligible Distribution Tax System — the Estonian-Style System
+
+Under the general framework of the GloBE Model Rules, Covered Tax refers to the tax a Constituent Entity pays, or is liable to pay, on an accrual basis in respect of the income of its own accounting year. But in some countries, such as Estonia and Latvia, the corporate tax system works entirely differently — no corporate tax is levied in the year the profit is earned; instead, tax is imposed only when profit is actually distributed. As a result, if a company earns substantial profit in a given year but does not distribute it, its Covered Tax for that year will show as zero and its ETR will also be zero — even though tax at a rate above 15% may well be paid at the time of a future distribution.
+
+To remove this structural bias, the GloBE Model Rules define the concept of an **Eligible Distribution Tax System** (Article 10.1). A tax system falls within this definition if it —
+
+- imposes tax on corporate profit only at the time of distribution or deemed distribution, or imposes tax on expenditure that is not for business purposes;
+- has a tax rate equal to or greater than the Minimum Rate (15%); and
+- was in effect **on or before 1 July 2021**.
+
+The third condition is particularly important — it is a "grandfathering" condition, whose purpose is to disqualify any distribution-based system that a country newly creates in order to avoid GloBE. In practice it needs to be checked whether the tax system of the country in which a group's Constituent Entity is located meets all three of these conditions; if not, the election described under Article 7.3 below does not apply, and the entity must calculate its ETR under the general rule.
+
+## 40.2 The Deemed Distribution Tax Election and the Recapture Account
+
+For a Constituent Entity within an Eligible Distribution Tax System, the Filing Constituent Entity may make a **Deemed Distribution Tax Election** (Article 7.3.1). Once this election is made, for that Fiscal Year a notional amount of tax — the **Deemed Distribution Tax** — is added to the Adjusted Covered Taxes calculation, as if the entity had distributed its entire income for that year on the last day of the year.
+
+The amount of the Deemed Distribution Tax is determined as the lesser of two figures —
+
+1. the amount of tax that would need to be added to bring that jurisdiction's ETR for that year to exactly 15%; or
+2. the amount of tax that would actually be payable under the local distribution-tax system if that income were entirely distributed.
+
+Through this election, the entity can avoid Top-up Tax for that year, but to ensure this does not remain merely an accounting technique, the GloBE Model Rules add a control mechanism — the **recapture account**. For the year in which the Deemed Distribution Tax Election is made, a recapture account is opened with a balance equal to the notional tax added for that year (Article 7.3.2). At the end of each subsequent Fiscal Year, this account's balance is reduced —
+
+- by the amount of tax actually paid that year on an actual distribution or deemed distribution; and
+- by an adjustment for any Net GloBE Loss arising in the relevant jurisdiction in that year.
+
+In other words, the recapture account is a kind of "debt" that must be gradually paid off through actual tax — it ensures that the deemed tax is not merely a temporary relief, but rather a temporary arrangement pending an actual distribution.
+
+## 40.3 The Four-Year Settlement Cycle
+
+A strict time limit applies to the recapture account. Within the **four Fiscal Years** following the Fiscal Year in which the recapture account is opened, this balance must be brought down to zero (Article 7.3.3). If any balance remains at the end of the fourth year, that remaining amount is deemed never to have been part of Adjusted Covered Taxes in the original year (the year the election was made).
+
+The result is that the original year's Adjusted Covered Taxes is reduced by that remaining amount, and the ETR for the prior year must be recalculated under Article 4.6. Any additional Top-up Tax arising from this recalculation is deemed payable in the fourth year (that is, the year in which the time limit expired). In practical terms, this works like an "interest-free loan" — fine as long as distributions continue, but if there is insufficient distribution within four years, the deferred Top-up Tax suddenly comes back, reopening the prior year's calculation. For this reason, distribution planning and annual tracking of the recapture account become a regular part of Pillar Two compliance, particularly for groups with subsidiaries in Estonia or Latvia.
+
+## 40.4 The Investment Entity's Separate ETR (Article 7.4)
+
+An **Investment Entity** refers to an Investment Fund or Real Estate Investment Vehicle, or an entity that is 95% or more owned by such a fund or vehicle and that is exclusively or almost exclusively engaged in holding assets or investing (Article 10.1). An Insurance Investment Entity is treated in the same category.
+
+An Investment Entity's income is generally structured such that entity-level tax is nearly zero — because, in principle, this income is not the entity's own but is held on behalf of investors, and the tax liability is meant to arise at the investor level. If this kind of low-taxed income were blended with the income of other operating Constituent Entities in the same jurisdiction to calculate a standard Jurisdictional ETR, two problems could arise — the Investment Entity's genuinely low-taxed position could be masked by blending it with high-taxed operating income, or, conversely, a legitimate tax-neutral investment structure could be unfairly drawn into Top-up Tax.
+
+For this reason, Article 7.4 directs that a **separate ETR** must be calculated for all Investment Entities located in the same jurisdiction, kept entirely separate from the ETR calculation of the other (non-investment) Constituent Entities in that jurisdiction. This separate calculation is carried out using a method analogous to the general Jurisdictional ETR formula in Article 5.1, but using only the GloBE Income and Adjusted Covered Taxes of the Investment Entities. Any Top-up Tax resulting from this separate calculation is not added to the jurisdiction's general Top-up Tax pool — instead it is allocated among the relevant Constituent-entity owners in proportion to their ownership interest in that Investment Entity (Article 7.4.4). An Investment Entity generally has no employees or tangible assets of its own, so the Substance-based Income Exclusion benefit is usually negligible here as well.
+
+## 40.5 Investment Entity Tax Transparency Election (Article 7.5)
+
+If the owner (Constituent-entity owner) of an Investment Entity itself regularly pays adequate tax on its own ownership interest, then the separate ETR calculation under Article 7.4 can become an unnecessary administrative burden. For this situation, the GloBE Model Rules provide an **Investment Entity Tax Transparency Election** (Article 7.5).
+
+Once this election is made, the Investment Entity or Insurance Investment Entity is treated for GloBE accounting purposes as if it were a Tax Transparent Entity or Flow-through Entity — even though it is not so under local law. The condition is that the relevant Constituent-entity owner must be subject, in its jurisdiction of creation, to a tax system that taxes it on an annual mark-to-market or similar basis on the change in fair value of its ownership interest, and the applicable tax rate must be equal to or greater than the Minimum Rate. If this condition is met, it is assumed that effective tax on the Investment Entity's income is already being collected at the owner level in a timely manner, so a separate ETR calculation is not needed — the income/loss flows directly into the owner's GloBE Income calculation, just as stated for a Flow-through Entity under Article 3.5.
+
+Like most other GloBE elections, this election generally remains in effect for **five years** and is renewable at the end of the term, though specific conditions apply if it is revoked mid-term.
+
+## 40.6 Taxable Distribution Method Election (Article 7.6) — the Three-Year Test
+
+In cases where the owner does not pay tax on a mark-to-market basis, but the Investment Entity makes regular and timely distributions and the owner's jurisdiction imposes tax on that distribution at the Minimum Rate or above, a **Taxable Distribution Method Election** may be considered instead of Article 7.5 (Article 7.6).
+
+Under this election, the Investment Entity's income is included in the owner's GloBE Income only when it is actually distributed (or deemed distributed) — that is, instead of an annual ETR calculation, a "cash-flow-following" method is used. But if this benefit could be deferred indefinitely by retaining profit (leaving it undistributed), it would become an easy way to avoid Top-up Tax. To prevent this risk, Article 7.6 adds a **three-year test**.
+
+The purpose of this test is to track each Fiscal Year's Undistributed Net GloBE Income of the Investment Entity. If the income of a particular Fiscal Year (called the "Tested Fiscal Year") is not distributed within the following three Fiscal Years, then in the fourth year (when the three-year testing period ends), the remaining portion is deemed **Deemed Distributed Income** and is added to the owner's GloBE Income for that year — whether or not an actual distribution occurs (Article 7.6.3–7.6.4). Any portion that is actually distributed within the testing period and properly taxed at the owner level is excluded from this deemed inclusion.
+
+This election, too, generally remains in effect for five years. In practical terms, this means the compliance team must keep watch on a rolling three-year clock for each Tested Fiscal Year, in the same way that the four-year clock for the recapture account under Article 7.3 is monitored.
+
+## 40.7 Which Election to Choose, and When
+
+In practice, the decision process generally follows the order below —
+
+- **If there is a subsidiary in an Eligible Distribution Tax System jurisdiction (such as Estonia or Latvia)** — first verify whether the local tax system meets all three conditions (distribution-based tax, rate ≥ 15%, in effect before 1 July 2021). If the conditions are met, the Deemed Distribution Tax Election should be considered, but at the same time the group's distribution planning must be arranged so that the recapture account can be brought to zero within four years.
+- **If the group has an Investment Entity and the owner is already adequately taxed on a mark-to-market basis** — the Investment Entity Tax Transparency Election is generally the simplest route, since it avoids the administrative burden of a separate annual ETR calculation.
+- **If the owner is not taxed on a mark-to-market basis, but distributions are regular and timely (within three years) and the tax rate on that distribution in the owner's jurisdiction is ≥ 15%** — the Taxable Distribution Method Election may be practically advantageous, but regular monitoring of the three-year clock is essential.
+- **If no election is made** — the default separate ETR calculation under Article 7.4 applies. This carries a heavier annual calculation burden, but no time-limit or "clock" management risk — which is often a practically safer choice for small or irregularly distributing fund structures.
+
+No single rule fits every situation — the decision depends on the owner's own jurisdiction's tax system, distribution policy, and administrative capacity.
+
+## 40.8 Numerical Example
+
+**Part A — Deemed Distribution Tax Election and Recapture Account**
+
+Suppose a Constituent Entity of an MNE group, "XYZ OÜ," is located in Estonia, where the tax system meets all three conditions of an Eligible Distribution Tax System (distribution-based tax, rate 20% which exceeds 15%, and in effect before 1 July 2021). In FY2027, XYZ OÜ's GloBE Income is €10,000,000, and no profit was distributed, so the actual Covered Tax for the accounting year is zero.
+
+- Without the election: ETR = €0 / €10,000,000 = 0%; Top-up Tax = 15% × €10,000,000 = **€1,500,000**.
+- With the election: Deemed Distribution Tax = the lesser of the following two —
+  (a) the tax required to bring the ETR to 15% = €1,500,000
+  (b) the actual distribution tax if the entire income were distributed = 20% × €10,000,000 = €2,000,000
+  → chosen amount = **€1,500,000** (the lesser). So Adjusted Covered Taxes = €1,500,000, ETR = 15%, Top-up Tax = €0.
+
+At the end of FY2027, a recapture account is opened with a balance of €1,500,000. Over the following four years, it is reduced by the tax actually paid on actual distributions —
+
+| Fiscal Year | Event | Actual distribution tax paid that year (€) | Recapture account balance (€) |
+|---|---|---|---|
+| FY2027 | Election made and recapture account opened | — | 1,500,000 |
+| FY2028 | Partial distribution | 400,000 | 1,100,000 |
+| FY2029 | Partial distribution | 500,000 | 600,000 |
+| FY2030 | Partial distribution | 300,000 | 300,000 |
+| FY2031 (fourth year, end of time limit) | Limited distribution | 100,000 | 200,000 (remaining) |
+
+At the end of FY2031, after the four-year time limit expires, a balance of €200,000 remains. This portion is deemed never to have been part of Adjusted Covered Taxes in FY2027. As a result, FY2027's ETR must be recalculated (Article 4.6): revised Adjusted Covered Taxes = €1,500,000 − €200,000 = €1,300,000, revised ETR = 13%, and additional Top-up Tax = (15% − 13%) × €10,000,000 = **€200,000**, deemed payable in FY2031.
+
+**Part B — Investment Entity's Separate ETR (Article 7.4)**
+
+The group has an operating Constituent Entity and an Investment Entity in the same jurisdiction.
+
+| Entity | GloBE Income (€) | Covered Tax (€) | ETR |
+|---|---|---|---|
+| Operating entity | 8,000,000 | 2,000,000 | 25% |
+| Investment Entity | 2,000,000 | 0 | 0% |
+
+Incorrect method (blending, ignoring Article 7.4): total GloBE Income = €10,000,000; total Covered Tax = €2,000,000; combined ETR = 20% — since this exceeds 15%, no Top-up Tax arises. Under this method, the Investment Entity's 0% tax is entirely masked by the operating entity's 25% tax.
+
+Correct method (separate calculation under Article 7.4):
+- Operating entity's ETR = 25% → Top-up Tax = €0
+- Investment Entity's separate ETR = 0% → Top-up Tax = 15% × €2,000,000 = **€300,000** (here the Substance-based Income Exclusion is assumed to be zero, since the Investment Entity has no employees or tangible assets of its own)
+
+This Top-up Tax of €300,000 does not go into the jurisdiction's general Top-up Tax pool — instead, under Article 7.4.4, it is allocated among the relevant Constituent-entity owners in proportion to their ownership of the Investment Entity. This example makes clear why blending produces the wrong result — under the correct method, a Top-up Tax liability of €300,000 arises, which would have remained entirely invisible under the incorrect (blended) method.
+
+## Summary
+
+The Deemed Distribution Tax Election under Article 7.3 allows immediate bringing of the ETR to 15% by assuming a notional tax, for Estonian-style distribution-based tax systems, but this comes together with a recapture account, which must be brought to zero within four years through actual distribution tax, failing which the prior year's ETR is recalculated and additional Top-up Tax is imposed. For Investment Entities, Article 7.4 makes a separate ETR calculation mandatory by default, so that low-taxed investment income is not blended with other operating income. Instead of this default rule, a group may choose one of two elections — the Investment Entity Tax Transparency Election under Article 7.5, which treats the entity as tax-transparent when there is adequate mark-to-market tax at the owner level; or the Taxable Distribution Method Election under Article 7.6, which taxes based on distribution but prevents indefinite deferral through a three-year test. Choosing the right election depends on the owner's tax position, distribution policy, and administrative capacity.
+
+## Common Mistakes
+
+- Automatically assuming a distribution-based tax system like Estonia's or Latvia's is an Eligible Distribution Tax System, without verifying the 1 July 2021 cut-off condition.
+- Failing to annually track the recapture account after making the Deemed Distribution Tax Election, resulting in the four-year time limit passing and suddenly triggering a prior-year ETR recalculation and additional Top-up Tax liability.
+- Calculating a single jurisdictional ETR by blending an Investment Entity's income with the income of operating Constituent Entities in the same jurisdiction, which violates Article 7.4's mandatory separate calculation requirement and can mask actual Top-up Tax liability.
+- Making the Investment Entity Tax Transparency Election without verifying that the owner is actually taxed on a mark-to-market basis at the Minimum Rate or above — if the condition is not met, the election remains ineffective and the calculation goes wrong.
+- Failing to keep watch on the three-year testing period's clock after making the Taxable Distribution Method Election, resulting in Deemed Distributed Income suddenly being added to the owner's GloBE Income — even though no actual cash distribution has occurred, which can create a cash-flow problem for paying the Top-up Tax.
+- Overlooking that the elections discussed in this chapter generally remain in effect for five years and that specific conditions apply to mid-term revocation — and instead trying to change the decision every year.
 
 <!-- lang:bn -->
 

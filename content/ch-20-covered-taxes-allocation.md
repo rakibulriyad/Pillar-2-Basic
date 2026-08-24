@@ -13,7 +13,133 @@ slug: "ch-20-covered-taxes-allocation"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 20 — Cross-Entity Allocation of Covered Taxes
+
+> **In this chapter:** although the GloBE ETR calculation is jurisdiction-based, tax is often recorded in the accounting books of the wrong entity — in this chapter we look at the allocation rules of Article 4.3, which move tax paid in respect of PEs, Tax Transparent Entities, CFCs, Hybrid Entities, and distributions to the correct entity, including the passive income limitation, so that each jurisdiction's ETR reflects genuine economic reality.
+> **Related Article:** 4.3 · **AG:** Feb 2023 · Dec 2023
+
+## 20.1 Why Tax Must Be Moved from One Entity to Another
+
+Under the GloBE rules, the Effective Tax Rate (ETR) is calculated at the jurisdiction level — by blending the GloBE Income and Adjusted Covered Taxes of all Constituent Entities in the same jurisdiction. This calculation assumes that the tax recorded in each entity's books is imposed on that entity's own income. But in reality, various tax administration techniques — such as home-country tax on foreign income, a parent company's tax on the income of a controlled foreign company, or an owner's tax on the income of a pass-through entity — break this simple assumption.
+
+If such tax is left with the entity that paid it, two errors occur simultaneously. First, the jurisdiction where the income was actually earned does not show the corresponding tax amount — so that jurisdiction's ETR will appear artificially low, and more Top-up Tax than is genuinely warranted will be demanded. Second, the jurisdiction of the entity that paid the tax will show an artificially high ETR, because tax exists there without any parallel income (GloBE Income). Together, these two distortions pull the overall group ETR calculation away from economic reality.
+
+Article 4.3 provides a set of specific allocation rules to solve this problem. Each rule addresses a specific situation — PEs, Tax Transparent Entities, CFC regimes, Hybrid Entities, and distributions — and the underlying logic of each rule is the same: place the tax with the entity whose income gave rise to it, not with the entity that paid it. In this chapter we examine each situation separately, then look at an important limitation for passive income (Article 4.3.3), and finally show the whole process together with a complete numerical example.
+
+## 20.2 Allocation to a PE — Tax Paid by the Main Entity
+
+A **Permanent Establishment (PE)** is a business presence that has no separate legal personality of its own, but for GloBE purposes it is treated as a separate Constituent Entity and a separate ETR is calculated in its jurisdiction. The company that operates the PE is called the Main Entity.
+
+The problem here is: many countries' tax systems impose tax on the basis of worldwide income, so the Main Entity may pay tax in its own jurisdiction that is actually attributable to the PE's income — although double taxation is generally mitigated through a foreign tax credit, some portion of PE-related tax (in net or gross form) can still remain in the Main Entity's books. Under Article 4.3, any tax included in the Main Entity's financial accounts that is attributable to the PE's income must be allocated from the Main Entity to the PE.
+
+The result of this allocation is reflected in both jurisdictions: that portion is removed from the Adjusted Covered Taxes of the Main Entity's jurisdiction (because the corresponding income has also been excluded from the Main Entity's GloBE Income, under the general GloBE rule that PE income is excluded from the Main Entity's accounts), and it is added to the Adjusted Covered Taxes of the PE's jurisdiction. In practical terms, this allocation calculation requires separately identifying, in the Main Entity's tax return, how much of the income relates to the PE and how much tax has been imposed on it — information that is often available from the working papers used for the foreign tax credit calculation.
+
+## 20.3 Allocation to a Tax Transparent Entity
+
+A **Tax Transparent Entity** is an entity that does not itself pay tax on its income; rather, that income is treated as directly taxable in the hands of the owner (pass-through or fiscally transparent treatment), as is the case with structures such as partnerships or LLCs in many jurisdictions.
+
+When such an entity is itself a Constituent Entity (that is, its income is included in the group's consolidated accounts), the problem is that the tax is actually computed and paid on the owner's tax return, not in the transparent entity's own books. Under Article 4.3, the portion of the owner's tax liability that is attributable to the transparent entity's income must be allocated from the owner to the transparent entity — and where there are multiple owners, this allocation must be split according to each owner's ownership interest.
+
+An important distinction should be kept in mind here: if the owner and the transparent entity are located in the same jurisdiction, the practical effect of the allocation is limited, because both fall into the same ETR blending pool. But in a cross-border structure — for example, a domestic owner's investment in a transparent entity located in a foreign jurisdiction — without allocation, the tax would remain in the wrong jurisdiction (the owner's jurisdiction), and the transparent entity's jurisdiction's ETR would be abnormally low, failing to reflect the actual tax burden.
+
+## 20.4 Tax Under a CFC Regime — Controlled Foreign Company Tax Regime
+
+A **Controlled Foreign Company (CFC) Tax Regime** is a domestic tax rule under which a jurisdiction imposes tax directly on its controlling domestic shareholder in respect of specified income of its controlled foreign subsidiary (often passive income, or income earned in a low-tax jurisdiction), as if that income had been earned by the shareholder itself — and this tax is imposed regardless of whether that income is actually distributed.
+
+From GloBE's perspective, a CFC is itself a Constituent Entity, and a separate ETR is computed in its own jurisdiction. But the tax imposed under a CFC regime is levied and paid in the parent's jurisdiction, on the parent's tax return. Article 4.3.2(b) provides the solution: tax included under a CFC regime in the parent's financial accounts must be allocated to the CFC's jurisdiction — so that the CFC's own ETR takes this "push-down" tax into account.
+
+This allocation establishes an important functional feature of Pillar Two: if the parent's jurisdiction has a high tax rate and the CFC regime is active, that push-down tax can increase the CFC's jurisdiction's ETR, thereby reducing or eliminating the need for GloBE Top-up Tax there — meaning CFC tax and GloBE Top-up Tax can function as substitutes for each other (though not entirely, as will be seen in the passive income limitation in Section 20.6). The Feb 2023 round of Agreed Administrative Guidance specifically explains how the allocation process works for a CFC regime where the income of multiple CFCs is blended to compute tax at a single rate — this is discussed in detail in Section 20.8.
+
+## 20.5 Parent's Tax on a Hybrid Entity
+
+A **Hybrid Entity** is an entity that one jurisdiction treats as transparent for tax purposes, while another jurisdiction treats it as opaque — that is, as a taxpayer in its own right. Because of this classificational difference, the income of the same entity can be taxed at two different levels for two separate reasons.
+
+When the owner's jurisdiction treats the hybrid entity as transparent, that jurisdiction taxes the hybrid entity's income as if it were the owner's own income, directly — much as happens under a CFC regime, though the underlying reason differs (here it is a classification mismatch, not a control-based imposition like a CFC regime). Yet the hybrid entity may also itself pay tax as a separate taxpayer in its own jurisdiction (because that jurisdiction treats it as opaque). Under Article 4.3.2(c), the tax recorded on the owner's tax return that is attributable to the hybrid entity's income must be allocated from the owner to the hybrid entity — in the same way as CFC tax is allocated, and the same passive income limitation (Article 4.3.3) applies to this allocation as well.
+
+From a practical standpoint, the tax-allocation processes for hybrid entities and CFCs run structurally in parallel: in both cases an "upper entity" (owner/parent) pays tax in its own jurisdiction on the income of a "lower entity," and that tax must be pushed down to the lower entity. The only difference is legal in nature — one is a control-based rule (CFC regime), the other a classification-based mismatch (hybrid classification).
+
+## 20.6 The Limit on Tax on Passive Income — the Article 4.3.3 Formula
+
+**Passive Income** refers to dividends, interest, rent, royalties, annuities, and similar other income — which generally does not arise from active business activity but instead from the ownership of assets or the investment of capital. Tax under CFC regimes and on hybrid entities is often specifically targeted at this type of passive income, because this income is the most easily shifted to low-tax jurisdictions.
+
+There is a risk here that Article 4.3.3 addresses. Suppose the parent jurisdiction's tax rate is much higher than GloBE's minimum rate of 15 percent — say, 25 or 30 percent. If the entire tax imposed under a CFC regime or hybrid regime is pushed down, without any limit, to the lower entity's (CFC/hybrid entity's) jurisdiction, it could artificially raise that jurisdiction's ETR to a very high level (close to the parent's rate) — much higher than necessary. Since GloBE ETR is blended at the jurisdiction level, this excessively high ETR could mask other low-taxed income (such as active business income) in that same jurisdiction, which should genuinely have attracted Top-up Tax. Article 4.3.3 therefore imposes a limit, so that push-down occurs only to the extent necessary to raise that passive income's ETR up to exactly the minimum rate — and no more.
+
+In principle, the formula can be described as follows:
+
+**Permitted allocable tax (on the passive income portion) = Passive Income × (Minimum Rate − that entity's own applicable tax rate/ETR, computed excluding the push-down tax of the CFC/hybrid/transparent regime)**
+
+And if this subtraction is negative (that is, if the entity's own rate is already higher than the minimum rate), then the permitted amount is treated as zero — no push-down is needed. As a result of this limit, push-down tax related to passive income cannot raise the lower entity's ETR above the minimum rate; the excess portion that is not permitted to be pushed down remains in the paying entity's (parent's or owner's) own jurisdiction's Adjusted Covered Taxes — the tax is not lost, it simply remains in the correct jurisdiction. Notably, this limit applies only to allocation under a CFC/hybrid/transparent regime, not to direct local tax or tax on distributions (see Section 20.7).
+
+## 20.7 Tax on Distributions — Withholding Tax and the Parent's Tax
+
+When a Constituent Entity pays a dividend or other distribution to its owner, two types of tax can often arise: (1) Withholding Tax in the source jurisdiction, which the distributing entity deducts and remits to the government; and (2) tax in the owner's own jurisdiction on the dividend received, if that jurisdiction does not have a dividend exemption or has partial taxability.
+
+Under Article 4.3, the principle is clear: tax related to a distribution should essentially be linked to the income of the distributing entity, because Withholding Tax is in fact a tax on income earned by the distributing entity — it is merely deducted administratively at source. As a result, Withholding Tax naturally attaches to the distributing entity's Adjusted Covered Taxes, and allocation is generally not needed because it is already with the correct entity (in the payer's books).
+
+Complexity arises, however, when an additional tax is imposed in the owner's jurisdiction on receipt of the distribution — such as a partially taxable dividend regime in some jurisdictions, or a CFC-like inclusion created on the basis of distribution. In such cases, the rule depends on exactly which income the tax is imposed on: if it is imposed on the same income that was originally earned by the distributing entity and has already been included in the GloBE calculation, then that tax may need to be allocated to the distributing entity, so that both jurisdictions' taxes on the same underlying economic income are together reflected in the correct jurisdiction. In practice this situation arises relatively rarely, but when reviewing holding structures or repatriation strategies, it is important to ensure that distribution-related tax does not affect the ETR of the wrong jurisdiction.
+
+## 20.8 Blended CFC Tax Regime — The Allocation Formula for a Mixed-Rate System
+
+Some countries' CFC regimes do not compute tax separately on each CFC's income; rather, they combine the income of all (or a specified class of) foreign subsidiaries of the same owner and impose tax at a single rate on an aggregate basis, with foreign tax credits also computed on an aggregate basis. Such a system is called a **Blended CFC Tax Regime**.
+
+The problem is that under such a regime, there is no direct calculation stating "this much tax was paid for this particular CFC" — the entire tax is computed as a single aggregate figure. But GloBE requires a separate ETR calculation for each CFC's jurisdiction, so a formula is needed to logically allocate the aggregate tax among each CFC. The Feb 2023 round of Agreed Administrative Guidance clarified this formula.
+
+The core principle is pro-rata allocation: the aggregate CFC tax must be divided among each CFC in proportion to the income it contributed to that aggregate calculation. Conceptually, this can be expressed as follows:
+
+**Tax allocated to a particular CFC = Total Blended CFC Tax × (that CFC's contributed taxable income ÷ the total taxable income of all CFCs included in the aggregate calculation)**
+
+After this pro-rata allocation, the previously described Article 4.3.3 limit (Section 20.6) is applied again to the portion attributable to passive income — that is, allocation under a Blended regime occurs in two steps: first, allocating the aggregate tax proportionately to each CFC, and then applying the passive income limitation to each CFC's share. This two-tier process is practically complex, because it requires separately tracking each CFC's income, tax rate, and passive/active classification within the aggregate return — which the underlying CFC regime itself may not require, but which must be maintained additionally for GloBE compliance.
+
+## 20.9 Treatment of Deferred Tax on Allocated Tax
+
+The allocation rules of Article 4.3 are not limited to current tax expense alone — any Covered Tax, whether current or deferred, is similarly allocable if it is attributable to the income of a PE, transparent entity, CFC, or hybrid entity. In practical terms, this means that where a deferred tax liability or deferred tax asset is recorded in an entity's books (for example, in relation to a temporary difference connected with a parent's CFC inclusion), the corresponding portion of that deferred tax may similarly need to be allocated to the CFC's jurisdiction, if it is connected to the CFC's income.
+
+An important practical complexity arises here: once deferred tax has been allocated from one entity to another, the subsequent reversal of that deferred tax, and GloBE's five-year recapture rule (relating to additional adjustment of the Total Deferred Tax Adjustment), take effect in the jurisdiction of the recipient entity (CFC/hybrid entity/PE), not in the jurisdiction of the paying entity. This means that a multinational group must maintain parallel tracking of allocated deferred tax in both jurisdictions — in the original books where it was first recorded, and for GloBE accounting where it has ultimately been allocated — so that future reversal or recapture is reflected in the correct jurisdiction and the same deferred tax is not double-counted in two places.
+
+Another consideration is that in jurisdictions where the CFC or hybrid entity itself also records deferred tax locally on the same income (for example, under local GAAP), it is important to avoid an overlap between the allocated deferred tax and the local deferred tax — computing a deferred tax benefit or expense twice for the same underlying temporary difference would distort the GloBE ETR. In practice, this reconciliation requires a consolidated group-level working paper in which each allocated tax item is tracked from both its original source and its destination entity.
+
+## 20.10 A Numerical Example
+
+Suppose a multinational group's parent company, **P Co**, is located in Jurisdiction A, where the local corporate tax rate is 25 percent and a CFC regime is in effect. P Co's wholly owned subsidiary, **S Co**, is located in Jurisdiction B, where the local corporate tax rate is 5 percent. P Co's CFC regime applies to S Co's entire income (both passive and active), and the tax paid in B is adjusted as a foreign tax credit (FTC).
+
+S Co's income for the year is split into two parts: royalty income (passive income) of 5,000,000 taka and active business income of 5,000,000 taka — a total income of 10,000,000 taka, which is assumed to be consistent with GloBE Income (no additional adjustments).
+
+**Stage 1 — Local tax and CFC tax calculation:**
+
+| Item | Passive Income (Royalty) | Active Income (Business) | Total |
+|---|---|---|---|
+| Amount of income | 5,000,000 | 5,000,000 | 10,000,000 |
+| S Co's local tax (in B, 5%) | 250,000 | 250,000 | 500,000 |
+| P Co's CFC tax, gross (in A, 25%) | 1,250,000 | 1,250,000 | 2,500,000 |
+| Foreign tax credit (FTC, adjustment for B's tax) | (250,000) | (250,000) | (500,000) |
+| P Co's net CFC tax paid | 1,000,000 | 1,000,000 | 2,000,000 |
+
+**Stage 2 — Applying the Article 4.3.3 passive income limitation:**
+
+No passive limitation applies to the active income portion, so the full 1,000,000 taka of P Co's net CFC tax attributable to active income is allocable to S Co.
+
+The limit applies to the passive income portion. S Co's own rate (excluding push-down) is 5 percent. Permitted push-down = Passive Income × (Minimum Rate 15% − local rate 5%) = 5,000,000 × 10% = 500,000 taka. Since P Co's actual net CFC tax (on the passive portion) of 1,000,000 taka exceeds this limit, only 500,000 taka will be allocated to S Co; the remaining 500,000 taka will stay in P Co's own Jurisdiction A's Adjusted Covered Taxes and will not be allocated.
+
+**Stage 3 — Final allocation and ETR calculation:**
+
+| Item | Passive portion | Active portion | Total |
+|---|---|---|---|
+| S Co's local tax | 250,000 | 250,000 | 500,000 |
+| CFC tax allocated to S Co | 500,000 (limited) | 1,000,000 (full) | 1,500,000 |
+| S Co's total Adjusted Covered Taxes | 750,000 | 1,250,000 | 2,000,000 |
+| Unallocated remaining tax at P Co | 500,000 | 0 | 500,000 |
+
+Jurisdiction B's (S Co's) total Adjusted Covered Taxes = 2,000,000 taka, total GloBE Income = 10,000,000 taka. So Jurisdiction B's ETR = 2,000,000 ÷ 10,000,000 = 20 percent — which is above the minimum rate of 15 percent, so no Top-up Tax is due for Jurisdiction B this year.
+
+Notably, if the passive income limitation had not been applied and the entire 2,500,000 taka net CFC tax had been allocated without limit, B's ETR would have been 2,500,000 ÷ 10,000,000 = 25 percent — much higher than the true economic tax burden, which highlights the risk of unlimited push-down. Conversely, the passive limitation permits exactly the amount of tax push-down needed to raise the passive income's ETR up to the minimum rate — in this example, the passive portion's own ETR becomes (250,000+500,000)÷5,000,000 = 15 percent, exactly equal to the minimum rate, reflecting precisely the formula's design objective.
+
+## Summary
+
+The cross-entity allocation rules of Article 4.3 are a foundational corrective mechanism for the GloBE ETR calculation — without them, the misplacement of tax related to PEs, CFC regimes, hybrid entities, or transparent entities could render jurisdiction-based ETR calculations meaningless. The core rule is simple: place the tax with the entity whose income gave rise to it, not with the paying entity. For a PE, this means from the Main Entity to the PE; for a transparent entity, from the owner in proportion to ownership; for CFCs and hybrid entities, from the parent/owner to the lower entity — the same logic applies in each case. For push-down tax on CFCs and hybrid entities, the Article 4.3.3 passive income limitation is an important restraining force — it ensures that push-down tax on passive income can raise the ETR only up to the minimum rate, not beyond, so that other low-taxed income in the same jurisdiction is not unfairly shielded. Aggregate systems such as a Blended CFC regime require a pro-rata allocation formula, and for deferred tax, tracking of the recapture rule shifts to the recipient jurisdiction after allocation. Taken together, these allocation rules ensure that each jurisdiction's ETR is an accurate reflection of its genuine economic income and the tax burden actually borne on it — not the apparent location of the accounting record.
+
+## Common Mistakes
+
+A common mistake is completely ignoring the passive income limitation when computing push-down tax under a CFC or hybrid regime and allocating the entire net tax without any limit — this makes the lower jurisdiction's ETR appear excessively high and wrongly shields other low-taxed income there. Another mistake is allocating the aggregate tax under a Blended CFC regime in equal shares to each CFC, without regard to the proportion of income — this violates the formula's pro-rata principle and unfairly allocates more or less tax to certain CFCs. A common mistake for PEs is allocating the gross tax in the Main Entity's books to the PE without adjusting for the foreign tax credit, which creates a risk of double counting. For a Tax Transparent Entity, allocating the entire tax from a single owner despite there being multiple owners, and ignoring the ownership proportion, is also a common error. Finally, leaving the full balance of deferred tax in the original entity's books after it has been allocated, and failing to create a separate tracking working paper for GloBE purposes, can cause the recapture rule to be applied incorrectly in the wrong jurisdiction in the future and create the possibility of double-counting the same tax item.
 
 <!-- lang:bn -->
 

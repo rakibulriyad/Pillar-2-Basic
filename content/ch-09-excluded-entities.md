@@ -13,7 +13,133 @@ slug: "ch-09-excluded-entities"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 9 — Excluded Entities
+
+> **In this chapter:** certain entities within an MNE Group — government entities, international organisations, charitable organisations, pension funds, and, under specific conditions, investment funds or real estate investment vehicles — are kept outside GloBE's calculation; this chapter examines the structure of this exclusion, the 95%/85% ownership tests, and the election not to be treated as such.
+> **Related Article:** 1.5
+
+## 9.1 The Concept of Excluded Entity — Within Scope, Yet Outside the Calculation
+
+The scope of Pillar Two is determined by the group's consolidated revenue — if an MNE Group's annual revenue is €750 million or more in at least two years, that group falls within the scope of the GloBE Rules (Article 1.1). But falling within scope does not mean that a separate Effective Tax Rate (ETR) must be calculated for every entity of the group, that GloBE Income/Loss must be determined, or that it faces the risk of Top-up Tax. An **Excluded Entity** (roughly "excluded entity" in English, though it is best to use the term as-is) is a category of entity that, for policy reasons — usually because of its governmental, charitable, or non-profit character — is kept out of the GloBE calculation.
+
+Importantly, an Excluded Entity remains within the group — it is part of the group, its ownership structure is captured in consolidation, and in some cases its revenue is even included in the €750 million threshold calculation (see Section 9.10). But under Article 1.5.1, it is not treated as a **Constituent Entity** — meaning that no jurisdictional ETR, GloBE Income, or Top-up Tax needs to be calculated for it, and its income and tax are not blended with those of any other Constituent Entity.
+
+Article 1.5.1 directly designates five classes of entity as Excluded Entities:
+
+1. **Governmental Entity**
+2. **International Organisation**
+3. **Non-profit Organisation**
+4. **Pension Fund**
+5. An **Investment Fund** or **Real Estate Investment Vehicle** that is the group's **Ultimate Parent Entity** (UPE) — but not a Subsidiary.
+
+In addition, another entity owned by one of the entities in the above list may also be treated as an Excluded Entity if it satisfies specific ownership-percentage and activity conditions (Article 1.5.1(b) and (c)) — this part is discussed in detail in Section 9.8.
+
+The next six sections (9.2 to 9.7) discuss the definitions and conditions for each of these five classes, which come from the Defined Terms in Article 10.1 and are applied through Article 1.5.
+
+## 9.2 Governmental Entity
+
+**Governmental Entity** refers to an entity that is part of a government, or wholly owned by a government (the central government of a state, a local government, or another political subdivision), and must satisfy four types of conditions:
+
+- It has no commercial activity, and its main purpose is (i) to carry out a governmental function, or (ii) to manage government or jurisdiction assets through investment — such as investing, holding assets, or conducting related investment activities.
+- It is accountable to the government for its overall performance and submits annual information.
+- Upon dissolution, its assets revert to the government, and if net income is distributed, it is distributed only to the government — no portion goes to any private party.
+
+Notably, an ordinary government-owned State-Owned Enterprise — one that runs an ordinary competitive business in the oil, telecom, or banking sector — does not fall within this definition, because its activity is "commercial" in nature. A central bank, a Sovereign Wealth Fund, or a revenue collection authority generally falls within this definition.
+
+## 9.3 International Organisation
+
+**International Organisation** means an intergovernmental or supranational organisation (or an agency or instrumentality wholly owned by it) that:
+
+- Is composed primarily of governments;
+- Has a headquarters agreement or a similar agreement in force with the jurisdiction where it is established (which generally grants the organisation specific privileges and immunities); and
+- Under law or its governing documents, its income cannot be used for the benefit of any private party.
+
+Organisations such as the United Nations, the World Bank, the IMF, or a regional development bank, and their wholly owned investment arms, fall within this definition.
+
+## 9.4 Non-profit Organisation — The Question of "Ancillary" Activity
+
+A **Non-profit Organisation** is an entity that is established and operated in its residence jurisdiction for religious, charitable, scientific, artistic, cultural, athletic, educational, or similar purposes — or it is a professional organisation, trade association, chamber of commerce, labour organisation, agricultural/horticultural organisation, civic league, or an organisation operated to promote social welfare. In addition, the following conditions must be met:
+
+- Substantially all of its income is exempt from income tax in its residence jurisdiction;
+- It has no shareholders or members who have an ownership or beneficial interest in its income or assets;
+- Its income or assets are not distributed to, or applied for the benefit of, any private party — unless this is part of conducting its charitable activity, providing reasonable compensation, or making payment at fair market value for property acquired;
+- Upon dissolution or termination, all assets are transferred to, or revert to, another Non-profit Organisation or the government of its residence jurisdiction; and
+- It does not carry on any trade or business that is not directly related to the purpose for which it was established.
+
+One part of this definition — the "ancillary" activity — is, in practice, the most contested aspect. If a university's research institute operates a commercial laboratory generating licensing income, or a charitable hospital operates a pharmacy, the question arises — is this activity "directly related and ancillary" to the institution's core purpose, or is it a separate commercial activity that calls into question the Non-profit's status? The OECD Commentary provides no numerical test on this question (such as what percentage of income) — this is an entirely fact-specific analysis, and in practice, disputes may arise on this point in many cases. The practical recommendation is to separately document every revenue-generating activity — whether it is a direct instrument for achieving the institution's core purpose, or a parallel business — and to verify what position the local jurisdiction's tax administration has taken on this issue.
+
+## 9.5 Pension Fund and Pension Services Entity
+
+A **Pension Fund** can be defined in two ways. First, an entity established and operated exclusively or almost exclusively to administer or provide retirement benefits and ancillary or incidental benefits to individuals, and which is either (i) regulated as a pension fund by the relevant jurisdiction or one of its political subdivisions, or (ii) whose benefits are protected by a national regulatory framework and funded by a pool of assets held through a fiduciary or trustee arrangement to secure the fulfilment of pension obligations against insolvency.
+
+The second class is a **Pension Services Entity** — an entity established exclusively or almost exclusively to invest funds for the benefit of the regulated Pension Fund described above, or to carry out activities ancillary to that regulated activity — provided that it is part of the same group that operates that regulated activity. In practice, large pension funds often manage their investment activities through a separate holding or management entity — that management entity is itself the Pension Services Entity, and it too is directly treated as an Excluded Entity, without the need for the separate ownership test (Section 9.8).
+
+## 9.6 An Investment Fund That Is the UPE
+
+Generally, an **Investment Fund** is not an Excluded Entity — it is treated differently, as a distinct class of entity, under the GloBE Rules (with its own detailed rules in Article 7.4, which will be discussed in a later chapter of this book). But under Article 1.5.1, an Investment Fund becomes directly an Excluded Entity in one special situation: when it is itself the **Ultimate Parent Entity** of an MNE Group.
+
+To be treated as an Investment Fund, an entity must satisfy a number of conditions — for example, it must be designed to pool the assets of multiple, unrelated investors; it must follow a defined investment policy; it must enable investors to reduce transaction, research, and analytical costs or to spread risk collectively; it must be designed mainly to generate investment income or capital gains, or to provide protection against a particular or general event, with investors bearing the investment risk associated with holding the assets; investors must have a claim on the assets or income of the fund; and the entity or its management must be subject to the regulatory regime applicable to investment funds in the jurisdiction where it is established or managed (including anti-money-laundering and investor protection regulation) and be held or operated by professional investment fund managers on behalf of the investors.
+
+When such an Investment Fund itself sits at the very top of the group (that is, no other entity holds a controlling interest over it, and it is not consolidated into any other entity's Consolidated Financial Statements), it is treated as an Excluded Entity — but its Subsidiaries, held as portfolio companies, do not receive this exclusion; they remain ordinary Constituent Entities.
+
+## 9.7 A Real Estate Investment Vehicle That Is the UPE
+
+Similarly, a **Real Estate Investment Vehicle** — a widely held entity that mainly holds immovable property and whose income is taxed at only a single level (either in its own hands or in the hands of its interest holders), with a delay of at most one year — is also treated as an Excluded Entity if it is the group's **Ultimate Parent Entity**. The rationale is the same as for an Investment Fund: a REIT-like structure is generally built on a single-level-of-tax principle, and imposing GloBE's 15% minimum ETR would conflict with that basic principle. But here too, the condition is the same — only the UPE-level entity receives the exclusion, not the Subsidiaries below it.
+
+## 9.8 Entities Owned by an Excluded Entity — The 95% and 85% Tests
+
+Under Article 1.5.1(b) and (c), another entity owned by one of the five classes above (Governmental Entity, International Organisation, Non-profit Organisation, Pension Fund — excluding Pension Services Entity — and a UPE-Investment Fund/REIV) can also, under specific conditions, be an Excluded Entity. There are two different routes:
+
+**(b) The 95% ownership test:** If at least 95% of the value of an entity is owned, directly or through a chain of one or more such entities, by one or more entities from the list above, and that entity —
+  - holds assets or invests funds exclusively or almost exclusively for the benefit of that owner-entity/entities; or
+  - carries on only activities ancillary to the activities carried out by that owner-entity/entities —
+
+then that entity is also an Excluded Entity.
+
+**(c) The 85% ownership test:** If at least 85% of the value of an entity is owned by one or more of the entities in the list above, and substantially all of its income is an **Excluded Dividend** or **Excluded Equity Gain or Loss** — which is excluded from the GloBE Income/Loss calculation under Article 3.2.1(b) or (c) — then that entity is also an Excluded Entity.
+
+Note that, in both cases, a Pension Services Entity is excluded from the "owner" count — that is, if an entity is owned by a Pension Services Entity (rather than directly by a Pension Fund), it does not benefit from this 95%/85% test.
+
+### Illustration
+
+Suppose a country's government pension authority operates a Pension Fund called "PF Holding," which carries out its investment activities through three separate subsidiaries:
+
+| Subsidiary | Ownership by PF Holding | Activity | Nature of Income | Excluded Entity? |
+|---|---|---|---|---|
+| Holdco A | 100% | Holds only shares and bonds, and manages investments for PF Holding | Investment income (dividends, interest) | Yes — satisfies the 95% test (ownership 100% ≥ 95%; activity is exclusively investing for PF's benefit) |
+| Holdco B | 90% (remaining 10% held by a commercial partner) | Runs a commercial real estate development business, with income substantially not Excluded Dividend/Equity Gain but active rental and sales income | Operating income | No — ownership below 95% and the income condition of the 85% test is also not met (income is active business income, not Excluded Dividend/Gain) |
+| Holdco C | 87% (remaining 13% held by a third party) | A holding company whose only income is dividends received from its subsidiary, entirely qualifying as Excluded Dividend | Excluded Dividend | Yes — satisfies the 85% test (ownership 87% ≥ 85%; income is substantially all Excluded Dividend) |
+
+In this illustration, Holdco A passes the 95% test (both ownership and activity conditions), Holdco C fails the 95% test (ownership below 95%) but passes the 85% test because its income is entirely Excluded Dividend, while Holdco B fails both tests — because its ownership does not exceed even the 85% threshold and its income is active business income, not any Excluded income. As a result, Holdco B remains an ordinary Constituent Entity within the GloBE calculation.
+
+## 9.9 The Election Not to Be Treated as an Excluded Entity (5 Years) — When It Is Advantageous
+
+Under Article 1.5.2, a Filing Constituent Entity may exercise an **Election** not to treat the entities described in Section 9.8 (entities eligible under the (b) and (c) classes based on ownership) as Excluded Entities. Note that this Election is available only for entities in the (b) and (c) classes — it does not apply to the five classes directly listed in Article 1.5.1(a) (such as a Governmental Entity or a Pension Fund itself directly); these are always mandatorily Excluded Entities.
+
+This Election is a Five-Year Election — that is, once exercised, it remains in effect for the following five years and is not easily revocable.
+
+**Why might this Election be advantageous?** Since an Excluded Entity is entirely excluded from the jurisdiction's ETR blending, neither its income nor its tax is captured in the jurisdiction's ETR calculation. But in practice, there may be a situation where an eligible-for-exclusion entity's own ETR is comparatively high (for example, it pays tax at the ordinary corporate tax rate), while the other Constituent Entities of the group in the same jurisdiction have a low ETR — in that case, if this high-tax entity is included in the calculation (i.e., not treated as an Excluded Entity), its income and tax will be added to the jurisdiction's blended ETR, potentially raising the overall ETR closer to or above 15%, thereby reducing the Top-up Tax liability.
+
+Conversely, if that entity's own ETR is low, or it is in a loss position in a way that could pull the blended ETR further down, then exercising the Election would be harmful — in that case, retaining Excluded Entity status is preferable. This decision depends entirely on the actual figures of each jurisdiction, and since the Election is locked in for five years, a multi-year projection needs to be carried out before exercising it, to see whether this decision will remain favourable in the future as well.
+
+## 9.10 Is an Excluded Entity's Revenue Counted Toward the Threshold?
+
+A common misconception is that, since an Excluded Entity is excluded from the GloBE calculation, its revenue would also be excluded from the €750 million consolidated revenue threshold calculation. In practice, this is not the case. The threshold test under Article 1.1 is applied on the basis of the **Group**, and the definition of Group is determined on the basis of accounting consolidation (that is, which entities are, or should be, consolidated in the UPE's Consolidated Financial Statements). An Excluded Entity is part of the group and is generally included within that consolidation — it is only that it is not treated as a Constituent Entity for GloBE purposes, but its revenue remains part of the consolidated revenue figure.
+
+As a result, if a group assumes that, because a large Pension Fund or Governmental Entity partner is Excluded, it will drop out of the threshold calculation and thereby bring the group below the €750 million threshold — this assumption may be wrong. This particularity is especially important for groups where a large Pension Fund or Investment Fund sits as the UPE and operates active commercial subsidiaries beneath it — although the UPE itself is Excluded, the threshold test is applied on the basis of the entire group's consolidated revenue, and the ETR and Top-up Tax calculations then proceed for the Constituent Entities below it.
+
+## Summary
+
+Under Article 1.5, five classes of entity — Governmental Entity, International Organisation, Non-profit Organisation, Pension Fund, and a UPE-level Investment Fund or Real Estate Investment Vehicle — are directly Excluded Entities, meaning that, although part of the group, they remain outside GloBE's ETR and Top-up Tax calculation. In addition, an entity owned by these entities can also become an Excluded Entity through the 95% ownership-and-activity test, or the 85% ownership-and-income-nature test (Article 1.5.1(b), (c)). A Filing Constituent Entity may, in this situation, exercise a five-year Election to remove the relevant entity from Excluded Entity status and make it an ordinary Constituent Entity — which can be advantageous when that entity's high ETR helps raise the jurisdiction's blended ETR, thereby reducing Top-up Tax. However, this Election does not apply to the five main classes of entity — they are mandatorily Excluded. Finally, even when Excluded Entity status applies, its revenue generally remains included in the €750 million consolidated-revenue-based threshold calculation — Excluded status affects only GloBE's internal calculation, not the scope-entry threshold.
+
+## Common Mistakes
+
+- **The mistaken belief that an Excluded Entity leaves the group:** an Excluded Entity remains part of the group and can affect its ownership structure, consolidation, and even the revenue threshold calculation — it is only excluded from GloBE's ETR/Top-up Tax calculation.
+- **Forgetting the UPE condition:** an Investment Fund or Real Estate Investment Vehicle is directly an Excluded Entity only when it is itself the UPE — its subsidiaries or portfolio companies do not automatically receive this exclusion.
+- **Confusing the 95% and 85% tests:** the 95% test requires checking both ownership and activity (holding/ancillary); the 85% test requires checking both ownership and the nature of income (Excluded Dividend/Equity Gain). These are two different routes, and conflating them can lead to incorrect conclusions.
+- **Counting a Pension Services Entity as an "owner":** in the 95%/85% tests, ownership by a Pension Services Entity cannot be counted — only ownership by the entities directly listed in Article 1.5.1(a) is counted.
+- **Treating "ancillary" activity as a simple numerical test:** there is no specific percentage-based rule for determining "ancillary activity" in the context of a Non-profit Organisation or the ownership tests — this is an entirely fact-specific analysis and can often be a point of dispute; relying in advance on a specific numerical threshold is risky.
+- **Treating the Election as a permanent or trivial decision:** the Article 1.5.2 Election is locked in for five years — the decision should be made based on a multi-year projection, not on a single year's figures.
 
 <!-- lang:bn -->
 

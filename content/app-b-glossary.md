@@ -8,7 +8,132 @@ slug: "app-b-glossary"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Appendix B — Glossary
+
+This appendix presents, in alphabetical order, a concise reference list of the principal technical terms of GloBE/Pillar Two used across the book's 62 chapters. Each entry gives the English term, a one-sentence definition, and, where applicable, the relevant GloBE Model Rules Article reference. Where a specific Article number cannot be stated with confidence (for example, terms defined in separate Administrative Guidance or Safe Harbour documents), the "—" symbol is used to avoid speculative attribution. For ease of navigation, the list is divided into four sections — A–F, G–M, N–S, and T–Z.
+
+## A–F
+
+| English Term | Short Definition | Article Reference |
+|---|---|---|
+| Accrued Pension Expense Adjustment | The adjustment that replaces pension expense in the financial accounts with an amount based on actual contributions, for purposes of GloBE Income. | Art. 3.2.1 |
+| Additional Current Top-up Tax | The extra tax charged in the current year, in lieu of recomputing a prior year's ETR/Top-up Tax. | Art. 5.4 |
+| Adjusted Covered Taxes | The tax figure obtained by adding the Total Deferred Tax Adjustment Amount and other adjustments to Current Tax Expense, used to determine the numerator in the ETR computation. | Art. 4.1 |
+| Adjusted Nominal Rate | The adjusted rate used to determine the effective tax rate applicable to a specific payment for purposes of applying the STTR. | — |
+| Administrative Guidance (OECD) | The interpretive documents approved by the OECD Inclusive Framework that ensure consistency in the application of the Model Rules. | — |
+| Allocable Share | The portion of a jurisdictional Top-up Tax charged to a Parent Entity, determined in proportion to its ownership interest. | Art. 2.2 |
+| Annual Election | An Election made separately for each Fiscal Year, renewable or changeable with each GIR filing. | — |
+| Article 3.2 Adjustments | The collective set of adjustments prescribed for moving from Financial Accounting Net Income to GloBE Income or Loss. | Art. 3.2 |
+| Asymmetric Foreign Currency Gain or Loss | The adjustment excluding FX gain/loss arising from the difference between the functional currency and the currency used for tax purposes. | Art. 3.2.1 |
+| BEPS (Base Erosion and Profit Shifting) | The strategy of artificially shifting profit to low-tax jurisdictions to erode the tax base — the predecessor crisis to Pillar Two. | — |
+| CAMT (Corporate Alternative Minimum Tax) | The United States' domestic alternative minimum tax regime, separate from but comparable to GloBE. | — |
+| CbC Report (Country-by-Country Report) | The country-by-country report on revenue, profit, and tax filed under BEPS Action 13, which underpins the Transitional CbCR Safe Harbour. | — |
+| Connected Person | A person or entity closely related through control or joint ownership, taken into account in certain adjustments to Covered Taxes. | Art. 10.1 |
+| Consolidated Financial Statements | The financial statements prepared by the UPE, consolidating the assets, liabilities, income, and expenses of all Constituent Entities. | Art. 10.1 |
+| Consolidation | The accounting method of combining the financial results of separate entities into a single set of group accounts, on the basis of which the boundary of an MNE Group is determined. | Art. 1.2 |
+| Constituent Entity | Any Entity or Permanent Establishment that is a member of an MNE Group, whose results are, or should be, included in the UPE's consolidated financial statements. | Art. 1.3 |
+| Controlling Interest | An ownership interest that requires, or would require, the holding entity to consolidate the other entity's financial results on a line-by-line basis. | Art. 10.1 |
+| Covered Income | Income arising from specified cross-border payments (such as interest and royalties) under the STTR, tested to see whether a minimum nominal tax rate applies. | — |
+| Covered Taxes | Taxes charged on a Constituent Entity's income that qualify for inclusion in the computation of Adjusted Covered Taxes. | Art. 4.2 |
+| Current Tax Expense | The current (non-deferred) tax expense recognized for the year in the financial accounts — the starting component of Adjusted Covered Taxes. | Art. 4.1.1 |
+| De Minimis Exclusion | The provision that fully exempts a jurisdiction from the Top-up Tax computation where its average revenue and income fall below specified thresholds. | Art. 5.5 |
+| Deductible Dividend Regime | A tax regime under which distributed dividends are deductible from the paying entity's taxable income, requiring special adjustment for GloBE purposes. | Art. 7.2 |
+| Deferred Tax Adjustment Amount (Total) | The amount obtained by recasting the financial accounts' deferred tax expense/income at the 15% rate and applying specified exclusions, which is added to Adjusted Covered Taxes. | Art. 4.4 |
+| Designated Filing Entity | The Constituent Entity selected to prepare and file the GIR centrally on behalf of the group, in place of the UPE. | Art. 8.1 |
+| Disallowed Accruals | Deferred tax expense that is excluded from Adjusted Covered Taxes from the outset unless actually paid or reversed within five years. | Art. 4.4.1 |
+| Domestic IIR | A mechanism by which a jurisdiction extends IIR-equivalent liability to its own domestic Constituent Entities, so as to avoid the asymmetry of the UTPR. | — |
+| Effective Tax Rate (ETR) | The rate obtained by dividing a jurisdiction's aggregate Adjusted Covered Taxes by its aggregate GloBE Income or Loss. | Art. 5.1 |
+| Eligible Distribution Tax System | A regime under which tax is not charged until profit is distributed; the UPE may make an Election under this regime. | Art. 7.3 |
+| Eligible Payroll Costs | Employee salaries, wages, and related benefits, included as the payroll carve-out in the SBIE computation. | Art. 5.3.3 |
+| Eligible Tangible Assets | Tangible assets such as real property, plant, and natural resources, used in computing the tangible-asset carve-out of the SBIE. | Art. 5.3.4 |
+| Election (One-Time / Five-Year / Annual) | The opportunity given to a group under the Model Rules to choose an optional treatment, which may have one of three durations. | — |
+| Excess Negative Tax Expense Carry-forward | The excess portion carried forward to future years when Adjusted Covered Taxes are negative and exceed 15% of GloBE Income in absolute terms. | Art. 4.1.5 |
+| Excess Profit | A jurisdiction's net GloBE Income after subtracting the SBIE, to which the Top-up Tax Percentage is applied to determine the Jurisdictional Top-up Tax. | Art. 5.2 |
+| Excluded Dividends | Dividends generally received from another Constituent Entity or from a qualifying ownership interest, excluded from the GloBE Income or Loss computation. | Art. 3.2.1 |
+| Excluded Entity | Specified entities — such as governmental bodies, international organisations, pension funds, and non-profit organisations — that are entirely excluded from the MNE Group's computation. | Art. 1.5 |
+| Excluded Equity Gain or Loss | Gain or loss arising from a change in the value of, or the disposal of, an ownership interest, excluded from GloBE Income or Loss. | Art. 3.2.1 |
+| Filing Entity | The Constituent Entity that actually prepares and files the GIR with the tax administration — which may be the UPE or a Designated Filing Entity. | Art. 8.1 |
+| Financial Accounting Net Income | A Constituent Entity's net income/loss determined under the accounting standard used in preparing the UPE's consolidated financial statements — the starting point for computing GloBE Income. | Art. 3.1.2 |
+| Fiscal Year | The period for which the UPE prepares its consolidated financial statements, generally treated as the applicable year for the entire MNE Group. | Art. 10.1 |
+| Five-Year Election | An Election that, once made, remains in effect for at least five Fiscal Years and automatically renews unless explicitly revoked. | — |
+| Flow-Through Entity | An Entity whose income, expenses, profit, or loss is treated as taxable at the level of its owners rather than at its own jurisdictional level. | Art. 10.2 |
+
+## G–M
+
+| English Term | Short Definition | Article Reference |
+|---|---|---|
+| GILTI (Global Intangible Low-Taxed Income) | A US domestic tax regime charging tax on specified income of foreign subsidiaries — comparable to, but separate from, GloBE. | — |
+| GIR (GloBE Information Return) | The authoritative return prepared to report the results of the entire Pillar Two computation to the relevant tax administrations. | Art. 8.1 |
+| GloBE Income or Loss | A Constituent Entity's income/loss obtained by applying specified adjustments to Financial Accounting Net Income, used as the numerator in the ETR computation. | Art. 3.1 |
+| GloBE Loss Deferred Tax Asset | A special deferred tax asset created on the basis of losses existing in the Transition Year, usable in future Adjusted Covered Taxes computations. | Art. 9.1 |
+| GloBE Loss Election | An Election to track a jurisdiction's net loss as a Notional Deferred Tax Asset at the 15% rate, in place of the ordinary deferred tax mechanics. | Art. 4.5 |
+| GloBE Reorganisation | A transfer of assets and liabilities, merger, or demerger meeting specified conditions, in which gain/loss is not immediately recognized for GloBE purposes. | Art. 6.1 |
+| Governmental Entity | A state, local government, or an entity wholly owned by them — a category of Excluded Entity. | Art. 1.5 |
+| Hybrid Entity | An Entity treated as a taxable entity in its own jurisdiction but as transparent in its owner's jurisdiction, or vice versa. | Art. 10.1 |
+| IIR (Income Inclusion Rule) | The primary collection mechanism, applicable in a Parent Entity's jurisdiction, under which Top-up Tax is charged on the income of a low-taxed Constituent Entity. | Art. 2.1 |
+| IIR Offset Mechanism | The mechanism that offsets amounts collected at a higher-tier Parent's level against a lower-tier Parent's liability, so as to avoid double collection of the same Top-up Tax across multiple Parent Entity tiers. | Art. 2.1–2.3 |
+| Initial Phase of International Activity Exclusion | A provision granting temporary relief from the UTPR in the early years for an MNE Group that has only just begun international activity. | Art. 9.3 |
+| Insurance Investment Entity | An entity held by an insurance company for the benefit of policyholders that also meets the definition of an Investment Entity. | Art. 10.1 |
+| Intermediate Parent Entity (IPE) | A Constituent Entity that is not the UPE but that itself, directly or indirectly, holds an ownership interest in another Constituent Entity. | Art. 10.1 |
+| International Organisation | An organisation established under an agreement among multiple states — a category of Excluded Entity. | Art. 1.5 |
+| International Shipping Income | Income derived from international shipping activity, excluded from GloBE Income or Loss under specified conditions. | Art. 3.3 |
+| Investment Entity | An entity defined as an investment fund or a real estate investment vehicle, for which separate Jurisdictional Blending and tax treatment applies. | Art. 10.1 |
+| Joint Venture (JV) | An entity accounted for under the equity method in the UPE's consolidated financial statements and at least 50% owned, requiring a separate GloBE computation. | Art. 6.4 |
+| Jurisdiction | The country or tax territory on the basis of which the income, loss, and tax of Constituent Entities are blended to determine ETR and Top-up Tax. | Art. 10.1 |
+| Jurisdictional Blending | The method of aggregating the GloBE Income and Adjusted Covered Taxes of all Constituent Entities in the same jurisdiction to determine a single ETR. | Art. 5.1 |
+| Jurisdictional Top-up Tax | The overall Top-up Tax for a jurisdiction, determined by adding the product of the Top-up Tax Percentage and Excess Profit (less Additional Current Top-up Tax). | Art. 5.2 |
+| Main Entity | The principal taxpayer entity of which a Permanent Establishment forms a part. | Art. 10.1 |
+| Minority-Owned Constituent Entity | A Constituent Entity in which the UPE's ownership interest is below 30%, subject to separate Jurisdictional Blending rules. | Art. 5.6 |
+| MNE Group | A group in which at least one Entity or Permanent Establishment is located in more than one jurisdiction and whose results are included in the UPE's consolidated financial statements. | Art. 1.2 |
+| Model Rules (GloBE Model Rules) | The core body of GloBE rules developed by the OECD/G20 Inclusive Framework, which each jurisdiction incorporates into its own domestic law. | — |
+| Multi-Parented MNE Group | A group formed by multiple UPEs through a Stapled Structure or Dual-Listed Arrangement, treated as a single MNE Group. | Art. 6.5 |
+| Mutual Agreement Procedure (MAP) | The negotiation process between the tax administrations of two states under a bilateral tax treaty for resolving double taxation or disputes. | — |
+
+## N–S
+
+| English Term | Short Definition | Article Reference |
+|---|---|---|
+| Non-Material Constituent Entity (NMCE) | A Constituent Entity excluded by the UPE from its consolidated financial statements purely on grounds of size, for which simplified reporting applies in the GIR. | — |
+| Non-Profit Organisation | An organisation conducting charitable or public-benefit activity without distributing profit — a category of Excluded Entity. | Art. 1.5 |
+| One-Time Election | An Election that, once made, cannot be revoked in the future, or cannot be made again for a specified long period after revocation. | — |
+| Ownership Interest | An equity interest conferring rights over the profits, equity, or reserves of an Entity or Permanent Establishment. | Art. 10.1 |
+| Partially-Owned Parent Entity (POPE) | An entity that is not the UPE but that itself holds an ownership interest in another Constituent Entity, and more than 20% of whose own ownership interest is held by a party outside the group. | Art. 10.1 |
+| Pension Fund | A fund established and regulated for the purpose of providing retirement benefits — a category of Excluded Entity. | Art. 1.5 |
+| Permanent Establishment (PE) | An Entity's business presence in a state, treated as a separate Constituent Entity for GloBE purposes. | Art. 10.1 |
+| Policy Disallowed Expenses | Expenses such as bribes or illegal payments, and fines/penalties exceeding a specified threshold, that are not deducted but rather disallowed in computing GloBE Income or Loss. | Art. 3.2.1 |
+| Post-Filing Adjustment | The provision determining how a correction to a Fiscal Year's income or tax, made after the GIR has been filed, is reflected in existing or future computations. | Art. 4.6 |
+| Prior Period Errors and Changes in Accounting Principles | Adjustments relating to corrections in a prior year's accounts or the effect of a change in accounting principle, reflected in the current year's GloBE computation. | Art. 3.2.1 |
+| QDMTT (Qualified Domestic Minimum Top-up Tax) | A domestic minimum tax enacted under a jurisdiction's own law using a GloBE-equivalent method, which takes collection priority ahead of the IIR/UTPR. | Art. 10.1 (Administrative Guidance) |
+| Qualified Refundable Tax Credit (QRTC) | A refundable tax credit meeting specified conditions, treated as income (rather than a tax reduction) in GloBE Income, so that it does not affect the ETR denominator. | Art. 10.1 |
+| Qualifying Competent Authority Agreement (QCAA) | A bilateral or multilateral agreement between two or more tax administrations for the automatic exchange of GIR information. | — |
+| Real Estate Investment Vehicle | A widely held entity that invests predominantly in real property, which may qualify as an Excluded Entity or an Investment Entity under specified conditions. | Art. 1.5 |
+| Recapture Rule | The provision cancelling a previously considered deferred tax adjustment and requiring recomputation of a prior year's ETR, where a Disallowed Accrual is not paid within five years. | Art. 4.4.4 |
+| Reverse Hybrid Entity | A Flow-Through Entity treated as transparent in its owner's jurisdiction but not treated as a taxable entity in its own jurisdiction, whose income may become stateless. | Art. 10.1 |
+| Routine Profits Test | An alternative test under the Transitional CbCR Safe Harbour, under which Top-up Tax is treated as zero if a jurisdiction's profit is equal to or less than the associated SBIE. | — |
+| Rule Order | The priority sequence determining which of QDMTT, IIR, and UTPR applies first. | Art. 2.1–2.6 |
+| Safe Harbour | A conditional opportunity to treat a jurisdiction's Top-up Tax as zero, avoiding a detailed ETR/Top-up Tax computation, where specified conditions are met. | Art. 8.2 |
+| Simplified ETR Test | A test under the Transitional CbCR Safe Harbour under which Top-up Tax is treated as zero if a simplified ETR, computed using CbCR and financial accounting data, meets or exceeds a specified threshold. | — |
+| Stateless Entity | A Constituent Entity or PE that is not a tax resident of any single jurisdiction, whose income is considered separately for ETR purposes. | Art. 10.1 |
+| STTR (Subject to Tax Rule) | A provision applicable under a bilateral tax treaty, giving the source state the right to impose a supplementary tax on specified cross-border payments if the nominal tax rate in the recipient state is below 9%. | — |
+| Stock-Based Compensation Election | An Election to compute GloBE Income using the expense allowed for tax purposes rather than the financial accounting expense. | Art. 3.2.2 |
+| Substance-based Income Exclusion (SBIE) | A provision excluding a specified percentage of Eligible Payroll Costs and Eligible Tangible Assets from the base of the Top-up Tax computation, granting partial relief for genuine economic activity. | Art. 5.3 |
+| Switch-off Rule | A provision withdrawing the benefit of the QDMTT Safe Harbour in specified circumstances, reverting to the ordinary IIR/UTPR computation — for example, where the QDMTT is not reliably applied. | — |
+
+## T–Z
+
+| English Term | Short Definition | Article Reference |
+|---|---|---|
+| Tax Certainty | Procedures and policy arrangements adopted to prevent and swiftly resolve disputes between taxpayers and tax administrations. | — |
+| Tax Transparent Entity | An Entity whose income is treated as taxable directly at the level of its owners rather than at its own level. | Art. 10.2 |
+| Top-up Tax Percentage | The percentage obtained by subtracting a jurisdiction's actual ETR from the 15% minimum rate, multiplied by Excess Profit to determine Top-up Tax. | Art. 5.2.1 |
+| Transition Year | The Fiscal Year in which an MNE Group first comes within the scope of the GloBE Rules in respect of a given jurisdiction, from which special transitional provisions apply. | Art. 9.1 |
+| Transitional CbCR Safe Harbour | A temporary opportunity, available during the early years, to avoid a detailed computation if any one of three tests (De Minimis, Simplified ETR, Routine Profits) is met, based on a qualifying CbC Report and financial accounting data. | — |
+| Transitional Penalty Relief | An administrative undertaking not to impose penalties or safeguard measures for errors made in the GIR/local return, despite reasonable effort, during the early transition years. | — |
+| Transitional UTPR Safe Harbour | A temporary opportunity to treat UTPR Top-up Tax as zero for the UPE's jurisdiction in the early years, where the corporate tax rate in the UPE's jurisdiction is at least 20%. | — |
+| Ultimate Parent Entity (UPE) | An entity that holds, directly or indirectly, a controlling interest in every other Constituent Entity, and over which no entity holds a controlling interest. | Art. 1.4 |
+| Unclaimed Accruals | Deferred tax expense not claimed within five years, excluded from Adjusted Covered Taxes because it was not reflected in time. | Art. 4.4.1 |
+| Undertaxed Profits Rule (UTPR) | The backstop mechanism that collects any Top-up Tax remaining after application of the QDMTT and IIR, allocated among other jurisdictions in proportion to employees and tangible assets. | Art. 2.4 |
+| UTPR Percentage | The percentage, determined on the basis of a jurisdiction's share of employees and tangible assets, that fixes how much of the remaining Top-up Tax is allocated to that jurisdiction. | Art. 2.6 |
 
 <!-- lang:bn -->
 

@@ -13,7 +13,105 @@ slug: "ch-16-pe-main-entity-allocation"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 16 — Income Allocation Between PE and Main Entity
+
+> **In this chapter:** when the same legal entity of a Multinational Enterprise (MNE) Group does business in more than one jurisdiction through a branch or office, its branch's income and loss must, for GloBE calculation purposes, be separated from the main entity and allocated; this chapter discusses the rules of that allocation, the differences among the four types of PE, Stateless PE, loss recapture, and the connection to Covered Tax allocation.
+> **Relevant Article:** 3.4
+
+## 16.1 The Principle of Preparing Separate Accounts for a PE
+
+The concept of a **Permanent Establishment (PE)** is a long-standing one in international tax policy — when a company operates in a jurisdiction other than its own through a branch, office, construction site, or other permanent business presence, that presence is treated as a separate taxable unit for tax purposes, even though legally it is part of the same legal person. The GloBE Model Rules follow this same logic. The entity of which the PE is a part is called the **Main Entity** — that is, the company in whose books the PE's transactions are essentially recorded, and of which the PE legally exists as a part.
+
+Under Pillar Two's jurisdictional blending framework, the Effective Tax Rate (ETR) and Top-up Tax are calculated separately for each jurisdiction. This means that, if a Main Entity and its PE are located in two different jurisdictions, the PE is treated as a separate **Constituent Entity** for GloBE calculation purposes, and its income and tax must be calculated in its own jurisdiction — not in the Main Entity's jurisdiction. Article 3.4 is needed to make this division correctly.
+
+Under Article 3.4, determining a PE's GloBE Income or Loss starts from its Financial Accounting Net Income or Loss (FANI). If separate financial accounts are prepared for the PE, that account forms the basis. But in practice, many MNEs do not prepare a fully separate financial statement at the branch level — in that case, the PE-related portion of income and expense must be separated from the Main Entity's consolidated accounts to prepare a notional separate account, as though the PE were an independent, arm's-length entity. In preparing this notional account, internal dealings between the Main Entity and the PE, and principles of capital allocation and risk allocation, are used, which are generally consistent with the OECD's Authorised OECD Approach (AOA) for treaty PEs.
+
+An important point here is that this separation is not merely for accounting convenience, but ensures that the same income is not counted twice across two jurisdictions or not counted in any jurisdiction. Only after this separate account is prepared do the rest of Article 3.4's rules apply — which income goes to the PE's jurisdiction, which stays in the Main Entity's jurisdiction, and how allocation is handled in exceptional situations (such as a Stateless PE or loss allocation).
+
+## 16.2 Different Allocation Methods for the Four Types of PE
+
+In the definitions section of the GloBE Model Rules (Article 10.1.1), PE is divided into four distinct sub-categories, and a separate allocation method is set out in Article 3.4 for each sub-category. Understanding this distinction is important, because applying the wrong sub-category will result in an incorrect allocation of income and consequently an ETR calculated in the wrong jurisdiction.
+
+**(a) Treaty PE** — when an applicable tax treaty exists between the Main Entity's jurisdiction and the jurisdiction where business is conducted, and that jurisdiction taxes the presence as a PE under that treaty, this is a treaty PE. In this case, income is allocated according to the treaty's business-profits article (generally equivalent to Article 7 of the OECD Model Tax Convention) — that is, the exact amount of income attributable to the PE under the treaty is what is allocated to the PE's jurisdiction for GloBE purposes.
+
+**(b) Treaty-less domestic-law PE** — if there is no tax treaty between two jurisdictions, but the jurisdiction where business is conducted has a PE-like concept in its domestic law, and that jurisdiction taxes the income of that presence on a net basis like its own residents, this too is treated as a PE. Allocation is done according to that domestic law's rules.
+
+**(c) A jurisdiction with no corporate income tax** — some jurisdictions have no corporate income tax system at all (such as some zero-tax jurisdictions). In such cases, the question of actual taxation does not arise in practice, but a hypothetical test is applied for GloBE purposes: if the relevant jurisdiction had a corporate income tax system, and under that system the presence would have been a PE according to the standards of Article 5 of the OECD Model Tax Convention, then it would fall into this sub-category. Allocation follows the principles of Article 7 of the OECD Model, even though no tax is actually paid there — as a result, the related income enters the GloBE calculation of the zero-tax jurisdiction and comes within scope of Top-up Tax.
+
+**(d) The residual category — Stateless PE** — a business presence that does not fall within any of the above three categories is placed in a residual category, practically known as a **Stateless PE** (a PE with no state — that is, one that no jurisdiction claims to tax). The allocation rule for this category is discussed separately in Section 16.3, because no "PE jurisdiction" actually exists here.
+
+## 16.3 Where the Income of a Stateless PE Goes
+
+A Stateless PE situation arises when a business activity is conducted outside the Main Entity's jurisdiction, but the jurisdiction where that activity is conducted has no applicable tax treaty, has no provision for net-basis PE taxation under its domestic law, and also has no corporate income tax system to which a hypothetical Article 5 test could apply. The result — no jurisdiction claims that activity's income, and it remains in a state of "falling under no state."
+
+In such a situation, if that income were left outside the GloBE calculation, it would create an opportunity for the MNE Group to deliberately shift income into such a "no man's land" and avoid Top-up Tax. To close this gap, Article 3.4 provides a clear rule: all Financial Accounting Net Income or Loss (FANI) earned through a Stateless PE will be added directly to the GloBE calculation of the **Main Entity's** jurisdiction — as if that activity had never been treated as a separate PE at all and had been conducted directly by the Main Entity itself.
+
+The practical effect of this is that no separate jurisdiction-level ETR calculation is made for a Stateless PE; this income is merged into the ETR calculation of the Main Entity's own jurisdiction, and any related Covered Tax (if any, such as withholding tax or limited tax in some third jurisdiction) is likewise added to the Main Entity's Covered Tax pool. In practice, such situations are frequently seen in shipping, international transport, or activities where the geographic location of the activity is unclear or spread across multiple jurisdictions, or in some low-tax jurisdiction that has no corporate tax system at all and a limited treaty network.
+
+## 16.4 Allocation of a PE's Loss to the Main Entity and Subsequent Recapture
+
+The general rule is that a PE's GloBE Loss stays within its own jurisdiction and is set off in the future against that jurisdiction's income under the Loss Carry-forward mechanism of Article 4.5. But there is one important exception, set out in Article 3.4.
+
+Under the domestic tax law of many jurisdictions (particularly those following worldwide taxation and a foreign-tax-credit method), a Main Entity is permitted to set off its PE's actual tax loss against its own domestic taxable income — even though that loss geographically arose in the PE's jurisdiction. If, under GloBE accounting, that same loss remains entirely in the PE's jurisdiction, while the same loss simultaneously reduces the Main Entity's income under the Main Entity's domestic tax accounting, then effectively the same economic loss is generating a benefit twice — once in the Main Entity's domestic tax accounting, and again in the GloBE calculation as the PE's future carry-forward loss. This is called "double loss utilisation," and Article 3.4 prevents this double benefit.
+
+Therefore, under Article 3.4's rule, the amount of a PE's GloBE Loss that has actually been set off, under the Main Entity's jurisdiction's domestic tax computation, against the Main Entity's income (income not taxable in the PE's jurisdiction) is treated not as the PE's but as the **Main Entity's** GloBE Loss. As a result, it will not remain in the PE's loss carry-forward balance; instead, it will be used as the Main Entity's own jurisdiction's GloBE Loss.
+
+Next comes the **recapture** stage. If, in a later year, the PE again becomes profitable and generates GloBE Income, a portion of that income — equal to or less than the loss previously allocated to the Main Entity, whichever is smaller — is again subtracted from the PE's own income and "recaptured" as GloBE Income in the Main Entity's jurisdiction, until the entire amount of the previously transferred loss has been recovered. This mechanism ensures that, over the long term, the combined GloBE outcome of the PE and the Main Entity remains the same, with only a timing rearrangement — no permanent double benefit is created.
+
+For example, if in a given year a PE's loss of 500,000 units is allocated to the Main Entity (because the Main Entity used it in its domestic tax computation), and the following year the PE's GloBE Income is 300,000 units, then the entire 300,000 units will be recaptured and shifted to the Main Entity's jurisdiction (GloBE Income in the PE's jurisdiction for that year will be shown as zero), and the remaining 200,000 units will remain pending recapture for future years.
+
+## 16.5 The Rule Against Double Counting
+
+The foundation of Article 3.4's overall framework is a simple but strictly enforced principle — the same income, expense, loss, or tax must never be counted twice across two jurisdictions, and must never fall out of the calculation entirely without being counted anywhere. Since the PE and the Main Entity are legally the same entity, all transactions are already included once in their consolidated financial accounts. Article 3.4's job is to split that single figure into two parts — once for the PE's jurisdiction, once for the Main Entity's jurisdiction — so that the sum exactly equals the consolidated figure.
+
+Several technical measures are applied to achieve this goal. First, once the FANI or Loss allocated to the PE is determined, it must be removed from the Main Entity's own account, so that the same item does not remain twice — once in the PE's account, and again in the Main Entity's main consolidated account. Second, if the PE's separate accounts are prepared based on a different accounting standard or policy (such as local GAAP), and this results in a permanent difference solely due to that different accounting policy — that is, a difference that will not reverse over time — then that difference must be eliminated and reconciled with the Main Entity's own accounting standard. However, an ordinary timing difference (such as a difference based on depreciation rates) does not fall within this adjustment — it is naturally reconciled through the deferred tax mechanism of Chapter 4.
+
+Third, internal (notional) transactions between the Main Entity and the PE — such as notional royalty, notional interest, or management fees — if treated as an expense in one party's accounts, must be treated as exactly the same amount of income in the other party's accounts, so that the combined effect is zero. If this consistency is not maintained, an opportunity could easily be created to artificially reduce income or increase loss to affect the ETR, which is contrary to the core purpose of Article 3.4.
+
+## 16.6 Allocation of Covered Taxes Related to a PE (the Link to Chapter 4)
+
+Alongside the allocation of income and loss, the allocation of PE-related Covered Taxes is equally important, and although this matter is directly connected to the principle of Article 3.4, its detailed accounting methodology is set out in the Covered Tax allocation rules discussed in Chapter 4. The core rationale is — just as income must be allocated to the correct jurisdiction, the tax paid on that income must also be allocated to the correct jurisdiction, so that the ETR calculation is not misleading.
+
+In practice, in many worldwide-taxation jurisdictions (such as countries that follow a residence-based tax system and a foreign tax credit method), a Main Entity also pays tax in its own jurisdiction on its PE's income — generally a net amount after deducting a credit for tax paid in the PE's jurisdiction. In such a case, part of the current tax expense shown in the Main Entity's books is actually related to the PE's income, not the Main Entity's own income. If this entire tax expense is left in the Main Entity's jurisdiction's Covered Tax, then the PE's jurisdiction's ETR would incorrectly appear lower (because the tax related to the PE-jurisdiction's income is being counted in another jurisdiction), and the Main Entity's jurisdiction's ETR would incorrectly appear higher.
+
+Therefore, under the cross-border tax allocation rule set out in Chapter 4 (which often falls under a provision like "Article 4.3.2(a)" for allocating cross-border current tax expense), the portion of tax paid in the Main Entity's jurisdiction that is actually imposed on the PE's income must be removed from the Main Entity's Covered Tax pool and reallocated to the PE's jurisdiction's Adjusted Covered Taxes. In this way, Article 3.4's income-allocation principle and Chapter 4's tax-allocation principle work together to ensure that the tax related to the income allocated to each jurisdiction is calculated in that same jurisdiction. The numerical example in Section 16.7 below shows in detail how this reallocation works in practice.
+
+## 16.7 A Numerical Example
+
+The example below considers a Constituent Entity called "Meghna Limited," located in Jurisdiction **M**, which operates a treaty PE (of the Article 10.1.1(a) category) in Jurisdiction **N**. Jurisdiction M has a corporate tax rate of 30%, and M follows a worldwide-taxation system in which a full foreign tax credit (FTC) is available for tax paid abroad. Jurisdiction N's local corporate tax rate is 8% — that is, nominally below the 15% minimum rate.
+
+Meghna Limited's consolidated financial accounts show a net income for the year of 10,000,000 currency units. From the separate accounts prepared under Article 3.4.1, it is seen that, of this income, the PE's (Jurisdiction N) own FANI is 3,000,000 units, and the remaining 7,000,000 units are earned from the Main Entity's (Jurisdiction M) own operations.
+
+**Step 1 — Tax calculation (pre-allocation):**
+
+- Tax paid locally in Jurisdiction N = 3,000,000 × 8% = 240,000 units.
+- Pre-credit tax on Meghna Limited's worldwide income in Jurisdiction M = 10,000,000 × 30% = 3,000,000 units.
+- Of this, the 240,000 units of tax paid in N is deducted as an FTC, so the actual tax paid in M = 3,000,000 − 240,000 = 2,760,000 units.
+
+**Step 2 — Identifying the PE-related portion of M's tax (applying Chapter 4's rule):**
+
+It must be determined how much of M's total tax paid of 2,760,000 units is related to the PE's (N's) income. M's pre-credit tax on the PE's income = 3,000,000 × 30% = 900,000; minus FTC = 900,000 − 240,000 = 660,000 units — this is the portion of M's total tax expense that is actually related to N's income and that will be reallocated to N's Covered Taxes. The remaining 2,760,000 − 660,000 = 2,100,000 units is related to M's own income (7,000,000 × 30% = 2,100,000, which matches).
+
+**Step 3 — Final GloBE allocation:**
+
+| Description | Main Entity (Jurisdiction M) | PE (Jurisdiction N) | Total |
+|---|---|---|---|
+| GloBE Income (income allocated under Article 3.4) | 7,000,000 | 3,000,000 | 10,000,000 |
+| Tax paid locally | 2,100,000 | 240,000 | 2,340,000 |
+| Tax reallocated from M (Chapter 4) | (660,000) | 660,000 | 0 |
+| Final Adjusted Covered Taxes | 2,100,000 | 900,000 | 3,000,000 |
+| Effective Tax Rate (ETR) | 30% | 30% | — |
+| Top-up Tax applicable? | No | No | — |
+
+Notably, even though Jurisdiction N's nominal corporate tax rate is only 8%, after applying Article 3.4's income-allocation rule together with Chapter 4's tax-reallocation rule, N's GloBE ETR comes out to 30%, because the portion of additional tax paid under M's worldwide-taxation system has been transferred to N's jurisdiction. If this allocation were not done correctly — for example, if someone mistakenly left the entire 2,760,000 units in M's Covered Tax — then N's ETR would incorrectly show as 8%, and an unnecessary Top-up Tax would be calculated there, which would not reflect the actual situation. This example clearly shows why it is essential to apply Article 3.4's income allocation and the related tax allocation rules together, consistently.
+
+## Summary
+
+Article 3.4 ensures that the income, loss, and tax of a Main Entity and its PE under the same legal entity are properly allocated to separate jurisdictions for GloBE calculation purposes, so that each jurisdiction's ETR can be correctly determined. A separate (actual or notional) financial account must first be prepared for the PE, on the basis of which FANI is determined. The four types of PE — treaty PE, domestic-law PE, the hypothetical PE of a zero-tax jurisdiction, and Stateless PE — each have a different allocation rule applicable; a Stateless PE's income goes entirely to the Main Entity's jurisdiction. If a PE's loss creates a second benefit in the Main Entity's domestic tax computation, it is treated as the Main Entity's GloBE Loss and later returns through recapture when the PE becomes profitable. The core purpose of the entire framework is to avoid double counting — no item should be counted twice, and none should be left out anywhere. And finally, Covered Taxes must also be reallocated consistently with the allocation of income, the detailed methodology for which is set out in Chapter 4.
+
+## Common Mistakes
+
+A common mistake is not preparing a separate account for the PE and leaving the entire consolidated income in the Main Entity's jurisdiction — this would show zero income in the PE's jurisdiction and produce an entirely incorrect ETR. Another mistake is applying a treaty-based allocation in all cases without distinguishing among the four types of PE, when no applicable treaty actually exists — this allocates income on the wrong legal basis. For a Stateless PE, it is often mistakenly thought that, since no jurisdiction is taxing it, it can also be ignored for GloBE purposes — in reality, it must mandatorily be added to the income of the Main Entity's jurisdiction. The most frequent mistake regarding a PE's loss is failing to track its use in the Main Entity's domestic tax computation, resulting in forgetting to apply recapture later, so that the same loss effectively creates a benefit twice. In addition, leaving the entire tax expense in the Main Entity's jurisdiction without reallocating the PE-related Covered Tax is also a common mistake, which artificially understates the PE's jurisdiction's ETR and creates a risk of an unnecessary Top-up Tax calculation. Finally, incorrectly adjusting a timing difference arising from a local accounting standard as a permanent difference while preparing the PE's separate accounts is a technical error that creates an inconsistency between Article 3.4 and the deferred tax rules of Chapter 4.
 
 <!-- lang:bn -->
 

@@ -12,7 +12,87 @@ slug: "ch-52-gir-exchange-technical"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 52 — GIR Exchange and Technical Aspects
+
+> **In this chapter:** the GloBE Information Return, or **GIR (GloBE Information Return)** — the standardized information return filable under Pillar Two — is not enough merely to be produced as a document; this chapter discusses how it is converted into a standardized **XML Schema**, how it is exchanged automatically between tax authorities, how confidentiality is protected in this process, and what happens if centralized filing fails.
+
+## 52.1 The Structure of the GIR XML Schema
+
+The GIR is fundamentally a structured information return that must be produced in a specific technical format, so that the tax administrations of different countries can receive, process, and exchange the information in the same manner. The **GIR XML Schema** is used for this purpose — a standardized XML structure that determines where, under which tag, and in which format each piece of GIR information is to be placed. This structure is conceptually similar to the XML structure already established for **Country-by-Country Reporting (CbCR)**, because both operate within the same kind of multilateral automatic information-exchange system.
+
+Structurally, the GIR XML Schema can be viewed as divided into several levels. The first level contains the **message header** — this holds the identity of the sending authority, the identity of the receiving authority, the date the message was created, the reporting year, and the type of message (a new filing, an amendment, or a withdrawal). The second level contains identifying information relating to the **Constituent Entity** — the name of the multinational group, the identity of the **Ultimate Parent Entity (UPE)**, and a list of the constituent entities located in each jurisdiction along with their tax identification numbers. The third level contains the core content — jurisdiction-based computational information, which includes the **Effective Tax Rate (ETR)** computation, the Top-up Tax computation, declarations of the application of a **Safe Harbour**, and information relating to elections.
+
+This structure is generally composed of a "General Section" and multiple "Jurisdictional Sections," because, in accordance with the core principle of Pillar Two, the computation is carried out on a jurisdictional basis (jurisdictional blending). Within each Jurisdictional Section there is, in turn, an entity-based sub-part, which holds the financial information of each Constituent Entity separately. This layering is designed so that, from a single filing, only the parts necessary for various recipient authorities can be selectively sent to them — this point is discussed in greater detail in the next section.
+
+An important feature of the XML structure is that specific data types and length limits are set for numerical values, dates, currency codes, and text elements, so that the systems of different countries can automatically read and process files sent by one another without human intervention. For this reason, a taxpayer entity or the entity filing on its behalf must, in preparing the GIR, ensure not only substantive accuracy but also structural accuracy (schema conformance).
+
+## 52.2 Data Elements, Validation, and Error Messages
+
+From a technical standpoint, every data element in the GIR can be divided into three main categories: (a) identifying data elements, such as the entity's name, address, and tax identification number; (b) numerical computational elements, such as GloBE income, covered taxes, ETR, and the amount of Top-up Tax; and (c) indicator or flag-type elements, such as a yes/no identification of whether a Safe Harbour applies, whether an election has been made, or whether the De Minimis Exclusion applies.
+
+Before a GIR file is accepted into a tax authority's system, it undergoes **validation** at several levels. The first level is structural validation — that is, whether the file has been produced in accordance with the rules of the XML structure, whether all required tags are present, and whether the value of each element is consistent with its specified data type. If a mandatory element is missing, or text appears in place of a numerical value, the file is rejected at this initial stage and a structural error message (schema-validation error) is generated.
+
+The second level is business-rule or logical validation. At this level, the internal consistency of a structurally correct file is checked — for example, whether a jurisdiction's total Top-up Tax matches the sum of the amounts allocated among its constituent entities, whether the declared ETR is mathematically consistent with the given income and tax information, or whether, if an election has been made, the corresponding required supporting information is present. If such an inconsistency is found, a business-rule error message is generally generated, giving the taxpayer the opportunity to correct and refile.
+
+The third level is recipient-specific validation — when a centrally filed GIR is transmitted to another jurisdiction through automatic information exchange, the receiving authority's system also independently validates the acceptability of the file. If the receiving system fails to process the file, a receipt/acknowledgement error message is generally returned to the sending authority, which the sending authority may then notify to the relevant taxpayer or filing entity.
+
+Practically important is the fact that these validation processes are multi-layered and sequential — if there is an error at one level, validation at the next level does not proceed. A multinational group's tax department, or the filing entity appointed on its behalf, should therefore complete its own internal (pre-submission) validation before filing, so as to reduce the risk of rejection or delay at the time of final filing.
+
+## 52.3 The Structure of Automatic Information Exchange
+
+The administrative design of Pillar Two assumes that a multinational group will generally file its GIR centrally in a single jurisdiction — either the jurisdiction of the Ultimate Parent Entity or that of a designated filing entity. This method is called centralized filing. That jurisdiction's tax authority then selects the relevant portions from the information received and transmits them, through **automatic exchange of information**, to the other jurisdictions in which the group has entities or in which there is a tax-administrative interest.
+
+This exchange is made possible under a multilateral legal framework, which is essentially formed as a **Qualifying Competent Authority Agreement (QCAA)**. This agreement determines which jurisdictions can exchange GIR information with one another, what information will be exchanged, within what time the exchange must be completed, and what conditions will be imposed on the use of the received information. This framework is conceptually analogous to the multilateral competent-authority agreement established for CbCR, under which information filed in one jurisdiction automatically reaches the relevant other jurisdictions, so that the taxpayer does not have to file separately in each jurisdiction.
+
+Within the automatic information-exchange structure, information is generally not exchanged "in full" — rather, a "selective dissemination" model is followed. This means a particular jurisdiction receives only the portion relevant to its tax-administrative need — for instance, where a constituent entity of the group is located, or where a relationship exists under which income inclusion or the Undertaxed Profits Rule may apply. As a result, the GIR XML Schema is designed so that the general part (applicable to all recipients) and the jurisdiction-specific part (applicable only to the relevant jurisdiction) can be separately identified.
+
+The timeline for information exchange is also an important part of this structure. Information is expected to reach the recipient jurisdictions within a specified time after the completion of central filing, so that the local tax administration can carry out its own verification and risk-monitoring activities. From the perspective of a multinational group, the practical significance of this is that, even though filing is done once in the centralized-filing jurisdiction, local questions or information requests may arrive at different times in different jurisdictions, owing to differences in when the information reaches each recipient jurisdiction.
+
+## 52.4 Confidentiality and Data Protection
+
+The information contained in the GIR is highly sensitive — it includes a multinational group's internal tax structure, jurisdiction-based profit and tax information, and detailed information relating to elections. For this reason, the entire structure of automatic information exchange operates under strict confidentiality and data-protection conditions.
+
+First, the basis for exchange is generally founded on an existing international agreement on tax information exchange or administrative assistance (within which confidentiality provisions are inherent). As a result, a jurisdiction can exchange GIR information with another jurisdiction only when it can be confirmed that adequate confidentiality-preservation measures, data-protection standards, and use restrictions exist in that jurisdiction. This assessment process is often called the confidentiality and data safeguards assessment, which is similar to the assessment procedure also followed under the CbCR framework.
+
+Second, a "restricted use" rule applies — the GIR information received can be used only for Pillar-Two-related risk monitoring, verifying the proper application of the rules, and, as needed, economic or statistical analysis; there may be restrictions on its use for any other purpose, such as using it as the sole basis for initiating a direct audit on a different tax matter, unless that use is consistent with the terms of the relevant agreement.
+
+Third, arrangements relating to data retention and destruction are also important. The receiving authority must store the received information in a specific secure system, keep internal access restricted, and destroy or erase the information in a timely manner, in the manner prescribed under the relevant information-exchange agreement, if the exchange relationship is suspended or terminated.
+
+Fourth, if a receiving jurisdiction breaches confidentiality or fails to maintain data-protection standards, the sending jurisdiction has the power to suspend the information exchange with that jurisdiction. This kind of protective arrangement serves as an important assurance for multinational groups, because it ensures that sensitive tax information will not spread uncontrollably.
+
+From the taxpayer's perspective, the practical significance here is that the assurance of confidentiality functions as a precondition for cooperation in filing the GIR, but it does not relieve the taxpayer of its own internal data-security management. A multinational group's tax department should understand which information in the GIR is reaching which jurisdiction, so that internal communication and audit preparation can be coordinated accordingly.
+
+## 52.5 Reverting to Local Filing When Centralized Filing Fails
+
+While the centralized filing method is convenient, it is a dependent structure — that is, for it to function, an effective and active automatic information-exchange relationship must exist between the filing jurisdiction and the receiving jurisdiction. If this relationship is absent, or breaks down for any reason, a local filing obligation is activated — that is, the local constituent entity itself must file the GIR (or its relevant part) directly with the relevant local tax administration.
+
+This situation generally arises for a few reasons. First, the absence of a Qualifying Competent Authority Agreement, or of an active bilateral exchange relationship under it, between the filing jurisdiction and the local jurisdiction — that is, both parties may be structurally part of the agreement while their actual exchange relationship has not been activated between them. Second, the filing jurisdiction failing to transmit the information within the prescribed deadline — often called a "systemic failure," such as a technical error, administrative delay, or the exchange system being temporarily suspended. Third, a jurisdiction itself remaining outside the information exchange — for example, if that jurisdiction has not yet joined the Pillar-Two-related multilateral information-exchange framework.
+
+This arrangement of reverting to local filing functions as a backstop mechanism, ensuring that no jurisdiction is deprived of the information it is entitled to due to an administrative or technical failure between tax authorities. Its practical significance for multinational groups is important — because although this failure occurs outside the taxpayer's control, the filing obligation falls on the taxpayer itself. Groups operating in many jurisdictions should therefore regularly monitor the status of the exchange relationship in each relevant jurisdiction, so that exclusive reliance on centralized filing does not create the risk of an unexpected local filing obligation in some jurisdiction.
+
+A practical approach here is to keep the relevant jurisdictional part of the GIR ready for each constituent jurisdiction alongside the centralized filing, so that, if the exchange relationship is disrupted, a local filing can be made quickly without breaching the deadline. In some jurisdictions this preparatory step effectively becomes mandatory, because news of a broken exchange relationship does not always reach the taxpayer in advance.
+
+## 52.6 Practical Advice for Preparation
+
+Having understood this technical and administrative framework, several practical preparatory steps become important for a multinational group's tax and information-technology departments.
+
+First, it is necessary to establish a data governance framework so that the source, ownership, and validation process of every data element of the GIR is clearly identified. Since GIR information brings together the financial and tax information of multiple entities across multiple jurisdictions, a clear map (data lineage) is needed of which information comes from which source system and how it is being consolidated.
+
+Second, an internal, multi-level validation exercise should be conducted before filing, testing both structural accuracy and business-rule consistency — so as to reduce the likelihood of receiving error messages at the time of final filing and to avoid the need to refile for correction.
+
+Third, the status of exchange relationships should be regularly monitored — that is, monitoring with which jurisdictions an active bilateral exchange relationship has been established and where it is still absent or temporarily suspended, and preparing for local filing accordingly.
+
+Fourth, internal confidentiality management should be ensured — restricting the access of individuals involved in the preparation and filing of the GIR, and remaining internally aware of which jurisdictions the information may reach, so that the relevant local branches can respond in a coordinated manner if necessary.
+
+Fifth, adequate margin should be kept in deadline management — since correcting errors caught in structural and business-rule validation may require time for correction and refiling, plans to file right at the last day of the deadline should be avoided.
+
+## Summary
+
+The technical and administrative aspects of the GIR form a multi-layered system — one in which, alongside substantive accuracy, structural accuracy (compliance with the GIR XML Schema) must also be ensured. Information filed centrally by a multinational group reaches other jurisdictions selectively through automatic information exchange under a Qualifying Competent Authority Agreement, operating under strict confidentiality and data-protection conditions. If this centralized arrangement fails for any reason, a local filing obligation is activated as a protective mechanism, the burden of which falls on the taxpayer. Given this reality, a multinational group should build a coordinated system of pre-filing validation, mapping of information sources, monitoring of exchange relationships, and local preparedness.
+
+## Common Mistakes
+
+A common mistake is to assume that preparing a substantively correct GIR is enough for the filing to succeed — errors found in structural and business-rule validation can cause the file to be rejected, creating the risk of breaching the deadline. Another mistake is to regard centralized filing as an automatic and guaranteed arrangement and not to check the status of the exchange relationship with a given jurisdiction — as a result, if the exchange relationship is absent or disrupted, the local filing obligation goes unnoticed. Some groups treat confidentiality protection as a substitute for the taxpayer's own internal data-security responsibility, which is wrong — the confidentiality conditions of the multilateral framework are not a replacement for the taxpayer's internal security management, but merely a complement to it. Finally, many groups wait until the very last moment to file, with the result that, if any error is found in validation, there is not enough time left for correction and refiling.
 
 <!-- lang:bn -->
 

@@ -13,7 +13,154 @@ slug: "ch-22-recast-recapture-unclaimed-accrual"
 
 <!-- lang:en -->
 
-_(English translation pending)_
+# Chapter 22 — 15% Recast · Recapture · Unclaimed Accrual
+
+> **In this chapter:** how Deferred Tax must be revalued at the 15% minimum rate in the GloBE Total Deferred Tax Adjustment Amount calculation, how a DTL is recaptured if it does not reverse within five years, which types of DTL are exempt from this recapture rule, and two optional elections available for simplification — all discussed in detail in this chapter.
+> **Related Article:** 4.4.1, 4.4.4–4.4.7
+
+In the previous chapter, we saw how the deferred tax expense and deferred tax assets/liabilities (DTL/DTA) recorded in a Constituent Entity's books enter Adjusted Covered Taxes through the Total Deferred Tax Adjustment Amount. But under accounting standards, this DTL/DTA is almost always computed at the entity's domestic tax rate — which is sometimes above 15% and sometimes below. GloBE is a minimum tax system, so it wants to ensure that no entity can extract more benefit than what will actually be paid in tax in the future through this deferred tax calculation. It is for this purpose that the **Recast at the Minimum Rate**, the **Recapture Rule**, and two related elective opportunities were created — the core subject of this chapter.
+
+## 22.1 Recast at the Minimum Rate — When the Domestic Rate Exceeds 15%
+
+When a jurisdiction's statutory tax rate is above 15% — such as 25% or 30% — the DTL or DTA recorded in that jurisdiction is generally computed at that higher rate. But under Article 4.4.4 of the GloBE Model Rules, when including any deferred tax item in the Total Deferred Tax Adjustment Amount, if it was computed at a rate higher than 15%, it must mandatorily be **Recast at the Minimum Rate** of 15%.
+
+In practical terms, this means — if a DTL is booked in the domestic accounts at 100,000 taka at a 25% rate, for GloBE calculation purposes only 60,000 taka (at the 15% rate) will be acceptable. The remaining 40,000 taka falls outside the GloBE calculation — it does not increase Covered Taxes. This adjustment must be made separately for each DTL/DTA, because the underlying rate for each may differ (for example, in a jurisdiction where different tax rates apply to different types of income).
+
+The rationale for this rule is simple: if the actual domestic rate is higher than 15%, it can be assumed that the overall ETR in that jurisdiction is already, or is likely to be, above the minimum rate — so if any future tax benefit (deferred tax benefit) were assumed at the higher rate, it could make the GloBE ETR artificially higher or lower. Recasting at 15% removes this artificiality and keeps the effect of the DTL/DTA consistent with the GloBE minimum rate.
+
+## 22.2 What Happens When the Rate Is Below 15%
+
+In the opposite situation, if a jurisdiction's statutory tax rate is below 15% (such as 10% or 12%), then the DTL/DTA booked in that jurisdiction will naturally already be computed at a rate below 15%. In this case, the Recast provision of Article 4.4.4 does not apply, because this provision is only triggered when the applied rate is **higher** than 15%. As a result, in a low-rate jurisdiction, exactly the amount of DTL/DTA booked at the domestic rate enters the Total Deferred Tax Adjustment Amount — no upward adjustment (grossing-up) occurs.
+
+An important practical consequence here is — the actual value of a DTL in a low-rate jurisdiction carries relatively less weight for the GloBE ETR, because the DTL itself is a small amount. As a result, such jurisdictions are more likely to have additional Top-up Tax liability, and even if the DTL is tracked, its overall effect is limited. However, here too the Recapture Rule (Section 22.3 below) applies equally — even the DTL of a low-rate jurisdiction must actually reverse within five years, or it will be recaptured.
+
+A common misconception is that — since Recast does not apply in a low-rate jurisdiction, DTL tracking is not needed. In reality, because of the Recapture Rule, tracking is still mandatory then — only the additional Recast-related calculation step can be avoided.
+
+## 22.3 The Recapture Rule — DTL Reversed If Not Reversed Within Five Years
+
+Under Article 4.4.1, if any Deferred Tax Liability included in the Total Deferred Tax Adjustment Amount does not actually "reverse" or get "paid" within the five Fiscal Years following its creation, it falls under the **Recapture Rule**. This means — the amount of that DTL must be excluded and the Total Deferred Tax Adjustment Amount of the year in which it was originally booked must be recomputed, as if that DTL had never increased Covered Taxes.
+
+The rationale behind this rule is — a DTL is essentially a promise that additional tax will be paid in the future (for example, less tax is being paid now because of accelerated depreciation, but in the future it will "reverse" and more tax will have to be paid). GloBE trusts this future promise in advance and adds it to Covered Taxes. But if that promise is not fulfilled within a reasonable time (five years), it is assumed that it will never be fulfilled, or at least that GloBE should not rely on it — so it is withdrawn.
+
+The five-year count begins from the fiscal year following the year in which the DTL was first added to the Total Deferred Tax Adjustment Amount. Each DTL must be tracked separately according to its source — because DTLs created in different years in the same jurisdiction will have their "five years" end at different times. For this reason, it becomes essential for every MNE Group to maintain a reliable DTL register or tracking system that records the source, amount, and reversal status of DTLs by jurisdiction and by year.
+
+## 22.4 Recapture Exception Accrual — Which DTLs Are Exempt
+
+Not all types of DTL fall under the Recapture Rule. Certain specific categories of expense-related DTL are treated as a **Recapture Exception Accrual**, which are generally long-term in nature and where reversal within five years is not realistically expected. These categories generally include —
+
+- Cost recovery allowance or depreciation on Tangible Assets;
+- The cost of a license or similar arrangement obtained from the government, which grants the right to use immovable property or extract natural resources;
+- Research and development (R&D) expenditure;
+- Decommissioning and Remediation costs;
+- Fair-value accounting of Unrealised Net Gains;
+- Net foreign exchange gains;
+- Insurance reserves and Deferred Acquisition Cost of insurance policies;
+- Gains on the sale of tangible property reinvested in the same jurisdiction; and
+- Additional accrued amounts related to the above categories arising from a change in accounting policy.
+
+No five-year "countdown" applies to these categories — they can remain in the Total Deferred Tax Adjustment Amount for as long as necessary, without any Recapture, as long as they stay within this list. This has enormous practical significance — because in the real world, the most common and largest-value DTLs are generally related to depreciation of fixed assets, which is faster for tax purposes than accounting depreciation. If this category were not excluded from Recapture, nearly every Capital-Intensive business would have to go through extensive recomputation every five years — which would not be consistent with the purpose of the rule.
+
+However, caution is required — the Recapture Exception Accrual list is Exhaustive, meaning anything not on it does not qualify for this exemption. For example, common temporary-difference DTLs such as warranty provisions, restructuring provisions, or accrued bonuses are not on this list — so they remain entirely subject to the general five-year Recapture Rule.
+
+## 22.5 Recomputation of a Prior Year's ETR as a Result of Recapture
+
+When a DTL falls under Recapture, its effect is not limited to the current year alone — rather, the Total Deferred Tax Adjustment Amount, Adjusted Covered Taxes, and ETR of the fiscal year in which the DTL was originally booked must be recomputed. As a result of this recomputation, that prior year's ETR may decrease, and if it falls below 15%, an additional Top-up Tax liability arises.
+
+An important point here is — this additional Top-up Tax is not collected by amending the prior year's Filing. Instead, this additional liability must be added to, and paid with, the total Top-up Tax for the current year in which the Recapture occurs (that is, the year in which the five years are completed). In this way, GloBE follows a "forward-looking true-up" approach — a past incorrect assumption is reconciled within the current year's tax liability, avoiding the administrative complexity of repeatedly amending old returns.
+
+This recomputation requires redoing the entire ETR calculation for the original year — keeping all other components (GloBE Income, Covered Taxes, Substance-based Income Exclusion, etc.) the same, and only excluding the recaptured DTL. For this reason, it is important to preserve the complete ETR working papers for every year — because a recomputation may be needed at any point after five years, and the original year's data must be readily retrievable at that time.
+
+## 22.6 The Aggregate DTL Category Method — Simplification
+
+Tracking every single DTL separately can be administratively burdensome, especially for large multinational groups that may have hundreds of temporary differences. To reduce this burden, the GloBE Model Rules allow a simplified method — the **Aggregate DTL Category** method.
+
+Under this method, instead of tracking each DTL separately, similar DTLs are computed together, in aggregate, within a common category (such as "depreciation-related DTL," "provision-related DTL"). The total net increase or decrease of that category is tracked each year — that is, if both new DTLs being created and old DTLs reversing happen within a category at the same time, the Recapture test is run based only on the net change.
+
+The advantage of the Aggregate DTL Category method is — it is much simpler than individual-item-level tracking, because there is no need to follow every single provision or every single asset's depreciation separately year after year. As long as the aggregate category amount is consistently decreasing (that is, old balances are reversing, and new accruals are less than or equal to that), the category can be considered protected from Recapture. However, the decision to use this simplification must be applied as a jurisdiction-level consistent methodology — the method cannot be changed arbitrarily each year, because that would undermine the comparability of the ETR and the transparency of audits.
+
+## 22.7 The Unclaimed Accrual Five-Year Election
+
+In some cases, a DTL is not actually accrued in a Constituent Entity's books — perhaps it was not required under local accounting standards, or the entity simply did not record it because of administrative complexity — even though the underlying Temporary Difference genuinely exists. To address this situation, there is the **Unclaimed Accrual Five-Year Election**.
+
+Through this elective option, an MNE Group can decide that, if a DTL is not claimed (remains Unclaimed) in the Total Deferred Tax Adjustment Amount for a given fiscal year in a jurisdiction, then a specific approach will be followed for that year's ETR calculation, under which that unclaimed amount cannot be used as needed within the following five years — rather, it will be skipped, and the calculation will be made based only on the amount actually booked in the relevant year. The purpose of this election is to give the MNE Group a simple, predictable alternative, so that they can maintain a consistent method without going through complex recomputation for every possible unclaimed DTL.
+
+Once the Unclaimed Accrual election is applied, it remains in effect for a specific term (generally five years) and must follow specific rules for revocation or change. From a practical standpoint, this election is useful for those MNE Groups whose local accounting systems do not identify every DTL required for GloBE at a granular level, and who want to avoid the administrative cost of separately tracking every small temporary difference.
+
+## 22.8 The Election Not to Allocate Cross-Border Deferred Tax
+
+In many multinational groups, a Constituent Entity's tax liability may be related to an entity in another jurisdiction — such as through a branch (Permanent Establishment) or a Controlled Foreign Company (CFC) structure. In such situations, a DTL or DTA booked in one jurisdiction may actually relate to income in another jurisdiction, and under the general rule, these cross-border deferred tax items must be allocated among the relevant jurisdictions and added to the corresponding Covered Taxes.
+
+However, this allocation process can be complex and administratively burdensome, particularly when the amounts are small or the basis for allocation is unclear. To reduce this complexity, an elective option is available, through which an MNE Group can decide that, in specific situations, cross-border deferred tax items will not be allocated but will instead be kept entirely in the jurisdiction where they were originally booked.
+
+The practical effect of this election is — on one hand, it reduces the complexity of the calculation, but on the other hand, it ensures that the jurisdiction of the DTL/DTA's genuine economic source and the jurisdiction of the GloBE calculation will not always exactly match. MNE Groups must carefully consider, before adopting this election, which method is more favorable for their overall ETR profile or administratively simpler — because this election, too, must be applied on a consistent basis and is not changeable every year.
+
+## 22.9 The Practical Challenge of Starting DTL Tracking in the First Year
+
+One of the biggest practical challenges in the first year of GloBE implementation is — gathering the historical information needed to correctly apply the Recast and Recapture Rule. Although specific special provisions exist under GloBE's Transition Rule for DTLs/DTAs existing at the start of the Transition Year (discussed in a later chapter), every MNE Group must still build a reliable, year-based tracking system going forward for every newly created DTL.
+
+This tracking system must contain the following information — the fiscal year of each DTL's creation, the amount booked at the original domestic rate, the GloBE-acceptable amount after Recast, whether it falls under the Recapture Exception Accrual list, and its reversal status (complete, partial, or unchanged) in each subsequent year. For MNE Groups with extensive operations across multiple jurisdictions, conducting this kind of tracking manually is practically impossible — particularly when different asset classes, different creation years, and different rates of temporary difference coexist within the same jurisdiction.
+
+Another important challenge is — many internal financial accounting systems do not separate the underlying components of a DTL at the granularity GloBE requires. For example, an aggregate "property, plant, and equipment" DTL balance may be the result of multiple years of purchases, sales, and depreciation adjustments — from which it can be difficult to isolate a specific year's portion for the five-year Recapture test. For this reason, the Aggregate DTL Category method (22.6) and the Unclaimed Accrual election (22.7) — these two simplification opportunities play an extremely important role in practice, because without them, achieving full compliance in a reliable and auditable way may become practically impossible for many MNE Groups.
+
+## 22.10 A Numerical Example
+
+Below, a complete numerical example shows the entire process of Recast and five-year Recapture. Suppose a Constituent Entity called "Z Limited" operates in a jurisdiction where the statutory domestic tax rate is 25%. In Fiscal Year 2024 (FY2024), two new Deferred Tax Liabilities are created in Z Limited's books —
+
+- **Item A**: A temporary difference arising from accelerated tax depreciation on a fixed asset — 4,000,000 taka.
+- **Item B**: A temporary difference arising from a product warranty provision (recorded as an expense in the books but not deductible for tax purposes until actually paid) — 10,000,000 taka.
+
+### Step 1: Recast at the Minimum Rate in FY2024
+
+| DTL Item | Temporary Difference | Domestic Rate | DTL (at domestic rate) | Recast @ 15% | Recast adjustment (reduction) | Recapture Exception Accrual? |
+|---|---|---|---|---|---|---|
+| Item A (depreciation) | 4,000,000 | 25% | 1,000,000 | 600,000 | (400,000) | Yes — permanent exemption (on the Art 4.4 list) |
+| Item B (warranty provision) | 10,000,000 | 25% | 2,500,000 | 1,500,000 | (1,000,000) | No — subject to the general five-year Recapture |
+| **Total** | 14,000,000 | — | **3,500,000** | **2,100,000** | **(1,400,000)** | — |
+
+Since the domestic rate (25%) is higher than 15%, under Article 4.4.4 both DTLs must be Recast at 15%. As a result, although the domestic books show a total DTL of 3,500,000 taka, only 2,100,000 taka will be included in the Total Deferred Tax Adjustment Amount for GloBE purposes.
+
+### Step 2: FY2024 ETR calculation (after Recast, in the original year)
+
+| Description | Amount (taka) |
+|---|---|
+| Current Tax Expense | 10,800,000 |
+| Add: Recast Deferred Tax Adjustment | 2,100,000 |
+| **Adjusted Covered Taxes** | **12,900,000** |
+| GloBE Income | 80,000,000 |
+| **ETR (FY2024)** | **16.125%** |
+| Top-up Tax (FY2024) | Zero (ETR > 15%) |
+
+Since the FY2024 ETR is above 15%, no Top-up Tax liability initially arose.
+
+### Step 3: Five-year tracking and the Recapture test
+
+| Year | Event |
+|---|---|
+| FY2024 | Item A and Item B DTLs booked and included after Recast |
+| FY2025 – FY2028 | Item A: consistently reversing (in a regular depreciation pattern) — no issue, because it is on the Exception list and the time limit does not apply. Item B: the warranty claim has not yet been settled, the provision is unchanged, the DTL has not reversed |
+| FY2029 (end of the fifth year) | Item B's DTL still has not reversed → **Recapture Rule (Article 4.4.1) applies** |
+
+Since Item A relates to depreciation, it falls within the Recapture Exception Accrual list, so no five-year time limit applies to it — no matter how many years pass without reversal, it will not be recaptured. But since Item B, the warranty provision, is not on this exception list, in FY2029 (that is, after five fiscal years have been completed) its recast amount — 1,500,000 taka — must mandatorily be reversed.
+
+### Step 4: Recomputation of the FY2024 ETR (after Recapture)
+
+| Description | Original calculation (FY2024) | Recomputation after Recapture |
+|---|---|---|
+| Adjusted Covered Taxes | 12,900,000 | 12,900,000 − 1,500,000 = **11,400,000** |
+| GloBE Income | 80,000,000 | 80,000,000 |
+| ETR | 16.125% | **14.25%** |
+| Top-up Tax % | 0% | 15% − 14.25% = **0.75%** |
+| Additional Top-up Tax (for FY2024, payable in FY2029) | — | 0.75% × 80,000,000 = **600,000** |
+
+This recomputation clearly shows why the Recapture Rule matters — in FY2024, including the DTL of the warranty provision showed an ETR of 16.125%, which, being above the minimum rate, meant no Top-up Tax had to be paid. But in reality that DTL did not reverse even after five years, proving that it was not a genuine promise of a future tax payment but a temporary benefit. As a result, under GloBE Article 4.4.1, this benefit is withdrawn, the true FY2024 ETR is taken to be 14.25%, and the additional 600,000 taka of Top-up Tax will be collected by adding it to Z Limited's jurisdiction's overall Top-up Tax liability for FY2029 — without amending the original year's return.
+
+## Summary
+
+In this chapter, we saw that the effect of deferred tax on the GloBE ETR calculation is confined within a specific, controlled framework. When the domestic tax rate is above 15%, Article 4.4.4 requires DTL/DTA to be **Recast at the Minimum Rate** of 15%, so that excess future tax benefit in a high-rate jurisdiction does not artificially inflate the GloBE ETR. Conversely, in a jurisdiction with a rate below 15%, this Recast does not apply, but the Recapture Rule applies equally. Article 4.4.1's **Recapture Rule** ensures that if a DTL does not reverse within five years of its creation, it must be withdrawn, and the ETR of the year in which it was originally booked must be recomputed, adding the additional liability to the current year's Top-up Tax. The exception to this rule is the **Recapture Exception Accrual** list — specific long-term categories such as depreciation, R&D, and decommissioning are permanently exempt from this time limit. To reduce administrative complexity, two simplification opportunities exist — the **Aggregate DTL Category** method, which allows DTLs of the same category to be tracked in aggregate, and the **Unclaimed Accrual Five-Year Election**, which provides a simple, consistent alternative approach for unclaimed DTLs. There is also an election to avoid cross-border allocation for DTLs spread across multiple jurisdictions. It is essential to build a reliable, year-based DTL tracking system from the very first year of implementation, because at any point after five years, the complete original-year data may need to be retrieved for the Recapture test.
+
+## Common Mistakes
+
+A common mistake is assuming that Recast at the Minimum Rate applies only when the overall jurisdiction-level ETR is above 15% — in reality, this test must be applied separately based on the underlying rate of each DTL/DTA item, not based on the overall ETR. A second mistake is thinking that no DTL tracking is needed in a low-rate jurisdiction (below 15%) — even though Recast does not apply, the Recapture Rule applies equally, so tracking cannot be skipped. A third and probably the most costly mistake is treating the Recapture Exception Accrual list as indefinite or illustrative and placing an item on the exception list that is not actually included there (such as a general provision or accrual) — this list is exhaustive, and misclassification can later lead to extensive recomputation and possible penalties. A fourth mistake is trying to amend a prior year's filing when a Recapture occurs — the correct approach is to add the additional liability to the current (Recapture) year's Top-up Tax, not to refile an old return. A fifth mistake is changing the Aggregate DTL Category or Unclaimed Accrual election every year — these elections must be applied consistently, and changing methods opportunistically can create problems during an audit. Finally, many organizations do not build a system in the very first year to record each new DTL's creation year, source, and reversal status — as a result, when the time comes for the Recapture test five years later, reconstructing the necessary historical information becomes practically impossible.
 
 <!-- lang:bn -->
 
