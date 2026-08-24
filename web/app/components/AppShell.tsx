@@ -4,7 +4,6 @@ import { useState } from "react";
 import Link from "next/link";
 import Sidebar from "./Sidebar";
 import ThemeToggle from "./ThemeToggle";
-import LanguageToggle from "./LanguageToggle";
 import { useLanguage } from "./LanguageProvider";
 import { pick, type Manifest } from "@/lib/content-shared";
 import { t } from "@/lib/i18n";
@@ -81,12 +80,7 @@ export default function AppShell({
         <Sidebar manifest={manifest} />
       </aside>
 
-      <main className="min-w-0 flex-1 px-4 py-8 sm:px-8 lg:px-12">
-        <div className="mx-auto mb-6 flex max-w-6xl justify-end">
-          <LanguageToggle />
-        </div>
-        {children}
-      </main>
+      <main className="min-w-0 flex-1 px-4 py-8 sm:px-8 lg:px-12">{children}</main>
     </div>
   );
 }

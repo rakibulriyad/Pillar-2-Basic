@@ -4,13 +4,17 @@ import Link from "next/link";
 import { pick, type Manifest } from "@/lib/content-shared";
 import { t } from "@/lib/i18n";
 import { useLanguage } from "./LanguageProvider";
+import LanguageToggle from "./LanguageToggle";
 
 export default function HomeContent({ manifest }: { manifest: Manifest }) {
   const { language } = useLanguage();
 
   return (
     <div className="mx-auto max-w-3xl">
-      <h1 className="text-2xl font-bold leading-snug sm:text-3xl">{pick(manifest.title, language)}</h1>
+      <div className="flex items-start justify-between gap-4">
+        <h1 className="text-2xl font-bold leading-snug sm:text-3xl">{pick(manifest.title, language)}</h1>
+        <LanguageToggle />
+      </div>
 
       <div
         className="mt-4 rounded-lg border p-4 text-sm leading-relaxed"
