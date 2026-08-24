@@ -37,10 +37,7 @@ export default function AppShell({
         <Link href="/" className="truncate text-sm font-semibold">
           {pick(manifest.title, language)}
         </Link>
-        <div className="flex items-center gap-2">
-          <LanguageToggle />
-          <ThemeToggle />
-        </div>
+        <ThemeToggle />
       </header>
 
       {drawerOpen && (
@@ -78,14 +75,18 @@ export default function AppShell({
         <Link href="/" className="mb-4 block text-base font-bold leading-snug">
           {pick(manifest.title, language)}
         </Link>
-        <div className="mb-4 hidden items-center gap-2 lg:flex">
-          <LanguageToggle />
+        <div className="mb-4 hidden lg:block">
           <ThemeToggle />
         </div>
         <Sidebar manifest={manifest} />
       </aside>
 
-      <main className="min-w-0 flex-1 px-4 py-8 sm:px-8 lg:px-12">{children}</main>
+      <main className="min-w-0 flex-1 px-4 py-8 sm:px-8 lg:px-12">
+        <div className="mx-auto mb-6 flex max-w-6xl justify-end">
+          <LanguageToggle />
+        </div>
+        {children}
+      </main>
     </div>
   );
 }
